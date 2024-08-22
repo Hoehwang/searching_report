@@ -1,0 +1,174 @@
+<VariationArchive RecordType="classified" VariationID="1213911" VariationName="NM_000329.3(RPE65):c.1443del (p.Asp482fs)" VariationType="Deletion" Accession="VCV001213911" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-09-08" MostRecentSubmission="2021-09-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1203904" VariationID="1213911">
+      <GeneList>
+        <Gene Symbol="RPE65" FullName="retinoid isomerohydrolase RPE65" GeneID="6121" HGNC_ID="HGNC:10294" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p31.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="68428822" stop="68449954" display_start="68428822" display_stop="68449954" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="68894506" stop="68915641" display_start="68894506" display_stop="68915641" Strand="-" />
+          </Location>
+          <OMIM>180069</OMIM>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NM_000329.3(RPE65):c.1443del (p.Asp482fs)</Name>
+      <CanonicalSPDI>NC_000001.11:68431071:TT:T</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p31.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="68431072" stop="68431072" display_start="68431072" display_stop="68431072" variantLength="1" positionVCF="68431071" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="68896755" stop="68896755" display_start="68896755" display_stop="68896755" variantLength="1" positionVCF="68896754" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>D482fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.68431073del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.68431073del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008472.2" sequenceAccession="NG_008472" sequenceVersion="2" change="g.23888del">
+            <Expression>NG_008472.2:g.23888del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000329.3" sequenceAccession="NM_000329" sequenceVersion="3" change="c.1443del" MANESelect="true">
+            <Expression>NM_000329.3:c.1443del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000320.1" sequenceAccession="NP_000320" sequenceVersion="1" change="p.Asp482fs">
+            <Expression>NP_000320.1:p.Asp482fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.68896756del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.68896756del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2100806806" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000329.3(RPE65):c.1443del (p.Asp482fs) AND Retinitis pigmentosa 20" Accession="RCV001591853" Version="1">
+        <ClassifiedConditionList TraitSetID="3570">
+          <ClassifiedCondition DB="MedGen" ID="C3151086">Retinitis pigmentosa 20</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-06-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-06-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-09-08" MostRecentSubmission="2021-09-08">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3570" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6587" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Retinitis pigmentosa 20</ElementValue>
+                <XRef ID="Retinitis+Pigmentosa+20/6259" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013425" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RP 20</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RP20</ElementValue>
+                <XRef Type="MIM" ID="613794" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10404" />
+                <XRef ID="10404" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301590</ID>
+                <ID Source="BookShelf">NBK1417</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG SF v3.0, 2021">
+                <ID Source="PubMed">34012068</ID>
+                <ID Source="DOI">10.1038/s41436-021-01172-3</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG SF v3.1, 2022">
+                <ID Source="PubMed">35802134</ID>
+                <ID Source="DOI">10.1016/j.gim.2022.04.006</ID>
+              </Citation>
+              <XRef ID="791" DB="Orphanet" />
+              <XRef ID="C3151086" DB="MedGen" />
+              <XRef ID="MONDO:0013425" DB="MONDO" />
+              <XRef Type="MIM" ID="613794" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3557054" SubmissionDate="2021-07-23" DateLastUpdated="2021-09-08" DateCreated="2021-09-08">
+        <ClinVarSubmissionID localKey="NM_000329.3:c.1443del|OMIM:613794" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001815975" DateUpdated="2021-09-08" DateCreated="2021-09-08" Type="SCV" Version="1" SubmitterName="DBGen Ocular Genomics" OrgID="508130" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-06-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>unspecified</Ethnicity>
+              <GeographicOrigin>Argentina</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RPE65" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000329.3:c.1443del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613794" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10063720</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3557054" TraitType="Disease" MappingType="XRef" MappingValue="613794" MappingRef="OMIM">
+        <MedGen CUI="C3151086" Name="Retinitis pigmentosa 20" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

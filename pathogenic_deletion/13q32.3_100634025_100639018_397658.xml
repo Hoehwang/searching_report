@@ -1,0 +1,145 @@
+<VariationArchive RecordType="classified" VariationID="397658" VariationName="NM_007129.3:c.1148_1464del" VariationType="Deletion" Accession="VCV000397658" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2017-04-03" MostRecentSubmission="2017-04-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="384631" VariationID="397658">
+      <GeneList>
+        <Gene Symbol="ZIC2" FullName="Zic family member 2" GeneID="7546" HGNC_ID="HGNC:12873" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>13q32.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="99981784" stop="99986765" display_start="99981784" display_stop="99986765" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="100634025" stop="100639018" display_start="100634025" display_stop="100639018" Strand="+" />
+          </Location>
+          <OMIM>603073</OMIM>
+          <Haploinsufficiency last_evaluated="2022-08-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ZIC2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-08-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ZIC2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_007129.3:c.1148_1464del</Name>
+      <VariantType>Deletion</VariantType>
+      <XRefList>
+        <XRef ID="CA16609490" DB="ClinGen" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">The genomic location for this variant will not be computed from alignment of the transcript sequence to the genome until there is experimental evidence for the genomic basis of the deletion.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_007129.3:c.1148_1464del AND Holoprosencephaly 5" Accession="RCV000451766" Version="1">
+        <ClassifiedConditionList TraitSetID="1837">
+          <ClassifiedCondition DB="MedGen" ID="C1864827">Holoprosencephaly 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-04-03" MostRecentSubmission="2017-04-03">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1837" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2049" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Holoprosencephaly 5</ElementValue>
+                <XRef ID="Holoprosencephaly+5/8562" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0012322" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HPE5</ElementValue>
+                <XRef Type="MIM" ID="609637" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Holoprosencephaly</Attribute>
+                <XRef ID="NBK1530" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301702</ID>
+                <ID Source="BookShelf">NBK1530</ID>
+              </Citation>
+              <XRef ID="2162" DB="Orphanet" />
+              <XRef ID="C1864827" DB="MedGen" />
+              <XRef ID="MONDO:0012322" DB="MONDO" />
+              <XRef Type="MIM" ID="609637" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1039676" SubmissionDate="2017-03-30" DateLastUpdated="2017-04-03" DateCreated="2017-04-03">
+        <ClinVarSubmissionID localKey="SUB2445334" submittedAssembly="GRCh37" title="SUB2445334" />
+        <ClinVarAccession Accession="SCV000510560" DateUpdated="2017-04-03" DateCreated="2017-04-03" Type="SCV" Version="1" SubmitterName="Muenke lab, National Institutes of Health" OrgID="506075" OrganizationCategory="laboratory" OrgAbbreviation="Muenke-NIH" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Sporadic</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Ethnicity>White</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">20</Age>
+              <Age Type="maximum" age_unit="years">29</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="Human Phenotype Ontology" ID="HP:0002507" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ZIC2">
+              <Name>Zic family member 2</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_007129.3:c.1148_1464del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="609637" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2445334</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1039676" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002507" MappingRef="Human Phenotype Ontology">
+        <MedGen CUI="C0751617" Name="Semilobar holoprosencephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1039676" TraitType="Disease" MappingType="XRef" MappingValue="609637" MappingRef="OMIM">
+        <MedGen CUI="C1864827" Name="Holoprosencephaly 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

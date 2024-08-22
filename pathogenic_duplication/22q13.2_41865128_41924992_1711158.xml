@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="1711158" VariationName="NM_001098.3(ACO2):c.1254dup (p.Gly419fs)" VariationType="Duplication" Accession="VCV001711158" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-10-30" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1709570" VariationID="1711158">
+      <GeneList>
+        <Gene Symbol="ACO2" FullName="aconitase 2" GeneID="50" HGNC_ID="HGNC:118" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="41469117" stop="41528974" display_start="41469117" display_stop="41528974" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="41865128" stop="41924992" display_start="41865128" display_stop="41924992" Strand="+" />
+          </Location>
+          <OMIM>100850</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001098.3(ACO2):c.1254dup (p.Gly419fs)</Name>
+      <CanonicalSPDI>NC_000022.11:41522944:A:AA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="41522944" stop="41522945" display_start="41522944" display_stop="41522945" variantLength="1" positionVCF="41522944" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="41918948" stop="41918949" display_start="41918948" display_stop="41918949" variantLength="1" positionVCF="41918948" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>G419fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.41918949dup" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.41918949dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.41522945dup" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.41522945dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_032143.1" sequenceAccession="NG_032143" sequenceVersion="1" change="g.58821dup">
+            <Expression>NG_032143.1:g.58821dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001098.3" sequenceAccession="NM_001098" sequenceVersion="3" change="c.1254dup" MANESelect="true">
+            <Expression>NM_001098.3:c.1254dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001089.1" sequenceAccession="NP_001089" sequenceVersion="1" change="p.Gly419fs">
+            <Expression>NP_001089.1:p.Gly419fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="100850.0021" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001098.3(ACO2):c.1254dup (p.Gly419fs) AND Optic atrophy 9" Accession="RCV002292698" Version="1">
+        <ClassifiedConditionList TraitSetID="21086">
+          <ClassifiedCondition DB="MedGen" ID="C4225384">Optic atrophy 9</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-10-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-10-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">34056600</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="21086" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33082" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Optic atrophy 9</ElementValue>
+                <XRef ID="MONDO:0014571" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">OPA9</ElementValue>
+                <XRef Type="MIM" ID="616289" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4225384" DB="MedGen" />
+              <XRef ID="MONDO:0014571" DB="MONDO" />
+              <XRef Type="MIM" ID="616289" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5051734" SubmissionDate="2022-10-19" DateLastUpdated="2022-10-22" DateCreated="2022-10-22">
+        <ClinVarSubmissionID localKey="100850.0021_OPTIC ATROPHY 9, AUTOSOMAL DOMINANT" title="ACO2, 1-BP DUP, 1254A_OPTIC ATROPHY 9, AUTOSOMAL DOMINANT" />
+        <ClinVarAccession Accession="SCV002584976" DateUpdated="2022-10-22" DateCreated="2022-10-22" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-10-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 21-year-old woman (P15) with isolated optic atrophy (OPA9; 616289), Charif et al. (2021) identified heterozygosity for a de novo 1-bp duplication (c.1254dupA, NM_001098.2), causing a frameshift predicted to result in a premature termination codon (Gly419fsTer10). The variant was not found in her unaffected parents or in the gnomAD database. Western blot showed that ACO2 expression was reduced by 50% in patient cells. Studies in patient fibroblasts showed a 50% decrease in mitochondrial aconitase activity, as well as a significant reduction in the respiration rate with citrate as the sole substrate. With the addition of pyruvate, respiration increased, but to a lower level than wildtype, and the further addition of other Krebs cycle intermediates restored normal respiration, suggesting a possible short-cut adaptation of the tricarboxylic citric acid cycle. In addition, mtDNA abundance was reduced more than 50% in patient cells compared to control cells.</Attribute>
+              <Citation>
+                <ID Source="PubMed">34056600</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="616289" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACO2" />
+          </GeneList>
+          <Name>ACO2, 1-BP DUP, 1254A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DUP, 1254A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="100850.0021" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">OPTIC ATROPHY 9, AUTOSOMAL DOMINANT</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

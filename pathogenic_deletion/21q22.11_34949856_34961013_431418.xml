@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="431418" VariationName="NM_017613.4(DONSON):c.1251_1256del (p.Asn417_Ser418del)" VariationType="Deletion" Accession="VCV000431418" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-05" DateCreated="2017-08-07" MostRecentSubmission="2017-08-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="424941" VariationID="431418">
+      <GeneList>
+        <Gene Symbol="DONSON" FullName="DNA replication fork stabilization factor DONSON" GeneID="29980" HGNC_ID="HGNC:2993" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>21q22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="33577551" stop="33588684" display_start="33577551" display_stop="33588684" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34949856" stop="34961013" display_start="34949856" display_stop="34961013" Strand="-" />
+          </Location>
+          <OMIM>611428</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_017613.4(DONSON):c.1251_1256del (p.Asn417_Ser418del)</Name>
+      <CanonicalSPDI>NC_000021.9:33581395:TTAGAGTTA:TTA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="33581396" stop="33581401" display_start="33581396" display_stop="33581401" variantLength="6" positionVCF="33581395" referenceAlleleVCF="CTTAGAG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34953702" stop="34953707" display_start="34953702" display_stop="34953707" variantLength="6" positionVCF="34953701" referenceAlleleVCF="CTTAGAG" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.34953705_34953710del" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.34953705_34953710del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.33581399_33581404del" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.33581399_33581404del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017613.4" sequenceAccession="NM_017613" sequenceVersion="4" change="c.1251_1256del" MANESelect="true">
+            <Expression>NM_017613.4:c.1251_1256del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_060083.1" sequenceAccession="NP_060083" sequenceVersion="1" change="p.Asn417_Ser418del">
+            <Expression>NP_060083.1:p.Asn417_Ser418del</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001822" Type="inframe_deletion" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="611428.0005" DB="OMIM" />
+        <XRef Type="rs" ID="1135401961" DB="dbSNP" />
+        <XRef ID="CA645373285" DB="ClinGen" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_017613.4(DONSON):c.1251_1256del (p.Asn417_Ser418del) AND Microcephaly, short stature, and limb abnormalities" Accession="RCV000496969" Version="1">
+        <ClassifiedConditionList TraitSetID="37005">
+          <ClassifiedCondition DB="MedGen" ID="C4539873">Microcephaly, short stature, and limb abnormalities</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-08-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-08-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-07" MostRecentSubmission="2017-08-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28191891</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="37005" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37971" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Microcephaly, short stature, and limb abnormalities</ElementValue>
+                <XRef ID="MONDO:0060533" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MISSLA</ElementValue>
+                <XRef Type="MIM" ID="617604" DB="OMIM" />
+              </Symbol>
+              <XRef ID="572773" DB="Orphanet" />
+              <XRef ID="C4539873" DB="MedGen" />
+              <XRef ID="MONDO:0060533" DB="MONDO" />
+              <XRef Type="MIM" ID="617604" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1141876" SubmissionDate="2017-08-04" DateLastUpdated="2017-08-07" DateCreated="2017-08-07">
+        <ClinVarSubmissionID localKey="611428.0005_MICROCEPHALY, SHORT STATURE, AND LIMB ABNORMALITIES" title="DONSON, 6-BP DEL, 1251CTCTAA_MICROCEPHALY, SHORT STATURE, AND LIMB ABNORMALITIES" />
+        <ClinVarAccession Accession="SCV000588192" DateUpdated="2017-08-07" DateCreated="2017-08-07" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-08-04">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 members of an Italian family with microcephaly, short stature, and limb abnormalities (MISSLA; 617604), Reynolds et al. (2017) identified compound heterozygous mutations in the DONSON gene: a 6-bp deletion (c.1251_1256delCTCTAA, NM_017613.3), resulting in an in-frame deletion of 2 residues (Asn417_Ser418del), and a common ancestral haplotype (611428.0004). In vitro cellular expression studies showed that the mutation resulted in subcellular mislocalization of the mutant protein.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28191891</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617604" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DONSON" />
+          </GeneList>
+          <Name>DONSON, 6-BP DEL, 1251CTCTAA</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">6-BP DEL, 1251CTCTAA</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="611428.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MICROCEPHALY, SHORT STATURE, AND LIMB ABNORMALITIES</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1141876" TraitType="Disease" MappingType="Name" MappingValue="MICROCEPHALY, SHORT STATURE, AND LIMB ABNORMALITIES" MappingRef="Preferred">
+        <MedGen CUI="C4539873" Name="Microcephaly, short stature, and limb abnormalities" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

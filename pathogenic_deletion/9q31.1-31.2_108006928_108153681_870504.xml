@@ -1,0 +1,144 @@
+<VariationArchive RecordType="classified" VariationID="870504" VariationName="NM_080546.5:c.126+5161_270-2343del" VariationType="Deletion" Accession="VCV000870504" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="858666" VariationID="870504">
+      <GeneList>
+        <Gene Symbol="SLC44A1" FullName="solute carrier family 44 member 1" GeneID="23446" HGNC_ID="HGNC:18798" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q31.1-31.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="105244651" stop="105438504" display_start="105244651" display_stop="105438504" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="108006928" stop="108153681" display_start="108006928" display_stop="108153681" Strand="+" />
+          </Location>
+          <OMIM>606105</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_080546.5:c.126+5161_270-2343del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="105304470" stop="105333220" display_start="105304470" display_stop="105333220" variantLength="28751" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="108066751" stop="108095501" display_start="108066751" display_stop="108095501" variantLength="28751" />
+      </Location>
+      <OtherNameList>
+        <Name>29-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_080546.5" sequenceAccession="NM_080546" sequenceVersion="5" change="c.126+5161_270-2343del" MANESelect="true">
+            <Expression>NM_080546.5:c.126+5161_270-2343del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.108066751_108095501del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.108066751_108095501del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.105304470_105333220del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.105304470_105333220del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="606105.0003" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_080546.5:c.126+5161_270-2343del AND Neurodegeneration, childhood-onset, with ataxia, tremor, optic atrophy, and cognitive decline" Accession="RCV001090061" Version="1">
+        <ClassifiedConditionList TraitSetID="53432">
+          <ClassifiedCondition DB="MedGen" ID="C5394335">Neurodegeneration, childhood-onset, with ataxia, tremor, optic atrophy, and cognitive decline</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-05-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-05-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31855247</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="53432" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="52387" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodegeneration, childhood-onset, with ataxia, tremor, optic atrophy, and cognitive decline</ElementValue>
+                <XRef ID="MONDO:0030028" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CONATOC</ElementValue>
+                <XRef Type="MIM" ID="618868" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5394335" DB="MedGen" />
+              <XRef ID="MONDO:0030028" DB="MONDO" />
+              <XRef Type="MIM" ID="618868" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2466998" SubmissionDate="2020-05-04" DateLastUpdated="2020-05-12" DateCreated="2020-05-12">
+        <ClinVarSubmissionID localKey="606105.0003_NEURODEGENERATION, CHILDHOOD-ONSET, WITH ATAXIA, TREMOR, OPTIC ATROPHY, AND COGNITIVE DECLINE" title="SLC44A1, 29-KB DEL_NEURODEGENERATION, CHILDHOOD-ONSET, WITH ATAXIA, TREMOR, OPTIC ATROPHY, AND COGNITIVE DECLINE" />
+        <ClinVarAccession Accession="SCV001245521" DateUpdated="2020-05-12" DateCreated="2020-05-12" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-05-04">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 sibs, born of consanguineous Iraqi parents (family C), with childhood-onset neurodegeneration with ataxia, tremor, optic atrophy, and cognitive decline (CONATOC; 618868), Fagerberg et al. (2020) identified a homozygous 29-kb deletion, including exon 3, in the SLC44A1 gene, resulting in deletion of exon 3, a frameshift, and premature termination (Lys90MetfsTer18) in the first extracellular loop, which would eliminate all but 1 of the transmembrane domains. The mutation, which was found by whole-genome sequencing, segregated with the disorder in the family. It was not present in the gnomAD database. Functional studies of the variant and studies of patient cells were not performed, but the variant was predicted to result in nonsense-mediated mRNA decay and a loss of function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">31855247</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618868" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC44A1" />
+          </GeneList>
+          <Name>SLC44A1, 29-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">29-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="606105.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">NEURODEGENERATION, CHILDHOOD-ONSET, WITH ATAXIA, TREMOR, OPTIC ATROPHY, AND COGNITIVE DECLINE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2466998" TraitType="Disease" MappingType="Name" MappingValue="NEURODEGENERATION, CHILDHOOD-ONSET, WITH ATAXIA, TREMOR, OPTIC ATROPHY, AND COGNITIVE DECLINE" MappingRef="Preferred">
+        <MedGen CUI="C5394335" Name="Neurodegeneration, childhood-onset, with ataxia, tremor, optic atrophy, and cognitive decline" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

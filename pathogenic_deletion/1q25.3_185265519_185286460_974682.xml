@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="974682" VariationName="NC_000001.10:g.185276239_185287961del" VariationType="Deletion" Accession="VCV000974682" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-08-03" MostRecentSubmission="2020-08-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="962977" VariationID="974682">
+      <GeneList>
+        <Gene Symbol="IVNS1ABP" FullName="influenza virus NS1A binding protein" GeneID="10625" HGNC_ID="HGNC:16951" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q25.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="185296388" stop="185317243" display_start="185296388" display_stop="185317243" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="185265519" stop="185286460" display_start="185265519" display_stop="185286460" Strand="-" />
+          </Location>
+          <OMIM>609209</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.185276239_185287961del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1q25.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="185276239" stop="185287961" display_start="185276239" display_stop="185287961" variantLength="11723" />
+      </Location>
+      <OtherNameList>
+        <Name>11.7-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.185276239_185287961del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.185276239_185287961del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="609209.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.185276239_185287961del AND Immunodeficiency 70" Accession="RCV001250913" Version="1">
+        <ClassifiedConditionList TraitSetID="55952">
+          <ClassifiedCondition DB="MedGen" ID="C5436501">Immunodeficiency 70</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-07-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-07-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-03" MostRecentSubmission="2020-08-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32499645</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="55952" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="53864" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 70</ElementValue>
+                <XRef ID="MONDO:0033542" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IMD70</ElementValue>
+                <XRef Type="MIM" ID="618969" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5436501" DB="MedGen" />
+              <XRef ID="MONDO:0033542" DB="MONDO" />
+              <XRef Type="MIM" ID="618969" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2814377" SubmissionDate="2020-07-31" DateLastUpdated="2020-08-03" DateCreated="2020-08-03">
+        <ClinVarSubmissionID localKey="609209.0001_IMMUNODEFICIENCY 70" title="IVNS1ABP, 11.7-KB DEL_IMMUNODEFICIENCY 70" />
+        <ClinVarAccession Accession="SCV001426390" DateUpdated="2020-08-03" DateCreated="2020-08-03" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-31">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 19-year-old Pakistani man (kindred A) with immunodeficiency-70 (IMD70; 618969), Thaventhiran et al. (2020) identified a heterozygous 11.7-kb deletion (chr1:185,276,239_185,287,961del) in the N-terminal region of the IVNS1ABP gene. The mutation, which was found by whole-genome sequencing and confirmed by Sanger sequencing, was filtered against the gnomAD database. The mutation was inherited from the patient's mother, who did not have a history of infections, but did have low CD4+ T cells and low CD19+ B cells. Western blot analysis of patient peripheral blood cells showed a 50% decrease in the IVNS1ABP protein levels compared to controls, consistent with haploinsufficiency. Additional functional studies of the variant were not performed.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32499645</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618969" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IVNS1ABP" />
+          </GeneList>
+          <Name>IVNS1ABP, 11.7-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">11.7-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609209.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">IMMUNODEFICIENCY 70</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2814377" TraitType="Disease" MappingType="Name" MappingValue="IMMUNODEFICIENCY 70" MappingRef="Preferred">
+        <MedGen CUI="C5436501" Name="Immunodeficiency 70" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

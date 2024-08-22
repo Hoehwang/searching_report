@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="657898" VariationName="NC_000006.12:g.(?_118548061)_(118559090_?)del" VariationType="Deletion" Accession="VCV000657898" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="651458" VariationID="657898">
+      <GeneList>
+        <Gene Symbol="CEP85L" FullName="centrosomal protein 85 like" GeneID="387119" HGNC_ID="HGNC:21638" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="118460772" stop="118710089" display_start="118460772" display_stop="118710089" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="118781934" stop="119031237" display_start="118781934" display_stop="119031237" Strand="-" />
+          </Location>
+          <OMIM>618865</OMIM>
+        </Gene>
+        <Gene Symbol="PLN" FullName="phospholamban" GeneID="5350" HGNC_ID="HGNC:9080" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="118548296" stop="118561716" display_start="118548296" display_stop="118561716" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="118869441" stop="118881586" display_start="118869441" display_stop="118881586" Strand="+" />
+          </Location>
+          <OMIM>172405</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.(?_118548061)_(118559090_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q22.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" innerStart="118548061" innerStop="118559090" display_start="118548061" display_stop="118559090" variantLength="11030" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="118869224" innerStop="118880253" display_start="118869224" display_stop="118880253" variantLength="11030" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.(?_118548061)_(118559090_?)del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.(?_118548061)_(118559090_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_118869224)_(118880253_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_118869224)_(118880253_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.(?_118548061)_(118559090_?)del AND Dilated cardiomyopathy 1P" Accession="RCV000814611" Version="2">
+        <ClassifiedConditionList TraitSetID="3754">
+          <ClassifiedCondition DB="MedGen" ID="C1835928">Dilated cardiomyopathy 1P</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-08-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-08-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28771489</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3754" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="715" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Dilated cardiomyopathy 1P</ElementValue>
+                <XRef ID="Dilated+cardiomyopathy+1P/8258" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0012362" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMD1P</ElementValue>
+                <XRef Type="MIM" ID="609909" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301486</ID>
+                <ID Source="BookShelf">NBK1309</ID>
+              </Citation>
+              <XRef ID="154" DB="Orphanet" />
+              <XRef ID="C1835928" DB="MedGen" />
+              <XRef ID="MONDO:0012362" DB="MONDO" />
+              <XRef Type="MIM" ID="609909" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1849212" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="5088830|MedGen:C1835928" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000955025" DateUpdated="2020-04-09" DateCreated="2019-08-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-08-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28771489</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the PLN gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. A similar deletion of PLN has been reported in several individuals affected with hypertrophic cardiomyopathy (PMID: 28771489). Loss-of-function variants in PLN are known to be pathogenic (PMID: 12639993, 17655857, 21167350, 22707725, 24909667). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PLN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_118869224)_(118880253_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Dilated cardiomyopathy 1P</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1835928" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1849212" TraitType="Disease" MappingType="Name" MappingValue="Dilated cardiomyopathy 1P" MappingRef="Preferred">
+        <MedGen CUI="C1835928" Name="Dilated cardiomyopathy 1P" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="542396" VariationName="NC_000004.12:g.(?_123056367)_(123057308_?)del" VariationType="Deletion" Accession="VCV000542396" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2018-10-10" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="519936" VariationID="542396">
+      <GeneList>
+        <Gene Symbol="AFG2A" FullName="AFG2 AAA ATPase homolog A" GeneID="166378" HGNC_ID="HGNC:18119" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q28.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="122923078" stop="123319433" display_start="122923078" display_stop="123319433" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="123844224" stop="124240604" display_start="123844224" display_stop="124240604" Strand="+" />
+          </Location>
+          <OMIM>613940</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000004.12:g.(?_123056367)_(123057308_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q28.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" innerStart="123056367" innerStop="123057308" display_start="123056367" display_stop="123057308" variantLength="942" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="123977522" innerStop="123978463" display_start="123977522" display_stop="123978463" variantLength="942" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.12" sequenceAccession="NC_000004" sequenceVersion="12" change="g.(?_123056367)_(123057308_?)del" Assembly="GRCh38">
+            <Expression>NC_000004.12:g.(?_123056367)_(123057308_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_123977522)_(123978463_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_123977522)_(123978463_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000004.12:g.(?_123056367)_(123057308_?)del AND Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome" Accession="RCV000652811" Version="5">
+        <ClassifiedConditionList TraitSetID="22772">
+          <ClassifiedCondition DB="MedGen" ID="C4225276">Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-10-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-10-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">26299366</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="22772" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34337" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">NEURODEVELOPMENTAL DISORDER WITH HEARING LOSS, SEIZURES, AND BRAIN ABNORMALITIES</ElementValue>
+                <XRef Type="MIM" ID="616577" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="613940.0007" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome</ElementValue>
+                <XRef ID="MONDO:0014698" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEDHSB</ElementValue>
+                <XRef Type="MIM" ID="616577" DB="OMIM" />
+              </Symbol>
+              <XRef ID="457351" DB="Orphanet" />
+              <XRef ID="C4225276" DB="MedGen" />
+              <XRef ID="MONDO:0014698" DB="MONDO" />
+              <XRef Type="MIM" ID="616577" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1484447" SubmissionDate="2023-03-21" DateLastUpdated="2023-03-26" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="NM_145207.2_Deletion (Exons 12-13)|MedGen:C4225276" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000774683" DateUpdated="2023-03-26" DateCreated="2018-05-28" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-10-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">26299366</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 12-13 of the SPATA5 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in SPATA5 are known to be pathogenic (PMID: 26299366). This variant has not been reported in the literature in individuals affected with SPATA5-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPATA5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000004.11:g.(?_123977522)_(123978463_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4225276" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+          <SubmissionName>SUB12974844</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1484447" TraitType="Disease" MappingType="XRef" MappingValue="C4225276" MappingRef="MedGen">
+        <MedGen CUI="C4225276" Name="Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

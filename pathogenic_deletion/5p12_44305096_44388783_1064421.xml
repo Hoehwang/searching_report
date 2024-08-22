@@ -1,0 +1,221 @@
+<VariationArchive RecordType="classified" VariationID="1064421" VariationName="NC_000005.9:g.44300489_44312646del" VariationType="Deletion" Accession="VCV001064421" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-13" DateCreated="2021-10-08" MostRecentSubmission="2021-10-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1052612" VariationID="1064421">
+      <GeneList>
+        <Gene Symbol="FGF10" FullName="fibroblast growth factor 10" GeneID="2255" HGNC_ID="HGNC:3666" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5p12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="44300247" stop="44389420" display_start="44300247" display_stop="44389420" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="44305096" stop="44388783" display_start="44305096" display_stop="44388783" Strand="-" />
+          </Location>
+          <OMIM>602115</OMIM>
+          <Haploinsufficiency last_evaluated="2022-02-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FGF10">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-02-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FGF10">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.44300489_44312646del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5p12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="44300489" stop="44312646" display_start="44300489" display_stop="44312646" variantLength="12158" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.44300489_44312646del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.44300489_44312646del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.44300489_44312646del AND multiple conditions" Accession="RCV001726492" Version="1">
+        <ClassifiedConditionList TraitSetID="64724">
+          <ClassifiedCondition DB="MedGen" ID="C0265269">Levy-Hollister syndrome</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0456891">Primary pulmonary hypoplasia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-11-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-11-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-10-08" MostRecentSubmission="2021-10-08">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="64724" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5834" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial primary pulmonary hypoplasia</ElementValue>
+                <XRef ID="MONDO:0009936" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Primary pulmonary hypoplasia</ElementValue>
+                <XRef ID="277656005" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="2257" DB="Orphanet" />
+              <XRef ID="C0456891" DB="MedGen" />
+              <XRef ID="MONDO:0009936" DB="MONDO" />
+              <XRef Type="MIM" ID="265430" DB="OMIM" />
+            </Trait>
+            <Trait ID="2662" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Levy-Hollister syndrome</ElementValue>
+                <XRef ID="Lacrimo-auriculo-dento-digital+syndrome/4066" DB="Genetic Alliance" />
+                <XRef ID="23817003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LADD syndrome</ElementValue>
+                <XRef ID="MONDO:0007872" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LADD</ElementValue>
+                <XRef Type="MIM" ID="149730" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6848" />
+                <XRef ID="6848" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2363" DB="Orphanet" />
+              <XRef ID="C0265269" DB="MedGen" />
+              <XRef ID="MONDO:0007872" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS149730" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3093798" SubmissionDate="2021-04-12" DateLastUpdated="2021-10-08" DateCreated="2021-10-08">
+        <ClinVarSubmissionID localKey="SUB9377637" submittedAssembly="GRCh37" title="SUB9377637" />
+        <ClinVarAccession Accession="SCV001548555" DateUpdated="2021-10-08" DateCreated="2021-10-08" Type="SCV" Version="1" SubmitterName="Women's and Children's Health, University of Otago" OrgID="507089" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-11-18">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>European</Ethnicity>
+              <GeographicOrigin>New Zealand</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+              <MethodAttribute>
+                <Attribute Type="TestName">Genome sequencing</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0100258" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0009601" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0010287" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0009740" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000193" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0009926" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000564" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0002089" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGF10">
+              <Name>fibroblast growth factor 10</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.44300489_44312646del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="149730" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="265430" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9377637</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Disease" MappingType="XRef" MappingValue="149730" MappingRef="OMIM">
+        <MedGen CUI="CN324068" Name="LADD syndrome 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0009740" MappingRef="HP">
+        <MedGen CUI="C4024215" Name="Aplasia of the parotid gland" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Disease" MappingType="XRef" MappingValue="265430" MappingRef="OMIM">
+        <MedGen CUI="C0456891" Name="Primary pulmonary hypoplasia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0010287" MappingRef="HP">
+        <MedGen CUI="C4023920" Name="Abnormality of the submandibular glands" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0009926" MappingRef="HP">
+        <MedGen CUI="C0152227" Name="Epiphora" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0009601" MappingRef="HP">
+        <MedGen CUI="C3179508" Name="Aplasia/Hypoplasia of the thumb" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000564" MappingRef="HP">
+        <MedGen CUI="C0344511" Name="Lacrimal duct atresia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000193" MappingRef="HP">
+        <MedGen CUI="C4551488" Name="Bifid uvula" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002089" MappingRef="HP">
+        <MedGen CUI="C0265783" Name="Pulmonary hypoplasia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3093798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0100258" MappingRef="HP">
+        <MedGen CUI="C0345354" Name="Preaxial polydactyly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

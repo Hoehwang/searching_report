@@ -1,0 +1,140 @@
+<VariationArchive VariationID="2506440" VariationName="NG_016427.1:g.(5246_10695)_(10776_13711)del" VariationType="Deletion" Accession="VCV002506440" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-06-24" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2671399" VariationID="2506440">
+      <GeneList>
+        <Gene Symbol="GCSH" FullName="glycine cleavage system protein H" GeneID="2653" HGNC_ID="HGNC:4208" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="81081945" stop="81096395" display_start="81081945" display_stop="81096395" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NW_025791800.1" start="130184" stop="144634" display_start="130184" display_stop="144634" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="81115551" stop="81129979" display_start="81115551" display_stop="81129979" Strand="-" />
+          </Location>
+          <OMIM>238330</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_016427.1:g.(5246_10695)_(10776_13711)del</Name>
+      <VariantType>Deletion</VariantType>
+      <OtherNameList>
+        <Name>EX2 DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016427.1" sequenceAccession="NG_016427" sequenceVersion="1" change="g.(5246_10695)_(10776_13711)del">
+            <Expression>NG_016427.1:g.(5246_10695)_(10776_13711)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004483.5" sequenceAccession="NM_004483" sequenceVersion="5" change="c.148-?_228+?" MANESelect="true">
+            <Expression>NM_004483.5:c.148-?_228+?</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_541" sequenceAccession="LRG_541">
+            <Expression>LRG_541:g.(5246_10695)_(10776_13711)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="238330.0006" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_016427.1:g.(5246_10695)_(10776_13711)del AND Multiple mitochondrial dysfunctions syndrome 7" Accession="RCV003236612" Version="3">
+        <ClassifiedConditionList TraitSetID="85402">
+          <ClassifiedCondition DB="MedGen" ID="C5830586">Multiple mitochondrial dysfunctions syndrome 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-06-24" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">36190515</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="85402" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="68079" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Multiple mitochondrial dysfunctions syndrome 7</ElementValue>
+                <XRef ID="MONDO:0957382" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MMDS7</ElementValue>
+                <XRef Type="MIM" ID="620423" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5830586" DB="MedGen" />
+              <XRef ID="MONDO:0957382" DB="MONDO" />
+              <XRef Type="MIM" ID="620423" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7356488" SubmissionDate="2023-06-21" DateLastUpdated="2024-06-09" DateCreated="2023-06-24">
+        <ClinVarSubmissionID localKey="238330.0006_MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 7" title="GCSH, EX2DEL_MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 7" />
+        <ClinVarAccession Accession="SCV003935016" DateUpdated="2024-06-09" DateCreated="2023-06-24" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the deletion of exon 2 in the GCSH gene that was identified in patient 1 with multiple mitochondrial dysfunctions syndrome-7 (MMDS7; 620423) by Arribas-Carreira et al. (2023), see 238330.0005.</Attribute>
+              <Citation>
+                <ID Source="PubMed">36190515</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="620423" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GCSH" />
+          </GeneList>
+          <Name>GCSH, EX2DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX2DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="238330.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 7</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7356488" TraitType="Disease" MappingType="Name" MappingValue="MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 7" MappingRef="Preferred">
+        <MedGen CUI="C5830586" Name="Multiple mitochondrial dysfunctions syndrome 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

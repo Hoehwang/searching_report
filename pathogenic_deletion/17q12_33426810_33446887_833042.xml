@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="833042" VariationName="NC_000017.11:g.(?_35100943)_(35119623_?)del" VariationType="Deletion" Accession="VCV000833042" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="821035" VariationID="833042">
+      <GeneList>
+        <Gene Symbol="RAD51D" FullName="RAD51 paralog D" GeneID="5892" HGNC_ID="HGNC:9823" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="35092221" stop="35119860" display_start="35092221" display_stop="35119860" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="33426810" stop="33446887" display_start="33426810" display_stop="33446887" Strand="-" />
+          </Location>
+          <OMIM>602954</OMIM>
+          <Haploinsufficiency last_evaluated="2019-10-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51D">Some evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-10-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51D">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.11:g.(?_35100943)_(35119623_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="33427962" innerStop="33446642" display_start="33427962" display_stop="33446642" variantLength="18681" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_33427962)_(33446642_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_33427962)_(33446642_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.11:g.(?_35100943)_(35119623_?)del AND Breast-ovarian cancer, familial, susceptibility to, 4" Accession="RCV001033503" Version="1">
+        <ClassifiedConditionList TraitSetID="7625">
+          <ClassifiedCondition DB="MedGen" ID="C3280345">Breast-ovarian cancer, familial, susceptibility to, 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7625" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16581" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Breast-ovarian cancer, familial 4</ElementValue>
+                <XRef ID="Breast-ovarian+cancer%2C+familial+4/7868" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Breast-ovarian cancer, familial, susceptibility to, 4</ElementValue>
+                <XRef ID="MONDO:0013669" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BROVCA4</ElementValue>
+                <XRef Type="MIM" ID="614291" DB="OMIM" />
+              </Symbol>
+              <XRef ID="145" DB="Orphanet" />
+              <XRef ID="C3280345" DB="MedGen" />
+              <XRef ID="MONDO:0013669" DB="MONDO" />
+              <XRef Type="MIM" ID="614291" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2358066" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5787498|MedGen:C3280345" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196810" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the RAD51D gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with RAD51D-related conditions. Loss-of-function variants in RAD51D are known to be pathogenic (PMID: 21822267). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAD51D" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_33427962)_(33446642_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Breast-ovarian cancer, familial 4</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C3280345" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2358066" TraitType="Disease" MappingType="Name" MappingValue="Breast-ovarian cancer, familial 4" MappingRef="Preferred">
+        <MedGen CUI="C3280345" Name="Breast-ovarian cancer, familial, susceptibility to, 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

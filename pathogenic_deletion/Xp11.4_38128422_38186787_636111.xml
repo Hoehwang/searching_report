@@ -1,0 +1,179 @@
+<VariationArchive RecordType="classified" VariationID="636111" VariationName="NM_000328.2(RPGR):c.*644del" VariationType="Deletion" Accession="VCV000636111" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-03" DateCreated="2019-07-22" MostRecentSubmission="2023-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623940" VariationID="636111">
+      <GeneList>
+        <Gene Symbol="RPGR" FullName="retinitis pigmentosa GTPase regulator" GeneID="6103" HGNC_ID="HGNC:10295" Source="submitted" RelationshipType="near gene, downstream">
+          <Location>
+            <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="38269163" stop="38327509" display_start="38269163" display_stop="38327509" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="38128422" stop="38186787" display_start="38128422" display_stop="38186787" Strand="-" />
+          </Location>
+          <OMIM>312610</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000328.2(RPGR):c.*644del</Name>
+      <CanonicalSPDI>NC_000023.11:38268981:AA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="38268982" stop="38268982" display_start="38268982" display_stop="38268982" variantLength="1" positionVCF="38268981" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="38128235" stop="38128235" display_start="38128235" display_stop="38128235" variantLength="1" positionVCF="38128234" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.38128236del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.38128236del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.38268983del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.38268983del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009553.1" sequenceAccession="NG_009553" sequenceVersion="1" change="g.63554del">
+            <Expression>NG_009553.1:g.63554del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1601890980" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000328.2(RPGR):c.*644del AND Retinitis pigmentosa" Accession="RCV000787716" Version="1">
+        <ClassifiedConditionList TraitSetID="6496">
+          <ClassifiedCondition DB="MedGen" ID="C0035334">Retinitis pigmentosa</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-22" MostRecentSubmission="2023-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6496" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9558" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Retinitis pigmentosa</ElementValue>
+                <XRef ID="CN038210" DB="ADAM" />
+                <XRef ID="Retinitis+pigmentosa/6248" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0019200" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS268000" DB="OMIM" />
+                <XRef ID="28835009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Tapetoretinal degeneration</ElementValue>
+                <XRef ID="HP:0000547" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RP</ElementValue>
+                <XRef Type="MIM" ID="268000" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5694" />
+                <XRef ID="5694" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">Autosomal dominant, autosomal recessive and X linked inheritance</Attribute>
+                <XRef ID="GTR000561973" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301590</ID>
+                <ID Source="BookShelf">NBK1417</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2012">
+                <ID Source="PubMed">22234150</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="Bakondi et al., 2015">
+                <ID Source="PubMed">26666451</ID>
+              </Citation>
+              <XRef ID="791" DB="Orphanet" />
+              <XRef ID="C0035334" DB="MedGen" />
+              <XRef ID="D012174" DB="MeSH" />
+              <XRef ID="MONDO:0019200" DB="MONDO" />
+              <XRef Type="MIM" ID="268000" DB="OMIM" />
+              <XRef Type="Phenotypic series" ID="PS268000" DB="OMIM" />
+              <XRef Type="secondary" ID="HP:0000547" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812485" SubmissionDate="2018-12-05" DateLastUpdated="2023-09-03" DateCreated="2019-07-22">
+        <ClinVarSubmissionID localKey="NM_000328.2:c.3092del|MedGen:C0035334" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926708" DateUpdated="2023-09-03" DateCreated="2019-07-22" Type="SCV" Version="2" SubmitterName="Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet" OrgID="1147" OrganizationCategory="laboratory" OrgAbbreviation="MGL_KC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30718709</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RPGR" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000328.2:c.3092del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Retinitis pigmentosa</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0035334" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <StudyName>VeluxRD</StudyName>
+        <StudyDescription>Investigation of 124 genes associated with retinal dystrophies</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>SUB4878608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812485" TraitType="Disease" MappingType="Name" MappingValue="Retinitis pigmentosa" MappingRef="Preferred">
+        <MedGen CUI="C0035334" Name="Retinitis pigmentosa" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

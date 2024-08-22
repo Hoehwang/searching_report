@@ -1,0 +1,147 @@
+<VariationArchive VariationID="3237334" VariationName="NG_011403.2:g.2731_26150dup" VariationType="Duplication" Accession="VCV003237334" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2024-06-10" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3396458" VariationID="3237334">
+      <GeneList>
+        <Gene Symbol="F8" FullName="coagulation factor VIII" GeneID="2157" HGNC_ID="HGNC:3546" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154835792" stop="155022723" display_start="154835792" display_stop="155022723" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="154064062" stop="154250997" display_start="154064062" display_stop="154250997" Strand="-" />
+          </Location>
+          <OMIM>300841</OMIM>
+          <Haploinsufficiency last_evaluated="2020-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=F8">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=F8">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NG_011403.2:g.2731_26150dup</Name>
+      <VariantType>Duplication</VariantType>
+      <OtherNameList>
+        <Name>F8, 23.4-KB DUP</Name>
+        <Name>factor VIII Padua</Name>
+        <Name>23.4-KB DUP</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011403.2" sequenceAccession="NG_011403" sequenceVersion="2" change="g.2731_26150dup">
+            <Expression>NG_011403.2:g.2731_26150dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_555" sequenceAccession="LRG_555">
+            <Expression>LRG_555:g.2731_26150dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="300841.0272" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for OMIM allelic variant 300841.0272 from the sequence across the breakpoint reported in Figure 3 of the paper by Simioni et al., 2021 (PubMed 33275657).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_011403.2:g.2731_26150dup AND Thrombophilia, X-linked, due to factor 8 defect" Accession="RCV004560336" Version="1">
+        <ClassifiedConditionList TraitSetID="73401">
+          <ClassifiedCondition DB="MedGen" ID="C5676879">Thrombophilia, X-linked, due to factor 8 defect</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-10" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33275657</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="73401" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="61873" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Thrombophilia 13, X-linked, due to factor VIII defect</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Thrombophilia, X-linked, due to factor 8 defect</ElementValue>
+                <XRef ID="MONDO:0859082" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">THROMBOPHILIA, X-LINKED, DUE TO FACTOR VIII DEFECT</ElementValue>
+                <XRef Type="MIM" ID="301071" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300841.0272" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">THPH13</ElementValue>
+                <XRef Type="MIM" ID="301071" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5676879" DB="MedGen" />
+              <XRef ID="MONDO:0859082" DB="MONDO" />
+              <XRef Type="MIM" ID="301071" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9796640" SubmissionDate="2023-08-14" DateLastUpdated="2024-06-09" DateCreated="2024-06-09">
+        <ClinVarSubmissionID localKey="300841.0272_THROMBOPHILIA, X-LINKED, DUE TO FACTOR VIII DEFECT" title="F8, 23.4-KB DUP_THROMBOPHILIA, X-LINKED, DUE TO FACTOR VIII DEFECT" />
+        <ClinVarAccession Accession="SCV005046826" DateUpdated="2024-06-09" DateCreated="2024-06-09" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-14">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 7 individuals from 2 Italian families with thrombophilia due to factor VIII defect (THPH13; 301071), Simioni et al. (2021) identified a 23.4-kb tandem duplication in the F8 gene, including the promoter, exon 1, and part of intron 1. The mutation was hemizygous in affected males and heterozygous in affected females. The mutation was found by a combination of linkage analysis, MLPA analysis, whole-genome sequencing, and Sanger sequencing. The mutation segregated with disease in both families. The variant was not present in the 1000 Genomes Project database or in 103 control individuals. F8 mRNA was increased in patient lymphocytes. Increased transcriptional activity of fragments of the duplicated region was demonstrated via luciferase assay. The authors designated this mutation 'FVIII Padua.'</Attribute>
+              <Citation>
+                <ID Source="PubMed">33275657</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="301071" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="F8" />
+          </GeneList>
+          <Name>F8, 23.4-KB DUP</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">23.4-KB DUP</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="300841.0272" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">THROMBOPHILIA, X-LINKED, DUE TO FACTOR VIII DEFECT</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9796640" TraitType="Disease" MappingType="Name" MappingValue="THROMBOPHILIA, X-LINKED, DUE TO FACTOR VIII DEFECT" MappingRef="Preferred">
+        <MedGen CUI="C5676879" Name="Thrombophilia, X-linked, due to factor 8 defect" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

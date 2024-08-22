@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="583563" VariationName="NC_000017.11:g.(?_75973605)_(75979093_?)del" VariationType="Deletion" Accession="VCV000583563" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-07" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="568672" VariationID="583563">
+      <GeneList>
+        <Gene Symbol="ACOX1" FullName="acyl-CoA oxidase 1" GeneID="51" HGNC_ID="HGNC:119" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75941507" stop="75979166" display_start="75941507" display_stop="75979166" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73937587" stop="73975514" display_start="73937587" display_stop="73975514" Strand="-" />
+          </Location>
+          <OMIM>609751</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.11:g.(?_75973605)_(75979093_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" innerStart="75973605" innerStop="75979093" display_start="75973605" display_stop="75979093" variantLength="5489" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="73969686" innerStop="73975174" display_start="73969686" display_stop="73975174" variantLength="5489" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_73969686)_(73975174_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_73969686)_(73975174_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.(?_75973605)_(75979093_?)del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.(?_75973605)_(75979093_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.11:g.(?_75973605)_(75979093_?)del AND Acyl-CoA oxidase deficiency" Accession="RCV000707867" Version="1">
+        <ClassifiedConditionList TraitSetID="392">
+          <ClassifiedCondition DB="MedGen" ID="C1849678">Acyl-CoA oxidase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-03-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-03-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="392" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3291" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Pseudoneonatal adrenoleukodystrophy</ElementValue>
+                <XRef ID="Pseudoneonatal+adrenoleukodystrophy/6045" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudoadrenoleukodystrophy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Peroxisomal acyl-CoA oxidase deficiency</ElementValue>
+                <XRef ID="MONDO:0009919" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Acyl-CoA oxidase deficiency</ElementValue>
+                <XRef ID="238069004" DB="SNOMED CT" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">Peroxisomal acyl-CoA oxidase deficiency is a disorder of peroxisomal fatty acid beta-oxidation. See also D-bifunctional protein deficiency (261515), caused by mutation in the HSD17B4 gene (601860) on chromosome 5q2. The clinical manifestations of these 2 deficiencies are similar to those of disorders of peroxisomal assembly, including Zellweger cerebrohepatorenal syndrome (see 214100) and neonatal adrenoleukodystrophy (see 601539) (Watkins et al., 1995).</Attribute>
+                <XRef Type="MIM" ID="264470" DB="OMIM" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000070507" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000500811" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000515571" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000561876" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4543" />
+                <XRef ID="4543" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2971" DB="Orphanet" />
+              <XRef ID="C1849678" DB="MedGen" />
+              <XRef ID="MONDO:0009919" DB="MONDO" />
+              <XRef Type="MIM" ID="264470" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1609002" SubmissionDate="2018-08-29" DateLastUpdated="2018-10-10" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="3965751|MedGen:C1849678" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000836977" DateUpdated="2018-10-10" DateCreated="2018-10-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-03-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 1-2 of the ACOX1 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 2 of the ACOX1 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in individuals affected with ACOX1 related disease. Loss-of-function variants in ACOX1 are known to be pathogenic (PMID: 8040306, 17458872). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACOX1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_73969686)_(73975174_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Pseudoneonatal adrenoleukodystrophy</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1849678" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1609002" TraitType="Disease" MappingType="Name" MappingValue="Pseudoneonatal adrenoleukodystrophy" MappingRef="Preferred">
+        <MedGen CUI="C1849678" Name="Acyl-CoA oxidase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

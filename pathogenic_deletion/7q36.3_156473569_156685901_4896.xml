@@ -1,0 +1,163 @@
+<VariationArchive VariationID="4896" VariationName="NM_022458.3(LMBR1):c.180-2465_319+2696del" VariationType="Deletion" Accession="VCV000004896" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-30" DateCreated="2014-09-16" MostRecentSubmission="2014-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="19935" VariationID="4896">
+      <GeneList>
+        <Gene Symbol="LMBR1" FullName="limb development membrane protein 1" GeneID="64327" HGNC_ID="HGNC:13243" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q36.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="156669012" stop="156893183" display_start="156669012" display_stop="156893183" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="156473569" stop="156685901" display_start="156473569" display_stop="156685901" Strand="-" />
+          </Location>
+          <OMIM>605522</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_022458.3(LMBR1):c.180-2465_319+2696del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q36.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" outerStart="156823109" innerStart="156823909" innerStop="156828009" outerStop="156829209" display_start="156823109" display_stop="156829209" variantLength="4101" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" outerStart="156615803" innerStart="156616603" innerStop="156620703" outerStop="156621903" display_start="156615803" display_stop="156621903" variantLength="4101" />
+      </Location>
+      <OtherNameList>
+        <Name>4- TO 6-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009240.1" sequenceAccession="NG_009240" sequenceVersion="1" change="g.(69000_70200)_(74300_75100)del">
+            <Expression>NG_009240.1:g.(69000_70200)_(74300_75100)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(156615803_156616603)_(156620703_156621903)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(156615803_156616603)_(156620703_156621903)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.(156823109_156823909)_(156828009_156829209)del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.(156823109_156823909)_(156828009_156829209)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605522.0001" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff estimated the breakpoints of this deletion based on the report by Ianakiev P et al. (PubMed 11090342) that the deletion's boundaries extend from 1.2-2.5 kb 5' of exon 4 and 2.7-3.5 kb 3' of exon 4.
+</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_022458.3(LMBR1):c.180-2465_319+2696del AND Acheiropodia" Accession="RCV000005174" Version="3">
+        <ClassifiedConditionList TraitSetID="1346">
+          <ClassifiedCondition DB="MedGen" ID="C0265559">Acheiropodia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2001-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2001-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2014-09-16" MostRecentSubmission="2014-09-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11090342</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1346" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="116" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Acheiropody</ElementValue>
+                <XRef ID="MONDO:0008700" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Acheiropodia</ElementValue>
+                <XRef ID="Acheiropody/105" DB="Genetic Alliance" />
+                <XRef ID="177504007" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acheiropody, Brazilian type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ACHP</ElementValue>
+                <XRef Type="MIM" ID="200500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Acheiropody is characterized by bilateral congenital amputations of the upper and lower extremities and aplasia of the hands and feet. Specific patterns of malformations consist of a complete amputation of the distal epiphysis of the humerus, amputation of the distal part of the tibial diaphysis, and aplasia of the radius, ulna, fibula, and of the carpal, metacarpal, tarsal, metatarsal, and phalangeal bones (summary by Ianakiev et al., 2001).</Attribute>
+                <XRef Type="MIM" ID="200500" DB="OMIM" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="376" />
+                <XRef ID="376" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="931" DB="Orphanet" />
+              <XRef ID="C0265559" DB="MedGen" />
+              <XRef ID="MONDO:0008700" DB="MONDO" />
+              <XRef Type="MIM" ID="200500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25351" SubmissionDate="2014-09-11" DateLastUpdated="2014-09-16" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605522.0001_ACHEIROPODY" title="LMBR1, 4- TO 6-KB DEL_ACHEIROPODY" />
+        <ClinVarAccession Accession="SCV000025351" DateUpdated="2014-09-16" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2001-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected individuals from 5 unrelated families with acheiropody (ACHP; 200500) in Brazil, Ianakiev et al. (2001) identified a homozygous 4- to 6-kb deletion in the LMBR1 gene. The mutation leads to the production of an LMBR1 transcript that lacks exon 4 and introduces a frameshift leading to a premature stop codon downstream of exon 3. The boundaries of the deletion appeared to be 1.2 to 2.5 kb 5-prime of exon 4 and 2.7 to 3.5 kb 3-prime of exon 4. Haplotype analysis confirmed the expectation that a single common ancestral mutation was the cause of all cases in Brazil. The approximately 1.3 cM of the 7q36 region shared in all 5 families suggested a relatively recent age (31 generations) for this common mutation.</Attribute>
+              <Citation>
+                <ID Source="PubMed">11090342</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="200500" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LMBR1" />
+          </GeneList>
+          <Name>LMBR1, 4- TO 6-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">4- TO 6-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605522.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ACHEIROPODY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25351" TraitType="Disease" MappingType="Name" MappingValue="ACHEIROPODY" MappingRef="Preferred">
+        <MedGen CUI="C0265559" Name="Acheiropodia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

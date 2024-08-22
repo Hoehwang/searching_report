@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="435701" VariationName="NM_024884.3(L2HGDH):c.1015del (p.Arg339fs)" VariationType="Deletion" Accession="VCV000435701" Version="6" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="429566" VariationID="435701">
+      <GeneList>
+        <Gene Symbol="L2HGDH" FullName="L-2-hydroxyglutarate dehydrogenase" GeneID="79944" HGNC_ID="HGNC:20499" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="50242434" stop="50312229" display_start="50242434" display_stop="50312229" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="50709151" stop="50778946" display_start="50709151" display_stop="50778946" Strand="-" />
+          </Location>
+          <OMIM>609584</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_024884.3(L2HGDH):c.1015del (p.Arg339fs)</Name>
+      <CanonicalSPDI>NC_000014.9:50267801:T:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="50267802" stop="50267802" display_start="50267802" display_stop="50267802" variantLength="1" positionVCF="50267801" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="50734520" stop="50734520" display_start="50734520" display_stop="50734520" variantLength="1" positionVCF="50734519" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>R339fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.50734520del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.50734520del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.50267802del" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.50267802del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008092.1" sequenceAccession="NG_008092" sequenceVersion="1" change="g.49428del">
+            <Expression>NG_008092.1:g.49428del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024884.3" sequenceAccession="NM_024884" sequenceVersion="3" change="c.1015del" MANESelect="true">
+            <Expression>NM_024884.3:c.1015del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_079160.1" sequenceAccession="NP_079160" sequenceVersion="1" change="p.Arg339fs">
+            <Expression>NP_079160.1:p.Arg339fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372565" DB="ClinGen" />
+        <XRef Type="rs" ID="1555328749" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_024884.3(L2HGDH):c.1015del (p.Arg339fs) AND L-2-hydroxyglutaric aciduria" Accession="RCV000503774" Version="6">
+        <ClassifiedConditionList TraitSetID="414">
+          <ClassifiedCondition DB="MedGen" ID="C1855995">L-2-hydroxyglutaric aciduria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-06-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-06-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="414" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2447" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">L-2-hydroxyglutaric aciduria</ElementValue>
+                <XRef ID="L-2-hydroxyglutaric+aciduria/4061" DB="Genetic Alliance" />
+                <XRef ID="HP:0040144" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0009370" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">L2HGA</ElementValue>
+                <XRef Type="MIM" ID="236792" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10472" />
+                <XRef ID="10472" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="79314" DB="Orphanet" />
+              <XRef ID="C1855995" DB="MedGen" />
+              <XRef ID="MONDO:0009370" DB="MONDO" />
+              <XRef Type="MIM" ID="236792" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0040144" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1151939" SubmissionDate="2017-07-05" DateLastUpdated="2017-08-28" DateCreated="2017-08-28">
+        <ClinVarSubmissionID localKey="NM_024884.2(L2HGDH):c.1015del|L-2-hydroxyglutaric aciduria" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000595495" DateUpdated="2017-08-28" DateCreated="2017-08-28" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-06-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="L2HGDH" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_024884.2:c.1015del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">L-2-hydroxyglutaric aciduria</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2843028</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1151939" TraitType="Disease" MappingType="Name" MappingValue="L-2-hydroxyglutaric aciduria" MappingRef="Preferred">
+        <MedGen CUI="C1855995" Name="L-2-hydroxyglutaric aciduria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

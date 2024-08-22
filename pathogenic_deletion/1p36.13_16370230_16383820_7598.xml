@@ -1,0 +1,136 @@
+<VariationArchive RecordType="classified" VariationID="7598" VariationName="NC_000001.11:g.(16034051_16043781)_(16043881_?)del" VariationType="Deletion" Accession="VCV000007598" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-15" DateCreated="2016-05-14" MostRecentSubmission="2016-05-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="22637" VariationID="7598">
+      <GeneList>
+        <Gene Symbol="CLCNKB" FullName="chloride voltage-gated channel Kb" GeneID="1188" HGNC_ID="HGNC:2027" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16043782" stop="16057326" display_start="16043782" display_stop="16057326" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="16370230" stop="16383820" display_start="16370230" display_stop="16383820" Strand="+" />
+          </Location>
+          <OMIM>602023</OMIM>
+        </Gene>
+        <Gene Symbol="LOC106501712" FullName="CLCNKA recombination region" GeneID="106501712" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16023929" stop="16036205" display_start="16023929" display_stop="16036205" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.11:g.(16034051_16043781)_(16043881_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" outerStart="16034051" innerStart="16043781" innerStop="16043881" display_start="16034051" display_stop="16043881" variantLength="9831" />
+      </Location>
+      <OtherNameList>
+        <Name>CLCNKB, DEL</Name>
+        <Name>DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.(16034051_16043781)_(16043881_?)del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.(16034051_16043781)_(16043881_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="602023.0008" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 602023.0008 based on the Figure 2 of the paper by Schlingmann et al., 2004 (PubMed 15044642) indicating that the upstream breakpoint was between CLCNKA and CLCNKB.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.11:g.(16034051_16043781)_(16043881_?)del AND BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS" Accession="RCV000008036" Version="3">
+        <ClassifiedConditionList TraitSetID="26762">
+          <ClassifiedCondition>BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2004-03-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2004-03-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-05-14" MostRecentSubmission="2016-05-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15044642</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="26762" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35353" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS</ElementValue>
+                <XRef Type="Allelic variant" ID="602023.0011" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602023.0008" DB="OMIM" />
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="28241" SubmissionDate="2016-05-12" DateLastUpdated="2016-05-14" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="602023.0008_BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS" title="CLCNKB, DEL _BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS" />
+        <ClinVarAccession Accession="SCV000028241" DateUpdated="2016-05-14" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2004-03-25">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a child with renal salt wasting and deafness (BARTS4B; 613090) who had no mutation in the BSND gene (606412), Schlingmann et al. (2004) identified both a homozygous deletion of the CLCNKB gene and a homozygous cys80-to-trp (C80W) mutation in the CLCNKA gene (C80W; 602024.0001). The patient was born prematurely to consanguineous parents, and the pregnancy was complicated by severe maternal polyhydramnios during the last 6 weeks of gestation.</Attribute>
+              <Citation>
+                <ID Source="PubMed">15044642</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="613090" Type="MIM" />
+              <XRef DB="OMIM" ID="606412" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLCNKB" />
+          </GeneList>
+          <Name>CLCNKB, DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="602023.0008" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="28241" TraitType="Disease" MappingType="Name" MappingValue="BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS" MappingRef="Preferred">
+        <MedGen CUI="C4310923" Name="BARTTER SYNDROME, TYPE 4B, WITH SENSORINEURAL DEAFNESS" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

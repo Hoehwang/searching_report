@@ -1,0 +1,159 @@
+<VariationArchive VariationID="831970" VariationName="NC_000015.10:g.(?_92967305)_(93012464_?)del" VariationType="Deletion" Accession="VCV000831970" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820756" VariationID="831970">
+      <GeneList>
+        <Gene Symbol="CHD2" FullName="chromodomain helicase DNA binding protein 2" GeneID="1106" HGNC_ID="HGNC:1917" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="92900324" stop="93027996" display_start="92900324" display_stop="93027996" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="93443550" stop="93571236" display_start="93443550" display_stop="93571236" Strand="+" />
+          </Location>
+          <OMIM>602119</OMIM>
+          <Haploinsufficiency last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CHD2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CHD2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.10:g.(?_92967305)_(93012464_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q26.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" innerStart="93510535" innerStop="93555694" display_start="93510535" display_stop="93555694" variantLength="45160" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(?_93510535)_(93555694_?)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(?_93510535)_(93555694_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.10:g.(?_92967305)_(93012464_?)del AND Developmental and epileptic encephalopathy 94" Accession="RCV001032493" Version="6">
+        <ClassifiedConditionList TraitSetID="11671">
+          <ClassifiedCondition DB="MedGen" ID="C3809278">Developmental and epileptic encephalopathy 94</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23708187</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24207121</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="11671" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18237" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy 94</ElementValue>
+                <XRef ID="MONDO:0014150" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, childhood-onset</ElementValue>
+                <XRef ID="MONDO:0014150" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE94</ElementValue>
+                <XRef Type="MIM" ID="615369" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">CHD2-related neurodevelopmental disorders are characterized by early-onset epileptic encephalopathy (i.e., refractory seizures and cognitive slowing or regression associated with frequent ongoing epileptiform activity). Seizure onset is typically between ages six months and four years. Seizure types typically include drop attacks, myoclonus, and rapid onset of multiple seizure types associated with generalized spike-wave on EEG, atonic-myoclonic-absence seizures, and clinical photosensitivity. Intellectual disability and/or autism spectrum disorders are common.</Attribute>
+                <XRef ID="NBK333201" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13197" />
+                <XRef ID="13197" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">26677509</ID>
+                <ID Source="BookShelf">NBK333201</ID>
+              </Citation>
+              <XRef ID="1942" DB="Orphanet" />
+              <XRef ID="2382" DB="Orphanet" />
+              <XRef ID="C3809278" DB="MedGen" />
+              <XRef ID="MONDO:0014150" DB="MONDO" />
+              <XRef Type="MIM" ID="615369" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357055" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_001271.3_15_Deletion (exons 17-36)|MedGen:C3809278" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195800" DateUpdated="2024-06-09" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23708187</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24207121</ID>
+          </Citation>
+          <Comment>Loss-of-function variants in CHD2 are known to be pathogenic (PMID: 23708187, 24207121). For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals with CHD2-related conditions. This variant is an out-of-frame deletion of the genomic region encompassing exons 17-36 of the CHD2 gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CHD2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(?_93510535)_(93555694_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3809278" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357055" TraitType="Disease" MappingType="XRef" MappingValue="C3809278" MappingRef="MedGen">
+        <MedGen CUI="C3809278" Name="Developmental and epileptic encephalopathy 94" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="1027670" VariationName="NM_001031743.3(CFAP206):c.1430dup (p.Asn477fs)" VariationType="Duplication" Accession="VCV001027670" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1015434" VariationID="1027670">
+      <GeneList>
+        <Gene Symbol="CFAP206" FullName="cilia and flagella associated protein 206" GeneID="154313" HGNC_ID="HGNC:21405" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q15</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="87407972" stop="87464465" display_start="87407972" display_stop="87464465" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="88117689" stop="88174190" display_start="88117689" display_stop="88174190" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_001031743.3(CFAP206):c.1430dup (p.Asn477fs)</Name>
+      <CanonicalSPDI>NC_000006.12:87434981:AAAAAAAA:AAAAAAAAA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>6q15</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="87434981" stop="87434982" display_start="87434981" display_stop="87434982" variantLength="1" positionVCF="87434981" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="88144699" stop="88144700" display_start="88144699" display_stop="88144700" variantLength="1" positionVCF="88144699" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>N477fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.88144707dup" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.88144707dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.87434989dup" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.87434989dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001031743.3" sequenceAccession="NM_001031743" sequenceVersion="3" change="c.1430dup" MANESelect="true">
+            <Expression>NM_001031743.3:c.1430dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001026913.1" sequenceAccession="NP_001026913" sequenceVersion="1" change="p.Asn477fs">
+            <Expression>NP_001026913.1:p.Asn477fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="751492244" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001031743.3(CFAP206):c.1430dup (p.Asn477fs) AND Abnormal sperm tail morphology" Accession="RCV001328500" Version="2">
+        <ClassifiedConditionList TraitSetID="43789">
+          <ClassifiedCondition DB="MedGen" ID="C4022699">Abnormal sperm tail morphology</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-03-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-03-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24360805</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="43789" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="30748" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Abnormal sperm tail morphology</ElementValue>
+                <XRef ID="HP:0012868" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C4022699" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0012868" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2994075" SubmissionDate="2021-03-18" DateLastUpdated="2021-03-22" DateCreated="2021-03-22">
+        <ClinVarSubmissionID localKey="SUB9294549" submittedAssembly="GRCh38" title="SUB9294549" />
+        <ClinVarAccession Accession="SCV001519041" DateUpdated="2021-03-22" DateCreated="2021-03-22" Type="SCV" Version="1" SubmitterName="Genetics of Infertility and Preimplantation Genetic Diagnosis, Centre Hospitalier Universitaire Grenoble Alpes" OrgID="506452" OrganizationCategory="laboratory" OrgAbbreviation="GI-DPI" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-03-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">24360805</ID>
+          </Citation>
+          <Comment>Homozygous male are infertile due to multiple morphological anomalies of the sperm flagella (MMAF).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Iran</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Infertility</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CFAP206">
+              <Name>cilia and flagella associated protein 206</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001031743.3:c.1430dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0012868" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9294549</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2994075" TraitType="Disease" MappingType="XRef" MappingValue="HP:0012868" MappingRef="HP">
+        <MedGen CUI="C4022699" Name="Abnormal sperm tail morphology" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

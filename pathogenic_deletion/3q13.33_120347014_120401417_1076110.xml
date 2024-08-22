@@ -1,0 +1,188 @@
+<VariationArchive VariationID="1076110" VariationName="NM_000187.4(HGD):c.1185del (p.Met396fs)" VariationType="Deletion" Accession="VCV001076110" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-05" DateCreated="2021-05-10" MostRecentSubmission="2024-02-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1059573" VariationID="1076110">
+      <GeneList>
+        <Gene Symbol="HGD" FullName="homogentisate 1,2-dioxygenase" GeneID="3081" HGNC_ID="HGNC:4892" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="120628172" stop="120682239" display_start="120628172" display_stop="120682239" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="120347014" stop="120401417" display_start="120347014" display_stop="120401417" Strand="-" />
+          </Location>
+          <OMIM>607474</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000187.4(HGD):c.1185del (p.Met396fs)</Name>
+      <CanonicalSPDI>NC_000003.12:120633149:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q13.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="120633150" stop="120633150" display_start="120633150" display_stop="120633150" variantLength="1" positionVCF="120633149" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="120351997" stop="120351997" display_start="120351997" display_stop="120351997" variantLength="1" positionVCF="120351996" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>M396fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.120351998del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.120351998del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.120633151del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.120633151del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011957.1" sequenceAccession="NG_011957" sequenceVersion="1" change="g.54332del">
+            <Expression>NG_011957.1:g.54332del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000187.4" sequenceAccession="NM_000187" sequenceVersion="4" change="c.1185del" MANESelect="true">
+            <Expression>NM_000187.4:c.1185del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000178.2" sequenceAccession="NP_000178" sequenceVersion="2" change="p.Met396fs">
+            <Expression>NP_000178.2:p.Met396fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2107489196" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000187.4(HGD):c.1185del (p.Met396fs) AND Alkaptonuria" Accession="RCV001389892" Version="6">
+        <ClassifiedConditionList TraitSetID="812">
+          <ClassifiedCondition DB="MedGen" ID="C0002066">Alkaptonuria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-06-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-06-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2024-02-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23430897</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="812" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="102" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Homogentisic acidura</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Alkaptonuric ochronosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Alkaptonuria</ElementValue>
+                <XRef ID="22213" DB="GeneTests" />
+                <XRef ID="Alkaptonuria/304" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0008753" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Alcaptonuria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ochronosis, hereditary</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Homogentisic acid oxidase deficiency</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AKU</ElementValue>
+                <XRef Type="MIM" ID="203500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5775" />
+                <XRef ID="5775" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Alkaptonuria is caused by deficiency of homogentisate 1,2-dioxygenase, an enzyme that converts homogentisic acid (HGA) to maleylacetoacetic acid in the tyrosine degradation pathway. The three major features of alkaptonuria are dark urine or urine that turns dark on standing, ochronosis (bluish-black pigmentation in connective tissue), and arthritis of the spine and larger joints. Ochronosis generally occurs after age 30 years; arthritis often begins in the third decade. Other manifestations can include pigment in the sclera, ear cartilage, and skin of the hands; aortic or mitral valve calcification or regurgitation and occasionally aortic dilatation; renal stones; prostate stones; and hypothyroidism.</Attribute>
+                <XRef ID="NBK1454" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301627</ID>
+                <ID Source="BookShelf">NBK1454</ID>
+              </Citation>
+              <XRef ID="56" DB="Orphanet" />
+              <XRef ID="C0002066" DB="MedGen" />
+              <XRef ID="MONDO:0008753" DB="MONDO" />
+              <XRef Type="MIM" ID="203500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3117090" SubmissionDate="2024-02-07" DateLastUpdated="2024-02-28" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="11017368|MedGen:C0002066" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001591414" DateUpdated="2024-02-28" DateCreated="2021-05-10" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-06-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23430897</ID>
+          </Citation>
+          <Comment>This variant is not present in population databases (ExAC no frequency). This sequence change results in a premature translational stop signal in the HGD gene (p.Met396Trpfs*9). While this is not anticipated to result in nonsense mediated decay, it is expected to disrupt the last 50 amino acids of the HGD protein. This variant has not been reported in the literature in individuals with HGD-related conditions. For these reasons, this variant has been classified as Pathogenic. This variant disrupts the C-terminus of the HGD protein. Other variant(s) that disrupt this region (p.Lys431Hisfs*11) have been determined to be pathogenic (PMID: 23430897). This suggests that variants that disrupt this region of the protein are likely to be causative of disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HGD" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.120351997del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0002066" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12506961</SubmissionName>
+          <SubmissionName>SUB14200269</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3117090" TraitType="Disease" MappingType="XRef" MappingValue="C0002066" MappingRef="MedGen">
+        <MedGen CUI="C0002066" Name="Alkaptonuria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

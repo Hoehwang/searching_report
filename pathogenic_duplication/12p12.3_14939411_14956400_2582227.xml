@@ -1,0 +1,135 @@
+<VariationArchive VariationID="2582227" VariationName="NM_016312.3(WBP11):c.1521dup (p.Arg508fs)" VariationType="Duplication" Accession="VCV002582227" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-10-07" MostRecentSubmission="2023-10-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2749803" VariationID="2582227">
+      <GeneList>
+        <Gene Symbol="WBP11" FullName="WW domain binding protein 11" GeneID="51729" HGNC_ID="HGNC:16461" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="14784582" stop="14803478" display_start="14784582" display_stop="14803478" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="14939411" stop="14956400" display_start="14939411" display_stop="14956400" Strand="-" />
+          </Location>
+          <OMIM>618083</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_016312.3(WBP11):c.1521dup (p.Arg508fs)</Name>
+      <CanonicalSPDI>NC_000012.12:14787469:C:CC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>12p12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="14787469" stop="14787470" display_start="14787469" display_stop="14787470" variantLength="1" positionVCF="14787469" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="14940403" stop="14940404" display_start="14940403" display_stop="14940404" variantLength="1" positionVCF="14940403" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+      </Location>
+      <ProteinChange>R508fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.14940404dup" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.14940404dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.14787470dup" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.14787470dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016312.3" sequenceAccession="NM_016312" sequenceVersion="3" change="c.1521dup" MANESelect="true">
+            <Expression>NM_016312.3:c.1521dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_057396.1" sequenceAccession="NP_057396" sequenceVersion="1" change="p.Arg508fs">
+            <Expression>NP_057396.1:p.Arg508fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_016312.3(WBP11):c.1521dup (p.Arg508fs) AND Vertebral, cardiac, tracheoesophageal, renal, and limb defects" Accession="RCV003332931" Version="2">
+        <ClassifiedConditionList TraitSetID="65804">
+          <ClassifiedCondition DB="MedGen" ID="C5543189">Vertebral, cardiac, tracheoesophageal, renal, and limb defects</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-10-07" MostRecentSubmission="2023-10-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="65804" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55907" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">VCTERL SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="619227" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Vertebral, cardiac, tracheoesophageal, renal, and limb defects</ElementValue>
+                <XRef ID="MONDO:0030987" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">VCTERL</ElementValue>
+                <XRef Type="MIM" ID="619227" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5543189" DB="MedGen" />
+              <XRef ID="MONDO:0030987" DB="MONDO" />
+              <XRef Type="MIM" ID="619227" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7561032" SubmissionDate="2023-10-04" DateLastUpdated="2023-10-07" DateCreated="2023-10-07">
+        <ClinVarSubmissionID localKey="SUB13874987" submittedAssembly="GRCh38" title="SUB13874987" />
+        <ClinVarAccession Accession="SCV004037376" DateUpdated="2023-10-07" DateCreated="2023-10-07" Type="SCV" Version="1" SubmitterName="Department of Rehabilitation Medicine, Incheon St. Mary’s Hospital, College of Medicine, The Catholic University of Korea" OrgID="506870" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_016312.3:c.1521dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619227" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13874987</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7561032" TraitType="Disease" MappingType="XRef" MappingValue="619227" MappingRef="OMIM">
+        <MedGen CUI="C5543189" Name="Vertebral, cardiac, tracheoesophageal, renal, and limb defects" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="1072401" VariationName="NC_000011.9:g.(?_10215443)_(10215540_?)del" VariationType="Deletion" Accession="VCV001072401" Version="7" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2021-05-10" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1057487" VariationID="1072401">
+      <GeneList>
+        <Gene Symbol="SBF2" FullName="SET binding factor 2" GeneID="81846" HGNC_ID="HGNC:2135" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="9778668" stop="10303837" display_start="9778668" display_stop="10303837" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="9800213" stop="10315753" display_start="9800213" display_stop="10315753" Strand="-" />
+          </Location>
+          <OMIM>607697</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(?_10215443)_(10215540_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="10215443" innerStop="10215540" display_start="10215443" display_stop="10215540" variantLength="98" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_10215443)_(10215540_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_10215443)_(10215540_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(?_10215443)_(10215540_?)del AND Charcot-Marie-Tooth disease type 4" Accession="RCV001385092" Version="7">
+        <ClassifiedConditionList TraitSetID="12261">
+          <ClassifiedCondition DB="MedGen" ID="C4082197">Charcot-Marie-Tooth disease type 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12687498</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25873783</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12261" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9469" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth, Type 4</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease type 4</ElementValue>
+                <XRef ID="MONDO:0018995" DB="MONDO" />
+                <XRef ID="715795005" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMT4</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12440" />
+                <XRef ID="12440" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301532</ID>
+                <ID Source="BookShelf">NBK1358</ID>
+              </Citation>
+              <XRef ID="64749" DB="Orphanet" />
+              <XRef ID="C4082197" DB="MedGen" />
+              <XRef ID="MONDO:0018995" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3110468" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_030962.3_11_Deletion (exon 2)|MedGen:CN043578" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001584822" DateUpdated="2023-11-11" DateCreated="2021-05-10" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12687498</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25873783</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 2 of the SBF2 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in SBF2 are known to be pathogenic (PMID: 12687498, 25873783). This variant has not been reported in the literature in individuals affected with SBF2-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SBF2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_10215443)_(10215540_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN043578" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3110468" TraitType="Disease" MappingType="XRef" MappingValue="CN043578" MappingRef="MedGen">
+        <MedGen CUI="C4082197" Name="Charcot-Marie-Tooth disease type 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

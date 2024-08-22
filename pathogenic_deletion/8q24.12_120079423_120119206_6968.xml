@@ -1,0 +1,188 @@
+<VariationArchive RecordType="classified" VariationID="6968" VariationName="nsv513786" VariationType="Deletion" Accession="VCV000006968" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-07-05" MostRecentSubmission="2015-07-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="22007" VariationID="6968">
+      <GeneList>
+        <Gene Symbol="COLEC10" FullName="collectin subfamily member 10" GeneID="10584" HGNC_ID="HGNC:2220" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8q24.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="118952263" stop="119108455" display_start="118952263" display_stop="119108455" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="120079423" stop="120119206" display_start="120079423" display_stop="120119206" Strand="+" />
+          </Location>
+          <OMIM>607620</OMIM>
+        </Gene>
+        <Gene Symbol="TNFRSF11B" FullName="TNF receptor superfamily member 11b" GeneID="4982" HGNC_ID="HGNC:11909" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8q24.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="118923557" stop="118951885" display_start="118923557" display_stop="118951885" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="119935795" stop="119964382" display_start="119935795" display_stop="119964382" Strand="-" />
+          </Location>
+          <OMIM>602643</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>nsv513786</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="118920356" stop="119017859" display_start="118920356" display_stop="119017859" variantLength="97504" Strand="-" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="119932595" stop="120030098" display_start="119932595" display_stop="120030098" variantLength="97504" />
+      </Location>
+      <OtherNameList>
+        <Name>100-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.119932595_120030098del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.119932595_120030098del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv1415014" DB="dbVar" />
+        <XRef ID="nsv513786" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="602643.0001" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">Approximately 100-kb deletion spanning the TNFRSF11B gene plus flanking genomic sequences.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 12124406 Fig. 3 to determine the location of this deletion on the current reference sequence.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="nsv513786 AND Hyperphosphatasemia with bone disease" Accession="RCV000007383" Version="4">
+        <ClassifiedConditionList TraitSetID="1923">
+          <ClassifiedCondition DB="MedGen" ID="C0268414">Hyperphosphatasemia with bone disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2002-07-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2002-07-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-07-05" MostRecentSubmission="2015-07-05">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">106682</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">12124406</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1923" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3256" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hyperphosphatasemia with bone disease</ElementValue>
+                <XRef ID="Hyperphosphatasemia+with+bone+disease/8599" DB="Genetic Alliance" />
+                <XRef ID="9723006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PAGET DISEASE OF BONE 5, JUVENILE-ONSET</ElementValue>
+                <XRef Type="MIM" ID="239000" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602643.0005" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Paget disease of bone 5</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Osteoectasia familial</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hyperostosis corticalis deformans juvenilis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hyperphosphatasia, familial idiopathic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hyperphosphatasemia, chronic congenital idiopathic</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PDB5</ElementValue>
+                <XRef Type="MIM" ID="239000" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">JPD</ElementValue>
+                <XRef Type="MIM" ID="239000" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2831" />
+                <XRef ID="2831" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2801" DB="Orphanet" />
+              <XRef ID="C0268414" DB="MedGen" />
+              <XRef ID="MONDO:0009394" DB="MONDO" />
+              <XRef Type="MIM" ID="239000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="27582" SubmissionDate="2015-07-01" DateLastUpdated="2015-07-05" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="602643.0001_PAGET DISEASE OF BONE 5, JUVENILE-ONSET" title="TNFRSF11B, 100-KB DEL_PAGET DISEASE OF BONE 5, JUVENILE-ONSET" />
+        <ClinVarAccession Accession="SCV000027582" DateUpdated="2015-07-05" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2002-07-18">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Whyte et al. (2002) found homozygosity for a deletion of approximately 100 kb in the TNFRSF11B gene in 2 apparently unrelated Navajo patients with juvenile Paget disease (PDB5; 239000). The first patient had been seen at 1 year of age because of bone deformities and failure to thrive, having appeared well until the age of 5 months when he was found to have a misshapen skull and thorax. At 7 months of age, skeletal abnormalities were interpreted as typical of juvenile Paget disease. He was deaf with a disproportionately large head. Markers of skeletal turnover included a striking elevation in serum alkaline phosphatase activity, resulting from increased amounts of the alkaline phosphatase isoform emanating from bone, which reflected increased formation of osseous tissue, and excessive urinary excretion of deoxypyridinoline, which reflected enhanced resorption of osseous tissue. Clinical and radiographic improvement followed daily subcutaneous injections of synthetic salmon calcitonin. Because of inconsistent administration of therapy, the child was still below the third percentile for height and weight and had active bone disease when seen at the age of 7 years. The second patient was a 26-year-old Navajo woman who was deaf, severely deformed, and incapacitated. Her case had been reported by Dunn et al. (1979) along with the case of an unrelated Navajo child with the same disorder, both of whom had benefited from injections of synthetic human calcitonin. Therapy had not been given for 2 decades, however, and her serum alkaline phosphatase activity was 838 IU per liter (normal range, 36 to 136). The patient died from pneumonia and heart failure 3 months after being seen by Whyte et al. (2002).</Attribute>
+              <Citation>
+                <ID Source="PubMed">12124406</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">106682</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="239000" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TNFRSF11B" />
+          </GeneList>
+          <Name>TNFRSF11B, 100-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">100-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="602643.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PAGET DISEASE OF BONE 5, JUVENILE-ONSET</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="27582" TraitType="Disease" MappingType="Name" MappingValue="PAGET DISEASE OF BONE 5, JUVENILE-ONSET" MappingRef="Preferred">
+        <MedGen CUI="C0268414" Name="Hyperphosphatasemia with bone disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

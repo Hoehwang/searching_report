@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="1015503" VariationName="NC_000012.11:g.(?_133263830)_(133263901_?)del" VariationType="Deletion" Accession="VCV001015503" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2021-03-14" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1001701" VariationID="1015503">
+      <GeneList>
+        <Gene Symbol="POLE" FullName="DNA polymerase epsilon, catalytic subunit" GeneID="5426" HGNC_ID="HGNC:9177" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="132623762" stop="132687342" display_start="132623762" display_stop="132687342" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="133200347" stop="133263944" display_start="133200347" display_stop="133263944" Strand="-" />
+          </Location>
+          <OMIM>174762</OMIM>
+          <Haploinsufficiency last_evaluated="2019-12-16" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=POLE">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-12-16" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=POLE">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.11:g.(?_133263830)_(133263901_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="133263830" innerStop="133263901" display_start="133263830" display_stop="133263901" variantLength="72" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_133263830)_(133263901_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_133263830)_(133263901_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.11:g.(?_133263830)_(133263901_?)del AND Colorectal cancer, susceptibility to, 12" Accession="RCV001314372" Version="2">
+        <ClassifiedConditionList TraitSetID="9306">
+          <ClassifiedCondition DB="MedGen" ID="C3554460">Colorectal cancer, susceptibility to, 12</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-03-14" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23230001</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25948378</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30503519</ID>
+        </Citation>
+        <DescriptionHistory Dated="2023-03-24">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9306" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17645" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">COLORECTAL CANCER, SUSCEPTIBILITY TO, ON CHROMOSOME 12q24</ElementValue>
+                <XRef Type="MIM" ID="615083" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Colorectal cancer, susceptibility to, 12</ElementValue>
+                <XRef ID="MONDO:0014038" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CRCS12</ElementValue>
+                <XRef Type="MIM" ID="615083" DB="OMIM" />
+              </Symbol>
+              <XRef ID="220460" DB="Orphanet" />
+              <XRef ID="C3554460" DB="MedGen" />
+              <XRef ID="MONDO:0014038" DB="MONDO" />
+              <XRef Type="MIM" ID="615083" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2963465" SubmissionDate="2023-03-21" DateLastUpdated="2023-03-26" DateCreated="2021-03-14">
+        <ClinVarSubmissionID localKey="NM_006231.3_Deletion (Exon 1)|MedGen:C3554460" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001504901" DateUpdated="2023-03-26" DateCreated="2021-03-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23230001</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25948378</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">30503519</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 1 of the POLE gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in POLE are known to be pathogenic (PMID: 23230001, 25948378, 30503519). This variant has not been reported in the literature in individuals affected with POLE-related conditions. Experimental studies and prediction algorithms are not available or were not evaluated, and the functional significance of this variant is currently unknown. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="POLE" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.(?_133263830)_(133263901_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3554460" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2963465" TraitType="Disease" MappingType="XRef" MappingValue="C3554460" MappingRef="MedGen">
+        <MedGen CUI="C3554460" Name="Colorectal cancer, susceptibility to, 12" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

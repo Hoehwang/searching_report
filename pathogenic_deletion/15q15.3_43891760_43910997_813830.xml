@@ -1,0 +1,153 @@
+<VariationArchive VariationID="813830" VariationName="15q15.3 deletion" VariationType="Deletion" Accession="VCV000813830" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2020-07-29" MostRecentSubmission="2020-07-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="802083" VariationID="813830">
+      <GeneList>
+        <Gene Symbol="STRC" FullName="stereocilin" GeneID="161497" HGNC_ID="HGNC:16035" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>15q15.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="43599563" stop="43618800" display_start="43599563" display_stop="43618800" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="43891760" stop="43910997" display_start="43891760" display_stop="43910997" Strand="-" />
+          </Location>
+          <OMIM>606440</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>15q15.3 deletion</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q15.3</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>15q15.3deletion</Name>
+      </OtherNameList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="15q15.3 deletion AND Autosomal recessive nonsyndromic hearing loss 16" Accession="RCV001004807" Version="2">
+        <ClassifiedConditionList TraitSetID="1197">
+          <ClassifiedCondition DB="MedGen" ID="C1863561">Autosomal recessive nonsyndromic hearing loss 16</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-29" MostRecentSubmission="2020-07-29">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="DOI">10.1111/cge.13817</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31552524</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1197" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1709" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DFNB16 Nonsyndromic Hearing Loss and Deafness</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Deafness, autosomal recessive 16</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive nonsyndromic hearing loss 16</ElementValue>
+                <XRef ID="MONDO:0011364" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DFNB16</ElementValue>
+                <XRef Type="MIM" ID="603720" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="22597" />
+                <XRef ID="22597" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301607</ID>
+                <ID Source="BookShelf">NBK1434</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">38109326</ID>
+                <ID Source="BookShelf">NBK598310</ID>
+              </Citation>
+              <XRef ID="90636" DB="Orphanet" />
+              <XRef ID="C1863561" DB="MedGen" />
+              <XRef ID="MONDO:0011364" DB="MONDO" />
+              <XRef Type="MIM" ID="603720" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2293946" SubmissionDate="2020-03-05" DateLastUpdated="2020-07-29" DateCreated="2020-07-29">
+        <ClinVarSubmissionID localKey="15q15.3 deletion|OMIM:603720" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001164296" DateUpdated="2020-07-29" DateCreated="2020-07-29" Type="SCV" Version="1" SubmitterName="Laboratory of Prof. Karen Avraham, Tel Aviv University" OrgID="505713" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="DOI">10.1111/cge.13817</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">31552524</ID>
+          </Citation>
+          <Comment>Recessive, congenital, moderate NSHL</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Mixed Jewish</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="STRC" />
+          </GeneList>
+          <Name>15q15.3 deletion</Name>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <CytogeneticLocation>15q15.3</CytogeneticLocation>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603720" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="DOI">10.1111/cge.13817</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="DOI">10.1111/cge.13817</ID>
+        </Citation>
+        <Comment>15q15.3 deletion includes g.15:43,892,353-43,910,998 including 27/29 coding exons of STRC NM_153700.2</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB7101997</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2293946" TraitType="Disease" MappingType="XRef" MappingValue="603720" MappingRef="OMIM">
+        <MedGen CUI="C1863561" Name="Autosomal recessive nonsyndromic hearing loss 16" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

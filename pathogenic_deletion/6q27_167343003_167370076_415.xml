@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="415" VariationName="NM_003730.6(RNASET2):c.332+1del" VariationType="Deletion" Accession="VCV000000415" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-30" DateCreated="2013-04-04" MostRecentSubmission="2023-12-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="15454" VariationID="415">
+      <GeneList>
+        <Gene Symbol="RNASET2" FullName="ribonuclease T2" GeneID="8635" HGNC_ID="HGNC:21686" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q27</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="166922113" stop="166956550" display_start="166922113" display_stop="166956550" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="167343003" stop="167370076" display_start="167343003" display_stop="167370076" Strand="-" />
+          </Location>
+          <OMIM>612944</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003730.6(RNASET2):c.332+1del</Name>
+      <CanonicalSPDI>NC_000006.12:166943017:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q27</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="166943018" stop="166943018" display_start="166943018" display_stop="166943018" variantLength="1" positionVCF="166943017" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="167356506" stop="167356506" display_start="167356506" display_stop="167356506" variantLength="1" positionVCF="167356505" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <OtherNameList>
+        <Name>1-BP DEL, 332+1G</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.167356507del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.167356507del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.166943019del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.166943019del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016280.2" sequenceAccession="NG_016280" sequenceVersion="2" change="g.18572del">
+            <Expression>NG_016280.2:g.18572del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003730.6" sequenceAccession="NM_003730" sequenceVersion="6" change="c.332+1del" MANESelect="true">
+            <Expression>NM_003730.6:c.332+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="612944.0004" DB="OMIM" />
+        <XRef Type="rs" ID="2128645753" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003730.6(RNASET2):c.332+1del AND Cystic leukoencephalopathy without megalencephaly" Accession="RCV000000443" Version="4">
+        <ClassifiedConditionList TraitSetID="115">
+          <ClassifiedCondition DB="MedGen" ID="C2751843">Cystic leukoencephalopathy without megalencephaly</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2009-07-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2009-07-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2023-12-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19525954</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="115" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6923" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cystic leukoencephalopathy without megalencephaly</ElementValue>
+                <XRef ID="MONDO:0013058" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13199" />
+                <XRef ID="13199" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="85136" DB="Orphanet" />
+              <XRef ID="C2751843" DB="MedGen" />
+              <XRef ID="MONDO:0013058" DB="MONDO" />
+              <XRef Type="MIM" ID="612951" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="20592" SubmissionDate="2012-08-08" DateLastUpdated="2023-12-17" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="612944.0004_LEUKOENCEPHALOPATHY, CYSTIC, WITHOUT MEGALENCEPHALY" title="RNASET2, 1-BP DEL, 332+1G_LEUKOENCEPHALOPATHY, CYSTIC, WITHOUT MEGALENCEPHALY" />
+        <ClinVarAccession Accession="SCV000020592" DateUpdated="2023-12-17" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2009-07-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a Spanish boy with cystic leukoencephalopathy (612951), Henneke et al. (2009) identified a homozygous 1-bp deletion (332+1delG) in the donor splice site of exon 5 of the RNASET2 gene, resulting in altered transcripts with deleted exons. The patient had onset of neurologic impairment by age 3 months. At age 2 years, he had no head control, no use of his hands, seizures, and poor social contact.</Attribute>
+              <Citation>
+                <CitationText>Henneke, M., Diekmann, S., Ohlenbusch, A., Kaiser, J., Engelbrecht, V., Kohlschutter, A., Kratzner, R., Madruga-Garrido, M., Mayer, M., Opitz, L., Rodriguez, D., Ruschendorf, F., Schumacher, J., Thiele, H., Thoms, S., Steinfeld, R., Nurnberg, P., Gartner, J. RNASET2-deficient cystic leukoencephalopathy resembles congenital cytomegalovirus brain infection. Nature Genet. 41: 773-775, 2009.</CitationText>
+              </Citation>
+              <XRef DB="OMIM" ID="612951" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RNASET2" />
+          </GeneList>
+          <Name>RNASET2, 1-BP DEL, 332+1G</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 332+1G</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="612944.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">LEUKOENCEPHALOPATHY, CYSTIC, WITHOUT MEGALENCEPHALY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="20592" TraitType="Disease" MappingType="Name" MappingValue="LEUKOENCEPHALOPATHY, CYSTIC, WITHOUT MEGALENCEPHALY" MappingRef="Preferred">
+        <MedGen CUI="C2751843" Name="Cystic leukoencephalopathy without megalencephaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

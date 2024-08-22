@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="812915" VariationName="NC_000021.9:g.34791392_34804065del" VariationType="Deletion" Accession="VCV000812915" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-02-27" MostRecentSubmission="2020-02-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801209" VariationID="812915">
+      <GeneList>
+        <Gene Symbol="RUNX1" FullName="RUNX family transcription factor 1" GeneID="861" HGNC_ID="HGNC:10471" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>21q22.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="34787801" stop="35049302" display_start="34787801" display_stop="35049302" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="36160097" stop="36421594" display_start="36160097" display_stop="36421594" Strand="-" />
+          </Location>
+          <OMIM>151385</OMIM>
+          <Haploinsufficiency last_evaluated="2012-08-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RUNX1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-08-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RUNX1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000021.9:g.34791392_34804065del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="36163689" stop="36176362" display_start="36163689" display_stop="36176362" variantLength="12674" alternateAllele="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Type="genomic, top-level">
+          <NucleotideExpression>
+            <Expression>NC_000021.9:g.34791392_34804065del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.36163689_36176362del" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.36163689_36176362del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000021.9:g.34791392_34804065del AND Thrombocytopenia" Accession="RCV001003849" Version="1">
+        <ClassifiedConditionList TraitSetID="17052">
+          <ClassifiedCondition DB="MedGen" ID="C0040034">Thrombocytopenia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-27" MostRecentSubmission="2020-02-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="17052" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="31824" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Thrombocytopenia</ElementValue>
+                <XRef ID="HP:0001873" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0002049" DB="MONDO" />
+              </Name>
+              <XRef ID="C0040034" DB="MedGen" />
+              <XRef ID="D013921" DB="MeSH" />
+              <XRef ID="MONDO:0002049" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0001873" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001906" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0004838" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0008175" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0008268" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0008302" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2290376" SubmissionDate="2019-09-13" DateLastUpdated="2020-02-27" DateCreated="2020-02-27">
+        <ClinVarSubmissionID localKey="36163689_HP:0001873" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162302" DateUpdated="2020-02-27" DateCreated="2020-02-27" Type="SCV" Version="1" SubmitterName="NIHR Bioresource Rare Diseases, University of Cambridge" OrgID="505998" OrganizationCategory="consortium" OrgAbbreviation="NIHR BR RD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32581362</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">H008081</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RUNX1" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="21" alternateAllele="-" start="36163689" stop="36176362" variantLength="12674" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0001873" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>NIHR_Bioresource_Rare_Diseases_13k</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2290376" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001873" MappingRef="HP">
+        <MedGen CUI="C0040034" Name="Thrombocytopenia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

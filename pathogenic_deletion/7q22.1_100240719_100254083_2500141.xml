@@ -1,0 +1,165 @@
+<VariationArchive RecordType="classified" VariationID="2500141" VariationName="NM_016188.5(ACTL6B):c.628del (p.Met210fs)" VariationType="Deletion" Accession="VCV002500141" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-07" DateCreated="2023-10-07" MostRecentSubmission="2023-10-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2503075" VariationID="2500141">
+      <GeneList>
+        <Gene Symbol="ACTL6B" FullName="actin like 6B" GeneID="51412" HGNC_ID="HGNC:160" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="100643097" stop="100656448" display_start="100643097" display_stop="100656448" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="100240719" stop="100254083" display_start="100240719" display_stop="100254083" Strand="-" />
+          </Location>
+          <OMIM>612458</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_016188.5(ACTL6B):c.628del (p.Met210fs)</Name>
+      <CanonicalSPDI>NC_000007.14:100648596:T:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="100648597" stop="100648597" display_start="100648597" display_stop="100648597" variantLength="1" positionVCF="100648596" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="100246220" stop="100246220" display_start="100246220" display_stop="100246220" variantLength="1" positionVCF="100246219" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>M210fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.100246220del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.100246220del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.100648597del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.100648597del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016188.5" sequenceAccession="NM_016188" sequenceVersion="5" change="c.628del" MANESelect="true">
+            <Expression>NM_016188.5:c.628del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_057272.1" sequenceAccession="NP_057272" sequenceVersion="1" change="p.Met210fs">
+            <Expression>NP_057272.1:p.Met210fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_134539.2" sequenceAccession="NR_134539" sequenceVersion="2" change="n.722del">
+            <Expression>NR_134539.2:n.722del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_016188.5(ACTL6B):c.628del (p.Met210fs) AND Developmental and epileptic encephalopathy, 76" Accession="RCV003331537" Version="1">
+        <ClassifiedConditionList TraitSetID="47869">
+          <ClassifiedCondition DB="MedGen" ID="C5193113">Developmental and epileptic encephalopathy, 76</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-10-07" MostRecentSubmission="2023-10-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="47869" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="42118" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 76</ElementValue>
+                <XRef Type="MIM" ID="618468" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="612458.0006" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">DEVELOPMENTAL DELAY, EPILEPTIC ENCEPHALOPATHY, CEREBRAL ATROPHY, AND ABNORMAL MYELINATION</ElementValue>
+                <XRef Type="MIM" ID="618468" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 76</ElementValue>
+                <XRef ID="MONDO:0032768" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DEE76</ElementValue>
+                <XRef Type="MIM" ID="618468" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">DECAM</ElementValue>
+                <XRef Type="MIM" ID="618468" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">EIEE76</ElementValue>
+                <XRef Type="MIM" ID="618468" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193113" DB="MedGen" />
+              <XRef ID="MONDO:0032768" DB="MONDO" />
+              <XRef Type="MIM" ID="618468" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7329070" SubmissionDate="2023-04-03" DateLastUpdated="2023-10-07" DateCreated="2023-10-07">
+        <ClinVarSubmissionID localKey="R25" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003920665" DateUpdated="2023-10-07" DateCreated="2023-10-07" Type="SCV" Version="1" SubmitterName="Houlden Lab, UCL Institute of Neurology" OrgID="508188" OrganizationCategory="laboratory" OrgAbbreviation="UCL_ION" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACTL6B" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_016188.4:c.628del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618468" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>ACTL6B</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7329070" TraitType="Disease" MappingType="XRef" MappingValue="618468" MappingRef="OMIM">
+        <MedGen CUI="C5193113" Name="Developmental and epileptic encephalopathy, 76" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

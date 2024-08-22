@@ -1,0 +1,128 @@
+<VariationArchive RecordType="classified" VariationID="618994" VariationName="NC_000007.13:g.(101759560_?)_(?_101893297)del" VariationType="Deletion" Accession="VCV000618994" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-02-23" MostRecentSubmission="2019-02-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="610392" VariationID="618994">
+      <GeneList>
+        <Gene Symbol="CUX1" FullName="cut like homeobox 1" GeneID="1523" HGNC_ID="HGNC:2557" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="101816007" stop="102283958" display_start="101816007" display_stop="102283958" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="101459183" stop="101927249" display_start="101459183" display_stop="101927249" Strand="+" />
+          </Location>
+          <OMIM>116896</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.13:g.(101759560_?)_(?_101893297)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" outerStart="101759560" outerStop="101893297" display_start="101759560" display_stop="101893297" variantLength="133740" />
+      </Location>
+      <OtherNameList>
+        <Name>EX9-24DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(101759560_?)_(?_101893297)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(101759560_?)_(?_101893297)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="116896.0006" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.13:g.(101759560_?)_(?_101893297)del AND Global developmental delay with or without impaired intellectual development" Accession="RCV000757900" Version="2">
+        <ClassifiedConditionList TraitSetID="46407">
+          <ClassifiedCondition DB="MedGen" ID="C5193032">Global developmental delay with or without impaired intellectual development</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-02-23" MostRecentSubmission="2019-02-23">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30014507</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="46407" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41412" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Global developmental delay with or without impaired intellectual development</ElementValue>
+                <XRef ID="MONDO:0032680" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GDDI</ElementValue>
+                <XRef Type="MIM" ID="618330" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193032" DB="MedGen" />
+              <XRef ID="MONDO:0032680" DB="MONDO" />
+              <XRef Type="MIM" ID="618330" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1735330" SubmissionDate="2019-02-19" DateLastUpdated="2019-02-23" DateCreated="2019-02-23">
+        <ClinVarSubmissionID localKey="116896.0006_GLOBAL DEVELOPMENTAL DELAY WITH IMPAIRED INTELLECTUAL DEVELOPMENT" title="CUX1, EX9-24DEL_GLOBAL DEVELOPMENTAL DELAY WITH IMPAIRED INTELLECTUAL DEVELOPMENT" />
+        <ClinVarAccession Accession="SCV000886410" DateUpdated="2019-02-23" DateCreated="2019-02-23" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5-year-old boy (individual 8) with global developmental delay with impaired intellectual development (GDDI; 618330), Platzer et al. (2018) identified a de novo heterozygous intragenic deletion (chr7.101759560_101893297del, GRCh37) encompassing exons 9-24 of the CUX1 gene. The mutation was found by array CNV analysis. The boy had first speech at age 36 months and had moderately impaired intellectual development. At the time of report, he said only a few words. He started walking at age 18 months and had poor coordination. His height was 2 to 3 SD below the mean, weight 2 SD below the mean, and head circumference not recorded. He had hypospadias and atrial septal defect (ASD). His father and sister also had ASD.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30014507</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618330" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CUX1" />
+          </GeneList>
+          <Name>CUX1, EX9-24DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX9-24DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="116896.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">GLOBAL DEVELOPMENTAL DELAY WITH IMPAIRED INTELLECTUAL DEVELOPMENT</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

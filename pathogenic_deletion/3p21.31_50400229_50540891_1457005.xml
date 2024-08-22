@@ -1,0 +1,148 @@
+<VariationArchive VariationID="1457005" VariationName="NC_000003.11:g.(?_50513539)_(50540854_?)del" VariationType="Deletion" Accession="VCV001457005" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1477744" VariationID="1457005">
+      <GeneList>
+        <Gene Symbol="CACNA2D2" FullName="calcium voltage-gated channel auxiliary subunit alpha2delta 2" GeneID="9254" HGNC_ID="HGNC:1400" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3p21.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="50362613" stop="50504244" display_start="50362613" display_stop="50504244" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="50400229" stop="50540891" display_start="50400229" display_stop="50540891" Strand="-" />
+          </Location>
+          <OMIM>607082</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.(?_50513539)_(50540854_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3p21.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="50513539" innerStop="50540854" display_start="50513539" display_stop="50540854" variantLength="27316" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_50513539)_(50540854_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_50513539)_(50540854_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.(?_50513539)_(50540854_?)del AND Early infantile epileptic encephalopathy with suppression bursts" Accession="RCV001972525" Version="6">
+        <ClassifiedConditionList TraitSetID="21987">
+          <ClassifiedCondition DB="MedGen" ID="C0393706">Early infantile epileptic encephalopathy with suppression bursts</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24358150</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="21987" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32998" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Early infantile epileptic encephalopathy</ElementValue>
+                <XRef ID="1934" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ohtahara syndrome</ElementValue>
+                <XRef ID="1934" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Early infantile epileptic encephalopathy with suppression bursts</ElementValue>
+                <XRef ID="230429005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Developmental and epileptic encephalopathy</ElementValue>
+                <XRef ID="MONDO:0100062" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EIEE</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9255" />
+                <XRef ID="9255" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1934" DB="Orphanet" />
+              <XRef ID="C0393706" DB="MedGen" />
+              <XRef ID="MONDO:0100062" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS308350" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4256694" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_006030.3_3_Deletion (exons 1-2)|MedGen:C0393706" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002245829" DateUpdated="2024-06-09" DateCreated="2022-03-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24358150</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with CACNA2D2-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 1-2 of the CACNA2D2 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in CACNA2D2 are known to be pathogenic (PMID: 24358150).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CACNA2D2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_50513539)_(50540854_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0393706" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4256694" TraitType="Disease" MappingType="XRef" MappingValue="C0393706" MappingRef="MedGen">
+        <MedGen CUI="C0393706" Name="Early infantile epileptic encephalopathy with suppression bursts" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,128 @@
+<VariationArchive RecordType="classified" VariationID="242880" VariationName="Single allele" VariationType="Deletion" Accession="VCV000242880" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-19" DateCreated="2017-06-25" MostRecentSubmission="2017-06-25">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="244005" VariationID="242880">
+      <GeneList>
+        <Gene Symbol="GRID2" FullName="glutamate ionotropic receptor delta type subunit 2" GeneID="2895" HGNC_ID="HGNC:4576" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q22.1-22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="92303966" stop="93810456" display_start="92303966" display_stop="93810456" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="93225549" stop="94693648" display_start="93225549" display_stop="94693648" Strand="+" />
+          </Location>
+          <OMIM>602368</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="93978239" innerStop="94078203" display_start="93978239" display_stop="94078203" variantLength="99965" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_93978239)_(94078203_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_93978239)_(94078203_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Autosomal recessive spinocerebellar ataxia 18" Accession="RCV000491645" Version="1">
+        <ClassifiedConditionList TraitSetID="20564">
+          <ClassifiedCondition DB="MedGen" ID="C4015505">Autosomal recessive spinocerebellar ataxia 18</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2016-01-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-01-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-06-25" MostRecentSubmission="2017-06-25">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20564" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32672" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive spinocerebellar ataxia 18</ElementValue>
+                <XRef ID="MONDO:0014530" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SCAR18</ElementValue>
+                <XRef Type="MIM" ID="616204" DB="OMIM" />
+              </Symbol>
+              <XRef ID="363432" DB="Orphanet" />
+              <XRef ID="C4015505" DB="MedGen" />
+              <XRef ID="MONDO:0014530" DB="MONDO" />
+              <XRef Type="MIM" ID="616204" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="556675" SubmissionDate="2016-06-20" DateLastUpdated="2017-06-25" DateCreated="2017-06-25">
+        <ClinVarSubmissionID localKey="BAB6883-Del|OMIM:616204" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000282199" DateUpdated="2017-06-25" DateCreated="2017-06-25" Type="SCV" Version="1" SubmitterName="Lupski Lab, Baylor-Hopkins CMG, Baylor College of Medicine" OrgID="505572" OrganizationCategory="laboratory" OrgAbbreviation="BHCMG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-01-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData>
+                <FamilyHistory>no</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GRID2" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" innerStart="93978239" innerStop="94078203" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616204" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>The combination of WES, CNV-derived from WES, paralog studies, and GeneMatcher provide potential molecular diagnosis in a cohort from Saudi Arabia</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>Charng_BMC_Medical_Genomics_2016_Saudi_Arabia_cohort</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="556675" TraitType="Disease" MappingType="XRef" MappingValue="616204" MappingRef="OMIM">
+        <MedGen CUI="C4015505" Name="Autosomal recessive spinocerebellar ataxia 18" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

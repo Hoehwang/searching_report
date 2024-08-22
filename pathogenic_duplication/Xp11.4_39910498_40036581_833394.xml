@@ -1,0 +1,137 @@
+<VariationArchive VariationID="833394" VariationName="NC_000023.11:g.(?_40070953)_(40077949_?)dup" VariationType="Duplication" Accession="VCV000833394" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="821790" VariationID="833394">
+      <GeneList>
+        <Gene Symbol="BCOR" FullName="BCL6 corepressor" GeneID="54880" HGNC_ID="HGNC:20893" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="40051246" stop="40177329" display_start="40051246" display_stop="40177329" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="39910498" stop="40036581" display_start="39910498" display_stop="40036581" Strand="-" />
+          </Location>
+          <OMIM>300485</OMIM>
+          <Haploinsufficiency last_evaluated="2012-10-04" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BCOR">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-10-04" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BCOR">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.11:g.(?_40070953)_(40077949_?)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="39930206" innerStop="39937202" display_start="39930206" display_stop="39937202" variantLength="6997" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_39930206)_(39937202_?)dup" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_39930206)_(39937202_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.11:g.(?_40070953)_(40077949_?)dup AND Oculofaciocardiodental syndrome" Accession="RCV001033837" Version="7">
+        <ClassifiedConditionList TraitSetID="3040">
+          <ClassifiedCondition DB="MedGen" ID="C1846265">Oculofaciocardiodental syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3040" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2945" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Oculofaciocardiodental syndrome</ElementValue>
+                <XRef ID="699300009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Microphthalmia cataracts radiculomegaly and septal heart defects</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MCOPS2</ElementValue>
+                <XRef Type="MIM" ID="300166" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4628" />
+                <XRef ID="4628" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2712" DB="Orphanet" />
+              <XRef ID="C1846265" DB="MedGen" />
+              <XRef ID="MONDO:0010261" DB="MONDO" />
+              <XRef Type="MIM" ID="300166" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2358400" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_017745.5_X_Gain (exons 2-6)|MedGen:C1846265" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001197144" DateUpdated="2024-06-09" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has been observed to be de novo in an individual with clinical features of BCOR-related conditions (Invitae). This variant results in a copy number gain of the genomic region encompassing exons 2-6 of the BCOR gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 6 of the BCOR gene. As the precise location of this event is unknown, it may be in tandem or it may be located elsewhere in the genome.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BCOR" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_39930206)_(39937202_?)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1846265" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2358400" TraitType="Disease" MappingType="XRef" MappingValue="C1846265" MappingRef="MedGen">
+        <MedGen CUI="C1846265" Name="Oculofaciocardiodental syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

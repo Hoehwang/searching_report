@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="14919" VariationName="HSPG2, 89-BP DUP, EX34" VariationType="Duplication" Accession="VCV000014919" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-10-08" DateCreated="2018-08-06" MostRecentSubmission="2018-08-06">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="29958" VariationID="14919">
+      <GeneList>
+        <Gene Symbol="HSPG2" FullName="heparan sulfate proteoglycan 2" GeneID="3339" HGNC_ID="HGNC:5273" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>1p36.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="21822244" stop="21937310" display_start="21822244" display_stop="21937310" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="22148736" stop="22263749" display_start="22148736" display_stop="22263749" Strand="-" />
+          </Location>
+          <OMIM>142461</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>HSPG2, 89-BP DUP, EX34</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.1</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>89-BP DUP, EX34</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="142461.0003" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff could not provide HGVS expressions for allelic variant 142461.0003.  The numbering reported in the paper by Arikawa-Hirasawa et al., 2001 (PubMed 11279527) was could not be matched with current annotation for exon 34 and the reference sequence was not provided.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="HSPG2, 89-BP DUP, EX34 AND Lethal Kniest-like syndrome" Accession="RCV000016054" Version="27">
+        <ClassifiedConditionList TraitSetID="4145">
+          <ClassifiedCondition DB="MedGen" ID="C1857100">Lethal Kniest-like syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2001-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2001-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-08-06" MostRecentSubmission="2018-08-06">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11279527</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="4145" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1129" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Dyssegmental dwarfism Silverman-Handmaker type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Anisospondylic camptomicromelic dwarfism Silverman-Handmaker type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Dyssegmental Dysplasia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Lethal Kniest-like syndrome</ElementValue>
+                <XRef ID="Kniest+like+dysplasia+lethal/4021" DB="Genetic Alliance" />
+                <XRef ID="93132001" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DDSH</ElementValue>
+                <XRef Type="MIM" ID="224410" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2026" />
+                <XRef ID="2026" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1865" DB="Orphanet" />
+              <XRef ID="C1857100" DB="MedGen" />
+              <XRef ID="MONDO:0009140" DB="MONDO" />
+              <XRef Type="MIM" ID="224410" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="36321" SubmissionDate="2018-08-03" DateLastUpdated="2018-08-06" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="142461.0003_DYSSEGMENTAL DYSPLASIA, SILVERMAN-HANDMAKER TYPE" title="HSPG2, 89-BP DUP, EX34_DYSSEGMENTAL DYSPLASIA, SILVERMAN-HANDMAKER TYPE" />
+        <ClinVarAccession Accession="SCV000036321" DateUpdated="2018-08-06" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2001-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a pair of sibs with the Silverman-Handmaker type of dyssegmental dysplasia (DDSH; 224410), born to consanguineous parents of Sri Lankan origin, Arikawa-Hirasawa et al. (2001) identified an 89-bp duplication in exon 34 of the HSPG2 gene in homozygosity. The cartilage matrix from these patients stained poorly with antibody specific for perlecan, but there was staining of intracellular inclusion bodies. Truncated perlecan was not secreted by patient fibroblasts, but was degraded to smaller fragments within the cells.</Attribute>
+              <Citation>
+                <ID Source="PubMed">11279527</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="224410" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HSPG2" />
+          </GeneList>
+          <Name>HSPG2, 89-BP DUP, EX34</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">89-BP DUP, EX34</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="142461.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">DYSSEGMENTAL DYSPLASIA, SILVERMAN-HANDMAKER TYPE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="36321" TraitType="Disease" MappingType="Name" MappingValue="DYSSEGMENTAL DYSPLASIA, SILVERMAN-HANDMAKER TYPE" MappingRef="Preferred">
+        <MedGen CUI="C1857100" Name="Lethal Kniest-like syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="101069" VariationName="NC_000017.10:g.(4907452_4914761)_(4918508_4926045)del" VariationType="Deletion" Accession="VCV000101069" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2014-03-13" MostRecentSubmission="2014-03-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="106834" VariationID="101069">
+      <GeneList>
+        <Gene Symbol="KIF1C" FullName="kinesin family member 1C" GeneID="10749" HGNC_ID="HGNC:6317" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="4997950" stop="5028401" display_start="4997950" display_stop="5028401" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="4901242" stop="4931693" display_start="4901242" display_stop="4931693" Strand="+" />
+          </Location>
+          <OMIM>603060</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.10:g.(4907452_4914761)_(4918508_4926045)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" outerStart="4907452" innerStart="4914761" innerStop="4918508" outerStop="4926045" display_start="4907452" display_stop="4926045" variantLength="18594" />
+      </Location>
+      <OtherNameList>
+        <Name>EX14-18DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(4907452_4914761)_(4918508_4926045)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(4907452_4914761)_(4918508_4926045)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603060.0004" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.10:g.(4907452_4914761)_(4918508_4926045)del AND Spastic ataxia 2" Accession="RCV000087326" Version="3">
+        <ClassifiedConditionList TraitSetID="12991">
+          <ClassifiedCondition DB="MedGen" ID="C1969796">Spastic ataxia 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2014-01-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2014-01-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2014-03-13" MostRecentSubmission="2014-03-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17273843</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24482476</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12991" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="460" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ataxia, spastic, 2, autosomal recessive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Spastic ataxia 2</ElementValue>
+                <XRef ID="MONDO:0012651" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPAX2</ElementValue>
+                <XRef Type="MIM" ID="611302" DB="OMIM" />
+              </Symbol>
+              <XRef ID="397946" DB="Orphanet" />
+              <XRef ID="C1969796" DB="MedGen" />
+              <XRef ID="MONDO:0012651" DB="MONDO" />
+              <XRef Type="MIM" ID="611302" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="211896" SubmissionDate="2014-03-06" DateLastUpdated="2014-03-13" DateCreated="2014-03-13">
+        <ClinVarSubmissionID localKey="603060.0004_SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE" title="KIF1C, EX14-18DEL_SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE" />
+        <ClinVarAccession Accession="SCV000120206" DateUpdated="2014-03-13" DateCreated="2014-03-13" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-01-31">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of the Moroccan family with spastic ataxia-2 (SPAX2; 611302) reported by Bouslam et al. (2007), Novarino et al. (2014) identified a homozygous deletion of exons 14-18 in the KIF1C gene.</Attribute>
+              <Citation>
+                <ID Source="PubMed">17273843</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">24482476</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="611302" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KIF1C" />
+          </GeneList>
+          <Name>KIF1C, EX14-18DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX14-18DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603060.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="211896" TraitType="Disease" MappingType="Name" MappingValue="SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE" MappingRef="Preferred">
+        <MedGen CUI="C1969796" Name="Spastic ataxia 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

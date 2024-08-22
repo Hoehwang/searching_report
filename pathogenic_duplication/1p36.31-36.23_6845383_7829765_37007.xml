@@ -1,0 +1,140 @@
+<VariationArchive RecordType="classified" VariationID="37007" VariationName="NC_000001.10:g.6882372_7422115dup" VariationType="Duplication" Accession="VCV000037007" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2022-02-26" MostRecentSubmission="2022-02-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="45673" VariationID="37007">
+      <GeneList>
+        <Gene Symbol="CAMTA1" FullName="calmodulin binding transcription activator 1" GeneID="23261" HGNC_ID="HGNC:18806" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.31-36.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="6785454" stop="7769706" display_start="6785454" display_stop="7769706" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="6845383" stop="7829765" display_start="6845383" display_stop="7829765" Strand="+" />
+          </Location>
+          <OMIM>611501</OMIM>
+          <Haploinsufficiency last_evaluated="2017-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CAMTA1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2017-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CAMTA1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.6882372_7422115dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.31-36.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="6882372" stop="7422115" display_start="6882372" display_stop="7422115" variantLength="539744" />
+      </Location>
+      <OtherNameList>
+        <Name>arrCGH 1p36.31p36.23 (6882372-7422115)x3</Name>
+        <Name>539-KB DUP, EX3-5</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.6882372_7422115dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.6882372_7422115dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="611501.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.6882372_7422115dup AND Cerebellar dysfunction with variable cognitive and behavioral abnormalities" Accession="RCV000030684" Version="3">
+        <ClassifiedConditionList TraitSetID="8813">
+          <ClassifiedCondition DB="MedGen" ID="C3553661">Cerebellar dysfunction with variable cognitive and behavioral abnormalities</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2012-06-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2012-06-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-26" MostRecentSubmission="2022-02-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22693284</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8813" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17346" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cerebellar dysfunction with variable cognitive and behavioral abnormalities</ElementValue>
+                <XRef ID="MONDO:0013886" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nonprogressive cerebellar atxia with intellectual disability</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CECBA</ElementValue>
+                <XRef Type="MIM" ID="614756" DB="OMIM" />
+              </Symbol>
+              <XRef ID="314647" DB="Orphanet" />
+              <XRef ID="C3553661" DB="MedGen" />
+              <XRef ID="MONDO:0013886" DB="MONDO" />
+              <XRef Type="MIM" ID="614756" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="88212" SubmissionDate="2022-02-24" DateLastUpdated="2022-02-26" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="611501.0002_CEREBELLAR DYSFUNCTION WITH VARIABLE COGNITIVE AND BEHAVIORAL ABNORMALITIES" title="CAMTA1, 539-KB DUP, EX3-5_CEREBELLAR DYSFUNCTION WITH VARIABLE COGNITIVE AND BEHAVIORAL ABNORMALITIES" />
+        <ClinVarAccession Accession="SCV000053345" DateUpdated="2022-02-26" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-06-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of a family with cerebellar dysfunction with variable cognitive and behavioral abnormalities (CECBA; 614756), Thevenon et al. (2012) identified a heterozygous 539-kb duplication in the CG1 domain of the CAMTA1 gene. RT-PCR analysis of patient fibroblasts showed only normal mRNA; the quantity of mutant mRNA was lower than the sensitivity of the experiment. In this family, a mother and her son and daughter were affected. All had mild intellectual disability, and the mother and daughter had ataxic gait. The 2 children had delayed psychomotor development with speech delay. One had neonatal hypotonia and the other had autistic features, poor interactive skills, and bursts of aggression. Mild facial dysmorphism was noted.</Attribute>
+              <Citation>
+                <ID Source="PubMed">22693284</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="614756" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CAMTA1" />
+          </GeneList>
+          <Name>CAMTA1, 539-KB DUP, EX3-5</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">539-KB DUP, EX3-5</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="611501.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CEREBELLAR DYSFUNCTION WITH VARIABLE COGNITIVE AND BEHAVIORAL ABNORMALITIES</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="88212" TraitType="Disease" MappingType="Name" MappingValue="CEREBELLAR DYSFUNCTION WITH VARIABLE COGNITIVE AND BEHAVIORAL ABNORMALITIES" MappingRef="Preferred">
+        <MedGen CUI="C3553661" Name="Cerebellar dysfunction with variable cognitive and behavioral abnormalities" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

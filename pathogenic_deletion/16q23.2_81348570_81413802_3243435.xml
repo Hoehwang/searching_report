@@ -1,0 +1,162 @@
+<VariationArchive VariationID="3243435" VariationName="NC_000016.9:g.(?_81385168)_(81391556_?)del" VariationType="Deletion" Accession="VCV003243435" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405907" VariationID="3243435">
+      <GeneList>
+        <Gene Symbol="GAN" FullName="gigaxonin" GeneID="8139" HGNC_ID="HGNC:4137" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="81314962" stop="81390809" display_start="81314962" display_stop="81390809" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="81348570" stop="81413802" display_start="81348570" display_stop="81413802" Strand="+" />
+          </Location>
+          <OMIM>605379</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.9:g.(?_81385168)_(81391556_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16q23.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="81385168" innerStop="81391556" display_start="81385168" display_stop="81391556" variantLength="6389" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_81385168)_(81391556_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_81385168)_(81391556_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.9:g.(?_81385168)_(81391556_?)del AND Giant axonal neuropathy 1" Accession="RCV004582663" Version="1">
+        <ClassifiedConditionList TraitSetID="1389">
+          <ClassifiedCondition DB="MedGen" ID="C1850386">Giant axonal neuropathy 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12655563</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">14718689</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23890932</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1389" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1369" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">GIANT AXONAL NEUROPATHY 1, AUTOSOMAL RECESSIVE</ElementValue>
+                <XRef Type="MIM" ID="256850" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Giant axonal neuropathy 1</ElementValue>
+                <XRef ID="MONDO:0009749" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">GAN1</ElementValue>
+                <XRef Type="MIM" ID="256850" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">GAN-related neurodegeneration comprises a phenotypic continuum ranging from severe (sometimes called classic giant axonal neuropathy) to milder pure early-onset peripheral motor and sensory neuropathies. The classic giant axonal neuropathy phenotype typically manifests as an infantile-onset neurodegenerative disorder, starting as a severe peripheral motor and sensory neuropathy and evolving into central nervous system impairment (intellectual disability, seizures, cerebellar signs, and pyramidal tract signs). Most affected individuals become wheelchair dependent in the second decade of life and eventually bedridden with severe polyneuropathy, ataxia, and dementia. Death usually occurs in the third decade. At the milder end of the spectrum are predominantly motor and sensory neuropathies (with little to no CNS involvement) that overlap with the axonal form of Charcot-Marie-Tooth neuropathies.</Attribute>
+                <XRef ID="NBK1136" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6500" />
+                <XRef ID="6500" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301315</ID>
+                <ID Source="BookShelf">NBK1136</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2010">
+                <ID Source="pmc">2987431</ID>
+              </Citation>
+              <XRef ID="643" DB="Orphanet" />
+              <XRef ID="C1850386" DB="MedGen" />
+              <XRef ID="MONDO:0009749" DB="MONDO" />
+              <XRef Type="MIM" ID="256850" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9833928" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000016.9:g.(?_81385168)_(81391556_?)del|MedGen:C1850386" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005062253" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12655563</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">14718689</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23890932</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with GAN-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2-5 of the GAN gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in GAN are known to be pathogenic (PMID: 12655563, 14718689, 23890932).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_81385168)_(81391556_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1850386" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9833928" TraitType="Disease" MappingType="XRef" MappingValue="C1850386" MappingRef="MedGen">
+        <MedGen CUI="C1850386" Name="Giant axonal neuropathy 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

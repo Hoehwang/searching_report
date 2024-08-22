@@ -1,0 +1,285 @@
+<VariationArchive RecordType="classified" VariationID="2576" VariationName="NM_000483.5(APOC2):c.270del (p.Asp91fs)" VariationType="Deletion" Accession="VCV000002576" Version="1" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="17615" VariationID="2576">
+      <GeneList>
+        <Gene Symbol="APOC2" FullName="apolipoprotein C2" GeneID="344" HGNC_ID="HGNC:609" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>19q13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="44946051" stop="44949565" display_start="44946051" display_stop="44949565" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="45449238" stop="45452821" display_start="45449238" display_stop="45452821" Strand="+" />
+          </Location>
+          <OMIM>608083</OMIM>
+        </Gene>
+        <Gene Symbol="APOC4-APOC2" FullName="APOC4-APOC2 readthrough (NMD candidate)" GeneID="100533990" HGNC_ID="HGNC:44426" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>19q13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="44942238" stop="44949565" display_start="44942238" display_stop="44949565" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_000483.5(APOC2):c.270del (p.Asp91fs)</Name>
+      <CanonicalSPDI>NC_000019.10:44949212:T:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="44949213" stop="44949213" display_start="44949213" display_stop="44949213" variantLength="1" positionVCF="44949212" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="45452470" stop="45452470" display_start="45452470" display_stop="45452470" variantLength="1" positionVCF="45452469" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <OtherNameList>
+        <Name>apoC-II Toronto</Name>
+      </OtherNameList>
+      <ProteinChange>D91fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.45452470del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.45452470del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000483.5" sequenceAccession="NM_000483" sequenceVersion="5" change="c.270del" MANESelect="true">
+            <Expression>NM_000483.5:c.270del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000474.2" sequenceAccession="NP_000474" sequenceVersion="2" change="p.Asp91fs">
+            <Expression>NP_000474.2:p.Asp91fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008837.1" sequenceAccession="NG_008837" sequenceVersion="1" change="g.8228del">
+            <Expression>NG_008837.1:g.8228del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.44949213del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.44949213del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_037932.1" sequenceAccession="NR_037932" sequenceVersion="1" change="n.1477del">
+            <Expression>NR_037932.1:n.1477del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608083.0004" DB="OMIM" />
+        <XRef Type="rs" ID="2122211012" DB="dbSNP" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for APOC2 Toronto based on the paper by Jiang et al.,  2016. (PubMedCentral PMC4715280).  The original paper by Connelly et al., 1987 (PubMed 3467353) pointed out that the deletion resulting in the observed amino acid sequence could result from either NM_000483.5:c.270del or NM_000483.5:c.271del.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000483.5(APOC2):c.270del (p.Asp91fs) AND APOLIPOPROTEIN C-II (TORONTO)" Accession="RCV000002687" Version="2">
+        <ClassifiedConditionList TraitSetID="656">
+          <ClassifiedCondition>APOLIPOPROTEIN C-II (TORONTO)</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1988-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_000483.5(APOC2):c.270del (p.Asp91fs) AND Familial apolipoprotein C-II deficiency" Accession="RCV000002688" Version="2">
+        <ClassifiedConditionList TraitSetID="654">
+          <ClassifiedCondition DB="MedGen" ID="C1720779">Familial apolipoprotein C-II deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1988-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1988-10-01" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">213719</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">3225819</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">3467353</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="656" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9791" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">APOLIPOPROTEIN C-II (TORONTO)</ElementValue>
+                <XRef Type="Allelic variant" ID="608083.0004" DB="OMIM" />
+              </Name>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="654" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="323" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Familial apolipoprotein C-II deficiency</ElementValue>
+                <XRef ID="MONDO:0008810" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Apolipoprotein C2 deficiency</ElementValue>
+                <XRef ID="Apolipoprotein+C2+deficiency/7704" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">APOC2 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="207750" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">C-II ANAPOLIPOPROTEINEMIA</ElementValue>
+                <XRef Type="MIM" ID="207750" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPERLIPOPROTEINEMIA, TYPE IB</ElementValue>
+                <XRef Type="MIM" ID="207750" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0011" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608083.0012" DB="OMIM" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="759" />
+                <XRef ID="759" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="309020" DB="Orphanet" />
+              <XRef ID="444490" DB="Orphanet" />
+              <XRef ID="C1720779" DB="MedGen" />
+              <XRef ID="MONDO:0008810" DB="MONDO" />
+              <XRef Type="MIM" ID="207750" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="22845" SubmissionDate="2008-07-08" DateLastUpdated="2013-04-04" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="608083.0004_APOLIPOPROTEIN C-II (TORONTO)" title="APOC2, 1-BP DEL_APOLIPOPROTEIN C-II (TORONTO)" />
+        <ClinVarAccession Accession="SCV000022845" DateUpdated="2013-04-04" DateCreated="2013-04-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1988-10-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In subsequent studies of the family with hyperlipoproteinemia type IB (207750) reported by Cox et al. (1978), Connelly et al. (1987) identified 14 homozygotes and 23 obligate heterozygotes in the extended pedigree. Their plasma contained a unique apoC-II (designated Toronto, according to the system for hemoglobins) that had an apparent pI of 5.54 instead of 4.88 as in normal apoC-II. It was found that the sequence of apoC-II(Toronto) was identical to that of normal apoC-II from residues 1-68. It differs from residue 69, where asp69-gln70-val71-leu72-ser73-val74-leu75-lys76-gly77-glu78-glu79 is replaced by thr69-lys70-phe71-phe72-leu73-cys74. This change is consistent with the deletion of a nucleotide in the codon for either thr68 or asp69 and a resulting translation reading frameshift. Thus, it show similarities to apoC-II(St. Michael). In the apoC-II(Toronto), Cox et al. (1988) demonstrated a deletion of 1 base in the codon for amino acid threonine-68, causing an alteration of 6 amino acids and a premature termination of the protein at amino acid 74.</Attribute>
+              <Citation>
+                <ID Source="PubMed">213719</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">3467353</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">3225819</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="207750" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="APOC2" />
+          </GeneList>
+          <Name>APOC2, 1-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608083.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">APOLIPOPROTEIN C-II (TORONTO)</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="22846" SubmissionDate="2008-07-08" DateLastUpdated="2013-04-04" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="608083.0004_HYPERLIPOPROTEINEMIA, TYPE IB" title="APOC2, 1-BP DEL_HYPERLIPOPROTEINEMIA, TYPE IB" />
+        <ClinVarAccession Accession="SCV000022846" DateUpdated="2013-04-04" DateCreated="2013-04-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1988-10-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to included disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In subsequent studies of the family with hyperlipoproteinemia type IB (207750) reported by Cox et al. (1978), Connelly et al. (1987) identified 14 homozygotes and 23 obligate heterozygotes in the extended pedigree. Their plasma contained a unique apoC-II (designated Toronto, according to the system for hemoglobins) that had an apparent pI of 5.54 instead of 4.88 as in normal apoC-II. It was found that the sequence of apoC-II(Toronto) was identical to that of normal apoC-II from residues 1-68. It differs from residue 69, where asp69-gln70-val71-leu72-ser73-val74-leu75-lys76-gly77-glu78-glu79 is replaced by thr69-lys70-phe71-phe72-leu73-cys74. This change is consistent with the deletion of a nucleotide in the codon for either thr68 or asp69 and a resulting translation reading frameshift. Thus, it show similarities to apoC-II(St. Michael). In the apoC-II(Toronto), Cox et al. (1988) demonstrated a deletion of 1 base in the codon for amino acid threonine-68, causing an alteration of 6 amino acids and a premature termination of the protein at amino acid 74.</Attribute>
+              <Citation>
+                <ID Source="PubMed">213719</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">3467353</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">3225819</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="207750" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="APOC2" />
+          </GeneList>
+          <Name>APOC2, 1-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608083.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="included">HYPERLIPOPROTEINEMIA, TYPE IB</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="22846" TraitType="Disease" MappingType="Name" MappingValue="HYPERLIPOPROTEINEMIA, TYPE IB" MappingRef="Alternate">
+        <MedGen CUI="C1720779" Name="Familial apolipoprotein C-II deficiency" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="22845" TraitType="Disease" MappingType="Name" MappingValue="APOLIPOPROTEIN C-II (TORONTO)" MappingRef="Preferred">
+        <MedGen CUI="C4017131" Name="APOLIPOPROTEIN C-II (TORONTO)" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

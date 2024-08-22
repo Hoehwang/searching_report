@@ -1,0 +1,160 @@
+<VariationArchive VariationID="3245776" VariationName="NC_000007.13:g.(?_66068499)_(66098288_?)del" VariationType="Deletion" Accession="VCV003245776" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405438" VariationID="3245776">
+      <GeneList>
+        <Gene Symbol="KCTD7" FullName="potassium channel tetramerization domain containing 7" GeneID="154881" HGNC_ID="HGNC:21957" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7q11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="66628881" stop="66643229" display_start="66628881" display_stop="66643229" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="66093867" stop="66108215" display_start="66093867" display_stop="66108215" Strand="+" />
+          </Location>
+          <OMIM>611725</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.13:g.(?_66068499)_(66098288_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="66068499" innerStop="66098288" display_start="66068499" display_stop="66098288" variantLength="29790" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_66068499)_(66098288_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_66068499)_(66098288_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.13:g.(?_66068499)_(66098288_?)del AND Progressive myoclonic epilepsy type 3" Accession="RCV004583537" Version="1">
+        <ClassifiedConditionList TraitSetID="219">
+          <ClassifiedCondition DB="MedGen" ID="C2673257">Progressive myoclonic epilepsy type 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-10-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-10-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22693283</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="219" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5032" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">EPILEPSY, PROGRESSIVE MYOCLONIC, 3, WITHOUT INTRACELLULAR INCLUSIONS</ElementValue>
+                <XRef Type="Allelic variant" ID="611725.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611725.0006" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">EPILEPSY, PROGRESSIVE MYOCLONIC, 3, WITH OR WITHOUT INTRACELLULAR INCLUSIONS</ElementValue>
+                <XRef Type="MIM" ID="611726" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CEROID LIPOFUSCINOSIS, NEURONAL, 14</ElementValue>
+                <XRef Type="MIM" ID="611726" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Progressive myoclonic epilepsy type 3</ElementValue>
+                <XRef ID="MONDO:0012721" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">EPM 3</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CLN14</ElementValue>
+                <XRef Type="MIM" ID="611726" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">EPM3</ElementValue>
+                <XRef Type="MIM" ID="611726" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2167" />
+                <XRef ID="2167" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="263516" DB="Orphanet" />
+              <XRef ID="C2673257" DB="MedGen" />
+              <XRef ID="MONDO:0012721" DB="MONDO" />
+              <XRef Type="MIM" ID="611726" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9836307" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000007.13:g.(?_66068499)_(66098288_?)del|MedGen:C2673257" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005064644" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-10-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22693283</ID>
+          </Citation>
+          <Comment>This variant results in the deletion of exon 1 and part of exon 2 (c.-25553_171del) of the KCTD7 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in KCTD7 are known to be pathogenic (PMID: 22693283). This variant has not been reported in the literature in individuals affected with KCTD7-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_66068499)_(66098288_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C2673257" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9836307" TraitType="Disease" MappingType="XRef" MappingValue="C2673257" MappingRef="MedGen">
+        <MedGen CUI="C2673257" Name="Progressive myoclonic epilepsy type 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

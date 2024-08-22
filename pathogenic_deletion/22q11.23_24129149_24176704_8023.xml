@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="8023" VariationName="SMARCB1, 19-BP DEL" VariationType="Deletion" Accession="VCV000008023" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-08" DateCreated="2017-03-12" MostRecentSubmission="2017-03-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="23062" VariationID="8023">
+      <GeneList>
+        <Gene Symbol="SMARCB1" FullName="SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1" GeneID="6598" HGNC_ID="HGNC:11103" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>22q11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="23786966" stop="23838009" display_start="23786966" display_stop="23838009" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NT_187633.1" start="23328" stop="74371" display_start="23328" display_stop="74371" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="24129149" stop="24176704" display_start="24129149" display_stop="24176704" Strand="+" />
+          </Location>
+          <OMIM>601607</OMIM>
+          <Haploinsufficiency last_evaluated="2020-04-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SMARCB1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-04-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SMARCB1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>SMARCB1, 19-BP DEL</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>22q11</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>19-BP DEL</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="601607.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="SMARCB1, 19-BP DEL AND Malignant rhabdoid tumor, somatic" Accession="RCV000008487" Version="5">
+        <ClassifiedConditionList TraitSetID="2180">
+          <ClassifiedCondition DB="MedGen" ID="C2750405">Malignant rhabdoid tumor, somatic</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1998-07-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1998-07-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-03-12" MostRecentSubmission="2017-03-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">9671307</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2180" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9191" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Malignant rhabdoid tumor, somatic</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000568144" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000309827" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552477" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000551656" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ASCO, 2014">
+                <ID Source="PubMed">24493721</ID>
+              </Citation>
+              <XRef ID="C2750405" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="28695" SubmissionDate="2017-03-09" DateLastUpdated="2017-03-12" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="601607.0002_MALIGNANT RHABDOID TUMOR, SOMATIC" title="SMARCB1, 19-BP DEL_MALIGNANT RHABDOID TUMOR, SOMATIC" />
+        <ClinVarAccession Accession="SCV000028695" DateUpdated="2017-03-12" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1998-07-09">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a cell line from a 7-year-old female with malignant rhabdoid tumor of the abdomen (see 609322), Versteege et al. (1998) found a somatic 19-bp deletion beginning with nucleotide 37 in 1 allele of the SNF5 gene and loss of heterozygosity at the other allele. The findings were consistent with a 2-hit recessive model of oncogenesis and supported the hypothesis that SMARCB1 acts as a tumor suppressor gene.</Attribute>
+              <Citation>
+                <ID Source="PubMed">9671307</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="609322" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMARCB1" />
+          </GeneList>
+          <Name>SMARCB1, 19-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">19-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="601607.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MALIGNANT RHABDOID TUMOR, SOMATIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="28695" TraitType="Disease" MappingType="Name" MappingValue="MALIGNANT RHABDOID TUMOR, SOMATIC" MappingRef="Preferred">
+        <MedGen CUI="C2750405" Name="Malignant rhabdoid tumor, somatic" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

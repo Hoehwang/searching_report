@@ -1,0 +1,207 @@
+<VariationArchive VariationID="2423399" VariationName="NC_000005.9:g.(?_161309544)_(161309727_?)del" VariationType="Deletion" Accession="VCV002423399" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1945619" VariationID="2423399">
+      <GeneList>
+        <Gene Symbol="GABRA1" FullName="gamma-aminobutyric acid type A receptor subunit alpha1" GeneID="2554" HGNC_ID="HGNC:4075" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q34</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="161847191" stop="161899971" display_start="161847191" display_stop="161899971" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="161274196" stop="161326964" display_start="161274196" display_stop="161326964" Strand="+" />
+          </Location>
+          <OMIM>137160</OMIM>
+          <Haploinsufficiency last_evaluated="2021-11-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRA1">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-11-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRA1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.(?_161309544)_(161309727_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q34</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="161309544" innerStop="161309727" display_start="161309544" display_stop="161309727" variantLength="184" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_161309544)_(161309727_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_161309544)_(161309727_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.(?_161309544)_(161309727_?)del AND multiple conditions" Accession="RCV003105336" Version="4">
+        <ClassifiedConditionList TraitSetID="31128">
+          <ClassifiedCondition DB="MedGen" ID="C1970160">Epilepsy, childhood absence 4</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4013473">Epilepsy, idiopathic generalized, susceptibility to, 13</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0270850">Idiopathic generalized epilepsy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-11-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-11-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27353043</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="31128" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9431" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, childhood absence 4</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">EPILEPSY, CHILDHOOD ABSENCE, SUSCEPTIBILITY TO, 4</ElementValue>
+                <XRef Type="Allelic variant" ID="137160.0002" DB="OMIM" />
+                <XRef ID="611136" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ECA4</ElementValue>
+                <XRef ID="611136" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">GABRA1-Related Juvenile Myoclonic Epilepsy</Attribute>
+              </AttributeSet>
+              <XRef ID="307" DB="Orphanet" />
+              <XRef ID="C1970160" DB="MedGen" />
+            </Trait>
+            <Trait ID="1168" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Generalised epilepsy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Idiopathic generalized epilepsy</ElementValue>
+                <XRef ID="Idiopathic+generalized+epilepsy/8637" DB="Genetic Alliance" />
+                <XRef ID="36803009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">EIG</ElementValue>
+                <XRef ID="MONDO:0010918" DB="MONDO" />
+                <XRef Type="MIM" ID="600669" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IGE</ElementValue>
+                <XRef Type="MIM" ID="600669" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C0270850" DB="MedGen" />
+              <XRef ID="MONDO:0005579" DB="MONDO" />
+              <XRef Type="MIM" ID="600669" DB="OMIM" />
+              <XRef Type="Phenotypic series" ID="PS600669" DB="OMIM" />
+            </Trait>
+            <Trait ID="5030" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, idiopathic generalized, susceptibility to, 13</ElementValue>
+                <XRef ID="MONDO:0012627" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, juvenile myoclonic 5</ElementValue>
+                <XRef ID="Epilepsy%2C+juvenile+myoclonic+5/8330" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">EPILEPSY, JUVENILE MYOCLONIC, SUSCEPTIBILITY TO, 5</ElementValue>
+                <XRef Type="Allelic variant" ID="137160.0001" DB="OMIM" />
+                <XRef ID="611136" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">EIG13</ElementValue>
+                <XRef Type="MIM" ID="611136" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">EJM5</ElementValue>
+                <XRef ID="611136" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">GABRA1-Related Juvenile Myoclonic Epilepsy</Attribute>
+              </AttributeSet>
+              <XRef ID="307" DB="Orphanet" />
+              <XRef ID="64280" DB="Orphanet" />
+              <XRef ID="C4013473" DB="MedGen" />
+              <XRef ID="MONDO:0012627" DB="MONDO" />
+              <XRef Type="MIM" ID="611136" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7072201" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_000806.5_5_Deletion (exon 8)|MedGen:C1970160;C2749942;C0270850" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003794363" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-11-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27353043</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the GABRA1 protein in which other variant(s) (p.Arg214His) have been determined to be pathogenic (PMID: 27353043). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant has not been reported in the literature in individuals affected with GABRA1-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 8 of the GABRA1 gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GABRA1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.(?_161309544)_(161309727_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1970160" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C2749942" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0270850" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7072201" TraitType="Disease" MappingType="XRef" MappingValue="C2749942" MappingRef="MedGen">
+        <MedGen CUI="C4013473" Name="Epilepsy, idiopathic generalized, susceptibility to, 13" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7072201" TraitType="Disease" MappingType="XRef" MappingValue="C1970160" MappingRef="MedGen">
+        <MedGen CUI="C1970160" Name="Epilepsy, childhood absence 4" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7072201" TraitType="Disease" MappingType="XRef" MappingValue="C0270850" MappingRef="MedGen">
+        <MedGen CUI="C0270850" Name="Idiopathic generalized epilepsy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

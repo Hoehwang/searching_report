@@ -1,0 +1,185 @@
+<VariationArchive RecordType="classified" VariationID="469568" VariationName="NC_000015.10:g.(?_26547773)_(26775295_?)del" VariationType="Deletion" Accession="VCV000469568" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="464507" VariationID="469568">
+      <GeneList>
+        <Gene Symbol="GABRB3" FullName="gamma-aminobutyric acid type A receptor subunit beta3" GeneID="2562" HGNC_ID="HGNC:4083" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>15q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="26543552" stop="26773763" display_start="26543552" display_stop="26773763" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="26788692" stop="27018934" display_start="26788692" display_stop="27018934" Strand="-" />
+          </Location>
+          <OMIM>137192</OMIM>
+          <Haploinsufficiency last_evaluated="2012-04-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRB3">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-04-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRB3">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="LOC126862078" FullName="BRD4-independent group 4 enhancer GRCh37_chr15:26860170-26861369" GeneID="126862078" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>15q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="26615023" stop="26616222" display_start="26615023" display_stop="26616222" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.10:g.(?_26547773)_(26775295_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" innerStart="26547773" innerStop="26775295" display_start="26547773" display_stop="26775295" variantLength="227523" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" innerStart="26792920" innerStop="27020442" display_start="26792920" display_stop="27020442" variantLength="227523" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.(?_26547773)_(26775295_?)del" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.(?_26547773)_(26775295_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(?_26792920)_(27020442_?)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(?_26792920)_(27020442_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.10:g.(?_26547773)_(26775295_?)del AND multiple conditions" Accession="RCV000544795" Version="5">
+        <ClassifiedConditionList TraitSetID="31129">
+          <ClassifiedCondition DB="MedGen" ID="C1838604">Epilepsy, childhood absence, susceptibility to, 1</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C2677087">Epilepsy, childhood absence, susceptibility to, 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11198279</ID>
+        </Citation>
+        <DescriptionHistory Dated="2020-04-09">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="31129" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1166" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, childhood absence 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, childhood absence, susceptibility to, 1</ElementValue>
+                <XRef ID="MONDO:0020759" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ECA1</ElementValue>
+                <XRef Type="MIM" ID="600131" DB="OMIM" />
+              </Symbol>
+              <XRef ID="64280" DB="Orphanet" />
+              <XRef ID="C1838604" DB="MedGen" />
+              <XRef ID="MONDO:0020759" DB="MONDO" />
+              <XRef Type="MIM" ID="600131" DB="OMIM" />
+            </Trait>
+            <Trait ID="5028" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, childhood absence 5</ElementValue>
+                <XRef ID="Epilepsy%2C+childhood+absence+5/8324" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, childhood absence, susceptibility to, 5</ElementValue>
+                <XRef ID="MONDO:0012843" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ECA5</ElementValue>
+                <XRef Type="MIM" ID="612269" DB="OMIM" />
+              </Symbol>
+              <XRef ID="64280" DB="Orphanet" />
+              <XRef ID="C2677087" DB="MedGen" />
+              <XRef ID="MONDO:0012843" DB="MONDO" />
+              <XRef Type="MIM" ID="612269" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1239498" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2017-12-26">
+        <ClinVarSubmissionID localKey="1487261|MedGen:C2677087;C1838604" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000646959" DateUpdated="2020-04-09" DateCreated="2017-12-26" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">11198279</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the GABRB3 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. Gross deletions of the GABRB3 gene have been previously described in individuals affected with Angelman syndrome (PMID: 11198279). In each of these cases, however, the deletion event also spanned the entire coding sequence of the UBE3A gene. ClinVar contains an entry for a similar variant (Variation ID: 238187). Loss-of-function variants in GABRB3 are known to be pathogenic (PMID: 26950270, 28053010). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GABRB3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(?_26792920)_(27020442_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Epilepsy, childhood absence 5</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C2677087" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Epilepsy, childhood absence 1</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1838604" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1239498" TraitType="Disease" MappingType="Name" MappingValue="Epilepsy, childhood absence 1" MappingRef="Preferred">
+        <MedGen CUI="C1838604" Name="Epilepsy, childhood absence, susceptibility to, 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1239498" TraitType="Disease" MappingType="Name" MappingValue="Epilepsy, childhood absence 5" MappingRef="Preferred">
+        <MedGen CUI="C2677087" Name="Epilepsy, childhood absence, susceptibility to, 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

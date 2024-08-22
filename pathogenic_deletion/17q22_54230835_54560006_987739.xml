@@ -1,0 +1,167 @@
+<VariationArchive RecordType="classified" VariationID="987739" VariationName="Single allele" VariationType="Deletion" Accession="VCV000987739" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2020-12-07" MostRecentSubmission="2020-12-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="975714" VariationID="987739">
+      <GeneList>
+        <Gene Symbol="ANKFN1" FullName="ankyrin repeat and fibronectin type III domain containing 1" GeneID="162282" HGNC_ID="HGNC:26766" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="56046077" stop="56517016" display_start="56046077" display_stop="56517016" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="54230835" stop="54560006" display_start="54230835" display_stop="54560006" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="NOG" FullName="noggin" GeneID="9241" HGNC_ID="HGNC:7866" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="56593699" stop="56595611" display_start="56593699" display_stop="56595611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="54671059" stop="54672950" display_start="54671059" display_stop="54672950" Strand="+" />
+          </Location>
+          <OMIM>602991</OMIM>
+          <Haploinsufficiency last_evaluated="2021-01-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NOG">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-01-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NOG">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="54290100" stop="54844894" display_start="54290100" display_stop="54844894" variantLength="554795" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.54290100_54844894del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.54290100_54844894del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="No function" />
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Stapes ankylosis with broad thumbs and toes" Accession="RCV001268958" Version="1">
+        <ClassifiedConditionList TraitSetID="1858">
+          <ClassifiedCondition DB="MedGen" ID="C1866656">Stapes ankylosis with broad thumbs and toes</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-12-07" MostRecentSubmission="2020-12-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1858" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4211" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ANKYLOSIS OF STAPES, HYPEROPIA, BROAD THUMBS, BROAD FIRST TOES, AND SYNDACTYLY</ElementValue>
+                <XRef Type="MIM" ID="184460" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Stapes ankylosis with broad thumb and toes</ElementValue>
+                <XRef ID="Stapes+ankylosis+with+broad+thumb+and+toes/9353" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">STAPES ANKYLOSIS SYNDROME WITHOUT SYMPHALANGISM</ElementValue>
+                <XRef Type="MIM" ID="184460" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602991.0013" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602991.0014" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">TEUNISSEN-CREMERS SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="184460" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Stapes ankylosis with broad thumbs and toes</ElementValue>
+                <XRef ID="MONDO:0008484" DB="MONDO" />
+              </Name>
+              <XRef ID="140917" DB="Orphanet" />
+              <XRef ID="C1866656" DB="MedGen" />
+              <XRef ID="MONDO:0008484" DB="MONDO" />
+              <XRef Type="MIM" ID="184460" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2859933" SubmissionDate="2020-11-30" DateLastUpdated="2020-12-07" DateCreated="2020-12-07">
+        <ClinVarSubmissionID localKey="SUB8325905" submittedAssembly="GRCh37" title="SUB8325905" />
+        <ClinVarAccession Accession="SCV001448202" DateUpdated="2020-12-07" DateCreated="2020-12-07" Type="SCV" Version="1" SubmitterName="Laboratory of Prof. Karen Avraham, Tel Aviv University" OrgID="505713" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-18">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Congenital conductive hearing loss and hyperopia</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Jewish Moroccan</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <MethodType>case-control</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">congenital conductive hearing loss</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">hyperopia</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" start="54290100" stop="54844894" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">NOG del 555Kb</Name>
+          </OtherNameList>
+          <FunctionalConsequence Value="No function" />
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="184460" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8325905</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2859933" TraitType="Disease" MappingType="XRef" MappingValue="184460" MappingRef="OMIM">
+        <MedGen CUI="C1866656" Name="Stapes ankylosis with broad thumbs and toes" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2859933" TraitType="Finding" MappingType="Name" MappingValue="hyperopia" MappingRef="Preferred">
+        <MedGen CUI="C0020490" Name="Hypermetropia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2859933" TraitType="Finding" MappingType="Name" MappingValue="congenital conductive hearing loss" MappingRef="Preferred">
+        <MedGen CUI="C4021537" Name="Congenital conductive hearing impairment" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

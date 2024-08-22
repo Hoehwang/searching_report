@@ -1,0 +1,163 @@
+<VariationArchive VariationID="2664950" VariationName="NM_003054.6(SLC18A2):c.240_244del (p.Ser80_Tyr81insTer)" VariationType="Deletion" Accession="VCV002664950" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2832520" VariationID="2664950">
+      <GeneList>
+        <Gene Symbol="SLC18A2" FullName="solute carrier family 18 member A2" GeneID="6571" HGNC_ID="HGNC:10935" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q25.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="117241114" stop="117279430" display_start="117241114" display_stop="117279430" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="119000583" stop="119038940" display_start="119000583" display_stop="119038940" Strand="+" />
+          </Location>
+          <OMIM>193001</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003054.6(SLC18A2):c.240_244del (p.Ser80_Tyr81insTer)</Name>
+      <CanonicalSPDI>NC_000010.11:117244088:CTATT:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q25.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="117244089" stop="117244093" display_start="117244089" display_stop="117244093" variantLength="5" positionVCF="117244088" referenceAlleleVCF="CCTATT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="119003600" stop="119003604" display_start="119003600" display_stop="119003604" variantLength="5" positionVCF="119003599" referenceAlleleVCF="CCTATT" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.119003600_119003604del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.119003600_119003604del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.117244089_117244093del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.117244089_117244093del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003054.6" sequenceAccession="NM_003054" sequenceVersion="6" change="c.240_244del" MANESelect="true">
+            <Expression>NM_003054.6:c.240_244del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003045.2" sequenceAccession="NP_003045" sequenceVersion="2" change="p.Ser80_Tyr81insTer">
+            <Expression>NP_003045.2:p.Ser80_Tyr81insTer</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="193001.0005" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003054.6(SLC18A2):c.240_244del (p.Ser80_Tyr81insTer) AND Brain dopamine-serotonin vesicular transport disease" Accession="RCV004577040" Version="1">
+        <ClassifiedConditionList TraitSetID="48337">
+          <ClassifiedCondition DB="MedGen" ID="C4303546">Brain dopamine-serotonin vesicular transport disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-12-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-12-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">36318270</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="48337" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="42322" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Brain dopamine-serotonin vesicular transport disease</ElementValue>
+                <XRef ID="UoA-AB0245-1" DB="Applied Translational Genetics Group, University of Auckland" />
+                <XRef ID="MONDO:0018130" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Parkinsonism-dystonia, infantile, 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PARKINSONISM-DYSTONIA 2, INFANTILE-ONSET</ElementValue>
+                <XRef Type="MIM" ID="618049" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BRAIN MONOAMINE VESICULAR TRANSPORT DISEASE</ElementValue>
+                <XRef Type="MIM" ID="618049" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PKDYS2</ElementValue>
+                <XRef Type="MIM" ID="618049" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13594" />
+                <XRef ID="13594" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="352649" DB="Orphanet" />
+              <XRef ID="C4303546" DB="MedGen" />
+              <XRef ID="MONDO:0018130" DB="MONDO" />
+              <XRef Type="MIM" ID="618049" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7814449" SubmissionDate="2023-12-11" DateLastUpdated="2023-12-17" DateCreated="2023-12-17">
+        <ClinVarSubmissionID localKey="193001.0005_PARKINSONISM-DYSTONIA, INFANTILE, 2" title="SLC18A2, 5-BP DEL, 240CTATT_PARKINSONISM-DYSTONIA, INFANTILE, 2" />
+        <ClinVarAccession Accession="SCV004175906" DateUpdated="2023-12-17" DateCreated="2023-12-17" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-12-11">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 3 patients (patients 36-38), including a sib pair, from 2 unrelated consanguineous families (families 22 and 23) with infantile parkinsonism-dystonia-2 (PKDYS2; 618049), Saida et al. (2023) identified homozygosity for a 5-bp deletion (c.240_244del, NM_003054.6) in the SLC18A2 gene, resulting in a tyr81-to-ter (Y81X) substitution. The mutation was identified by whole-exome sequencing and confirmed by Sanger sequencing. The mutation was not present in the gnomAD and UK Biobank databases.</Attribute>
+              <Citation>
+                <CitationText>Saida, K., Maroofian, R., Sengoku, T., Mitani, T., Pagnamenta, A. T., Marafi, D., Zaki, M. S., O'Brien, T. J., Karimiani, E. G., Kaiyrzhanov, R., Takizawa, M., Ohori, S., and 75 others Brain monoamine vesicular transport disease caused by homozygous SLC18A2 variants: a study in 42 affected individuals. Genet. Med. 25: 90-102, 2023.</CitationText>
+              </Citation>
+              <XRef DB="OMIM" ID="618049" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC18A2" />
+          </GeneList>
+          <Name>SLC18A2, 5-BP DEL, 240CTATT</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">5-BP DEL, 240CTATT</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="193001.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PARKINSONISM-DYSTONIA, INFANTILE, 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7814449" TraitType="Disease" MappingType="Name" MappingValue="PARKINSONISM-DYSTONIA, INFANTILE, 2" MappingRef="Preferred">
+        <MedGen CUI="C4303546" Name="Brain dopamine-serotonin vesicular transport disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

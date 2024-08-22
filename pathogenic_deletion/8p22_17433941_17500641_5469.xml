@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="5469" VariationName="PDGRL, 2-BP DEL" VariationType="Deletion" Accession="VCV000005469" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-29" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="20508" VariationID="5469">
+      <GeneList>
+        <Gene Symbol="PDGFRL" FullName="platelet derived growth factor receptor like" GeneID="5157" HGNC_ID="HGNC:8805" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>8p22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="17576433" stop="17643144" display_start="17576433" display_stop="17643144" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="17433941" stop="17500641" display_start="17433941" display_stop="17500641" Strand="+" />
+          </Location>
+          <OMIM>604584</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>PDGRL, 2-BP DEL</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8p22-p21.3</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>2-BP DEL</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="604584.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="PDGRL, 2-BP DEL AND Hepatocellular carcinoma" Accession="RCV000005803" Version="4">
+        <ClassifiedConditionList TraitSetID="6315">
+          <ClassifiedCondition DB="MedGen" ID="C2239176">Hepatocellular carcinoma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1995-03-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1995-03-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">7898930</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6315" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18496" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hepatocellular carcinoma</ElementValue>
+                <XRef ID="HP:0001402" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0007256" DB="MONDO" />
+                <XRef ID="25370001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Primary carcinoma of liver</ElementValue>
+                <XRef ID="187769009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hepatoma</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LIVER CELL CARCINOMA</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hepatocellular cancer</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HCC</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">LCC</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <XRef ID="88673" DB="Orphanet" />
+              <XRef ID="C2239176" DB="MedGen" />
+              <XRef ID="MONDO:0007256" DB="MONDO" />
+              <XRef Type="MIM" ID="114550" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0001402" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002899" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0003007" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006750" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25985" SubmissionDate="2000-08-09" DateLastUpdated="2013-04-04" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="604584.0002_HEPATOCELLULAR CARCINOMA, SOMATIC" title="PDGRL, 2-BP DEL _HEPATOCELLULAR CARCINOMA, SOMATIC" />
+        <ClinVarAccession Accession="SCV000025985" DateUpdated="2013-04-04" DateCreated="2013-04-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1995-03-02">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a hepatocellular cancer (see 114550) tumor, Fujiwara et al. (1995) identified a somatic mutation in the PDGRL gene, a 2-bp (TT) deletion at codon 175.</Attribute>
+              <Citation>
+                <ID Source="PubMed">7898930</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="114550" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGRL" />
+          </GeneList>
+          <Name>PDGRL, 2-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604584.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HEPATOCELLULAR CARCINOMA, SOMATIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25985" TraitType="Disease" MappingType="Name" MappingValue="HEPATOCELLULAR CARCINOMA, SOMATIC" MappingRef="Preferred">
+        <MedGen CUI="C2239176" Name="Hepatocellular carcinoma" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

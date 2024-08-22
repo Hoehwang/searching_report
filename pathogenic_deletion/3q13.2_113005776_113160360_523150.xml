@@ -1,0 +1,149 @@
+<VariationArchive VariationID="523150" VariationName="NM_001164496.1(CFAP44):c.2935_2944del" VariationType="Deletion" Accession="VCV000523150" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2019-12-31" MostRecentSubmission="2019-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="513776" VariationID="523150">
+      <GeneList>
+        <Gene Symbol="CFAP44" FullName="cilia and flagella associated protein 44" GeneID="55779" HGNC_ID="HGNC:25631" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>3q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="113286930" stop="113441514" display_start="113286930" display_stop="113441514" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="113005776" stop="113160360" display_start="113005776" display_stop="113160360" Strand="-" />
+          </Location>
+          <OMIM>617559</OMIM>
+        </Gene>
+        <Gene Symbol="LOC127898559" FullName="SPICE1-CFAP44" GeneID="127898559" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>3q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="113286930" stop="113515156" display_start="113286930" display_stop="113515156" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_001164496.1(CFAP44):c.2935_2944del</Name>
+      <CanonicalSPDI>NC_000003.12:113358865:CATCAAAATCC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="113358866" stop="113358875" display_start="113358866" display_stop="113358875" variantLength="10" positionVCF="113358865" referenceAlleleVCF="ACATCAAAATC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="113077713" stop="113077722" display_start="113077713" display_stop="113077722" variantLength="10" positionVCF="113077712" referenceAlleleVCF="ACATCAAAATC" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.113077714_113077723del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.113077714_113077723del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.113358867_113358876del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.113358867_113358876del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA658796351" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="617559.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1553756374" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001164496.1(CFAP44):c.2935_2944del AND Spermatogenic failure 20" Accession="RCV000626423" Version="13">
+        <ClassifiedConditionList TraitSetID="36911">
+          <ClassifiedCondition DB="MedGen" ID="C4539824">Spermatogenic failure 20</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-12-31" MostRecentSubmission="2019-12-31">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29277146</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="36911" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37947" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spermatogenic failure 20</ElementValue>
+                <XRef ID="MONDO:0054724" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPGF20</ElementValue>
+                <XRef Type="MIM" ID="617593" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18404" />
+                <XRef ID="18404" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C4539824" DB="MedGen" />
+              <XRef ID="MONDO:0054724" DB="MONDO" />
+              <XRef Type="MIM" ID="617593" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1455017" SubmissionDate="2019-12-23" DateLastUpdated="2019-12-31" DateCreated="2018-05-06">
+        <ClinVarSubmissionID localKey="617559.0002_SPERMATOGENIC FAILURE 20" title="CFAP44, 10-BP DEL, NT2935_SPERMATOGENIC FAILURE 20" />
+        <ClinVarAccession Accession="SCV000747114" DateUpdated="2019-12-31" DateCreated="2018-05-06" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-23">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 Chinese brothers (P1 and P2) with infertility due to multiple morphologic abnormalities of sperm flagella (SPGF20; 617593), Sha et al. (2019) identified homozygosity for a 10-bp deletion (c.2935_2944del, NM_001164496) in exon 22 of the CFAP44 gene, causing a frameshift predicted to result in a premature termination codon, asp979-to-ter (D979X). Their unaffected father and mother were both heterozygous for the mutation, which was not found in the ExAC or 1000 Genomes Project databases. Analysis of patient sperm by Western blot and immunofluorescence failed to detect CFAP44, and qPCR demonstrated significantly lower expression of CFAP44 mRNA in patient sperm compared to control, suggesting a loss-of-function effect.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29277146</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617593" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CFAP44" />
+          </GeneList>
+          <Name>CFAP44, 10-BP DEL, NT2935</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">10-BP DEL, NT2935</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="617559.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPERMATOGENIC FAILURE 20</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1455017" TraitType="Disease" MappingType="Name" MappingValue="SPERMATOGENIC FAILURE 20" MappingRef="Preferred">
+        <MedGen CUI="C4539824" Name="Spermatogenic failure 20" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

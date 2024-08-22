@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="805850" VariationName="NM_014862.4(ARNT2):c.1372_1373dup (p.Tyr459fs)" VariationType="Duplication" Accession="VCV000805850" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-01-20" MostRecentSubmission="2020-01-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="794170" VariationID="805850">
+      <GeneList>
+        <Gene Symbol="ARNT2" FullName="aryl hydrocarbon receptor nuclear translocator 2" GeneID="9915" HGNC_ID="HGNC:16876" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="80404382" stop="80597933" display_start="80404382" display_stop="80597933" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="80696691" stop="80890277" display_start="80696691" display_stop="80890277" Strand="+" />
+          </Location>
+          <OMIM>606036</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_014862.4(ARNT2):c.1372_1373dup (p.Tyr459fs)</Name>
+      <CanonicalSPDI>NC_000015.10:80574202:TC:TCTC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>15q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="80574202" stop="80574203" display_start="80574202" display_stop="80574203" variantLength="2" positionVCF="80574202" referenceAlleleVCF="A" alternateAlleleVCF="ATC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="80866543" stop="80866544" display_start="80866543" display_stop="80866544" variantLength="2" positionVCF="80866543" referenceAlleleVCF="A" alternateAlleleVCF="ATC" />
+      </Location>
+      <ProteinChange>Y459fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.80574203_80574204dup" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.80574203_80574204dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.80866544_80866545dup" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.80866544_80866545dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_014862.4" sequenceAccession="NM_014862" sequenceVersion="4" change="c.1372_1373dup" MANESelect="true">
+            <Expression>NM_014862.4:c.1372_1373dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_055677.3" sequenceAccession="NP_055677" sequenceVersion="3" change="p.Tyr459fs">
+            <Expression>NP_055677.3:p.Tyr459fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="606036.0001" DB="OMIM" />
+        <XRef Type="rs" ID="1596021185" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_014862.4(ARNT2):c.1372_1373dup (p.Tyr459fs) AND Webb-Dattani syndrome" Accession="RCV000993667" Version="1">
+        <ClassifiedConditionList TraitSetID="16955">
+          <ClassifiedCondition DB="MedGen" ID="C4014708">Webb-Dattani syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-01-20" MostRecentSubmission="2020-01-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24022475</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="16955" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="21308" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOTHALAMO-PITUITARY-FRONTOTEMPORAL HYPOPLASIA WITH VISUAL AND RENAL ANOMALIES</ElementValue>
+                <XRef Type="MIM" ID="615926" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Webb-Dattani syndrome</ElementValue>
+                <XRef ID="MONDO:0014404" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">WEDAS</ElementValue>
+                <XRef Type="MIM" ID="615926" DB="OMIM" />
+              </Symbol>
+              <XRef ID="370006" DB="Orphanet" />
+              <XRef ID="C4014708" DB="MedGen" />
+              <XRef ID="MONDO:0014404" DB="MONDO" />
+              <XRef Type="MIM" ID="615926" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2260888" SubmissionDate="2020-01-17" DateLastUpdated="2020-01-20" DateCreated="2020-01-20">
+        <ClinVarSubmissionID localKey="606036.0001_WEBB-DATTANI SYNDROME (1 family)" title="ARNT2, 2-BP DUP, 1373TC_WEBB-DATTANI SYNDROME (1 family)" />
+        <ClinVarAccession Accession="SCV001146799" DateUpdated="2020-01-20" DateCreated="2020-01-20" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-17">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamilies="1" />
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 6 children, born of consanguineous Saudi Arabian parents, with Webb-Dattani syndrome (WEDAS; 615926), Webb et al. (2013) identified a homozygous 2-bp duplication (c.1373_1374dupTC) in exon 13 of the ARNT2 gene, resulting in a frameshift and premature termination (Tyr459ArgfsTer52). The mutation, which was found by a combination of homozygosity mapping and whole-exome sequencing, segregated with the disorder in the family, and was not present in the dbSNP (build 137) or Exome Variant Server databases, or in 172 in-house exomes or 200 ethnically matched controls. Analysis of patient cells indicated that the mutation resulted in nonsense-mediated mRNA and complete loss of ARNT2 function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">24022475</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="615926" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ARNT2" />
+          </GeneList>
+          <Name>ARNT2, 2-BP DUP, 1373TC</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DUP, 1373TC</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="606036.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">WEBB-DATTANI SYNDROME (1 family)</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

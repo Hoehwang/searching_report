@@ -1,0 +1,176 @@
+<VariationArchive RecordType="classified" VariationID="560057" VariationName="Single allele" VariationType="Deletion" Accession="VCV000560057" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-02-18" DateCreated="2018-08-26" MostRecentSubmission="2022-12-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="550773" VariationID="560057">
+      <GeneList>
+        <Gene Symbol="NRXN1" FullName="neurexin 1" GeneID="9378" HGNC_ID="HGNC:8008" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p16.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="49918503" stop="51032132" display_start="49918503" display_stop="51032132" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="50145642" stop="51259673" display_start="50145642" display_stop="51259673" Strand="-" />
+          </Location>
+          <OMIM>600565</OMIM>
+          <Haploinsufficiency last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p16.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="50830687" stop="50945045" display_start="50830687" display_stop="50945045" variantLength="114359" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="51057824" stop="51172182" display_start="51057824" display_stop="51172182" variantLength="114359" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.50830687_50945045del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.50830687_50945045del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.51057824_51172182del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.51057824_51172182del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Chromosome 2p16.3 deletion syndrome" Accession="RCV000677934" Version="2">
+        <ClassifiedConditionList TraitSetID="7639">
+          <ClassifiedCondition DB="MedGen" ID="C3808494">Chromosome 2p16.3 deletion syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-07-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-07-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-08-26" MostRecentSubmission="2022-12-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18179900</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">18945720</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23495017</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7639" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16620" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Chromosome 2p16.3 deletion syndrome</ElementValue>
+                <XRef ID="MONDO:0013696" DB="MONDO" />
+              </Name>
+              <XRef ID="C3808494" DB="MedGen" />
+              <XRef ID="MONDO:0013696" DB="MONDO" />
+              <XRef Type="MIM" ID="614332" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1567913" SubmissionDate="2018-04-18" DateLastUpdated="2022-12-11" DateCreated="2018-08-26">
+        <ClinVarSubmissionID localKey="ADMI00175" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000804089" DateUpdated="2022-12-11" DateCreated="2018-08-26" Type="SCV" Version="2" SubmitterName="Geisinger Autism and Developmental Medicine Institute, Geisinger Health System" OrgID="506174" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-07-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23495017</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18179900</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18945720</ID>
+          </Citation>
+          <Comment>This deletion was identified in a 5 year old male with mild intellectual disability, ADHD, mild phonological disorder, and disruptive behavior disorder. Parental testing was not completed. There is an extensive family history of substance abuse, psychiatric diagnoses, and learning disabilities. Two additional copy number variants were also identified in this patient, one likely pathogenic and one of uncertain significance.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>provider interpretation</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2017-07-13" integerValue="26957">GeneDx</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Intellectual disability, mild</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001256" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Attention deficit hyperactivity disorder</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0007018" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" start="51057824" stop="51172182" variantLength="114359" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614332" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3918644</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1567913" TraitType="Finding" MappingType="Name" MappingValue="Intellectual disability, mild" MappingRef="Preferred">
+        <MedGen CUI="C0026106" Name="Intellectual disability, mild" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567913" TraitType="Disease" MappingType="XRef" MappingValue="614332" MappingRef="OMIM">
+        <MedGen CUI="C3808494" Name="Chromosome 2p16.3 deletion syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567913" TraitType="Finding" MappingType="Name" MappingValue="Attention deficit hyperactivity disorder" MappingRef="Preferred">
+        <MedGen CUI="C1263846" Name="Attention deficit hyperactivity disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,209 @@
+<VariationArchive VariationID="841780" VariationName="NM_025216.3(WNT10A):c.717del (p.His239fs)" VariationType="Deletion" Accession="VCV000841780" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-28" DateCreated="2020-04-15" MostRecentSubmission="2024-02-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="825745" VariationID="841780">
+      <GeneList>
+        <Gene Symbol="WNT10A" FullName="Wnt family member 10A" GeneID="80326" HGNC_ID="HGNC:13829" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q35</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="218874116" stop="218893928" display_start="218874116" display_stop="218893928" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="219745254" stop="219758650" display_start="219745254" display_stop="219758650" Strand="+" />
+          </Location>
+          <OMIM>606268</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_025216.3(WNT10A):c.717del (p.His239fs)</Name>
+      <CanonicalSPDI>NC_000002.12:218890323:C:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q35</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="218890324" stop="218890324" display_start="218890324" display_stop="218890324" variantLength="1" positionVCF="218890323" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="219755046" stop="219755046" display_start="219755046" display_stop="219755046" variantLength="1" positionVCF="219755045" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>H239fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.219755046del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.219755046del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.218890324del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.218890324del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012179.1" sequenceAccession="NG_012179" sequenceVersion="1" change="g.14792del">
+            <Expression>NG_012179.1:g.14792del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_025216.3" sequenceAccession="NM_025216" sequenceVersion="3" change="c.717del" MANESelect="true">
+            <Expression>NM_025216.3:c.717del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_079492.2" sequenceAccession="NP_079492" sequenceVersion="2" change="p.His239fs">
+            <Expression>NP_079492.2:p.His239fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1944636041" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_025216.3(WNT10A):c.717del (p.His239fs) AND multiple conditions" Accession="RCV001044079" Version="5">
+        <ClassifiedConditionList TraitSetID="26543">
+          <ClassifiedCondition DB="MedGen" ID="C0796093">Odonto-onycho-dermal dysplasia</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1835492">Tooth agenesis, selective, 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-10-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-10-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-02-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24902757</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="26543" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3308" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Odonto-onycho-dermal dysplasia</ElementValue>
+                <XRef ID="MONDO:0009773" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Odontoonychodermal dysplasia</ElementValue>
+                <XRef ID="Odontoonychodermal+dysplasia/5336" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">OODD</ElementValue>
+                <XRef Type="MIM" ID="257980" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4054" />
+                <XRef ID="4054" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2721" DB="Orphanet" />
+              <XRef ID="C0796093" DB="MedGen" />
+              <XRef ID="MONDO:0009773" DB="MONDO" />
+              <XRef Type="MIM" ID="257980" DB="OMIM" />
+            </Trait>
+            <Trait ID="6064" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">TOOTH AGENESIS, SELECTIVE, 4, WITH OR WITHOUT ECTODERMAL DYSPLASIA</ElementValue>
+                <XRef Type="MIM" ID="150400" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606268.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LATERAL INCISORS, ABSENCE OF</ElementValue>
+                <XRef Type="MIM" ID="150400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LATERAL INCISORS, PEGGED OR MISSING</ElementValue>
+                <XRef Type="MIM" ID="150400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Tooth agenesis, selective, 4</ElementValue>
+                <XRef ID="MONDO:0007881" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">STHAG4</ElementValue>
+                <XRef Type="MIM" ID="150400" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000332541" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18245" />
+                <XRef ID="18245" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="99798" DB="Orphanet" />
+              <XRef ID="C1835492" DB="MedGen" />
+              <XRef ID="MONDO:0007881" DB="MONDO" />
+              <XRef Type="MIM" ID="150400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2373121" SubmissionDate="2024-02-15" DateLastUpdated="2024-02-28" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="8862243|MedGen:C1835492;C0796093" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001207854" DateUpdated="2024-02-28" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-10-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24902757</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the WNT10A protein in which other variant(s) (p.Glu390*) have been determined to be pathogenic (PMID: 24902757; Invitae). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant has not been reported in the literature in individuals affected with WNT10A-related conditions. This variant is not present in population databases (ExAC no frequency). This sequence change creates a premature translational stop signal (p.His239Glnfs*4) in the WNT10A gene. While this is not anticipated to result in nonsense mediated decay, it is expected to disrupt the last 179 amino acid(s) of the WNT10A protein.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WNT10A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.219755046del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1835492" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0796093" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12508014</SubmissionName>
+          <SubmissionName>SUB14224806</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2373121" TraitType="Disease" MappingType="XRef" MappingValue="C0796093" MappingRef="MedGen">
+        <MedGen CUI="C0796093" Name="Odonto-onycho-dermal dysplasia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2373121" TraitType="Disease" MappingType="XRef" MappingValue="C1835492" MappingRef="MedGen">
+        <MedGen CUI="C1835492" Name="Tooth agenesis, selective, 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

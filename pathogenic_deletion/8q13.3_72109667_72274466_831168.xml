@@ -1,0 +1,241 @@
+<VariationArchive VariationID="831168" VariationName="NC_000008.11:g.(?_71269720)_(71269843_?)del" VariationType="Deletion" Accession="VCV000831168" Version="8" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819983" VariationID="831168">
+      <GeneList>
+        <Gene Symbol="EYA1" FullName="EYA transcriptional coactivator and phosphatase 1" GeneID="2138" HGNC_ID="HGNC:3519" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="71197433" stop="71548094" display_start="71197433" display_stop="71548094" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="72109667" stop="72274466" display_start="72109667" display_stop="72274466" Strand="-" />
+          </Location>
+          <OMIM>601653</OMIM>
+          <Haploinsufficiency last_evaluated="2020-08-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=EYA1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-08-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=EYA1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000008.11:g.(?_71269720)_(71269843_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="72181955" innerStop="72182078" display_start="72181955" display_stop="72182078" variantLength="124" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_72181955)_(72182078_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_72181955)_(72182078_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.11:g.(?_71269720)_(71269843_?)del AND Branchiootorenal syndrome 1" Accession="RCV001031746" Version="1">
+        <ClassifiedConditionList TraitSetID="2157">
+          <ClassifiedCondition DB="MedGen" ID="C4551702">Branchiootorenal syndrome 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NC_000008.11:g.(?_71269720)_(71269843_?)del AND Melnick-Fraser syndrome" Accession="RCV001387704" Version="7">
+        <ClassifiedConditionList TraitSetID="64710">
+          <ClassifiedCondition DB="MedGen" ID="C0265234">Melnick-Fraser syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-03" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19206155</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="64710" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="54712" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Branchio-oto-renal syndrome</ElementValue>
+                <XRef ID="MONDO:0007029" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Branchiootorenal syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Melnick-Fraser syndrome</ElementValue>
+                <XRef ID="Branchiootorenal+Syndrome+1/956" DB="Genetic Alliance" />
+                <XRef ID="290006" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BOR</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10147" />
+                <XRef ID="10147" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="107" DB="Orphanet" />
+              <XRef ID="C0265234" DB="MedGen" />
+              <XRef ID="MONDO:0007029" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS113650" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="2157" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4708" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Branchiootorenal syndrome 1</ElementValue>
+                <XRef ID="MONDO:0007236" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BOR1</ElementValue>
+                <XRef ID="GTR000553458" DB="Genetic Testing Registry (GTR)" />
+                <XRef Type="MIM" ID="113650" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Branchiootorenal spectrum disorder (BORSD) is characterized by malformations of the outer, middle, and inner ear associated with conductive, sensorineural, or mixed hearing impairment, branchial fistulae and cysts, and renal malformations ranging from mild renal hypoplasia to bilateral renal agenesis. Some individuals progress to end-stage renal disease (ESRD) later in life. Extreme variability can be observed in the presence, severity, and type of branchial arch, otologic, audiologic, and renal abnormality from right side to left side in an affected individual and also among individuals in the same family.</Attribute>
+                <XRef ID="NBK1380" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301554</ID>
+                <ID Source="BookShelf">NBK1380</ID>
+              </Citation>
+              <XRef ID="107" DB="Orphanet" />
+              <XRef ID="C4551702" DB="MedGen" />
+              <XRef ID="MONDO:0007236" DB="MONDO" />
+              <XRef Type="MIM" ID="113650" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356306" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="4448690|MedGen:C0265234" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195052" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19206155</ID>
+          </Citation>
+          <Comment>This variant is an in-frame deletion of the genomic region encompassing exon 11 of the EYA1 gene. It preserves the integrity of the reading frame. Similar copy number variants have been observed in individuals affected with clinical features of branchiootorenal syndrome (PMID: 19206155, Invitae). This exon is also known as exon 9 in the literature. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EYA1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.(?_72181955)_(72182078_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Melnick-Fraser syndrome</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0265234" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3114043" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_000503.5_8_Deletion (exon 11)|MedGen:C0265234" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001588383" DateUpdated="2024-06-09" DateCreated="2021-05-10" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19206155</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. Similar copy number variants have been observed in individuals affected with clinical features of branchiootorenal syndrome (PMID: 19206155, Invitae). This exon is also known as exon 9 in the literature. This variant is an in-frame deletion of the genomic region encompassing exon 11 of the EYA1 gene. It preserves the integrity of the reading frame.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EYA1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.(?_72181955)_(72182078_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0265234" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356306" TraitType="Disease" MappingType="Name" MappingValue="Melnick-Fraser syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0265234" Name="Melnick-Fraser syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3114043" TraitType="Disease" MappingType="XRef" MappingValue="C0265234" MappingRef="MedGen">
+        <MedGen CUI="C0265234" Name="Melnick-Fraser syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

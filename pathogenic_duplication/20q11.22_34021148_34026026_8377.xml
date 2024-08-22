@@ -1,0 +1,140 @@
+<VariationArchive VariationID="8377" VariationName="GDF5, 22-BP DUP" VariationType="Duplication" Accession="VCV000008377" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2015-10-05" MostRecentSubmission="2024-07-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="23416" VariationID="8377">
+      <GeneList>
+        <Gene Symbol="GDF5" FullName="growth differentiation factor 5" GeneID="8200" HGNC_ID="HGNC:4220" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>20q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="35433347" stop="35454749" display_start="35433347" display_stop="35454749" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="34021148" stop="34026026" display_start="34021148" display_stop="34026026" Strand="-" />
+          </Location>
+          <OMIM>601146</OMIM>
+          <Haploinsufficiency last_evaluated="2021-02-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GDF5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-02-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GDF5">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GDF5, 22-BP DUP</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>20q11.2</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>22-BP DUP</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="601146.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GDF5, 22-BP DUP AND Acromesomelic dysplasia 2C, Hunter-Thompson type" Accession="RCV000008883" Version="6">
+        <ClassifiedConditionList TraitSetID="2302">
+          <ClassifiedCondition DB="MedGen" ID="C2930970">Acromesomelic dysplasia 2C, Hunter-Thompson type</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1996-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1996-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-05" MostRecentSubmission="2024-07-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">2703235</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8589725</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2302" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="125" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Acromesomelic dysplasia 2C, Hunter-Thompson type</ElementValue>
+                <XRef ID="MONDO:0008717" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acromesomelic dwarfism</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acromesomelic dysplasia, Hunter-Thompson type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">AMD2C</ElementValue>
+                <XRef Type="MIM" ID="201250" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="506" />
+                <XRef ID="506" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="968" DB="Orphanet" />
+              <XRef ID="C2930970" DB="MedGen" />
+              <XRef ID="MONDO:0008717" DB="MONDO" />
+              <XRef Type="MIM" ID="201250" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="29093" SubmissionDate="2020-04-03" DateLastUpdated="2024-07-07" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="601146.0001_ACROMESOMELIC DYSPLASIA 2C (1 family)" title="GDF5, 22-BP DUP_ACROMESOMELIC DYSPLASIA 2C (1 family)" />
+        <ClinVarAccession Accession="SCV000029093" DateUpdated="2024-07-07" DateCreated="2013-04-04" Type="SCV" Version="5" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1996-03-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamilies="1" />
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a family described by Langer et al. (1989) from the Choco District of Colombia affected with the Hunter-Thompson type of chondrodysplasia (AMD2C; 201250), Thomas et al. (1996) demonstrated that affected members were homozygous for a 22-bp tandem duplication frameshift mutation in the mature region of the CDMP1 protein. Hunter-Thompson-type chondrodysplasia and mouse 'bp' are typified by abnormalities restricted to the limbs and the severity of the long bone shortening progresses in a proximal to distal direction. The hands and feet are most severely affected but the distal phalanges are relatively normal.</Attribute>
+              <Citation>
+                <ID Source="PubMed">2703235</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">8589725</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="201250" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GDF5" />
+          </GeneList>
+          <Name>GDF5, 22-BP DUP</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">22-BP DUP</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="601146.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ACROMESOMELIC DYSPLASIA 2C (1 family)</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

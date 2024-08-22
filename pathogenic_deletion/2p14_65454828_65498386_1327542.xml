@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="1327542" VariationName="NC_000002.11:g.65335411_65479694del" VariationType="Deletion" Accession="VCV001327542" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-24" DateCreated="2022-06-15" MostRecentSubmission="2022-06-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1318147" VariationID="1327542">
+      <GeneList>
+        <Gene Symbol="ACTR2" FullName="actin related protein 2" GeneID="10097" HGNC_ID="HGNC:169" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p14</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="65227831" stop="65271253" display_start="65227831" display_stop="65271253" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="65454828" stop="65498386" display_start="65454828" display_stop="65498386" Strand="+" />
+          </Location>
+          <OMIM>604221</OMIM>
+        </Gene>
+        <Gene Symbol="RAB1A" FullName="RAB1A, member RAS oncogene family" GeneID="5861" HGNC_ID="HGNC:9758" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p14</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="65086854" stop="65130106" display_start="65086854" display_stop="65130106" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="65313987" stop="65357434" display_start="65313987" display_stop="65357434" Strand="-" />
+          </Location>
+          <OMIM>179508</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.11:g.65335411_65479694del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p14</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="65335411" stop="65479694" display_start="65335411" display_stop="65479694" variantLength="144284" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.65335411_65479694del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.65335411_65479694del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.11:g.65335411_65479694del AND 2p14 microdeletion syndrome" Accession="RCV002254531" Version="2">
+        <ClassifiedConditionList TraitSetID="71324">
+          <ClassifiedCondition>2p14 microdeletion syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-03-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-03-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-06-15" MostRecentSubmission="2022-06-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28599093</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="71324" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="61038" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">2p14 microdeletion syndrome</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3987601" SubmissionDate="2021-12-10" DateLastUpdated="2022-06-15" DateCreated="2022-06-15">
+        <ClinVarSubmissionID localKey="645_RUC1|2p14 microdeletion syndrome" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002032176" DateUpdated="2022-06-15" DateCreated="2022-06-15" Type="SCV" Version="1" SubmitterName="National Center Hospital, National Center of Neurology and Psychiatry" OrgID="508349" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-03-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28599093</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">intellectual disability</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">language impairment</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACTR2" />
+            <Gene Symbol="RAB1A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.65335411_65479694del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <Name>
+              <ElementValue Type="Preferred">2p14 microdeletion syndrome</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10732467</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3987601" TraitType="Finding" MappingType="Name" MappingValue="language impairment" MappingRef="Preferred">
+        <MedGen CUI="C0023015" Name="Language impairment" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3987601" TraitType="Finding" MappingType="Name" MappingValue="2p14 microdeletion syndrome" MappingRef="Preferred">
+        <MedGen CUI="None" Name="2p14 microdeletion syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3987601" TraitType="Finding" MappingType="Name" MappingValue="intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

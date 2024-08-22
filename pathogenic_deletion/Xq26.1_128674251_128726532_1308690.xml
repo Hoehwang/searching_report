@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="1308690" VariationName="NC_000023.11:g.128710337_128710338del" VariationType="Deletion" Accession="VCV001308690" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-11-06" MostRecentSubmission="2021-11-06">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1298954" VariationID="1308690">
+      <GeneList>
+        <Gene Symbol="OCRL" FullName="OCRL inositol polyphosphate-5-phosphatase" GeneID="4952" HGNC_ID="HGNC:8108" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>Xq26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="129540259" stop="129592556" display_start="129540259" display_stop="129592556" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="128674251" stop="128726532" display_start="128674251" display_stop="128726532" Strand="+" />
+          </Location>
+          <OMIM>300535</OMIM>
+          <Haploinsufficiency last_evaluated="2021-01-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=OCRL">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-01-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=OCRL">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.11:g.128710337_128710338del</Name>
+      <CanonicalSPDI>NC_000023.11:128710334:TTTT:TT</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq25</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="128710335" stop="128710336" display_start="128710335" display_stop="128710336" variantLength="2" positionVCF="128710334" referenceAlleleVCF="CTT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="127844313" stop="127844314" display_start="127844313" display_stop="127844314" variantLength="2" positionVCF="127844312" referenceAlleleVCF="CTT" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.127844315_127844316del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.127844315_127844316del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.128710337_128710338del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.128710337_128710338del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2124446919" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="absent gene product">
+        <XRef ID="SO:0002317" DB="Sequence Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.11:g.128710337_128710338del AND Developmental cataract" Accession="RCV001763536" Version="1">
+        <ClassifiedConditionList TraitSetID="1914">
+          <ClassifiedCondition DB="MedGen" ID="C0009691">Developmental cataract</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-04-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-04-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-06" MostRecentSubmission="2021-11-06">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1914" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10281" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Developmental cataract</ElementValue>
+                <XRef ID="HP:0000519" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital cataract</ElementValue>
+                <XRef ID="HP:0000519" DB="Human Phenotype Ontology" />
+                <XRef ID="79410001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital cataracts</ElementValue>
+              </Name>
+              <XRef ID="C0009691" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0000519" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001108" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007679" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007726" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007788" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3891740" SubmissionDate="2021-11-02" DateLastUpdated="2021-11-06" DateCreated="2021-11-06">
+        <ClinVarSubmissionID localKey="SUB10598090" submittedAssembly="GRCh38" title="SUB10598090" />
+        <ClinVarAccession Accession="SCV001989747" DateUpdated="2021-11-06" DateCreated="2021-11-06" Type="SCV" Version="1" SubmitterName="Akhavan-Niaki Genetics Laboratory, Babol University of Medical Sciences" OrgID="508319" OrganizationCategory="laboratory" OrgAbbreviation="Akh-Nia" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-04-18">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ORC1">
+              <Name>origin recognition complex subunit 1</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000276.4:exon 18</GeneLocation>
+          </Location>
+          <FunctionalConsequence Value="absent gene product">
+            <XRef DB="Sequence Ontology" ID="SO:0002317" URL="http://www.sequenceontology.org/browser/current_svn/term/SO:0002317" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.11:g.128710337_128710338del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0000519" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10598090</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3891740" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000519" MappingRef="HP">
+        <MedGen CUI="C0009691" Name="Developmental cataract" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

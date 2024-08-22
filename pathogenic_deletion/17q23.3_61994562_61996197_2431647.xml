@@ -1,0 +1,223 @@
+<VariationArchive RecordType="classified" VariationID="2431647" VariationName="NC_000017.11:g.(63914995_63921260)del" VariationType="Deletion" Accession="VCV002431647" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2405151" VariationID="2431647">
+      <GeneList>
+        <Gene Symbol="GH1" FullName="growth hormone 1" GeneID="2688" HGNC_ID="HGNC:4261" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>17q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="63917203" stop="63918839" display_start="63917203" display_stop="63918839" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="61994562" stop="61996197" display_start="61994562" display_stop="61996197" Strand="-" />
+          </Location>
+          <OMIM>139250</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.11:g.(63914995_63921260)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.(63914995_63921260)del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.(63914995_63921260)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.11:g.(63914995_63921260)del AND Ateleiotic dwarfism" Accession="RCV003142283" Version="1">
+        <ClassifiedConditionList TraitSetID="5191">
+          <ClassifiedCondition DB="MedGen" ID="C0342573">Ateleiotic dwarfism</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="5191" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2425" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ateleiotic dwarfism</ElementValue>
+                <XRef ID="Ateleiotic+dwarfism/7728" DB="Genetic Alliance" />
+                <XRef ID="71003000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IGHD IA</ElementValue>
+                <XRef Type="MIM" ID="262400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PITUITARY DWARFISM I</ElementValue>
+                <XRef Type="MIM" ID="262400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Isolated growth hormone deficiency type 1A</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Growth hormone deficiency, isolated autosomal recessive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ILLIG type growth hormone deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Sexual ateleiotic dwarfism</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pituitary dwarfism 1</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IGHD1A</ElementValue>
+                <XRef Type="MIM" ID="262400" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7399" />
+                <XRef ID="7399" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="231662" DB="Orphanet" />
+              <XRef ID="631" DB="Orphanet" />
+              <XRef ID="C0342573" DB="MedGen" />
+              <XRef ID="MONDO:0009876" DB="MONDO" />
+              <XRef Type="MIM" ID="262400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7113828" SubmissionDate="2023-03-01" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey="436ca06f3d4b3fd964d022aabfe79fc3" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003807760" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <Description>Paired-end whole-genome sequencing</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002033" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0430026" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001999" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004325" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0003510" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011220" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0045082" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001998" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0003508" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004322" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000839" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GH1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.11:g.(63914995_63921260)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="262400" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12925816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004325" MappingRef="HP">
+        <MedGen CUI="C1844806" Name="Decreased body weight" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003508" MappingRef="HP">
+        <MedGen CUI="C0878660" Name="Proportionate short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0045082" MappingRef="HP">
+        <MedGen CUI="C0231255" Name="Decreased body mass index" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003510" MappingRef="HP">
+        <MedGen CUI="C0013336" Name="Severe short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002033" MappingRef="HP">
+        <MedGen CUI="C1837142" Name="Poor suck" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011220" MappingRef="HP">
+        <MedGen CUI="C1837260" Name="Prominent forehead" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000839" MappingRef="HP">
+        <MedGen CUI="C0013338" Name="Pituitary dwarfism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0430026" MappingRef="HP">
+        <MedGen CUI="C4073208" Name="Abnormality of the shape of the midface" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Disease" MappingType="XRef" MappingValue="262400" MappingRef="OMIM">
+        <MedGen CUI="C0342573" Name="Ateleiotic dwarfism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004322" MappingRef="HP">
+        <MedGen CUI="C0349588" Name="Short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001999" MappingRef="HP">
+        <MedGen CUI="C0424503" Name="Abnormal facial shape" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113828" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001998" MappingRef="HP">
+        <MedGen CUI="C0158986" Name="Neonatal hypoglycemia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

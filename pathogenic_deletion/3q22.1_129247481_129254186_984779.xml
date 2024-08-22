@@ -1,0 +1,165 @@
+<VariationArchive RecordType="classified" VariationID="984779" VariationName="NM_000539.3(RHO):c.1040del (p.Pro347fs)" VariationType="Deletion" Accession="VCV000984779" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="972874" VariationID="984779">
+      <GeneList>
+        <Gene Symbol="RHO" FullName="rhodopsin" GeneID="6010" HGNC_ID="HGNC:10012" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="129528639" stop="129535344" display_start="129528639" display_stop="129535344" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="129247481" stop="129254186" display_start="129247481" display_stop="129254186" Strand="+" />
+          </Location>
+          <OMIM>180380</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000539.3(RHO):c.1040del (p.Pro347fs)</Name>
+      <CanonicalSPDI>NC_000003.12:129533707:CCCC:CCC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="129533708" stop="129533708" display_start="129533708" display_stop="129533708" variantLength="1" positionVCF="129533707" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="129252551" stop="129252551" display_start="129252551" display_stop="129252551" variantLength="1" positionVCF="129252550" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>P347fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.129252554del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.129252554del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.129533711del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.129533711del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009115.1" sequenceAccession="NG_009115" sequenceVersion="1" change="g.10073del">
+            <Expression>NG_009115.1:g.10073del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000539.3" sequenceAccession="NM_000539" sequenceVersion="3" change="c.1040del" MANESelect="true">
+            <Expression>NM_000539.3:c.1040del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000530.1" sequenceAccession="NP_000530" sequenceVersion="1" change="p.Pro347fs">
+            <Expression>NP_000530.1:p.Pro347fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2084801618" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000539.3(RHO):c.1040del (p.Pro347fs) AND Retinitis pigmentosa 4" Accession="RCV001265181" Version="1">
+        <ClassifiedConditionList TraitSetID="3550">
+          <ClassifiedCondition DB="MedGen" ID="C3151001">Retinitis pigmentosa 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-09-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-09-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3550" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6375" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RETINITIS PIGMENTOSA, RHODOPSIN-RELATED</ElementValue>
+                <XRef Type="MIM" ID="613731" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Retinitis pigmentosa 4</ElementValue>
+                <XRef ID="Retinitis+Pigmentosa+4/6275" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013395" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RP 4</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RP4</ElementValue>
+                <XRef Type="MIM" ID="613731" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10405" />
+                <XRef ID="10405" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301590</ID>
+                <ID Source="BookShelf">NBK1417</ID>
+              </Citation>
+              <XRef ID="791" DB="Orphanet" />
+              <XRef ID="C3151001" DB="MedGen" />
+              <XRef ID="MONDO:0013395" DB="MONDO" />
+              <XRef Type="MIM" ID="613731" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2850774" SubmissionDate="2020-10-28" DateLastUpdated="2020-11-19" DateCreated="2020-11-19">
+        <ClinVarSubmissionID localKey="NM_000539.3:c.1040del|OMIM:613731" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001443260" DateUpdated="2020-11-19" DateCreated="2020-11-19" Type="SCV" Version="1" SubmitterName="Centre for Genomic Medicine, Manchester, Central Manchester University Hospitals" OrgID="505642" OrganizationCategory="clinic" OrgAbbreviation="MCGM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-09-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RHO" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000539.3:c.1040del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613731" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MCGM_RHO_19</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2850774" TraitType="Disease" MappingType="XRef" MappingValue="613731" MappingRef="OMIM">
+        <MedGen CUI="C3151001" Name="Retinitis pigmentosa 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

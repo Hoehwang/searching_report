@@ -1,0 +1,187 @@
+<VariationArchive RecordType="classified" VariationID="2506312" VariationName="NC_000023.10:g.(?_153287263)_(153298009_153357641)del" VariationType="Deletion" Accession="VCV002506312" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-24" DateCreated="2023-06-24" MostRecentSubmission="2023-06-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2671267" VariationID="2506312">
+      <GeneList>
+        <Gene Symbol="MECP2" FullName="methyl-CpG binding protein 2" GeneID="4204" HGNC_ID="HGNC:6990" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154021573" stop="154097717" display_start="154021573" display_stop="154097717" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153287263" stop="153363187" display_start="153287263" display_stop="153363187" Strand="-" />
+          </Location>
+          <OMIM>300005</OMIM>
+          <Haploinsufficiency last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_153287263)_(153298009_153357641)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153287263" innerStop="153298009" outerStop="153357641" display_start="153287263" display_stop="153357641" variantLength="70379" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_153287263)_(153298009_153357641)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_153287263)_(153298009_153357641)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_153287263)_(153298009_153357641)del AND Rett syndrome" Accession="RCV003236543" Version="1">
+        <ClassifiedConditionList TraitSetID="3215">
+          <ClassifiedCondition DB="MedGen" ID="C0035372">Rett syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-05-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-05-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-06-24" MostRecentSubmission="2023-06-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14974082</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22382802</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30842224</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31206249</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3215" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3622" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Rett's disorder</ElementValue>
+                <XRef ID="Rett+syndrome/6294" DB="Genetic Alliance" />
+                <XRef ID="68618008" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Rett syndrome</ElementValue>
+                <XRef ID="MONDO:0010726" DB="MONDO" />
+                <XRef ID="778" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Autism, dementia, ataxia, and loss of purposeful hand use</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RTS</ElementValue>
+                <XRef Type="MIM" ID="312750" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">RTT</ElementValue>
+                <XRef Type="MIM" ID="312750" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5696" />
+                <XRef ID="5696" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">The spectrum of MECP2-related phenotypes in females ranges from classic Rett syndrome to variant Rett syndrome with a broader clinical phenotype (either milder or more severe than classic Rett syndrome) to mild learning disabilities; the spectrum in males ranges from severe neonatal encephalopathy to pyramidal signs, parkinsonism, and macroorchidism (PPM-X) syndrome to severe syndromic/nonsyndromic intellectual disability. Females: Classic Rett syndrome, a progressive neurodevelopmental disorder primarily affecting girls, is characterized by apparently normal psychomotor development during the first six to 18 months of life, followed by a short period of developmental stagnation, then rapid regression in language and motor skills, followed by long-term stability. During the phase of rapid regression, repetitive, stereotypic hand movements replace purposeful hand use. Additional findings include fits of screaming and inconsolable crying, autistic features, panic-like attacks, bruxism, episodic apnea and/or hyperpnea, gait ataxia and apraxia, tremors, seizures, and acquired microcephaly. Males: Severe neonatal-onset encephalopathy, the most common phenotype in affected males, is characterized by a relentless clinical course that follows a metabolic-degenerative type of pattern, abnormal tone, involuntary movements, severe seizures, and breathing abnormalities. Death often occurs before age two years.</Attribute>
+                <XRef ID="NBK1497" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">MECP2-Related Disorders</Attribute>
+                <XRef ID="NBK1497" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301670</ID>
+                <ID Source="BookShelf">NBK1497</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2008">
+                <ID Source="pmc">3111012</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23519317</ID>
+              </Citation>
+              <XRef ID="3095" DB="Orphanet" />
+              <XRef ID="778" DB="Orphanet" />
+              <XRef ID="C0035372" DB="MedGen" />
+              <XRef ID="MONDO:0010726" DB="MONDO" />
+              <XRef Type="MIM" ID="312750" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7354491" SubmissionDate="2023-06-21" DateLastUpdated="2023-06-24" DateCreated="2023-06-24">
+        <ClinVarSubmissionID localKey="NC_000023.10:g.(?_153287263)_(153298009_153357641)del|MedGen:C0035372" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003933791" DateUpdated="2023-06-24" DateCreated="2023-06-24" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-05-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22382802</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">14974082</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">31206249</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">30842224</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 3-4 in the MECP2 gene. A presumed nomenclature of c.(26+1_27-1)_(*8555_?)del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in a large deletion including the last exon in the MECP2 gene. The variant was absent in 16120 control chromosomes in gnomAD database, structural variants data set. Deletion of MECP2 exons 3-4 has been reported in the literature in multiple individuals affected with Rett Syndrome (examples: Laccone_2004, Aradhya_2011, Vidal_2018) and at-least one case was reported as de novo (Iwama_2019). These data indicate that the variant is very likely to be associated with disease. The following publications have been ascertained in the context of this evaluation (PMID: 22382802, 14974082, 30842224, 31206249). No clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014. However, the deletion of exon 4 has been classified pathogenic in ClinVar (CV ID:2425258). Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MECP2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_153287263)_(153298009_153357641)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0035372" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13562035</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7354491" TraitType="Disease" MappingType="XRef" MappingValue="C0035372" MappingRef="MedGen">
+        <MedGen CUI="C0035372" Name="Rett syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

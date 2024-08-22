@@ -1,0 +1,169 @@
+<VariationArchive RecordType="classified" VariationID="1878316" VariationName="NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del" VariationType="Deletion" Accession="VCV001878316" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-21" DateCreated="2023-01-15" MostRecentSubmission="2023-01-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1935082" VariationID="1878316">
+      <GeneList>
+        <Gene Symbol="SPG11" FullName="SPG11 vesicle trafficking associated, spatacsin" GeneID="80208" HGNC_ID="HGNC:11226" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="44562696" stop="44663662" display_start="44562696" display_stop="44663662" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="44854893" stop="44955875" display_start="44854893" display_stop="44955875" Strand="-" />
+          </Location>
+          <OMIM>610844</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" outerStart="44861704" innerStart="44862722" innerStop="44867240" outerStop="44876011" display_start="44861704" display_stop="44876011" variantLength="14308" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(44861704_44862722)_(44867240_44876011)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del AND Hereditary spastic paraplegia" Accession="RCV002510369" Version="1">
+        <ClassifiedConditionList TraitSetID="8750">
+          <ClassifiedCondition DB="MedGen" ID="C0037773">Hereditary spastic paraplegia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-12-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-12-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-01-15" MostRecentSubmission="2023-01-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19105190</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22237444</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23733235</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8750" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="14327" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hereditary spastic paraplegia</ElementValue>
+                <XRef ID="Hereditary+spastic+paraplegia/3383" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0019064" DB="MONDO" />
+                <XRef ID="39912006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial spastic paraparesis</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HSP</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">FSP</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000500041" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000500218" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000529007" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000576334" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592992" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000525862" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000525863" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508756" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6637" />
+                <XRef ID="6637" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301682</ID>
+                <ID Source="BookShelf">NBK1509</ID>
+              </Citation>
+              <XRef ID="685" DB="Orphanet" />
+              <XRef ID="C0037773" DB="MedGen" />
+              <XRef ID="MONDO:0019064" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS303350" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5504714" SubmissionDate="2023-01-11" DateLastUpdated="2023-01-15" DateCreated="2023-01-15">
+        <ClinVarSubmissionID localKey="NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del|MedGen:C0037773" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002819592" DateUpdated="2023-01-15" DateCreated="2023-01-15" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-12-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23733235</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22237444</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19105190</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 31-34 in the SPG11 gene. A presumed nomenclature of c.(5866+1_5867-1)_(6477+1_6478-1)del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in a frameshift in the SPG11 gene, a known mechanism of disease. The variant allele was found at a frequency of 4.6e-05 in 21694 control chromosomes (gnomAD, structural variants dataset). c.(5866+1_5867-1)_(6477+1_6478-1)del has been reported in the literature as a biallelic genotype in multiple individuals affected with Hereditary Spastic Paraplegia (e.g. Denora_2009, Conceicao Pereira_2012, Yoon_2013). These data indicate that the variant is very likely to be associated with disease. One clinical diagnostic laboratory has submitted a clinical-significance assessment for this variant to ClinVar after 2014 and classified the variant as pathogenic. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPG11" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(44861704_44862722)_(44867240_44876011)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0037773" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12529442</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5504714" TraitType="Disease" MappingType="XRef" MappingValue="C0037773" MappingRef="MedGen">
+        <MedGen CUI="C0037773" Name="Hereditary spastic paraplegia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="1686246" VariationName="NM_138572.3(TAF8):c.719_720del (p.Thr240fs)" VariationType="Deletion" Accession="VCV001686246" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1678254" VariationID="1686246">
+      <GeneList>
+        <Gene Symbol="TAF8" FullName="TATA-box binding protein associated factor 8" GeneID="129685" HGNC_ID="HGNC:17300" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="42050524" stop="42087462" display_start="42050524" display_stop="42087462" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="42018250" stop="42048643" display_start="42018250" display_stop="42048643" Strand="+" />
+          </Location>
+          <OMIM>609514</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_138572.3(TAF8):c.719_720del (p.Thr240fs)</Name>
+      <CanonicalSPDI>NC_000006.12:42068544:ACA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="42068545" stop="42068546" display_start="42068545" display_stop="42068546" variantLength="2" positionVCF="42068544" referenceAlleleVCF="GAC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="42036283" stop="42036284" display_start="42036283" display_stop="42036284" variantLength="2" positionVCF="42036282" referenceAlleleVCF="GAC" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>T240fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.42036284_42036285del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.42036284_42036285del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.42068546_42068547del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.42068546_42068547del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_138572.3" sequenceAccession="NM_138572" sequenceVersion="3" change="c.719_720del" MANESelect="true">
+            <Expression>NM_138572.3:c.719_720del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_612639.2" sequenceAccession="NP_612639" sequenceVersion="2" change="p.Thr240fs">
+            <Expression>NP_612639.2:p.Thr240fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2127459499" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_138572.3(TAF8):c.719_720del (p.Thr240fs) AND Neurodevelopmental disorder" Accession="RCV002246759" Version="1">
+        <ClassifiedConditionList TraitSetID="37229">
+          <ClassifiedCondition DB="MedGen" ID="C1535926">Neurodevelopmental disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37229" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38088" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+                <XRef ID="MONDO:0700092" DB="MONDO" />
+              </Name>
+              <XRef ID="C1535926" DB="MedGen" />
+              <XRef ID="D065886" DB="MeSH" />
+              <XRef ID="MONDO:0700092" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4934084" SubmissionDate="2022-05-21" DateLastUpdated="2022-05-28" DateCreated="2022-05-28">
+        <ClinVarSubmissionID localKey="NC_000006.12:g.42068545_42068546delAC|Neurodevelopmental disorder" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002519844" DateUpdated="2022-05-28" DateCreated="2022-05-28" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fxi2k7be/mendelics_assertion_criteria_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TAF8" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.12:g.42068545_42068546delAC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_033</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4934084" TraitType="Disease" MappingType="Name" MappingValue="Neurodevelopmental disorder" MappingRef="Preferred">
+        <MedGen CUI="C1535926" Name="Neurodevelopmental disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

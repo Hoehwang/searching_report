@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="802596" VariationName="NM_033100.4(CDHR1):c.1782+1del" VariationType="Deletion" Accession="VCV000802596" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-10" DateCreated="2020-01-11" MostRecentSubmission="2020-01-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="790990" VariationID="802596">
+      <GeneList>
+        <Gene Symbol="CDHR1" FullName="cadherin related family member 1" GeneID="92211" HGNC_ID="HGNC:14550" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="84194537" stop="84219621" display_start="84194537" display_stop="84219621" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="85954411" stop="85979376" display_start="85954411" display_stop="85979376" Strand="+" />
+          </Location>
+          <OMIM>609502</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_033100.4(CDHR1):c.1782+1del</Name>
+      <CanonicalSPDI>NC_000010.11:84212406:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="84212407" stop="84212407" display_start="84212407" display_stop="84212407" variantLength="1" positionVCF="84212406" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="85972163" stop="85972163" display_start="85972163" display_stop="85972163" variantLength="1" positionVCF="85972162" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001171971.3" sequenceAccession="NM_001171971" sequenceVersion="3" change="c.1782+1del">
+            <Expression>NM_001171971.3:c.1782+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_033100.4" sequenceAccession="NM_033100" sequenceVersion="4" change="c.1782+1del" MANESelect="true">
+            <Expression>NM_033100.4:c.1782+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.85972164del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.85972164del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.84212408del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.84212408del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_028034.1" sequenceAccession="NG_028034" sequenceVersion="1" change="g.22753del">
+            <Expression>NG_028034.1:g.22753del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1589307705" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_033100.4(CDHR1):c.1782+1del AND Cone-rod dystrophy 15" Accession="RCV000988399" Version="1">
+        <ClassifiedConditionList TraitSetID="6220">
+          <ClassifiedCondition DB="MedGen" ID="C3150912">Cone-rod dystrophy 15</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-01-11" MostRecentSubmission="2020-01-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6220" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15700" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cone-rod dystrophy 15</ElementValue>
+                <XRef ID="Cone-rod+dystrophy+15/8042" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013348" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CORD15</ElementValue>
+                <XRef Type="MIM" ID="613660" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C3150912" DB="MedGen" />
+              <XRef ID="MONDO:0013348" DB="MONDO" />
+              <XRef Type="MIM" ID="613660" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2243906" SubmissionDate="2019-10-22" DateLastUpdated="2020-01-11" DateCreated="2020-01-11">
+        <ClinVarSubmissionID localKey="NC_000010.10:g.85972163delG|OMIM:613660" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001138103" DateUpdated="2020-01-11" DateCreated="2020-01-11" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/chhjzatu/mendelics_assertion_criteria_2017.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CDHR1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.85972163delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613660" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_020</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2243906" TraitType="Disease" MappingType="XRef" MappingValue="613660" MappingRef="OMIM">
+        <MedGen CUI="C3150912" Name="Cone-rod dystrophy 15" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

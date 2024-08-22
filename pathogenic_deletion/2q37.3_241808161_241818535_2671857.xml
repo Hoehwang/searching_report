@@ -1,0 +1,197 @@
+<VariationArchive RecordType="classified" VariationID="2671857" VariationName="NM_000030.3(AGXT):c.716_718del (p.Ser239del)" VariationType="Deletion" Accession="VCV002671857" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-30" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2839384" VariationID="2671857">
+      <GeneList>
+        <Gene Symbol="AGXT" FullName="alanine--glyoxylate aminotransferase" GeneID="189" HGNC_ID="HGNC:341" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q37.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="240868824" stop="240880500" display_start="240868824" display_stop="240880500" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="241808161" stop="241818535" display_start="241808161" display_stop="241818535" Strand="+" />
+          </Location>
+          <OMIM>604285</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000030.3(AGXT):c.716_718del (p.Ser239del)</Name>
+      <CanonicalSPDI>NC_000002.12:240875141:CTCCT:CT</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q37.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="240875142" stop="240875144" display_start="240875142" display_stop="240875144" variantLength="3" positionVCF="240875141" referenceAlleleVCF="TCTC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="241814559" stop="241814561" display_start="241814559" display_stop="241814561" variantLength="3" positionVCF="241814558" referenceAlleleVCF="TCTC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>S239del</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.241814561_241814563del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.241814561_241814563del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.240875144_240875146del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.240875144_240875146del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008005.1" sequenceAccession="NG_008005" sequenceVersion="1" change="g.11400_11402del">
+            <Expression>NG_008005.1:g.11400_11402del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000030.3" sequenceAccession="NM_000030" sequenceVersion="3" change="c.716_718del" MANESelect="true">
+            <Expression>NM_000030.3:c.716_718del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000021.1" sequenceAccession="NP_000021" sequenceVersion="1" change="p.Ser239del">
+            <Expression>NP_000021.1:p.Ser239del</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001822" Type="inframe_deletion" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000030.3(AGXT):c.716_718del (p.Ser239del) AND Primary hyperoxaluria, type I" Accession="RCV003448956" Version="2">
+        <ClassifiedConditionList TraitSetID="1591">
+          <ClassifiedCondition DB="MedGen" ID="C0268164">Primary hyperoxaluria, type I</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-10-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-10-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1591" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2189" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">OXALOSIS I</ElementValue>
+                <XRef Type="MIM" ID="259900" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Primary hyperoxaluria type 1</ElementValue>
+                <XRef ID="MONDO:0009823" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Oxalosis 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Glycolic aciduria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Peroxisomal alanine glyoxylate aminotransferase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hepatic AGT deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Serine pyruvate aminotransferase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Primary hyperoxaluria, type I</ElementValue>
+                <XRef ID="Primary+hyperoxaluria+type+1/5947" DB="Genetic Alliance" />
+                <XRef ID="65520001" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HP1</ElementValue>
+                <XRef Type="MIM" ID="259900" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PH1</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Primary hyperoxaluria type 1 (PH1) is caused by a deficiency of the liver peroxisomal enzyme alanine:glyoxylate-aminotransferase (AGT), which catalyzes the conversion of glyoxylate to glycine. When AGT activity is absent, glyoxylate is converted to oxalate, which forms insoluble calcium oxalate crystals that accumulate in the kidney and other organs. Individuals with PH1 are at risk for recurrent nephrolithiasis (deposition of calcium oxalate in the renal pelvis / urinary tract), nephrocalcinosis (deposition of calcium oxalate in the renal parenchyma), or end-stage renal disease (ESRD). Age at onset of symptoms ranges from infancy to the sixth decade. Approximately 10% of affected individuals present in infancy or early childhood with nephrocalcinosis, with or without nephrolithiasis, and failure to thrive related to renal failure. The majority of individuals with PH1 present in childhood or early adolescence, usually with symptomatic nephrolithiasis and normal or reduced kidney function. The remainder of affected individuals present in adulthood with recurrent renal stones and a mild-to-moderate reduction in kidney function. The natural history of untreated PH1 is one of progressive decline in renal function as a result of calcium oxalate deposits in kidney tissue and complications of nephrolithiasis (e.g., obstruction and infection) with eventual progression to oxalosis (widespread tissue deposition of calcium oxalate) and death from ESRD and/or complications of oxalosis.</Attribute>
+                <XRef ID="NBK1283" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000521390" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000561371" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000514623" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000507681" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2835" />
+                <XRef ID="2835" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301460</ID>
+                <ID Source="BookShelf">NBK1283</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Cochat et al., 2012">
+                <ID Source="PubMed">22547750</ID>
+              </Citation>
+              <XRef ID="416" DB="Orphanet" />
+              <XRef ID="93598" DB="Orphanet" />
+              <XRef ID="C0268164" DB="MedGen" />
+              <XRef ID="MONDO:0009823" DB="MONDO" />
+              <XRef Type="MIM" ID="259900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7816329" SubmissionDate="2023-11-16" DateLastUpdated="2023-12-17" DateCreated="2023-12-17">
+        <ClinVarSubmissionID localKey="NM_000030.2:c.716_718del|OMIM:259900" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV004176762" DateUpdated="2023-12-17" DateCreated="2023-12-17" Type="SCV" Version="1" SubmitterName="Thalassemia Center, San Luigi University Hospital" OrgID="508539" OrganizationCategory="clinic" OrgAbbreviation="thal" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-10-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>ACMG:PVS1 PM2 PP4</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="AGXT" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000030.2:c.716_718del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="259900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13982728</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7816329" TraitType="Disease" MappingType="XRef" MappingValue="259900" MappingRef="OMIM">
+        <MedGen CUI="C0268164" Name="Primary hyperoxaluria, type I" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

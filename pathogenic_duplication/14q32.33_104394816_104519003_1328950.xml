@@ -1,0 +1,138 @@
+<VariationArchive RecordType="classified" VariationID="1328950" VariationName="NM_153046.3(TDRD9):c.3483_3484dup (p.Ser1162fs)" VariationType="Duplication" Accession="VCV001328950" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-12-25" MostRecentSubmission="2021-12-25">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1319637" VariationID="1328950">
+      <GeneList>
+        <Gene Symbol="TDRD9" FullName="tudor domain containing 9" GeneID="122402" HGNC_ID="HGNC:20122" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q32.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="103928456" stop="104052667" display_start="103928456" display_stop="104052667" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="104394816" stop="104519003" display_start="104394816" display_stop="104519003" Strand="+" />
+          </Location>
+          <OMIM>617963</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_153046.3(TDRD9):c.3483_3484dup (p.Ser1162fs)</Name>
+      <CanonicalSPDI>NC_000014.9:104032059:ATA:ATATA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>14q32.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="104032059" stop="104032060" display_start="104032059" display_stop="104032060" variantLength="2" positionVCF="104032059" referenceAlleleVCF="C" alternateAlleleVCF="CAT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="104498396" stop="104498397" display_start="104498396" display_stop="104498397" variantLength="2" positionVCF="104498396" referenceAlleleVCF="C" alternateAlleleVCF="CAT" />
+      </Location>
+      <ProteinChange>S1162fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.104498398_104498399dup" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.104498398_104498399dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.104032061_104032062dup" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.104032061_104032062dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_153046.3" sequenceAccession="NM_153046" sequenceVersion="3" change="c.3483_3484dup" MANESelect="true">
+            <Expression>NM_153046.3:c.3483_3484dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_694591.2" sequenceAccession="NP_694591" sequenceVersion="2" change="p.Ser1162fs">
+            <Expression>NP_694591.2:p.Ser1162fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2152252501" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_153046.3(TDRD9):c.3483_3484dup (p.Ser1162fs) AND Azoospermia" Accession="RCV001797573" Version="1">
+        <ClassifiedConditionList TraitSetID="22242">
+          <ClassifiedCondition DB="MedGen" ID="C0004509">Azoospermia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-25" MostRecentSubmission="2021-12-25">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="22242" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17635" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Azoospermia</ElementValue>
+                <XRef ID="HP:0000027" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0100459" DB="MONDO" />
+                <XRef ID="MONDO:0004983" DB="MONDO" />
+                <XRef ID="425558002" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="C0004509" DB="MedGen" />
+              <XRef ID="D053713" DB="MeSH" />
+              <XRef ID="MONDO:0100459" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0000027" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4002013" SubmissionDate="2021-12-21" DateLastUpdated="2021-12-25" DateCreated="2021-12-25">
+        <ClinVarSubmissionID localKey="NM_153046.3:c.3483_3484dup|HPO:HP:0000027" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002039170" DateUpdated="2021-12-25" DateCreated="2021-12-25" Type="SCV" Version="1" SubmitterName="Genetics of Infertility and Preimplantation Genetic Diagnosis, Centre Hospitalier Universitaire Grenoble Alpes" OrgID="506452" OrganizationCategory="laboratory" OrgAbbreviation="GI-DPI" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-20">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>biparental</Origin>
+              <GeographicOrigin>Northern African</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">30</Age>
+              <Age Type="maximum" age_unit="years">50</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>case-control</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_153046.3:c.3483_3484dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0000027" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10823688</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4002013" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000027" MappingRef="HP">
+        <MedGen CUI="C0004509" Name="Azoospermia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

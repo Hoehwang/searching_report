@@ -1,0 +1,152 @@
+<VariationArchive VariationID="3247237" VariationName="NC_000002.11:g.(?_86073480)_(86075347_?)del" VariationType="Deletion" Accession="VCV003247237" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405696" VariationID="3247237">
+      <GeneList>
+        <Gene Symbol="ST3GAL5" FullName="ST3 beta-galactoside alpha-2,3-sialyltransferase 5" GeneID="8869" HGNC_ID="HGNC:10872" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="85837120" stop="85889034" display_start="85837120" display_stop="85889034" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="86066270" stop="86116156" display_start="86066270" display_stop="86116156" Strand="-" />
+          </Location>
+          <OMIM>604402</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.11:g.(?_86073480)_(86075347_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="86073480" innerStop="86075347" display_start="86073480" display_stop="86075347" variantLength="1868" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_86073480)_(86075347_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_86073480)_(86075347_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.11:g.(?_86073480)_(86075347_?)del AND GM3 synthase deficiency" Accession="RCV004582523" Version="1">
+        <ClassifiedConditionList TraitSetID="1560">
+          <ClassifiedCondition DB="MedGen" ID="C1836824">GM3 synthase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27232954</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1560" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="292" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">GM3 synthase deficiency</ElementValue>
+                <XRef ID="MONDO:0018274" DB="MONDO" />
+                <XRef ID="722762005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Salt and pepper syndrome</ElementValue>
+                <XRef ID="MONDO:0018275" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Salt and pepper developmental regression syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SALT AND PEPPER MENTAL RETARDATION SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="609056" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SPDRS</ElementValue>
+                <XRef Type="MIM" ID="609056" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12059" />
+                <XRef ID="12059" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">37471511</ID>
+                <ID Source="BookShelf">NBK593237</ID>
+              </Citation>
+              <XRef ID="171714" DB="Orphanet" />
+              <XRef ID="370933" DB="Orphanet" />
+              <XRef ID="C1836824" DB="MedGen" />
+              <XRef ID="MONDO:0018274" DB="MONDO" />
+              <XRef Type="MIM" ID="609056" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9837774" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000002.11:g.(?_86073480)_(86075347_?)del|MedGen:C1836824" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005067884" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27232954</ID>
+          </Citation>
+          <Comment>This variant has not been reported in the literature in individuals affected with ST3GAL5-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 4-5 of the ST3GAL5 gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame. This variant disrupts a region of the ST3GAL5 protein in which other variant(s) (p.Gly201Arg) have been determined to be pathogenic (PMID: 27232954). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_86073480)_(86075347_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1836824" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9837774" TraitType="Disease" MappingType="XRef" MappingValue="C1836824" MappingRef="MedGen">
+        <MedGen CUI="C1836824" Name="GM3 synthase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

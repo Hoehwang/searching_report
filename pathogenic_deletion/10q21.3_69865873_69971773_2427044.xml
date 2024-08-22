@@ -1,0 +1,137 @@
+<VariationArchive VariationID="2427044" VariationName="NC_000010.10:g.(?_69961566)_(69961771_?)del" VariationType="Deletion" Accession="VCV002427044" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1950582" VariationID="2427044">
+      <GeneList>
+        <Gene Symbol="MYPN" FullName="myopalladin" GeneID="84665" HGNC_ID="HGNC:23246" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="68087897" stop="68212017" display_start="68087897" display_stop="68212017" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="69865873" stop="69971773" display_start="69865873" display_stop="69971773" Strand="+" />
+          </Location>
+          <OMIM>608517</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(?_69961566)_(69961771_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="69961566" innerStop="69961771" display_start="69961566" display_stop="69961771" variantLength="206" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_69961566)_(69961771_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_69961566)_(69961771_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(?_69961566)_(69961771_?)del AND Dilated cardiomyopathy 1KK" Accession="RCV003122877" Version="4">
+        <ClassifiedConditionList TraitSetID="9872">
+          <ClassifiedCondition DB="MedGen" ID="C3714995">Dilated cardiomyopathy 1KK</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28017374</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9872" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17879" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Dilated cardiomyopathy 1KK</ElementValue>
+                <XRef ID="MONDO:0014100" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMD1KK</ElementValue>
+                <XRef Type="MIM" ID="615248" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15926" />
+                <XRef ID="15926" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="154" DB="Orphanet" />
+              <XRef ID="75249" DB="Orphanet" />
+              <XRef ID="C3714995" DB="MedGen" />
+              <XRef ID="MONDO:0014100" DB="MONDO" />
+              <XRef Type="MIM" ID="615248" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7076030" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_032578.3_10_Deletion (exon 18)|MedGen:CN169881" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003795739" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28017374</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with MYPN-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 18 of the MYPN gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in MYPN are known to be pathogenic (PMID: 28017374).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MYPN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(?_69961566)_(69961771_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169881" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7076030" TraitType="Disease" MappingType="XRef" MappingValue="CN169881" MappingRef="MedGen">
+        <MedGen CUI="C3714995" Name="Dilated cardiomyopathy 1KK" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,130 @@
+<VariationArchive VariationID="3233785" VariationName="NC_000003.11:g.(?_154798107)_(154802884_154832782)del" VariationType="Deletion" Accession="VCV003233785" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-05-08" MostRecentSubmission="2024-07-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3392908" VariationID="3233785">
+      <GeneList>
+        <Gene Symbol="MME" FullName="membrane metalloendopeptidase" GeneID="4311" HGNC_ID="HGNC:7154" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q25.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="155024202" stop="155183729" display_start="155024202" display_stop="155183729" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="154797435" stop="154901517" display_start="154797435" display_stop="154901517" Strand="+" />
+          </Location>
+          <OMIM>120520</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.(?_154798107)_(154802884_154832782)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q25.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="154798107" innerStop="154802884" outerStop="154832782" display_start="154798107" display_stop="154832782" variantLength="34676" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_154798107)_(154802884_154832782)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_154798107)_(154802884_154832782)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.(?_154798107)_(154802884_154832782)del AND Charcot-Marie-Tooth disease axonal type 2T" Accession="RCV004527065" Version="2">
+        <ClassifiedConditionList TraitSetID="20743">
+          <ClassifiedCondition DB="MedGen" ID="C4015635">Charcot-Marie-Tooth disease axonal type 2T</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-03-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-03-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-05-08" MostRecentSubmission="2024-07-07">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20743" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32742" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease axonal type 2T</ElementValue>
+                <XRef ID="MONDO:0014866" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMT2T</ElementValue>
+                <XRef Type="MIM" ID="617017" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18653" />
+                <XRef ID="18653" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="443950" DB="Orphanet" />
+              <XRef ID="C4015635" DB="MedGen" />
+              <XRef ID="MONDO:0014866" DB="MONDO" />
+              <XRef Type="MIM" ID="617017" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9757469" SubmissionDate="2024-06-29" DateLastUpdated="2024-07-07" DateCreated="2024-05-07">
+        <ClinVarSubmissionID localKey="NC_000003.11:g.(?_154798107)_(154802884_154832782)del|MedGen:C4015635" />
+        <ClinVarAccession Accession="SCV005039165" DateUpdated="2024-07-07" DateCreated="2024-05-07" Type="SCV" Version="2" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-03-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Variant summary: The variant involves the deletion of exons 1-3 in the MME gene. A presumed nomenclature of c.(?_-159)_(196+1_197-1)del has been designated for the purposes of this classification. The exact breakpoint at the 5' end of this variant is unknown, therefore this deletion may extend upstream of the annotated region of this gene. Although the exact breakpoints of this deletion are not known, it is predicted to remove the initiation codon and result in an absence of protein or a truncation of the encoded protein due to translation initiation at a downstream site. The variant allele was found at a frequency of 4.6e-05 in 21648 control chromosomes in the gnomAD database (Structural Variants v2.1 dataset). To our knowledge, no occurrence of c.(?_-159)_(196+1_197-1)del in individuals affected with Charcot-Marie Disease Axonal Type 2T and no experimental evidence demonstrating its impact on protein function have been reported. No submitters have cited clinical-significance assessments for this variant to ClinVar. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MME" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_154798107)_(154802884_154832782)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4015635" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>clinvar-submission.2024-03.anno.csv</SubmissionName>
+          <SubmissionName>clinvar-submission.2024-03.csv</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9757469" TraitType="Disease" MappingType="XRef" MappingValue="C4015635" MappingRef="MedGen">
+        <MedGen CUI="C4015635" Name="Charcot-Marie-Tooth disease axonal type 2T" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

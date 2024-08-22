@@ -1,0 +1,129 @@
+<VariationArchive RecordType="classified" VariationID="830705" VariationName="NC_000006.12:g.(?_10528892)_(10557362_?)del" VariationType="Deletion" Accession="VCV000830705" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819646" VariationID="830705">
+      <GeneList>
+        <Gene Symbol="GCNT2" FullName="glucosaminyl (N-acetyl) transferase 2 (I blood group)" GeneID="2651" HGNC_ID="HGNC:4204" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p24.3-24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="10521351" stop="10629368" display_start="10521351" display_stop="10629368" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NW_018654713.1" start="32235" stop="140252" display_start="32235" display_stop="140252" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="10521567" stop="10629600" display_start="10521567" display_stop="10629600" Strand="+" />
+          </Location>
+          <OMIM>600429</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.(?_10528892)_(10557362_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="10529125" innerStop="10557595" display_start="10529125" display_stop="10557595" variantLength="28471" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_10529125)_(10557595_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_10529125)_(10557595_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.(?_10528892)_(10557362_?)del AND Cataract 13 with adult I phenotype" Accession="RCV001031320" Version="1">
+        <ClassifiedConditionList TraitSetID="3632">
+          <ClassifiedCondition DB="MedGen" ID="C3805373">Cataract 13 with adult I phenotype</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3632" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="744" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cataract 13 with adult I phenotype</ElementValue>
+                <XRef ID="MONDO:0007289" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CTRCT13</ElementValue>
+                <XRef Type="MIM" ID="116700" DB="OMIM" />
+              </Symbol>
+              <XRef ID="91492" DB="Orphanet" />
+              <XRef ID="C3805373" DB="MedGen" />
+              <XRef ID="MONDO:0007289" DB="MONDO" />
+              <XRef Type="MIM" ID="116700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2355880" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="1725500|MedGen:C3805373" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194626" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon 1 of the GCNT2 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 1 of the GCNT2 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with GCNT2-related conditions. Loss-of-function variants in GCNT2 are known to be pathogenic (PMID: 15161861). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GCNT2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_10529125)_(10557595_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Cataract 13 with adult i phenotype</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C3805373" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2355880" TraitType="Disease" MappingType="Name" MappingValue="Cataract 13 with adult i phenotype" MappingRef="Preferred">
+        <MedGen CUI="C3805373" Name="Cataract 13 with adult I phenotype" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,137 @@
+<VariationArchive RecordType="classified" VariationID="397506" VariationName="NC_000009.11:g.(71833276_71835802)_(71855064_71861605)dup" VariationType="Duplication" Accession="VCV000397506" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-05" DateCreated="2017-03-27" MostRecentSubmission="2017-03-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="384405" VariationID="397506">
+      <GeneList>
+        <Gene Symbol="TJP2" FullName="tight junction protein 2" GeneID="9414" HGNC_ID="HGNC:11828" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q21.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="69121264" stop="69255208" display_start="69121264" display_stop="69255208" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="71736179" stop="71870123" display_start="71736179" display_stop="71870123" Strand="+" />
+          </Location>
+          <OMIM>607709</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.11:g.(71833276_71835802)_(71855064_71861605)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q21.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" outerStart="69218360" innerStart="69220886" innerStop="69240148" outerStop="69246689" display_start="69218360" display_stop="69246689" variantLength="19263" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" outerStart="71833276" innerStart="71835802" innerStop="71855064" outerStop="71861605" display_start="71833276" display_stop="71861605" variantLength="19263" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(71833276_71835802)_(71855064_71861605)dup" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(71833276_71835802)_(71855064_71861605)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.11:g.(71833276_71835802)_(71855064_71861605)dup AND Cholestasis, progressive familial intrahepatic, 4" Accession="RCV000449507" Version="1">
+        <ClassifiedConditionList TraitSetID="16418">
+          <ClassifiedCondition DB="MedGen" ID="C2931067">Cholestasis, progressive familial intrahepatic, 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-07-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-07-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-03-27" MostRecentSubmission="2017-03-27">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16418" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="7187" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cholestasis, progressive familial intrahepatic, 4</ElementValue>
+                <XRef ID="MONDO:0014381" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PFIC4</ElementValue>
+                <XRef Type="MIM" ID="615878" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9803" />
+                <XRef ID="9803" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="480483" DB="Orphanet" />
+              <XRef ID="79304" DB="Orphanet" />
+              <XRef ID="C2931067" DB="MedGen" />
+              <XRef ID="MONDO:0014381" DB="MONDO" />
+              <XRef Type="MIM" ID="615878" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1039300" SubmissionDate="2017-03-02" DateLastUpdated="2017-03-27" DateCreated="2017-03-27">
+        <ClinVarSubmissionID localKey="3_March 2017|OMIM:615878" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000537692" DateUpdated="2017-03-27" DateCreated="2017-03-27" Type="SCV" Version="1" SubmitterName="Center of Genomic medicine, Geneva, University Hospital of Geneva" OrgID="505593" OrganizationCategory="laboratory" OrgAbbreviation="GenMed_GVA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-07-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">This heterozygous variant in the TJP2 gene (autosomal recessive transmission), inherited from the father, is present in a female patient who also harbours a missense variant in a splicing site in the same gene (see below)(compound heterozygosity). This patient also has a nonsense variant in the PKD2 gene.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">5</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TJP2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>p.?</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(71833276_71835802)_(71855064_71861605)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615878" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>Geneva_Genome_Clinic_variants_March2017</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1039300" TraitType="Disease" MappingType="XRef" MappingValue="615878" MappingRef="OMIM">
+        <MedGen CUI="C2931067" Name="Cholestasis, progressive familial intrahepatic, 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

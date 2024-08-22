@@ -1,0 +1,160 @@
+<VariationArchive RecordType="classified" VariationID="988172" VariationName="NM_000339.2:c.(2951+1_2952-1)_(*1_?)del" VariationType="Deletion" Accession="VCV000988172" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="976034" VariationID="988172">
+      <GeneList>
+        <Gene Symbol="SLC12A3" FullName="solute carrier family 12 member 3" GeneID="6559" HGNC_ID="HGNC:10912" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16q13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="56865207" stop="56915850" display_start="56865207" display_stop="56915850" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="56899118" stop="56949761" display_start="56899118" display_stop="56949761" Strand="+" />
+          </Location>
+          <OMIM>600968</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000339.2:c.(2951+1_2952-1)_(*1_?)del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000339.2:c.(2951+1_2952-1)_(*1_?)del AND multiple conditions" Accession="RCV001328172" Version="1">
+        <ClassifiedConditionList TraitSetID="64709">
+          <ClassifiedCondition DB="MedGen" ID="C0004775">Bartter syndrome</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0268450">Familial hypokalemia-hypomagnesemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-10-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-10-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="64709" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6253" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Bartter's syndrome</ElementValue>
+                <XRef ID="Bartter%27s+Syndrome/750" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Potassium wasting</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Bartter syndrome</ElementValue>
+                <XRef ID="MONDO:0015231" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS601678" DB="OMIM" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5893" />
+                <XRef ID="5893" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="112" DB="Orphanet" />
+              <XRef ID="C0004775" DB="MedGen" />
+              <XRef ID="MONDO:0015231" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS601678" DB="OMIM" />
+            </Trait>
+            <Trait ID="1919" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Potassium and magnesium depletion</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hypomagnesemia-hypokalemia, primary renotubular, with hypocalciuria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Familial hypokalemia-hypomagnesemia</ElementValue>
+                <XRef ID="Familial+hypokalemia-hypomagnesemia/8399" DB="Genetic Alliance" />
+                <XRef ID="3188003" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">GTLMNS</ElementValue>
+                <XRef Type="MIM" ID="263800" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8547" />
+                <XRef ID="8547" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2011">
+                <ID Source="PubMed">21343949</ID>
+              </Citation>
+              <XRef ID="358" DB="Orphanet" />
+              <XRef ID="C0268450" DB="MedGen" />
+              <XRef ID="MONDO:0009904" DB="MONDO" />
+              <XRef Type="MIM" ID="263800" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2862216" SubmissionDate="2020-09-18" DateLastUpdated="2021-03-22" DateCreated="2021-03-22">
+        <ClinVarSubmissionID localKey="CHW_MG_F229P1|MedGen:C0268450;C0004775" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001449431" DateUpdated="2021-03-22" DateCreated="2021-03-22" Type="SCV" Version="1" SubmitterName="Sydney Genome Diagnostics, Children's Hospital Westmead" OrgID="507757" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-10-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This individual is heteorzygous for the deletion of exon 26 of the SLC12A3 gene. This deletion involves the last exon of the SLC12A3 and the extent of the deletion downstream of the 3' end of SLC12A3 is uncertain. Deletion of exon 26 has been reported in multiple patients with Gitelman syndrome (Vargas-Poussou et al. 2011 J Am Soc Nephrol 22: 693-703). This variant is considered to be pathogenic according to the ACMG guidelines.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC12A3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000339.2:c.(2951+1_2952-1)_(*1_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Familial hypokalemia-hypomagnesemia</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0268450" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Bartter syndrome</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0004775" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8161327</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2862216" TraitType="Disease" MappingType="Name" MappingValue="Familial hypokalemia-hypomagnesemia" MappingRef="Preferred">
+        <MedGen CUI="C0268450" Name="Familial hypokalemia-hypomagnesemia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2862216" TraitType="Disease" MappingType="Name" MappingValue="Bartter syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0004775" Name="Bartter syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

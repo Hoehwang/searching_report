@@ -1,0 +1,135 @@
+<VariationArchive VariationID="3244137" VariationName="NC_000013.10:g.(?_23942521)_(23942646_?)del" VariationType="Deletion" Accession="VCV003244137" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405023" VariationID="3244137">
+      <GeneList>
+        <Gene Symbol="SACS" FullName="sacsin molecular chaperone" GeneID="26278" HGNC_ID="HGNC:10519" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>13q12.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="23328830" stop="23433702" display_start="23328830" display_stop="23433702" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="23902964" stop="24007840" display_start="23902964" display_stop="24007840" Strand="-" />
+          </Location>
+          <OMIM>604490</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000013.10:g.(?_23942521)_(23942646_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>13q12.12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" innerStart="23942521" innerStop="23942646" display_start="23942521" display_stop="23942646" variantLength="126" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000013.10" sequenceAccession="NC_000013" sequenceVersion="10" change="g.(?_23942521)_(23942646_?)del" Assembly="GRCh37">
+            <Expression>NC_000013.10:g.(?_23942521)_(23942646_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000013.10:g.(?_23942521)_(23942646_?)del AND Spastic paraplegia" Accession="RCV004578259" Version="1">
+        <ClassifiedConditionList TraitSetID="20865">
+          <ClassifiedCondition DB="MedGen" ID="C0037772">Spastic paraplegia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18465152</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20876471</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="20865" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32966" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spastic paraplegia</ElementValue>
+                <XRef ID="10DG0885" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+                <XRef ID="HP:0001258" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0037772" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001258" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007062" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007124" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007216" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9834641" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000013.10:g.(?_23942521)_(23942646_?)del|MedGen:C0037772" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005066969" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18465152</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20876471</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with SACS-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 5 of the SACS gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in SACS are known to be pathogenic (PMID: 18465152, 20876471).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000013.10:g.(?_23942521)_(23942646_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0037772" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9834641" TraitType="Disease" MappingType="XRef" MappingValue="C0037772" MappingRef="MedGen">
+        <MedGen CUI="C0037772" Name="Spastic paraplegia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

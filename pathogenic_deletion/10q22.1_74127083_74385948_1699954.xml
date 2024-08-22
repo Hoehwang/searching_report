@@ -1,0 +1,153 @@
+<VariationArchive VariationID="1699954" VariationName="NM_001195518.2:g.(?_74326370)_(74326571_?)del" VariationType="Deletion" Accession="VCV001699954" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-08-08" MostRecentSubmission="2022-08-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1692348" VariationID="1699954">
+      <GeneList>
+        <Gene Symbol="MICU1" FullName="mitochondrial calcium uptake 1" GeneID="10367" HGNC_ID="HGNC:1530" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>10q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="72367340" stop="72626079" display_start="72367340" display_stop="72626079" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="74127083" stop="74385948" display_start="74127083" display_stop="74385948" Strand="-" />
+          </Location>
+          <OMIM>605084</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001195518.2:g.(?_74326370)_(74326571_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <FunctionalConsequence Value="unknown functional consequence" />
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001195518.2:g.(?_74326370)_(74326571_?)del AND Proximal myopathy with extrapyramidal signs" Accession="RCV002273879" Version="2">
+        <ClassifiedConditionList TraitSetID="13241">
+          <ClassifiedCondition DB="MedGen" ID="C3810285">Proximal myopathy with extrapyramidal signs</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-08-08" MostRecentSubmission="2022-08-08">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="13241" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18620" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Proximal myopathy with extrapyramidal signs</ElementValue>
+                <XRef ID="MONDO:0014300" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myopathy with extrapyramidal signs</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MPXPS</ElementValue>
+                <XRef Type="MIM" ID="615673" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12978" />
+                <XRef ID="12978" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="401768" DB="Orphanet" />
+              <XRef ID="C3810285" DB="MedGen" />
+              <XRef ID="MONDO:0014300" DB="MONDO" />
+              <XRef Type="MIM" ID="615673" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5006433" SubmissionDate="2022-08-02" DateLastUpdated="2022-08-08" DateCreated="2022-08-08">
+        <ClinVarSubmissionID localKey="SUB11888178" submittedAssembly="GRCh37" title="SUB11888178" />
+        <ClinVarAccession Accession="SCV002556348" DateUpdated="2022-08-08" DateCreated="2022-08-08" Type="SCV" Version="1" SubmitterName="Laboratory of Functional Genomics, Research Centre for Medical Genetics" OrgID="506566" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The variant g.(?_74326370)_(74326571_?)del in MICU1 gene could be classified as pathogenic variant according to ACMG criteria (PM2, PVS1, PM3). The variant had been observed in 1 male proband with myopathy in homozygous state and segregated in the family in autosomal-recessive manner. This variant is absent from large population studies. Variant led to deletion of exon 2 and loss of start codon in MICU1 gene.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>biparental</Origin>
+              <Ethnicity>russians</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation sequencing</TypePlatform>
+              <Description>Analysis of exons coverage suspected possible deletion of exon 2 in MICU1 gene.</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2021-07-30">Independent Clinical Bioinformatics Laboratory</Attribute>
+                <Comment>not provided</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2021-06-29" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Episodic MICU1 myopathy</ElementValue>
+                </Name>
+              </Trait>
+              <Comment>Patient had a three severe acute episodes of muscle weakness with minimal myopathy features between episodes and strongly elevated CK from 2900 to 6000 U/L.</Comment>
+            </TraitSet>
+            <Comment>Homozygous deletion of exon 2 in MICU1 gene was suspected by NGS. To validate the deletion in the proband's sample and investigate its segregation through the family we amplified the locus containing exon 1 to exon 4 on cDNA level with further Sanger sequencing. The ΔEx2 deletion in the homozygous state was confirmed in the patient's sample and found in the heterozygous state in his mother's and father's samples. Exon 2 is the first coding exon in the MICU1 and the variant c.1_161del has to lead to a complete absence of translation (p.Met1?) from the start codon that it has to be pathogenic according to ACMG/AMP guidelines.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MICU1">
+              <Name>mitochondrial calcium uptake 1</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <FunctionalConsequence Value="unknown functional consequence" />
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001195518.2:g.(?_74326370)_(74326571_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615673" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11888178</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5006433" TraitType="Finding" MappingType="Name" MappingValue="Episodic MICU1 myopathy" MappingRef="Preferred">
+        <MedGen CUI="None" Name="Episodic MICU1 myopathy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5006433" TraitType="Disease" MappingType="XRef" MappingValue="615673" MappingRef="OMIM">
+        <MedGen CUI="C3810285" Name="Proximal myopathy with extrapyramidal signs" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

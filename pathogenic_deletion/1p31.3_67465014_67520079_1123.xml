@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="1123" VariationName="NM_015139.3(SLC35D1):c.125del (p.Lys42fs)" VariationType="Deletion" Accession="VCV000001123" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-29" DateCreated="2017-12-07" MostRecentSubmission="2017-12-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="16162" VariationID="1123">
+      <GeneList>
+        <Gene Symbol="SLC35D1" FullName="solute carrier family 35 member D1" GeneID="23169" HGNC_ID="HGNC:20800" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p31.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="66972976" stop="67054148" display_start="66972976" display_stop="67054148" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="67465014" stop="67520079" display_start="67465014" display_stop="67520079" Strand="-" />
+          </Location>
+          <OMIM>610804</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_015139.3(SLC35D1):c.125del (p.Lys42fs)</Name>
+      <CanonicalSPDI>NC_000001.11:67053888:TT:T</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p31.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="67053889" stop="67053889" display_start="67053889" display_stop="67053889" variantLength="1" positionVCF="67053888" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="67519572" stop="67519572" display_start="67519572" display_stop="67519572" variantLength="1" positionVCF="67519571" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>K42fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.67519573del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.67519573del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.67053890del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.67053890del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012933.1" sequenceAccession="NG_012933" sequenceVersion="1" change="g.5509del">
+            <Expression>NG_012933.1:g.5509del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_015139.3" sequenceAccession="NM_015139" sequenceVersion="3" change="c.125del" MANESelect="true">
+            <Expression>NM_015139.3:c.125del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_055954.1" sequenceAccession="NP_055954" sequenceVersion="1" change="p.Lys42fs">
+            <Expression>NP_055954.1:p.Lys42fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="610804.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_015139.3(SLC35D1):c.125del (p.Lys42fs) AND Schneckenbecken dysplasia" Accession="RCV000001182" Version="4">
+        <ClassifiedConditionList TraitSetID="297">
+          <ClassifiedCondition DB="MedGen" ID="C0432194">Schneckenbecken dysplasia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2007-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2007-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-12-07" MostRecentSubmission="2017-12-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17952091</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="297" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3701" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Schneckenbecken dysplasia</ElementValue>
+                <XRef ID="Schneckenbecken+dysplasia/6447" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010013" DB="MONDO" />
+                <XRef ID="254049009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Chondrodysplasia lethal neonatal with snail like pelvis</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="169" />
+                <XRef ID="169" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="3144" DB="Orphanet" />
+              <XRef ID="C0432194" DB="MedGen" />
+              <XRef ID="MONDO:0010013" DB="MONDO" />
+              <XRef Type="MIM" ID="269250" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="21332" SubmissionDate="2017-12-04" DateLastUpdated="2017-12-07" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="610804.0001_SCHNECKENBECKEN DYSPLASIA" title="SLC35D1, 1-BP DEL, 125A_SCHNECKENBECKEN DYSPLASIA" />
+        <ClinVarAccession Accession="SCV000021332" DateUpdated="2017-12-07" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2007-11-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with Schneckenbecken dysplasia (SHNKND; 269250), previously described by Nikkels et al. (2001), Hiraoka et al. (2007) identified a homozygous 1-bp deletion (125delA) in exon 1 of the SLC35D1 gene that produced a premature stop codon (Ser42fsTer9). The patient was a male fetus of consanguineous Mediterranean parents with severe hydrops and short-limb dwarfism discovered on ultrasound at 20 weeks' gestation. Pregnancy was terminated at 22 weeks' gestation. Radiographs showed typical findings of Schneckenbecken dysplasia, including platyspondyly with oval-shaped vertebral bodies, extremely short long bones with dumbbell-like appearance, and small ilia with snail-like appearance.</Attribute>
+              <Citation>
+                <CitationText>Nikkels, P. G., Stigter, R. H., Knol, I. E., van der Harten, H. J. Schneckenbecken dysplasia, radiology, and histology. Pediat. Radiol. 31: 27-30, 2001.</CitationText>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">17952091</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="269250" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC35D1" />
+          </GeneList>
+          <Name>SLC35D1, 1-BP DEL, 125A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 125A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="610804.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SCHNECKENBECKEN DYSPLASIA</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="21332" TraitType="Disease" MappingType="Name" MappingValue="SCHNECKENBECKEN DYSPLASIA" MappingRef="Preferred">
+        <MedGen CUI="C0432194" Name="Schneckenbecken dysplasia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

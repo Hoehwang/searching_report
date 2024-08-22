@@ -1,0 +1,150 @@
+<VariationArchive VariationID="437896" VariationName="NC_000003.11:g.136254742_136427833del" VariationType="Deletion" Accession="VCV000437896" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2017-09-04" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="431518" VariationID="437896">
+      <GeneList>
+        <Gene Symbol="STAG1" FullName="STAG1 cohesin complex component" GeneID="10274" HGNC_ID="HGNC:11354" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="136336236" stop="136752378" display_start="136336236" display_stop="136752378" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="136055998" stop="136471244" display_start="136055998" display_stop="136471244" Strand="-" />
+          </Location>
+          <OMIM>604358</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.136254742_136427833del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="136254742" stop="136427833" display_start="136254742" display_stop="136427833" variantLength="173092" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.136254742_136427833del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.136254742_136427833del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="604358.0001" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 604358.0001 based on the paper by Lehalle et al., 2017 (PubMed 28119487) that reported the location as 'deletion within the long arm of chromosome 3, band q22.3, including exons 2–5 or 2–6 within the STAG1 gene (chr3: 136254742–136427833)', i.e. 173 kb not 173 bp.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.136254742_136427833del AND Intellectual disability, autosomal dominant 47" Accession="RCV000504581" Version="2">
+        <ClassifiedConditionList TraitSetID="37198">
+          <ClassifiedCondition DB="MedGen" ID="C4539951">Intellectual disability, autosomal dominant 47</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-09-04" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28119487</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="37198" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38072" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION, AUTOSOMAL DOMINANT 47</ElementValue>
+                <XRef Type="MIM" ID="617635" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 47</ElementValue>
+                <XRef Type="MIM" ID="617635" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="604358.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, autosomal dominant 47</ElementValue>
+                <XRef ID="MONDO:0030912" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MRD47</ElementValue>
+                <XRef Type="MIM" ID="617635" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17935" />
+                <XRef ID="17935" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="502434" DB="Orphanet" />
+              <XRef ID="C4539951" DB="MedGen" />
+              <XRef ID="MONDO:0030912" DB="MONDO" />
+              <XRef Type="MIM" ID="617635" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1160427" SubmissionDate="2017-08-31" DateLastUpdated="2024-06-09" DateCreated="2017-09-04">
+        <ClinVarSubmissionID localKey="604358.0001_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 47" title="STAG1, 173-BP DEL_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 47" />
+        <ClinVarAccession Accession="SCV000598637" DateUpdated="2024-06-09" DateCreated="2017-09-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-25">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 6 members of a family (family 5) with autosomal dominant intellectual developmental disorder-47 (MRD47; 617635), Lehalle et al. (2017) identified a heterozygous 173-bp intragenic deletion within the STAG1 gene including exons 2-5 or 2-6. The deletion, which was found by array-CGH, segregated with the disorder in the family. Functional studies of the variant and studies of patient cells were not performed.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28119487</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617635" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="STAG1" />
+          </GeneList>
+          <Name>STAG1, 173-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">173-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604358.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 47</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1160427" TraitType="Disease" MappingType="Name" MappingValue="INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 47" MappingRef="Preferred">
+        <MedGen CUI="C4539951" Name="Intellectual disability, autosomal dominant 47" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

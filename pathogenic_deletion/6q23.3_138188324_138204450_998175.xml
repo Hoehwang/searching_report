@@ -1,0 +1,136 @@
+<VariationArchive RecordType="classified" VariationID="998175" VariationName="Single allele" VariationType="Deletion" Accession="VCV000998175" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-23" DateCreated="2021-03-07" MostRecentSubmission="2021-03-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="985903" VariationID="998175">
+      <GeneList>
+        <Gene Symbol="TNFAIP3" FullName="TNF alpha induced protein 3" GeneID="7128" HGNC_ID="HGNC:11896" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="137866349" stop="137883312" display_start="137866349" display_stop="137883312" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="138188324" stop="138204450" display_start="138188324" display_stop="138204450" Strand="+" />
+          </Location>
+          <OMIM>191163</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="138125829" stop="138244816" display_start="138125829" display_stop="138244816" variantLength="118988" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.138125829_138244816del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.138125829_138244816del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="complete gene deletion">
+        <XRef ID="0169" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Autoinflammatory syndrome, familial, Behcet-like" Accession="RCV001293866" Version="3">
+        <ClassifiedConditionList TraitSetID="23631">
+          <ClassifiedCondition DB="MedGen" ID="CN234876">Autoinflammatory syndrome, familial, Behcet-like</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-07-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-07-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-03-07" MostRecentSubmission="2021-03-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="23631" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34544" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autoinflammatory syndrome, familial, Behcet-like</ElementValue>
+                <XRef ID="MONDO:0031384" DB="MONDO" />
+              </Name>
+              <XRef ID="CN234876" DB="MedGen" />
+              <XRef ID="MONDO:0031384" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS616744" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2922141" SubmissionDate="2020-08-27" DateLastUpdated="2021-03-07" DateCreated="2021-03-07">
+        <ClinVarSubmissionID localKey="SUB7848499" submittedAssembly="GRCh37" title="SUB7848499" />
+        <ClinVarAccession Accession="SCV001424911" DateUpdated="2021-03-07" DateCreated="2021-03-07" Type="SCV" Version="1" SubmitterName="Department of Maternal-Fetal Biology, National Research Institute for Child Health and Development" OrgID="507231" OrganizationCategory="laboratory" OrgAbbreviation="MFB" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-29">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This deletion was detected by copy number variation analysis conducted with WES data and SNP array. The information of this deletion was taken from the SNP array results.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Ethnicity>Asian</Ethnicity>
+              <GeographicOrigin>Japan</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>SNP array</TypePlatform>
+              <Description>Infinium Asian Screening Array-24 v1.0 BeadChip kit (Illumina, San Diego, CA, USA)</Description>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+              <MethodAttribute>
+                <Attribute Type="TestName">Infinium Asian Screening Array-24</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" start="138125829" stop="138244816" />
+          </Location>
+          <FunctionalConsequence Value="complete gene deletion">
+            <XRef DB="Variation Ontology" ID="0169" URL="http://purl.obolibrary.org/obo/VariO_0169" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA476102" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB7848499</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2922141" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA476102" MappingRef="Orphanet">
+        <MedGen CUI="C4225218" Name="Autoinflammatory syndrome, familial, Behcet-like 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

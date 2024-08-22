@@ -1,0 +1,175 @@
+<VariationArchive RecordType="classified" VariationID="981981" VariationName="NC_000010.11:g.(86838980_86875866)_(86876086_86890061)del" VariationType="Deletion" Accession="VCV000981981" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2020-10-25" MostRecentSubmission="2020-10-25">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="970073" VariationID="981981">
+      <GeneList>
+        <Gene Symbol="BMPR1A" FullName="bone morphogenetic protein receptor type 1A" GeneID="657" HGNC_ID="HGNC:1076" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="86755763" stop="86932844" display_start="86755763" display_stop="86932844" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="88516395" stop="88684944" display_start="88516395" display_stop="88684944" Strand="+" />
+          </Location>
+          <OMIM>601299</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BMPR1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BMPR1A">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.11:g.(86838980_86875866)_(86876086_86890061)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" outerStart="88598737" innerStart="88635623" innerStop="88635843" outerStop="88649818" display_start="88598737" display_stop="88649818" variantLength="221" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(88598737_88635623)_(88635843_88649818)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(88598737_88635623)_(88635843_88649818)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.11:g.(86838980_86875866)_(86876086_86890061)del AND Generalized juvenile polyposis/juvenile polyposis coli" Accession="RCV001261471" Version="1">
+        <ClassifiedConditionList TraitSetID="2255">
+          <ClassifiedCondition DB="MedGen" ID="C1868081">Generalized juvenile polyposis/juvenile polyposis coli</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-02-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-02-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-25" MostRecentSubmission="2020-10-25">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17873119</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26681312</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2255" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2501" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Juvenile polyposis coli</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Generalized juvenile polyposis/juvenile polyposis coli</ElementValue>
+                <XRef ID="MONDO:0008276" DB="MONDO" />
+                <XRef ID="329971" DB="Orphanet" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">Juvenile polyposis syndrome (JPS) is characterized by predisposition to hamartomatous polyps in the gastrointestinal (GI) tract, specifically in the stomach, small intestine, colon, and rectum. The term "juvenile" refers to the type of polyp rather than to the age of onset of polyps. Most individuals with JPS have some polyps by age 20 years; some may have only four or five polyps over their lifetime, whereas others in the same family may have more than 100. If the polyps are left untreated, they may cause bleeding and anemia. Most juvenile polyps are benign; however, malignant transformation can occur. Risk for GI cancers ranges from 11% to 86%. Most of this increased risk is attributed to colon cancer, but cancers of the stomach, upper GI tract, and pancreas have also been reported. A combined syndrome of JPS and hereditary hemorrhagic telangiectasia (HHT) is present in most individuals with an SMAD4 pathogenic variant.</Attribute>
+                <XRef ID="NBK1469" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301642</ID>
+                <ID Source="BookShelf">NBK1469</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2004">
+                <ID Source="PubMed">15604628</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/NSGC, 2015">
+                <ID Source="PubMed">25394175</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACG, 2015">
+                <ID Source="PubMed">25645574</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2016">
+                <ID Source="PubMed">27854360</ID>
+                <ID Source="DOI">10.1038/gim.2016.190</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Genetics of Colorectal Cancer">
+                <ID Source="PubMed">26389505</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG SF v3.0, 2021">
+                <ID Source="PubMed">34012068</ID>
+                <ID Source="DOI">10.1038/s41436-021-01172-3</ID>
+              </Citation>
+              <XRef ID="329971" DB="Orphanet" />
+              <XRef ID="C1868081" DB="MedGen" />
+              <XRef ID="MONDO:0008276" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2841297" SubmissionDate="2020-10-22" DateLastUpdated="2020-10-25" DateCreated="2020-10-25">
+        <ClinVarSubmissionID localKey="NC_000010.10:g.(88598737_88635623)_(88635843_88649818)del|MedGen:C0345893" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001438768" DateUpdated="2020-10-25" DateCreated="2020-10-25" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-02-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">26681312</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17873119</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the partial deletion of exon 3 in the BMPR1A gene. A presumed nomenclature of c.(-153+1_-152-1)_(67+1_68-1)del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in a start-loss deletion change in the BMPR1A gene, a known mechanism of disease. The variant was not indicated to have been detected in the gnomAD database under identified structural variants. c.(-153+1_-152-1)_(67+1_68-1)del has been reported in at least three individuals affected with Juvenile Polyposis Syndrome (Aretz_2007, Susswein_2016). One clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014 and classified this variant as pathogenic. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BMPR1A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(88598737_88635623)_(88635843_88649818)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Juvenile polyposis syndrome</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0345893" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8365395</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2841297" TraitType="Disease" MappingType="Name" MappingValue="Juvenile polyposis syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0345893" Name="Juvenile polyposis syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

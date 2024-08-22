@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="1459985" VariationName="NC_000007.13:g.(?_92135668)_(92140738_?)del" VariationType="Deletion" Accession="VCV001459985" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-24" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1481342" VariationID="1459985">
+      <GeneList>
+        <Gene Symbol="PEX1" FullName="peroxisomal biogenesis factor 1" GeneID="5189" HGNC_ID="HGNC:8850" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="92487025" stop="92528520" display_start="92487025" display_stop="92528520" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="92116336" stop="92157844" display_start="92116336" display_stop="92157844" Strand="-" />
+          </Location>
+          <OMIM>602136</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.13:g.(?_92135668)_(92140738_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="92135668" innerStop="92140738" display_start="92135668" display_stop="92140738" variantLength="5071" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_92135668)_(92140738_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_92135668)_(92140738_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.13:g.(?_92135668)_(92140738_?)del AND Zellweger spectrum disorders" Accession="RCV001951362" Version="3">
+        <ClassifiedConditionList TraitSetID="55427">
+          <ClassifiedCondition DB="MedGen" ID="C0043459">Zellweger spectrum disorders</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="55427" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="52389" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Zellweger syndrome</ElementValue>
+                <XRef ID="912" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Zellweger spectrum disorders</ElementValue>
+                <XRef ID="MONDO:0019609" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Zellweger Spectrum Disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Zellweger Spectrum</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ZWS</ElementValue>
+                <XRef Type="MIM" ID="214100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">ZS</ElementValue>
+                <XRef Type="MIM" ID="214100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7917" />
+                <XRef ID="7917" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="912" DB="Orphanet" />
+              <XRef ID="C0043459" DB="MedGen" />
+              <XRef ID="MONDO:0019609" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4257767" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_000466.2_7_Deletion (exons 8-10)_92135667_92140738|MedGen:C0043459" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002241955" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PEX1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_92135668)_(92140738_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0043459" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4257767" TraitType="Disease" MappingType="XRef" MappingValue="C0043459" MappingRef="MedGen">
+        <MedGen CUI="C0043459" Name="Zellweger spectrum disorders" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

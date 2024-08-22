@@ -1,0 +1,123 @@
+<VariationArchive VariationID="2691293" VariationName="NC_000019.9:g.(?_44232134)_(44259115_?)del" VariationType="Deletion" Accession="VCV002691293" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-14" DateCreated="2024-02-04" MostRecentSubmission="2024-02-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2852320" VariationID="2691293">
+      <GeneList>
+        <Gene Symbol="SMG9" FullName="SMG9 nonsense mediated mRNA decay factor" GeneID="56006" HGNC_ID="HGNC:25763" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>19q13.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="43727983" stop="43754962" display_start="43727983" display_stop="43754962" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="44235300" stop="44259141" display_start="44235300" display_stop="44259141" Strand="-" />
+          </Location>
+          <OMIM>613176</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.9:g.(?_44232134)_(44259115_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" innerStart="44232134" innerStop="44259115" display_start="44232134" display_stop="44259115" variantLength="26982" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_44232134)_(44259115_?)del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_44232134)_(44259115_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.9:g.(?_44232134)_(44259115_?)del AND Heart and brain malformation syndrome" Accession="RCV003493331" Version="1">
+        <ClassifiedConditionList TraitSetID="26627">
+          <ClassifiedCondition DB="MedGen" ID="C4310793">Heart and brain malformation syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-12-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-12-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-02-04" MostRecentSubmission="2024-02-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="26627" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35320" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Heart and brain malformation syndrome</ElementValue>
+                <XRef ID="MONDO:0014833" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HBMS</ElementValue>
+                <XRef Type="MIM" ID="616920" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4310793" DB="MedGen" />
+              <XRef ID="MONDO:0014833" DB="MONDO" />
+              <XRef Type="MIM" ID="616920" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7917231" SubmissionDate="2024-01-26" DateLastUpdated="2024-02-04" DateCreated="2024-02-04">
+        <ClinVarSubmissionID localKey="NC_000019.9:g.(?_44232134)_(44259115_?)del|MedGen:C4310793" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004241158" DateUpdated="2024-02-04" DateCreated="2024-02-04" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-12-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Variant summary: The variant involves the deletion of exons 1-14 in the C19orf61 gene. A presumed nomenclature of c.(?_-316)_(*3614_?)del has been designated for the purposes of this classification. This deletion includes the entire coding sequence of the gene. As the exact proximal and distal breakpoints are unknown, it may extend beyond the annotated region of the gene to include other flanking genes. The variant was absent in 21694 control chromosomes (gnomAD, structural variants dataset). To our knowledge, no occurrence of c.(?_-316)_(*3614_?)del in individuals affected with Heart And Brain Malformation Syndrome and no experimental evidence demonstrating its impact on protein function have been reported. No submitters have cited clinical-significance assessments for this variant to ClinVar after 2014. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMG9" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000019.9:g.(?_44232134)_(44259115_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4310793" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14175850</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7917231" TraitType="Disease" MappingType="XRef" MappingValue="C4310793" MappingRef="MedGen">
+        <MedGen CUI="C4310793" Name="Heart and brain malformation syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

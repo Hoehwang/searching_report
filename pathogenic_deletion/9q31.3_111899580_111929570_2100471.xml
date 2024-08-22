@@ -1,0 +1,152 @@
+<VariationArchive VariationID="2100471" VariationName="NM_014334.4(FRRS1L):c.-35_-16del" VariationType="Deletion" Accession="VCV002100471" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-20" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2154487" VariationID="2100471">
+      <GeneList>
+        <Gene Symbol="FRRS1L" FullName="ferric chelate reductase 1 like" GeneID="23732" HGNC_ID="HGNC:1362" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q31.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="109130293" stop="109167249" display_start="109130293" display_stop="109167249" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="111899580" stop="111929570" display_start="111899580" display_stop="111929570" Strand="-" />
+          </Location>
+          <OMIM>604574</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_014334.4(FRRS1L):c.-35_-16del</Name>
+      <CanonicalSPDI>NC_000009.12:109167153:CCGCAGCCAGGCCGCTCGGGCCGCAGC:CCGCAGC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q31.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="109167154" stop="109167173" display_start="109167154" display_stop="109167173" variantLength="20" positionVCF="109167153" referenceAlleleVCF="CCCGCAGCCAGGCCGCTCGGG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="111929434" stop="111929453" display_start="111929434" display_stop="111929453" variantLength="20" positionVCF="111929433" referenceAlleleVCF="CCCGCAGCCAGGCCGCTCGGG" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.111929441_111929460del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.111929441_111929460del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.109167161_109167180del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.109167161_109167180del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_051235.1" sequenceAccession="NG_051235" sequenceVersion="1" change="g.5119_5138del">
+            <Expression>NG_051235.1:g.5119_5138del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_014334.4" sequenceAccession="NM_014334" sequenceVersion="4" change="c.-35_-16del" MANESelect="true">
+            <Expression>NM_014334.4:c.-35_-16del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001623" Type="5 prime UTR variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_014334.4(FRRS1L):c.-35_-16del AND Developmental and epileptic encephalopathy, 37" Accession="RCV003025900" Version="2">
+        <ClassifiedConditionList TraitSetID="28707">
+          <ClassifiedCondition DB="MedGen" ID="C4310770">Developmental and epileptic encephalopathy, 37</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27236917</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="28707" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35661" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 37</ElementValue>
+                <XRef ID="MONDO:0014859" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 37</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE37</ElementValue>
+                <XRef Type="MIM" ID="616981" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4310770" DB="MedGen" />
+              <XRef ID="MONDO:0014859" DB="MONDO" />
+              <XRef Type="MIM" ID="616981" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="6005581" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="15913977|MedGen:C4310770" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003317328" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27236917</ID>
+          </Citation>
+          <Comment>The frequency data for this variant in the population databases is considered unreliable, as metrics indicate insufficient coverage at this position in the gnomAD database. This sequence change creates a premature translational stop signal (p.Ala40Glyfs*109) in the FRRS1L gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in FRRS1L are known to be pathogenic (PMID: 27236917). This variant has not been reported in the literature in individuals affected with FRRS1L-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FRRS1L" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.111929434_111929453del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4310770" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="6005581" TraitType="Disease" MappingType="XRef" MappingValue="C4310770" MappingRef="MedGen">
+        <MedGen CUI="C4310770" Name="Developmental and epileptic encephalopathy, 37" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

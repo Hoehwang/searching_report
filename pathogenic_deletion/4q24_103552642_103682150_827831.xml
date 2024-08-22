@@ -1,0 +1,152 @@
+<VariationArchive VariationID="827831" VariationName="Single allele" VariationType="Deletion" Accession="VCV000827831" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-01-26" DateCreated="2020-03-26" MostRecentSubmission="2020-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="816029" VariationID="827831">
+      <GeneList>
+        <Gene Symbol="MANBA" FullName="mannosidase beta" GeneID="4126" HGNC_ID="HGNC:6831" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q24</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="102630770" stop="102760968" display_start="102630770" display_stop="102760968" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="103552642" stop="103682150" display_start="103552642" display_stop="103682150" Strand="-" />
+          </Location>
+          <OMIM>609489</OMIM>
+        </Gene>
+        <Gene Symbol="NFKB1" FullName="nuclear factor kappa B subunit 1" GeneID="4790" HGNC_ID="HGNC:7794" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q24</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="102501359" stop="102617302" display_start="102501359" display_stop="102617302" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="103422485" stop="103538458" display_start="103422485" display_stop="103538458" Strand="+" />
+          </Location>
+          <OMIM>164011</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q24</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="103436974" stop="103652655" display_start="103436974" display_stop="103652655" variantLength="215682" alternateAllele="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.103436974_103652655del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.103436974_103652655del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Common variable immunodeficiency" Accession="RCV001027728" Version="1">
+        <ClassifiedConditionList TraitSetID="36740">
+          <ClassifiedCondition DB="MedGen" ID="C0009447">Common variable immunodeficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-03-26" MostRecentSubmission="2020-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36740" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37880" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Common variable immunodeficiency</ElementValue>
+                <XRef ID="MONDO:0015517" DB="MONDO" />
+                <XRef ID="191010004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Common variable hypogamma-globulinemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Common variable agammaglobulinemia</ElementValue>
+                <XRef ID="Common+variable+agammaglobulinemia/8023" DB="Genetic Alliance" />
+                <XRef ID="23238000" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CVID</ElementValue>
+                <XRef ID="GTR000501103" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="607594" DB="OMIM" />
+                <XRef ID="1572" DB="Orphanet" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6140" />
+                <XRef ID="6140" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1572" DB="Orphanet" />
+              <XRef ID="C0009447" DB="MedGen" />
+              <XRef ID="MONDO:0015517" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS607594" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2348326" SubmissionDate="2019-09-30" DateLastUpdated="2020-03-26" DateCreated="2020-03-26">
+        <ClinVarSubmissionID localKey="PS607594_del4-103436974" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001190164" DateUpdated="2020-03-26" DateCreated="2020-03-26" Type="SCV" Version="1" SubmitterName="NIHR Bioresource Rare Diseases, University of Cambridge" OrgID="505998" OrganizationCategory="consortium" OrgAbbreviation="NIHR BR RD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <TypePlatform>Whole Genome Sequencing</TypePlatform>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">F010562</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NFKB1" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" alternateAllele="-" start="103436974" stop="103652655" variantLength="215682" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="OMIM" ID="PS607594" Type="Phenotypic series" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>NIHR_Bioresource_Rare_Diseases_PID</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2348326" TraitType="Finding" MappingType="XRef" MappingValue="PS607594" MappingRef="OMIM Phenotypic series">
+        <MedGen CUI="C0009447" Name="Common variable immunodeficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,173 @@
+<VariationArchive VariationID="1338867" VariationName="NM_000322.5(PRPH2):c.463_467dup (p.Asp157fs)" VariationType="Duplication" Accession="VCV001338867" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-02-05" MostRecentSubmission="2022-02-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1329911" VariationID="1338867">
+      <GeneList>
+        <Gene Symbol="PRPH2" FullName="peripherin 2" GeneID="5961" HGNC_ID="HGNC:9942" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="42696598" stop="42722597" display_start="42696598" display_stop="42722597" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="42664332" stop="42690357" display_start="42664332" display_stop="42690357" Strand="-" />
+          </Location>
+          <OMIM>179605</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000322.5(PRPH2):c.463_467dup (p.Asp157fs)</Name>
+      <CanonicalSPDI>NC_000006.12:42721867:ATGGT:ATGGTATGGT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>6p21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="42721867" stop="42721868" display_start="42721867" display_stop="42721868" variantLength="5" positionVCF="42721867" referenceAlleleVCF="G" alternateAlleleVCF="GATGGT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="42689605" stop="42689606" display_start="42689605" display_stop="42689606" variantLength="5" positionVCF="42689605" referenceAlleleVCF="G" alternateAlleleVCF="GATGGT" />
+      </Location>
+      <ProteinChange>D157fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.42689606_42689610dup" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.42689606_42689610dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.42721868_42721872dup" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.42721868_42721872dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009176.2" sequenceAccession="NG_009176" sequenceVersion="2" change="g.5749_5753dup">
+            <Expression>NG_009176.2:g.5749_5753dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000322.5" sequenceAccession="NM_000322" sequenceVersion="5" change="c.463_467dup" MANESelect="true">
+            <Expression>NM_000322.5:c.463_467dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000313.2" sequenceAccession="NP_000313" sequenceVersion="2" change="p.Asp157fs">
+            <Expression>NP_000313.2:p.Asp157fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2152010923" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000322.5(PRPH2):c.463_467dup (p.Asp157fs) AND Multifocal pattern dystrophy simulating fundus flavimaculatus" Accession="RCV001823321" Version="2">
+        <ClassifiedConditionList TraitSetID="72360">
+          <ClassifiedCondition DB="MedGen" ID="C4509881">Multifocal pattern dystrophy simulating fundus flavimaculatus</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-10-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-10-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-05" MostRecentSubmission="2022-02-05">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="72360" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="45613" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Multifocal pattern dystrophy simulating fundus flavimaculatus</ElementValue>
+                <XRef ID="MONDO:0020382" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="19612" />
+                <XRef ID="19612" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="99003" DB="Orphanet" />
+              <XRef ID="C4509881" DB="MedGen" />
+              <XRef ID="MONDO:0020382" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4062168" SubmissionDate="2022-02-02" DateLastUpdated="2022-02-05" DateCreated="2022-02-05">
+        <ClinVarSubmissionID localKey="3663198" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV002072651" DateUpdated="2022-02-05" DateCreated="2022-02-05" Type="SCV" Version="1" SubmitterName="Institute of Medical Genetics and Applied Genomics, University Hospital Tübingen" OrgID="506385" OrganizationCategory="laboratory" OrgAbbreviation="IMGAG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-10-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Disease">
+              <Trait Type="Disease" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000608" />
+              </Trait>
+              <Trait Type="Disease" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001098" />
+              </Trait>
+              <Trait Type="Disease" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0007754" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRPH2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="6" alternateAllele="GATGGT" referenceAllele="G" start="42721867" stop="42721867" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">47865744</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="99003" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11031800</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4062168" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000608" MappingRef="HP">
+        <MedGen CUI="C0024437" Name="Macular degeneration" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4062168" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001098" MappingRef="HP">
+        <MedGen CUI="C4025804" Name="Abnormal fundus morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4062168" TraitType="Disease" MappingType="XRef" MappingValue="99003" MappingRef="Orphanet">
+        <MedGen CUI="C4509881" Name="Multifocal pattern dystrophy simulating fundus flavimaculatus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4062168" TraitType="Disease" MappingType="XRef" MappingValue="HP:0007754" MappingRef="HP">
+        <MedGen CUI="C0730292" Name="Macular dystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

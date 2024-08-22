@@ -1,0 +1,153 @@
+<VariationArchive VariationID="39608" VariationName="NG_033117.2:g.(12554_12700)_(13936_14029)del" VariationType="Deletion" Accession="VCV000039608" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2018-02-02" MostRecentSubmission="2018-02-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="48207" VariationID="39608">
+      <GeneList>
+        <Gene Symbol="SLC52A1" FullName="solute carrier family 52 member 1" GeneID="55065" HGNC_ID="HGNC:30225" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>17p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="5032602" stop="5042414" display_start="5032602" display_stop="5042414" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="4935896" stop="4938726" display_start="4935896" display_stop="4938726" Strand="-" />
+          </Location>
+          <OMIM>607883</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_033117.2:g.(12554_12700)_(13936_14029)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17p13.2</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>1.9-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_033117.2" sequenceAccession="NG_033117" sequenceVersion="2" change="g.(12554_12700)_(13936_14029)del">
+            <Expression>NG_033117.2:g.(12554_12700)_(13936_14029)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="607883.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_033117.2:g.(12554_12700)_(13936_14029)del AND Ariboflavinosis" Accession="RCV004576915" Version="1">
+        <ClassifiedConditionList TraitSetID="68478">
+          <ClassifiedCondition DB="MedGen" ID="C0035528">Ariboflavinosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2011-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-02-02" MostRecentSubmission="2018-02-02">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17689999</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21089064</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="68478" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57078" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Decreased circulating vitamin B2 concentration</ElementValue>
+                <XRef ID="HP:0100504" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Ariboflavinosis</ElementValue>
+                <XRef ID="MONDO:0004573" DB="MONDO" />
+                <XRef ID="20307000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Riboflavin deficiency</ElementValue>
+                <XRef ID="HP:0100504" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RBFVD</ElementValue>
+                <XRef Type="MIM" ID="615026" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">26072523</ID>
+                <ID Source="BookShelf">NBK299312</ID>
+              </Citation>
+              <XRef ID="C0035528" DB="MedGen" />
+              <XRef ID="MONDO:0004573" DB="MONDO" />
+              <XRef Type="MIM" ID="615026" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0100504" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="93772" SubmissionDate="2018-01-30" DateLastUpdated="2018-02-02" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="607883.0001_RIBOFLAVIN DEFICIENCY" title="SLC52A1, 1.9-KB DEL_RIBOFLAVIN DEFICIENCY" />
+        <ClinVarAccession Accession="SCV000056576" DateUpdated="2018-02-02" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a woman with riboflavin deficiency (RBFVD; 615026), Ho et al. (2011) identified a de novo heterozygous 1.9-kb deletion in the SLC52A1 gene, resulting in the deletion of exons 2 and 3 and predicted to cause haploinsufficiency. The woman was clinically asymptomatic, but showed biochemical evidence of riboflavin deficiency, manifest as increased serum acylcarnitines. She was originally ascertained (Chiong et al., 2007) after her newborn daughter presented soon after birth with poor suck, hypoglycemia, and metabolic acidosis. The child had dicarboxylic aciduria and elevated plasma acylcarnitine levels, initially thought to be consistent with multiple acyl-CoA dehydrogenase deficiency (MADD; 231680). Treatment with oral riboflavin resulted in complete resolution of the clinical and biochemical findings. The findings were consistent with transient neonatal riboflavin deficiency secondary to maternal riboflavin deficiency that was exacerbated during pregnancy. The infant did not carry the deletion.</Attribute>
+              <Citation>
+                <ID Source="PubMed">21089064</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">17689999</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="615026" Type="MIM" />
+              <XRef DB="OMIM" ID="231680" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC52A1" />
+          </GeneList>
+          <Name>SLC52A1, 1.9-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1.9-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="607883.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">RIBOFLAVIN DEFICIENCY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="93772" TraitType="Disease" MappingType="Name" MappingValue="RIBOFLAVIN DEFICIENCY" MappingRef="Preferred">
+        <MedGen CUI="C0035528" Name="Ariboflavinosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,157 @@
+<VariationArchive VariationID="832339" VariationName="NC_000019.10:g.(?_18073497)_(18073619_?)del" VariationType="Deletion" Accession="VCV000832339" Version="8" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="821244" VariationID="832339">
+      <GeneList>
+        <Gene Symbol="IL12RB1" FullName="interleukin 12 receptor subunit beta 1" GeneID="3594" HGNC_ID="HGNC:5971" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="18058995" stop="18098816" display_start="18058995" display_stop="18098816" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="18170370" stop="18197696" display_start="18170370" display_stop="18197696" Strand="-" />
+          </Location>
+          <OMIM>601604</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.10:g.(?_18073497)_(18073619_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" innerStart="18184307" innerStop="18184429" display_start="18184307" display_stop="18184429" variantLength="123" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_18184307)_(18184429_?)del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_18184307)_(18184429_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.10:g.(?_18073497)_(18073619_?)del AND Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency" Accession="RCV001032836" Version="9">
+        <ClassifiedConditionList TraitSetID="19256">
+          <ClassifiedCondition DB="MedGen" ID="C4013949">Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12591909</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29995221</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9603733</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="19256" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="31855" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency</ElementValue>
+                <XRef ID="MONDO:0013955" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IL12RB1 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="614891" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Immunodeficiency 30</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IMD30</ElementValue>
+                <XRef Type="MIM" ID="614891" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10984" />
+                <XRef ID="10984" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="319552" DB="Orphanet" />
+              <XRef ID="C4013949" DB="MedGen" />
+              <XRef ID="MONDO:0013955" DB="MONDO" />
+              <XRef Type="MIM" ID="614891" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357399" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_005535.2_19_Deletion (exon 8)|MedGen:C4013949" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196143" DateUpdated="2024-06-09" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9603733</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">12591909</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29995221</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 8 of the IL12RB1 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in IL12RB1 are known to be pathogenic (PMID: 9603733, 12591909). A similar copy number variant has been observed in individual(s) with clinical features of autosomal recessive IL-12RŒ≤1 deficiency (PMID: 29995221). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IL12RB1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000019.9:g.(?_18184307)_(18184429_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4013949" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357399" TraitType="Disease" MappingType="XRef" MappingValue="C4013949" MappingRef="MedGen">
+        <MedGen CUI="C4013949" Name="Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,125 @@
+<VariationArchive RecordType="classified" VariationID="458209" VariationName="NC_000023.10:g.(?_153128098)_(153141311_?)del" VariationType="Deletion" Accession="VCV000458209" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-12-26" MostRecentSubmission="2017-12-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="471988" VariationID="458209">
+      <GeneList>
+        <Gene Symbol="L1CAM" FullName="L1 cell adhesion molecule" GeneID="3897" HGNC_ID="HGNC:6470" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="153861514" stop="153886173" display_start="153861514" display_stop="153886173" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153126970" stop="153141398" display_start="153126970" display_stop="153141398" Strand="-" />
+          </Location>
+          <OMIM>308840</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=L1CAM">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=L1CAM">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_153128098)_(153141311_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153128098" innerStop="153141311" display_start="153128098" display_stop="153141311" variantLength="13214" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_153128098)_(153141311_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_153128098)_(153141311_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_153128098)_(153141311_?)del AND Spastic paraplegia" Accession="RCV000550964" Version="1">
+        <ClassifiedConditionList TraitSetID="20865">
+          <ClassifiedCondition DB="MedGen" ID="C0037772">Spastic paraplegia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-06-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-06-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-12-26" MostRecentSubmission="2017-12-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20865" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32966" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spastic paraplegia</ElementValue>
+                <XRef ID="10DG0885" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+                <XRef ID="HP:0001258" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0037772" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001258" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007062" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007124" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007216" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1221605" SubmissionDate="2017-10-05" DateLastUpdated="2017-12-26" DateCreated="2017-12-26">
+        <ClinVarSubmissionID localKey="2069118|MedGen:C0037772" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000629387" DateUpdated="2017-12-26" DateCreated="2017-12-26" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-06-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">A gross deletion of the genomic region encompassing the full coding sequence of the L1CAM gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. Loss-of-function variants in L1CAM are known to be pathogenic (PMID: 23820807). A similar deletion encompassing the entire L1CAM coding region was reported in an individual affected with X-linked hydrocephalus (PMID: 11968085). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="L1CAM" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_153128098)_(153141311_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0037772" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3109251</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1221605" TraitType="Disease" MappingType="XRef" MappingValue="C0037772" MappingRef="MedGen">
+        <MedGen CUI="C0037772" Name="Spastic paraplegia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

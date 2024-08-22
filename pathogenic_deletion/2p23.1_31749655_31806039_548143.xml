@@ -1,0 +1,238 @@
+<VariationArchive RecordType="classified" VariationID="548143" VariationName="NM_000348.4(SRD5A2):c.218del (p.Leu73fs)" VariationType="Deletion" Accession="VCV000548143" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-07-12" MostRecentSubmission="2018-07-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="538628" VariationID="548143">
+      <GeneList>
+        <Gene Symbol="SRD5A2" FullName="steroid 5 alpha-reductase 2" GeneID="6716" HGNC_ID="HGNC:11285" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="31522480" stop="31663009" display_start="31522480" display_stop="31663009" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="31749655" stop="31806039" display_start="31749655" display_stop="31806039" Strand="-" />
+          </Location>
+          <OMIM>607306</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000348.4(SRD5A2):c.218del (p.Leu73fs)</Name>
+      <CanonicalSPDI>NC_000002.12:31580682:A:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="31580683" stop="31580683" display_start="31580683" display_stop="31580683" variantLength="1" positionVCF="31580682" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="31805753" stop="31805753" display_start="31805753" display_stop="31805753" variantLength="1" positionVCF="31805752" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>L73fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.31805753del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.31805753del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.31580683del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.31580683del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008365.1" sequenceAccession="NG_008365" sequenceVersion="1" change="g.5289del">
+            <Expression>NG_008365.1:g.5289del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000348.4" sequenceAccession="NM_000348" sequenceVersion="4" change="c.218del" MANESelect="true">
+            <Expression>NM_000348.4:c.218del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000339.2" sequenceAccession="NP_000339" sequenceVersion="2" change="p.Leu73fs">
+            <Expression>NP_000339.2:p.Leu73fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1553329427" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="loss_of_function_variant">
+        <XRef ID="SO:0002054" DB="Sequence Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000348.4(SRD5A2):c.218del (p.Leu73fs) AND 3-Oxo-5 alpha-steroid delta 4-dehydrogenase deficiency" Accession="RCV000660881" Version="1">
+        <ClassifiedConditionList TraitSetID="853">
+          <ClassifiedCondition DB="MedGen" ID="C0268297">3-Oxo-5 alpha-steroid delta 4-dehydrogenase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-07-12" MostRecentSubmission="2018-07-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="853" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5821" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">46,XY disorder of sex development due to 5-alpha-reductase 2 deficiency</ElementValue>
+                <XRef ID="MONDO:0009923" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Male pseudohermaphroditism due to 5-alpha-reductase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial incomplete male pseudohermaphroditism, type 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">3-Oxo-5 alpha-steroid delta 4-dehydrogenase deficiency</ElementValue>
+                <XRef ID="57514000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudovaginal perineoscrotal hypospadias</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PPSH</ElementValue>
+                <XRef Type="MIM" ID="264600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000520059" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508993" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5680" />
+                <XRef ID="5680" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="753" DB="Orphanet" />
+              <XRef ID="C0268297" DB="MedGen" />
+              <XRef ID="MONDO:0009923" DB="MONDO" />
+              <XRef Type="MIM" ID="264600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1527333" SubmissionDate="2018-05-25" DateLastUpdated="2018-07-12" DateCreated="2018-07-12">
+        <ClinVarSubmissionID localKey="SUB3621345" submittedAssembly="hg19" title="SUB3621345" />
+        <ClinVarAccession Accession="SCV000680461" DateUpdated="2018-07-12" DateCreated="2018-07-12" Type="SCV" Version="1" SubmitterName="Institute of Reproductive and Stem Cell Engineering, Central South University" OrgID="506234" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-02-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">The single-base deletion led to a frameshift mutation which was predicted to result in the formation of a truncated SRD5A2 protein with a stop codon at position 88. Although no functional studies have been performed, a mutant protein lacking several key regions could be pathogenic, be degraded, or confer a loss of function. This variant was detected in compound heterozygosity with NM_000348.3:c.680G&gt;A in twin patients who presented with the same phenotype (perineal hypospadias, micropenis, and bilateral cryptorchidism) and were raised as females.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>Chinese Han population</Ethnicity>
+              <GeographicOrigin>Hunan, China</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <NamePlatform>ABI9700</NamePlatform>
+              <TypePlatform>Sanger sequencing</TypePlatform>
+              <Description>This variant was detected by Sanger Sequencing using the specific primers :farward:5'-TGAATGTAAAGCCGTGGAGA-3'; reverse:5'-CAGCCGCTTGTCAACTC-3'</Description>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="2" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000051" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000028" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000054" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Ethnicity>Chinese Han polutation</Ethnicity>
+              <GeographicOrigin>Hunan, China</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>ABI9700</NamePlatform>
+              <TypePlatform>Sanger sequencing</TypePlatform>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000051" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000348.3:exon 1</GeneLocation>
+          </Location>
+          <FunctionalConsequence Value="loss_of_function_variant" />
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000348.3:c.218delT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="264600" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28663096</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB3621345</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1527333" TraitType="Disease" MappingType="XRef" MappingValue="264600" MappingRef="OMIM">
+        <MedGen CUI="C0268297" Name="3-Oxo-5 alpha-steroid delta 4-dehydrogenase deficiency" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1527333" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000051" MappingRef="HP">
+        <MedGen CUI="C0452148" Name="Perineal hypospadias" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1527333" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000051" MappingRef="HP">
+        <MedGen CUI="C0452148" Name="Perineal hypospadias" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1527333" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000054" MappingRef="HP">
+        <MedGen CUI="C4551492" Name="Micropenis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1527333" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000028" MappingRef="HP">
+        <MedGen CUI="C0010417" Name="Cryptorchidism" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

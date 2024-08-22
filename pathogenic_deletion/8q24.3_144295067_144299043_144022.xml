@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="144022" VariationName="NC_000008.11:g.(?_143213218)_(143217170_?)del" VariationType="Deletion" Accession="VCV000144022" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-26" DateCreated="2022-01-14" MostRecentSubmission="2022-01-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="153753" VariationID="144022">
+      <GeneList>
+        <Gene Symbol="GPIHBP1" FullName="glycosylphosphatidylinositol anchored high density lipoprotein binding protein 1" GeneID="338328" HGNC_ID="HGNC:24945" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="143213218" stop="143217170" display_start="143213218" display_stop="143217170" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="144295067" stop="144299043" display_start="144295067" display_stop="144299043" Strand="+" />
+          </Location>
+          <OMIM>612757</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000008.11:g.(?_143213218)_(143217170_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" innerStart="143213218" innerStop="143217170" display_start="143213218" display_stop="143217170" variantLength="3953" />
+      </Location>
+      <OtherNameList>
+        <Name>GPIHBP1, DEL</Name>
+        <Name>DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.11" sequenceAccession="NC_000008" sequenceVersion="11" change="g.(?_143213218)_(143217170_?)del" Assembly="GRCh38">
+            <Expression>NC_000008.11:g.(?_143213218)_(143217170_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="612757.0011" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 612757.0011 from the annotation of GPIHBP1 on GRCh38 and the description as a deletion of the gene.  The supplementary materials in the paper by Charriere et al.,2011 (PubMed 21816778) indicated that the loss of only exons 1-3 was verified by PCR.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.11:g.(?_143213218)_(143217170_?)del AND Hyperlipoproteinemia, type 1D" Accession="RCV000133531" Version="5">
+        <ClassifiedConditionList TraitSetID="16970">
+          <ClassifiedCondition DB="MedGen" ID="C4014767">Hyperlipoproteinemia, type 1D</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2011-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-01-14" MostRecentSubmission="2022-01-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21816778</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="16970" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="21329" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hyperlipoproteinemia, type ID</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hyperlipoproteinemia, type 1D</ElementValue>
+                <XRef ID="MONDO:0014412" DB="MONDO" />
+              </Name>
+              <XRef ID="444490" DB="Orphanet" />
+              <XRef ID="535458" DB="Orphanet" />
+              <XRef ID="C4014767" DB="MedGen" />
+              <XRef ID="MONDO:0014412" DB="MONDO" />
+              <XRef Type="MIM" ID="615947" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="312211" SubmissionDate="2022-01-11" DateLastUpdated="2022-01-14" DateCreated="2014-08-25">
+        <ClinVarSubmissionID localKey="612757.0011_HYPERLIPOPROTEINEMIA, TYPE ID" title="GPIHBP1, DEL_HYPERLIPOPROTEINEMIA, TYPE ID" />
+        <ClinVarAccession Accession="SCV000188606" DateUpdated="2022-01-14" DateCreated="2014-08-25" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-10-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the deletion of GPIHBP1 that was found in compound heterozygous state in a patient with severe chylomicronemia (615947) by Charriere et al. (2011), see 612757.0006.</Attribute>
+              <Citation>
+                <ID Source="PubMed">21816778</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="615947" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GPIHBP1" />
+          </GeneList>
+          <Name>GPIHBP1, DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="612757.0011" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HYPERLIPOPROTEINEMIA, TYPE ID</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="312211" TraitType="Disease" MappingType="Name" MappingValue="HYPERLIPOPROTEINEMIA, TYPE ID" MappingRef="Preferred">
+        <MedGen CUI="C4014767" Name="Hyperlipoproteinemia, type 1D" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

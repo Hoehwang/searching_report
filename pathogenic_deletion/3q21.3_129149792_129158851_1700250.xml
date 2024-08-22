@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="1700250" VariationName="NM_003925.2:c.1699_1701del" VariationType="Deletion" Accession="VCV001700250" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-04" DateCreated="2022-08-15" MostRecentSubmission="2022-08-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1692644" VariationID="1700250">
+      <GeneList>
+        <Gene Symbol="MBD4" FullName="methyl-CpG binding domain 4, DNA glycosylase" GeneID="8930" HGNC_ID="HGNC:6919" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>3q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="129430947" stop="129439948" display_start="129430947" display_stop="129439948" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="129149792" stop="129158851" display_start="129149792" display_stop="129158851" Strand="-" />
+          </Location>
+          <OMIM>603574</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003925.2:c.1699_1701del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003925.2" sequenceAccession="NM_003925" sequenceVersion="2" change="c.1699_1701delATG">
+            <Expression>NM_003925.2:c.1699_1701delATG</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603574.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003925.2:c.1699_1701del AND Tumor predisposition syndrome 2" Accession="RCV002274498" Version="1">
+        <ClassifiedConditionList TraitSetID="79260">
+          <ClassifiedCondition DB="MedGen" ID="C5774186">Tumor predisposition syndrome 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-08-15" MostRecentSubmission="2022-08-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30049810</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="79260" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="65696" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MBD4-ASSOCIATED NEOPLASIA SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="619975" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Tumor predisposition syndrome 2</ElementValue>
+                <XRef ID="MONDO:0859267" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TPDS2</ElementValue>
+                <XRef Type="MIM" ID="619975" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">MANS</ElementValue>
+                <XRef Type="MIM" ID="619975" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5774186" DB="MedGen" />
+              <XRef ID="MONDO:0859267" DB="MONDO" />
+              <XRef Type="MIM" ID="619975" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5007152" SubmissionDate="2022-08-08" DateLastUpdated="2022-08-15" DateCreated="2022-08-15">
+        <ClinVarSubmissionID localKey="603574.0001_TUMOR PREDISPOSITION SYNDROME 2" title="MBD4, 3-BP DEL, 1699ATG (rs775848563)_TUMOR PREDISPOSITION SYNDROME 2" />
+        <ClinVarAccession Accession="SCV002559249" DateUpdated="2022-08-15" DateCreated="2022-08-15" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-08">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a man (EMC-AML-1) with tumor predisposition syndrome-2 (TPDS2; 619975) who was diagnosed with acute myelogenous leukemia (AML) at age 33 years, Sanders et al. (2018) identified a germline homozygous in-frame 3-bp deletion (c.1699_1701delATG, NM_003925.2) in the MBD4 gene, resulting in the deletion of residue His567 (H567del) in the glycosylase domain. The mutation was found by whole-exome sequencing and confirmed by Sanger sequencing. In vitro functional expression studies showed that deletion of His567 resulted in a complete loss of MBD4 catalytic activity. Despite 2 hematopoietic stem cell transplants, the AML was refractory to treatment and recurred, resulting in death several years after initial diagnosis. The patient also had a prior history of multiple colonic polyps requiring hemicolectomy.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30049810</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619975" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MBD4" />
+          </GeneList>
+          <Name>MBD4, 3-BP DEL, 1699ATG (rs775848563)</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">3-BP DEL, 1699ATG (rs775848563)</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603574.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">TUMOR PREDISPOSITION SYNDROME 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5007152" TraitType="Disease" MappingType="Name" MappingValue="TUMOR PREDISPOSITION SYNDROME 2" MappingRef="Preferred">
+        <MedGen CUI="C5774186" Name="Tumor predisposition syndrome 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

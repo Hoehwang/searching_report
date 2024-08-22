@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="635490" VariationName="NM_020184.4(CNNM4):c.1312del (p.Leu438fs)" VariationType="Deletion" Accession="VCV000635490" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-05" DateCreated="2019-07-14" MostRecentSubmission="2019-07-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623272" VariationID="635490">
+      <GeneList>
+        <Gene Symbol="CNNM4" FullName="cyclin and CBS domain divalent metal cation transport mediator 4" GeneID="26504" HGNC_ID="HGNC:105" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="96760902" stop="96811874" display_start="96760902" display_stop="96811874" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="97426638" stop="97477627" display_start="97426638" display_stop="97477627" Strand="+" />
+          </Location>
+          <OMIM>607805</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_020184.4(CNNM4):c.1312del (p.Leu438fs)</Name>
+      <CanonicalSPDI>NC_000002.12:96762305:CCCCCC:CCCCC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="96762306" stop="96762306" display_start="96762306" display_stop="96762306" variantLength="1" positionVCF="96762305" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="97428043" stop="97428043" display_start="97428043" display_stop="97428043" variantLength="1" positionVCF="97428042" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>L438fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.97428048del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.97428048del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.96762311del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.96762311del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016608.1" sequenceAccession="NG_016608" sequenceVersion="1" change="g.6410del">
+            <Expression>NG_016608.1:g.6410del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_020184.4" sequenceAccession="NM_020184" sequenceVersion="4" change="c.1312del" MANESelect="true">
+            <Expression>NM_020184.4:c.1312del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_064569.3" sequenceAccession="NP_064569" sequenceVersion="3" change="p.Leu438fs">
+            <Expression>NP_064569.3:p.Leu438fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="746879923" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_020184.4(CNNM4):c.1312del (p.Leu438fs) AND Jalili syndrome" Accession="RCV000786951" Version="2">
+        <ClassifiedConditionList TraitSetID="726">
+          <ClassifiedCondition DB="MedGen" ID="C3495589">Jalili syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-14" MostRecentSubmission="2019-07-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="726" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1876" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Jalili syndrome</ElementValue>
+                <XRef ID="MONDO:0009007" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cone-rod dystrophy with amelogenesis imperfecta</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cone-rod dystrophy amelogenesis imperfecta</ElementValue>
+                <XRef ID="Cone-Rod+Dystrophy+Amelogenesis+Imperfecta/1772" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CONE-ROD DYSTROPHY AND AMELOGENESIS IMPERFECTA</ElementValue>
+                <XRef Type="MIM" ID="217080" DB="OMIM" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1463" />
+                <XRef ID="1463" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1873" DB="Orphanet" />
+              <XRef ID="C3495589" DB="MedGen" />
+              <XRef ID="MONDO:0009007" DB="MONDO" />
+              <XRef Type="MIM" ID="217080" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1811038" SubmissionDate="2019-03-13" DateLastUpdated="2019-07-14" DateCreated="2019-07-14">
+        <ClinVarSubmissionID localKey="NM_020184.3:c.1312delC|OMIM:217080" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000925856" DateUpdated="2019-07-14" DateCreated="2019-07-14" Type="SCV" Version="1" SubmitterName="Bioscientia Institut fuer Medizinische Diagnostik GmbH, Sonic Healthcare" OrgID="505827" OrganizationCategory="laboratory" OrgAbbreviation="Bioscientia" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CNNM4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_020184.3:c.1312delC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="217080" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>BiSub20190313</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1811038" TraitType="Disease" MappingType="XRef" MappingValue="217080" MappingRef="OMIM">
+        <MedGen CUI="C3495589" Name="Jalili syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

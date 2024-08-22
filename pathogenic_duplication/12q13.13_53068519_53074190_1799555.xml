@@ -1,0 +1,164 @@
+<VariationArchive RecordType="classified" VariationID="1799555" VariationName="NM_006121.4(KRT1):c.1860dup (p.Gly621fs)" VariationType="Duplication" Accession="VCV001799555" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-09" DateCreated="2022-11-29" MostRecentSubmission="2023-09-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1856846" VariationID="1799555">
+      <GeneList>
+        <Gene Symbol="KRT1" FullName="keratin 1" GeneID="3848" HGNC_ID="HGNC:6412" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="52674736" stop="52680407" display_start="52674736" display_stop="52680407" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="53068519" stop="53074190" display_start="53068519" display_stop="53074190" Strand="-" />
+          </Location>
+          <OMIM>139350</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006121.4(KRT1):c.1860dup (p.Gly621fs)</Name>
+      <CanonicalSPDI>NC_000012.12:52675267:A:AA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>12q13.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="52675267" stop="52675268" display_start="52675267" display_stop="52675268" variantLength="1" positionVCF="52675267" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="53069051" stop="53069052" display_start="53069051" display_stop="53069052" variantLength="1" positionVCF="53069051" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>G621fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.53069052dup" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.53069052dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.52675268dup" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.52675268dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008364.2" sequenceAccession="NG_008364" sequenceVersion="2" change="g.10140dup">
+            <Expression>NG_008364.2:g.10140dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006121.4" sequenceAccession="NM_006121" sequenceVersion="4" change="c.1860dup" MANESelect="true">
+            <Expression>NM_006121.4:c.1860dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006112.3" sequenceAccession="NP_006112" sequenceVersion="3" change="p.Gly621fs">
+            <Expression>NP_006112.3:p.Gly621fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="139350.0017" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006121.4(KRT1):c.1860dup (p.Gly621fs) AND Ichthyosis hystrix of Curth-Macklin" Accession="RCV002444398" Version="5">
+        <ClassifiedConditionList TraitSetID="7882">
+          <ClassifiedCondition DB="MedGen" ID="C1840296">Ichthyosis hystrix of Curth-Macklin</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-11-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-11-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-11-29" MostRecentSubmission="2023-09-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21844476</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7882" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2290" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ichthyosis hystrix, Curth Macklin type</ElementValue>
+                <XRef ID="Ichthyosis+hystrix%2C+Curth+Macklin+type/3721" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Ichthyosis hystrix of Curth-Macklin</ElementValue>
+                <XRef ID="MONDO:0007808" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ichthyosis histrix, curth-macklin type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IHCM</ElementValue>
+                <XRef Type="MIM" ID="146590" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2954" />
+                <XRef ID="2954" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="79503" DB="Orphanet" />
+              <XRef ID="C1840296" DB="MedGen" />
+              <XRef ID="MONDO:0007808" DB="MONDO" />
+              <XRef Type="MIM" ID="146590" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5239718" SubmissionDate="2022-11-22" DateLastUpdated="2023-09-14" DateCreated="2022-11-29">
+        <ClinVarSubmissionID localKey="139350.0017_ICHTHYOSIS HYSTRIX, CURTH-MACKLIN TYPE" title="KRT1, 1-BP INS, 1861T_ICHTHYOSIS HYSTRIX, CURTH-MACKLIN TYPE" />
+        <ClinVarAccession Accession="SCV002754485" DateUpdated="2023-09-14" DateCreated="2022-11-29" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-11-30">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5-year-old Japanese boy with the Curth-Macklin type of ichthyosis hystrix (IHCM; 146590), Kubo et al. (2011) identified heterozygosity for a 1-bp insertion (c.1861insT) in the KRT1 gene, predicted to disrupt the most C-terminal of 10 glycine loops and produce 32 aberrant amino acids in the tail domain of K1. There was no family history of a similar skin disorder; familial segregation of the insertion was not reported.</Attribute>
+              <Citation>
+                <ID Source="PubMed">21844476</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="146590" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KRT1" />
+          </GeneList>
+          <Name>KRT1, 1-BP INS, 1861T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP INS, 1861T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="139350.0017" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ICHTHYOSIS HYSTRIX, CURTH-MACKLIN TYPE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5239718" TraitType="Disease" MappingType="Name" MappingValue="ICHTHYOSIS HYSTRIX, CURTH-MACKLIN TYPE" MappingRef="Preferred">
+        <MedGen CUI="C1840296" Name="Ichthyosis hystrix of Curth-Macklin" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

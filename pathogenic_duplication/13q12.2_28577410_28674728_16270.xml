@@ -1,0 +1,171 @@
+<VariationArchive VariationID="16270" VariationName="FLT3, INTERNAL TANDEM DUP" VariationType="Duplication" Accession="VCV000016270" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-05" DateCreated="2015-09-03" MostRecentSubmission="2015-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="31309" VariationID="16270">
+      <GeneList>
+        <Gene Symbol="FLT3" FullName="fms related receptor tyrosine kinase 3" GeneID="2322" HGNC_ID="HGNC:3765" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>13q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="28003274" stop="28100576" display_start="28003274" display_stop="28100576" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="28577410" stop="28674728" display_start="28577410" display_stop="28674728" Strand="-" />
+          </Location>
+          <OMIM>136351</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>FLT3, INTERNAL TANDEM DUP</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>13q12</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>FLT3, INTERNAL TANDEM DUP</Name>
+        <Name>FLT3 ITD</Name>
+        <Name>FLT3ITD</Name>
+        <Name>INTERNAL TANDEM DUP</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef ID="GTR000562156" DB="Genetic Testing Registry (GTR)" />
+        <XRef Type="Allelic variant" ID="136351.0001" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">OMIM allelic variant 136351.0001 describes multiple specific ITD in FLT3, so NCBI will not provide a single HGVS expression for this record.  See also VCV000219096 in ClinVar and rs864321619 and rs1340741169 in dbSNP.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="FLT3, INTERNAL TANDEM DUP AND Leukemia, acute myeloid, reduced survival in, somatic" Accession="RCV000017658" Version="28">
+        <ClassifiedConditionList TraitSetID="5278">
+          <ClassifiedCondition DB="MedGen" ID="C4225628">Leukemia, acute myeloid, reduced survival in, somatic</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2009-09-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2009-09-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-09-03" MostRecentSubmission="2015-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11091200</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11290608</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17387224</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17942876</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19602710</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="5278" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="12503" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Leukemia, acute myeloid, reduced survival in, somatic</ElementValue>
+              </Name>
+              <XRef ID="C4225628" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="37935" SubmissionDate="2015-08-31" DateLastUpdated="2015-09-03" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="136351.0001_LEUKEMIA, ACUTE MYELOID, REDUCED SURVIVAL IN, SOMATIC" title="FLT3, INTERNAL TANDEM DUP_LEUKEMIA, ACUTE MYELOID, REDUCED SURVIVAL IN, SOMATIC" />
+        <ClinVarAccession Accession="SCV000037935" DateUpdated="2015-09-03" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2009-09-17">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">The most common activating mutations in the FLT3 gene implicated in acute myeloid leukemia (601626) are internal tandem duplications (ITD) in exons 14 and 15 of the FLT3 gene, ranging in size from 3 to more than hundreds of nucleotides. ITDs most often occur in the cytoplasmic juxtamembrane domain (JMD) and are thought to disrupt autoinhibitory conformation of the FLT3 receptor, thus resulting in constitutive activation of downstream signaling. Some ITDs occur in the tyrosine kinase domain-1 (TKD1) (summary by Kayser et al., 2009).</Attribute>
+              <Citation>
+                <ID Source="PubMed">19602710</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="601626" Type="MIM" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Abu-Duhier et al. (2000) confirmed the findings of others that an ITD within the FLT3 gene occurs in a significant percentage of adult cases of acute myeloid leukemia and is associated with reduced survival when compared with the individuals who lack the FLT3 duplication.</Attribute>
+              <Citation>
+                <ID Source="PubMed">11091200</ID>
+              </Citation>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Yamamoto et al. (2001) found an ITD of the JMD-coding sequence of the FLT3 gene in 46 of 201 patients newly diagnosed with acute myeloid leukemia (excluding the M3 type). Mutations in the duplicated sequence occurred independently of the various mutations in the asp835 codon of the FLT3 gene (see 136351.0003).</Attribute>
+              <Citation>
+                <ID Source="PubMed">11290608</ID>
+              </Citation>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Thornton and Levis (2007) stated that ITD mutations of FLT3 are detectable in roughly 25% of patients with newly diagnosed acute myelogenous leukemia. They described an example of associated profound leukostasis throughout multiple organs, including the heart, lungs, adrenal glands, liver, and spleen.</Attribute>
+              <Citation>
+                <ID Source="PubMed">17942876</ID>
+              </Citation>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Internal tandem duplications in the FLT3 gene disrupt the autoinhibitory JMD, resulting in constitutive activation of the catalytic domain of FLT3. Among 284 patients with acute leukemias carrying ITD of FLT3, Vempati et al. (2007) found that duplications had a mean length of 17 amino acids (range, 2 to 42). Duplications were localized in amino acids 591 to 599, and arg595 was the most frequently duplicated residue (77% of patients). In vitro mutagenesis studies indicated that arg595 has transforming potential and caused increased phosphorylation and activity of STAT5 (601511). Deletion of this residue resulted in decreased cell growth. Further studies indicated that the positive charge of arg595 has an essential role in transformation.</Attribute>
+              <Citation>
+                <ID Source="PubMed">17387224</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="601511" Type="MIM" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Among 241 AML patients who were FTL3-ITD-positive, Kayser et al. (2009) found that the majority (69.5%) had an ITD in the JMD between amino acids 572 and 609. The remaining 30.5% had ITDs in the 3-prime direction from the JMD, predominantly in the beta-1-sheet of the tyrosine kinase-1 domain (TKD1). ITD size ranged from 15 to 180 nucleotides. Among both groups, longer duplication size was significantly associated with C-terminal localization, whereas increased number of ITDs was associated with a more N-terminal localization. Duplication of at least 1 residue in the critical region between residues 591 and 599 (Vempati et al., 2007) was found in 96.1% of ITDs. The most commonly affected residue was Y597 (78.4%), followed by R595 (75.5%). Combined duplication of Y589 and Y591, which are important for STAT5 (601511) signaling, was found in 42.2% of cases. A number of samples had concurrent mutations in other leukemia genes, particularly NPM1 (164040). Statistical analysis of patient outcome showed that ITDs in the beta-1-sheet of TKD1 were significantly associated with an inferior rate of complete remission after treatment (odds ratio of 0.22, p = 0.01), as well as survival.</Attribute>
+              <Citation>
+                <ID Source="PubMed">19602710</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">17387224</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="601511" Type="MIM" />
+              <XRef DB="OMIM" ID="164040" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FLT3" />
+          </GeneList>
+          <Name>FLT3, INTERNAL TANDEM DUP</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">INTERNAL TANDEM DUP</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="136351.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">LEUKEMIA, ACUTE MYELOID, REDUCED SURVIVAL IN, SOMATIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="37935" TraitType="Disease" MappingType="Name" MappingValue="LEUKEMIA, ACUTE MYELOID, REDUCED SURVIVAL IN, SOMATIC" MappingRef="Preferred">
+        <MedGen CUI="C4225628" Name="Leukemia, acute myeloid, reduced survival in, somatic" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+
