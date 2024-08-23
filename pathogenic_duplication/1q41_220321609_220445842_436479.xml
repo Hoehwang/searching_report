@@ -1,0 +1,165 @@
+<VariationArchive RecordType="classified" VariationID="436479" VariationName="NM_012414.4(RAB3GAP2):c.2207dup (p.Leu737fs)" VariationType="Duplication" Accession="VCV000436479" Version="6" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="427709" VariationID="436479">
+      <GeneList>
+        <Gene Symbol="RAB3GAP2" FullName="RAB3 GTPase activating non-catalytic protein subunit 2" GeneID="25782" HGNC_ID="HGNC:17168" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q41</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="220148293" stop="220272453" display_start="220148293" display_stop="220272453" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="220321609" stop="220445842" display_start="220321609" display_stop="220445842" Strand="-" />
+          </Location>
+          <OMIM>609275</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_012414.4(RAB3GAP2):c.2207dup (p.Leu737fs)</Name>
+      <CanonicalSPDI>NC_000001.11:220182722:G:GG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1q41</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="220182722" stop="220182723" display_start="220182722" display_stop="220182723" variantLength="1" positionVCF="220182722" referenceAlleleVCF="A" alternateAlleleVCF="AG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="220356064" stop="220356065" display_start="220356064" display_stop="220356065" variantLength="1" positionVCF="220356064" referenceAlleleVCF="A" alternateAlleleVCF="AG" />
+      </Location>
+      <ProteinChange>L737fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.220356065dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.220356065dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.220182723dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.220182723dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_015837.2" sequenceAccession="NG_015837" sequenceVersion="2" change="g.94779dup">
+            <Expression>NG_015837.2:g.94779dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_012414.4" sequenceAccession="NM_012414" sequenceVersion="4" change="c.2207dup" MANESelect="true">
+            <Expression>NM_012414.4:c.2207dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_036546.2" sequenceAccession="NP_036546" sequenceVersion="2" change="p.Leu737fs">
+            <Expression>NP_036546.2:p.Leu737fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372451" DB="ClinGen" />
+        <XRef Type="rs" ID="1553275687" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_012414.4(RAB3GAP2):c.2207dup (p.Leu737fs) AND Warburg micro syndrome 2" Accession="RCV000500621" Version="6">
+        <ClassifiedConditionList TraitSetID="7607">
+          <ClassifiedCondition DB="MedGen" ID="C3280214">Warburg micro syndrome 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-05-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-05-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7607" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16545" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MICRO SYNDROME 2</ElementValue>
+                <XRef Type="MIM" ID="614225" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Warburg micro syndrome 2</ElementValue>
+                <XRef ID="Warburg+micro+syndrome+2/9467" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013641" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">WARBM2</ElementValue>
+                <XRef Type="MIM" ID="614225" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">RAB18 deficiency is the molecular deficit underlying both Warburg micro syndrome (characterized by eye, nervous system, and endocrine abnormalities) and Martsolf syndrome (characterized by similar – but milder – findings). To date Warburg micro syndrome comprises &gt;96% of reported individuals with genetically defined RAB18 deficiency. The hallmark ophthalmologic findings are bilateral congenital cataracts, usually accompanied by microphthalmia, microcornea (diameter &lt;10), and small atonic pupils. Poor vision despite early cataract surgery likely results from progressive optic atrophy and cortical visual impairment. Individuals with Warburg micro syndrome have severe to profound intellectual disability (ID); those with Martsolf syndrome have mild to moderate ID. Some individuals with RAB18 deficiency also have epilepsy. In Warburg micro syndrome, a progressive ascending spastic paraplegia typically begins with spastic diplegia and contractures during the first year, followed by upper-limb involvement leading to spastic quadriplegia after about age five years, often eventually causing breathing difficulties. In Martsolf syndrome infantile hypotonia is followed primarily by slowly progressive lower-limb spasticity. Hypogonadism – when present – manifests in both syndromes, in males as micropenis and/or cryptorchidism and in females as hypoplastic labia minora, clitoral hypoplasia, and small introitus.</Attribute>
+                <XRef ID="NBK475670" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29300443</ID>
+                <ID Source="BookShelf">NBK475670</ID>
+              </Citation>
+              <XRef ID="2510" DB="Orphanet" />
+              <XRef ID="C3280214" DB="MedGen" />
+              <XRef ID="MONDO:0013641" DB="MONDO" />
+              <XRef Type="MIM" ID="614225" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1153128" SubmissionDate="2017-07-05" DateLastUpdated="2017-08-28" DateCreated="2017-08-28">
+        <ClinVarSubmissionID localKey="NM_012414.3(RAB3GAP2):c.2207dup|Warburg micro syndrome 2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000596674" DateUpdated="2017-08-28" DateCreated="2017-08-28" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-05-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAB3GAP2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_012414.3:c.2207dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Warburg micro syndrome 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2843028</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1153128" TraitType="Disease" MappingType="Name" MappingValue="Warburg micro syndrome 2" MappingRef="Preferred">
+        <MedGen CUI="C3280214" Name="Warburg micro syndrome 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

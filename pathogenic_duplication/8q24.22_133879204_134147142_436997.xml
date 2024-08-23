@@ -1,0 +1,164 @@
+<VariationArchive RecordType="classified" VariationID="436997" VariationName="NM_003235.5(TG):c.266dup (p.Val90fs)" VariationType="Duplication" Accession="VCV000436997" Version="6" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="428765" VariationID="436997">
+      <GeneList>
+        <Gene Symbol="TG" FullName="thyroglobulin" GeneID="7038" HGNC_ID="HGNC:11764" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q24.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="132866958" stop="133134899" display_start="132866958" display_stop="133134899" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="133879204" stop="134147142" display_start="133879204" display_stop="134147142" Strand="+" />
+          </Location>
+          <OMIM>188450</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003235.5(TG):c.266dup (p.Val90fs)</Name>
+      <CanonicalSPDI>NC_000008.11:132869816:CC:CCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="132869816" stop="132869817" display_start="132869816" display_stop="132869817" variantLength="1" positionVCF="132869816" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="133882061" stop="133882062" display_start="133882061" display_stop="133882062" variantLength="1" positionVCF="133882061" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+      </Location>
+      <ProteinChange>V90fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.133882063dup" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.133882063dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.11" sequenceAccession="NC_000008" sequenceVersion="11" change="g.132869818dup" Assembly="GRCh38">
+            <Expression>NC_000008.11:g.132869818dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_015832.1" sequenceAccession="NG_015832" sequenceVersion="1" change="g.7859dup">
+            <Expression>NG_015832.1:g.7859dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003235.5" sequenceAccession="NM_003235" sequenceVersion="5" change="c.266dup" MANESelect="true">
+            <Expression>NM_003235.5:c.266dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003226.4" sequenceAccession="NP_003226" sequenceVersion="4" change="p.Val90fs">
+            <Expression>NP_003226.4:p.Val90fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372481" DB="ClinGen" />
+        <XRef Type="rs" ID="1554649344" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003235.5(TG):c.266dup (p.Val90fs) AND Iodotyrosyl coupling defect" Accession="RCV000503286" Version="6">
+        <ClassifiedConditionList TraitSetID="3452">
+          <ClassifiedCondition DB="MedGen" ID="C0342194">Iodotyrosyl coupling defect</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-11-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-11-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3452" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOTHYROIDISM, CONGENITAL, DUE TO DYSHORMONOGENESIS, 3</ElementValue>
+                <XRef Type="MIM" ID="274700" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">THYROID HORMONOGENESIS, GENETIC DEFECT IN, 3</ElementValue>
+                <XRef Type="MIM" ID="274700" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Iodotyrosyl coupling defect</ElementValue>
+                <XRef ID="Iodotyrosyl+coupling+defect/8681" DB="Genetic Alliance" />
+                <XRef ID="23536000" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TDH3</ElementValue>
+                <XRef Type="MIM" ID="274700" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Neoplasm</Attribute>
+              </AttributeSet>
+              <XRef ID="95716" DB="Orphanet" />
+              <XRef ID="C0342194" DB="MedGen" />
+              <XRef ID="MONDO:0010135" DB="MONDO" />
+              <XRef Type="MIM" ID="274700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1153934" SubmissionDate="2017-07-05" DateLastUpdated="2017-08-28" DateCreated="2017-08-28">
+        <ClinVarSubmissionID localKey="NM_003235.4(TG):c.266dup|Thyroid dyshormonogenesis 3" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000597480" DateUpdated="2017-08-28" DateCreated="2017-08-28" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-11-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TG" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003235.4:c.266dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Thyroid dyshormonogenesis 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2843028</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1153934" TraitType="Disease" MappingType="Name" MappingValue="Thyroid dyshormonogenesis 3" MappingRef="Preferred">
+        <MedGen CUI="C0342194" Name="Iodotyrosyl coupling defect" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

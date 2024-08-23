@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="1695397" VariationName="Single allele" VariationType="Duplication" Accession="VCV001695397" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-07-19" DateCreated="2022-07-18" MostRecentSubmission="2022-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1687824" VariationID="1695397">
+      <GeneList>
+        <Gene Symbol="BHLHA9" FullName="basic helix-loop-helix family member a9" GeneID="727857" HGNC_ID="HGNC:35126" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="1270444" stop="1271815" display_start="1270444" display_stop="1271815" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="1173857" stop="1174564" display_start="1173857" display_stop="1174564" Strand="+" />
+          </Location>
+          <OMIM>615416</OMIM>
+        </Gene>
+        <Gene Symbol="TRARG1" FullName="trafficking regulator of GLUT4 (SLC2A4) 1" GeneID="286753" HGNC_ID="HGNC:29592" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="1279662" stop="1300978" display_start="1279662" display_stop="1300978" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="1182956" stop="1204280" display_start="1182956" display_stop="1204280" Strand="+" />
+          </Location>
+          <OMIM>612211</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>17p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="1124394" stop="1186190" display_start="1124394" display_stop="1186190" variantLength="61797" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Chromosome 17P13.3, telomeric, duplication syndrome" Accession="RCV002264899" Version="1">
+        <ClassifiedConditionList TraitSetID="47072">
+          <ClassifiedCondition DB="MedGen" ID="C2675492">Chromosome 17P13.3, telomeric, duplication syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-07-18" MostRecentSubmission="2022-07-18">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="47072" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5973" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Chromosome 17P13.3, telomeric, duplication syndrome</ElementValue>
+                <XRef ID="MONDO:0012944" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SHFLD3</ElementValue>
+                <XRef Type="MIM" ID="612576" DB="OMIM" />
+              </Symbol>
+              <XRef ID="3329" DB="Orphanet" />
+              <XRef ID="C2675492" DB="MedGen" />
+              <XRef ID="MONDO:0012944" DB="MONDO" />
+              <XRef Type="MIM" ID="612576" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4984913" SubmissionDate="2022-07-12" DateLastUpdated="2022-07-18" DateCreated="2022-07-18">
+        <ClinVarSubmissionID localKey="seq[GRCh37]dup(17)(p13.3)chr17:g.1,124,394-1,186,190|OMIM:612576" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002546524" DateUpdated="2022-07-18" DateCreated="2022-07-18" Type="SCV" Version="1" SubmitterName="Lupski Lab, Baylor-Hopkins CMG, Baylor College of Medicine" OrgID="505572" OrganizationCategory="laboratory" OrgAbbreviation="BHCMG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo array, Sanger</TypePlatform>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="6" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001171" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0009556" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Duplication</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" start="1124394" stop="1186190" variantLength="61797" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="612576" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11784799</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4984913" TraitType="Disease" MappingType="XRef" MappingValue="612576" MappingRef="OMIM">
+        <MedGen CUI="C2675492" Name="Chromosome 17P13.3, telomeric, duplication syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4984913" TraitType="Finding" MappingType="XRef" MappingValue="HP:0009556" MappingRef="HP">
+        <MedGen CUI="C3276744" Name="Absent tibia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4984913" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001171" MappingRef="HP">
+        <MedGen CUI="CN306412" Name="Split hand" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

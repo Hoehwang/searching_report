@@ -1,0 +1,238 @@
+<VariationArchive VariationID="3236170" VariationName="NM_003403.5(YY1):c.1147_1151dup (p.Cys385fs)" VariationType="Duplication" Accession="VCV003236170" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2024-05-19" MostRecentSubmission="2024-05-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3395289" VariationID="3236170">
+      <GeneList>
+        <Gene Symbol="YY1" FullName="YY1 transcription factor" GeneID="7528" HGNC_ID="HGNC:12856" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q32.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="100239144" stop="100282788" display_start="100239144" display_stop="100282788" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="100705101" stop="100744803" display_start="100705101" display_stop="100744803" Strand="+" />
+          </Location>
+          <OMIM>600013</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003403.5(YY1):c.1147_1151dup (p.Cys385fs)</Name>
+      <CanonicalSPDI>NC_000014.9:100277501:TATGT:TATGTTATGT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>14q32.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="100277501" stop="100277502" display_start="100277501" display_stop="100277502" variantLength="5" positionVCF="100277501" referenceAlleleVCF="C" alternateAlleleVCF="CTATGT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="100743838" stop="100743839" display_start="100743838" display_stop="100743839" variantLength="5" positionVCF="100743838" referenceAlleleVCF="C" alternateAlleleVCF="CTATGT" />
+      </Location>
+      <ProteinChange>C385fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.100743839_100743843dup" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.100743839_100743843dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.100277502_100277506dup" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.100277502_100277506dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_046908.1" sequenceAccession="NG_046908" sequenceVersion="1" change="g.43738_43742dup">
+            <Expression>NG_046908.1:g.43738_43742dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003403.5" sequenceAccession="NM_003403" sequenceVersion="5" change="c.1147_1151dup" MANESelect="true">
+            <Expression>NM_003403.5:c.1147_1151dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003394.1" sequenceAccession="NP_003394" sequenceVersion="1" change="p.Cys385fs">
+            <Expression>NP_003394.1:p.Cys385fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003403.5(YY1):c.1147_1151dup (p.Cys385fs) AND Gabriele de Vries syndrome" Accession="RCV004555426" Version="2">
+        <ClassifiedConditionList TraitSetID="36775">
+          <ClassifiedCondition DB="MedGen" ID="C4479652">Gabriele de Vries syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-03-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-03-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-05-19" MostRecentSubmission="2024-05-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36775" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37905" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Gabriele de Vries syndrome</ElementValue>
+                <XRef ID="MONDO:0044738" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GADEVS</ElementValue>
+                <XRef Type="MIM" ID="617557" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Gabriele-de Vries syndrome is characterized by mild-to-profound developmental delay / intellectual disability (DD/ID) in all affected individuals and a wide spectrum of functional and morphologic abnormalities. Intrauterine growth restriction or low birth weight and feeding difficulties are common. Congenital brain, eye, heart, kidney, genital, and/or skeletal system anomalies have also been reported. About half of affected individuals have neurologic manifestations, including hypotonia and gait abnormalities. Behavioral issues can include attention-deficit/hyperactivity disorder, anxiety, autism or autistic behavior, and schizoaffective disorder.</Attribute>
+                <XRef ID="NBK541730" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17947" />
+                <XRef ID="17947" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">31145572</ID>
+                <ID Source="BookShelf">NBK541730</ID>
+              </Citation>
+              <XRef ID="506358" DB="Orphanet" />
+              <XRef ID="C4479652" DB="MedGen" />
+              <XRef ID="MONDO:0044738" DB="MONDO" />
+              <XRef Type="MIM" ID="617557" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9791370" SubmissionDate="2024-05-15" DateLastUpdated="2024-05-19" DateCreated="2024-05-19">
+        <ClinVarSubmissionID localKey="YY1_3" submittedAssembly="hg38" title="YY1_3" />
+        <ClinVarAccession Accession="SCV005043145" DateUpdated="2024-05-19" DateCreated="2024-05-19" Type="SCV" Version="1" SubmitterName="Laboratory of Human Genetics, Universidade de São Paulo" OrgID="505505" OrganizationCategory="laboratory" OrgAbbreviation="LHG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-03-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>American College of Medical Genetics (ACMG) criteria: PVS1, PM2 and PM6</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Ethnicity>Brazilian</Ethnicity>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2023-12-16" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001511" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001518" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0005988" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002317" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001251" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002360" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001260" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0007010" />
+              </Trait>
+              <Comment>Additional clinical features: Hypotonia (2-3 years old); Gait ataxia at 18 months; Global ataxia evident starting from 3.5 years</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="YY1">
+              <Name>YY1 transcription factor</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_003403.5:exon 5</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">PCGH1691</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003403.5:c.1147_1151dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617557" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>YY1_3</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0005988" MappingRef="HP">
+        <MedGen CUI="C0079352" Name="Congenital muscular torticollis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002360" MappingRef="HP">
+        <MedGen CUI="C0037317" Name="Sleep abnormality" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Disease" MappingType="XRef" MappingValue="617557" MappingRef="OMIM">
+        <MedGen CUI="C4479652" Name="Gabriele de Vries syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0007010" MappingRef="HP">
+        <MedGen CUI="C1867864" Name="Poor fine motor coordination" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001252" MappingRef="HP">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001251" MappingRef="HP">
+        <MedGen CUI="C0007758" Name="Cerebellar ataxia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001511" MappingRef="HP">
+        <MedGen CUI="C0015934" Name="Fetal growth restriction" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001260" MappingRef="HP">
+        <MedGen CUI="C0013362" Name="Dysarthria" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001518" MappingRef="HP">
+        <MedGen CUI="C0235991" Name="Small for gestational age" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9791370" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002317" MappingRef="HP">
+        <MedGen CUI="C0231686" Name="Unsteady gait" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

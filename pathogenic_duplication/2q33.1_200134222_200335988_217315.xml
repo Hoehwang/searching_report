@@ -1,0 +1,164 @@
+<VariationArchive RecordType="classified" VariationID="217315" VariationName="NC_000002.12:g.(199364049_199364051)_(199399060_199399062)dup" VariationType="Duplication" Accession="VCV000217315" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-20" DateCreated="2018-06-18" MostRecentSubmission="2018-06-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="213969" VariationID="217315">
+      <GeneList>
+        <Gene Symbol="SATB2" FullName="SATB homeobox 2" GeneID="23314" HGNC_ID="HGNC:21637" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="199269500" stop="199471266" display_start="199269500" display_stop="199471266" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="200134222" stop="200335988" display_start="200134222" display_stop="200335988" Strand="-" />
+          </Location>
+          <OMIM>608148</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SATB2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SATB2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(199364049_199364051)_(199399060_199399062)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2q33.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" outerStart="199364049" innerStart="199364051" innerStop="199399060" outerStop="199399062" display_start="199364049" display_stop="199399062" variantLength="35014" Strand="-" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" outerStart="200228772" innerStart="200228774" innerStop="200263783" outerStop="200263785" display_start="200228772" display_stop="200263785" variantLength="35010" />
+      </Location>
+      <OtherNameList>
+        <Name>35-KB DUP, EX5-7</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(199364049_199364051)_(199399060_199399062)dup" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(199364049_199364051)_(199399060_199399062)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608148.0002" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 25251319 Fig. 2 to determine the location of this allele on the current reference sequence.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">35-kb genomic duplication in SATB2 beginning in intron 4 and in intron 7.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(199364049_199364051)_(199399060_199399062)dup AND Chromosome 2q32-q33 deletion syndrome" Accession="RCV000201263" Version="3">
+        <ClassifiedConditionList TraitSetID="10106">
+          <ClassifiedCondition DB="MedGen" ID="C2676739">Chromosome 2q32-q33 deletion syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2014-12-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2014-12-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-06-18" MostRecentSubmission="2018-06-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25251319</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="10106" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1446" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Chromosome 2q32-q33 deletion syndrome</ElementValue>
+                <XRef ID="MONDO:0012864" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">2q33.1 deletion syndrome</ElementValue>
+                <XRef ID="51" DB="Decipher" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Glass syndrome</ElementValue>
+                <XRef Type="Allelic variant" ID="608148.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608148.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="608148.0002" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">GLASS</ElementValue>
+                <XRef Type="MIM" ID="612313" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13206" />
+                <XRef ID="13206" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">SATB2-associated syndrome (SAS) is a multisystem disorder characterized by significant neurodevelopmental compromise with limited to absent speech, behavioral issues, and craniofacial anomalies. All individuals described to date have manifest developmental delay / intellectual disability, with severe speech delay. Affected individuals often have hypotonia and feeding difficulties in infancy. Behavioral issues may include autistic features, hyperactivity, and aggressiveness. Craniofacial anomalies may include palatal abnormalities (cleft palate, high-arched palate, and bifid uvula), micrognathia, and abnormal shape or size of the upper central incisors. Less common features include skeletal anomalies (osteopenia, pectus deformities, kyphosis/lordosis, and scoliosis), growth restriction, strabismus/refractive errors, congenital heart defects, genitourinary anomalies, and epilepsy. While dysmorphic features have been described in individuals with this condition, these features are not typically distinctive enough to allow for a clinical diagnosis of SAS.</Attribute>
+                <XRef ID="NBK458647" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="Decipher">
+                <URL>https://decipher.sanger.ac.uk/syndrome/51</URL>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29023086</ID>
+                <ID Source="BookShelf">NBK458647</ID>
+              </Citation>
+              <XRef ID="251019" DB="Orphanet" />
+              <XRef ID="C2676739" DB="MedGen" />
+              <XRef ID="MONDO:0012864" DB="MONDO" />
+              <XRef Type="MIM" ID="612313" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="477396" SubmissionDate="2018-06-15" DateLastUpdated="2018-06-18" DateCreated="2015-10-26">
+        <ClinVarSubmissionID localKey="608148.0002_GLASS SYNDROME" title="SATB2, 35-KB DUP, EX5-7_GLASS SYNDROME" />
+        <ClinVarAccession Accession="SCV000255993" DateUpdated="2018-06-18" DateCreated="2015-10-26" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-12-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 20-year-old man with Glass syndrome (GLASS; 612313), Lieden et al. (2014) identified a de novo heterozygous intragenic duplication (chr2:200,233,354-200,255,458, GRCH37) of the SATB2 gene; the breakpoints were intronic and resulted in the duplication of exons 5, 6, and 7. The duplication was found by array CGH analysis. Functional studies and studies of patient cells were not performed. The phenotype in this patient was similar to that observed in other patients with this disorder.</Attribute>
+              <Citation>
+                <ID Source="PubMed">25251319</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="612313" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SATB2" />
+          </GeneList>
+          <Name>SATB2, 35-KB DUP, EX5-7</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">35-KB DUP, EX5-7</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608148.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">GLASS SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="477396" TraitType="Disease" MappingType="Name" MappingValue="GLASS SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C2676739" Name="Chromosome 2q32-q33 deletion syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

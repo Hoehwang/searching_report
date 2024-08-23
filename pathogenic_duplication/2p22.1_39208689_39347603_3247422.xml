@@ -1,0 +1,139 @@
+<VariationArchive VariationID="3247422" VariationName="NC_000002.11:g.(?_39212965)_(39347563_?)dup" VariationType="Duplication" Accession="VCV003247422" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405879" VariationID="3247422">
+      <GeneList>
+        <Gene Symbol="SOS1" FullName="SOS Ras/Rac guanine nucleotide exchange factor 1" GeneID="6654" HGNC_ID="HGNC:11187" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="38981549" stop="39124868" display_start="38981549" display_stop="39124868" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="39208689" stop="39347603" display_start="39208689" display_stop="39347603" Strand="-" />
+          </Location>
+          <OMIM>182530</OMIM>
+          <Haploinsufficiency last_evaluated="2012-03-30" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOS1">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-03-30" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOS1">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="SOS1-IT1" FullName="SOS1 intronic transcript 1" GeneID="100505911" HGNC_ID="HGNC:41385" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="39219420" stop="39220432" display_start="39219420" display_stop="39220432" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.11:g.(?_39212965)_(39347563_?)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2p22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="39212965" innerStop="39347563" display_start="39212965" display_stop="39347563" variantLength="134599" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_39212965)_(39347563_?)dup" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_39212965)_(39347563_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.11:g.(?_39212965)_(39347563_?)dup AND RASopathy" Accession="RCV004583701" Version="1">
+        <ClassifiedConditionList TraitSetID="9403">
+          <ClassifiedCondition DB="MedGen" ID="C5555857">RASopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9403" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17678" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">RASopathy</ElementValue>
+                <XRef ID="MONDO:0021060" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Noonan spectrum disorder</ElementValue>
+                <XRef ID="genomeconnect_15815_622" DB="GenomeConnect, ClinGen" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">rasopathies</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="22213" />
+                <XRef ID="22213" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="536391" DB="Orphanet" />
+              <XRef ID="C5555857" DB="MedGen" />
+              <XRef ID="MONDO:0021060" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9837961" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000002.11:g.(?_39212965)_(39347563_?)dup|MedGen:CN166718" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005063326" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. A similar copy number variant has been observed in individual(s) with clinical features of Noonan syndrome (Invitae). In at least one individual the variant was observed to be de novo. A copy number gain of the genomic region encompassing the full coding sequence of the SOS1 gene has been identified. The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. As the precise location of this event is unknown, it may be in tandem or it may be located elsewhere in the genome.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_39212965)_(39347563_?)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN166718" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9837961" TraitType="Disease" MappingType="XRef" MappingValue="CN166718" MappingRef="MedGen">
+        <MedGen CUI="C5555857" Name="RASopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

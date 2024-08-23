@@ -1,0 +1,145 @@
+<VariationArchive VariationID="2429901" VariationName="NM_006236.3(POU3F3):c.196dup (p.Asp66fs)" VariationType="Duplication" Accession="VCV002429901" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2023-02-18" MostRecentSubmission="2023-02-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2403404" VariationID="2429901">
+      <GeneList>
+        <Gene Symbol="POU3F3" FullName="POU class 3 homeobox 3" GeneID="5455" HGNC_ID="HGNC:9216" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="104854115" stop="104858574" display_start="104854115" display_stop="104858574" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="105471968" stop="105473470" display_start="105471968" display_stop="105473470" Strand="+" />
+          </Location>
+          <OMIM>602480</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006236.3(POU3F3):c.196dup (p.Asp66fs)</Name>
+      <CanonicalSPDI>NC_000002.12:104855700:GGGGGG:GGGGGGG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2q12.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="104855700" stop="104855701" display_start="104855700" display_stop="104855701" variantLength="1" positionVCF="104855700" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="105472158" stop="105472159" display_start="105472158" display_stop="105472159" variantLength="1" positionVCF="105472158" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+      </Location>
+      <ProteinChange>D66fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.105472164dup" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.105472164dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.104855706dup" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.104855706dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006236.3" sequenceAccession="NM_006236" sequenceVersion="3" change="c.196dup" MANESelect="true">
+            <Expression>NM_006236.3:c.196dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006227.1" sequenceAccession="NP_006227" sequenceVersion="1" change="p.Asp66fs">
+            <Expression>NP_006227.1:p.Asp66fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006236.3" sequenceAccession="NM_006236" sequenceVersion="3" change="c.196dupG" MANESelect="true">
+            <Expression>NM_006236.3:c.196dupG</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006236.3(POU3F3):c.196dup (p.Asp66fs) AND Snijders blok-fisher syndrome" Accession="RCV003127340" Version="1">
+        <ClassifiedConditionList TraitSetID="50647">
+          <ClassifiedCondition DB="MedGen" ID="C5231424">Snijders blok-fisher syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-12-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-12-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-18" MostRecentSubmission="2023-02-18">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="50647" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="42948" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Snijders blok-fisher syndrome</ElementValue>
+                <XRef ID="MONDO:0032830" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SNIBFIS</ElementValue>
+                <XRef Type="MIM" ID="618604" DB="OMIM" />
+              </Symbol>
+              <XRef ID="656135" DB="Orphanet" />
+              <XRef ID="C5231424" DB="MedGen" />
+              <XRef ID="MONDO:0032830" DB="MONDO" />
+              <XRef Type="MIM" ID="618604" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7104438" SubmissionDate="2023-02-15" DateLastUpdated="2023-02-18" DateCreated="2023-02-18">
+        <ClinVarSubmissionID localKey="NM_006236.3:c.196dupG|OMIM:618604" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003803905" DateUpdated="2023-02-18" DateCreated="2023-02-18" Type="SCV" Version="1" SubmitterName="Department of Genetics, Rouen University Hospital, Normandy Center for Genomic and Personalized Medicine" OrgID="506968" OrganizationCategory="laboratory" OrgAbbreviation="LABOGENMOL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-12-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_006236.3:c.196dupG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618604" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12506292</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7104438" TraitType="Disease" MappingType="XRef" MappingValue="618604" MappingRef="OMIM">
+        <MedGen CUI="C5231424" Name="Snijders blok-fisher syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

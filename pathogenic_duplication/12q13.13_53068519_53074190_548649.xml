@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="548649" VariationName="NM_006121.4(KRT1):c.1865dup (p.Val623fs)" VariationType="Duplication" Accession="VCV000548649" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2018-07-14" MostRecentSubmission="2018-07-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="539150" VariationID="548649">
+      <GeneList>
+        <Gene Symbol="KRT1" FullName="keratin 1" GeneID="3848" HGNC_ID="HGNC:6412" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="52674736" stop="52680407" display_start="52674736" display_stop="52680407" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="53068519" stop="53074190" display_start="53068519" display_stop="53074190" Strand="-" />
+          </Location>
+          <OMIM>139350</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006121.4(KRT1):c.1865dup (p.Val623fs)</Name>
+      <CanonicalSPDI>NC_000012.12:52675262:CCCCC:CCCCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>12q13.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="52675262" stop="52675263" display_start="52675262" display_stop="52675263" variantLength="1" positionVCF="52675262" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="53069046" stop="53069047" display_start="53069046" display_stop="53069047" variantLength="1" positionVCF="53069046" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+      </Location>
+      <ProteinChange>V623fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.53069051dup" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.53069051dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.52675267dup" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.52675267dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008364.1" sequenceAccession="NG_008364" sequenceVersion="1" change="g.10145dup">
+            <Expression>NG_008364.1:g.10145dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006121.4" sequenceAccession="NM_006121" sequenceVersion="4" change="c.1865dup" MANESelect="true">
+            <Expression>NM_006121.4:c.1865dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006112.3" sequenceAccession="NP_006112" sequenceVersion="3" change="p.Val623fs">
+            <Expression>NP_006112.3:p.Val623fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1555171158" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006121.4(KRT1):c.1865dup (p.Val623fs) AND Congenital reticular ichthyosiform erythroderma" Accession="RCV000662282" Version="1">
+        <ClassifiedConditionList TraitSetID="6649">
+          <ClassifiedCondition DB="MedGen" ID="C3665704">Congenital reticular ichthyosiform erythroderma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2015-03-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-03-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-07-14" MostRecentSubmission="2018-07-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25774499</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6649" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5042" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ICHTHYOSIS WITH CONFETTI</ElementValue>
+                <XRef Type="MIM" ID="609165" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0016" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0025" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0015" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0017" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0018" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0024" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="148080.0023" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Congenital reticular ichthyosiform erythroderma</ElementValue>
+                <XRef ID="MONDO:0012208" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IWC</ElementValue>
+                <XRef Type="MIM" ID="609165" DB="OMIM" />
+              </Symbol>
+              <XRef ID="281190" DB="Orphanet" />
+              <XRef ID="C3665704" DB="MedGen" />
+              <XRef ID="MONDO:0012208" DB="MONDO" />
+              <XRef Type="MIM" ID="609165" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1530227" SubmissionDate="2017-11-27" DateLastUpdated="2018-07-14" DateCreated="2018-07-14">
+        <ClinVarSubmissionID localKey="NM_006121.3:c.1865_1866insG|Ichthyosis with confetti" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV000784610" DateUpdated="2018-07-14" DateCreated="2018-07-14" Type="SCV" Version="1" SubmitterName="Yale Center for Mendelian Genomics, Yale University" OrgID="506150" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-03-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25774499</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="4" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_006121.3:c.1865_1866insG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Ichthyosis with confetti</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3260470</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1530227" TraitType="Disease" MappingType="Name" MappingValue="Ichthyosis with confetti" MappingRef="Preferred">
+        <MedGen CUI="C3665704" Name="Congenital reticular ichthyosiform erythroderma" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

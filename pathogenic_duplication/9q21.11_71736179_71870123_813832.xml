@@ -1,0 +1,131 @@
+<VariationArchive VariationID="813832" VariationName="9q21.11 duplication" VariationType="Duplication" Accession="VCV000813832" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2020-03-01" MostRecentSubmission="2020-03-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="802084" VariationID="813832">
+      <GeneList>
+        <Gene Symbol="TJP2" FullName="tight junction protein 2" GeneID="9414" HGNC_ID="HGNC:11828" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>9q21.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="69121264" stop="69255208" display_start="69121264" display_stop="69255208" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="71736179" stop="71870123" display_start="71736179" display_stop="71870123" Strand="+" />
+          </Location>
+          <OMIM>607709</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>9q21.11 duplication</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q21.11</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="9q21.11 duplication AND Autosomal dominant nonsyndromic hearing loss 51" Accession="RCV001004809" Version="2">
+        <ClassifiedConditionList TraitSetID="13725">
+          <ClassifiedCondition DB="MedGen" ID="C3160736">Autosomal dominant nonsyndromic hearing loss 51</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-03-01" MostRecentSubmission="2020-03-01">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20602916</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="13725" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15761" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Deafness, autosomal dominant 51</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHROMOSOME 9q21.11 DUPLICATION SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="613558" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal dominant nonsyndromic hearing loss 51</ElementValue>
+                <XRef ID="MONDO:0013305" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DFNA51</ElementValue>
+                <XRef Type="MIM" ID="613558" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18133" />
+                <XRef ID="18133" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="90635" DB="Orphanet" />
+              <XRef ID="C3160736" DB="MedGen" />
+              <XRef ID="MONDO:0013305" DB="MONDO" />
+              <XRef Type="MIM" ID="613558" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2293948" SubmissionDate="2019-11-24" DateLastUpdated="2020-03-01" DateCreated="2020-03-01">
+        <ClinVarSubmissionID localKey="9q21.11 duplication|OMIM:613558" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001164298" DateUpdated="2020-03-01" DateCreated="2020-03-01" Type="SCV" Version="1" SubmitterName="Laboratory of Prof. Karen Avraham, Tel Aviv University" OrgID="505713" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">20602916</ID>
+          </Citation>
+          <Comment>Dominant, postlingual, mild to profound high tone NSHL</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Jewish Tunisian</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TJP2" />
+          </GeneList>
+          <Name>9q21.11 duplication</Name>
+          <VariantType>Duplication</VariantType>
+          <Location>
+            <CytogeneticLocation>9q21.11</CytogeneticLocation>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613558" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>9q21.11 duplication includes NM_001170414.2</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB6586486</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2293948" TraitType="Disease" MappingType="XRef" MappingValue="613558" MappingRef="OMIM">
+        <MedGen CUI="C3160736" Name="Autosomal dominant nonsyndromic hearing loss 51" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

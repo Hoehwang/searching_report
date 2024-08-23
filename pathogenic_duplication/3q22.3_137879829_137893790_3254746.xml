@@ -1,0 +1,156 @@
+<VariationArchive VariationID="3254746" VariationName="NM_016216.4(DBR1):c.589dup (p.Arg197fs)" VariationType="Duplication" Accession="VCV003254746" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2024-07-23" MostRecentSubmission="2024-07-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3413521" VariationID="3254746">
+      <GeneList>
+        <Gene Symbol="DBR1" FullName="debranching RNA lariats 1" GeneID="51163" HGNC_ID="HGNC:15594" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="138160988" stop="138174921" display_start="138160988" display_stop="138174921" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="137879829" stop="137893790" display_start="137879829" display_stop="137893790" Strand="-" />
+          </Location>
+          <OMIM>607024</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_016216.4(DBR1):c.589dup (p.Arg197fs)</Name>
+      <CanonicalSPDI>NC_000003.12:138167205:GG:GGG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>3q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="138167205" stop="138167206" display_start="138167205" display_stop="138167206" variantLength="1" positionVCF="138167205" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="137886047" stop="137886048" display_start="137886047" display_stop="137886048" variantLength="1" positionVCF="137886047" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+      </Location>
+      <ProteinChange>R197fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.137886049dup" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.137886049dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.138167207dup" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.138167207dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016216.4" sequenceAccession="NM_016216" sequenceVersion="4" change="c.589dup" MANESelect="true">
+            <Expression>NM_016216.4:c.589dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_057300.2" sequenceAccession="NP_057300" sequenceVersion="2" change="p.Arg197fs">
+            <Expression>NP_057300.2:p.Arg197fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_016216.4(DBR1):c.589dup (p.Arg197fs) AND Encephalitis, acute, infection (viral)-induced, susceptibility to, 11" Accession="RCV004594929" Version="1">
+        <ClassifiedConditionList TraitSetID="68885">
+          <ClassifiedCondition DB="MedGen" ID="C5561941">Encephalitis, acute, infection (viral)-induced, susceptibility to, 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-07-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-07-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-07-23" MostRecentSubmission="2024-07-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29474921</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="68885" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57112" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Encephalitis, acute, infection (viral)-induced, susceptibility to, 11</ElementValue>
+                <XRef ID="MONDO:0030334" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IIAE11</ElementValue>
+                <XRef Type="MIM" ID="619441" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5561941" DB="MedGen" />
+              <XRef ID="MONDO:0030334" DB="MONDO" />
+              <XRef Type="MIM" ID="619441" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9874011" SubmissionDate="2024-07-18" DateLastUpdated="2024-07-23" DateCreated="2024-07-23">
+        <ClinVarSubmissionID localKey="vcgs/unit_1/hg38_NM_016216_3_DBR1_c_589dupC" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV005086886" DateUpdated="2024-07-23" DateCreated="2024-07-23" Type="SCV" Version="1" SubmitterName="Victorian Clinical Genetics Services, Murdoch Childrens Research Institute" OrgID="500104" OrganizationCategory="laboratory" OrgAbbreviation="VCGS" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="508197" SubmitterName="Shariant Australia, Australian Genomics" Type="behalf" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-07-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">29474921</ID>
+          </Citation>
+          <Comment>Based on the classification scheme VCGS_Germline_v1.3.4, this variant is classified as Pathogenic. Following criteria are met: 0102 - Loss of function is a known mechanism of disease in this gene and is associated with encephalitis, acute, infection (viral)-induced, susceptibility to, 11 (MIM#619441). (I) 0106 - This gene is associated with autosomal recessive disease. (I) 0201 - Variant is predicted to cause nonsense-mediated decay (NMD) and loss of protein (premature termination codon is located at least 54 nucleotides upstream of the final exon-exon junction). (SP) 0251 - This variant is heterozygous. (I) 0304 - Variant is present in gnomAD &lt;0.01 for a recessive condition (v3: 1 heterozygote, 0 homozygotes). (SP) 0704 - NMD-predicted variants comparable to the one identified in this case have limited previous evidence for pathogenicity. The p.(Arg197*) variant has been reported as compound heterozygous with a missense variant in a patient with brainstem viral encephalitis (PMID: 29474921). (SP) 0807 - This variant has no previous evidence of pathogenicity. (I) 0905 - No published segregation evidence has been identified for this variant. (I) 1007 - No published functional evidence has been identified for this variant. (I) 1102 - Strong phenotype match for this individual. (SP) 1201 - Heterozygous variant detected in trans with a second likely pathogenic heterozygous variant (NM_016216.3(DBR1):c.233C&gt;T; p.(Thr78Met)) in a recessive disease. (SP) 1206 - This variant has been shown to be paternally inherited (by segregation analysis). (I) (SP) - Supporting pathogenic, (I) - Information, (SB) - Supporting benign</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DBR1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ALLELE_21067</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_016216.3:c.589dupC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619441" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>submission_45</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9874011" TraitType="Disease" MappingType="XRef" MappingValue="619441" MappingRef="OMIM">
+        <MedGen CUI="C5561941" Name="Encephalitis, acute, infection (viral)-induced, susceptibility to, 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+
