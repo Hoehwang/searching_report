@@ -1,0 +1,154 @@
+<VariationArchive VariationID="807662" VariationName="NM_006236.3(POU3F3):c.398_407del (p.Pro133fs)" VariationType="Deletion" Accession="VCV000807662" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2020-02-03" MostRecentSubmission="2020-02-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="798479" VariationID="807662">
+      <GeneList>
+        <Gene Symbol="POU3F3" FullName="POU class 3 homeobox 3" GeneID="5455" HGNC_ID="HGNC:9216" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="104854115" stop="104858574" display_start="104854115" display_stop="104858574" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="105471968" stop="105473470" display_start="105471968" display_stop="105473470" Strand="+" />
+          </Location>
+          <OMIM>602480</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006236.3(POU3F3):c.398_407del (p.Pro133fs)</Name>
+      <CanonicalSPDI>NC_000002.12:104855901:GCAGCCCCCAGCAGCC:GCAGCC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q12.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="104855902" stop="104855911" display_start="104855902" display_stop="104855911" variantLength="10" positionVCF="104855901" referenceAlleleVCF="GGCAGCCCCCA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="105472360" stop="105472369" display_start="105472360" display_stop="105472369" variantLength="10" referenceAllele="GGCAGCCCCCA" alternateAllele="G" positionVCF="105472359" referenceAlleleVCF="GGCAGCCCCCA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>P133fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.105472366_105472375del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.105472366_105472375del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.104855908_104855917del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.104855908_104855917del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006236.3" sequenceAccession="NM_006236" sequenceVersion="3" change="c.398_407del" MANESelect="true">
+            <Expression>NM_006236.3:c.398_407del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006227.1" sequenceAccession="NP_006227" sequenceVersion="1" change="p.Pro133fs">
+            <Expression>NP_006227.1:p.Pro133fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1573320043" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006236.3(POU3F3):c.398_407del (p.Pro133fs) AND Snijders blok-fisher syndrome" Accession="RCV000995845" Version="5">
+        <ClassifiedConditionList TraitSetID="50647">
+          <ClassifiedCondition DB="MedGen" ID="C5231424">Snijders blok-fisher syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-03" MostRecentSubmission="2020-02-03">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="50647" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="42948" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Snijders blok-fisher syndrome</ElementValue>
+                <XRef ID="MONDO:0032830" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SNIBFIS</ElementValue>
+                <XRef Type="MIM" ID="618604" DB="OMIM" />
+              </Symbol>
+              <XRef ID="656135" DB="Orphanet" />
+              <XRef ID="C5231424" DB="MedGen" />
+              <XRef ID="MONDO:0032830" DB="MONDO" />
+              <XRef Type="MIM" ID="618604" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2268432" SubmissionDate="2020-01-21" DateLastUpdated="2020-02-03" DateCreated="2020-02-03">
+        <ClinVarSubmissionID localKey="477-20200121" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001150225" DateUpdated="2020-02-03" DateCreated="2020-02-03" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="556-20200121" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">556-20200121</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="POU3F3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" alternateAllele="G" referenceAllele="GGCAGCCCCCA" start="105472359" stop="105472369" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618604" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6902622</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2268432" TraitType="Disease" MappingType="XRef" MappingValue="618604" MappingRef="OMIM">
+        <MedGen CUI="C5231424" Name="Snijders blok-fisher syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,240 @@
+<VariationArchive VariationID="2426796" VariationName="NC_000008.10:g.(?_38314854)_(38314964_?)del" VariationType="Deletion" Accession="VCV002426796" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1950334" VariationID="2426796">
+      <GeneList>
+        <Gene Symbol="FGFR1" FullName="fibroblast growth factor receptor 1" GeneID="2260" HGNC_ID="HGNC:3688" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8p11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="38411143" stop="38468635" display_start="38411143" display_stop="38468635" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="38268655" stop="38326351" display_start="38268655" display_stop="38326351" Strand="-" />
+          </Location>
+          <OMIM>136350</OMIM>
+          <Haploinsufficiency last_evaluated="2021-04-05" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FGFR1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-04-05" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FGFR1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000008.10:g.(?_38314854)_(38314964_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8p11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="38314854" innerStop="38314964" display_start="38314854" display_stop="38314964" variantLength="111" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_38314854)_(38314964_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_38314854)_(38314964_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.10:g.(?_38314854)_(38314964_?)del AND multiple conditions" Accession="RCV003122629" Version="4">
+        <ClassifiedConditionList TraitSetID="39859">
+          <ClassifiedCondition DB="MedGen" ID="C1563720">Hypogonadotropic hypogonadism 2 with or without anosmia</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0220658">Pfeiffer syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-10-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-10-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12627230</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="39859" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3791" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pfeiffer syndrome</ElementValue>
+                <XRef ID="Pfeiffer+syndrome/5702" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0007043" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pfeiffer type acrocephalosyndactyly</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acrocephalosyndactyly, type 5</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ACS V</ElementValue>
+                <XRef Type="MIM" ID="101600" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ACS5</ElementValue>
+                <XRef Type="MIM" ID="101600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">FGFR2-Related Craniosynostosis</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7380" />
+                <XRef ID="7380" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301628</ID>
+                <ID Source="BookShelf">NBK1455</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2008">
+                <ID Source="pmc">3111019</ID>
+              </Citation>
+              <XRef ID="710" DB="Orphanet" />
+              <XRef ID="C0220658" DB="MedGen" />
+              <XRef ID="MONDO:0007043" DB="MONDO" />
+              <XRef Type="MIM" ID="101600" DB="OMIM" />
+            </Trait>
+            <Trait ID="2438" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Kallmann syndrome 2</ElementValue>
+                <XRef ID="Kallmann+syndrome+2/3947" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPOGONADOTROPIC HYPOGONADISM 2 WITHOUT ANOSMIA</ElementValue>
+                <XRef Type="Allelic variant" ID="136350.0020" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0023" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0015" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPOGONADOTROPIC HYPOGONADISM 2 WITH OR WITHOUT ANOSMIA, SUSCEPTIBILITY TO</ElementValue>
+                <XRef Type="Allelic variant" ID="136350.0013" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPOGONADOTROPIC HYPOGONADISM 2 WITHOUT ANOSMIA, SUSCEPTIBILITY TO</ElementValue>
+                <XRef Type="Allelic variant" ID="136350.0014" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0016" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0025" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="136350.0024" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hypogonadotropic hypogonadism 2 with or without anosmia</ElementValue>
+                <XRef ID="MONDO:0007844" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">KAL2</ElementValue>
+                <XRef Type="MIM" ID="147950" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">HH2</ElementValue>
+                <XRef Type="MIM" ID="147950" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Isolated gonadotropin-releasing hormone (GnRH) deficiency (IGD) is characterized by inappropriately low serum concentrations of the gonadotropins LH (luteinizing hormone) and FSH (follicle-stimulating hormone) in the presence of low circulating concentrations of sex steroids. IGD is associated with a normal sense of smell (normosmic IGD) in approximately 40% of affected individuals and an impaired sense of smell (Kallmann syndrome) in approximately 60%. IGD can first become apparent in infancy, adolescence, or adulthood. Infant boys with congenital IGD often have micropenis and cryptorchidism. Adolescents and adults with IGD have clinical evidence of hypogonadism and incomplete sexual maturation on physical examination. Adult males with IGD tend to have prepubertal testicular volume (i.e., &lt;4 mL), absence of secondary sexual features (e.g., facial and axillary hair growth, deepening of the voice), decreased muscle mass, diminished libido, erectile dysfunction, and infertility. Adult females have little or no breast development and primary amenorrhea. Although skeletal maturation is delayed, the rate of linear growth is usually normal except for the absence of a distinct pubertal growth spurt.</Attribute>
+                <XRef ID="NBK1334" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">FGFR1-Related Isolated Gonadotropin-Releasing Hormone (GnRH) Deficiency</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000556729" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511610" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569425" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511562" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000556731" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511612" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558347" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511611" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508944" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000512869" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511608" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511613" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000553541" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">FGFR1-Related GnRH Deficiency (Kallmann Syndrome 2)</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3070" />
+                <XRef ID="3070" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301509</ID>
+                <ID Source="BookShelf">NBK1334</ID>
+              </Citation>
+              <XRef ID="478" DB="Orphanet" />
+              <XRef ID="C1563720" DB="MedGen" />
+              <XRef ID="MONDO:0007844" DB="MONDO" />
+              <XRef Type="MIM" ID="147950" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7075762" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_023110.2_8_Deletion (exon 2)|MedGen:C1863356;C1563720" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003793037" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-10-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12627230</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with FGFR1-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2 of the FGFR1 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in FGFR1 are known to be pathogenic (PMID: 12627230).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGFR1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.(?_38314854)_(38314964_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1863356" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1563720" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7075762" TraitType="Disease" MappingType="XRef" MappingValue="C1863356" MappingRef="MedGen">
+        <MedGen CUI="C0220658" Name="Pfeiffer syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7075762" TraitType="Disease" MappingType="XRef" MappingValue="C1563720" MappingRef="MedGen">
+        <MedGen CUI="C1563720" Name="Hypogonadotropic hypogonadism 2 with or without anosmia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

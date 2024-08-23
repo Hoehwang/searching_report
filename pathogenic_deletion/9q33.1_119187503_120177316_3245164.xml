@@ -1,0 +1,167 @@
+<VariationArchive VariationID="3245164" VariationName="NC_000009.11:g.(?_119460022)_(119495822_?)del" VariationType="Deletion" Accession="VCV003245164" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3406405" VariationID="3245164">
+      <GeneList>
+        <Gene Symbol="ASTN2" FullName="astrotactin 2" GeneID="23245" HGNC_ID="HGNC:17021" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="116423112" stop="117415057" display_start="116423112" display_stop="117415057" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="119187503" stop="120177316" display_start="119187503" display_stop="120177316" Strand="-" />
+          </Location>
+          <OMIM>612856</OMIM>
+          <Haploinsufficiency last_evaluated="2021-03-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ASTN2">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-03-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ASTN2">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="TRIM32" FullName="tripartite motif containing 32" GeneID="22954" HGNC_ID="HGNC:16380" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="116687305" stop="116701299" display_start="116687305" display_stop="116701299" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="119449580" stop="119463578" display_start="119449580" display_stop="119463578" Strand="+" />
+          </Location>
+          <OMIM>602290</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.11:g.(?_119460022)_(119495822_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q33.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="119460022" innerStop="119495822" display_start="119460022" display_stop="119495822" variantLength="35801" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_119460022)_(119495822_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_119460022)_(119495822_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.11:g.(?_119460022)_(119495822_?)del AND Bardet-Biedl syndrome" Accession="RCV004581933" Version="1">
+        <ClassifiedConditionList TraitSetID="6293">
+          <ClassifiedCondition DB="MedGen" ID="C0752166">Bardet-Biedl syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-01-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-01-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23541687</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25351777</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6293" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="376" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome</ElementValue>
+                <XRef ID="Bardet-Biedl+Syndrome/723" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0015229" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+                <XRef ID="5619004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6866" />
+                <XRef ID="6866" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301537</ID>
+                <ID Source="BookShelf">NBK1363</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2010">
+                <ID Source="pmc">3061994</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ES/PES/ESE, 2017">
+                <ID Source="PubMed">28359099</ID>
+                <ID Source="pmc">6283429</ID>
+              </Citation>
+              <XRef ID="110" DB="Orphanet" />
+              <XRef ID="C0752166" DB="MedGen" />
+              <XRef ID="MONDO:0015229" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9835682" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.(?_119460022)_(119495822_?)del|MedGen:C0752166" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005067273" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-01-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23541687</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23541687</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25351777</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the TRIM32 gene has been identified. Loss-of-function variants in TRIM32 are known to be pathogenic (PMID: 23541687). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. A similar copy number variant has been observed in individuals with limb girdle muscular dystrophy (PMID: 23541687, 25351777; Invitae). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_119460022)_(119495822_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0752166" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9835682" TraitType="Disease" MappingType="XRef" MappingValue="C0752166" MappingRef="MedGen">
+        <MedGen CUI="C0752166" Name="Bardet-Biedl syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

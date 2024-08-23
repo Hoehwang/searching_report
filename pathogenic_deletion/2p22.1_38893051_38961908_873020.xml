@@ -1,0 +1,183 @@
+<VariationArchive VariationID="873020" VariationName="NM_138801.3(GALM):c.294del (p.Ile99fs)" VariationType="Deletion" Accession="VCV000873020" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2020-05-19" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="861150" VariationID="873020">
+      <GeneList>
+        <Gene Symbol="GALM" FullName="galactose mutarotase" GeneID="130589" HGNC_ID="HGNC:24063" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="38666114" stop="38734765" display_start="38666114" display_stop="38734765" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="38893051" stop="38961908" display_start="38893051" display_stop="38961908" Strand="+" />
+          </Location>
+          <OMIM>137030</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_138801.3(GALM):c.294del (p.Ile99fs)</Name>
+      <CanonicalSPDI>NC_000002.12:38676013:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="38676014" stop="38676014" display_start="38676014" display_stop="38676014" variantLength="1" positionVCF="38676013" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="38903156" stop="38903156" display_start="38903156" display_stop="38903156" variantLength="1" positionVCF="38903155" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>I99fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.38903157del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.38903157del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.38676015del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.38676015del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_138801.3" sequenceAccession="NM_138801" sequenceVersion="3" change="c.294del" MANESelect="true">
+            <Expression>NM_138801.3:c.294del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_620156.1" sequenceAccession="NP_620156" sequenceVersion="1" change="p.Ile99fs">
+            <Expression>NP_620156.1:p.Ile99fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_138801.2" sequenceAccession="NM_138801" sequenceVersion="2" change="c.294delC">
+            <Expression>NM_138801.2:c.294delC</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="137030.0001" DB="OMIM" />
+        <XRef Type="rs" ID="751902026" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_138801.3(GALM):c.294del (p.Ile99fs) AND Galactosemia 4" Accession="RCV001093635" Version="2">
+        <ClassifiedConditionList TraitSetID="53544">
+          <ClassifiedCondition DB="MedGen" ID="C5394377">Galactosemia 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-08-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-08-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-19" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30451973</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="53544" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="52445" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Galactosemia 4</ElementValue>
+                <XRef ID="MONDO:0030105" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">GALACTOSEMIA IV</ElementValue>
+                <XRef Type="MIM" ID="618881" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="137030.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="137030.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="137030.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="137030.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="137030.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">GALACTOSE MUTAROTASE DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="618881" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GALAC4</ElementValue>
+                <XRef Type="MIM" ID="618881" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18005" />
+                <XRef ID="18005" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2022">
+                <URL>http://www.acmg.net/ACMG/UploadedPDFS/PDFDocuments/Newborn-Screening-ACT-Sheet-Increased-Total-Galactose-with-normal-GALTPrimary-or-Secondary-Hypergala.aspx</URL>
+                <CitationText>American College of Medical Genetics ACT Sheet, Newborn Screening ACT Sheet Primary or Secondary Hypergalactosemia</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/Hypergalactosemia-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics Algorithm, Primary or Secondary Hypergalactosemia (Galactose Elevated)</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/Galactose-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Elevated total galactose with normal GALT enzyme activity, Primary or Secondary Hypergalactosemia, 2022</CitationText>
+              </Citation>
+              <XRef ID="570422" DB="Orphanet" />
+              <XRef ID="C5394377" DB="MedGen" />
+              <XRef ID="MONDO:0030105" DB="MONDO" />
+              <XRef Type="MIM" ID="618881" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2476051" SubmissionDate="2020-05-14" DateLastUpdated="2024-06-09" DateCreated="2020-05-19">
+        <ClinVarSubmissionID localKey="137030.0001_GALACTOSEMIA IV" title="GALM, 1-BP DEL, 294C_GALACTOSEMIA IV" />
+        <ClinVarAccession Accession="SCV001250826" DateUpdated="2024-06-09" DateCreated="2020-05-19" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-08-28">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 unrelated Japanese children with galactosemia IV (GALAC4; 618881), Wada et al. (2019) identified compound heterozygosity for mutations in the GALM gene. Both children carried a 1-bp deletion (c.294delC, NM_138801.2), resulting in a frameshift and a premature termination codon (Ile99LeufsTer46); patient 1 also carried a c.244C-T transition, resulting in an arg82-to-ter (R82X; 137030.0002) substitution, and patient 2 carried a c.799C-G transversion, resulting in an arg267-to-gly (R267G; 137030.0003) substitution at a conserved residue. The mutations were found by trio-based exome sequencing and confirmed by Sanger sequencing. By Sanger sequencing in 6 additional children with galactosemia, Wada et al. (2019) identified homozygosity for the c.294delC mutation in 1 (patient 3). The mutations segregated with the disorder in all 3 families. Wada et al. (2019) showed absent GALM enzyme activity in lymphoblastoid cells and absent protein expression in PBMCs from the homozygous patient. Expression of GALM with the deletion or R82X variants in 293FT cells showed reduced protein expression, whereas the R267G variant showed reduced protein expression and stability compared to wildtype.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30451973</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618881" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GALM" />
+          </GeneList>
+          <Name>GALM, 1-BP DEL, 294C</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 294C</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="137030.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">GALACTOSEMIA IV</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2476051" TraitType="Disease" MappingType="Name" MappingValue="GALACTOSEMIA IV" MappingRef="Preferred">
+        <MedGen CUI="C5394377" Name="Galactosemia 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

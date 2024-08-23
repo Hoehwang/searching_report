@@ -1,0 +1,181 @@
+<VariationArchive VariationID="1070858" VariationName="NC_000023.10:g.(?_18582587)_(18690188_?)del" VariationType="Deletion" Accession="VCV001070858" Version="9" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2021-05-10" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1058212" VariationID="1070858">
+      <GeneList>
+        <Gene Symbol="CDKL5" FullName="cyclin dependent kinase like 5" GeneID="6792" HGNC_ID="HGNC:11411" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="18425608" stop="18653629" display_start="18425608" display_stop="18653629" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="18443724" stop="18671748" display_start="18443724" display_stop="18671748" Strand="+" />
+          </Location>
+          <OMIM>300203</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CDKL5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CDKL5">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="RS1" FullName="retinoschisin 1" GeneID="6247" HGNC_ID="HGNC:10457" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="18639688" stop="18672108" display_start="18639688" display_stop="18672108" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="18657807" stop="18690222" display_start="18657807" display_stop="18690222" Strand="-" />
+          </Location>
+          <OMIM>300839</OMIM>
+          <Haploinsufficiency last_evaluated="2021-08-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RS1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-08-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RS1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_18582587)_(18690188_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="18582587" innerStop="18690188" display_start="18582587" display_stop="18690188" variantLength="107602" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_18582587)_(18690188_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_18582587)_(18690188_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_18582587)_(18690188_?)del AND multiple conditions" Accession="RCV001383151" Version="8">
+        <ClassifiedConditionList TraitSetID="10061">
+          <ClassifiedCondition DB="MedGen" ID="CN128785">Angelman syndrome-like</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4750718">Developmental and epileptic encephalopathy, 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-07-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-07-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22867051</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="10061" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2108" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 2</ElementValue>
+                <XRef ID="MONDO:0010396" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">INFANTILE SPASM SYNDROME, X-LINKED 2</ElementValue>
+                <XRef Type="MIM" ID="300672" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Early infantile epileptic encephalopathy 2</ElementValue>
+                <XRef ID="Epileptic+encephalopathy%2C+early+infantile%2C+2/8342" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ISSX2</ElementValue>
+                <XRef Type="MIM" ID="300672" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE2</ElementValue>
+                <XRef Type="MIM" ID="300672" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18617" />
+                <XRef ID="18617" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">38603524</ID>
+                <ID Source="BookShelf">NBK602610</ID>
+              </Citation>
+              <XRef ID="1934" DB="Orphanet" />
+              <XRef ID="3451" DB="Orphanet" />
+              <XRef ID="505652" DB="Orphanet" />
+              <XRef ID="C4750718" DB="MedGen" />
+              <XRef ID="MONDO:0010396" DB="MONDO" />
+              <XRef Type="MIM" ID="300672" DB="OMIM" />
+            </Trait>
+            <Trait ID="17019" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Angelman syndrome-like</ElementValue>
+              </Name>
+              <XRef ID="CN128785" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3107813" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_003159.2_X_Deletion (exons 4-21)|MedGen:C1839333;CN128785" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001582191" DateUpdated="2024-06-09" DateCreated="2021-05-10" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-07-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22867051</ID>
+          </Citation>
+          <Comment>This variant has not been reported in the literature in individuals with CDKL5-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 4-21 of the CDKL5 gene. The 5' boundary is likely confined to intron 3. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. For these reasons, this variant has been classified as Pathogenic. The region of the CDKL5 gene that includes exon(s) 10 has been determined to be clinically significant (PMID: 22867051). Therefore, deletions that encompass that region are likely to disrupt protein function and cause disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CDKL5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_18582587)_(18690188_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1839333" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN128785" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3107813" TraitType="Disease" MappingType="XRef" MappingValue="C1839333" MappingRef="MedGen">
+        <MedGen CUI="C4750718" Name="Developmental and epileptic encephalopathy, 2" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3107813" TraitType="Disease" MappingType="XRef" MappingValue="CN128785" MappingRef="MedGen">
+        <MedGen CUI="CN128785" Name="Angelman syndrome-like" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

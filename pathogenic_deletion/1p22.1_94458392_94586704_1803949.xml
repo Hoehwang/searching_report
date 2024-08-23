@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="1803949" VariationName="NM_000350.3:c.1876_1999del" VariationType="Deletion" Accession="VCV001803949" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-24" DateCreated="2022-12-24" MostRecentSubmission="2022-12-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1860976" VariationID="1803949">
+      <GeneList>
+        <Gene Symbol="ABCA4" FullName="ATP binding cassette subfamily A member 4" GeneID="24" HGNC_ID="HGNC:34" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>1p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="93992834" stop="94121148" display_start="93992834" display_stop="94121148" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="94458392" stop="94586704" display_start="94458392" display_stop="94586704" Strand="-" />
+          </Location>
+          <OMIM>601691</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000350.3:c.1876_1999del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000350.3" sequenceAccession="NM_000350" sequenceVersion="3" change="c.1876_1999del" MANESelect="true">
+            <Expression>NM_000350.3:c.1876_1999del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">The genomic location for this variant will not be computed from alignment of the transcript sequence to the genome until experimental evidence for the genomic basis of the deletion from the cDNA is provided.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000350.3:c.1876_1999del AND Stargardt disease" Accession="RCV002468687" Version="1">
+        <ClassifiedConditionList TraitSetID="2147">
+          <ClassifiedCondition DB="MedGen" ID="C0271093">Stargardt disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-12-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-12-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-24" MostRecentSubmission="2022-12-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30578500</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2147" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8691" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Stargardt's disease</ElementValue>
+                <XRef ID="Stargardt+disease/6861" DB="Genetic Alliance" />
+                <XRef ID="70099003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fundus flavimaculatus</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Stargardt disease</ElementValue>
+                <XRef ID="MONDO:0019353" DB="MONDO" />
+                <XRef ID="827" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FFM</ElementValue>
+                <XRef ID="248200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="181" />
+                <XRef ID="181" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="827" DB="Orphanet" />
+              <XRef ID="C0271093" DB="MedGen" />
+              <XRef ID="MONDO:0019353" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5408867" SubmissionDate="2022-12-19" DateLastUpdated="2022-12-24" DateCreated="2022-12-24">
+        <ClinVarSubmissionID localKey="SUB12449451" submittedAssembly="GRCh37" title="SUB12449451" />
+        <ClinVarAccession Accession="SCV002764640" DateUpdated="2022-12-24" DateCreated="2022-12-24" Type="SCV" Version="1" SubmitterName="Ophthalmo-Genetics Lab, Instituto de Oftalmologia Conde de Valenciana" OrgID="508280" OrganizationCategory="laboratory" OrgAbbreviation="IOCV" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-12-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30578500</ID>
+          </Citation>
+          <Comment>PP1,PP4,PM3,PVS1,PM2 ACMG criteria</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>biparental</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ABCA4">
+              <Name>ATP binding cassette subfamily A member 4</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000350.3:c.1876_1999del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA827" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12449451</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5408867" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA827" MappingRef="Orphanet">
+        <MedGen CUI="C0271093" Name="Stargardt disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

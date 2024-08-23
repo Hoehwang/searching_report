@@ -1,0 +1,140 @@
+<VariationArchive VariationID="1700106" VariationName="NM_000194.3:c.-147_384del" VariationType="Deletion" Accession="VCV001700106" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-08-15" MostRecentSubmission="2022-08-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1692502" VariationID="1700106">
+      <GeneList>
+        <Gene Symbol="HPRT1" FullName="hypoxanthine phosphoribosyltransferase 1" GeneID="3251" HGNC_ID="HGNC:5157" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>Xq26.2-26.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="134460165" stop="134500668" display_start="134460165" display_stop="134500668" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="133594174" stop="133634697" display_start="133594174" display_stop="133634697" Strand="+" />
+          </Location>
+          <OMIM>308000</OMIM>
+          <Haploinsufficiency last_evaluated="2021-01-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HPRT1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-01-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HPRT1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_000194.3:c.-147_384del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000194.3" sequenceAccession="NM_000194" sequenceVersion="3" change="c.-147_384del" MANESelect="true">
+            <Expression>NM_000194.3:c.-147_384del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">The genomic location for this variant will not be computed from alignment of the transcript sequence to the genome until there is experimental evidence for the genomic basis of the deletion of sequence from the cDNA.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000194.3:c.-147_384del AND Lesch-Nyhan syndrome" Accession="RCV002274355" Version="2">
+        <ClassifiedConditionList TraitSetID="2837">
+          <ClassifiedCondition DB="MedGen" ID="C0023374">Lesch-Nyhan syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-08-15" MostRecentSubmission="2022-08-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2837" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5397" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Lesch-Nyhan syndrome</ElementValue>
+                <XRef ID="Lesch+Nyhan+syndrome/4181" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010298" DB="MONDO" />
+                <XRef ID="10406007" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LNS</ElementValue>
+                <XRef Type="MIM" ID="300322" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7226" />
+                <XRef ID="7226" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">HPRT1 disorders, caused by deficiency of the enzyme hypoxanthine-guanine phosphoribosyltransferase (HGprt), are typically associated with clinical evidence for overproduction of uric acid (hyperuricemia, nephrolithiasis, and/or gouty arthritis) and varying degrees of neurologic and/or behavioral problems. Historically, three phenotypes were identified in the spectrum of HPRT1 disorders: Lesch-Nyhan disease (LND) at the most severe end with motor dysfunction resembling severe cerebral palsy, intellectual disability, and self-injurious behavior; HPRT1-related neurologic dysfunction (HND) in the intermediate range with similar but fewer severe neurologic findings than LND and no self-injurious behavior; and HPRT1-related hyperuricemia (HRH) at the mild end without overt neurologic deficits. It is now recognized that these neurobehavioral phenotypes cluster along a continuum from severe to mild.</Attribute>
+                <XRef ID="NBK1149" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301328</ID>
+                <ID Source="BookShelf">NBK1149</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2008">
+                <ID Source="pmc">3111012</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2011">
+                <ID Source="pmc">3039492</ID>
+              </Citation>
+              <XRef ID="510" DB="Orphanet" />
+              <XRef ID="C0023374" DB="MedGen" />
+              <XRef ID="MONDO:0010298" DB="MONDO" />
+              <XRef Type="MIM" ID="300322" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5006900" SubmissionDate="2022-08-09" DateLastUpdated="2022-08-15" DateCreated="2022-08-15">
+        <ClinVarSubmissionID localKey="NM_000194.3:c.-147_384del|MedGen:C0023374" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002558998" DateUpdated="2022-08-15" DateCreated="2022-08-15" Type="SCV" Version="1" SubmitterName="Centre de Biologie Pathologie Génétique, Centre Hospitalier Universitaire de Lille" OrgID="505759" OrganizationCategory="laboratory" OrgAbbreviation="CHRUL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000194.3:c.-147_384del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0023374" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11909744</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5006900" TraitType="Disease" MappingType="XRef" MappingValue="C0023374" MappingRef="MedGen">
+        <MedGen CUI="C0023374" Name="Lesch-Nyhan syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

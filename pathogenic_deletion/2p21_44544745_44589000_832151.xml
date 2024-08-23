@@ -1,0 +1,206 @@
+<VariationArchive RecordType="classified" VariationID="832151" VariationName="NC_000002.12:g.(?_44299971)_(44318104_?)del" VariationType="Deletion" Accession="VCV000832151" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819170" VariationID="832151">
+      <GeneList>
+        <Gene Symbol="PREPL" FullName="prolyl endopeptidase like" GeneID="9581" HGNC_ID="HGNC:30228" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44317607" stop="44361862" display_start="44317607" display_stop="44361862" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44544745" stop="44589000" display_start="44544745" display_stop="44589000" Strand="-" />
+          </Location>
+          <OMIM>609557</OMIM>
+        </Gene>
+        <Gene Symbol="SLC3A1" FullName="solute carrier family 3 member 1" GeneID="6519" HGNC_ID="HGNC:11025" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44275480" stop="44322437" display_start="44275480" display_stop="44322437" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44502596" stop="44547962" display_start="44502596" display_stop="44547962" Strand="+" />
+          </Location>
+          <OMIM>104614</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_44299971)_(44318104_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="44527110" innerStop="44545243" display_start="44527110" display_stop="44545243" variantLength="18134" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_44527110)_(44545243_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_44527110)_(44545243_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_44299971)_(44318104_?)del AND Cystinuria" Accession="RCV001032666" Version="1">
+        <ClassifiedConditionList TraitSetID="1615">
+          <ClassifiedCondition DB="MedGen" ID="C0010691">Cystinuria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-10-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-10-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21677404</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23532419</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28646536</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8054986</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8792820</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1615" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1217" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE I</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE II</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE III</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cystinuria</ElementValue>
+                <XRef ID="22232" DB="GeneTests" />
+                <XRef ID="Cystinuria/2081" DB="Genetic Alliance" />
+                <XRef ID="HP:0003131" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0009067" DB="MONDO" />
+                <XRef ID="85020001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cystinuria, non-type I</ElementValue>
+                <XRef ID="UWMG_9204648" DB="CSER _CC_NCGL, University of Washington" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU1</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU3</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CSNU</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6237" />
+                <XRef ID="6237" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Cystinuria is an autosomal disorder characterized by impaired epithelial cell transport of cystine and dibasic amino acids (lysine, ornithine, and arginine) in the proximal renal tubule and gastrointestinal tract. The impaired renal reabsorption of cystine and its low solubility causes the formation of calculi in the urinary tract, resulting in obstructive uropathy, pyelonephritis, and, rarely, renal failure (summary by Barbosa et al., 2012).</Attribute>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="PubMed">21863055</ID>
+              </Citation>
+              <XRef ID="214" DB="Orphanet" />
+              <XRef ID="C0010691" DB="MedGen" />
+              <XRef ID="MONDO:0009067" DB="MONDO" />
+              <XRef Type="MIM" ID="220100" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0003131" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357228" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="7991266|MedGen:C0010691" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195973" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-10-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28646536</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21677404</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">8792820</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">8054986</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23532419</ID>
+          </Citation>
+          <Comment>This variant is an in-frame deletion of the genomic region encompassing exons 5-9 of the SLC3A1 gene. It preserves the integrity of the reading frame. This variant has not been reported in the literature in individuals with SLC3A1-related conditions. Sub-genic deletion of 6-7 has been determined to be pathogenic (PMID: 28646536). Therefore, deletions that fully encompass that region are also expected to be pathogenic. This variant disrupts the p.Met467 amino acid residue in SLC3A1. Other variant(s) that disrupt this residue have been determined to be pathogenic (PMID: 8054986, 21677404, 8792820, 23532419). This suggests that this residue is clinically significant, and that variants that disrupt this residue are likely to be disease-causing. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC3A1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_44527110)_(44545243_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Cystinuria</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0010691" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357228" TraitType="Disease" MappingType="Name" MappingValue="Cystinuria" MappingRef="Preferred">
+        <MedGen CUI="C0010691" Name="Cystinuria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

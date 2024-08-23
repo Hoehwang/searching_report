@@ -1,0 +1,174 @@
+<VariationArchive VariationID="2706647" VariationName="NM_021619.3(PRDM12):c.578dup (p.Pro194fs)" VariationType="Duplication" Accession="VCV002706647" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-20" DateCreated="2024-02-14" MostRecentSubmission="2024-02-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2874101" VariationID="2706647">
+      <GeneList>
+        <Gene Symbol="PRDM12" FullName="PR/SET domain 12" GeneID="59335" HGNC_ID="HGNC:13997" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="130664594" stop="130682983" display_start="130664594" display_stop="130682983" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="133539980" stop="133558383" display_start="133539980" display_stop="133558383" Strand="+" />
+          </Location>
+          <OMIM>616458</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_021619.3(PRDM12):c.578dup (p.Pro194fs)</Name>
+      <CanonicalSPDI>NC_000009.12:130678533:CCC:CCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="130678533" stop="130678534" display_start="130678533" display_stop="130678534" variantLength="1" positionVCF="130678533" referenceAlleleVCF="T" alternateAlleleVCF="TC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="133553920" stop="133553921" display_start="133553920" display_stop="133553921" variantLength="1" positionVCF="133553920" referenceAlleleVCF="T" alternateAlleleVCF="TC" />
+      </Location>
+      <ProteinChange>P194fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.133553923dup" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.133553923dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.130678536dup" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.130678536dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_053081.1" sequenceAccession="NG_053081" sequenceVersion="1" change="g.18943dup">
+            <Expression>NG_053081.1:g.18943dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_021619.3" sequenceAccession="NM_021619" sequenceVersion="3" change="c.578dup" MANESelect="true">
+            <Expression>NM_021619.3:c.578dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_067632.2" sequenceAccession="NP_067632" sequenceVersion="2" change="p.Pro194fs">
+            <Expression>NP_067632.2:p.Pro194fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_021619.3(PRDM12):c.578dup (p.Pro194fs) AND Congenital insensitivity to pain-hypohidrosis syndrome" Accession="RCV003592614" Version="1">
+        <ClassifiedConditionList TraitSetID="22162">
+          <ClassifiedCondition DB="MedGen" ID="C4225308">Congenital insensitivity to pain-hypohidrosis syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-12-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-12-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-02-14" MostRecentSubmission="2024-02-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25891934</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26005867</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="22162" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33607" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HSAN VIII</ElementValue>
+                <XRef Type="MIM" ID="616488" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Neuropathy, hereditary sensory and autonomic, type VIII</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Congenital insensitivity to pain-hypohidrosis syndrome</ElementValue>
+                <XRef ID="MONDO:0014662" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HSAN8</ElementValue>
+                <XRef Type="MIM" ID="616488" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17866" />
+                <XRef ID="17866" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29419974</ID>
+                <ID Source="BookShelf">NBK481553</ID>
+              </Citation>
+              <XRef ID="478664" DB="Orphanet" />
+              <XRef ID="C4225308" DB="MedGen" />
+              <XRef ID="MONDO:0014662" DB="MONDO" />
+              <XRef Type="MIM" ID="616488" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7945299" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-14" DateCreated="2024-02-14">
+        <ClinVarSubmissionID localKey="30804980|MedGen:C4225308" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004260500" DateUpdated="2024-02-14" DateCreated="2024-02-14" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-12-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25891934</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26005867</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Pro194Thrfs*2) in the PRDM12 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in PRDM12 are known to be pathogenic (PMID: 25891934, 26005867). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with PRDM12-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRDM12" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.133553920_133553921insC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4225308" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14200283</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7945299" TraitType="Disease" MappingType="XRef" MappingValue="C4225308" MappingRef="MedGen">
+        <MedGen CUI="C4225308" Name="Congenital insensitivity to pain-hypohidrosis syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

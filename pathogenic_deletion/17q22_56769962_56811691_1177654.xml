@@ -1,0 +1,151 @@
+<VariationArchive VariationID="1177654" VariationName="c.706-4423_1131+7851del;p.(Val236_Leu376delins11)" VariationType="Deletion" Accession="VCV001177654" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2021-12-04" MostRecentSubmission="2021-12-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1167144" VariationID="1177654">
+      <GeneList>
+        <Gene Symbol="RAD51C" FullName="RAD51 paralog C" GeneID="5889" HGNC_ID="HGNC:9820" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58692573" stop="58735611" display_start="58692573" display_stop="58735611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="56769962" stop="56811691" display_start="56769962" display_stop="56811691" Strand="+" />
+          </Location>
+          <OMIM>602774</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>c.706-4423_1131+7851del;p.(Val236_Leu376delins11)</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="56787220" stop="56811583" display_start="56787220" display_stop="56811583" variantLength="24364" alternateAllele="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.56787220_56811583del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.56787220_56811583del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="c.706-4423_1131+7851del;p.(Val236_Leu376delins11) AND Breast-ovarian cancer, familial, susceptibility to, 3" Accession="RCV001786504" Version="2">
+        <ClassifiedConditionList TraitSetID="1881">
+          <ClassifiedCondition DB="MedGen" ID="C3150659">Breast-ovarian cancer, familial, susceptibility to, 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-04" MostRecentSubmission="2021-12-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30979843</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1881" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6648" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RAD51C-Related Breast/Ovarian Cancer</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Breast-ovarian cancer, familial 3</ElementValue>
+                <XRef ID="Breast-ovarian+cancer%2C+familial+3/7867" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Breast-ovarian cancer, familial, susceptibility to, 3</ElementValue>
+                <XRef ID="MONDO:0013253" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BROVCA3</ElementValue>
+                <XRef Type="MIM" ID="613399" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Neoplasm</Attribute>
+              </AttributeSet>
+              <XRef ID="145" DB="Orphanet" />
+              <XRef ID="C3150659" DB="MedGen" />
+              <XRef ID="MONDO:0013253" DB="MONDO" />
+              <XRef Type="MIM" ID="613399" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3444202" SubmissionDate="2021-06-01" DateLastUpdated="2021-12-04" DateCreated="2021-12-04">
+        <ClinVarSubmissionID localKey="LR-RAD51C-10|MedGen:C3150659" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001750617" DateUpdated="2021-12-04" DateCreated="2021-12-04" Type="SCV" Version="1" SubmitterName="Hereditary Cancer Group, L’Institut d'Investigació Biomèdica de Bellvitge" OrgID="508070" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">30979843</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Tayoun et al, 2018</Attribute>
+          <Citation>
+            <ID Source="PubMed">30192042</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Curated</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAD51C" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" alternateAllele="-" start="56787220" stop="56811583" variantLength="24364" />
+          </Location>
+          <OtherNameList>
+            <Name>c.706-4423_1131+7851del; p.(Val236_Leu376delins11)</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3150659" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9777664</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3444202" TraitType="Disease" MappingType="XRef" MappingValue="C3150659" MappingRef="MedGen">
+        <MedGen CUI="C3150659" Name="Breast-ovarian cancer, familial, susceptibility to, 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

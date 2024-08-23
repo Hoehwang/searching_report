@@ -1,0 +1,142 @@
+<VariationArchive VariationID="17059" VariationName="NC_000019.10:g.(6695981_6695999)_(6696810_6696831)del" VariationType="Deletion" Accession="VCV000017059" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2020-08-15" MostRecentSubmission="2020-08-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="32098" VariationID="17059">
+      <GeneList>
+        <Gene Symbol="C3" FullName="complement C3" GeneID="718" HGNC_ID="HGNC:1318" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="6677704" stop="6720650" display_start="6677704" display_stop="6720650" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="6677845" stop="6720661" display_start="6677845" display_stop="6720661" Strand="-" />
+          </Location>
+          <OMIM>120700</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.10:g.(6695981_6695999)_(6696810_6696831)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3-p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" outerStart="6695981" innerStart="6695999" innerStop="6696810" outerStop="6696831" display_start="6695981" display_stop="6696831" variantLength="812" Strand="-" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" outerStart="6695992" innerStart="6696010" innerStop="6696821" outerStop="6696842" display_start="6695992" display_stop="6696842" variantLength="812" />
+      </Location>
+      <OtherNameList>
+        <Name>C3, 800-BP DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.(6695981_6695999)_(6696810_6696831)del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.(6695981_6695999)_(6696810_6696831)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(6695992_6696010)_(6696821_6696842)del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(6695992_6696010)_(6696821_6696842)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv7487154" DB="dbVar" />
+        <XRef ID="nsv1197530" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="120700.0004" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">830-nt deletion of exons 22 and 23 from gene C3 plus flanking intronic sequences.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 1350678 Fig. 1B to determine the location of this deletion on the current reference sequence. </Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.10:g.(6695981_6695999)_(6696810_6696831)del AND C3 deficiency" Accession="RCV000018588" Version="31">
+        <ClassifiedConditionList TraitSetID="5628">
+          <ClassifiedCondition DB="MedGen" ID="C1332655">C3 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1992-06-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1992-06-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-15" MostRecentSubmission="2020-08-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">1350678</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">4117597</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="5628" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="12748" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">C3 deficiency</ElementValue>
+              </Name>
+              <XRef ID="C1332655" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="38871" SubmissionDate="2020-08-12" DateLastUpdated="2020-08-15" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="120700.0004_C3 DEFICIENCY" title="C3, 800-BP DEL_C3 DEFICIENCY" />
+        <ClinVarAccession Accession="SCV000038871" DateUpdated="2020-08-15" DateCreated="2013-04-04" Type="SCV" Version="5" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1992-06-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Botto et al. (1992) demonstrated partial gene deletion as the molecular basis of C3 deficiency (613779) in an Afrikaner patient previously described by Alper et al. (1972) as homozygous C3 deficient. By Southern blot analysis, they demonstrated that the C3 null gene had an 800-bp deletion in exons 22 and 23, resulting in a frameshift and a stop codon 19 bp downstream from the deletion. DNA sequence analysis showed that the deletion probably arose from homologous recombination between 2 ALU repeats flanking the deletion. This mutant allele was found to have a gene frequency of 0.0057 in the South African Afrikaans-speaking population.</Attribute>
+              <Citation>
+                <ID Source="PubMed">1350678</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">4117597</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="613779" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="C3" />
+          </GeneList>
+          <Name>C3, 800-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">800-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="120700.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">C3 DEFICIENCY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="38871" TraitType="Disease" MappingType="Name" MappingValue="C3 DEFICIENCY" MappingRef="Preferred">
+        <MedGen CUI="C1332655" Name="C3 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

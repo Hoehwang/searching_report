@@ -1,0 +1,182 @@
+<VariationArchive RecordType="classified" VariationID="583901" VariationName="NC_000005.10:g.(?_147824641)_(147831792_?)del" VariationType="Deletion" Accession="VCV000583901" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="559831" VariationID="583901">
+      <GeneList>
+        <Gene Symbol="SPINK1" FullName="serine peptidase inhibitor Kazal type 1" GeneID="6690" HGNC_ID="HGNC:11244" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="147824582" stop="147839196" display_start="147824582" display_stop="147839196" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="147204142" stop="147211259" display_start="147204142" display_stop="147211259" Strand="-" />
+          </Location>
+          <OMIM>167790</OMIM>
+          <Haploinsufficiency last_evaluated="2021-10-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SPINK1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-10-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SPINK1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.10:g.(?_147824641)_(147831792_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" innerStart="147824641" innerStop="147831792" display_start="147824641" display_stop="147831792" variantLength="7152" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="147204204" innerStop="147211355" display_start="147204204" display_stop="147211355" variantLength="7152" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_147204204)_(147211355_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_147204204)_(147211355_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.(?_147824641)_(147831792_?)del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.(?_147824641)_(147831792_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.10:g.(?_147824641)_(147831792_?)del AND Hereditary pancreatitis" Accession="RCV000708145" Version="1">
+        <ClassifiedConditionList TraitSetID="3226">
+          <ClassifiedCondition DB="MedGen" ID="C0238339">Hereditary pancreatitis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-06-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-06-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17681820</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3226" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3261" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hereditary chronic pancreatitis</ElementValue>
+                <XRef ID="MONDO:0008185" DB="MONDO" />
+                <XRef ID="676" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hereditary pancreatitis</ElementValue>
+                <XRef ID="Hereditary+pancreatitis/3373" DB="Genetic Alliance" />
+                <XRef ID="68072000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PRSS1-Related Hereditary Pancreatitis</ElementValue>
+                <XRef ID="NBK84399" DB="GeneReviews" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CPANC</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HP</ElementValue>
+                <XRef Type="MIM" ID="167800" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HPC</ElementValue>
+                <XRef Type="MIM" ID="167800" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">PCTT</ElementValue>
+                <XRef Type="MIM" ID="167800" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6632" />
+                <XRef ID="6632" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">PRSS1-related hereditary pancreatitis (HP) is characterized by episodes of acute pancreatitis (AP) and recurrent acute pancreatitis (RAP: &gt;1 episode of AP), with frequent progression to chronic pancreatitis (CP). Manifestations of acute pancreatitis can range from vague abdominal pain lasting one to three days to severe abdominal pain lasting days to weeks and requiring hospitalization.</Attribute>
+                <XRef ID="NBK84399" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">22379635</ID>
+                <ID Source="BookShelf">NBK84399</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">24624459</ID>
+                <ID Source="BookShelf">NBK190101</ID>
+              </Citation>
+              <XRef ID="676" DB="Orphanet" />
+              <XRef ID="C0238339" DB="MedGen" />
+              <XRef ID="MONDO:0008185" DB="MONDO" />
+              <XRef Type="MIM" ID="167800" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1609280" SubmissionDate="2018-08-29" DateLastUpdated="2018-10-10" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="4018976|MedGen:C0238339" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000837255" DateUpdated="2018-10-10" DateCreated="2018-10-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-06-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">17681820</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the SPINK1 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. A deletion encompassing the entire coding sequence of the SPINK1 gene has been reported in an individual affected with chronic pancreatitis (PMID: 17681820). Loss-of-function variants in SPINK1 are known to be pathogenic (PMID: 14722925,17681820). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPINK1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.(?_147204204)_(147211355_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Hereditary pancreatitis</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0238339" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1609280" TraitType="Disease" MappingType="Name" MappingValue="Hereditary pancreatitis" MappingRef="Preferred">
+        <MedGen CUI="C0238339" Name="Hereditary pancreatitis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

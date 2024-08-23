@@ -1,0 +1,219 @@
+<VariationArchive VariationID="540374" VariationName="NC_000007.14:g.(?_16258370)_(16259032_?)del" VariationType="Deletion" Accession="VCV000540374" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2018-10-10" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="521886" VariationID="540374">
+      <GeneList>
+        <Gene Symbol="CRPPA" FullName="CDP-L-ribitol pyrophosphorylase A" GeneID="729920" HGNC_ID="HGNC:37276" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>7p21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="16087525" stop="16421538" display_start="16087525" display_stop="16421538" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="16127151" stop="16460946" display_start="16127151" display_stop="16460946" Strand="-" />
+          </Location>
+          <OMIM>614631</OMIM>
+        </Gene>
+        <Gene Symbol="CRPPA-AS1" FullName="CRPPA antisense RNA 1" GeneID="100506025" HGNC_ID="HGNC:48962" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>7p21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="16210486" stop="16270604" display_start="16210486" display_stop="16270604" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.14:g.(?_16258370)_(16259032_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" innerStart="16258370" innerStop="16259032" display_start="16258370" display_stop="16259032" variantLength="663" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="16297995" innerStop="16298657" display_start="16297995" display_stop="16298657" variantLength="663" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.(?_16258370)_(16259032_?)del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.(?_16258370)_(16259032_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_16297995)_(16298657_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_16297995)_(16298657_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.14:g.(?_16258370)_(16259032_?)del AND multiple conditions" Accession="RCV000650395" Version="7">
+        <ClassifiedConditionList TraitSetID="20871">
+          <ClassifiedCondition DB="MedGen" ID="C5190987">Autosomal recessive limb-girdle muscular dystrophy type 2U</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3553330">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23288328</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23390185</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27234031</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31127727</ID>
+        </Citation>
+        <DescriptionHistory Dated="2023-02-11">
+          <Description>Likely pathogenic</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="20871" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="31924" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY, LIMB-GIRDLE, TYPE 2U</ElementValue>
+                <XRef Type="MIM" ID="616052" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive limb-girdle muscular dystrophy type 2U</ElementValue>
+                <XRef ID="MONDO:0014474" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Muscular dystrophy-dystroglycanopathy (limb-girdle), type c, 7</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">LGMD2U</ElementValue>
+                <XRef Type="MIM" ID="616052" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">MDDGC7</ElementValue>
+                <XRef Type="MIM" ID="616052" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17519" />
+                <XRef ID="17519" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="352479" DB="Orphanet" />
+              <XRef ID="C5190987" DB="MedGen" />
+              <XRef ID="MONDO:0014474" DB="MONDO" />
+              <XRef Type="MIM" ID="616052" DB="OMIM" />
+            </Trait>
+            <Trait ID="16966" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 7</ElementValue>
+                <XRef ID="MONDO:0013835" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">WALKER-WARBURG SYNDROME OR MUSCLE-EYE-BRAIN DISEASE, ISPD-RELATED</ElementValue>
+                <XRef Type="MIM" ID="614643" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A7</ElementValue>
+                <XRef ID="MUSCULAR+DYSTROPHY-DYSTROGLYCANOPATHY+%28CONGENITAL+WITH+BRAIN+AND+EYE+ANOMALIES%29%2C+TYPE+A%2C+7/8931" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MDDGA7</ElementValue>
+                <XRef ID="GTR000522764" DB="Genetic Testing Registry (GTR)" />
+                <XRef Type="MIM" ID="614643" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15829" />
+                <XRef ID="15829" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="899" DB="Orphanet" />
+              <XRef ID="C3553330" DB="MedGen" />
+              <XRef ID="MONDO:0013835" DB="MONDO" />
+              <XRef Type="MIM" ID="614643" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1481999" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="NM_001101426.3_7_Deletion (exons 7-8)|MedGen:C3553330;C4015095" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000772239" DateUpdated="2024-06-09" DateCreated="2018-05-28" Type="SCV" Version="6" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23288328</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23390185</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27234031</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">31127727</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 7-8 of the ISPD gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame. This variant has not been reported in the literature in individuals affected with ISPD-related conditions. This variant disrupts a region of the ISPD protein in which other variant(s) (p.Val372del) have been determined to be pathogenic (PMID: 23288328, 23390185, 27234031, 31127727). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CRPPA" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_16297995)_(16298657_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3553330" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4015095" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1481999" TraitType="Disease" MappingType="XRef" MappingValue="C4015095" MappingRef="MedGen">
+        <MedGen CUI="C5190987" Name="Autosomal recessive limb-girdle muscular dystrophy type 2U" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1481999" TraitType="Disease" MappingType="XRef" MappingValue="C3553330" MappingRef="MedGen">
+        <MedGen CUI="C3553330" Name="Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

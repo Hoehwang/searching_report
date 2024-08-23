@@ -1,0 +1,267 @@
+<VariationArchive RecordType="classified" VariationID="1264353" VariationName="NM_017799.4(TMEM260):c.1644del (p.Pro549fs)" VariationType="Deletion" Accession="VCV001264353" Version="17" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2023-12-25" DateCreated="2021-11-13" MostRecentSubmission="2022-03-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1254253" VariationID="1264353">
+      <GeneList>
+        <Gene Symbol="TMEM260" FullName="transmembrane protein 260" GeneID="54916" HGNC_ID="HGNC:20185" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="56579525" stop="56663165" display_start="56579525" display_stop="56663165" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="57046510" stop="57116232" display_start="57046510" display_stop="57116232" Strand="+" />
+          </Location>
+          <OMIM>617449</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_017799.4(TMEM260):c.1644del (p.Pro549fs)</Name>
+      <CanonicalSPDI>NC_000014.9:56633089:TT:T</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="56633090" stop="56633090" display_start="56633090" display_stop="56633090" variantLength="1" positionVCF="56633089" referenceAlleleVCF="GT" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="57099808" stop="57099808" display_start="57099808" display_stop="57099808" variantLength="1" positionVCF="57099807" referenceAlleleVCF="GT" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>P549fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017799.4" sequenceAccession="NM_017799" sequenceVersion="4" change="c.1644delT" MANESelect="true">
+            <Expression>NM_017799.4:c.1644delT</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.57099809del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.57099809del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.56633091del" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.56633091del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017799.4" sequenceAccession="NM_017799" sequenceVersion="4" change="c.1644del" MANESelect="true">
+            <Expression>NM_017799.4:c.1644del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_060269.3" sequenceAccession="NP_060269" sequenceVersion="3" change="p.Pro549fs">
+            <Expression>NP_060269.3:p.Pro549fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="617449.0005" DB="OMIM" />
+        <XRef Type="rs" ID="1351329464" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="loss_of_function_variant">
+        <XRef ID="SO:0002054" DB="Sequence Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_017799.4(TMEM260):c.1644del (p.Pro549fs) AND Structural heart defects and renal anomalies syndrome" Accession="RCV001775180" Version="1">
+        <ClassifiedConditionList TraitSetID="36122">
+          <ClassifiedCondition DB="MedGen" ID="C4479549">Structural heart defects and renal anomalies syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-11-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_017799.4(TMEM260):c.1644del (p.Pro549fs) AND Type I truncus arteriosus" Accession="RCV001845027" Version="1">
+        <ClassifiedConditionList TraitSetID="69889">
+          <ClassifiedCondition DB="MedGen" ID="C1834934">Type I truncus arteriosus</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-10" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2021-11-13" MostRecentSubmission="2022-03-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28318500</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">34612517</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="36122" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="37813" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Structural heart defects and renal anomalies syndrome</ElementValue>
+                <XRef ID="MONDO:0044321" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SHDRA</ElementValue>
+                <XRef Type="MIM" ID="617478" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4479549" DB="MedGen" />
+              <XRef ID="MONDO:0044321" DB="MONDO" />
+              <XRef Type="MIM" ID="617478" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="69889" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="24416" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Type I truncus arteriosus</ElementValue>
+                <XRef ID="HP:0004384" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C1834934" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0004384" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3692650" SubmissionDate="2021-09-16" DateLastUpdated="2022-03-19" DateCreated="2022-03-19">
+        <ClinVarSubmissionID localKey="SUB10359162" submittedAssembly="hg19" title="SUB10359162" />
+        <ClinVarAccession Accession="SCV001860290" DateUpdated="2022-03-19" DateCreated="2022-03-19" Type="SCV" Version="1" SubmitterName="Cardio-genetic Lab, Hadassah Medical Organization" OrgID="508244" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">28318500</ID>
+          </Citation>
+          <Comment>The novel c.644delT:p.Pro549LeufsTer46 allele is in trans with the previously described c.1393C&gt;T:p.Gln465Ter (Ta-Shma et al 2017 PMID: 28318500). The variants segregated with the disease in the family. Other families with same phenotype and deleterious variants in same gene are under submission these days. The variant meets our criteria to be classified as pathogenic based upon Loss-of-function prediction, segregation studies, absence from controls and unique phenotype.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ta-Shma et al. (Am J Hum Genet. 2017)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">28318500</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>Ashkenazi Jew</Ethnicity>
+              <GeographicOrigin>Israel</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>HiSeq</NamePlatform>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <Description>We used the SureSelect Human All Exon 50 Mb Kit (V4, Agilent Technologies) and obtained 100 bp paired-end reads on a HiSeq 2000 instrument (Illumina) with a mean of 73X coverage across the sample</Description>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2018-10-16" Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0004384" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0012622" />
+              </Trait>
+              <Comment>Born with normal renal function which deteriorated a few weeks after cardiac surgery and chylothorax</Comment>
+            </TraitSet>
+            <Comment>Exome analysis followed by Sanger sequencing validation</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMEM260">
+              <Name>transmembrane protein 260</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <FunctionalConsequence Value="loss_of_function_variant">
+            <XRef DB="Sequence Ontology" ID="SO:0002054" URL="http://www.sequenceontology.org/browser/current_svn/term/SO:0002054" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_017799.3:c.1644delT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:4384" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10359162</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3950101" SubmissionDate="2021-11-05" DateLastUpdated="2021-11-13" DateCreated="2021-11-13">
+        <ClinVarSubmissionID localKey="617449.0005_STRUCTURAL HEART DEFECTS AND RENAL ANOMALIES SYNDROME" title="TMEM260, 1-BP DEL, 1644T_STRUCTURAL HEART DEFECTS AND RENAL ANOMALIES SYNDROME" />
+        <ClinVarAccession Accession="SCV002011851" DateUpdated="2021-11-13" DateCreated="2021-11-13" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-11-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 1-bp deletion (c.1644delT, NM_017799.4) in the TMEM260 gene, causing a frameshift predicted to result in a premature termination codon (Pro549LeufsTer46), that was found in compound heterozygous state in 2 Ashkenazi Jewish brothers (family 3) with structural heart defects and renal anomalies syndrome (SHDRA; 617478) by Pagnamenta et al. (2021), see 617449.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">34612517</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617478" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMEM260" />
+          </GeneList>
+          <Name>TMEM260, 1-BP DEL, 1644T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 1644T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="617449.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">STRUCTURAL HEART DEFECTS AND RENAL ANOMALIES SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3692650" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004384" MappingRef="HP">
+        <MedGen CUI="C1834934" Name="Type I truncus arteriosus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3692650" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012622" MappingRef="HP">
+        <MedGen CUI="C1561643" Name="Chronic kidney disease" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3692650" TraitType="Disease" MappingType="XRef" MappingValue="HP:4384" MappingRef="HP">
+        <MedGen CUI="C1834934" Name="Type I truncus arteriosus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950101" TraitType="Disease" MappingType="Name" MappingValue="STRUCTURAL HEART DEFECTS AND RENAL ANOMALIES SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C4479549" Name="Structural heart defects and renal anomalies syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

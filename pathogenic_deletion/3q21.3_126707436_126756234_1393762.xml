@@ -1,0 +1,150 @@
+<VariationArchive RecordType="classified" VariationID="1393762" VariationName="NM_032242.4(PLXNA1):c.2486del (p.Gly829fs)" VariationType="Deletion" Accession="VCV001393762" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1411966" VariationID="1393762">
+      <GeneList>
+        <Gene Symbol="PLXNA1" FullName="plexin A1" GeneID="5361" HGNC_ID="HGNC:9099" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="126983115" stop="127037389" display_start="126983115" display_stop="127037389" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="126707436" stop="126756234" display_start="126707436" display_stop="126756234" Strand="+" />
+          </Location>
+          <OMIM>601055</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_032242.4(PLXNA1):c.2486del (p.Gly829fs)</Name>
+      <CanonicalSPDI>NC_000003.12:127014255:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="127014256" stop="127014256" display_start="127014256" display_stop="127014256" variantLength="1" positionVCF="127014255" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="126733099" stop="126733099" display_start="126733099" display_stop="126733099" variantLength="1" positionVCF="126733098" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>G829fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.126733100del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.126733100del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.127014257del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.127014257del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_032242.4" sequenceAccession="NM_032242" sequenceVersion="4" change="c.2486del" MANESelect="true">
+            <Expression>NM_032242.4:c.2486del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_115618.3" sequenceAccession="NP_115618" sequenceVersion="3" change="p.Gly829fs">
+            <Expression>NP_115618.3:p.Gly829fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2107631669" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_032242.4(PLXNA1):c.2486del (p.Gly829fs) AND not provided" Accession="RCV001898369" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">34054129</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4183152" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="10362933|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002158044" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">34054129</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Gly829Aspfs*131) in the PLXNA1 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in PLXNA1 are known to be pathogenic (PMID: 34054129). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with PLXNA1-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PLXNA1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.126733099del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4183152" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

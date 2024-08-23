@@ -1,0 +1,137 @@
+<VariationArchive VariationID="1456239" VariationName="NC_000005.9:g.(?_147443608)_(147451803_?)del" VariationType="Deletion" Accession="VCV001456239" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1458179" VariationID="1456239">
+      <GeneList>
+        <Gene Symbol="SPINK5" FullName="serine peptidase inhibitor Kazal type 5" GeneID="11005" HGNC_ID="HGNC:15464" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="148063980" stop="148137382" display_start="148063980" display_stop="148137382" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="147443534" stop="147516924" display_start="147443534" display_stop="147516924" Strand="+" />
+          </Location>
+          <OMIM>605010</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.(?_147443608)_(147451803_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="147443608" innerStop="147451803" display_start="147443608" display_stop="147451803" variantLength="8196" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_147443608)_(147451803_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_147443608)_(147451803_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.(?_147443608)_(147451803_?)del AND Ichthyosis linearis circumflexa" Accession="RCV004564895" Version="1">
+        <ClassifiedConditionList TraitSetID="85152">
+          <ClassifiedCondition DB="MedGen" ID="C0265962">Ichthyosis linearis circumflexa</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11511292</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11841556</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="85152" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="54765" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ichthyosis linearis circumflexa</ElementValue>
+                <XRef ID="MONDO:0043106" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2967" />
+                <XRef ID="2967" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C0265962" DB="MedGen" />
+              <XRef ID="MONDO:0043106" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4256616" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_006846.3_5_Deletion (exons 1-4)|MedGen:C0265962" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002238860" DateUpdated="2024-06-09" DateCreated="2022-03-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">11511292</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">11841556</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 1-4 of the SPINK5 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in SPINK5 are known to be pathogenic (PMID: 11511292, 11841556). This variant has not been reported in the literature in individuals affected with SPINK5-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPINK5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.(?_147443608)_(147451803_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0265962" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4256616" TraitType="Disease" MappingType="XRef" MappingValue="C0265962" MappingRef="MedGen">
+        <MedGen CUI="C0265962" Name="Ichthyosis linearis circumflexa" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

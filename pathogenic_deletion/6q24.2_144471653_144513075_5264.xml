@@ -1,0 +1,155 @@
+<VariationArchive RecordType="classified" VariationID="5264" VariationName="NC_000006.12:g.144176889_144196077del" VariationType="Deletion" Accession="VCV000005264" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-06-22" MostRecentSubmission="2018-06-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="20303" VariationID="5264">
+      <GeneList>
+        <Gene Symbol="STX11" FullName="syntaxin 11" GeneID="8676" HGNC_ID="HGNC:11429" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="144139963" stop="144191939" display_start="144139963" display_stop="144191939" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="144471653" stop="144513075" display_start="144471653" display_stop="144513075" Strand="+" />
+          </Location>
+          <OMIM>605014</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.144176889_144196077del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="144176889" stop="144196077" display_start="144176889" display_stop="144196077" variantLength="19189" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="144498026" stop="144517214" display_start="144498026" display_stop="144517214" variantLength="19189" />
+      </Location>
+      <OtherNameList>
+        <Name>19.2-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.144498026_144517214del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.144498026_144517214del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.144176889_144196077del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.144176889_144196077del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv3761603" DB="dbVar" />
+        <XRef ID="nsv1067917" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="605014.0002" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">19,189-nt deletion including the entire coding region of gene STX11 plus flanking sequences.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.144176889_144196077del AND Familial hemophagocytic lymphohistiocytosis 4" Accession="RCV000005580" Version="4">
+        <ClassifiedConditionList TraitSetID="1458">
+          <ClassifiedCondition DB="MedGen" ID="C1863728">Familial hemophagocytic lymphohistiocytosis 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2005-03-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2005-03-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-06-22" MostRecentSubmission="2018-06-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15703195</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1458" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5240" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Familial hemophagocytic lymphohistiocytosis 4</ElementValue>
+                <XRef ID="MONDO:0011336" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HLH4</ElementValue>
+                <XRef Type="MIM" ID="603552" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HPLH4</ElementValue>
+                <XRef Type="MIM" ID="603552" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">FHL4</ElementValue>
+                <XRef Type="MIM" ID="603552" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9929" />
+                <XRef ID="9929" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="540" DB="Orphanet" />
+              <XRef ID="C1863728" DB="MedGen" />
+              <XRef ID="MONDO:0011336" DB="MONDO" />
+              <XRef Type="MIM" ID="603552" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25762" SubmissionDate="2018-06-19" DateLastUpdated="2018-06-22" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605014.0002_HEMOPHAGOCYTIC LYMPHOHISTIOCYTOSIS, FAMILIAL, 4" title="STX11, 19.2-KB DEL_HEMOPHAGOCYTIC LYMPHOHISTIOCYTOSIS, FAMILIAL, 4" />
+        <ClinVarAccession Accession="SCV000025762" DateUpdated="2018-06-22" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2005-03-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of a Turkish family of Kurdish origin with familial hemophagocytic lymphohistiocytosis (FHL4; 603552), Zur Stadt et al. (2005) identified a deletion of 19,189 basepairs in the STX11 gene, including part of intron 1 and the entire coding region.</Attribute>
+              <Citation>
+                <ID Source="PubMed">15703195</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="603552" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="STX11" />
+          </GeneList>
+          <Name>STX11, 19.2-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">19.2-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605014.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HEMOPHAGOCYTIC LYMPHOHISTIOCYTOSIS, FAMILIAL, 4</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25762" TraitType="Disease" MappingType="Name" MappingValue="HEMOPHAGOCYTIC LYMPHOHISTIOCYTOSIS, FAMILIAL, 4" MappingRef="Preferred">
+        <MedGen CUI="C1863728" Name="Familial hemophagocytic lymphohistiocytosis 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

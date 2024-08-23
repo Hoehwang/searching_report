@@ -1,0 +1,157 @@
+<VariationArchive VariationID="801359" VariationName="NM_005321.3(H1-4):c.429_430del (p.Ala144fs)" VariationType="Deletion" Accession="VCV000801359" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2020-01-11" MostRecentSubmission="2020-01-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="789742" VariationID="801359">
+      <GeneList>
+        <Gene Symbol="H1-4" FullName="H1.4 linker histone, cluster member" GeneID="3008" HGNC_ID="HGNC:4718" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="26156329" stop="26157115" display_start="26156329" display_stop="26157115" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="26156558" stop="26157342" display_start="26156558" display_stop="26157342" Strand="+" />
+          </Location>
+          <OMIM>142220</OMIM>
+          <Haploinsufficiency last_evaluated="2022-07-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=H1-4">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-07-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=H1-4">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_005321.3(H1-4):c.429_430del (p.Ala144fs)</Name>
+      <CanonicalSPDI>NC_000006.12:26156815:GGGGG:GGG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="26156816" stop="26156817" display_start="26156816" display_stop="26156817" variantLength="2" positionVCF="26156815" referenceAlleleVCF="CGG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="26157044" stop="26157045" display_start="26157044" display_stop="26157045" variantLength="2" positionVCF="26157043" referenceAlleleVCF="CGG" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>A144fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.26157047_26157048del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.26157047_26157048del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.26156819_26156820del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.26156819_26156820del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005321.3" sequenceAccession="NM_005321" sequenceVersion="3" change="c.429_430del" MANESelect="true">
+            <Expression>NM_005321.3:c.429_430del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005312.1" sequenceAccession="NP_005312" sequenceVersion="1" change="p.Ala144fs">
+            <Expression>NP_005312.1:p.Ala144fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1131690805" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005321.3(H1-4):c.429_430del (p.Ala144fs) AND Rahman syndrome" Accession="RCV000986122" Version="1">
+        <ClassifiedConditionList TraitSetID="36736">
+          <ClassifiedCondition DB="MedGen" ID="C4479637">Rahman syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-01-11" MostRecentSubmission="2020-01-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36736" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37876" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rahman syndrome</ElementValue>
+                <XRef ID="MONDO:0044323" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RMNS</ElementValue>
+                <XRef Type="MIM" ID="617537" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13422" />
+                <XRef ID="13422" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">The name HIST1H1E syndrome has been proposed as a mnemonic for the characteristic features of this emerging, recognizable phenotype: hypotonia; intellectual disability with behavioral issues; skeletal; testes (undescended) and thyroid; heart anomalies (most commonly atrial septal defect); and ectodermal issues (including sparse hair, thin nails, and abnormal dentition). In the 47 affected individuals reported to date, predominant findings were intellectual disability (ranging from mild to profound) and behavioral problems (combinations of anxiety/phobias, obsessive behaviors, attention-deficit/hyperactivity disorder, and autistic spectrum disorder/traits among others). Skeletal involvement can include scoliosis and decreased bone mineral density. Other findings in some include seizures, craniosynostosis, and hearing loss. Life expectancy does not appear to be reduced in HIST1H1E syndrome.</Attribute>
+                <XRef ID="NBK564966" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">33270410</ID>
+                <ID Source="BookShelf">NBK564966</ID>
+              </Citation>
+              <XRef ID="642763" DB="Orphanet" />
+              <XRef ID="C4479637" DB="MedGen" />
+              <XRef ID="MONDO:0044323" DB="MONDO" />
+              <XRef Type="MIM" ID="617537" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2240810" SubmissionDate="2019-10-29" DateLastUpdated="2020-01-11" DateCreated="2020-01-11">
+        <ClinVarSubmissionID localKey="NC_000006.11:g.26157044_26157045delGG|OMIM:617537" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001135016" DateUpdated="2020-01-11" DateCreated="2020-01-11" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/chhjzatu/mendelics_assertion_criteria_2017.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HIST1H1E" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.26157044_26157045delGG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617537" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_021</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2240810" TraitType="Disease" MappingType="XRef" MappingValue="617537" MappingRef="OMIM">
+        <MedGen CUI="C4479637" Name="Rahman syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

@@ -1,0 +1,195 @@
+<VariationArchive VariationID="1810421" VariationName="Single allele" VariationType="Deletion" Accession="VCV001810421" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2023-01-15" MostRecentSubmission="2023-01-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1867436" VariationID="1810421">
+      <GeneList>
+        <Gene Symbol="WWOX" FullName="WW domain containing oxidoreductase" GeneID="51741" HGNC_ID="HGNC:12799" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16q23.1-23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="78099654" stop="79212667" display_start="78099654" display_stop="79212667" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="78133326" stop="79246563" display_start="78133326" display_stop="79246563" Strand="+" />
+          </Location>
+          <OMIM>605131</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="78375608" stop="78407230" display_start="78375608" display_stop="78407230" variantLength="31623" alternateAllele="-" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Developmental and epileptic encephalopathy, 28" Accession="RCV002509908" Version="2">
+        <ClassifiedConditionList TraitSetID="20653">
+          <ClassifiedCondition DB="MedGen" ID="C4015519">Developmental and epileptic encephalopathy, 28</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-07-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-07-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-01-15" MostRecentSubmission="2023-01-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20653" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32687" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 28</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 28</ElementValue>
+                <XRef ID="MONDO:0014533" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE28</ElementValue>
+                <XRef Type="MIM" ID="616211" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16069" />
+                <XRef ID="16069" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="442835" DB="Orphanet" />
+              <XRef ID="C4015519" DB="MedGen" />
+              <XRef ID="MONDO:0014533" DB="MONDO" />
+              <XRef Type="MIM" ID="616211" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5503627" SubmissionDate="2023-01-04" DateLastUpdated="2023-01-15" DateCreated="2023-01-15">
+        <ClinVarSubmissionID localKey="c894fb47-cd0f-42d8-a96f-a521325f07a7_2|OMIM:616211" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002818571" DateUpdated="2023-01-15" DateCreated="2023-01-15" Type="SCV" Version="1" SubmitterName="Undiagnosed Diseases Network, NIH" OrgID="505999" OrganizationCategory="consortium" OrgAbbreviation="UDN" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-07-08">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0006579" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000615" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001344" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002944" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0007886" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0033725" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0100704" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WWOX" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="16" alternateAllele="-" start="78375608" stop="78407230" variantLength="31623" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616211" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>Undiagnosed Diseases Network (NIH), UDN</StudyName>
+        <Comment>VARIANT DETAILS Similar but not exactly same deletions in the WWOX gene have been described as pathogenic in ClinVar (ID: 687407, 625676). This variant has not been observed in gnomAD or DGV gold standard variants. This variant is predicted to cause an out-of-frame deletion of exon 6 of the WWOX gene. This deletion is predicted to be deleterious.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB12510816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000252" MappingRef="HP">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0007886" MappingRef="HP">
+        <MedGen CUI="C4024777" Name="Absent extraocular muscles" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002944" MappingRef="HP">
+        <MedGen CUI="C0749379" Name="Thoracolumbar scoliosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0033725" MappingRef="HP">
+        <MedGen CUI="C5441562" Name="Thin corpus callosum" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000615" MappingRef="HP">
+        <MedGen CUI="C0154936" Name="Abnormal pupil morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0100704" MappingRef="HP">
+        <MedGen CUI="C4048268" Name="Cerebral visual impairment" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001344" MappingRef="HP">
+        <MedGen CUI="C1854882" Name="Absent speech" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001249" MappingRef="HP">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001252" MappingRef="HP">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Disease" MappingType="XRef" MappingValue="616211" MappingRef="OMIM">
+        <MedGen CUI="C4015519" Name="Developmental and epileptic encephalopathy, 28" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0006579" MappingRef="HP">
+        <MedGen CUI="C1859236" Name="Prolonged neonatal jaundice" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5503627" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001250" MappingRef="HP">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

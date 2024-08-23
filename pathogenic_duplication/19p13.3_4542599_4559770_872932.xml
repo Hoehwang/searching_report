@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="872932" VariationName="NM_032108.4(SEMA6B):c.1950_1969dup (p.Arg657fs)" VariationType="Duplication" Accession="VCV000872932" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-05-19" MostRecentSubmission="2020-05-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="861067" VariationID="872932">
+      <GeneList>
+        <Gene Symbol="SEMA6B" FullName="semaphorin 6B" GeneID="10501" HGNC_ID="HGNC:10739" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="4542593" stop="4559684" display_start="4542593" display_stop="4559684" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="4542599" stop="4559770" display_start="4542599" display_stop="4559770" Strand="-" />
+          </Location>
+          <OMIM>608873</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_032108.4(SEMA6B):c.1950_1969dup (p.Arg657fs)</Name>
+      <CanonicalSPDI>NC_000019.10:4544298:GCTCGCCCAGGCGGCTGACG:GCTCGCCCAGGCGGCTGACGGCTCGCCCAGGCGGCTGACG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="4544298" stop="4544299" display_start="4544298" display_stop="4544299" variantLength="20" positionVCF="4544298" referenceAlleleVCF="C" alternateAlleleVCF="CGCTCGCCCAGGCGGCTGACG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="4544310" stop="4544311" display_start="4544310" display_stop="4544311" variantLength="20" positionVCF="4544310" referenceAlleleVCF="C" alternateAlleleVCF="CGCTCGCCCAGGCGGCTGACG" />
+      </Location>
+      <ProteinChange>R657fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.4544299_4544318dup" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.4544299_4544318dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.4544311_4544330dup" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.4544311_4544330dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_032108.4" sequenceAccession="NM_032108" sequenceVersion="4" change="c.1950_1969dup" MANESelect="true">
+            <Expression>NM_032108.4:c.1950_1969dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_115484.2" sequenceAccession="NP_115484" sequenceVersion="2" change="p.Arg657fs">
+            <Expression>NP_115484.2:p.Arg657fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608873.0001" DB="OMIM" />
+        <XRef Type="rs" ID="1977106116" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_032108.4(SEMA6B):c.1950_1969dup (p.Arg657fs) AND Epilepsy, progressive myoclonic, 11" Accession="RCV001093611" Version="1">
+        <ClassifiedConditionList TraitSetID="53527">
+          <ClassifiedCondition DB="MedGen" ID="C5394362">Epilepsy, progressive myoclonic, 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-05-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-05-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-19" MostRecentSubmission="2020-05-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32169168</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="53527" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="52436" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, progressive myoclonic, 11</ElementValue>
+                <XRef ID="MONDO:0030034" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">EPM11</ElementValue>
+                <XRef Type="MIM" ID="618876" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5394362" DB="MedGen" />
+              <XRef ID="MONDO:0030034" DB="MONDO" />
+              <XRef Type="MIM" ID="618876" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2475877" SubmissionDate="2020-05-12" DateLastUpdated="2020-05-19" DateCreated="2020-05-19">
+        <ClinVarSubmissionID localKey="608873.0001_EPILEPSY, PROGRESSIVE MYOCLONIC, 11" title="SEMA6B, 20-BP DUP, NT1950_EPILEPSY, PROGRESSIVE MYOCLONIC, 11" />
+        <ClinVarAccession Accession="SCV001250715" DateUpdated="2020-05-19" DateCreated="2020-05-19" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-05-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 22-year-old Japanese man (patient 1) with progressive myoclonic epilepsy-11 (EPM11; 618876), Hamanaka et al. (2020) identified a de novo 20-bp duplication (c.1950_1969dup, NM_032108.4) in the last exon of the SEMA6B gene, predicted to result in a frameshift and premature termination (Arg657ProfsTer35). The mutation, which was found by a sequencing technique using enrichment analysis for mutations predicted to escape nonsense-mediated mRNA decay, was confirmed by Sanger sequencing. Functional studies of the variant were not performed, but the mutant transcript was predicted to produce a truncated protein lacking the intracellular domain.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32169168</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618876" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SEMA6B" />
+          </GeneList>
+          <Name>SEMA6B, 20-BP DUP, NT1950</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">20-BP DUP, NT1950</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608873.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">EPILEPSY, PROGRESSIVE MYOCLONIC, 11</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2475877" TraitType="Disease" MappingType="Name" MappingValue="EPILEPSY, PROGRESSIVE MYOCLONIC, 11" MappingRef="Preferred">
+        <MedGen CUI="C5394362" Name="Epilepsy, progressive myoclonic, 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

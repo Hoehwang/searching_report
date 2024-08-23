@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="984673" VariationName="NC_000005.9:g.127441491_127471419delinsATGAAAAGCTTTACAGAAGTTGGAATTAAAAAAA" VariationType="Deletion" Accession="VCV000984673" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2020-11-14" MostRecentSubmission="2020-11-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="972755" VariationID="984673">
+      <GeneList>
+        <Gene Symbol="SLC12A2" FullName="solute carrier family 12 member 2" GeneID="6558" HGNC_ID="HGNC:10911" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="128083766" stop="128189677" display_start="128083766" display_stop="128189677" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="127419482" stop="127525379" display_start="127419482" display_stop="127525379" Strand="+" />
+          </Location>
+          <OMIM>600840</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.127441491_127471419delinsATGAAAAGCTTTACAGAAGTTGGAATTAAAAAAA</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="127441491" stop="127471419" display_start="127441491" display_stop="127471419" variantLength="29929" />
+      </Location>
+      <OtherNameList>
+        <Name>22-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.127441491_127471419delinsATGAAAAGCTTTACAGAAGTTGGAATTAAAAAAA" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.127441491_127471419delinsATGAAAAGCTTTACAGAAGTTGGAATTAAAAAAA</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="600840.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.127441491_127471419delinsATGAAAAGCTTTACAGAAGTTGGAATTAAAAAAA AND Kilquist syndrome" Accession="RCV001264777" Version="2">
+        <ClassifiedConditionList TraitSetID="46286">
+          <ClassifiedCondition DB="MedGen" ID="C5436756">Kilquist syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-11-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-11-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-14" MostRecentSubmission="2020-11-14">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30740830</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="46286" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41330" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Kilquist syndrome</ElementValue>
+                <XRef ID="MONDO:0033664" DB="MONDO" />
+                <XRef ID="18c3fb5f-b11b-44db-a639-" DB="Undiagnosed Diseases Network, NIH" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">KILQS</ElementValue>
+                <XRef Type="MIM" ID="619080" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5436756" DB="MedGen" />
+              <XRef ID="MONDO:0033664" DB="MONDO" />
+              <XRef Type="MIM" ID="619080" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2850252" SubmissionDate="2020-11-10" DateLastUpdated="2020-11-14" DateCreated="2020-11-14">
+        <ClinVarSubmissionID localKey="600840.0001_KILQUIST SYNDROME" title="SLC12A2, 22-KB DEL_KILQUIST SYNDROME" />
+        <ClinVarAccession Accession="SCV001443080" DateUpdated="2020-11-14" DateCreated="2020-11-14" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-11-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5.5-year-old boy, born of unrelated parents of mixed European ancestry, with Kilquist syndrome (KILQS; 619080), Macnamara et al. (2019) identified a homozygous 22-kb intragenic deletion in the SLC12A2 gene. The deletion was found by a combination of whole-genome microarray analysis and next-generation sequencing and confirmed by Sanger sequencing. The deletion was inherited from the unaffected father who had isodisomy of chromosome 5. The deletion extended from intron 1 of the SLC12A2 gene to the beginning of exon 7 (chr5:127441491_127471419), including an inversion of 34 bp, which the authors referred to as chr5:127441491_127471419delins34. Large homozygous deletions in this gene were not observed in the gnomAD database. Analysis of mRNA from patient fibroblasts showed that the deletion introduced a splicing defect with premature termination in exon 9. RT-PCR analysis showed decreased mutant mRNA expression (80% of control values), and absence of the SLC12A2 (NKCC1) protein, consistent with a loss of function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30740830</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619080" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC12A2" />
+          </GeneList>
+          <Name>SLC12A2, 22-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">22-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="600840.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">KILQUIST SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2850252" TraitType="Disease" MappingType="Name" MappingValue="KILQUIST SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C5436756" Name="Kilquist syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,194 @@
+<VariationArchive RecordType="classified" VariationID="1074267" VariationName="NC_000005.9:g.(?_1253843)_(1297488_?)del" VariationType="Deletion" Accession="VCV001074267" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1057124" VariationID="1074267">
+      <GeneList>
+        <Gene Symbol="TERT" FullName="telomerase reverse transcriptase" GeneID="7015" HGNC_ID="HGNC:11730" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5p15.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="1253167" stop="1295068" display_start="1253167" display_stop="1295068" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="1253281" stop="1295161" display_start="1253281" display_stop="1295161" Strand="-" />
+          </Location>
+          <OMIM>187270</OMIM>
+          <Haploinsufficiency last_evaluated="2011-11-17" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TERT">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2011-11-17" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TERT">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.(?_1253843)_(1297488_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5p15.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="1253843" innerStop="1297488" display_start="1253843" display_stop="1297488" variantLength="43646" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_1253843)_(1297488_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_1253843)_(1297488_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.(?_1253843)_(1297488_?)del AND multiple conditions" Accession="RCV001387492" Version="1">
+        <ClassifiedConditionList TraitSetID="31144">
+          <ClassifiedCondition DB="MedGen" ID="C3151443">Dyskeratosis congenita, autosomal dominant 2</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C5561926">Interstitial lung disease 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-08-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-08-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12629597</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16247010</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17460043</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="31144" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4065" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Interstitial lung disease 2</ElementValue>
+                <XRef ID="MONDO:0800029" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fibrosing alveolitis, cryptogenic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial idiopathic pulmonary fibrosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fibrocystic pulmonary dysplasia</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ILD2</ElementValue>
+                <XRef Type="MIM" ID="178500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">UIP</ElementValue>
+                <XRef Type="MIM" ID="178500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">SFTPC-Related Familial Pulmonary Fibrosis</Attribute>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301408</ID>
+                <ID Source="BookShelf">NBK1230</ID>
+              </Citation>
+              <XRef ID="2032" DB="Orphanet" />
+              <XRef ID="79126" DB="Orphanet" />
+              <XRef ID="C5561926" DB="MedGen" />
+              <XRef ID="MONDO:0800029" DB="MONDO" />
+              <XRef Type="MIM" ID="178500" DB="OMIM" />
+            </Trait>
+            <Trait ID="16124" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Dyskeratosis congenita, autosomal dominant 2</ElementValue>
+                <XRef ID="MONDO:0013521" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DKCA2</ElementValue>
+                <XRef Type="MIM" ID="613989" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Dyskeratosis congenita and related telomere biology disorders (DC/TBD) are caused by impaired telomere maintenance resulting in short or very short telomeres. The phenotypic spectrum of telomere biology disorders is broad and includes individuals with classic dyskeratosis congenita (DC) as well as those with very short telomeres and an isolated physical finding. Classic DC is characterized by a triad of dysplastic nails, lacy reticular pigmentation of the upper chest and/or neck, and oral leukoplakia, although this may not be present in all individuals. People with DC/TBD are at increased risk for progressive bone marrow failure (BMF), myelodysplastic syndrome or acute myelogenous leukemia, solid tumors (usually squamous cell carcinoma of the head/neck or anogenital cancer), and pulmonary fibrosis. Other findings can include eye abnormalities (epiphora, blepharitis, sparse eyelashes, ectropion, entropion, trichiasis), taurodontism, liver disease, gastrointestinal telangiectasias, and avascular necrosis of the hips or shoulders. Although most persons with DC/TBD have normal psychomotor development and normal neurologic function, significant developmental delay is present in both forms; additional findings include cerebellar hypoplasia (Hoyeraal Hreidarsson syndrome) and bilateral exudative retinopathy and intracranial calcifications (Revesz syndrome and Coats plus syndrome). Onset and progression of manifestations of DC/TBD vary: at the mild end of the spectrum are those who have only minimal physical findings with normal bone marrow function, and at the severe end are those who have the diagnostic triad and early-onset BMF.</Attribute>
+                <XRef ID="NBK22301" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301779</ID>
+                <ID Source="BookShelf">NBK22301</ID>
+              </Citation>
+              <XRef ID="C3151443" DB="MedGen" />
+              <XRef ID="MONDO:0013521" DB="MONDO" />
+              <XRef Type="MIM" ID="613989" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3113796" SubmissionDate="2021-01-07" DateLastUpdated="2021-05-10" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_198253.2_5_Deletion (entire coding sequence)|MedGen:C3151443;C1800706" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001588137" DateUpdated="2021-05-10" DateCreated="2021-05-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-08-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12629597</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16247010</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17460043</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the TERT gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. A similar deletion has been observed in several individuals affected with Cri du Chat syndrome. However, these individuals may have larger chromosomal deletions and other genes in the vicinity of TERT may also be deleted (PMID: 12629597). Loss-of-function variants in TERT are known to be pathogenic (PMID: 16247010, 17460043). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TERT" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.(?_1253843)_(1297488_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3151443" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1800706" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3113796" TraitType="Disease" MappingType="XRef" MappingValue="C1800706" MappingRef="MedGen">
+        <MedGen CUI="C1800706" Name="Idiopathic Pulmonary Fibrosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3113796" TraitType="Disease" MappingType="XRef" MappingValue="C3151443" MappingRef="MedGen">
+        <MedGen CUI="C3151443" Name="Dyskeratosis congenita, autosomal dominant 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

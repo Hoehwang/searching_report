@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="5375" VariationName="AKR1D1, 1-BP DEL, 511T" VariationType="Deletion" Accession="VCV000005375" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-07-19" DateCreated="2015-04-12" MostRecentSubmission="2015-04-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="20414" VariationID="5375">
+      <GeneList>
+        <Gene Symbol="AKR1D1" FullName="aldo-keto reductase family 1 member D1" GeneID="6718" HGNC_ID="HGNC:388" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>7q33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="138076459" stop="138118305" display_start="138076459" display_stop="138118305" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="137761177" stop="137803049" display_start="137761177" display_stop="137803049" Strand="+" />
+          </Location>
+          <OMIM>604741</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>AKR1D1, 1-BP DEL, 511T</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q32-q33</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>1-BP DEL, 511T</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="604741.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="AKR1D1, 1-BP DEL, 511T AND Congenital bile acid synthesis defect 2" Accession="RCV000005706" Version="4">
+        <ClassifiedConditionList TraitSetID="1500">
+          <ClassifiedCondition DB="MedGen" ID="C1856127">Congenital bile acid synthesis defect 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2003-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2003-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-04-12" MostRecentSubmission="2015-04-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12970144</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1500" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="596" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Cholestasis with delta(4)-3-oxosteroid 5-beta-reductase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Congenital bile acid synthesis defect 2</ElementValue>
+                <XRef ID="MONDO:0009339" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CBAS2</ElementValue>
+                <XRef Type="MIM" ID="235555" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10045" />
+                <XRef ID="10045" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="79303" DB="Orphanet" />
+              <XRef ID="C1856127" DB="MedGen" />
+              <XRef ID="MONDO:0009339" DB="MONDO" />
+              <XRef Type="MIM" ID="235555" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25888" SubmissionDate="2015-04-10" DateLastUpdated="2015-04-12" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="604741.0002_BILE ACID SYNTHESIS DEFECT, CONGENITAL, 2" title="AKR1D1, 1-BP DEL, 511T _BILE ACID SYNTHESIS DEFECT, CONGENITAL, 2" />
+        <ClinVarAccession Accession="SCV000025888" DateUpdated="2015-04-12" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2003-10-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a Pakistani patient with congenital bile acid synthesis defect-2 (CBAS2; 235555), born of consanguineous parents, Lemonde et al. (2003) identified a homozygous 1-bp deletion (511delT) in the AKR1D1 gene, resulting in a frameshift and premature termination of the protein in exon 5. The mutation was not identified in 100 control chromosomes. The patient had a severe form of the disorder and required liver transplantation, as oral cholic therapy was insufficient to treat the disorder.</Attribute>
+              <Citation>
+                <ID Source="PubMed">12970144</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="235555" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="AKR1D1" />
+          </GeneList>
+          <Name>AKR1D1, 1-BP DEL, 511T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 511T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604741.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BILE ACID SYNTHESIS DEFECT, CONGENITAL, 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25888" TraitType="Disease" MappingType="Name" MappingValue="BILE ACID SYNTHESIS DEFECT, CONGENITAL, 2" MappingRef="Preferred">
+        <MedGen CUI="C1856127" Name="Congenital bile acid synthesis defect 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

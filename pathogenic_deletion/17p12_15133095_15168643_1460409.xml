@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="1460409" VariationName="NC_000017.10:g.(?_15134214)_(15164064_?)del" VariationType="Deletion" Accession="VCV001460409" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-24" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1504460" VariationID="1460409">
+      <GeneList>
+        <Gene Symbol="PMP22" FullName="peripheral myelin protein 22" GeneID="5376" HGNC_ID="HGNC:9118" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17p12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="15229779" stop="15265326" display_start="15229779" display_stop="15265326" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="15133095" stop="15168643" display_start="15133095" display_stop="15168643" Strand="-" />
+          </Location>
+          <OMIM>601097</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMP22">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMP22">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.10:g.(?_15134214)_(15164064_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17p12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="15134214" innerStop="15164064" display_start="15134214" display_stop="15164064" variantLength="29851" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_15134214)_(15164064_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_15134214)_(15164064_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.10:g.(?_15134214)_(15164064_?)del AND Charcot-Marie-Tooth disease, type I" Accession="RCV001951584" Version="3">
+        <ClassifiedConditionList TraitSetID="12237">
+          <ClassifiedCondition DB="MedGen" ID="C0751036">Charcot-Marie-Tooth disease, type I</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="12237" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15992" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth Neuropathy Type 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hereditary Motor and Sensory Neuropathy 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease, type I</ElementValue>
+                <XRef ID="398040009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth, Type 1</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMT1</ElementValue>
+                <XRef ID="NBK1205" DB="GeneReviews" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12433" />
+                <XRef ID="12433" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301532</ID>
+                <ID Source="BookShelf">NBK1358</ID>
+              </Citation>
+              <XRef ID="65753" DB="Orphanet" />
+              <XRef ID="C0751036" DB="MedGen" />
+              <XRef ID="MONDO:0019011" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4264584" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_000304.3_17_Deletion (entire coding sequence)_15134213_15164064|MedGen:C0751036" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002245294" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PMP22" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_15134214)_(15164064_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0751036" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4264584" TraitType="Disease" MappingType="XRef" MappingValue="C0751036" MappingRef="MedGen">
+        <MedGen CUI="C0751036" Name="Charcot-Marie-Tooth disease, type I" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

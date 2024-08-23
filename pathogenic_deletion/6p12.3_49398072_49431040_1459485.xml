@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="1459485" VariationName="NC_000006.11:g.(?_49399431)_(49427219_?)del" VariationType="Deletion" Accession="VCV001459485" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1484676" VariationID="1459485">
+      <GeneList>
+        <Gene Symbol="MMUT" FullName="methylmalonyl-CoA mutase" GeneID="4594" HGNC_ID="HGNC:7526" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="49430360" stop="49463253" display_start="49430360" display_stop="49463253" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="49398072" stop="49431040" display_start="49398072" display_stop="49431040" Strand="-" />
+          </Location>
+          <OMIM>609058</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.11:g.(?_49399431)_(49427219_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="49399431" innerStop="49427219" display_start="49399431" display_stop="49427219" variantLength="27789" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_49399431)_(49427219_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_49399431)_(49427219_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.11:g.(?_49399431)_(49427219_?)del AND not provided" Accession="RCV001963097" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15781192</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4263379" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_000255.3_6_Deletion (entire coding sequence)|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002243273" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">15781192</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the MUT gene has been identified. Loss-of-function variants in MUT are known to be pathogenic (PMID: 15781192). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with MUT-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MMUT" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_49399431)_(49427219_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4263379" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

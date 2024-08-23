@@ -1,0 +1,139 @@
+<VariationArchive VariationID="3245515" VariationName="NC_000023.10:g.(?_71571563)_(71571708_?)del" VariationType="Deletion" Accession="VCV003245515" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405192" VariationID="3245515">
+      <GeneList>
+        <Gene Symbol="HDAC8" FullName="histone deacetylase 8" GeneID="55869" HGNC_ID="HGNC:13315" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="72329516" stop="72572843" display_start="72329516" display_stop="72572843" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="71549365" stop="71792952" display_start="71549365" display_stop="71792952" Strand="-" />
+          </Location>
+          <OMIM>300269</OMIM>
+          <Haploinsufficiency last_evaluated="2018-03-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HDAC8">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-03-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HDAC8">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_71571563)_(71571708_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="71571563" innerStop="71571708" display_start="71571563" display_stop="71571708" variantLength="146" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_71571563)_(71571708_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_71571563)_(71571708_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_71571563)_(71571708_?)del AND Cornelia de Lange syndrome 5" Accession="RCV004583276" Version="1">
+        <ClassifiedConditionList TraitSetID="8946">
+          <ClassifiedCondition DB="MedGen" ID="C3550903">Cornelia de Lange syndrome 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8946" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17427" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cornelia de Lange syndrome 5</ElementValue>
+                <XRef ID="MONDO:0010471" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CDLS5</ElementValue>
+                <XRef Type="MIM" ID="300882" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Cornelia de Lange syndrome (CdLS) encompasses a spectrum of findings from mild to severe. Severe (classic) CdLS is characterized by distinctive facial features, growth restriction (prenatal onset; &lt;5th centile throughout life), hypertrichosis, and upper-limb reduction defects that range from subtle phalangeal abnormalities to oligodactyly (missing digits). Craniofacial features include synophrys, highly arched and/or thick eyebrows, long eyelashes, short nasal bridge with anteverted nares, small widely spaced teeth, and microcephaly. Individuals with a milder phenotype have less severe growth, cognitive, and limb involvement, but often have facial features consistent with CdLS. Across the CdLS spectrum IQ ranges from below 30 to 102 (mean: 53). Many individuals demonstrate autistic and self-destructive tendencies. Other frequent findings include cardiac septal defects, gastrointestinal dysfunction, hearing loss, myopia, and cryptorchidism or hypoplastic genitalia.</Attribute>
+                <XRef ID="NBK1104" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15271" />
+                <XRef ID="15271" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301283</ID>
+                <ID Source="BookShelf">NBK1104</ID>
+              </Citation>
+              <XRef ID="199" DB="Orphanet" />
+              <XRef ID="C3550903" DB="MedGen" />
+              <XRef ID="MONDO:0010471" DB="MONDO" />
+              <XRef Type="MIM" ID="300882" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9836042" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000023.10:g.(?_71571563)_(71571708_?)del|MedGen:C3550903" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005062887" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the HDAC8 protein in which other variant(s) (p.Tyr340Ser) have been determined to be pathogenic (Invitae). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant has not been reported in the literature in individuals affected with HDAC8-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 10 of the HDAC8 gene. While this deletion is not anticipated to lead to nonsense mediated decay, it is expected to disrupt the C-terminus of the protein.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_71571563)_(71571708_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3550903" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9836042" TraitType="Disease" MappingType="XRef" MappingValue="C3550903" MappingRef="MedGen">
+        <MedGen CUI="C3550903" Name="Cornelia de Lange syndrome 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

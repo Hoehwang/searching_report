@@ -1,0 +1,183 @@
+<VariationArchive RecordType="classified" VariationID="1683496" VariationName="NM_003221.4(TFAP2B):c.602-5_606del" VariationType="Deletion" Accession="VCV001683496" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-07-02" MostRecentSubmission="2022-07-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1675428" VariationID="1683496">
+      <GeneList>
+        <Gene Symbol="TFAP2B" FullName="transcription factor AP-2 beta" GeneID="7021" HGNC_ID="HGNC:11743" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="50818355" stop="50847619" display_start="50818355" display_stop="50847619" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="50786438" stop="50815325" display_start="50786438" display_stop="50815325" Strand="+" />
+          </Location>
+          <OMIM>601601</OMIM>
+          <Haploinsufficiency last_evaluated="2023-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TFAP2B">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TFAP2B">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_003221.4(TFAP2B):c.602-5_606del</Name>
+      <CanonicalSPDI>NC_000006.12:50836055:TCTAGTTCCA:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="50836056" stop="50836065" display_start="50836056" display_stop="50836065" variantLength="10" positionVCF="50836055" referenceAlleleVCF="TTCTAGTTCCA" alternateAlleleVCF="T" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.50836056_50836065del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.50836056_50836065del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008438.1" sequenceAccession="NG_008438" sequenceVersion="1" change="g.22331_22340del">
+            <Expression>NG_008438.1:g.22331_22340del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003221.4" sequenceAccession="NM_003221" sequenceVersion="4" change="c.602-5_606del" MANESelect="true">
+            <Expression>NM_003221.4:c.602-5_606del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003221.4" sequenceAccession="NM_003221" sequenceVersion="4" change="c.602-5_606delTCTAGTTCCA" MANESelect="true">
+            <Expression>NM_003221.4:c.602-5_606delTCTAGTTCCA</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2113949539" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="effect on RNA splicing">
+        <XRef ID="0362" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003221.4(TFAP2B):c.602-5_606del AND Chronic intestinal pseudoobstruction" Accession="RCV002259412" Version="1">
+        <ClassifiedConditionList TraitSetID="23251">
+          <ClassifiedCondition DB="MedGen" ID="C0238062">Chronic intestinal pseudoobstruction</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-07-02" MostRecentSubmission="2022-07-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="23251" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34407" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Chronic intestinal pseudoobstruction</ElementValue>
+                <XRef ID="MONDO:0017574" DB="MONDO" />
+                <XRef ID="2978" DB="Orphanet" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12744" />
+                <XRef ID="12744" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2978" DB="Orphanet" />
+              <XRef ID="C0238062" DB="MedGen" />
+              <XRef ID="MONDO:0017574" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4923964" SubmissionDate="2022-05-13" DateLastUpdated="2022-07-02" DateCreated="2022-07-02">
+        <ClinVarSubmissionID localKey="SUB11463804" submittedAssembly="GRCh37" title="SUB11463804" />
+        <ClinVarAccession Accession="SCV002507296" DateUpdated="2022-07-02" DateCreated="2022-07-02" Type="SCV" Version="1" SubmitterName="Clinical Genetics, Erasmus University Medical Center" OrgID="505701" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>HiseqNovaseq 6000</NamePlatform>
+              <TypePlatform>High-Throughput DNA Sequencing</TypePlatform>
+              <Description>Three micrograms of dsDNA was fragmented (Covaris) and exonic sequences were captured using the Agilent SureSelect Clinical Research Exome V2. Paired-end sequencing on a Novaseq 6000 with a paired-end 2x101bp protocol and an average coverage of 50X. Reads were mapped against the human reference genome GRCh37/hg19 with the Burrows-Wheeler Aligner [1], variants were called using the Genome Analysis Toolkit. Alissa Interpret software was used to filter and prioritize variants</Description>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>in vitro</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">splicing affected</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Comment>using a mini gene assay splicing was evaluated</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TFAP2B">
+              <Name>transcription factor AP-2 beta</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_003221.4:intron 3</GeneLocation>
+          </Location>
+          <FunctionalConsequence Value="effect on RNA splicing">
+            <XRef DB="Variation Ontology" ID="0362" URL="http://purl.obolibrary.org/obo/VariO_0362" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003221.4:c.602-5_606delTCTAGTTCCA</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA2978" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11463804</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4923964" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA2978" MappingRef="Orphanet">
+        <MedGen CUI="C0238062" Name="Chronic intestinal pseudoobstruction" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

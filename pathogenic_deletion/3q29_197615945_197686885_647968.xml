@@ -1,0 +1,175 @@
+<VariationArchive VariationID="647968" VariationName="NC_000003.12:g.(?_197950958)_(197955783_?)del" VariationType="Deletion" Accession="VCV000647968" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="651033" VariationID="647968">
+      <GeneList>
+        <Gene Symbol="IQCG" FullName="IQ motif containing G" GeneID="84223" HGNC_ID="HGNC:25251" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>3q29</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="197889077" stop="197960177" display_start="197889077" display_stop="197960177" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="197615945" stop="197686885" display_start="197615945" display_stop="197686885" Strand="-" />
+          </Location>
+          <OMIM>612477</OMIM>
+        </Gene>
+        <Gene Symbol="RPL35A" FullName="ribosomal protein L35a" GeneID="6165" HGNC_ID="HGNC:10345" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>3q29</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="197950190" stop="197956610" display_start="197950190" display_stop="197956610" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="197677051" stop="197682721" display_start="197677051" display_stop="197682721" Strand="+" />
+          </Location>
+          <OMIM>180468</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.12:g.(?_197950958)_(197955783_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q29</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" innerStart="197950958" innerStop="197955783" display_start="197950958" display_stop="197955783" variantLength="4826" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="197677829" innerStop="197682654" display_start="197677829" display_stop="197682654" variantLength="4826" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.(?_197950958)_(197955783_?)del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.(?_197950958)_(197955783_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_197677829)_(197682654_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_197677829)_(197682654_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.12:g.(?_197950958)_(197955783_?)del AND Diamond-Blackfan anemia 5" Accession="RCV000802594" Version="2">
+        <ClassifiedConditionList TraitSetID="3546">
+          <ClassifiedCondition DB="MedGen" ID="C2675859">Diamond-Blackfan anemia 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-09-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-09-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18535205</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22262766</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22689679</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3546" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4953" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Diamond-Blackfan anemia 5</ElementValue>
+                <XRef ID="MONDO:0012925" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DBA5</ElementValue>
+                <XRef Type="MIM" ID="612528" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15562" />
+                <XRef ID="15562" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Diamond-Blackfan anemia (DBA) is characterized by a profound normochromic and usually macrocytic anemia with normal leukocytes and platelets, congenital malformations in up to 50%, and growth deficiency in 30% of affected individuals. The hematologic complications occur in 90% of affected individuals during the first year of life. The phenotypic spectrum ranges from a mild form (e.g., mild anemia or no anemia with only subtle erythroid abnormalities, physical malformations without anemia) to a severe form of fetal anemia resulting in nonimmune hydrops fetalis. DBA is associated with an increased risk for acute myelogenous leukemia (AML), myelodysplastic syndrome (MDS), and solid tumors including osteogenic sarcoma.</Attribute>
+                <XRef ID="NBK7047" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301769</ID>
+                <ID Source="BookShelf">NBK7047</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2011">
+                <ID Source="pmc">3083626</ID>
+              </Citation>
+              <XRef ID="124" DB="Orphanet" />
+              <XRef ID="C2675859" DB="MedGen" />
+              <XRef ID="MONDO:0012925" DB="MONDO" />
+              <XRef Type="MIM" ID="612528" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1836396" SubmissionDate="2019-03-28" DateLastUpdated="2019-08-14" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="5032094|MedGen:C2675859" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000942431" DateUpdated="2019-08-14" DateCreated="2019-08-14" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-09-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22689679</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22262766</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18535205</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the RPL35A gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. Similar deletions of the entire coding sequence have been observed in individuals affected with Diamond-Blackfan anemia (PMID: 18535205, 22262766, 22689679). Loss-of-function variants in RPL35A are known to be pathogenic (PMID:Â¬â€ 18535205, 25946618). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RPL35A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_197677829)_(197682654_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Diamond-Blackfan anemia 5</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C2675859" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1836396" TraitType="Disease" MappingType="Name" MappingValue="Diamond-Blackfan anemia 5" MappingRef="Preferred">
+        <MedGen CUI="C2675859" Name="Diamond-Blackfan anemia 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

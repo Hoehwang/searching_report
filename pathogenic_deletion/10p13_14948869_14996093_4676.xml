@@ -1,0 +1,118 @@
+<VariationArchive VariationID="4676" VariationName="DCLRE1C, 17-BP DEL" VariationType="Deletion" Accession="VCV000004676" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="19715" VariationID="4676">
+      <GeneList>
+        <Gene Symbol="DCLRE1C" FullName="DNA cross-link repair 1C" GeneID="64421" HGNC_ID="HGNC:17642" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>10p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="14897359" stop="14954432" display_start="14897359" display_stop="14954432" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="14948869" stop="14996093" display_start="14948869" display_stop="14996093" Strand="-" />
+          </Location>
+          <OMIM>605988</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>DCLRE1C, 17-BP DEL</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10p</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>17-BP DEL</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605988.0011" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="DCLRE1C, 17-BP DEL AND Severe combined immunodeficiency, partial" Accession="RCV000004940" Version="4">
+        <ClassifiedConditionList TraitSetID="1284">
+          <ClassifiedCondition DB="MedGen" ID="C1865373">Severe combined immunodeficiency, partial</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2003-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2003-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12569164</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1284" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9069" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency, partial</ElementValue>
+              </Name>
+              <XRef ID="C1865373" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25116" SubmissionDate="2016-09-14" DateLastUpdated="2016-09-17" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605988.0011_SEVERE COMBINED IMMUNODEFICIENCY, PARTIAL" title="DCLRE1C, 17-BP DEL_SEVERE COMBINED IMMUNODEFICIENCY, PARTIAL" />
+        <ClinVarAccession Accession="SCV000025116" DateUpdated="2016-09-17" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2003-02-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with partial partial severe combined immunodeficiency (SCID; 602450), Moshous et al. (2003) identified a homozygous 17-bp deletion in exon 14 of the Artemis gene, resulting in a premature stop codon 15 amino acids downstream. The deletion spared the metallo-beta-lactamase catalytic region of the protein, predicting residual functional activity.</Attribute>
+              <Citation>
+                <ID Source="PubMed">12569164</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="602450" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DCLRE1C" />
+          </GeneList>
+          <Name>DCLRE1C, 17-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">17-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605988.0011" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SEVERE COMBINED IMMUNODEFICIENCY, PARTIAL</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25116" TraitType="Disease" MappingType="Name" MappingValue="SEVERE COMBINED IMMUNODEFICIENCY, PARTIAL" MappingRef="Preferred">
+        <MedGen CUI="C1865373" Name="Severe combined immunodeficiency, partial" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

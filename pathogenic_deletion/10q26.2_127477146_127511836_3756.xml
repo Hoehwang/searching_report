@@ -1,0 +1,194 @@
+<VariationArchive VariationID="3756" VariationName="NM_000375.2(UROS):c.148_244del" VariationType="Deletion" Accession="VCV000003756" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2019-06-02" MostRecentSubmission="2019-06-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="18795" VariationID="3756">
+      <GeneList>
+        <Gene Symbol="UROS" FullName="uroporphyrinogen III synthase" GeneID="7390" HGNC_ID="HGNC:12592" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>10q26.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="125784980" stop="125823258" display_start="125784980" display_stop="125823258" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="127477146" stop="127511836" display_start="127477146" display_stop="127511836" Strand="-" />
+          </Location>
+          <OMIM>606938</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000375.2(UROS):c.148_244del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q25.2-q26.3</CytogeneticLocation>
+      </Location>
+      <HGVSlist>
+        <HGVS Type="protein">
+          <ProteinExpression sequenceAccessionVersion="NP_000366.1" sequenceAccession="NP_000366" sequenceVersion="1" change="p.Leu50Serfs">
+            <Expression>NP_000366.1:p.Leu50Serfs</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.127503605_127503701del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.127503605_127503701del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.125815036_125815132del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.125815036_125815132del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011557.2" sequenceAccession="NG_011557" sequenceVersion="2" change="g.13139_13235del">
+            <Expression>NG_011557.2:g.13139_13235del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1081" sequenceAccession="LRG_1081">
+            <Expression>LRG_1081:g.13139_13235del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA252868" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="606938.0007" DB="OMIM" />
+        <XRef Type="rs" ID="2133941461" DB="dbSNP" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">This is a skipping of exon 4 from UROS, determined by cDNA sequencing in PMID 1733834.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 1733834 to determine the location of this allele on the current reference sequence. They refer to this as 148_245del98, but the translation they show after the deletion in Fig. 2 would result from c.148_244del97, which exactly deletes exon 4.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000375.2(UROS):c.148_244del AND Cutaneous porphyria" Accession="RCV000003954" Version="12">
+        <ClassifiedConditionList TraitSetID="1040">
+          <ClassifiedCondition DB="MedGen" ID="C0162530">Cutaneous porphyria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1992-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1992-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-06-02" MostRecentSubmission="2019-06-02">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">1733834</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1040" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5790" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">GUNTHER DISEASE</ElementValue>
+                <XRef Type="MIM" ID="263700" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital porphyria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital erythropoietic porphyria</ElementValue>
+                <XRef ID="Congenital+Porphyria/1863" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Günther disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Uroporphyrinogen III synthase, deficiency of</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">UROPORPHYRINOGEN III SYNTHASE DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="263700" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Porphyria, Erythropoietic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cutaneous porphyria</ElementValue>
+                <XRef ID="MONDO:0009902" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CEP</ElementValue>
+                <XRef Type="MIM" ID="263700" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Congenital erythropoietic porphyria (CEP) is characterized in most individuals by severe cutaneous photosensitivity with blistering and increased friability of the skin over light-exposed areas. Onset in most affected individuals occurs at birth or early infancy. The first manifestation is often pink-to-dark red discoloration of the urine. Hemolytic anemia is common and can range from mild to severe, with some affected individuals requiring chronic blood transfusions. Porphyrin deposition may lead to corneal ulcers and scarring, reddish-brown discoloration of the teeth (erythrodontia), and bone loss and/or expansion of the bone marrow. The phenotypic spectrum, however, is broad and ranges from nonimmune hydrops fetalis in utero to late-onset disease with only mild cutaneous manifestations in adulthood.</Attribute>
+                <XRef ID="NBK154652" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4446" />
+                <XRef ID="4446" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">24027798</ID>
+                <ID Source="BookShelf">NBK154652</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="Orphanet, 2007">
+                <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_CutaneousPorphyrias.pdf</URL>
+                <CitationText>Orphanet emergency guideline: Cutaneous porphyrias, 2007</CitationText>
+              </Citation>
+              <XRef ID="79277" DB="Orphanet" />
+              <XRef ID="C0162530" DB="MedGen" />
+              <XRef ID="MONDO:0009902" DB="MONDO" />
+              <XRef Type="MIM" ID="263700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="24119" SubmissionDate="2019-05-29" DateLastUpdated="2019-06-02" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="606938.0007_PORPHYRIA, CONGENITAL ERYTHROPOIETIC" title="UROS, 98-BP DEL, NT148_PORPHYRIA, CONGENITAL ERYTHROPOIETIC" />
+        <ClinVarAccession Accession="SCV000024119" DateUpdated="2019-06-02" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1992-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with congenital erythropoietic porphyria (CEP; 263700), Boulechfar et al. (1992) demonstrated deletion of nucleotides 148-245 in the UROS gene. The deleted segment included the sites of 2 previously described point mutations, pro53-to-leu (P53L; 606938.0002) and cys73-to-arg (C73R; 606938.0001).</Attribute>
+              <Citation>
+                <ID Source="PubMed">1733834</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="263700" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="UROS" />
+          </GeneList>
+          <Name>UROS, 98-BP DEL, NT148</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">98-BP DEL, NT148</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="606938.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PORPHYRIA, CONGENITAL ERYTHROPOIETIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="24119" TraitType="Disease" MappingType="Name" MappingValue="PORPHYRIA, CONGENITAL ERYTHROPOIETIC" MappingRef="Preferred">
+        <MedGen CUI="C0162530" Name="Cutaneous porphyria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,180 @@
+<VariationArchive RecordType="classified" VariationID="5825" VariationName="NG_008935.1:g.(21725_81488)_(328930_337985)del" VariationType="Deletion" Accession="VCV000005825" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2017-10-30" MostRecentSubmission="2017-10-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="20864" VariationID="5825">
+      <GeneList>
+        <Gene Symbol="KCNQ1OT1" FullName="KCNQ1 opposite strand/antisense transcript 1" GeneID="10984" HGNC_ID="HGNC:6295" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>11p15.5</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="2608328" stop="2699994" display_start="2608328" display_stop="2699994" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="2629557" stop="2721227" display_start="2629557" display_stop="2721227" Strand="-" />
+          </Location>
+          <OMIM>604115</OMIM>
+          <Haploinsufficiency last_evaluated="2012-03-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KCNQ1OT1">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-03-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KCNQ1OT1">Some evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NG_008935.1:g.(21725_81488)_(328930_337985)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.5</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>KCNQ1OT1, DEL</Name>
+        <Name>DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008935.1" sequenceAccession="NG_008935" sequenceVersion="1" change="g.(21725_81488)_(328930_337985)del">
+            <Expression>NG_008935.1:g.(21725_81488)_(328930_337985)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_287" sequenceAccession="LRG_287">
+            <Expression>LRG_287:g.(21725_81488)_(328930_337985)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="604115.0001" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 604115.0001 from this description in the paper by Niemitz et al., 2004 (PubMed ): The deleted region of ~250 kb removes all of LIT1 and is within KVLQT1; the centromeric breakpoint is located between exons 1b and 1c, and the telomeric breakpoint is located between exons 11 and 14 (KVLQT1 exon numbering from GenBank sequence AJ006345).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_008935.1:g.(21725_81488)_(328930_337985)del AND Beckwith-Wiedemann syndrome" Accession="RCV000006181" Version="4">
+        <ClassifiedConditionList TraitSetID="1134">
+          <ClassifiedCondition DB="MedGen" ID="C0004903">Beckwith-Wiedemann syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2004-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2004-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-10-30" MostRecentSubmission="2017-10-30">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15372379</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1134" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="589" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Beckwith-Wiedemann syndrome</ElementValue>
+                <XRef ID="Beckwith-Wiedemann+Syndrome/774" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0007534" DB="MONDO" />
+                <XRef ID="81780002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Exomphalos macroglossia gigantism syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">EMG Syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">WBS</ElementValue>
+                <XRef Type="MIM" ID="130650" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">BWS</ElementValue>
+                <XRef Type="MIM" ID="130650" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Beckwith-Wiedemann syndrome (BWS) is a growth disorder variably characterized by neonatal hypoglycemia, macrosomia, macroglossia, hemihyperplasia, omphalocele, embryonal tumors (e.g., Wilms tumor, hepatoblastoma, neuroblastoma, and rhabdomyosarcoma), visceromegaly, adrenocortical cytomegaly, renal abnormalities (e.g., medullary dysplasia, nephrocalcinosis, medullary sponge kidney, and nephromegaly), and ear creases/pits. BWS is considered a clinical spectrum, in which affected individuals may have many of these features or may have only one or two clinical features. Early death may occur from complications of prematurity, hypoglycemia, cardiomyopathy, macroglossia, or tumors. However, the previously reported mortality of 20% is likely an overestimate given better recognition of the disorder along with enhanced treatment options. Macroglossia and macrosomia are generally present at birth but may have postnatal onset. Growth rate slows around age seven to eight years. Hemihyperplasia may affect segmental regions of the body or selected organs and tissues.</Attribute>
+                <XRef ID="NBK1394" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3343" />
+                <XRef ID="3343" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301471</ID>
+                <ID Source="BookShelf">NBK1294</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301568</ID>
+                <ID Source="BookShelf">NBK1394</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2001">
+                <ID Source="pmc">3111049</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Italian BWS Association, 2016">
+                <ID Source="PubMed">26592461</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2020">
+                <ID Source="PubMed">32296163</ID>
+              </Citation>
+              <XRef ID="116" DB="Orphanet" />
+              <XRef ID="C0004903" DB="MedGen" />
+              <XRef ID="MONDO:0007534" DB="MONDO" />
+              <XRef Type="MIM" ID="130650" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="26363" SubmissionDate="2017-10-26" DateLastUpdated="2017-10-30" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="604115.0001_BECKWITH-WIEDEMANN SYNDROME" title="KCNQ1OT1, DEL_BECKWITH-WIEDEMANN SYNDROME" />
+        <ClinVarAccession Accession="SCV000026363" DateUpdated="2017-10-30" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2004-11-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 related individuals with Beckwith-Wiedemann syndrome (BWS; 130650), Niemitz et al. (2004) described a microdeletion on 11p15 which included the entire LIT1 gene. In 1 case the deletion was maternally inherited; in the other, it was paternally inherited. In the case of maternal inheritance, the deletion caused BWS with silencing of p57(KIP2) (CDKN1C; 600856), indicating that an element important for the regulation of p57(KIP2) expression had been deleted. When inherited paternally, there was no BWS phenotype, suggesting that the LIT1 RNA itself is not necessary for normal development in humans.</Attribute>
+              <Citation>
+                <ID Source="PubMed">15372379</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="130650" Type="MIM" />
+              <XRef DB="OMIM" ID="600856" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KCNQ1OT1" />
+          </GeneList>
+          <Name>KCNQ1OT1, DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604115.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BECKWITH-WIEDEMANN SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="26363" TraitType="Disease" MappingType="Name" MappingValue="BECKWITH-WIEDEMANN SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C0004903" Name="Beckwith-Wiedemann syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

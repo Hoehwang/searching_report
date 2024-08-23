@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="1703715" VariationName="NM_173791.5(PDZD8):c.2197_2200del (p.Val732_Ser733insTer)" VariationType="Deletion" Accession="VCV001703715" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-04" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1696104" VariationID="1703715">
+      <GeneList>
+        <Gene Symbol="PDZD8" FullName="PDZ domain containing 8" GeneID="118987" HGNC_ID="HGNC:26974" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q25.3-26.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="117277274" stop="117375440" display_start="117277274" display_stop="117375440" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="119042605" stop="119134936" display_start="119042605" display_stop="119134936" Strand="-" />
+          </Location>
+          <OMIM>614235</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_173791.5(PDZD8):c.2197_2200del (p.Val732_Ser733insTer)</Name>
+      <CanonicalSPDI>NC_000010.11:117284532:AACTAAC:AAC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q25.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="117284533" stop="117284536" display_start="117284533" display_stop="117284536" variantLength="4" positionVCF="117284532" referenceAlleleVCF="AAACT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="119044044" stop="119044047" display_start="119044044" display_stop="119044047" variantLength="4" positionVCF="119044043" referenceAlleleVCF="AAACT" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.119044047_119044050del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.119044047_119044050del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.117284536_117284539del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.117284536_117284539del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_173791.5" sequenceAccession="NM_173791" sequenceVersion="5" change="c.2197_2200del" MANESelect="true">
+            <Expression>NM_173791.5:c.2197_2200del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_776152.1" sequenceAccession="NP_776152" sequenceVersion="1" change="p.Val732_Ser733insTer">
+            <Expression>NP_776152.1:p.Val732_Ser733insTer</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001587" Type="nonsense" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="614235.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_173791.5(PDZD8):c.2197_2200del (p.Val732_Ser733insTer) AND Intellectual developmental disorder with autism and dysmorphic facies" Accession="RCV002280800" Version="1">
+        <ClassifiedConditionList TraitSetID="79523">
+          <ClassifiedCondition DB="MedGen" ID="C5774206">Intellectual developmental disorder with autism and dysmorphic facies</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">35227461</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="79523" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="65774" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual developmental disorder with autism and dysmorphic facies</ElementValue>
+                <XRef ID="MONDO:0859281" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IDDADF</ElementValue>
+                <XRef Type="MIM" ID="620021" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5774206" DB="MedGen" />
+              <XRef ID="MONDO:0859281" DB="MONDO" />
+              <XRef Type="MIM" ID="620021" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5023916" SubmissionDate="2022-08-31" DateLastUpdated="2022-09-03" DateCreated="2022-09-03">
+        <ClinVarSubmissionID localKey="614235.0001_INTELLECTUAL DEVELOPMENTAL DISORDER WITH AUTISM AND DYSMORPHIC FACIES" title="PDZD8, 4-BP DEL, 2197AGTT_INTELLECTUAL DEVELOPMENTAL DISORDER WITH AUTISM AND DYSMORPHIC FACIES" />
+        <ClinVarAccession Accession="SCV002569086" DateUpdated="2022-09-03" DateCreated="2022-09-03" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-31">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 3 sibs, born of consanguineous Omani parents (family A), with intellectual developmental disorder with autism and dysmorphic facies (IDDADF; 620021), Al-Amri et al. (2022) identified a homozygous 4-bp deletion (c.2197_2200del, NM_173791.5) in exon 5 of the PDZD8 gene, predicted to result in a frameshift and premature termination (Ser733Ter). The mutation, which was found by a combination of homozygosity mapping and whole-exome sequencing, segregated with the disorder in the family. It was not present in the gnomAD database. Functional studies of the variant and studies of patient cells were not performed. Whole-exome sequencing in family A also identified a homozygous missense variant (R328W) in the ANKRD2 gene (610734) that was in the region of homozygosity on chromosome 10q and segregated with the disorder in the family. It occurred at a highly conserved residue and was present only in the heterozygous state at a low frequency (2.0 x 10(-5)) in gnomAD. Functional studies of the variant were not performed. The authors noted that carriers of the ANKRD2 variant demonstrated some myopathic features that may have been related to that variant.</Attribute>
+              <Citation>
+                <ID Source="PubMed">35227461</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="620021" Type="MIM" />
+              <XRef DB="OMIM" ID="610734" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDZD8" />
+          </GeneList>
+          <Name>PDZD8, 4-BP DEL, 2197AGTT</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">4-BP DEL, 2197AGTT</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="614235.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">INTELLECTUAL DEVELOPMENTAL DISORDER WITH AUTISM AND DYSMORPHIC FACIES</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5023916" TraitType="Disease" MappingType="Name" MappingValue="INTELLECTUAL DEVELOPMENTAL DISORDER WITH AUTISM AND DYSMORPHIC FACIES" MappingRef="Preferred">
+        <MedGen CUI="C5774206" Name="Intellectual developmental disorder with autism and dysmorphic facies" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

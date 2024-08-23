@@ -1,0 +1,140 @@
+<VariationArchive RecordType="classified" VariationID="1070394" VariationName="NC_000001.10:g.(?_954503)_(992499_?)del" VariationType="Deletion" Accession="VCV001070394" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-24" DateCreated="2021-05-10" MostRecentSubmission="2022-05-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1056900" VariationID="1070394">
+      <GeneList>
+        <Gene Symbol="AGRN" FullName="agrin" GeneID="375790" HGNC_ID="HGNC:329" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="1020120" stop="1056116" display_start="1020120" display_stop="1056116" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="955502" stop="991498" display_start="955502" display_stop="991498" Strand="+" />
+          </Location>
+          <OMIM>103320</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.(?_954503)_(992499_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="954503" innerStop="992499" display_start="954503" display_stop="992499" variantLength="37997" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_954503)_(992499_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_954503)_(992499_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.(?_954503)_(992499_?)del AND Congenital myasthenic syndrome 8" Accession="RCV001382508" Version="4">
+        <ClassifiedConditionList TraitSetID="13478">
+          <ClassifiedCondition DB="MedGen" ID="C3808739">Congenital myasthenic syndrome 8</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2022-05-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="13478" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18690" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Congenital myasthenic syndrome 8</ElementValue>
+                <XRef ID="MONDO:0014052" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myasthenic syndrome, congenital, 8, with pre- and postsynaptic defects</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MYASTHENIC SYNDROME, CONGENITAL, DUE TO AGRIN DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="615120" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMSPPD</ElementValue>
+                <XRef Type="MIM" ID="615120" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CMS8</ElementValue>
+                <XRef Type="MIM" ID="615120" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301347</ID>
+                <ID Source="BookShelf">NBK1168</ID>
+              </Citation>
+              <XRef ID="590" DB="Orphanet" />
+              <XRef ID="C3808739" DB="MedGen" />
+              <XRef ID="MONDO:0014052" DB="MONDO" />
+              <XRef Type="MIM" ID="615120" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3106944" SubmissionDate="2022-05-04" DateLastUpdated="2022-05-16" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_198576.3_1_Deletion (entire coding sequence)_954502_992499|MedGen:C3808739" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001581327" DateUpdated="2022-05-16" DateCreated="2021-05-10" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="AGRN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_954503)_(992499_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3808739" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+          <SubmissionName>SUB11431369</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3106944" TraitType="Disease" MappingType="XRef" MappingValue="C3808739" MappingRef="MedGen">
+        <MedGen CUI="C3808739" Name="Congenital myasthenic syndrome 8" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

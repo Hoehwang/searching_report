@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="1064753" VariationName="NC_000018.10:g.60033942_60033993del" VariationType="Deletion" Accession="VCV001064753" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-04-28" MostRecentSubmission="2021-04-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1053045" VariationID="1064753">
+      <Name>NC_000018.10:g.60033942_60033993del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>18q21.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="18" Accession="NC_000018.10" start="60033942" stop="60033993" display_start="60033942" display_stop="60033993" variantLength="52" positionVCF="60033941" referenceAlleleVCF="GCTTAGTTTGGCCGGATATGAAATTCTGGGTTGAAAATTCTTTTCTTTAAGAA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="18" Accession="NC_000018.9" start="57701174" stop="57701225" display_start="57701174" display_stop="57701225" variantLength="52" positionVCF="57701173" referenceAlleleVCF="GCTTAGTTTGGCCGGATATGAAATTCTGGGTTGAAAATTCTTTTCTTTAAGAA" alternateAlleleVCF="G" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000018.10" sequenceAccession="NC_000018" sequenceVersion="10" change="g.60033942_60033993del" Assembly="GRCh38">
+            <Expression>NC_000018.10:g.60033942_60033993del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000018.9" sequenceAccession="NC_000018" sequenceVersion="9" change="g.57701174_57701225del" Assembly="GRCh37">
+            <Expression>NC_000018.9:g.57701174_57701225del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2144716942" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="missing protein">
+        <XRef ID="0240" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000018.10:g.60033942_60033993del AND Autosomal recessive osteopetrosis 7" Accession="RCV001374875" Version="1">
+        <ClassifiedConditionList TraitSetID="1751">
+          <ClassifiedCondition DB="MedGen" ID="C2676766">Autosomal recessive osteopetrosis 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-04-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-04-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-04-28" MostRecentSubmission="2021-04-28">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1751" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3690" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Osteopetrosis osteoclast-poor with hypogammaglobulinemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Autosomal recessive osteoclast-poor osteopetrosis with hypogammaglobulinemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive osteopetrosis 7</ElementValue>
+                <XRef ID="MONDO:0012859" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">OPTB7</ElementValue>
+                <XRef Type="MIM" ID="612301" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10106" />
+                <XRef ID="10106" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="178389" DB="Orphanet" />
+              <XRef ID="C2676766" DB="MedGen" />
+              <XRef ID="MONDO:0012859" DB="MONDO" />
+              <XRef Type="MIM" ID="612301" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3094706" SubmissionDate="2021-04-24" DateLastUpdated="2021-04-28" DateCreated="2021-04-28">
+        <ClinVarSubmissionID localKey="SUB9534368" submittedAssembly="GRCh37" title="SUB9534368" />
+        <ClinVarAccession Accession="SCV001571688" DateUpdated="2021-04-28" DateCreated="2021-04-28" Type="SCV" Version="1" SubmitterName="Hereditary Research Laboratory, Bethlehem University" OrgID="505778" OrganizationCategory="laboratory" OrgAbbreviation="BU" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-04-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TNFRSF11A">
+              <Name>TNF receptor superfamily member 11a</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <FunctionalConsequence Value="missing protein">
+            <XRef DB="Variation Ontology" ID="0240" URL="http://purl.obolibrary.org/obo/VariO_0240" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000018.10:g.60033942_60033993del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="612301" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9534368</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3094706" TraitType="Disease" MappingType="XRef" MappingValue="612301" MappingRef="OMIM">
+        <MedGen CUI="C2676766" Name="Autosomal recessive osteopetrosis 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

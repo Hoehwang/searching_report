@@ -1,0 +1,255 @@
+<VariationArchive VariationID="1966607" VariationName="NM_000303.3(PMM2):c.196dup (p.Tyr66fs)" VariationType="Duplication" Accession="VCV001966607" Version="4" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2024-02-20" DateCreated="2023-02-07" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2031773" VariationID="1966607">
+      <GeneList>
+        <Gene Symbol="PMM2" FullName="phosphomannomutase 2" GeneID="5373" HGNC_ID="HGNC:9115" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="8797839" stop="8849325" display_start="8797839" display_stop="8849325" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="8891669" stop="8943193" display_start="8891669" display_stop="8943193" Strand="+" />
+          </Location>
+          <OMIM>601785</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000303.3(PMM2):c.196dup (p.Tyr66fs)</Name>
+      <CanonicalSPDI>NC_000016.10:8804782:TT:TTT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>16p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="8804782" stop="8804783" display_start="8804782" display_stop="8804783" variantLength="1" positionVCF="8804782" referenceAlleleVCF="A" alternateAlleleVCF="AT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="8898639" stop="8898640" display_start="8898639" display_stop="8898640" variantLength="1" positionVCF="8898639" referenceAlleleVCF="A" alternateAlleleVCF="AT" />
+      </Location>
+      <ProteinChange>Y66fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.8804784dup" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.8804784dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.8898641dup" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.8898641dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009209.1" sequenceAccession="NG_009209" sequenceVersion="1" change="g.11972dup">
+            <Expression>NG_009209.1:g.11972dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000303.3" sequenceAccession="NM_000303" sequenceVersion="3" change="c.196dup" MANESelect="true">
+            <Expression>NM_000303.3:c.196dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000294.1" sequenceAccession="NP_000294" sequenceVersion="1" change="p.Tyr66fs">
+            <Expression>NP_000294.1:p.Tyr66fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000303.3(PMM2):c.196dup (p.Tyr66fs) AND PMM2-congenital disorder of glycosylation" Accession="RCV002716699" Version="3">
+        <ClassifiedConditionList TraitSetID="2101">
+          <ClassifiedCondition DB="MedGen" ID="C0349653">PMM2-congenital disorder of glycosylation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2023-05-09" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-05-09" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2023-02-07" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19862844</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2101" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1551" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">PMM2-congenital disorder of glycosylation</ElementValue>
+                <XRef ID="MONDO:0008907" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG 1A</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Jaeken syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Carbohydrate-deficient glycoprotein syndrome type 1A</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Phosphomannomutase 2 deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Carbohydrate-deficient glycoprotein syndrome type 1A (formerly)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital disorder of glycosylation, type Ia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PMM2-CDG (CDG-Ia)</ElementValue>
+                <XRef ID="NBK1110" DB="GeneReviews" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG Ia</ElementValue>
+                <XRef Type="MIM" ID="212065" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CARBOHYDRATE-DEFICIENT GLYCOPROTEIN SYNDROME, TYPE Ia</ElementValue>
+                <XRef Type="MIM" ID="212065" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital disorder of glycosylation type 1A</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CDG1A</ElementValue>
+                <XRef Type="MIM" ID="212065" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CDGIa</ElementValue>
+                <XRef Type="MIM" ID="212065" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9826" />
+                <XRef ID="9826" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">PMM2-CDG, the most common of a group of disorders of abnormal glycosylation of N-linked oligosaccharides, is divided into three clinical stages: infantile multisystem, late-infantile and childhood ataxia–intellectual disability, and adult stable disability. The clinical manifestations and course are highly variable, ranging from infants who die in the first year of life to mildly affected adults. Clinical findings tend to be similar in sibs. In the infantile multisystem presentation, infants show axial hypotonia, hyporeflexia, esotropia, and developmental delay. Feeding problems, vomiting, faltering growth, and developmental delay are frequently seen. Subcutaneous fat may be excessive over the buttocks and suprapubic region. Two distinct clinical courses are observed: (1) a nonfatal neurologic course with faltering growth, strabismus, developmental delay, cerebellar hypoplasia, and hepatopathy in infancy followed by neuropathy and retinitis pigmentosa in the first or second decade; and (2) a more severe neurologic-multivisceral course with approximately 20% mortality in the first year of life. The late-infantile and childhood ataxia–intellectual disability stage, which begins between ages three and ten years, is characterized by hypotonia, ataxia, severely delayed language and motor development, inability to walk, and IQ of 40 to 70; other findings include seizures, stroke-like episodes or transient unilateral loss of function, coagulopathy, retinitis pigmentosa, joint contractures, and skeletal deformities. In the adult stable disability stage, intellectual ability is stable; peripheral neuropathy is variable, progressive retinitis pigmentosa and myopia are seen, thoracic and spinal deformities with osteoporosis worsen, and premature aging is observed; females may lack secondary sexual development and males may exhibit decreased testicular volume. Hypogonadotropic hypogonadism and coagulopathy may occur. The risk for deep venous thrombosis is increased.</Attribute>
+                <XRef ID="NBK1110" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301289</ID>
+                <ID Source="BookShelf">NBK1110</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301507</ID>
+                <ID Source="BookShelf">NBK1332</ID>
+              </Citation>
+              <XRef ID="79318" DB="Orphanet" />
+              <XRef ID="C0349653" DB="MedGen" />
+              <XRef ID="MONDO:0008907" DB="MONDO" />
+              <XRef Type="MIM" ID="212065" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7857024" SubmissionDate="2023-12-07" DateLastUpdated="2023-12-30" DateCreated="2023-12-30">
+        <ClinVarSubmissionID localKey="NM_000303.3:c.196dup|OMIM:212065" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004205285" DateUpdated="2023-12-30" DateCreated="2023-12-30" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-05-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000303.3:c.196dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="212065" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13856327</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="5697201" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="14581536|MedGen:C0349653" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003004108" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19862844</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. Algorithms developed to predict the effect of sequence changes on RNA splicing suggest that this variant may disrupt the consensus splice site. This variant has not been reported in the literature in individuals affected with PMM2-related conditions. This variant is present in population databases (rs756848112, gnomAD 0.003%). This sequence change creates a premature translational stop signal (p.Tyr66Leufs*19) in the PMM2 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in PMM2 are known to be pathogenic (PMID: 19862844).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PMM2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.8898639_8898640insT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0349653" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12506961</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5697201" TraitType="Disease" MappingType="XRef" MappingValue="C0349653" MappingRef="MedGen">
+        <MedGen CUI="C0349653" Name="PMM2-congenital disorder of glycosylation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7857024" TraitType="Disease" MappingType="XRef" MappingValue="212065" MappingRef="OMIM">
+        <MedGen CUI="C0349653" Name="PMM2-congenital disorder of glycosylation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

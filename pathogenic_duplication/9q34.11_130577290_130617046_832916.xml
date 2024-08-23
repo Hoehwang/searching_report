@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="832916" VariationName="NC_000009.12:g.(?_127843084)_(127843255_?)dup" VariationType="Duplication" Accession="VCV000832916" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-29" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820067" VariationID="832916">
+      <GeneList>
+        <Gene Symbol="ENG" FullName="endoglin" GeneID="2022" HGNC_ID="HGNC:3349" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="127815016" stop="127854658" display_start="127815016" display_stop="127854658" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="130577290" stop="130617046" display_start="130577290" display_stop="130617046" Strand="-" />
+          </Location>
+          <OMIM>131195</OMIM>
+          <Haploinsufficiency last_evaluated="2016-12-07" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ENG">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-12-07" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ENG">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.12:g.(?_127843084)_(127843255_?)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="130605363" innerStop="130605534" display_start="130605363" display_stop="130605534" variantLength="172" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_130605363)_(130605534_?)dup" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_130605363)_(130605534_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.12:g.(?_127843084)_(127843255_?)dup AND Hereditary hemorrhagic telangiectasia" Accession="RCV001033385" Version="1">
+        <ClassifiedConditionList TraitSetID="43931">
+          <ClassifiedCondition DB="MedGen" ID="C0039445">Hereditary hemorrhagic telangiectasia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-07-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-07-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25970827</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="43931" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="40362" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Osler Weber Rendu syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ORW disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Osler-Rendu-Weber disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hereditary hemorrhagic telangiectasia</ElementValue>
+                <XRef ID="MONDO:0019180" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Osler hemorrhagic telangiectasia syndrome</ElementValue>
+                <XRef ID="Osler+hemorrhagic+telangiectasia+syndrome/9046" DB="Genetic Alliance" />
+                <XRef ID="21877004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HHT</ElementValue>
+                <XRef ID="GTR000525320" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000515719" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000500010" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6626" />
+                <XRef ID="6626" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="774" DB="Orphanet" />
+              <XRef ID="C0039445" DB="MedGen" />
+              <XRef ID="MONDO:0019180" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS187300" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357948" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5214706|MedGen:C0039445" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196692" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-07-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25970827</ID>
+          </Citation>
+          <Comment>This variant is a gross duplication of the genomic region encompassing exon 2 of the ENG gene. While the exact position of the duplicated exon cannot be determined from this data, the duplicated copy of this region is likely in tandem and may result in an absent or disrupted protein product because it would be out-of-frame. Loss-of-function variants in ENG are known to be pathogenic (PMID: 21158752, 12673790). This particular variant has been reported in individuals with hereditary hemorrhagic telangiectasia (PMID: 25970827, Invitae). In summary, sub-genic duplications are generally in tandem (PMID: 25640679), and result in an absent or disrupted protein. Because this loss-of-function variant has been observed in affected individuals, it has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ENG" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_130605363)_(130605534_?)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Hereditary hemorrhagic telangiectasia</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0039445" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357948" TraitType="Disease" MappingType="Name" MappingValue="Hereditary hemorrhagic telangiectasia" MappingRef="Preferred">
+        <MedGen CUI="C0039445" Name="Hereditary hemorrhagic telangiectasia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

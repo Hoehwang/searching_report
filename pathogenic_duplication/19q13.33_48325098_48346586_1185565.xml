@@ -1,0 +1,187 @@
+<VariationArchive RecordType="classified" VariationID="1185565" VariationName="NM_000554.6(CRX):c.570dup (p.Tyr191fs)" VariationType="Duplication" Accession="VCV001185565" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-08-05" MostRecentSubmission="2021-08-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1175519" VariationID="1185565">
+      <GeneList>
+        <Gene Symbol="CRX" FullName="cone-rod homeobox" GeneID="1406" HGNC_ID="HGNC:2383" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="47821937" stop="47843324" display_start="47821937" display_stop="47843324" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="48325098" stop="48346586" display_start="48325098" display_stop="48346586" Strand="+" />
+          </Location>
+          <OMIM>602225</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000554.6(CRX):c.570dup (p.Tyr191fs)</Name>
+      <CanonicalSPDI>NC_000019.10:47839632:CCCCC:CCCCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="47839632" stop="47839633" display_start="47839632" display_stop="47839633" variantLength="1" positionVCF="47839632" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="48342889" stop="48342890" display_start="48342889" display_stop="48342890" variantLength="1" positionVCF="48342889" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+      </Location>
+      <ProteinChange>Y191fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.47839637dup" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.47839637dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.48342894dup" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.48342894dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008605.1" sequenceAccession="NG_008605" sequenceVersion="1" change="g.22796dup">
+            <Expression>NG_008605.1:g.22796dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000554.6" sequenceAccession="NM_000554" sequenceVersion="6" change="c.570dup" MANESelect="true">
+            <Expression>NM_000554.6:c.570dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000545.1" sequenceAccession="NP_000545" sequenceVersion="1" change="p.Tyr191fs">
+            <Expression>NP_000545.1:p.Tyr191fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1968168564" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000554.6(CRX):c.570dup (p.Tyr191fs) AND Cone-rod dystrophy 2" Accession="RCV001544506" Version="2">
+        <ClassifiedConditionList TraitSetID="2018">
+          <ClassifiedCondition DB="MedGen" ID="C3489532">Cone-rod dystrophy 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-08-05" MostRecentSubmission="2021-08-05">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2018" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15927" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CONE-ROD RETINAL DYSTROPHY</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cone-rod dystrophy 2</ElementValue>
+                <XRef ID="Cone-Rod+Dystrophy+2/1768" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0007362" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cone-rod retinal dystrophy 2</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CRX</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CORD2</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CRD</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CRD2</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">RCRD2</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6145" />
+                <XRef ID="6145" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1872" DB="Orphanet" />
+              <XRef ID="C3489532" DB="MedGen" />
+              <XRef ID="MONDO:0007362" DB="MONDO" />
+              <XRef Type="MIM" ID="120970" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3467418" SubmissionDate="2021-08-02" DateLastUpdated="2021-08-05" DateCreated="2021-08-05">
+        <ClinVarSubmissionID localKey="SUB10127596" submittedAssembly="hg19" title="SUB10127596" />
+        <ClinVarAccession Accession="SCV001762417" DateUpdated="2021-08-05" DateCreated="2021-08-05" Type="SCV" Version="1" SubmitterName="Genome-Nilou Lab" OrgID="507598" OrganizationCategory="laboratory" OrgAbbreviation="Genome Nilou" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>We found this variant in a 25-year-old male suspicious of Cone-rod Dystrophy.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="DOI">10.1038/gim.2015.30</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Ethnicity>Persian</Ethnicity>
+              <GeographicOrigin>Iran</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">20</Age>
+              <Age Type="maximum" age_unit="years">29</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CRX">
+              <Name>cone-rod homeobox</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000554.6:c.570dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="120970" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10127596</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3467418" TraitType="Disease" MappingType="XRef" MappingValue="120970" MappingRef="OMIM">
+        <MedGen CUI="C3489532" Name="Cone-rod dystrophy 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

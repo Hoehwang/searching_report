@@ -1,0 +1,166 @@
+<VariationArchive VariationID="2427392" VariationName="NC_000001.10:g.(?_235616382)_(235643485_?)del" VariationType="Deletion" Accession="VCV002427392" Version="5" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1950168" VariationID="2427392">
+      <GeneList>
+        <Gene Symbol="B3GALNT2" FullName="beta-1,3-N-acetylgalactosaminyltransferase 2" GeneID="148789" HGNC_ID="HGNC:28596" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q42.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="235439796" stop="235504452" display_start="235439796" display_stop="235504452" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NW_014040927.1" start="83388" stop="148044" display_start="83388" display_stop="148044" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="235610532" stop="235667780" display_start="235610532" display_stop="235667780" Strand="-" />
+          </Location>
+          <OMIM>610194</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.(?_235616382)_(235643485_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1q42.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="235616382" innerStop="235643485" display_start="235616382" display_stop="235643485" variantLength="27104" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_235616382)_(235643485_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_235616382)_(235643485_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.(?_235616382)_(235643485_?)del AND Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 11" Accession="RCV003113721" Version="3">
+        <ClassifiedConditionList TraitSetID="9507">
+          <ClassifiedCondition DB="MedGen" ID="C3554638">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24084573</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25326637</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29273094</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">33290285</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9507" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17747" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 11</ElementValue>
+                <XRef ID="MONDO:0014071" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">WALKER-WARBURG SYNDROME OR MUSCLE-EYE-BRAIN DISEASE, B3GALNT2-RELATED</ElementValue>
+                <XRef Type="MIM" ID="615181" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A11</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies, type A, 11</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MDDGA11</ElementValue>
+                <XRef Type="MIM" ID="615181" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15915" />
+                <XRef ID="15915" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="588" DB="Orphanet" />
+              <XRef ID="899" DB="Orphanet" />
+              <XRef ID="C3554638" DB="MedGen" />
+              <XRef ID="MONDO:0014071" DB="MONDO" />
+              <XRef Type="MIM" ID="615181" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7076398" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_152490.4_1_Deletion (exons 5-11)|MedGen:C3554638" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003796803" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24084573</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25326637</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29273094</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">33290285</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 5-11 of the B3GALNT2 gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame. For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the B3GALNT2 protein in which other variant(s) (p.Asp327Asn) have been determined to be pathogenic (PMID: 24084573, 25326637, 29273094, 33290285). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant has not been reported in the literature in individuals affected with B3GALNT2-related conditions.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="B3GALNT2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_235616382)_(235643485_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3554638" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7076398" TraitType="Disease" MappingType="XRef" MappingValue="C3554638" MappingRef="MedGen">
+        <MedGen CUI="C3554638" Name="Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

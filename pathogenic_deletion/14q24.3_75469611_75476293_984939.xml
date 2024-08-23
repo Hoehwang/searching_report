@@ -1,0 +1,182 @@
+<VariationArchive RecordType="classified" VariationID="984939" VariationName="NM_014239.4(EIF2B2):c.42del (p.Ile15fs)" VariationType="Deletion" Accession="VCV000984939" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2020-11-21" MostRecentSubmission="2020-11-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="973035" VariationID="984939">
+      <GeneList>
+        <Gene Symbol="EIF2B2" FullName="eukaryotic translation initiation factor 2B subunit beta" GeneID="8892" HGNC_ID="HGNC:3258" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="75002921" stop="75012366" display_start="75002921" display_stop="75012366" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="75469611" stop="75476293" display_start="75469611" display_stop="75476293" Strand="+" />
+          </Location>
+          <OMIM>606454</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_014239.4(EIF2B2):c.42del (p.Ile15fs)</Name>
+      <CanonicalSPDI>NC_000014.9:75003030:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="75003031" stop="75003031" display_start="75003031" display_stop="75003031" variantLength="1" positionVCF="75003030" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="75469734" stop="75469734" display_start="75469734" display_stop="75469734" variantLength="1" positionVCF="75469733" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>I15fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.75469735del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.75469735del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.75003032del" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.75003032del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_013333.1" sequenceAccession="NG_013333" sequenceVersion="1" change="g.5124del">
+            <Expression>NG_013333.1:g.5124del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_014239.4" sequenceAccession="NM_014239" sequenceVersion="4" change="c.42del" MANESelect="true">
+            <Expression>NM_014239.4:c.42del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_055054.1" sequenceAccession="NP_055054" sequenceVersion="1" change="p.Ile15fs">
+            <Expression>NP_055054.1:p.Ile15fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1889561523" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_014239.4(EIF2B2):c.42del (p.Ile15fs) AND Vanishing white matter disease" Accession="RCV001265582" Version="1">
+        <ClassifiedConditionList TraitSetID="1128">
+          <ClassifiedCondition DB="MedGen" ID="C1858991">Vanishing white matter disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-02-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-02-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-21" MostRecentSubmission="2020-11-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1128" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2596" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CACH syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Vanishing white matter disease</ElementValue>
+                <XRef ID="447351004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Childhood ataxia with diffuse central nervous system hypomyelination</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Leukoencephalopathy with vanishing white matter</ElementValue>
+                <XRef ID="CACH+Syndrome/1012" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0800448" DB="MONDO" />
+                <XRef ID="MONDO:0011380" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myelinosis centralis diffusa</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CACH/VWM syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cree leukoencehalopathy</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CACH</ElementValue>
+                <XRef Type="MIM" ID="603896" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Childhood ataxia with central nervous system hypomyelination / vanishing white matter (CACH/VWM) is characterized by ataxia, spasticity, and variable optic atrophy. The phenotypic range includes a prenatal/congenital form, a subacute infantile form (onset age &lt;1 year), an early childhood-onset form (onset age 1 to &lt;4 years), a late childhood-/juvenile-onset form (onset age 4 to &lt;18 years), and an adult-onset form (onset =18 years). The prenatal/congenital form is characterized by severe encephalopathy. In the later-onset forms initial motor and intellectual development is normal or mildly delayed, followed by neurologic deterioration with a chronic progressive or subacute course. While in childhood-onset forms motor deterioration dominates, in adult-onset forms cognitive decline and personality changes dominate. Chronic progressive decline can be exacerbated by rapid deterioration during febrile illnesses or following head trauma or major surgical procedures, or by acute and extreme fright.</Attribute>
+                <XRef ID="NBK1258" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301435</ID>
+                <ID Source="BookShelf">NBK1258</ID>
+              </Citation>
+              <XRef ID="135" DB="Orphanet" />
+              <XRef ID="99853" DB="Orphanet" />
+              <XRef ID="C1858991" DB="MedGen" />
+              <XRef ID="MONDO:0800448" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS603896" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2851420" SubmissionDate="2020-07-31" DateLastUpdated="2020-11-21" DateCreated="2020-11-21">
+        <ClinVarSubmissionID localKey="c.42del" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001443746" DateUpdated="2020-11-21" DateCreated="2020-11-21" Type="SCV" Version="1" SubmitterName="Rady Children's Institute for Genomic Medicine, Rady Children's Hospital San Diego" OrgID="506081" OrganizationCategory="laboratory" OrgAbbreviation="RCIGM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-02-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This frameshifting variant in exon 1 of 8 introduces a premature stop codon and is therefore predicted to result in loss of normal protein function. This variant has not been previously reported or functionally characterized in the literature to our knowledge. It is absent from the ExAC and gnomAD population databases and thus is presumed to be rare. Based on the available evidence, the c.42del (p.Ile15SerfsTer8) variant is classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EIF2B2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_014239.3:c.42del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Leukoencephalopathy with vanishing white matter</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB7860438</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2851420" TraitType="Disease" MappingType="Name" MappingValue="Leukoencephalopathy with vanishing white matter" MappingRef="Preferred">
+        <MedGen CUI="C1858991" Name="Vanishing white matter disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

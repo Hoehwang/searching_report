@@ -1,0 +1,234 @@
+<VariationArchive VariationID="658435" VariationName="NC_000002.12:g.(?_202513699)_(202530974_?)del" VariationType="Deletion" Accession="VCV000658435" Version="4" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2019-08-14" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="650783" VariationID="658435">
+      <GeneList>
+        <Gene Symbol="BMPR2" FullName="bone morphogenetic protein receptor type 2" GeneID="659" HGNC_ID="HGNC:1078" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q33.1-33.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="202376327" stop="202567749" display_start="202376327" display_stop="202567749" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="203241049" stop="203432473" display_start="203241049" display_stop="203432473" Strand="+" />
+          </Location>
+          <OMIM>600799</OMIM>
+          <Haploinsufficiency last_evaluated="2020-08-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BMPR2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-08-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BMPR2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_202513699)_(202530974_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q33.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" innerStart="202513699" innerStop="202530974" display_start="202513699" display_stop="202530974" variantLength="17276" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="203378422" innerStop="203395697" display_start="203378422" display_stop="203395697" variantLength="17276" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(?_202513699)_(202530974_?)del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(?_202513699)_(202530974_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_203378422)_(203395697_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_203378422)_(203395697_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_202513699)_(202530974_?)del AND Pulmonary hypertension, primary, 1" Accession="RCV000815263" Version="1">
+        <ClassifiedConditionList TraitSetID="1804">
+          <ClassifiedCondition DB="MedGen" ID="C4552070">Pulmonary hypertension, primary, 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-08-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NC_000002.12:g.(?_202513699)_(202530974_?)del AND Primary pulmonary hypertension" Accession="RCV001388557" Version="3">
+        <ClassifiedConditionList TraitSetID="65277">
+          <ClassifiedCondition DB="MedGen" ID="C0152171">Primary pulmonary hypertension</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-08-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-08-07" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">16429395</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="65277" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55776" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary pulmonary hypertension</ElementValue>
+                <XRef ID="HP:0002092" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0001999" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PPH1</ElementValue>
+              </Symbol>
+              <XRef ID="C0152171" DB="MedGen" />
+              <XRef ID="MONDO:0001999" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1804" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3581" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pulmonary hypertension, primary, 1</ElementValue>
+                <XRef ID="MONDO:0024533" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PHT</ElementValue>
+                <XRef Type="MIM" ID="178600" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PAH</ElementValue>
+                <XRef Type="MIM" ID="178600" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PPH1</ElementValue>
+                <XRef ID="GTR000553220" DB="Genetic Testing Registry (GTR)" />
+                <XRef Type="MIM" ID="178600" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301658</ID>
+                <ID Source="BookShelf">NBK1485</ID>
+              </Citation>
+              <XRef ID="422" DB="Orphanet" />
+              <XRef ID="C4552070" DB="MedGen" />
+              <XRef ID="MONDO:0024533" DB="MONDO" />
+              <XRef Type="MIM" ID="178600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1849919" SubmissionDate="2019-03-28" DateLastUpdated="2019-08-14" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="4678067|MedGen:C0152171" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000955712" DateUpdated="2019-08-14" DateCreated="2019-08-14" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-08-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is an out-of-frame deletion of the genomic region encompassing exons 4-8 of the BMPR2 gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with BMPR2-related disease. Loss-of-function variants in BMPR2 are known to be pathogenic (PMID: 16429395). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BMPR2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_203378422)_(203395697_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Idiopathic Pulmonary Hypertension</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0152171" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3115242" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_001204.6_2_Deletion (exons 4-8)|MedGen:C0152171" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001589576" DateUpdated="2024-06-09" DateCreated="2021-05-10" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-08-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">16429395</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant is an out-of-frame deletion of the genomic region encompassing exons 4-8 of the BMPR2 gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with BMPR2-related disease. Loss-of-function variants in BMPR2 are known to be pathogenic (PMID: 16429395).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BMPR2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_203378422)_(203395697_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0152171" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3115242" TraitType="Disease" MappingType="XRef" MappingValue="C0152171" MappingRef="MedGen">
+        <MedGen CUI="C0152171" Name="Primary pulmonary hypertension" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1849919" TraitType="Disease" MappingType="Name" MappingValue="Idiopathic Pulmonary Hypertension" MappingRef="Preferred">
+        <MedGen CUI="C4552070" Name="Pulmonary hypertension, primary, 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

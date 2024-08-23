@@ -1,0 +1,148 @@
+<VariationArchive VariationID="2124580" VariationName="NM_005862.3(STAG1):c.2116del (p.Asp706fs)" VariationType="Deletion" Accession="VCV002124580" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-20" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2181174" VariationID="2124580">
+      <GeneList>
+        <Gene Symbol="STAG1" FullName="STAG1 cohesin complex component" GeneID="10274" HGNC_ID="HGNC:11354" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="136336236" stop="136752378" display_start="136336236" display_stop="136752378" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="136055998" stop="136471244" display_start="136055998" display_stop="136471244" Strand="-" />
+          </Location>
+          <OMIM>604358</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005862.3(STAG1):c.2116del (p.Asp706fs)</Name>
+      <CanonicalSPDI>NC_000003.12:136417964:C:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="136417965" stop="136417965" display_start="136417965" display_stop="136417965" variantLength="1" positionVCF="136417964" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="136136807" stop="136136807" display_start="136136807" display_stop="136136807" variantLength="1" positionVCF="136136806" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>D706fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.136136807del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.136136807del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.136417965del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.136417965del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005862.3" sequenceAccession="NM_005862" sequenceVersion="3" change="c.2116del" MANESelect="true">
+            <Expression>NM_005862.3:c.2116del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005853.2" sequenceAccession="NP_005853" sequenceVersion="2" change="p.Asp706fs">
+            <Expression>NP_005853.2:p.Asp706fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005862.3(STAG1):c.2116del (p.Asp706fs) AND not provided" Accession="RCV003039686" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28119487</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="6031598" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="16378988|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003339043" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28119487</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Asp706Ilefs*15) in the STAG1 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in STAG1 are known to be pathogenic (PMID: 28119487). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with STAG1-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="STAG1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.136136807del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="6031598" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

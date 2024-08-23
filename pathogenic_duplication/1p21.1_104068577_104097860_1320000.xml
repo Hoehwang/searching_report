@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="1320000" VariationName="NM_017619.4(RNPC3):c.261dup (p.Leu88fs)" VariationType="Duplication" Accession="VCV001320000" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-11-11" MostRecentSubmission="2021-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1310248" VariationID="1320000">
+      <GeneList>
+        <Gene Symbol="RNPC3" FullName="RNA binding region (RNP1, RRM) containing 3" GeneID="55599" HGNC_ID="HGNC:18666" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="103525699" stop="103555239" display_start="103525699" display_stop="103555239" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="104068577" stop="104097860" display_start="104068577" display_stop="104097860" Strand="+" />
+          </Location>
+          <OMIM>618016</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_017619.4(RNPC3):c.261dup (p.Leu88fs)</Name>
+      <CanonicalSPDI>NC_000001.11:103533757:AA:AAA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1p21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="103533757" stop="103533758" display_start="103533757" display_stop="103533758" variantLength="1" positionVCF="103533757" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="104076379" stop="104076380" display_start="104076379" display_stop="104076380" variantLength="1" positionVCF="104076379" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>L88fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.104076381dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.104076381dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.103533759dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.103533759dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017619.4" sequenceAccession="NM_017619" sequenceVersion="4" change="c.261dup" MANESelect="true">
+            <Expression>NM_017619.4:c.261dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_060089.1" sequenceAccession="NP_060089" sequenceVersion="1" change="p.Leu88fs">
+            <Expression>NP_060089.1:p.Leu88fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="618016.0006" DB="OMIM" />
+        <XRef Type="rs" ID="2101044148" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_017619.4(RNPC3):c.261dup (p.Leu88fs) AND Isolated growth hormone deficiency, type 5" Accession="RCV001775199" Version="1">
+        <ClassifiedConditionList TraitSetID="44991">
+          <ClassifiedCondition DB="MedGen" ID="C4748435">Isolated growth hormone deficiency, type 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-11-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-11-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-11" MostRecentSubmission="2021-11-11">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33650182</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="44991" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="40741" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Isolated growth hormone deficiency, type 5</ElementValue>
+                <XRef ID="MONDO:0032569" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PITUITARY HORMONE DEFICIENCY, COMBINED OR ISOLATED, 7</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IGHD5</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CPHD7</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4748435" DB="MedGen" />
+              <XRef ID="MONDO:0032569" DB="MONDO" />
+              <XRef Type="MIM" ID="618160" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3950105" SubmissionDate="2021-11-05" DateLastUpdated="2021-11-11" DateCreated="2021-11-11">
+        <ClinVarSubmissionID localKey="618016.0006_PITUITARY HORMONE DEFICIENCY, COMBINED, 7" title="RNPC3, 1-BP DUP, NT261_PITUITARY HORMONE DEFICIENCY, COMBINED, 7" />
+        <ClinVarAccession Accession="SCV002011855" DateUpdated="2021-11-11" DateCreated="2021-11-11" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-11-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In an 11-year-old Japanese girl with deficiency of growth hormone and prolactin (CPHD7; 618160), Yamada et al. (2021) identified compound heterozygosity for mutations in the RNPC3 gene: a 1-bp duplication (c.261dup, NM_017619.3), causing a frameshift predicted to result in a premature termination codon (Leu88ThrfsTer11), and a c.1228T-G transversion, resulting in a phe410-to-val (F410V; 618016.0007) substitution at a highly conserved residue. Her unaffected parents were each heterozygous for one of the variants, neither of which was found in 3,552 Japanese control individuals or in the gnomAD database.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33650182</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618160" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RNPC3" />
+          </GeneList>
+          <Name>RNPC3, 1-BP DUP, NT261</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DUP, NT261</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="618016.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PITUITARY HORMONE DEFICIENCY, COMBINED, 7</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

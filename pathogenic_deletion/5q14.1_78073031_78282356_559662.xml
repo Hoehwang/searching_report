@@ -1,0 +1,173 @@
+<VariationArchive RecordType="classified" VariationID="559662" VariationName="NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del" VariationType="Deletion" Accession="VCV000559662" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2018-08-24" MostRecentSubmission="2018-08-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="550384" VariationID="559662">
+      <GeneList>
+        <Gene Symbol="ARSB" FullName="arylsulfatase B" GeneID="411" HGNC_ID="HGNC:714" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="78777209" stop="78985958" display_start="78777209" display_stop="78985958" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="78073031" stop="78282356" display_start="78073031" display_stop="78282356" Strand="-" />
+          </Location>
+          <OMIM>611542</OMIM>
+        </Gene>
+        <Gene Symbol="LOC129994124" FullName="ATAC-STARR-seq lymphoblastoid active region 22720" GeneID="129994124" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="78887561" stop="78887610" display_start="78887561" display_stop="78887610" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="LOC129994125" FullName="ATAC-STARR-seq lymphoblastoid silent region 16126" GeneID="129994125" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="78900069" stop="78900158" display_start="78900069" display_stop="78900158" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q14.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" outerStart="78885828" innerStart="78955294" innerStop="78955503" outerStop="78964415" display_start="78885828" display_stop="78964415" variantLength="210" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.(78885828_78955294)_(78955503_78964415)del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del AND Mucopolysaccharidosis type 6" Accession="RCV000677436" Version="1">
+        <ClassifiedConditionList TraitSetID="233">
+          <ClassifiedCondition DB="MedGen" ID="C0026709">Mucopolysaccharidosis type 6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-08-24" MostRecentSubmission="2018-08-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25797215</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="233" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3041" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Mucopolysaccharidosis type 6</ElementValue>
+                <XRef ID="MONDO:0009661" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MPS 6</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Arylsulfatase B deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">N-acetylgalactosamine-4-sulfatase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Maroteaux Lamy syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mucopolysaccharidosis type VI</ElementValue>
+                <XRef ID="Mucopolysaccharidosis+type+VI/4921" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MPS VI</ElementValue>
+                <XRef Type="MIM" ID="253200" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MPS6</ElementValue>
+                <XRef Type="MIM" ID="253200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7095" />
+                <XRef ID="7095" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="Wood et al., 2012">
+                <ID Source="PubMed">22405600</ID>
+              </Citation>
+              <XRef ID="583" DB="Orphanet" />
+              <XRef ID="C0026709" DB="MedGen" />
+              <XRef ID="MONDO:0009661" DB="MONDO" />
+              <XRef Type="MIM" ID="253200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1566927" SubmissionDate="2018-04-17" DateLastUpdated="2018-08-24" DateCreated="2018-08-24">
+        <ClinVarSubmissionID localKey="NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del|OMIM:253200" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV000802938" DateUpdated="2018-08-24" DateCreated="2018-08-24" Type="SCV" Version="1" SubmitterName="Laboratory of Diagnosis and Therapy of Lysosomal Disorders, University of Padova" OrgID="506414" OrganizationCategory="laboratory" OrgAbbreviation="LAB-DTLD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25797215</ID>
+          </Citation>
+          <Comment Type="public">Exon deletion(PVS1); In vitro functional studies supportive of a damaging effect on the gene product (low to no ARSB activity in homozygotes; PS3); Absent from GnomAD (PM2)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="2" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ARSB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.10:g.(78885828_78955294)_(78955503_78964415)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="253200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30118150</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB3915908</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1566927" TraitType="Disease" MappingType="XRef" MappingValue="253200" MappingRef="OMIM">
+        <MedGen CUI="C0026709" Name="Mucopolysaccharidosis type 6" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

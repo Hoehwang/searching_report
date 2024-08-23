@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="1676199" VariationName="NM_152657.4(GGN):c.416_437del (p.Leu139fs)" VariationType="Deletion" Accession="VCV001676199" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-04-12" MostRecentSubmission="2022-04-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1667580" VariationID="1676199">
+      <GeneList>
+        <Gene Symbol="GGN" FullName="gametogenetin" GeneID="199720" HGNC_ID="HGNC:18869" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="38384267" stop="38388384" display_start="38384267" display_stop="38388384" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="38874991" stop="38878667" display_start="38874991" display_stop="38878667" Strand="-" />
+          </Location>
+          <OMIM>609966</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_152657.4(GGN):c.416_437del (p.Leu139fs)</Name>
+      <CanonicalSPDI>NC_000019.10:38386824:GGCGGCGGCTTCAGCGGGCGGAGGC:GGC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="38386825" stop="38386846" display_start="38386825" display_stop="38386846" variantLength="22" positionVCF="38386824" referenceAlleleVCF="CGGCGGCGGCTTCAGCGGGCGGA" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="38877465" stop="38877486" display_start="38877465" display_stop="38877486" variantLength="22" positionVCF="38877464" referenceAlleleVCF="CGGCGGCGGCTTCAGCGGGCGGA" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>L139fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.38386828_38386849del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.38386828_38386849del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.38877468_38877489del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.38877468_38877489del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_152657.4" sequenceAccession="NM_152657" sequenceVersion="4" change="c.416_437del" MANESelect="true">
+            <Expression>NM_152657.4:c.416_437del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_689870.3" sequenceAccession="NP_689870" sequenceVersion="3" change="p.Leu139fs">
+            <Expression>NP_689870.3:p.Leu139fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="609966.0002" DB="OMIM" />
+        <XRef Type="rs" ID="2145140504" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_152657.4(GGN):c.416_437del (p.Leu139fs) AND Spermatogenic failure 69" Accession="RCV002221169" Version="1">
+        <ClassifiedConditionList TraitSetID="74226">
+          <ClassifiedCondition DB="MedGen" ID="C5676960">Spermatogenic failure 69</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-04-12" MostRecentSubmission="2022-04-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33108537</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="74226" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="62215" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spermatogenic failure 69</ElementValue>
+                <XRef ID="MONDO:0030732" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPGF69</ElementValue>
+                <XRef Type="MIM" ID="619826" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5676960" DB="MedGen" />
+              <XRef ID="MONDO:0030732" DB="MONDO" />
+              <XRef Type="MIM" ID="619826" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4887898" SubmissionDate="2022-04-05" DateLastUpdated="2022-04-12" DateCreated="2022-04-12">
+        <ClinVarSubmissionID localKey="609966.0002_SPERMATOGENIC FAILURE 69" title="GGN, 22-BP DEL, NT416_SPERMATOGENIC FAILURE 69" />
+        <ClinVarAccession Accession="SCV002498564" DateUpdated="2022-04-12" DateCreated="2022-04-12" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a man with infertility due to globozoospermia (SPGF69; 619826), Celse et al. (2021) identified homozygosity for a 22-bp deletion (c.416_437del) in the first coding exon (exon 3) of the GGN gene, causing a frameshift predicted to result in a premature termination codon (Leu139ArgfsTer8). The 146-amino acid mutant protein would lack the GGNBP2 (612275) and OAZ3 (605138) interaction domain, and the GGNBP1 (609495) interaction domain would be partially truncated. Familial segregation was not reported.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33108537</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619826" Type="MIM" />
+              <XRef DB="OMIM" ID="612275" Type="MIM" />
+              <XRef DB="OMIM" ID="605138" Type="MIM" />
+              <XRef DB="OMIM" ID="609495" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GGN" />
+          </GeneList>
+          <Name>GGN, 22-BP DEL, NT416</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">22-BP DEL, NT416</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609966.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPERMATOGENIC FAILURE 69</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4887898" TraitType="Disease" MappingType="Name" MappingValue="SPERMATOGENIC FAILURE 69" MappingRef="Preferred">
+        <MedGen CUI="C5676960" Name="Spermatogenic failure 69" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="626361" VariationName="NM_001448.3(GPC4):c.742del (p.Leu248fs)" VariationType="Deletion" Accession="VCV000626361" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-05-06" MostRecentSubmission="2019-05-06">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614693" VariationID="626361">
+      <GeneList>
+        <Gene Symbol="GPC4" FullName="glypican 4" GeneID="2239" HGNC_ID="HGNC:4452" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq26.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="133300103" stop="133415489" display_start="133300103" display_stop="133415489" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="132435063" stop="132549204" display_start="132435063" display_stop="132549204" Strand="-" />
+          </Location>
+          <OMIM>300168</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001448.3(GPC4):c.742del (p.Leu248fs)</Name>
+      <CanonicalSPDI>NC_000023.11:133311392:GGG:GG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq26.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="133311393" stop="133311393" display_start="133311393" display_stop="133311393" variantLength="1" positionVCF="133311392" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="132445421" stop="132445421" display_start="132445421" display_stop="132445421" variantLength="1" positionVCF="132445420" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>L248fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.132445423del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.132445423del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.133311395del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.133311395del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012498.1" sequenceAccession="NG_012498" sequenceVersion="1" change="g.108785del">
+            <Expression>NG_012498.1:g.108785del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001448.3" sequenceAccession="NM_001448" sequenceVersion="3" change="c.742del" MANESelect="true">
+            <Expression>NM_001448.3:c.742del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001439.2" sequenceAccession="NP_001439" sequenceVersion="2" change="p.Leu248fs">
+            <Expression>NP_001439.2:p.Leu248fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1569341521" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001448.3(GPC4):c.742del (p.Leu248fs) AND Keipert syndrome" Accession="RCV000768697" Version="1">
+        <ClassifiedConditionList TraitSetID="43710">
+          <ClassifiedCondition DB="MedGen" ID="C1850627">Keipert syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-05-06" MostRecentSubmission="2019-05-06">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="43710" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3023" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Keipert syndrome</ElementValue>
+                <XRef ID="MONDO:0009720" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nasodigitoacoustic syndrome</ElementValue>
+                <XRef ID="Nasodigitoacoustic+syndrome/5107" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">KPTS</ElementValue>
+                <XRef Type="MIM" ID="301026" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="267" />
+                <XRef ID="267" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2662" DB="Orphanet" />
+              <XRef ID="C1850627" DB="MedGen" />
+              <XRef ID="MONDO:0009720" DB="MONDO" />
+              <XRef Type="MIM" ID="301026" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1764561" SubmissionDate="2019-02-06" DateLastUpdated="2019-05-06" DateCreated="2019-05-06">
+        <ClinVarSubmissionID localKey="NM_001448.2:c.742delC|OMIM:255980" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000900067" DateUpdated="2019-05-06" DateCreated="2019-05-06" Type="SCV" Version="1" SubmitterName="Neurogenetics Research; Murdoch Childrens Research Institute" OrgID="500113" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GPC4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001448.2:c.742delC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">NASODIGITOACOUSTIC SYNDROME</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="255980" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment Type="public">Pathogenic variants in GPC4 cause Keipert syndrome (nasodigitoacoustic syndrome)</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB5135546</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1764561" TraitType="Disease" MappingType="Name" MappingValue="NASODIGITOACOUSTIC SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C1850627" Name="Keipert syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

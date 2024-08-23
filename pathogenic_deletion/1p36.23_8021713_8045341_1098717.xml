@@ -1,0 +1,163 @@
+<VariationArchive VariationID="1098717" VariationName="Single allele" VariationType="Deletion" Accession="VCV001098717" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-17" DateCreated="2021-05-21" MostRecentSubmission="2021-05-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1087426" VariationID="1098717">
+      <GeneList>
+        <Gene Symbol="PARK7" FullName="Parkinsonism associated deglycase" GeneID="11315" HGNC_ID="HGNC:16369" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="7961711" stop="7985505" display_start="7961711" display_stop="7985505" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="8021713" stop="8045341" display_start="8021713" display_stop="8045341" Strand="+" />
+          </Location>
+          <OMIM>602533</OMIM>
+        </Gene>
+        <Gene Symbol="TNFRSF9" FullName="TNF receptor superfamily member 9" GeneID="3604" HGNC_ID="HGNC:11924" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="7915871" stop="7940839" display_start="7915871" display_stop="7940839" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="7975930" stop="8003224" display_start="7975930" display_stop="8003224" Strand="-" />
+          </Location>
+          <OMIM>602250</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="7995073" innerStop="8031023" display_start="7995073" display_stop="8031023" variantLength="35951" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_7995073)_(8031023_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_7995073)_(8031023_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Juvenile-onset Parkinson disease" Accession="RCV001420678" Version="1">
+        <ClassifiedConditionList TraitSetID="33739">
+          <ClassifiedCondition DB="MedGen" ID="C0752105">Juvenile-onset Parkinson disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-21" MostRecentSubmission="2021-05-21">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="33739" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36563" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Parkinson Disease, Juvenile</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Juvenile-onset Parkinson disease</ElementValue>
+                <XRef ID="MONDO:0000828" DB="MONDO" />
+              </Name>
+              <XRef ID="C0752105" DB="MedGen" />
+              <XRef ID="MONDO:0000828" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3194713" SubmissionDate="2021-05-19" DateLastUpdated="2021-05-21" DateCreated="2021-05-21">
+        <ClinVarSubmissionID localKey="SUB9615964" submittedAssembly="GRCh37" title="SUB9615964" />
+        <ClinVarAccession Accession="SCV001593258" DateUpdated="2021-05-21" DateCreated="2021-05-21" Type="SCV" Version="1" SubmitterName="Suna and Inan Kirac Foundation Neurodegeneration Research Laboratory, Koc University" OrgID="507533" OrganizationCategory="laboratory" OrgAbbreviation="NDAL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <GeographicOrigin>Anatolian Peninsula</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">18</Age>
+              <Age Type="maximum" age_unit="years">21</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>mixed</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="3" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="3" />
+            </ObservedData>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <GeographicOrigin>Anatolian Peninsula</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+              <Gender>mixed</Gender>
+              <FamilyData NumFamiliesWithVariant="2" />
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="5" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="5" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="7995073" innerStop="8031023" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">DJ1 exon 1-5 and TNFRSF9 exon 1-6 deletion</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0752105" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9615964</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3194713" TraitType="Disease" MappingType="XRef" MappingValue="C0752105" MappingRef="MedGen">
+        <MedGen CUI="C0752105" Name="Juvenile-onset Parkinson disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

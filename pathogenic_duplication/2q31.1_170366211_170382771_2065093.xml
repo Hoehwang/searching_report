@@ -1,0 +1,157 @@
+<VariationArchive VariationID="2065093" VariationName="NM_006063.3(KLHL41):c.468dup (p.Phe157fs)" VariationType="Duplication" Accession="VCV002065093" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-29" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2121653" VariationID="2065093">
+      <GeneList>
+        <Gene Symbol="KLHL41" FullName="kelch like family member 41" GeneID="10324" HGNC_ID="HGNC:16905" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="169509702" stop="169526258" display_start="169509702" display_stop="169526258" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="170366211" stop="170382771" display_start="170366211" display_stop="170382771" Strand="+" />
+          </Location>
+          <OMIM>607701</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006063.3(KLHL41):c.468dup (p.Phe157fs)</Name>
+      <CanonicalSPDI>NC_000002.12:169510244:AA:AAA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="169510244" stop="169510245" display_start="169510244" display_stop="169510245" variantLength="1" positionVCF="169510244" referenceAlleleVCF="G" alternateAlleleVCF="GA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="170366754" stop="170366755" display_start="170366754" display_stop="170366755" variantLength="1" positionVCF="170366754" referenceAlleleVCF="G" alternateAlleleVCF="GA" />
+      </Location>
+      <ProteinChange>F157fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.170366756dup" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.170366756dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.169510246dup" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.169510246dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_042051.1" sequenceAccession="NG_042051" sequenceVersion="1" change="g.5545dup">
+            <Expression>NG_042051.1:g.5545dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006063.3" sequenceAccession="NM_006063" sequenceVersion="3" change="c.468dup" MANESelect="true">
+            <Expression>NM_006063.3:c.468dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006054.2" sequenceAccession="NP_006054" sequenceVersion="2" change="p.Phe157fs">
+            <Expression>NP_006054.2:p.Phe157fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006063.3(KLHL41):c.468dup (p.Phe157fs) AND Nemaline myopathy 9" Accession="RCV002953926" Version="2">
+        <ClassifiedConditionList TraitSetID="13477">
+          <ClassifiedCondition DB="MedGen" ID="C3810384">Nemaline myopathy 9</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24268659</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="13477" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18674" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Nemaline myopathy 9</ElementValue>
+                <XRef ID="MONDO:0014326" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEM9</ElementValue>
+                <XRef Type="MIM" ID="615731" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16007" />
+                <XRef ID="16007" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C3810384" DB="MedGen" />
+              <XRef ID="MONDO:0014326" DB="MONDO" />
+              <XRef Type="MIM" ID="615731" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5965668" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="15537130|MedGen:C3810384" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003275038" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24268659</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. ClinVar contains an entry for this variant (Variation ID: 2065093). This variant has not been reported in the literature in individuals affected with KLHL41-related conditions. This variant is not present in population databases (gnomAD no frequency). This sequence change creates a premature translational stop signal (p.Phe157Ilefs*4) in the KLHL41 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in KLHL41 are known to be pathogenic (PMID: 24268659).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KLHL41" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.170366754_170366755insA</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3810384" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5965668" TraitType="Disease" MappingType="XRef" MappingValue="C3810384" MappingRef="MedGen">
+        <MedGen CUI="C3810384" Name="Nemaline myopathy 9" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

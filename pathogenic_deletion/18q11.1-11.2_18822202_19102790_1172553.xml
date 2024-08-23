@@ -1,0 +1,181 @@
+<VariationArchive RecordType="classified" VariationID="1172553" VariationName="NM_001142966.3(GREB1L):c.3977del (p.Lys1326fs)" VariationType="Deletion" Accession="VCV001172553" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1161760" VariationID="1172553">
+      <GeneList>
+        <Gene Symbol="GREB1L" FullName="GREB1 like retinoic acid receptor coactivator" GeneID="80000" HGNC_ID="HGNC:31042" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>18q11.1-11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="18" Accession="NC_000018.10" start="21242232" stop="21526112" display_start="21242232" display_stop="21526112" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="18" Accession="NC_000018.9" start="18822202" stop="19102790" display_start="18822202" display_stop="19102790" Strand="+" />
+          </Location>
+          <OMIM>617782</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001142966.3(GREB1L):c.3977del (p.Lys1326fs)</Name>
+      <CanonicalSPDI>NC_000018.10:21500544:AAA:AA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>18q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="18" Accession="NC_000018.10" start="21500545" stop="21500545" display_start="21500545" display_stop="21500545" variantLength="1" positionVCF="21500544" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="18" Accession="NC_000018.9" start="19080506" stop="19080506" display_start="19080506" display_stop="19080506" variantLength="1" positionVCF="19080505" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>K1326fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000018.10" sequenceAccession="NC_000018" sequenceVersion="10" change="g.21500547del" Assembly="GRCh38">
+            <Expression>NC_000018.10:g.21500547del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000018.9" sequenceAccession="NC_000018" sequenceVersion="9" change="g.19080508del" Assembly="GRCh37">
+            <Expression>NC_000018.9:g.19080508del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001142966.3" sequenceAccession="NM_001142966" sequenceVersion="3" change="c.3977del" MANESelect="true">
+            <Expression>NM_001142966.3:c.3977del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001136438.1" sequenceAccession="NP_001136438" sequenceVersion="1" change="p.Lys1326fs">
+            <Expression>NP_001136438.1:p.Lys1326fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2145944441" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001142966.3(GREB1L):c.3977del (p.Lys1326fs) AND Renal hypodysplasia/aplasia 3" Accession="RCV001526471" Version="1">
+        <ClassifiedConditionList TraitSetID="39795">
+          <ClassifiedCondition DB="MedGen" ID="C4540497">Renal hypodysplasia/aplasia 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="39795" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38422" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Renal hypodysplasia/aplasia 3</ElementValue>
+                <XRef ID="MONDO:0024520" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RHDA3</ElementValue>
+                <XRef Type="MIM" ID="617805" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4540497" DB="MedGen" />
+              <XRef ID="MONDO:0024520" DB="MONDO" />
+              <XRef Type="MIM" ID="617805" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3414188" SubmissionDate="2021-06-10" DateLastUpdated="2021-06-19" DateCreated="2021-06-19">
+        <ClinVarSubmissionID localKey="18:19080505" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001736891" DateUpdated="2021-06-19" DateCreated="2021-06-19" Type="SCV" Version="1" SubmitterName="HudsonAlpha Institute for Biotechnology, HudsonAlpha Institute for Biotechnology" OrgID="505530" OrganizationCategory="laboratory" OrgAbbreviation="HA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>ACMG codes:PVS1; PM2; PP4</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">18:19080505:G:UAB00193</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000104" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001629" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001698" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001789" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001591" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GREB1L" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001142966.2:c.3977del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617805" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>CSER-SouthSeq</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB9828428</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001591" MappingRef="HP">
+        <MedGen CUI="C1865186" Name="Bell-shaped thorax" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001629" MappingRef="HP">
+        <MedGen CUI="C0018818" Name="Ventricular septal defect" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000104" MappingRef="HP">
+        <MedGen CUI="C0542519" Name="Renal agenesis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001789" MappingRef="HP">
+        <MedGen CUI="C0020305" Name="Hydrops fetalis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Disease" MappingType="XRef" MappingValue="617805" MappingRef="OMIM">
+        <MedGen CUI="C4540497" Name="Renal hypodysplasia/aplasia 3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414188" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001698" MappingRef="HP">
+        <MedGen CUI="C0031039" Name="Pericardial effusion" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

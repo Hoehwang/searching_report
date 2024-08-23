@@ -1,0 +1,168 @@
+<VariationArchive VariationID="3254621" VariationName="NM_005094.4(SLC27A4):c.871_877+19del" VariationType="Deletion" Accession="VCV003254621" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2024-07-23" MostRecentSubmission="2024-07-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3413398" VariationID="3254621">
+      <GeneList>
+        <Gene Symbol="SLC27A4" FullName="solute carrier family 27 member 4" GeneID="10999" HGNC_ID="HGNC:10998" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="128340527" stop="128361470" display_start="128340527" display_stop="128361470" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="131102838" stop="131123748" display_start="131102838" display_stop="131123748" Strand="+" />
+          </Location>
+          <OMIM>604194</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005094.4(SLC27A4):c.871_877+19del</Name>
+      <CanonicalSPDI>NC_000009.12:128350565:CACTCAGCAGGTAACTCTAGGGCTGTCAC:CAC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="128350566" stop="128350591" display_start="128350566" display_stop="128350591" variantLength="26" positionVCF="128350565" referenceAlleleVCF="CCACTCAGCAGGTAACTCTAGGGCTGT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="131112845" stop="131112870" display_start="131112845" display_stop="131112870" variantLength="26" positionVCF="131112844" referenceAlleleVCF="CCACTCAGCAGGTAACTCTAGGGCTGT" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.131112848_131112873del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.131112848_131112873del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.128350569_128350594del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.128350569_128350594del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_017057.1" sequenceAccession="NG_017057" sequenceVersion="1" change="g.15010_15035del">
+            <Expression>NG_017057.1:g.15010_15035del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005094.4" sequenceAccession="NM_005094" sequenceVersion="4" change="c.871_877+19del" MANESelect="true">
+            <Expression>NM_005094.4:c.871_877+19del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005094.4(SLC27A4):c.871_877+19del AND Ichthyosis prematurity syndrome" Accession="RCV004594804" Version="1">
+        <ClassifiedConditionList TraitSetID="1609">
+          <ClassifiedCondition DB="MedGen" ID="C1837610">Ichthyosis prematurity syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-07-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-07-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-07-23" MostRecentSubmission="2024-07-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1609" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1770" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ichthyosis prematurity syndrome</ElementValue>
+                <XRef ID="Ichthyosis+prematurity+syndrome/3731" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0012089" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ichthyosis congenita IV</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IPS</ElementValue>
+                <XRef Type="MIM" ID="608649" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Autosomal recessive congenital ichthyosis (ARCI) encompasses several forms of nonsyndromic ichthyosis. Although most neonates with ARCI are collodion babies, the clinical presentation and severity of ARCI may vary significantly, ranging from harlequin ichthyosis, the most severe and often fatal form, to lamellar ichthyosis (LI) and (nonbullous) congenital ichthyosiform erythroderma (CIE). These phenotypes are now recognized to fall on a continuum; however, the phenotypic descriptions are clinically useful for clarification of prognosis and management. Infants with harlequin ichthyosis are usually born prematurely and are encased in thick, hard, armor-like plates of cornified skin that severely restrict movement. Life-threatening complications in the immediate postnatal period include respiratory distress, feeding problems, and systemic infection. Collodion babies are born with a taut, shiny, translucent or opaque membrane that encases the entire body and lasts for days to weeks. LI and CIE are seemingly distinct phenotypes: classic, severe LI with dark brown, plate-like scale with no erythroderma and CIE with finer whiter scale and underlying generalized redness of the skin. Affected individuals with severe involvement can have ectropion, eclabium, scarring alopecia involving the scalp and eyebrows, and palmar and plantar keratoderma. Besides these major forms of nonsyndromic ichthyosis, a few rare subtypes have been recognized, such as bathing suit ichthyosis, self-improving collodion ichthyosis, or ichthyosis-prematurity syndrome.</Attribute>
+                <XRef ID="NBK1420" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9886" />
+                <XRef ID="9886" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301593</ID>
+                <ID Source="BookShelf">NBK1420</ID>
+              </Citation>
+              <XRef ID="88621" DB="Orphanet" />
+              <XRef ID="C1837610" DB="MedGen" />
+              <XRef ID="MONDO:0012089" DB="MONDO" />
+              <XRef Type="MIM" ID="608649" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9873728" SubmissionDate="2024-07-18" DateLastUpdated="2024-07-23" DateCreated="2024-07-23">
+        <ClinVarSubmissionID localKey="vcgs/unit_1/hg38_NM_005094_3_SLC27A4_c_871_877_19delTCAGCAGGTAACTCTAGGGCTGTCAC" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV005086335" DateUpdated="2024-07-23" DateCreated="2024-07-23" Type="SCV" Version="1" SubmitterName="Victorian Clinical Genetics Services, Murdoch Childrens Research Institute" OrgID="500104" OrganizationCategory="laboratory" OrgAbbreviation="VCGS" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="508197" SubmitterName="Shariant Australia, Australian Genomics" Type="behalf" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-07-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Based on the classification scheme VCGS_Germline_v1.3.4, this variant is classified as Pathogenic. Following criteria are met: 0102 - Loss of function is a known mechanism of disease in this gene and is associated with ichthyosis prematurity syndrome (MIM#608649). (I) 0106 - This gene is associated with autosomal recessive disease. (I) 0211 - Canonical splice site variant without proven consequence on splicing (no functional evidence available). This variant is a deletion of seven nucleotides of exon 6, which may result in nonsense-mediated decay (NMD), and it also deletes 19 nucleotides of intron 6, including the canonical site. Therefore, the effect on protein sequence is uncertain. (SP) 0251 - This variant is heterozygous. (I) 0301 - Variant is absent from gnomAD (both v2 and v3). (SP) 0505 - Abnormal splicing is predicted by in silico tools and affected nucleotides at this canonical splice site are highly conserved. (SP) 0705 - No comparable variants at this canonical splice site have previous evidence for pathogenicity. Variants predicted to result in NMD have been reported as pathogenic and likely pathogenic (DECIPHER). (I) 0807 - This variant has no previous evidence of pathogenicity. (I) 0905 - No published segregation evidence has been identified for this variant. (I) 1007 - No published functional evidence has been identified for this variant. (I) 1102 - Strong phenotype match for this individual. (SP) 1206 - This variant has been shown to be paternally inherited (by trio analysis). (I) Legend: (SP) - Supporting pathogenic, (I) - Information, (SB) - Supporting benign</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC27A4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ALLELE_21768</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_005094.3:c.871_877+19del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608649" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>submission_45</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9873728" TraitType="Disease" MappingType="XRef" MappingValue="608649" MappingRef="OMIM">
+        <MedGen CUI="C1837610" Name="Ichthyosis prematurity syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

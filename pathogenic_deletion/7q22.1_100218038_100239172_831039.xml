@@ -1,0 +1,169 @@
+<VariationArchive RecordType="classified" VariationID="831039" VariationName="NC_000007.14:g.(?_100640676)_(100641519_?)del" VariationType="Deletion" Accession="VCV000831039" Version="5" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2020-04-15" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819770" VariationID="831039">
+      <GeneList>
+        <Gene Symbol="TFR2" FullName="transferrin receptor 2" GeneID="7036" HGNC_ID="HGNC:11762" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="100620420" stop="100641552" display_start="100620420" display_stop="100641552" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="100218038" stop="100239172" display_start="100218038" display_stop="100239172" Strand="-" />
+          </Location>
+          <OMIM>604720</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.14:g.(?_100640676)_(100641519_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="100238299" innerStop="100239142" display_start="100238299" display_stop="100239142" variantLength="844" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_100238299)_(100239142_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_100238299)_(100239142_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.14:g.(?_100640676)_(100641519_?)del AND Hereditary hemochromatosis" Accession="RCV001031631" Version="5">
+        <ClassifiedConditionList TraitSetID="21210">
+          <ClassifiedCondition DB="MedGen" ID="C0392514">Hereditary hemochromatosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23600741</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26029709</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="21210" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33108" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hereditary hemochromatosis</ElementValue>
+                <XRef ID="Hereditary+hemochromatosis/8521" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0006507" DB="MONDO" />
+                <XRef ID="35400008" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HFE</ElementValue>
+                <XRef Type="MIM" ID="235200" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HH</ElementValue>
+                <XRef Type="MIM" ID="235200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10746" />
+                <XRef ID="10746" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">HFE hemochromatosis is characterized by inappropriately high absorption of iron by the small intestinal mucosa. The phenotypic spectrum of HFE hemochromatosis includes: Persons with clinical HFE hemochromatosis, in whom manifestations of end-organ damage secondary to iron overload are present; Individuals with biochemical HFE hemochromatosis, in whom transferrin-iron saturation is increased and the only evidence of iron overload is increased serum ferritin concentration; and Non-expressing p.Cys282Tyr homozygotes, in whom neither clinical manifestations of HFE hemochromatosis nor iron overload are present. Clinical HFE hemochromatosis is characterized by excessive storage of iron in the liver, skin, pancreas, heart, joints, and anterior pituitary gland. In untreated individuals, early symptoms include: abdominal pain, weakness, lethargy, weight loss, arthralgias, diabetes mellitus; and increased risk of cirrhosis when the serum ferritin is higher than 1,000 ng/mL. Other findings may include progressive increase in skin pigmentation, congestive heart failure, and/or arrhythmias, arthritis, and hypogonadism. Clinical HFE hemochromatosis is more common in men than women.</Attribute>
+                <XRef ID="NBK1440" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000603934" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301613</ID>
+                <ID Source="BookShelf">NBK1440</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2010">
+                <ID Source="pmc">2987432</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="USPSTF, 2006">
+                <ID Source="PubMed">16880462</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="AASLD, 2011">
+                <ID Source="pmc">3149125</ID>
+              </Citation>
+              <XRef ID="C0392514" DB="MedGen" />
+              <XRef ID="MONDO:0006507" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS235200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356191" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_003227.3_Deletion (Exons 1-3)|MedGen:C0392514" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194937" DateUpdated="2023-11-11" DateCreated="2020-04-15" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23600741</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26029709</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 1-3 of the TFR2 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in TFR2 are known to be pathogenic (PMID: 23600741, 26029709). This variant has not been reported in the literature in individuals affected with TFR2-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TFR2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_100238299)_(100239142_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0392514" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356191" TraitType="Disease" MappingType="XRef" MappingValue="C0392514" MappingRef="MedGen">
+        <MedGen CUI="C0392514" Name="Hereditary hemochromatosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

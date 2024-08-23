@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="100661" VariationName="MARS2, DUP2" VariationType="Duplication" Accession="VCV000100661" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-25" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="106533" VariationID="100661">
+      <GeneList>
+        <Gene Symbol="MARS2" FullName="methionyl-tRNA synthetase 2, mitochondrial" GeneID="92935" HGNC_ID="HGNC:25133" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>2q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="197705369" stop="197708395" display_start="197705369" display_stop="197708395" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="198570027" stop="198573113" display_start="198570027" display_stop="198573113" Strand="+" />
+          </Location>
+          <OMIM>609728</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>MARS2, DUP2</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2q33.1</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>DUP2</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="609728.0003" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff could not confirm the published nucleotide change on current reference sequence after review of PubMed 22448145.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="MARS2, DUP2 AND Spastic ataxia 3" Accession="RCV000087061" Version="4">
+        <ClassifiedConditionList TraitSetID="12992">
+          <ClassifiedCondition DB="MedGen" ID="C1969645">Spastic ataxia 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2012-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2012-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22448145</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12992" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4634" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ataxia, spastic, 3, autosomal recessive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">AUTOSOMAL RECESSIVE SPASTIC ATAXIA WITH LEUKOENCEPHALOPATHY</ElementValue>
+                <XRef Type="MIM" ID="611390" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Spastic ataxia 3</ElementValue>
+                <XRef ID="MONDO:0012664" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPAX3</ElementValue>
+                <XRef Type="MIM" ID="611390" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ARSAL</ElementValue>
+                <XRef Type="MIM" ID="611390" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17425" />
+                <XRef ID="17425" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="314603" DB="Orphanet" />
+              <XRef ID="C1969645" DB="MedGen" />
+              <XRef ID="MONDO:0012664" DB="MONDO" />
+              <XRef Type="MIM" ID="611390" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="211002" SubmissionDate="2015-06-23" DateLastUpdated="2015-06-28" DateCreated="2014-02-26">
+        <ClinVarSubmissionID localKey="609728.0003_SPASTIC ATAXIA 3, AUTOSOMAL RECESSIVE" title="MARS2, DUP2  _SPASTIC ATAXIA 3, AUTOSOMAL RECESSIVE" />
+        <ClinVarAccession Accession="SCV000119875" DateUpdated="2015-06-28" DateCreated="2014-02-26" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of several French Canadian families with autosomal recessive spastic ataxia-3 (SPAX3; 611390), Bayat et al. (2012) identified a homozygous duplication of the MARS2 gene, termed 'Dup2.' The duplication was similar to Dup1 (609728.0002), but included a small deletion in the 3-prime untranslated region. Copy number variation involving the MARS2 gene was not observed in 384 control individuals. Patients homozygous for the Dup2 allele had a later age at onset compared to other patients.</Attribute>
+              <Citation>
+                <ID Source="PubMed">22448145</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="611390" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MARS2" />
+          </GeneList>
+          <Name>MARS2, DUP2</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DUP2</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609728.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPASTIC ATAXIA 3, AUTOSOMAL RECESSIVE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="211002" TraitType="Disease" MappingType="Name" MappingValue="SPASTIC ATAXIA 3, AUTOSOMAL RECESSIVE" MappingRef="Preferred">
+        <MedGen CUI="C1969645" Name="Spastic ataxia 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

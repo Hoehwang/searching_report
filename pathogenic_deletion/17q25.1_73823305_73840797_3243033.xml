@@ -1,0 +1,143 @@
+<VariationArchive VariationID="3243033" VariationName="NC_000017.10:g.(?_73839091)_(73841319_?)del" VariationType="Deletion" Accession="VCV003243033" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3401631" VariationID="3243033">
+      <GeneList>
+        <Gene Symbol="UNC13D" FullName="unc-13 homolog D" GeneID="201294" HGNC_ID="HGNC:23147" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75827225" stop="75844404" display_start="75827225" display_stop="75844404" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73823305" stop="73840797" display_start="73823305" display_stop="73840797" Strand="-" />
+          </Location>
+          <OMIM>608897</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.10:g.(?_73839091)_(73841319_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="73839091" innerStop="73841319" display_start="73839091" display_stop="73841319" variantLength="2229" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_73839091)_(73841319_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_73839091)_(73841319_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.10:g.(?_73839091)_(73841319_?)del AND Familial hemophagocytic lymphohistiocytosis 3" Accession="RCV004581271" Version="1">
+        <ClassifiedConditionList TraitSetID="507">
+          <ClassifiedCondition DB="MedGen" ID="C1837174">Familial hemophagocytic lymphohistiocytosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-06-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-06-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14622600</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="507" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2266" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Familial hemophagocytic lymphohistiocytosis 3</ElementValue>
+                <XRef ID="MONDO:0012146" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HLH3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HPLH3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">FHL3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9928" />
+                <XRef ID="9928" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="540" DB="Orphanet" />
+              <XRef ID="C1837174" DB="MedGen" />
+              <XRef ID="MONDO:0012146" DB="MONDO" />
+              <XRef Type="MIM" ID="608898" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9833522" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000017.10:g.(?_73839091)_(73841319_?)del|MedGen:C1837174" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005065365" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-06-19">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">14622600</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with UNC13D-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 1-4 of the UNC13D gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in UNC13D are known to be pathogenic (PMID: 14622600).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_73839091)_(73841319_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1837174" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9833522" TraitType="Disease" MappingType="XRef" MappingValue="C1837174" MappingRef="MedGen">
+        <MedGen CUI="C1837174" Name="Familial hemophagocytic lymphohistiocytosis 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

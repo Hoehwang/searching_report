@@ -1,0 +1,147 @@
+<VariationArchive VariationID="2878708" VariationName="NM_005530.3(IDH3A):c.81dup (p.Thr28fs)" VariationType="Duplication" Accession="VCV002878708" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-29" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3033509" VariationID="2878708">
+      <GeneList>
+        <Gene Symbol="IDH3A" FullName="isocitrate dehydrogenase (NAD(+)) 3 catalytic subunit alpha" GeneID="3419" HGNC_ID="HGNC:5384" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="78149362" stop="78171945" display_start="78149362" display_stop="78171945" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="78441718" stop="78462883" display_start="78441718" display_stop="78462883" Strand="+" />
+          </Location>
+          <OMIM>601149</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005530.3(IDH3A):c.81dup (p.Thr28fs)</Name>
+      <CanonicalSPDI>NC_000015.10:78155262:TTTT:TTTTT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>15q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="78155262" stop="78155263" display_start="78155262" display_stop="78155263" variantLength="1" positionVCF="78155262" referenceAlleleVCF="G" alternateAlleleVCF="GT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="78447604" stop="78447605" display_start="78447604" display_stop="78447605" variantLength="1" positionVCF="78447604" referenceAlleleVCF="G" alternateAlleleVCF="GT" />
+      </Location>
+      <ProteinChange>T28fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.78155266dup" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.78155266dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.78447608dup" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.78447608dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005530.3" sequenceAccession="NM_005530" sequenceVersion="3" change="c.81dup" MANESelect="true">
+            <Expression>NM_005530.3:c.81dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005521.1" sequenceAccession="NP_005521" sequenceVersion="1" change="p.Thr28fs">
+            <Expression>NP_005521.1:p.Thr28fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005530.3(IDH3A):c.81dup (p.Thr28fs) AND not provided" Accession="RCV003707828" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-06-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-06-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28412069</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8269489" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2024-02-20">
+        <ClinVarSubmissionID localKey="15417376|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004481011" DateUpdated="2024-02-20" DateCreated="2024-02-20" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-06-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28412069</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with IDH3A-related conditions. This variant is present in population databases (no rsID available, gnomAD 0.0009%). This sequence change creates a premature translational stop signal (p.Thr28Tyrfs*28) in the IDH3A gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in IDH3A are known to be pathogenic (PMID: 28412069).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IDH3A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.78447604_78447605insT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8269489" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

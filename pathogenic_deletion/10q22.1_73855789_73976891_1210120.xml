@@ -1,0 +1,160 @@
+<VariationArchive VariationID="1210120" VariationName="NC_000010.10:g.(?_73970434)_(73973122_?)del" VariationType="Deletion" Accession="VCV001210120" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2021-08-26" MostRecentSubmission="2021-08-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1200120" VariationID="1210120">
+      <GeneList>
+        <Gene Symbol="ASCC1" FullName="activating signal cointegrator 1 complex subunit 1" GeneID="51008" HGNC_ID="HGNC:24268" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="72096032" stop="72217134" display_start="72096032" display_stop="72217134" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="73855789" stop="73976891" display_start="73855789" display_stop="73976891" Strand="-" />
+          </Location>
+          <OMIM>614215</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(?_73970434)_(73973122_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="73970434" innerStop="73973122" display_start="73970434" display_stop="73973122" variantLength="2689" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_73970434)_(73973122_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_73970434)_(73973122_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="Decreased function" />
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(?_73970434)_(73973122_?)del AND Spinal muscular atrophy with congenital bone fractures 2" Accession="RCV001580142" Version="2">
+        <ClassifiedConditionList TraitSetID="25691">
+          <ClassifiedCondition DB="MedGen" ID="C4225176">Spinal muscular atrophy with congenital bone fractures 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-08-26" MostRecentSubmission="2021-08-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="25691" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34871" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spinal muscular atrophy with congenital bone fractures 2</ElementValue>
+                <XRef ID="MONDO:0014807" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SMABF2</ElementValue>
+                <XRef Type="MIM" ID="616867" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18495" />
+                <XRef ID="18495" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C4225176" DB="MedGen" />
+              <XRef ID="MONDO:0014807" DB="MONDO" />
+              <XRef Type="MIM" ID="616867" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3549726" SubmissionDate="2021-08-24" DateLastUpdated="2021-08-26" DateCreated="2021-08-26">
+        <ClinVarSubmissionID localKey="SUB10179283" submittedAssembly="GRCh37" title="SUB10179283" />
+        <ClinVarAccession Accession="SCV001779596" DateUpdated="2021-08-26" DateCreated="2021-08-26" Type="SCV" Version="1" SubmitterName="Laboratory of Functional Genomics, Research Centre for Medical Genetics" OrgID="506566" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The g.(?_73970434)_(73973122_?)del variant could be classified as pathogenic variant according to ACMG criteria (PM2, PVS1, PM3). The variant had been observed in 1 male proband with ASCC1-related myopathy and segregated in the family in autosomal-recessive manner. This variant is absent from large population studies. Variant led to deletion of exons 2 and 3 and loss of start codon in ASCC1 gene.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>Russian</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation sequencing</TypePlatform>
+              <Description>Analysis of exons coverage suspected possible deletion of exons 2 and 3. To validate the deletion in proband and investigate its segregation in family we amplified locus containing exons 2 and 3 on cDNA level with further Sanger sequencing.</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory">Genomed Ltd.</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">ASCC1-related myopathy</ElementValue>
+                </Name>
+              </Trait>
+              <Comment>. In the neonatal period proband presented muscular hypotonia, lack of spontaneous movements in left hand. Early motor milestones were delayed â€” the infant could hold her head at 8 mo, rolled over at 13 mo and sat with support at age 24 mo. Language and communication skills were also delayed. No dysphagia, dysphonia, no respiratory dysfunction was detected. During the general examination in the phenotype few features were noted: Widely spaced primary teeth (HP:0006313), Pectus excavatum (HP:0000767), Hypoplasia of the primary teeth (HP:0006334), Broad forehead (HP:0000337), Generalized joint laxity (HP:0002761). Neurological examination revealed severe muscular hypotonia (HP:0006829), Neck flexor weakness (HP:0003722), Upper and lower limbs muscles weakness, Reduced tendon reflexes (HP:0001315) of upper limbs and ankle, but normal patellar reflexes. The patient could not be seated independently, while seated a kyphotic back indicated, pushes down on legs in valgus state when feet are on a hard surface with support. In a sit position the boy could push himself with hands to move on a surface. A child was performed nerve conduction study (NCS) and electromyography (EMG) at the age of 3 years 8 months. NCS of the upper and lower extremities showed normal range of motor and sensory conduction velocities. Amplitude of compound muscle action potential and sensory nerve action potential were also normal. Needle EMG of three muscles (left tibialis anterior, left vastus lateralis and left deltoid) showed clearly myogenic pattern: decreased mean duration of motor unit potentials (MUPs), early recruitment, increased number of polyphasic MUPs in the tested muscles. The mean MUPs amplitude was not significantly changed. Single fibrillation potentials were detected. Thus, the EMG data of the study indicated a muscular type of lesion.</Comment>
+            </TraitSet>
+            <Comment>In our patient we observed less severe phenotype, in comparison with previously described Spinal muscular atrophy with congenital bone fractures type 2. To explain the difference in clinical pictures, we suggested to investigate Î”Ex2,3 impact in molecular pathogenesis. We used in-silico Â«ATGprÂ» prediction algorithm to identify initiation codons of translation on the cDNA with the Î”Ex2,3 deletion (Nishikawa, Ota, &amp; Isogai, 2000). New downstream ATG codon with high score, comparable to the wild type one, in exon 4 was identified. Analysis of open reading frame shown that translation from this alternative ATG codon coincide with major ORF of ASCC1 gene. We suggested that Î”Ex2,3 transcript could produce a new truncated protein p.Glu2_Met86del. According to domain structure of ASCC1 protein the deletion led to shortened KH-domain, but not the RNA-ligase like domain (Gal-Oz, Haiat, Eliyahu, Shani, &amp; Shay, 2021).</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ASCC1">
+              <Name>activating signal cointegrator 1 complex subunit 1</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <FunctionalConsequence Value="Decreased function" />
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(?_73970434)_(73973122_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616867" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10179283</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3549726" TraitType="Disease" MappingType="XRef" MappingValue="616867" MappingRef="OMIM">
+        <MedGen CUI="C4225176" Name="Spinal muscular atrophy with congenital bone fractures 2" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3549726" TraitType="Finding" MappingType="Name" MappingValue="ASCC1-related myopathy" MappingRef="Preferred">
+        <MedGen CUI="None" Name="ASCC1-related myopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

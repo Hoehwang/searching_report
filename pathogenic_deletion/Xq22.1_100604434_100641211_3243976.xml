@@ -1,0 +1,177 @@
+<VariationArchive VariationID="3243976" VariationName="NC_000023.10:g.(?_100624966)_(100641212_?)del" VariationType="Deletion" Accession="VCV003243976" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3404869" VariationID="3243976">
+      <GeneList>
+        <Gene Symbol="BTK" FullName="Bruton tyrosine kinase" GeneID="695" HGNC_ID="HGNC:1133" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="101349450" stop="101390796" display_start="101349450" display_stop="101390796" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="100604434" stop="100641211" display_start="100604434" display_stop="100641211" Strand="-" />
+          </Location>
+          <OMIM>300300</OMIM>
+          <Haploinsufficiency last_evaluated="2021-03-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BTK">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-03-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BTK">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_100624966)_(100641212_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="100624966" innerStop="100641212" display_start="100624966" display_stop="100641212" variantLength="16247" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_100624966)_(100641212_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_100624966)_(100641212_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_100624966)_(100641212_?)del AND X-linked agammaglobulinemia with growth hormone deficiency" Accession="RCV004578098" Version="1">
+        <ClassifiedConditionList TraitSetID="3112">
+          <ClassifiedCondition DB="MedGen" ID="C0472813">X-linked agammaglobulinemia with growth hormone deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-01-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-01-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15661032</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16862044</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19419768</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3112" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2492" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ISOLATED GROWTH HORMONE DEFICIENCY, TYPE III, WITH AGAMMAGLOBULINEMIA</ElementValue>
+                <XRef Type="MIM" ID="307200" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300300.0030" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300300.0040" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300300.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Isolated growth hormone deficiency type 3</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Growth hormone deficiency with hypogammaglobulinemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hypogammaglobulinemia and isolated growth hormone deficiency, X-linked</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Agammaglobulinemia and isolated growth hormone deficiency, X-linked</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fleisher syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IGHD III</ElementValue>
+                <XRef Type="MIM" ID="307200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">X-linked agammaglobulinemia with growth hormone deficiency</ElementValue>
+                <XRef ID="X-linked+agammaglobulinemia+with+growth+hormone+deficiency/9484" DB="Genetic Alliance" />
+                <XRef ID="234533006" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IGHD3</ElementValue>
+                <XRef Type="MIM" ID="307200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3921" />
+                <XRef ID="3921" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="231692" DB="Orphanet" />
+              <XRef ID="631" DB="Orphanet" />
+              <XRef ID="C0472813" DB="MedGen" />
+              <XRef ID="MONDO:0010615" DB="MONDO" />
+              <XRef Type="MIM" ID="307200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9834476" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000023.10:g.(?_100624966)_(100641212_?)del|MedGen:C0472813" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005065566" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-01-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">15661032</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16862044</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19419768</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with BTK-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 1-5 of the BTK gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in BTK are known to be pathogenic (PMID: 15661032, 16862044, 19419768).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_100624966)_(100641212_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0472813" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9834476" TraitType="Disease" MappingType="XRef" MappingValue="C0472813" MappingRef="MedGen">
+        <MedGen CUI="C0472813" Name="X-linked agammaglobulinemia with growth hormone deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

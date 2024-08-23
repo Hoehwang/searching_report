@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="433536" VariationName="NP_115791.3:p.Met183_Lys196dup" VariationType="Duplication" Accession="VCV000433536" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-07-23" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="427110" VariationID="433536">
+      <GeneList>
+        <Gene Symbol="CARD11" FullName="caspase recruitment domain family member 11" GeneID="84433" HGNC_ID="HGNC:16393" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>7p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="2906142" stop="3043867" display_start="2906142" display_stop="3043867" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="2945708" stop="3083508" display_start="2945708" display_stop="3083508" Strand="-" />
+          </Location>
+          <OMIM>607210</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NP_115791.3:p.Met183_Lys196dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>7p22.2</CytogeneticLocation>
+      </Location>
+      <HGVSlist>
+        <HGVS Type="protein">
+          <ProteinExpression sequenceAccessionVersion="NP_115791.3" sequenceAccession="NP_115791" sequenceVersion="3" change="p.Met183_Lys196dup">
+            <Expression>NP_115791.3:p.Met183_Lys196dup</Expression>
+          </ProteinExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="607210.0010" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff could not provide a nucleotide-based HGVS expression for allelic variant 607210.0010 because the boundaries of the duplication were not reported in the paper by Ma et al., 2017 (PubMed 28628108).  Based on the effect on the protein, this may be NM_032415.7:c.547_588dup.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NP_115791.3:p.Met183_Lys196dup AND Immunodeficiency 11b with atopic dermatitis" Accession="RCV000501405" Version="1">
+        <ClassifiedConditionList TraitSetID="37096">
+          <ClassifiedCondition DB="MedGen" ID="C4539957">Immunodeficiency 11b with atopic dermatitis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-08-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-08-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-28" MostRecentSubmission="2017-08-28">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28628108</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="37096" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38018" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ATOPIC DERMATITIS, ELEVATED IgE, AND EOSINOPHILIA</ElementValue>
+                <XRef Type="MIM" ID="617638" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 11b with atopic dermatitis</ElementValue>
+                <XRef ID="MONDO:0054697" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IMD11B</ElementValue>
+                <XRef Type="MIM" ID="617638" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4539957" DB="MedGen" />
+              <XRef ID="MONDO:0054697" DB="MONDO" />
+              <XRef Type="MIM" ID="617638" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1147381" SubmissionDate="2017-08-22" DateLastUpdated="2017-08-28" DateCreated="2017-08-28">
+        <ClinVarSubmissionID localKey="607210.0010_IMMUNODEFICIENCY 11B WITH ATOPIC DERMATITIS" title="CARD11, 42-BP DUP_IMMUNODEFICIENCY 11B WITH ATOPIC DERMATITIS" />
+        <ClinVarAccession Accession="SCV000590951" DateUpdated="2017-08-28" DateCreated="2017-08-28" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-08-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 3 members of a family (family D) with immunodeficiency-11B with atopic dermatitis (IMD11B; 617638), Ma et al. (2017) identified a heterozygous mutation in the CARD11 gene, resulting in an in-frame duplication of 14 amino acids (Met183_Lys196) in the coiled-coil domain (K196_V197MKEERDSYNDELVK). The mutation, which was found by whole-exome sequencing and confirmed by Sanger sequencing, was not found in public polymorphism databases, including ExAC.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28628108</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617638" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CARD11" />
+          </GeneList>
+          <Name>CARD11, 42-BP DUP</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">42-BP DUP</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="607210.0010" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">IMMUNODEFICIENCY 11B WITH ATOPIC DERMATITIS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1147381" TraitType="Disease" MappingType="Name" MappingValue="IMMUNODEFICIENCY 11B WITH ATOPIC DERMATITIS" MappingRef="Preferred">
+        <MedGen CUI="C4539957" Name="Immunodeficiency 11b with atopic dermatitis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

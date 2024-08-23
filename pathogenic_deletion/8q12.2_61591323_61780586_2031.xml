@@ -1,0 +1,178 @@
+<VariationArchive VariationID="2031" VariationName="NG_007009.1:g.138884_149300del" VariationType="Deletion" Accession="VCV000002031" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-02" DateCreated="2015-10-11" MostRecentSubmission="2015-10-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="17070" VariationID="2031">
+      <GeneList>
+        <Gene Symbol="CHD7" FullName="chromodomain helicase DNA binding protein 7" GeneID="55636" HGNC_ID="HGNC:20626" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>8q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="60678740" stop="60868028" display_start="60678740" display_stop="60868028" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="61591323" stop="61780586" display_start="61591323" display_stop="61780586" Strand="+" />
+          </Location>
+          <OMIM>608892</OMIM>
+          <Haploinsufficiency last_evaluated="2023-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CHD7">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CHD7">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NG_007009.1:g.138884_149300del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q12.1</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>DEL EXONS 8-12</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007009.1" sequenceAccession="NG_007009" sequenceVersion="1" change="g.138884_149300del">
+            <Expression>NG_007009.1:g.138884_149300del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_176" sequenceAccession="LRG_176">
+            <Expression>LRG_176:g.138884_149300del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608892.0010" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_007009.1:g.138884_149300del AND CHARGE syndrome" Accession="RCV000002109" Version="2">
+        <ClassifiedConditionList TraitSetID="513">
+          <ClassifiedCondition DB="MedGen" ID="C0265354">CHARGE syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2007-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2007-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-11" MostRecentSubmission="2015-10-11">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17334995</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="513" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="886" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hittner Hirsch Kreh syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Colobomatous microphthalmia, heart disease, hearing loss, and mental retardation</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHARGE ASSOCIATION--COLOBOMA, HEART ANOMALY, CHOANAL ATRESIA, RETARDATION, GENITAL AND EAR ANOMALIES</ElementValue>
+                <XRef Type="MIM" ID="214800" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">CHARGE syndrome</ElementValue>
+                <XRef ID="MONDO:0008965" DB="MONDO" />
+                <XRef ID="47535005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Coloboma, heart anomaly, choanal atresia, retardation, genital and ear anomalies</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHARGE association</ElementValue>
+                <XRef ID="47535005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hall-Hittner syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CHARGE</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="29" />
+                <XRef ID="29" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">CHD7 disorder encompasses the entire phenotypic spectrum of heterozygous CHD7 pathogenic variants that includes CHARGE syndrome as well as subsets of features that comprise the CHARGE syndrome phenotype. The mnemonic CHARGE syndrome, introduced in the premolecular era, stands for coloboma, heart defect, choanal atresia, retarded growth and development, genital hypoplasia, ear anomalies (including deafness). Following the identification of the genetic cause of CHD7 disorder, the phenotypic spectrum expanded to include cranial nerve anomalies, vestibular defects, cleft lip and/or palate, hypothyroidism, tracheoesophageal anomalies, brain anomalies, seizures, and renal anomalies. Life expectancy highly depends on the severity of manifestations; mortality can be high in the first few years when severe birth defects (particularly complex heart defects) are present and often complicated by airway and feeding issues. In childhood, adolescence, and adulthood, decreased life expectancy is likely related to a combination of residual heart defects, infections, aspiration or choking, respiratory issues including obstructive and central apnea, and possibly seizures. Despite these complications, the life expectancy for many individuals can be normal.</Attribute>
+                <XRef ID="NBK1117" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301296</ID>
+                <ID Source="BookShelf">NBK1117</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="PubMed">21407266</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23519317</ID>
+              </Citation>
+              <XRef ID="138" DB="Orphanet" />
+              <XRef ID="C0265354" DB="MedGen" />
+              <XRef ID="MONDO:0008965" DB="MONDO" />
+              <XRef Type="MIM" ID="214800" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="22267" SubmissionDate="2017-06-26" DateLastUpdated="2015-10-11" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="608892.0010_CHARGE SYNDROME" title="CHD7, DEL EXONS 8-12_CHARGE SYNDROME" />
+        <ClinVarAccession Accession="SCV000022267" DateUpdated="2015-10-11" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2007-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 13-year-old Japanese girl with CHARGE syndrome (214800), Udaka et al. (2007) identified a de novo heterozygous 10.4-kb deletion in the CHD7 gene, encompassing exons 8 to 12 with breakpoints within introns 7 and 12, and predicted to cause a truncated protein lacking the functionally important chromo, SNF2, and helicase domains. The authors stated that this was the first CHARGE patient to have a documented exonic deletion in CHD7.</Attribute>
+              <Citation>
+                <ID Source="PubMed">17334995</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="214800" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CHD7" />
+          </GeneList>
+          <Name>CHD7, DEL EXONS 8-12</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DEL EXONS 8-12</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608892.0010" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CHARGE SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="22267" TraitType="Disease" MappingType="Name" MappingValue="CHARGE SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C0265354" Name="CHARGE syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

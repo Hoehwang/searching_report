@@ -1,0 +1,169 @@
+<VariationArchive RecordType="classified" VariationID="619968" VariationName="NM_001698.2(AUH):c.(?_1)_(418_?)+1del" VariationType="Deletion" Accession="VCV000619968" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2019-03-19" MostRecentSubmission="2019-03-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="611362" VariationID="619968">
+      <GeneList>
+        <Gene Symbol="AUH" FullName="AU RNA binding methylglutaconyl-CoA hydratase" GeneID="549" HGNC_ID="HGNC:890" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="91213823" stop="91361918" display_start="91213823" display_stop="91361918" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="93976096" stop="94124205" display_start="93976096" display_stop="94124205" Strand="-" />
+          </Location>
+          <OMIM>600529</OMIM>
+        </Gene>
+        <Gene Symbol="LOC130002059" FullName="ATAC-STARR-seq lymphoblastoid silent region 20025" GeneID="130002059" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="91361649" stop="91362088" display_start="91361649" display_stop="91362088" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_001698.2(AUH):c.(?_1)_(418_?)+1del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q22.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" innerStart="91355882" innerStop="91361889" display_start="91355882" display_stop="91361889" variantLength="6008" />
+      </Location>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_449t1" sequenceAccession="LRG_449t1" change="c.(?_1)_(418+1_?)del">
+            <Expression>LRG_449t1:c.(?_1)_(418+1_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.(?_91355882)_(91361889_?)del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.(?_91355882)_(91361889_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001698.2(AUH):c.(?_1)_(418_?)+1del AND 3-methylglutaconic aciduria type 1" Accession="RCV000760163" Version="1">
+        <ClassifiedConditionList TraitSetID="2494">
+          <ClassifiedCondition DB="MedGen" ID="C0342727">3-methylglutaconic aciduria type 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-03-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-03-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-03-19" MostRecentSubmission="2019-03-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21840233</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2494" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">3 methylglutaconic aciduria type I</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MGA type I</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">3 alpha methylglutaconic aciduria type I</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">3 methylglutaconyl CoA hydratase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">3MG CoA hydratase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">3-methylglutaconic aciduria type 1</ElementValue>
+                <XRef ID="MONDO:0009610" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MGCA1</ElementValue>
+                <XRef Type="MIM" ID="250950" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10321" />
+                <XRef ID="10321" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/C5-OH.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Elevated C5-OH Acylcarnitine, Organic Acidemias, 2022</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/C5-OH-Elevated.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Algorithm, Organic Acidemias: Elevated C5-OH, 2022</CitationText>
+              </Citation>
+              <XRef ID="67046" DB="Orphanet" />
+              <XRef ID="C0342727" DB="MedGen" />
+              <XRef ID="MONDO:0009610" DB="MONDO" />
+              <XRef Type="MIM" ID="250950" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1741299" SubmissionDate="2018-08-22" DateLastUpdated="2019-03-19" DateCreated="2019-03-19">
+        <ClinVarSubmissionID localKey="NM_001698.2: c.(?_1)_(418+1_?)del" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000889980" DateUpdated="2019-03-19" DateCreated="2019-03-19" Type="SCV" Version="1" SubmitterName="Molecular Diagnostics Laboratory, M Health Fairview: University of Minnesota" OrgID="506641" OrganizationCategory="laboratory" OrgAbbreviation="UMMC-MDL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-03-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">21840233</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="AUH" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001698.2:c.(?_1)_(418+1_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="250950" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB4433710</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1741299" TraitType="Disease" MappingType="XRef" MappingValue="250950" MappingRef="OMIM">
+        <MedGen CUI="C0342727" Name="3-methylglutaconic aciduria type 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="623639" VariationName="NM_024656.4(COLGALT1):c.1096del (p.Glu366fs)" VariationType="Deletion" Accession="VCV000623639" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-03-25" MostRecentSubmission="2019-03-25">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="612464" VariationID="623639">
+      <GeneList>
+        <Gene Symbol="COLGALT1" FullName="collagen beta(1-O)galactosyltransferase 1" GeneID="79709" HGNC_ID="HGNC:26182" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="17555649" stop="17583157" display_start="17555649" display_stop="17583157" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="17666510" stop="17693964" display_start="17666510" display_stop="17693964" Strand="+" />
+          </Location>
+          <OMIM>617531</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_024656.4(COLGALT1):c.1096del (p.Glu366fs)</Name>
+      <CanonicalSPDI>NC_000019.10:17577428:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="17577429" stop="17577429" display_start="17577429" display_stop="17577429" variantLength="1" positionVCF="17577428" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="17688238" stop="17688238" display_start="17688238" display_stop="17688238" variantLength="1" positionVCF="17688237" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>E366fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.17688239del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.17688239del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.17577430del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.17577430del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024656.4" sequenceAccession="NM_024656" sequenceVersion="4" change="c.1096del" MANESelect="true">
+            <Expression>NM_024656.4:c.1096del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_078932.2" sequenceAccession="NP_078932" sequenceVersion="2" change="p.Glu366fs">
+            <Expression>NP_078932.2:p.Glu366fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="617531.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1568481204" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_024656.4(COLGALT1):c.1096del (p.Glu366fs) AND Brain small vessel disease 3" Accession="RCV000761582" Version="1">
+        <ClassifiedConditionList TraitSetID="46872">
+          <ClassifiedCondition DB="MedGen" ID="C5193053">Brain small vessel disease 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-03-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-03-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-03-25" MostRecentSubmission="2019-03-25">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30412317</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="46872" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41554" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Brain small vessel disease 3</ElementValue>
+                <XRef ID="MONDO:0100105" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BSVD3</ElementValue>
+                <XRef Type="MIM" ID="618360" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193053" DB="MedGen" />
+              <XRef ID="MONDO:0100105" DB="MONDO" />
+              <XRef Type="MIM" ID="618360" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1748143" SubmissionDate="2019-03-21" DateLastUpdated="2019-03-25" DateCreated="2019-03-25">
+        <ClinVarSubmissionID localKey="617531.0002_BRAIN SMALL VESSEL DISEASE 3" title="COLGALT1, 1-BP DEL, 1096G_BRAIN SMALL VESSEL DISEASE 3" />
+        <ClinVarAccession Accession="SCV000891741" DateUpdated="2019-03-25" DateCreated="2019-03-25" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-03-21">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 1-bp deletion (c.1096delG, NM_024656) in the COLGALT1 gene, resulting in a frameshift and premature termination (Glu366ArgfsTer15), that was found in compound heterozygous state in a patient with brain small vessel disease-3 (BSVD3; 618360) by Miyatake et al. (2018), see 617531.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30412317</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618360" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="COLGALT1" />
+          </GeneList>
+          <Name>COLGALT1, 1-BP DEL, 1096G</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 1096G</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="617531.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BRAIN SMALL VESSEL DISEASE 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1748143" TraitType="Disease" MappingType="Name" MappingValue="BRAIN SMALL VESSEL DISEASE 3" MappingRef="Preferred">
+        <MedGen CUI="C5193053" Name="Brain small vessel disease 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

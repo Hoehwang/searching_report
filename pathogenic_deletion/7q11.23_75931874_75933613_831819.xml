@@ -1,0 +1,167 @@
+<VariationArchive RecordType="classified" VariationID="831819" VariationName="NC_000007.14:g.(?_76303789)_(76304183_?)del" VariationType="Deletion" Accession="VCV000831819" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819917" VariationID="831819">
+      <GeneList>
+        <Gene Symbol="HSPB1" FullName="heat shock protein family B (small) member 1" GeneID="3315" HGNC_ID="HGNC:5246" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="76302673" stop="76304292" display_start="76302673" display_stop="76304292" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="75931874" stop="75933613" display_start="75931874" display_stop="75933613" Strand="+" />
+          </Location>
+          <OMIM>602195</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.14:g.(?_76303789)_(76304183_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="75933106" innerStop="75933500" display_start="75933106" display_stop="75933500" variantLength="395" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_75933106)_(75933500_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_75933106)_(75933500_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.14:g.(?_76303789)_(76304183_?)del AND Charcot-Marie-Tooth disease axonal type 2F" Accession="RCV001032349" Version="1">
+        <ClassifiedConditionList TraitSetID="2030">
+          <ClassifiedCondition DB="MedGen" ID="C1847823">Charcot-Marie-Tooth disease axonal type 2F</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27816334</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28144995</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">29381233</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2030" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="779" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth disease type 2F</ElementValue>
+                <XRef ID="Charcot-Marie-Tooth+Disease+Type+2F/1297" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CMT 2F</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth disease, neuronal, Type 2F</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth Neuropathy Type 2F</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease axonal type 2F</ElementValue>
+                <XRef ID="MONDO:0011687" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMT2F</ElementValue>
+                <XRef Type="MIM" ID="606595" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9194" />
+                <XRef ID="9194" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301532</ID>
+                <ID Source="BookShelf">NBK1358</ID>
+              </Citation>
+              <XRef ID="99940" DB="Orphanet" />
+              <XRef ID="C1847823" DB="MedGen" />
+              <XRef ID="MONDO:0011687" DB="MONDO" />
+              <XRef Type="MIM" ID="606595" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356911" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="4868653|MedGen:C1847823" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195656" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28144995</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27816334</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">29381233</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 2-3 of the HSPB1 gene. The 5' boundary is likely confined to intron 1. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. This variant has not been reported in individuals affected with HSPB1-related disorders. This variant disrupts the region of the HSPB1 protein between p.Pro39 and p.Pro182. This region has been determined to be associated with autosomal dominant HSPB1-related conditions (PMID: 27816334, 28144995, 29381233), which suggests that variants that disrupt this region are likely to be clinically significant. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HSPB1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_75933106)_(75933500_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Charcot-Marie-Tooth disease type 2F</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1847823" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356911" TraitType="Disease" MappingType="Name" MappingValue="Charcot-Marie-Tooth disease type 2F" MappingRef="Preferred">
+        <MedGen CUI="C1847823" Name="Charcot-Marie-Tooth disease axonal type 2F" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

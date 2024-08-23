@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="10918" VariationName="NG_008880.1:g.(5324_84863)_?del" VariationType="Deletion" Accession="VCV000010918" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-07" DateCreated="2017-06-24" MostRecentSubmission="2017-06-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="25957" VariationID="10918">
+      <GeneList>
+        <Gene Symbol="BCOR" FullName="BCL6 corepressor" GeneID="54880" HGNC_ID="HGNC:20893" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="40051246" stop="40177329" display_start="40051246" display_stop="40177329" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="39910498" stop="40036581" display_start="39910498" display_stop="40036581" Strand="-" />
+          </Location>
+          <OMIM>300485</OMIM>
+          <Haploinsufficiency last_evaluated="2012-10-04" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BCOR">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-10-04" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=BCOR">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NG_008880.1:g.(5324_84863)_?del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.4</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>60-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_627" sequenceAccession="LRG_627">
+            <Expression>LRG_627:g.(5324_84863)_?del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008880.1" sequenceAccession="NG_008880" sequenceVersion="1" change="g.(5324_84863)_?del">
+            <Expression>NG_008880.1:g.(5324_84863)_?del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="300485.0008" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_008880.1:g.(5324_84863)_?del AND Oculofaciocardiodental syndrome" Accession="RCV000011665" Version="3">
+        <ClassifiedConditionList TraitSetID="3040">
+          <ClassifiedCondition DB="MedGen" ID="C1846265">Oculofaciocardiodental syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2005-05-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2005-05-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-06-24" MostRecentSubmission="2017-06-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15770227</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3040" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2945" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Oculofaciocardiodental syndrome</ElementValue>
+                <XRef ID="699300009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Microphthalmia cataracts radiculomegaly and septal heart defects</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MCOPS2</ElementValue>
+                <XRef Type="MIM" ID="300166" DB="OMIM" />
+              </Symbol>
+              <XRef ID="2712" DB="Orphanet" />
+              <XRef ID="C1846265" DB="MedGen" />
+              <XRef ID="MONDO:0010261" DB="MONDO" />
+              <XRef Type="MIM" ID="300166" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="31897" SubmissionDate="2017-06-20" DateLastUpdated="2017-06-24" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="300485.0008_MICROPHTHALMIA, SYNDROMIC 2" title="BCOR, 60-KB DEL_MICROPHTHALMIA, SYNDROMIC 2" />
+        <ClinVarAccession Accession="SCV000031897" DateUpdated="2017-06-24" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2005-05-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with oculofaciocardiodental syndrome (MCOPS2; 300166), Horn et al. (2005) identified a partial, approximately 60-kb deletion in the paternally derived BCOR gene encompassing at least exons 2 to 15. The deletion was a de novo event.</Attribute>
+              <Citation>
+                <ID Source="PubMed">15770227</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="300166" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BCOR" />
+          </GeneList>
+          <Name>BCOR, 60-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">60-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="300485.0008" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MICROPHTHALMIA, SYNDROMIC 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="31897" TraitType="Disease" MappingType="Name" MappingValue="MICROPHTHALMIA, SYNDROMIC 2" MappingRef="Preferred">
+        <MedGen CUI="C1846265" Name="Oculofaciocardiodental syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

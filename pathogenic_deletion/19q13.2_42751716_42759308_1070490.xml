@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="1070490" VariationName="NC_000019.9:g.(?_42759120)_42759196del" VariationType="Deletion" Accession="VCV001070490" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-11" DateCreated="2021-12-02" MostRecentSubmission="2021-12-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1058057" VariationID="1070490">
+      <GeneList>
+        <Gene Symbol="ERF" FullName="ETS2 repressor factor" GeneID="2077" HGNC_ID="HGNC:3444" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>19q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="42247569" stop="42255128" display_start="42247569" display_stop="42255128" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="42751716" stop="42759308" display_start="42751716" display_stop="42759308" Strand="-" />
+          </Location>
+          <OMIM>611888</OMIM>
+          <Haploinsufficiency last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ERF">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ERF">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.9:g.(?_42759120)_42759196del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_42759120_42759196del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_42759120_42759196del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_42759120)_42759196del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_42759120)_42759196del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.9:g.(?_42759120)_42759196del AND TWIST1-related craniosynostosis" Accession="RCV001382636" Version="2">
+        <ClassifiedConditionList TraitSetID="2172">
+          <ClassifiedCondition DB="MedGen" ID="C4551902">TWIST1-related craniosynostosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-06-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-06-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-02" MostRecentSubmission="2021-12-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2172" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1196" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Craniosynostosis 1</ElementValue>
+                <XRef ID="Craniosynostosis+1/8111" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">TWIST1-related craniosynostosis</ElementValue>
+                <XRef ID="MONDO:0007399" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CSO</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CRS</ElementValue>
+                <XRef Type="MIM" ID="123100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CRS1</ElementValue>
+                <XRef Type="MIM" ID="123100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">TWIST1-Related Craniosynostosis</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">Heterogenous inheritance pattern</Attribute>
+                <XRef ID="GTR000225047" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <XRef ID="63440" DB="Orphanet" />
+              <XRef ID="C4551902" DB="MedGen" />
+              <XRef ID="MONDO:0007399" DB="MONDO" />
+              <XRef Type="MIM" ID="123100" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3107117" SubmissionDate="2021-11-23" DateLastUpdated="2021-12-02" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_006494.3_19_Partial deletion (exon 1)_42759119_42759196|MedGen:CN029978" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001581500" DateUpdated="2021-12-02" DateCreated="2021-05-10" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-06-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a partial deletion of exon 1 of the ERF gene, which includes the initiator codon. The 5' end of this event is located 44 nucleotides upstream of the initiator codon and the 3' boundary is confined to intron 1 of the ERF gene (c.-44_22+11del). This is expected to result in an absent or disrupted protein product. While this variant is not present in population databases, the frequency information is unreliable, as metrics indicate poor data quality at this position in the ExAC database. This variant has been observed in an individual affected with craniosynostosis (Invitae). However, it has also been observed in one or more individuals who were not affected with craniosynostosis (Invitae). Algorithms developed to predict the effect of sequence changes on RNA splicing suggest that this variant may disrupt the consensus splice site, but this prediction has not been confirmed by published transcriptional studies. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ERF" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000019.9:g.(?_42759120)_42759196del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN029978" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+          <SubmissionName>SUB10689444</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3107117" TraitType="Disease" MappingType="XRef" MappingValue="CN029978" MappingRef="MedGen">
+        <MedGen CUI="C4551902" Name="TWIST1-related craniosynostosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,155 @@
+<VariationArchive RecordType="classified" VariationID="996224" VariationName="NC_000011.9:g.(?_5246695)_(5255713_?)del" VariationType="Deletion" Accession="VCV000996224" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-02-12" MostRecentSubmission="2021-02-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="983932" VariationID="996224">
+      <GeneList>
+        <Gene Symbol="HBB" FullName="hemoglobin subunit beta" GeneID="3043" HGNC_ID="HGNC:4827" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5225464" stop="5227071" display_start="5225464" display_stop="5227071" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5246695" stop="5248300" display_start="5246695" display_stop="5248300" Strand="-" />
+          </Location>
+          <OMIM>141900</OMIM>
+        </Gene>
+        <Gene Symbol="HBD" FullName="hemoglobin subunit delta" GeneID="3045" HGNC_ID="HGNC:4829" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5232838" stop="5234483" display_start="5232838" display_stop="5234483" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5254058" stop="5255857" display_start="5254058" display_stop="5255857" Strand="-" />
+          </Location>
+          <OMIM>142000</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(?_5246695)_(5255713_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="5246695" innerStop="5255713" display_start="5246695" display_stop="5255713" variantLength="9019" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_5246695)_(5255713_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_5246695)_(5255713_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(?_5246695)_(5255713_?)del AND Hemoglobinopathy" Accession="RCV001290524" Version="1">
+        <ClassifiedConditionList TraitSetID="11981">
+          <ClassifiedCondition DB="MedGen" ID="C0019045">Hemoglobinopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-12" MostRecentSubmission="2021-02-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15315794</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23491071</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">7510147</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="11981" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16728" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hemoglobinopathy</ElementValue>
+                <XRef ID="MONDO:0044348" DB="MONDO" />
+                <XRef ID="80141007" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hemoglobin disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Haemoglobinopathies</ElementValue>
+              </Name>
+              <Citation Type="practice guideline" Abbrev="EMQN, 2014">
+                <ID Source="PubMed">25052315</ID>
+              </Citation>
+              <XRef ID="C0019045" DB="MedGen" />
+              <XRef ID="MONDO:0044348" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2914921" SubmissionDate="2021-02-09" DateLastUpdated="2021-02-12" DateCreated="2021-02-12">
+        <ClinVarSubmissionID localKey="NC_000011.9:g.(?_5246695)_(5255713_?)del|MedGen:C0019045" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001478576" DateUpdated="2021-02-12" DateCreated="2021-02-12" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">15315794</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23491071</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">7510147</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of the whole HBB and HBD genes. A presumed nomenclature of c.HBB_HBD_del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in the deletion of the HBB and HBD genes, a known mechanism of disease. The variant was absent in 21694 control chromosomes. However, larger deletions encompassing the variant allele were found at maximum allele frequency of 0.0012 within African or African-American subpopulation controls (gnomAD, Structural Variants dataset). c.HBB_HBD_del has been reported in the literature in multiple individuals affected with beta-thalassemia (Perea_2004) or Hereditary Persistence of Fetal Hemoglobin (Craig_1994, Blattner_2013). These data indicate that the variant is very likely to be associated with disease. No clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HBB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_5246695)_(5255713_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0019045" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9051234</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2914921" TraitType="Disease" MappingType="XRef" MappingValue="C0019045" MappingRef="MedGen">
+        <MedGen CUI="C0019045" Name="Hemoglobinopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

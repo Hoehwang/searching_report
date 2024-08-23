@@ -1,0 +1,164 @@
+<VariationArchive RecordType="classified" VariationID="497675" VariationName="NM_182961.3(SYNE1):c.9973delG (p.Ala3325Leufs)" VariationType="Deletion" Accession="VCV000497675" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-02" DateCreated="2018-04-02" MostRecentSubmission="2018-04-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="489099" VariationID="497675">
+      <GeneList>
+        <Gene Symbol="SYNE1" FullName="spectrin repeat containing nuclear envelope protein 1" GeneID="23345" HGNC_ID="HGNC:17089" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q25.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="152121687" stop="152637362" display_start="152121687" display_stop="152637362" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="152442818" stop="152958533" display_start="152442818" display_stop="152958533" Strand="-" />
+          </Location>
+          <OMIM>608441</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_182961.3(SYNE1):c.9973delG (p.Ala3325Leufs)</Name>
+      <CanonicalSPDI>NC_000006.12:152365018:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q25.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="152365019" stop="152365019" display_start="152365019" display_stop="152365019" variantLength="1" positionVCF="152365018" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="152686154" stop="152686154" display_start="152686154" display_stop="152686154" variantLength="1" positionVCF="152686153" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.152686155del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.152686155del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.152365020del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.152365020del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012855.2" sequenceAccession="NG_012855" sequenceVersion="2" change="g.277381del">
+            <Expression>NG_012855.2:g.277381del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0002153" Type="genic upstream transcript variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_427" sequenceAccession="LRG_427">
+            <Expression>LRG_427:g.277381del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA658796848" DB="ClinGen" />
+        <XRef Type="rs" ID="1554550339" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_182961.3(SYNE1):c.9973delG (p.Ala3325Leufs) AND not provided" Accession="RCV000593908" Version="4">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-10-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-10-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-04-02" MostRecentSubmission="2018-04-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=SYNE1</URL>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1374717" SubmissionDate="2018-09-19" DateLastUpdated="2018-04-02" DateCreated="2018-04-02">
+        <ClinVarSubmissionID localKey="55228_000000" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000702315" DateUpdated="2018-04-02" DateCreated="2018-04-02" Type="SCV" Version="2" SubmitterName="Eurofins Ntd Llc (ga)" OrgID="500060" OrganizationCategory="laboratory" OrgAbbreviation="EGL" />
+        <RecordStatus>current</RecordStatus>
+        <ReplacedList>
+          <Replaced Accession="SCV000702316" DateChanged="2019-08-06" Version="1">
+            <Comment Type="MergeComment">SCV000702316 was merged into SCV000702315 to remove duplication.</Comment>
+          </Replaced>
+        </ReplacedList>
+        <Classification DateLastEvaluated="2016-10-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">EGL Classification Definitions 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/ahdynye1/egl_classification_definitions_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Gender>mixed</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SYNE1" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" alternateAllele="-" referenceAllele="C" start="152686154" stop="152686154" variantLength="1" />
+            <GeneLocation>NM_033071.3:Ex63</GeneLocation>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation>
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=SYNE1</URL>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>EGL005</SubmissionName>
+          <SubmissionName>SUB4534263</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1374717" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

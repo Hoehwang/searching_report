@@ -1,0 +1,164 @@
+<VariationArchive VariationID="1323367" VariationName="NM_177400.3(NKX6-2):c.119del (p.Phe40fs)" VariationType="Deletion" Accession="VCV001323367" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-17" DateCreated="2021-11-29" MostRecentSubmission="2024-02-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1313652" VariationID="1323367">
+      <GeneList>
+        <Gene Symbol="NKX6-2" FullName="NK6 homeobox 2" GeneID="84504" HGNC_ID="HGNC:19321" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q26.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="132783181" stop="132786147" display_start="132783181" display_stop="132786147" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="134598319" stop="134599536" display_start="134598319" display_stop="134599536" Strand="-" />
+          </Location>
+          <OMIM>605955</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_177400.3(NKX6-2):c.119del (p.Phe40fs)</Name>
+      <CanonicalSPDI>NC_000010.11:132785829:AA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q26.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="132785830" stop="132785830" display_start="132785830" display_stop="132785830" variantLength="1" positionVCF="132785829" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="134599334" stop="134599334" display_start="134599334" display_stop="134599334" variantLength="1" positionVCF="134599333" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>F40fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.134599335del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.134599335del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.132785831del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.132785831del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_177400.3" sequenceAccession="NM_177400" sequenceVersion="3" change="c.119del" MANESelect="true">
+            <Expression>NM_177400.3:c.119del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_796374.2" sequenceAccession="NP_796374" sequenceVersion="2" change="p.Phe40fs">
+            <Expression>NP_796374.2:p.Phe40fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2134707158" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_177400.3(NKX6-2):c.119del (p.Phe40fs) AND Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy" Accession="RCV001784750" Version="4">
+        <ClassifiedConditionList TraitSetID="36776">
+          <ClassifiedCondition DB="MedGen" ID="C4479653">Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-10-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-10-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-29" MostRecentSubmission="2024-02-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36776" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37906" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy</ElementValue>
+                <XRef ID="MONDO:0033043" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SPAX8</ElementValue>
+                <XRef Type="MIM" ID="617560" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">NKX6-2-Related Spastic Ataxia with Hypomyelination</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">NKX6-2-Related Spastic Ataxia</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">NKX6-2-Related Disorder</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">NKX6-2-related disorder is characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system hypomyelination. At the severe end of the spectrum is neonatal-onset nystagmus, severe spastic tetraplegia with joint contractures and scoliosis, and visual and hearing impairment, all of which rapidly progress resulting in death in early childhood. At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings (spasticity with increased muscle tone and difficulty with gait and fine motor coordination) and cerebellar findings (nystagmus, extraocular movement disorder, dysarthria, titubation, and ataxia) with loss of developmental milestones. To date NKX6-2-related disorder has been reported in 25 individuals from 13 families.</Attribute>
+                <XRef ID="NBK531509" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17964" />
+                <XRef ID="17964" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">30285346</ID>
+                <ID Source="BookShelf">NBK531509</ID>
+              </Citation>
+              <XRef ID="527497" DB="Orphanet" />
+              <XRef ID="C4479653" DB="MedGen" />
+              <XRef ID="MONDO:0033043" DB="MONDO" />
+              <XRef Type="MIM" ID="617560" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3964145" SubmissionDate="2024-01-26" DateLastUpdated="2024-02-04" DateCreated="2021-11-29">
+        <ClinVarSubmissionID localKey="75bfbccf0b92e619976d70b2e68fda0b0d9b8cc7ea62ab38b390aad83e0be02a|OMIM:617560" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002018341" DateUpdated="2024-02-04" DateCreated="2021-11-29" Type="SCV" Version="3" SubmitterName="Revvity Omics, Revvity" OrgID="167595" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-10-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_177400.2:c.119del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617560" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10694847</SubmissionName>
+          <SubmissionName>SUB12926214</SubmissionName>
+          <SubmissionName>SUB14173319</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3964145" TraitType="Disease" MappingType="XRef" MappingValue="617560" MappingRef="OMIM">
+        <MedGen CUI="C4479653" Name="Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

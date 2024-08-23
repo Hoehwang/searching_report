@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="838" VariationName="APC, 1-BP DEL, 3720T" VariationType="Deletion" Accession="VCV000000838" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-17" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="15877" VariationID="838">
+      <GeneList>
+        <Gene Symbol="APC" FullName="APC regulator of WNT signaling pathway" GeneID="324" HGNC_ID="HGNC:583" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>5q22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="112707498" stop="112846239" display_start="112707498" display_stop="112846239" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="112043201" stop="112181935" display_start="112043201" display_stop="112181935" Strand="+" />
+          </Location>
+          <OMIM>611731</OMIM>
+          <Haploinsufficiency last_evaluated="2021-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=APC">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=APC">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>APC, 1-BP DEL, 3720T</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q21-q22</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>1-BP DEL, 3720T</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="611731.0046" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff could not confirm the published nucleotide change on current reference sequence after review of PubMed 10782927.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="APC, 1-BP DEL, 3720T AND Desmoid tumor caused by somatic mutation" Accession="RCV000000881" Version="4">
+        <ClassifiedConditionList TraitSetID="217">
+          <ClassifiedCondition DB="MedGen" ID="C2675440">Desmoid tumor caused by somatic mutation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2000-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2000-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10782927</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="217" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8516" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Desmoid tumor, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Desmoid tumor caused by somatic mutation</ElementValue>
+                <XRef ID="MONDO:0100168" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">Desmoplastic small round cell tumor (DSRCT)</ElementValue>
+              </Symbol>
+              <XRef ID="C2675440" DB="MedGen" />
+              <XRef ID="MONDO:0100168" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="21031" SubmissionDate="2020-03-20" DateLastUpdated="2013-04-04" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="611731.0046_DESMOID TUMOR, SOMATIC" title="APC, 1-BP DEL, 3720T_DESMOID TUMOR, SOMATIC" />
+        <ClinVarAccession Accession="SCV000021031" DateUpdated="2013-04-04" DateCreated="2013-04-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2000-03-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Couture et al. (2000) identified a somatic 1-bp deletion (3720delT) in codon 1240 of the APC gene in desmoid tumor tissue from a patient with hereditary desmoid disease (DESMD; 135290) and a germline mutation in the APC gene (611731.0045). Immunohistochemistry on the tumor tissue demonstrated elevated levels of beta-catenin (116806).</Attribute>
+              <Citation>
+                <ID Source="PubMed">10782927</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="135290" Type="MIM" />
+              <XRef DB="OMIM" ID="116806" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="APC" />
+          </GeneList>
+          <Name>APC, 1-BP DEL, 3720T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 3720T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="611731.0046" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">DESMOID TUMOR, SOMATIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="21031" TraitType="Disease" MappingType="Name" MappingValue="DESMOID TUMOR, SOMATIC" MappingRef="Preferred">
+        <MedGen CUI="C2675440" Name="Desmoid tumor caused by somatic mutation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

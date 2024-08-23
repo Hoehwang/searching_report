@@ -1,0 +1,210 @@
+<VariationArchive RecordType="classified" VariationID="5162" VariationName="nsv513769" VariationType="Deletion" Accession="VCV000005162" Version="2" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2022-10-08" DateCreated="2016-10-21" MostRecentSubmission="2022-10-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="20201" VariationID="5162">
+      <GeneList>
+        <Gene Symbol="WNK1" FullName="WNK lysine deficient protein kinase 1" GeneID="65125" HGNC_ID="HGNC:14540" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="752579" stop="911452" display_start="752579" display_stop="911452" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="862088" stop="1020617" display_start="862088" display_stop="1020617" Strand="+" />
+          </Location>
+          <OMIM>605232</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>nsv513769</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12p13.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="776558" stop="798335" display_start="776558" display_stop="798335" variantLength="21778" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="885724" stop="907501" display_start="885724" display_stop="907501" variantLength="21778" Strand="+" />
+      </Location>
+      <OtherNameList>
+        <Name>22-KB DEL, IVS1</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.776558_798335del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.776558_798335del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv1414997" DB="dbVar" />
+        <XRef ID="nsv513769" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="605232.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="nsv513769 AND Pseudohypoaldosteronism type 2C" Accession="RCV000005469" Version="4">
+        <ClassifiedConditionList TraitSetID="1424">
+          <ClassifiedCondition DB="MedGen" ID="C1840391">Pseudohypoaldosteronism type 2C</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2001-08-10" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2001-08-10" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2016-10-21" MostRecentSubmission="2022-10-01">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10869238</ID>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">22073419</ID>
+          <ID Source="BookShelf">NBK65707</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11498583</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1424" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8529" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Pseudohypoaldosteronism type 2C</ElementValue>
+                <XRef ID="MONDO:0013778" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PHA2C</ElementValue>
+                <XRef Type="MIM" ID="614492" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Pseudohypoaldosteronism type II (PHAII) is characterized by hyperkalemia despite normal glomerular filtration rate (GFR) and frequently by hypertension. Other associated findings in both children and adults include hyperchloremia, metabolic acidosis, and suppressed plasma renin levels. Aldosterone levels are variable, but are relatively low given the degree of hyperkalemia (elevated serum potassium is a potent stimulus for aldosterone secretion). Hypercalciuria is well described.</Attribute>
+                <XRef ID="NBK65707" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">22073419</ID>
+                <ID Source="BookShelf">NBK65707</ID>
+              </Citation>
+              <XRef ID="757" DB="Orphanet" />
+              <XRef ID="88940" DB="Orphanet" />
+              <XRef ID="C1840391" DB="MedGen" />
+              <XRef ID="MONDO:0013778" DB="MONDO" />
+              <XRef Type="MIM" ID="614492" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25651" SubmissionDate="2016-10-18" DateLastUpdated="2016-10-21" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605232.0002_PSEUDOHYPOALDOSTERONISM, TYPE IIC" title="WNK1, 22-KB DEL, IVS1_PSEUDOHYPOALDOSTERONISM, TYPE IIC" />
+        <ClinVarAccession Accession="SCV000025651" DateUpdated="2016-10-21" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2001-08-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a family with pseudohypoaldosteronism type II (PHA2C; 614492) reported by Disse-Nicodeme et al. (2000), Wilson et al. (2001) identified a 21,761-bp deletion in intron 1 of the WNK1 gene. Affected individuals had a 5-fold increase in the level of WNK1 transcripts in leukocytes compared to those of unaffected family members.</Attribute>
+              <Citation>
+                <ID Source="PubMed">10869238</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">11498583</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="614492" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WNK1" />
+          </GeneList>
+          <Name>WNK1, 22-KB DEL, IVS1</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">22-KB DEL, IVS1</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605232.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PSEUDOHYPOALDOSTERONISM, TYPE IIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="968066" SubmissionDate="2017-02-23" DateLastUpdated="2022-10-01" DateCreated="2016-10-21">
+        <ClinVarSubmissionID localKey="NG_007984.2:g.28500_50277del|OMIM:614492" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV000503023" DateUpdated="2022-10-01" DateCreated="2016-10-21" Type="SCV" Version="2" SubmitterName="GeneReviews" OrgID="500062" OrganizationCategory="resource" OrgAbbreviation="GeneReviews" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <GermlineClassification>not provided</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">11498583</ID>
+          </Citation>
+          <Citation>
+            <ID Source="BookShelf">NBK65707</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WNK1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>p.(=)</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NG_007984.2:g.28500_50277del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1840391" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11808016</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="968066" TraitType="Disease" MappingType="XRef" MappingValue="C1840391" MappingRef="MedGen">
+        <MedGen CUI="C1840391" Name="Pseudohypoaldosteronism type 2C" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="25651" TraitType="Disease" MappingType="Name" MappingValue="PSEUDOHYPOALDOSTERONISM, TYPE IIC" MappingRef="Preferred">
+        <MedGen CUI="C1840391" Name="Pseudohypoaldosteronism type 2C" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

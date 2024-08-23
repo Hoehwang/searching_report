@@ -1,0 +1,164 @@
+<VariationArchive RecordType="classified" VariationID="2503087" VariationName="NM_206933.4(USH2A):c.9945dup (p.Asn3316fs)" VariationType="Duplication" Accession="VCV002503087" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-20" DateCreated="2023-11-20" MostRecentSubmission="2023-11-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2668271" VariationID="2503087">
+      <GeneList>
+        <Gene Symbol="USH2A" FullName="usherin" GeneID="7399" HGNC_ID="HGNC:12601" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q41</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="215622891" stop="216423448" display_start="215622891" display_stop="216423448" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="215796235" stop="216596737" display_start="215796235" display_stop="216596737" Strand="-" />
+          </Location>
+          <OMIM>608400</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_206933.4(USH2A):c.9945dup (p.Asn3316fs)</Name>
+      <CanonicalSPDI>NC_000001.11:215798919:G:GG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1q41</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="215798919" stop="215798920" display_start="215798919" display_stop="215798920" variantLength="1" positionVCF="215798919" referenceAlleleVCF="T" alternateAlleleVCF="TG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="215972261" stop="215972262" display_start="215972261" display_stop="215972262" variantLength="1" positionVCF="215972261" referenceAlleleVCF="T" alternateAlleleVCF="TG" />
+      </Location>
+      <ProteinChange>N3316fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.215972262dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.215972262dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.215798920dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.215798920dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009497.2" sequenceAccession="NG_009497" sequenceVersion="2" change="g.629529dup">
+            <Expression>NG_009497.2:g.629529dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_206933.4" sequenceAccession="NM_206933" sequenceVersion="4" change="c.9945dup" MANESelect="true">
+            <Expression>NM_206933.4:c.9945dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_996816.3" sequenceAccession="NP_996816" sequenceVersion="3" change="p.Asn3316fs">
+            <Expression>NP_996816.3:p.Asn3316fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_206933.4(USH2A):c.9945dup (p.Asn3316fs) AND Usher syndrome" Accession="RCV003389548" Version="1">
+        <ClassifiedConditionList TraitSetID="37222">
+          <ClassifiedCondition DB="MedGen" ID="C0271097">Usher syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-12-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-12-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-11-20" MostRecentSubmission="2023-11-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37222" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38085" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Usher Syndromes</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Usher's syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Usher syndrome</ElementValue>
+                <XRef ID="MONDO:0019501" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS276900" DB="OMIM" />
+                <XRef ID="886" DB="Orphanet" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000592488" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000591289" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000561956" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569741" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000593050" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7843" />
+                <XRef ID="7843" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="886" DB="Orphanet" />
+              <XRef ID="C0271097" DB="MedGen" />
+              <XRef ID="D052245" DB="MeSH" />
+              <XRef ID="MONDO:0019501" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS276900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7341273" SubmissionDate="2023-05-13" DateLastUpdated="2023-11-20" DateCreated="2023-11-20">
+        <ClinVarSubmissionID localKey="NC_000001.10:g.215972262dup" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003927128" DateUpdated="2023-11-20" DateCreated="2023-11-20" Type="SCV" Version="1" SubmitterName="SN ONGC Dept of Genetics and Molecular biology Vision Research Foundation" OrgID="500164" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-12-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <Comment>This variant was observed in compound heterozygosity with the variant NC_000001.10:g.215916594del.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.215972262dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0271097" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13332118</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7341273" TraitType="Disease" MappingType="XRef" MappingValue="C0271097" MappingRef="MedGen">
+        <MedGen CUI="C0271097" Name="Usher syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

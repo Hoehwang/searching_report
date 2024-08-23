@@ -1,0 +1,164 @@
+<VariationArchive VariationID="1180447" VariationName="NM_012479.4(YWHAG):c.89dup (p.Thr31fs)" VariationType="Duplication" Accession="VCV001180447" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2021-07-24" MostRecentSubmission="2021-07-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1169988" VariationID="1180447">
+      <GeneList>
+        <Gene Symbol="YWHAG" FullName="tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein gamma" GeneID="7532" HGNC_ID="HGNC:12852" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="76326799" stop="76358991" display_start="76326799" display_stop="76358991" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="75956107" stop="75988341" display_start="75956107" display_stop="75988341" Strand="-" />
+          </Location>
+          <OMIM>605356</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_012479.4(YWHAG):c.89dup (p.Thr31fs)</Name>
+      <CanonicalSPDI>NC_000007.14:76330231:A:AA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="76330231" stop="76330232" display_start="76330231" display_stop="76330232" variantLength="1" positionVCF="76330231" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="75959548" stop="75959549" display_start="75959548" display_stop="75959549" variantLength="1" positionVCF="75959548" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>T31fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.75959549dup" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.75959549dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.76330232dup" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.76330232dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_012479.4" sequenceAccession="NM_012479" sequenceVersion="4" change="c.89dup" MANESelect="true">
+            <Expression>NM_012479.4:c.89dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_036611.2" sequenceAccession="NP_036611" sequenceVersion="2" change="p.Thr31fs">
+            <Expression>NP_036611.2:p.Thr31fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2115589275" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_012479.4(YWHAG):c.89dup (p.Thr31fs) AND multiple conditions" Accession="RCV001537638" Version="2">
+        <ClassifiedConditionList TraitSetID="68794">
+          <ClassifiedCondition DB="MedGen" ID="C0494475">Bilateral tonic-clonic seizure</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4025790">Specific learning disability</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-24" MostRecentSubmission="2021-07-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="68794" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="22824" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Bilateral tonic-clonic seizure</ElementValue>
+                <XRef ID="HP:0002069" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Generalized tonic-clonic seizures</ElementValue>
+                <XRef ID="HP:0002069" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0494475" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0002069" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001306" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002407" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007252" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="18169" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Specific learning disability</ElementValue>
+                <XRef ID="HP:0001328" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0016225" DB="MONDO" />
+              </Name>
+              <XRef ID="211047" DB="Orphanet" />
+              <XRef ID="C4025790" DB="MedGen" />
+              <XRef ID="MONDO:0016225" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0001328" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007234" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3452269" SubmissionDate="2021-07-16" DateLastUpdated="2021-07-24" DateCreated="2021-07-24">
+        <ClinVarSubmissionID localKey="21A3701" submittedAssembly="GRCh37" title="21A3701" />
+        <ClinVarAccession Accession="SCV001752424" DateUpdated="2021-07-24" DateCreated="2021-07-24" Type="SCV" Version="1" SubmitterName="Génétique des Maladies du Développement, Hospices Civils de Lyon" OrgID="506599" OrganizationCategory="laboratory" OrgAbbreviation="HCL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="YWHAG">
+              <Name>tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein gamma</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_012479.3:c.89dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001328" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0002069" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>21A3701</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3452269" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001328" MappingRef="HP">
+        <MedGen CUI="C4025790" Name="Specific learning disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3452269" TraitType="Disease" MappingType="XRef" MappingValue="HP:0002069" MappingRef="HP">
+        <MedGen CUI="C0494475" Name="Bilateral tonic-clonic seizure" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

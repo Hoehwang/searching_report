@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="12284" VariationName="UGT1A1, 1-BP DEL, 1223A" VariationType="Deletion" Accession="VCV000012284" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-03" DateCreated="2016-08-22" MostRecentSubmission="2016-08-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="27323" VariationID="12284">
+      <GeneList>
+        <Gene Symbol="UGT1A1" FullName="UDP glucuronosyltransferase family 1 member A1" GeneID="54658" HGNC_ID="HGNC:12530" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>2q37.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="233760270" stop="233773300" display_start="233760270" display_stop="233773300" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="234668918" stop="234681944" display_start="234668918" display_stop="234681944" Strand="+" />
+          </Location>
+          <OMIM>191740</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>UGT1A1, 1-BP DEL, 1223A</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q37</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>1-BP DEL, 1223A</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="191740.0020" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="UGT1A1, 1-BP DEL, 1223A AND Crigler-Najjar syndrome, type II" Accession="RCV000013077" Version="25">
+        <ClassifiedConditionList TraitSetID="3326">
+          <ClassifiedCondition DB="MedGen" ID="C2931132">Crigler-Najjar syndrome, type II</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2001-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2001-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-08-22" MostRecentSubmission="2016-08-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11370628</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3326" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1690" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Crigler Najjar syndrome, type 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mutation in the UDP-glucuronosyl-transferase gene</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Crigler-Najjar syndrome, type II</ElementValue>
+                <XRef ID="Crigler+Najjar+Syndrome%2C+Type+2/2011" DB="Genetic Alliance" />
+                <XRef ID="68067009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPERBILIRUBINEMIA, CRIGLER-NAJJAR TYPE II</ElementValue>
+                <XRef Type="MIM" ID="606785" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HBLRCN2</ElementValue>
+                <XRef Type="MIM" ID="606785" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8683" />
+                <XRef ID="8683" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="205" DB="Orphanet" />
+              <XRef ID="79235" DB="Orphanet" />
+              <XRef ID="C2931132" DB="MedGen" />
+              <XRef ID="MONDO:0011725" DB="MONDO" />
+              <XRef Type="MIM" ID="606785" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="33323" SubmissionDate="2016-08-04" DateLastUpdated="2016-08-22" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="191740.0020_CRIGLER-NAJJAR SYNDROME, TYPE II" title="UGT1A1, 1-BP DEL, 1223A_CRIGLER-NAJJAR SYNDROME, TYPE II" />
+        <ClinVarAccession Accession="SCV000033323" DateUpdated="2016-08-22" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2001-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Kadakol et al. (2001) identified a 1-bp deletion (1223delA) in the UGT1A1 gene in compound heterozygosity with a promoter mutation (191740.0011) in 2 girls with Crigler-Najjar syndrome type II (606785) who presented with severe neonatal hyperbilirubinemia resulting in kernicterus. Phenobarbital and phototherapy treatment resulted in a reduction of serum bilirubin concentrations.</Attribute>
+              <Citation>
+                <ID Source="PubMed">11370628</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="606785" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="UGT1A1" />
+          </GeneList>
+          <Name>UGT1A1, 1-BP DEL, 1223A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 1223A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="191740.0020" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CRIGLER-NAJJAR SYNDROME, TYPE II</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="33323" TraitType="Disease" MappingType="Name" MappingValue="CRIGLER-NAJJAR SYNDROME, TYPE II" MappingRef="Preferred">
+        <MedGen CUI="C2931132" Name="Crigler-Najjar syndrome, type II" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

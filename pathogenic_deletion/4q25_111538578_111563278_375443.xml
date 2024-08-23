@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="375443" VariationName="NC_000004.12:g.(?_110618049)_(110622472_?)del" VariationType="Deletion" Accession="VCV000375443" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-07-19" DateCreated="2017-02-05" MostRecentSubmission="2017-02-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="362187" VariationID="375443">
+      <GeneList>
+        <Gene Symbol="PITX2" FullName="paired like homeodomain 2" GeneID="5308" HGNC_ID="HGNC:9005" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q25</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="110617423" stop="110642123" display_start="110617423" display_stop="110642123" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="111538578" stop="111563278" display_start="111538578" display_stop="111563278" Strand="-" />
+          </Location>
+          <OMIM>601542</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PITX2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PITX2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000004.12:g.(?_110618049)_(110622472_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q25</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" innerStart="110618049" innerStop="110622472" display_start="110618049" display_stop="110622472" variantLength="4424" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="111539205" innerStop="111543628" display_start="111539205" display_stop="111543628" variantLength="4424" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.12" sequenceAccession="NC_000004" sequenceVersion="12" change="g.(?_110618049)_(110622472_?)del" Assembly="GRCh38">
+            <Expression>NC_000004.12:g.(?_110618049)_(110622472_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_111539205)_(111543628_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_111539205)_(111543628_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000004.12:g.(?_110618049)_(110622472_?)del AND Axenfeld-Rieger syndrome type 1" Accession="RCV000416540" Version="2">
+        <ClassifiedConditionList TraitSetID="2200">
+          <ClassifiedCondition DB="MedGen" ID="C3714873">Axenfeld-Rieger syndrome type 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2015-07-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-07-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-02-05" MostRecentSubmission="2017-02-05">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2200" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="482" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Rieger syndrome type 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Axenfeld-Rieger syndrome type 1</ElementValue>
+                <XRef ID="Rieger+syndrome/6329" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0008386" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RIEG1</ElementValue>
+                <XRef Type="MIM" ID="180500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">RIEG</ElementValue>
+                <XRef Type="MIM" ID="180500" DB="OMIM" />
+              </Symbol>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="pmc">3061995</ID>
+              </Citation>
+              <XRef ID="782" DB="Orphanet" />
+              <XRef ID="C3714873" DB="MedGen" />
+              <XRef ID="MONDO:0008386" DB="MONDO" />
+              <XRef Type="MIM" ID="180500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="966747" SubmissionDate="2016-12-22" DateLastUpdated="2017-02-05" DateCreated="2017-02-05">
+        <ClinVarSubmissionID localKey="NC_000004.11:g.(?_111539205)_(111543628_?)del|OMIM:180500" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000494275" DateUpdated="2017-02-05" DateCreated="2017-02-05" Type="SCV" Version="1" SubmitterName="Genetics and Molecular Pathology, SA Pathology" OrgID="506043" OrganizationCategory="laboratory" OrgAbbreviation="GMP-FMC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-07-31">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <GeographicOrigin>Australia</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+              <FamilyData NumFamiliesWithVariant="2">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PITX2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000004.11:g.(?_111539205)_(111543628_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="180500" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyDescription>Glaucoma spectrum and age-related prevalence of individuals with FOXC1 and PITX2 variants</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>Axenfeld_Rieger</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="966747" TraitType="Disease" MappingType="XRef" MappingValue="180500" MappingRef="OMIM">
+        <MedGen CUI="C3714873" Name="Axenfeld-Rieger syndrome type 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

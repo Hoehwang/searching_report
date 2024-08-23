@@ -1,0 +1,223 @@
+<VariationArchive VariationID="1459360" VariationName="NC_000023.10:g.(?_153008701)_(153011800_?)del" VariationType="Deletion" Accession="VCV001459360" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1406487" VariationID="1459360">
+      <GeneList>
+        <Gene Symbol="ABCD1" FullName="ATP binding cassette subfamily D member 1" GeneID="215" HGNC_ID="HGNC:61" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="153724856" stop="153744755" display_start="153724856" display_stop="153744755" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="152990322" stop="153010215" display_start="152990322" display_stop="153010215" Strand="+" />
+          </Location>
+          <OMIM>300371</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ABCD1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ABCD1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_153008701)_(153011800_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153008701" innerStop="153011800" display_start="153008701" display_stop="153011800" variantLength="3100" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_153008701)_(153011800_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_153008701)_(153011800_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_153008701)_(153011800_?)del AND Adrenoleukodystrophy" Accession="RCV001958954" Version="4">
+        <ClassifiedConditionList TraitSetID="3100">
+          <ClassifiedCondition DB="MedGen" ID="C0162309">Adrenoleukodystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-10-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-10-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23300730</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23768953</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23835273</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3100" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="139" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MELANODERMIC LEUKODYSTROPHY</ElementValue>
+                <XRef Type="MIM" ID="300100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SIEMERLING-CREUTZFELDT DISEASE</ElementValue>
+                <XRef Type="MIM" ID="300100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Adrenoleukodystrophy</ElementValue>
+                <XRef ID="Adrenoleukodystrophy/242" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0018544" DB="MONDO" />
+                <XRef ID="65389002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ADDISON DISEASE AND CEREBRAL SCLEROSIS</ElementValue>
+                <XRef Type="MIM" ID="300100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BRONZE SCHILDER DISEASE</ElementValue>
+                <XRef Type="MIM" ID="300100" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">X-ALD</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">ALD</ElementValue>
+                <XRef Type="MIM" ID="300100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">Adrenoleukodystrophy, ID</ElementValue>
+                <XRef ID="GTR000500811" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">X-linked adrenoleukodystrophy (X-ALD) affects the nervous system white matter and the adrenal cortex. Three main phenotypes are seen in affected males: The childhood cerebral form manifests most commonly between ages four and eight years. It initially resembles attention-deficit disorder or hyperactivity; progressive impairment of cognition, behavior, vision, hearing, and motor function follow the initial symptoms and often lead to total disability within six months to two years. Most individuals have impaired adrenocortical function at the time that neurologic disturbances are first noted. Adrenomyeloneuropathy (AMN) manifests most commonly in an individual in his twenties or middle age as progressive stiffness and weakness of the legs, sphincter disturbances, sexual dysfunction, and often, impaired adrenocortical function; all symptoms are progressive over decades. "Addison disease only" presents with primary adrenocortical insufficiency between age two years and adulthood and most commonly by age 7.5 years, without evidence of neurologic abnormality; however, some degree of neurologic disability (most commonly AMN) usually develops by middle age. More than 20% of female carriers develop mild-to-moderate spastic paraparesis in middle age or later. Adrenal function is usually normal.</Attribute>
+                <XRef ID="NBK1315" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5758" />
+                <XRef ID="5758" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000500811" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000503088" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000500892" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522268" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508448" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530118" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000591289" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000559496" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000507942" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522267" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000330513" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000561876" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000503092" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000512569" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000519128" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000510916" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000521375" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000318975" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520051" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000070507" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522163" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301491</ID>
+                <ID Source="BookShelf">NBK1315</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="PubMed">22071894</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="AAP, 2021">
+                <URL>https://publications.aap.org/pediatrics/article/148/3/e2021053126/181065/Leukodystrophies-in-Children-Diagnosis-Care-and</URL>
+                <CitationText>Leukodystrophies in Children: Diagnosis, Care, and Treatment, Pediatrics (2021) 148 (3): e2021053126.</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/X-ALD-ACT-Sheet.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Elevated lysophosphatidylcholines, X-Linked Adrenoleukodystrophy (X-ALD), 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2023">
+                <URL>https://www.acmg.net/PDFLibrary/X-ALD-Algorithm.pdf</URL>
+                <CitationText>ACMG Algorithm, X-ALD: Elevated lysophosphatidylcholines C24:0, C26:0, 2023</CitationText>
+              </Citation>
+              <XRef ID="43" DB="Orphanet" />
+              <XRef ID="C0162309" DB="MedGen" />
+              <XRef ID="MONDO:0018544" DB="MONDO" />
+              <XRef Type="MIM" ID="300100" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4263625" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_000033.3_X_Partial deletion (exons 9-10)_153008700_153011800|MedGen:C0162309" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002243800" DateUpdated="2024-06-09" DateCreated="2022-03-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-10-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23300730</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23768953</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23835273</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the ABCD1 protein in which other variant(s) (p.His669Arg) have been determined to be pathogenic (PMID: 23300730, 23768953, 23835273). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant has not been reported in the literature in individuals affected with ABCD1-related conditions. This variant results in the deletion of exon 10 and part of exon 9 (c.1894_*2613del) of the ABCD1 gene. While this deletion is not anticipated to lead to nonsense mediated decay, it is expected to alter mRNA translation or result in a truncated protein product.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ABCD1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_153008701)_(153011800_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0162309" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4263625" TraitType="Disease" MappingType="XRef" MappingValue="C0162309" MappingRef="MedGen">
+        <MedGen CUI="C0162309" Name="Adrenoleukodystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

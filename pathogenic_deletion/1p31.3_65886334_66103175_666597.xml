@@ -1,0 +1,133 @@
+<VariationArchive VariationID="666597" VariationName="Single allele" VariationType="Deletion" Accession="VCV000666597" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2019-08-26" MostRecentSubmission="2019-08-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="654157" VariationID="666597">
+      <GeneList>
+        <Gene Symbol="LEPR" FullName="leptin receptor" GeneID="3953" HGNC_ID="HGNC:6554" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p31.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="65420652" stop="65641559" display_start="65420652" display_stop="65641559" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="65886334" stop="66103175" display_start="65886334" display_stop="66103175" Strand="+" />
+          </Location>
+          <OMIM>601007</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p31.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="66038010" stop="66067366" display_start="66038010" display_stop="66067366" variantLength="29357" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.66038010_66067366del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.66038010_66067366del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Obesity due to leptin receptor gene deficiency" Accession="RCV000825024" Version="2">
+        <ClassifiedConditionList TraitSetID="7852">
+          <ClassifiedCondition DB="MedGen" ID="C3554225">Obesity due to leptin receptor gene deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-07-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-07-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-26" MostRecentSubmission="2019-08-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7852" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16778" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Leptin receptor deficiency</ElementValue>
+                <XRef ID="Leptin+receptor+deficiency/8736" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Obesity due to leptin receptor gene deficiency</ElementValue>
+                <XRef ID="MONDO:0013992" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17083" />
+                <XRef ID="17083" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ES/PES/ESE, 2017">
+                <ID Source="PubMed">28359099</ID>
+                <ID Source="pmc">6283429</ID>
+              </Citation>
+              <XRef ID="179494" DB="Orphanet" />
+              <XRef ID="C3554225" DB="MedGen" />
+              <XRef ID="MONDO:0013992" DB="MONDO" />
+              <XRef Type="MIM" ID="614963" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1893966" SubmissionDate="2019-02-15" DateLastUpdated="2019-08-26" DateCreated="2019-08-26">
+        <ClinVarSubmissionID localKey="PED4244.1|OMIM:614963" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000966219" DateUpdated="2019-08-26" DateCreated="2019-08-26" Type="SCV" Version="1" SubmitterName="Equipe Genetique des Anomalies du Developpement, Université de Bourgogne" OrgID="506039" OrganizationCategory="laboratory" OrgAbbreviation="GADteam" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-07-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Observed as a homozygote.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LEPR" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" start="66038010" stop="66067366" variantLength="29357" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614963" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5151712</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1893966" TraitType="Disease" MappingType="XRef" MappingValue="614963" MappingRef="OMIM">
+        <MedGen CUI="C3554225" Name="Obesity due to leptin receptor gene deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

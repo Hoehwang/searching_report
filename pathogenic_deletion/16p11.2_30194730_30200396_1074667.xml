@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="1074667" VariationName="NC_000016.9:g.(?_30196531)_30199897del" VariationType="Deletion" Accession="VCV001074667" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2021-12-02" MostRecentSubmission="2021-12-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1057774" VariationID="1074667">
+      <GeneList>
+        <Gene Symbol="CORO1A" FullName="coronin 1A" GeneID="11151" HGNC_ID="HGNC:2252" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="30183602" stop="30189076" display_start="30183602" display_stop="30189076" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="30194730" stop="30200396" display_start="30194730" display_stop="30200396" Strand="+" />
+          </Location>
+          <OMIM>605000</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.9:g.(?_30196531)_30199897del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_30196531_30199897del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_30196531_30199897del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_30196531)_30199897del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_30196531)_30199897del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.9:g.(?_30196531)_30199897del AND Severe combined immunodeficiency due to CORO1A deficiency" Accession="RCV001388032" Version="2">
+        <ClassifiedConditionList TraitSetID="11838">
+          <ClassifiedCondition DB="MedGen" ID="C3809383">Severe combined immunodeficiency due to CORO1A deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-02" MostRecentSubmission="2021-12-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18836449</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25073507</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="11838" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18263" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Immunodeficiency 8</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IMMUNODEFICIENCY 8 WITH LYMPHOPROLIFERATION</ElementValue>
+                <XRef Type="MIM" ID="615401" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605000.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605000.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605000.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to CORO1A deficiency</ElementValue>
+                <XRef ID="MONDO:0014168" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">IMD8</ElementValue>
+                <XRef Type="MIM" ID="615401" DB="OMIM" />
+              </Symbol>
+              <XRef ID="228003" DB="Orphanet" />
+              <XRef ID="C3809383" DB="MedGen" />
+              <XRef ID="MONDO:0014168" DB="MONDO" />
+              <XRef Type="MIM" ID="615401" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3114499" SubmissionDate="2021-11-23" DateLastUpdated="2021-12-02" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_007074.3_16_Partial deletion (exons 2-10)_30196530_30199897|MedGen:C3809383" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001588838" DateUpdated="2021-12-02" DateCreated="2021-05-10" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18836449</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18836449</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25073507</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the CORO1A gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has been observed on the opposite chromosome (in trans) from a pathogenic variant in an individual affected with severe combined immunodeficiency (SCID) (PMID: 18836449). This finding is consistent with autosomal recessive inheritance, and suggests that this variant contributes to disease. Loss-of-function variants in CORO1A are known to be pathogenic (PMID: 18836449, 25073507). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CORO1A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_30196531)_30199897del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3809383" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+          <SubmissionName>SUB10689444</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3114499" TraitType="Disease" MappingType="XRef" MappingValue="C3809383" MappingRef="MedGen">
+        <MedGen CUI="C3809383" Name="Severe combined immunodeficiency due to CORO1A deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

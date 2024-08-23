@@ -1,0 +1,166 @@
+<VariationArchive RecordType="classified" VariationID="4689" VariationName="NC_000009.12:g.77390734_77428010del" VariationType="Deletion" Accession="VCV000004689" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-02" DateCreated="2017-01-20" MostRecentSubmission="2017-01-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="19728" VariationID="4689">
+      <GeneList>
+        <Gene Symbol="GNA14" FullName="G protein subunit alpha 14" GeneID="9630" HGNC_ID="HGNC:4382" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="77423079" stop="77648322" display_start="77423079" display_stop="77648322" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="80037994" stop="80263231" display_start="80037994" display_stop="80263231" Strand="-" />
+          </Location>
+          <OMIM>604397</OMIM>
+        </Gene>
+        <Gene Symbol="VPS13A" FullName="vacuolar protein sorting 13 homolog A" GeneID="23230" HGNC_ID="HGNC:1908" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="77177534" stop="77421537" display_start="77177534" display_stop="77421537" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="79792360" stop="80032398" display_start="79792360" display_stop="80032398" Strand="+" />
+          </Location>
+          <OMIM>605978</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.12:g.77390734_77428010del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="77390734" stop="77428010" display_start="77390734" display_stop="77428010" variantLength="37277" />
+      </Location>
+      <OtherNameList>
+        <Name>37-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.77390734_77428010del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.77390734_77428010del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605978.0008" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 605978.0008 from the sequence across the breakpoint reported in Figure 3b of the paper by  Dobson-Stone et al., 2005 (PubMed 15918062).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.12:g.77390734_77428010del AND Chorea-acanthocytosis" Accession="RCV000004953" Version="3">
+        <ClassifiedConditionList TraitSetID="1286">
+          <ClassifiedCondition DB="MedGen" ID="C0393576">Chorea-acanthocytosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2005-09-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2005-09-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-01-20" MostRecentSubmission="2017-01-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15918062</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1286" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="805" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Acanthocytosis with neurologic disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Levine-Critchley syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Chorea-acanthocytosis</ElementValue>
+                <XRef ID="MONDO:0008695" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Choreaacanthocytosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Choreoacanthocytosis</ElementValue>
+                <XRef ID="Choreoacanthocytosis/1384" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CHAC</ElementValue>
+                <XRef ID="GTR000501217" DB="Genetic Testing Registry (GTR)" />
+                <XRef Type="MIM" ID="200150" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Chorea-acanthocytosis (ChAc) is characterized by a progressive movement disorder, cognitive and behavior changes, a myopathy that can be subclinical, and chronic hyperCKemia in serum. Although the disorder is named for acanthocytosis of the red blood cells, this feature is variable. The movement disorder is mostly limb chorea, but some individuals present with parkinsonism. Dystonia is common and affects the oral region and especially the tongue, causing dysarthria and serious dysphagia with resultant weight loss. Habitual tongue and lip biting are characteristic, as well as tongue protrusion dystonia. Progressive cognitive and behavioral changes resemble those in a frontal lobe syndrome. Seizures are observed in almost half of affected individuals and can be the initial manifestation. Myopathy results in progressive distal muscle wasting and weakness. Mean age of onset in ChAc is about 30 years, although ChAc can develop as early as the first decade or as late as the seventh decade. It runs a chronic progressive course and may lead to major disability within a few years. Life expectancy is reduced, with age of death ranging from 28 to 61 years.</Attribute>
+                <XRef ID="NBK1387" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301561</ID>
+                <ID Source="BookShelf">NBK1387</ID>
+              </Citation>
+              <XRef ID="2388" DB="Orphanet" />
+              <XRef ID="C0393576" DB="MedGen" />
+              <XRef ID="MONDO:0008695" DB="MONDO" />
+              <XRef Type="MIM" ID="200150" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25129" SubmissionDate="2019-12-18" DateLastUpdated="2017-01-20" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605978.0008_CHOREOACANTHOCYTOSIS" title="VPS13A, 37-KB DEL_CHOREOACANTHOCYTOSIS" />
+        <ClinVarAccession Accession="SCV000025129" DateUpdated="2017-01-20" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2005-09-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of 3 French Canadian families with choreoacanthocytosis (CHAC; 200150), Dobson-Stone et al. (2005) identified a homozygous 37-kb deletion in the VPS13A gene, resulting in the deletion of exons 70 through 73. The deletion also encompassed the 2 terminal exons of the neighboring GNA14 gene (604397). Haplotype analysis indicated a founder effect.</Attribute>
+              <Citation>
+                <ID Source="PubMed">15918062</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="200150" Type="MIM" />
+              <XRef DB="OMIM" ID="604397" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="VPS13A" />
+          </GeneList>
+          <Name>VPS13A, 37-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">37-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605978.0008" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CHOREOACANTHOCYTOSIS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25129" TraitType="Disease" MappingType="Name" MappingValue="CHOREOACANTHOCYTOSIS" MappingRef="Preferred">
+        <MedGen CUI="C0393576" Name="Chorea-acanthocytosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

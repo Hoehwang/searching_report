@@ -1,0 +1,137 @@
+<VariationArchive VariationID="3242528" VariationName="Single allele" VariationType="Deletion" Accession="VCV003242528" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-30" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3401526" VariationID="3242528">
+      <GeneList>
+        <Gene Symbol="BBS9" FullName="Bardet-Biedl syndrome 9" GeneID="27241" HGNC_ID="HGNC:30000" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7p14.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="33129285" stop="33635767" display_start="33129285" display_stop="33635767" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="33169151" stop="33645679" display_start="33169151" display_stop="33645679" Strand="+" />
+          </Location>
+          <OMIM>607968</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p14.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="33423019" innerStop="33428015" display_start="33423019" display_stop="33428015" alternateAllele="-" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Bardet-Biedl syndrome 9" Accession="RCV004577984" Version="1">
+        <ClassifiedConditionList TraitSetID="682">
+          <ClassifiedCondition DB="MedGen" ID="C1859567">Bardet-Biedl syndrome 9</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-06-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-06-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="682" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8921" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome 9</ElementValue>
+                <XRef ID="MONDO:0014437" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS9</ElementValue>
+                <XRef Type="MIM" ID="615986" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10208" />
+                <XRef ID="10208" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301537</ID>
+                <ID Source="BookShelf">NBK1363</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2010">
+                <ID Source="pmc">3061994</ID>
+              </Citation>
+              <XRef ID="110" DB="Orphanet" />
+              <XRef ID="C1859567" DB="MedGen" />
+              <XRef ID="MONDO:0014437" DB="MONDO" />
+              <XRef Type="MIM" ID="615986" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9832285" SubmissionDate="2024-06-22" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NGS_CNV_VAR12|OMIM:615986|copy:0|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005062004" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Ege University Pediatric Genetics, Ege University" OrgID="506131" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-06-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>biparental</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BBS9" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" alternateAllele="-" innerStart="33423019" innerStop="33428015" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615986" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14555467</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9832285" TraitType="Disease" MappingType="XRef" MappingValue="615986" MappingRef="OMIM">
+        <MedGen CUI="C1859567" Name="Bardet-Biedl syndrome 9" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

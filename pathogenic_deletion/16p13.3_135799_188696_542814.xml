@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="542814" VariationName="NC_000016.10:g.(?_100352)_(100529_?)del" VariationType="Deletion" Accession="VCV000542814" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2018-10-10" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="529831" VariationID="542814">
+      <GeneList>
+        <Gene Symbol="HBA-LCR" FullName="alpha-globin locus control region" GeneID="106144573" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="87808" stop="152854" display_start="87808" display_stop="152854" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="NPRL3" FullName="NPR3 like, GATOR1 complex subunit" GeneID="8131" HGNC_ID="HGNC:14124" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="85386" stop="138673" display_start="85386" display_stop="138673" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="135799" stop="188696" display_start="135799" display_stop="188696" Strand="-" />
+          </Location>
+          <OMIM>600928</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.10:g.(?_100352)_(100529_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" innerStart="100352" innerStop="100529" display_start="100352" display_stop="100529" variantLength="178" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="150350" innerStop="150527" display_start="150350" display_stop="150527" variantLength="178" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.(?_100352)_(100529_?)del" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.(?_100352)_(100529_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_150350)_(150527_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_150350)_(150527_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.10:g.(?_100352)_(100529_?)del AND Epilepsy, familial focal, with variable foci 3" Accession="RCV000653315" Version="4">
+        <ClassifiedConditionList TraitSetID="32575">
+          <ClassifiedCondition DB="MedGen" ID="C4310708">Epilepsy, familial focal, with variable foci 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-10-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-10-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <DescriptionHistory Dated="2023-03-24">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="32575" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36161" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, familial focal, with variable foci 3</ElementValue>
+                <XRef ID="MONDO:0014925" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FFEVF3</ElementValue>
+                <XRef Type="MIM" ID="617118" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4310708" DB="MedGen" />
+              <XRef ID="MONDO:0014925" DB="MONDO" />
+              <XRef Type="MIM" ID="617118" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1484958" SubmissionDate="2023-03-21" DateLastUpdated="2023-03-26" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="NM_001077350.2_Deletion (Exon 8)|MedGen:C4310708" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000775194" DateUpdated="2023-03-26" DateCreated="2018-05-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-10-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 8 of the NPRL3 gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame. A similar copy number variant has been observed in individuals with clinical features of familial focal epilepsy with variable foci (FFEVF) (Invitae). It has also been observed to segregate with disease in related individuals. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NPRL3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_150350)_(150527_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4310708" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1484958" TraitType="Disease" MappingType="XRef" MappingValue="C4310708" MappingRef="MedGen">
+        <MedGen CUI="C4310708" Name="Epilepsy, familial focal, with variable foci 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

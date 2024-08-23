@@ -1,0 +1,200 @@
+<VariationArchive RecordType="classified" VariationID="1321313" VariationName="NM_000377.3(WAS):c.990del (p.Ile331fs)" VariationType="Deletion" Accession="VCV001321313" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-11-20" MostRecentSubmission="2021-11-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1311568" VariationID="1321313">
+      <GeneList>
+        <Gene Symbol="WAS" FullName="WASP actin nucleation promoting factor" GeneID="7454" HGNC_ID="HGNC:12731" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="48676636" stop="48691427" display_start="48676636" display_stop="48691427" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="48542185" stop="48549817" display_start="48542185" display_stop="48549817" Strand="+" />
+          </Location>
+          <OMIM>300392</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000377.3(WAS):c.990del (p.Ile331fs)</Name>
+      <CanonicalSPDI>NC_000023.11:48688717:T:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="48688718" stop="48688718" display_start="48688718" display_stop="48688718" variantLength="1" positionVCF="48688717" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="48547107" stop="48547107" display_start="48547107" display_stop="48547107" variantLength="1" positionVCF="48547106" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>I331fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.48547107del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.48547107del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.48688718del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.48688718del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007877.1" sequenceAccession="NG_007877" sequenceVersion="1" change="g.9922del">
+            <Expression>NG_007877.1:g.9922del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000377.3" sequenceAccession="NM_000377" sequenceVersion="3" change="c.990del" MANESelect="true">
+            <Expression>NM_000377.3:c.990del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000368.1" sequenceAccession="NP_000368" sequenceVersion="1" change="p.Ile331fs">
+            <Expression>NP_000368.1:p.Ile331fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_125" sequenceAccession="LRG_125">
+            <Expression>LRG_125:g.9922del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2147266326" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000377.3(WAS):c.990del (p.Ile331fs) AND Wiskott-Aldrich syndrome" Accession="RCV001779410" Version="2">
+        <ClassifiedConditionList TraitSetID="3075">
+          <ClassifiedCondition DB="MedGen" ID="C0043194">Wiskott-Aldrich syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-20" MostRecentSubmission="2021-11-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3075" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6264" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">WISKOTT-ALDRICH SYNDROME 1</ElementValue>
+                <XRef Type="MIM" ID="301000" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Wiskott-aldrich syndrome, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Wiskott-Aldrich syndrome</ElementValue>
+                <XRef ID="Wiskott+Aldrich+syndrome/7514" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010518" DB="MONDO" />
+                <XRef ID="36070007" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Eczema thrombocytopenia immunodeficiency syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Immunodeficiency 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IMD 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Aldrich syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">WAS1</ElementValue>
+                <XRef Type="MIM" ID="301000" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">IMD2</ElementValue>
+                <XRef Type="MIM" ID="301000" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">WAS</ElementValue>
+                <XRef Type="MIM" ID="301000" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The WAS-related disorders, which include Wiskott-Aldrich syndrome, X-linked thrombocytopenia (XLT), and X-linked congenital neutropenia (XLN), are a spectrum of disorders of hematopoietic cells, with predominant defects of platelets and lymphocytes caused by pathogenic variants in WAS. WAS-related disorders usually present in infancy. Affected males have thrombocytopenia with intermittent mucosal bleeding, bloody diarrhea, and intermittent or chronic petechiae and purpura; eczema; and recurrent bacterial and viral infections, particularly of the ear. At least 40% of those who survive the early complications develop one or more autoimmune conditions including hemolytic anemia, immune thrombocytopenic purpura, immune-mediated neutropenia, rheumatoid arthritis, vasculitis, and immune-mediated damage to the kidneys and liver. Individuals with a WAS-related disorder, particularly those who have been exposed to Epstein-Barr virus (EBV), are at increased risk of developing lymphomas, which often occur in unusual, extranodal locations including the brain, lung, or gastrointestinal tract. Males with XLT have thrombocytopenia with small platelets; other complications of Wiskott-Aldrich syndrome, including eczema and immune dysfunction, are usually mild or absent. Males with XLN have congenital neutropenia, myeloid dysplasia, and lymphoid cell abnormalities.</Attribute>
+                <XRef ID="NBK1178" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">WAS-Related Disorders</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7895" />
+                <XRef ID="7895" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301357</ID>
+                <ID Source="BookShelf">NBK1178</ID>
+              </Citation>
+              <XRef ID="906" DB="Orphanet" />
+              <XRef ID="C0043194" DB="MedGen" />
+              <XRef ID="MONDO:0010518" DB="MONDO" />
+              <XRef Type="MIM" ID="301000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3955301" SubmissionDate="2021-11-15" DateLastUpdated="2021-11-20" DateCreated="2021-11-20">
+        <ClinVarSubmissionID localKey="SUB10665336" submittedAssembly="GRCh38" title="SUB10665336" />
+        <ClinVarAccession Accession="SCV002014668" DateUpdated="2021-11-20" DateCreated="2021-11-20" Type="SCV" Version="1" SubmitterName="Kasturba Medical College, Manipal, Kasturba Medical College, Manipal, Manipal Academy of Higher Education, Manipal, India" OrgID="505991" OrganizationCategory="laboratory" OrgAbbreviation="KMC-MAHE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WAS">
+              <Name>WASP actin nucleation promoting factor</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000377.3:c.990del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Wiskott-Aldrich Syndrome</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10665336</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3955301" TraitType="Disease" MappingType="Name" MappingValue="Wiskott-Aldrich Syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0043194" Name="Wiskott-Aldrich syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

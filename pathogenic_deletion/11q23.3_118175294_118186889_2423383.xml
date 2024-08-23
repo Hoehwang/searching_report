@@ -1,0 +1,149 @@
+<VariationArchive VariationID="2423383" VariationName="NC_000011.9:g.(?_118175668)_(118179176_?)del" VariationType="Deletion" Accession="VCV002423383" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1945602" VariationID="2423383">
+      <GeneList>
+        <Gene Symbol="CD3E" FullName="CD3 epsilon subunit of T-cell receptor complex" GeneID="916" HGNC_ID="HGNC:1674" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="118304730" stop="118316173" display_start="118304730" display_stop="118316173" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="118175294" stop="118186889" display_start="118175294" display_stop="118186889" Strand="+" />
+          </Location>
+          <OMIM>186830</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(?_118175668)_(118179176_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="118175668" innerStop="118179176" display_start="118175668" display_stop="118179176" variantLength="3509" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_118175668)_(118179176_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_118175668)_(118179176_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(?_118175668)_(118179176_?)del AND Immunodeficiency 18" Accession="RCV003105320" Version="4">
+        <ClassifiedConditionList TraitSetID="13023">
+          <ClassifiedCondition DB="MedGen" ID="C3810127">Immunodeficiency 18</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15546002</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8490660</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="13023" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18552" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CD3-EPSILON DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="615615" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 18</ElementValue>
+                <XRef ID="MONDO:0014278" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CD3epsilon deficiency</ElementValue>
+                <XRef ID="MONDO:0024597" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD18</ElementValue>
+                <XRef Type="MIM" ID="615615" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18295" />
+                <XRef ID="18295" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C3810127" DB="MedGen" />
+              <XRef ID="MONDO:0014278" DB="MONDO" />
+              <XRef Type="MIM" ID="615615" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7072182" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_000733.3_11_Deletion (exons 2-4)|MedGen:C3810127" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003794344" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">8490660</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">15546002</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with CD3E-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2-4 of the CD3E gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in CD3E are known to be pathogenic (PMID: 8490660, 15546002).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CD3E" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_118175668)_(118179176_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3810127" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7072182" TraitType="Disease" MappingType="XRef" MappingValue="C3810127" MappingRef="MedGen">
+        <MedGen CUI="C3810127" Name="Immunodeficiency 18" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

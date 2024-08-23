@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="1370287" VariationName="NC_000012.11:g.(?_112910728)_(112910864_?)del" VariationType="Deletion" Accession="VCV001370287" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-11" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1352626" VariationID="1370287">
+      <GeneList>
+        <Gene Symbol="PTPN11" FullName="protein tyrosine phosphatase non-receptor type 11" GeneID="5781" HGNC_ID="HGNC:9644" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="112418947" stop="112509918" display_start="112418947" display_stop="112509918" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="112856535" stop="112947716" display_start="112856535" display_stop="112947716" Strand="+" />
+          </Location>
+          <OMIM>176876</OMIM>
+          <Haploinsufficiency last_evaluated="2020-09-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTPN11">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-09-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTPN11">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.11:g.(?_112910728)_(112910864_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="112910728" innerStop="112910864" display_start="112910728" display_stop="112910864" variantLength="137" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_112910728)_(112910864_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_112910728)_(112910864_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.11:g.(?_112910728)_(112910864_?)del AND RASopathy" Accession="RCV001877084" Version="1">
+        <ClassifiedConditionList TraitSetID="9403">
+          <ClassifiedCondition DB="MedGen" ID="C5555857">RASopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-07-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-07-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20577567</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21533187</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9403" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17678" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Noonan spectrum disorder</ElementValue>
+                <XRef ID="genomeconnect_15815_622" DB="GenomeConnect, ClinGen" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">rasopathies</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">RASopathy</ElementValue>
+                <XRef ID="MONDO:0021060" DB="MONDO" />
+              </Name>
+              <XRef ID="536391" DB="Orphanet" />
+              <XRef ID="C5555857" DB="MedGen" />
+              <XRef ID="MONDO:0021060" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4149112" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_002834.3_12_Deletion (exon 7)|MedGen:CN166718" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002137443" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-07-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">20577567</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21533187</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 7 of the PTPN11 gene. This deletion is out-of-frame, and is expected to create a premature translational stop signal and result in an absent or disrupted protein product. Loss-of-function variants in PTPN11 are known to be pathogenic (PMID: 20577567, 21533187). This variant has not been reported in the literature in individuals affected with PTPN11-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PTPN11" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.(?_112910728)_(112910864_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN166718" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4149112" TraitType="Disease" MappingType="XRef" MappingValue="CN166718" MappingRef="MedGen">
+        <MedGen CUI="C5555857" Name="RASopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

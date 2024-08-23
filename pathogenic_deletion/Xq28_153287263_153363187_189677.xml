@@ -1,0 +1,473 @@
+<VariationArchive RecordType="classified" VariationID="189677" VariationName="NM_004992.3(MECP2):c.(?_-226)_26+?del" VariationType="Deletion" Accession="VCV000189677" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2015-04-24" MostRecentSubmission="2015-04-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="187417" VariationID="189677">
+      <GeneList>
+        <Gene Symbol="MECP2" FullName="methyl-CpG binding protein 2" GeneID="4204" HGNC_ID="HGNC:6990" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154021573" stop="154097717" display_start="154021573" display_stop="154097717" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153287263" stop="153363187" display_start="153287263" display_stop="153363187" Strand="-" />
+          </Location>
+          <OMIM>300005</OMIM>
+          <Haploinsufficiency last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_004992.3(MECP2):c.(?_-226)_26+?del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153357642" innerStop="153363188" display_start="153357642" display_stop="153363188" variantLength="5547" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_153357642)_(153363188_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_153357642)_(153363188_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv7487042" DB="dbVar" />
+        <XRef ID="nsv1197378" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_004992.3(MECP2):c.(?_-226)_26+?del AND Rett syndrome" Accession="RCV000170162" Version="1">
+        <ClassifiedConditionList TraitSetID="3215">
+          <ClassifiedCondition DB="MedGen" ID="C0035372">Rett syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2011-03-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-03-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-04-24" MostRecentSubmission="2015-04-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15712379</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16183801</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16630165</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16829352</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17026625</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17089071</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21212452</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3215" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3622" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rett syndrome</ElementValue>
+                <XRef ID="MONDO:0010726" DB="MONDO" />
+                <XRef ID="778" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Autism, dementia, ataxia, and loss of purposeful hand use</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MECP2-Related Disorders</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Rett's disorder</ElementValue>
+                <XRef ID="Rett+syndrome/6294" DB="Genetic Alliance" />
+                <XRef ID="68618008" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RTT</ElementValue>
+                <XRef Type="MIM" ID="312750" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">RTS</ElementValue>
+                <XRef Type="MIM" ID="312750" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The spectrum of MECP2-related phenotypes in females ranges from classic Rett syndrome to variant Rett syndrome with a broader clinical phenotype (either milder or more severe than classic Rett syndrome) to mild learning disabilities; the spectrum in males ranges from severe neonatal encephalopathy to pyramidal signs, parkinsonism, and macroorchidism (PPM-X) syndrome to severe syndromic/nonsyndromic intellectual disability. Females: Classic Rett syndrome, a progressive neurodevelopmental disorder primarily affecting girls, is characterized by apparently normal psychomotor development during the first six to 18 months of life, followed by a short period of developmental stagnation, then rapid regression in language and motor skills, followed by long-term stability. During the phase of rapid regression, repetitive, stereotypic hand movements replace purposeful hand use. Additional findings include fits of screaming and inconsolable crying, autistic features, panic-like attacks, bruxism, episodic apnea and/or hyperpnea, gait ataxia and apraxia, tremors, seizures, and acquired microcephaly. Males: Severe neonatal-onset encephalopathy, the most common phenotype in affected males, is characterized by a relentless clinical course that follows a metabolic-degenerative type of pattern, abnormal tone, involuntary movements, severe seizures, and breathing abnormalities. Death often occurs before age two years.</Attribute>
+                <XRef ID="NBK1497" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5696" />
+                <XRef ID="5696" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301670</ID>
+                <ID Source="BookShelf">NBK1497</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG, 2008">
+                <ID Source="pmc">3111012</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23519317</ID>
+              </Citation>
+              <XRef ID="3095" DB="Orphanet" />
+              <XRef ID="778" DB="Orphanet" />
+              <XRef ID="C0035372" DB="MedGen" />
+              <XRef ID="MONDO:0010726" DB="MONDO" />
+              <XRef Type="MIM" ID="312750" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="400923" SubmissionDate="2014-11-21" DateLastUpdated="2015-04-24" DateCreated="2015-04-24">
+        <ClinVarSubmissionID localKey="MC608" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV000222491" DateUpdated="2015-04-24" DateCreated="2015-04-24" Type="SCV" Version="1" SubmitterName="RettBASE" OrgID="504290" OrganizationCategory="locus-specific database (LSDB)" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-03-29">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Blood or skin</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Comment Type="public">Rett syndrome - Atypical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Not known</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Comment Type="public">Rett syndrome - Classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Comment Type="public">Rett syndrome - Classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Blood or skin</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Comment Type="public">Rett syndrome - Classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Blood or skin</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Comment Type="public">Rett syndrome - Classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">15712379</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - Not certain</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>not known</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16183801</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>not known</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16183801</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>not known</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16183801</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16630165</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - Not certain</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">17026625</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - not certain</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">17089071</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">21212452</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - congenital</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16829352</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData>
+                <FamilyHistory>No</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">16829352</ID>
+            </Citation>
+            <Comment Type="public">Rett syndrome - classical</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MECP2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004992.3:c.(?_-226)_26+?del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Rett syndrome</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="312750" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="400923" TraitType="Disease" MappingType="Name" MappingValue="Rett syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0035372" Name="Rett syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

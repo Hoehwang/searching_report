@@ -1,0 +1,186 @@
+<VariationArchive RecordType="classified" VariationID="431486" VariationName="NM_000341.4(SLC3A1):c.1069_1084dup (p.Arg362fs)" VariationType="Duplication" Accession="VCV000431486" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-08-13" MostRecentSubmission="2017-08-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="424992" VariationID="431486">
+      <GeneList>
+        <Gene Symbol="SLC3A1" FullName="solute carrier family 3 member 1" GeneID="6519" HGNC_ID="HGNC:11025" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44275480" stop="44322437" display_start="44275480" display_stop="44322437" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44502596" stop="44547962" display_start="44502596" display_stop="44547962" Strand="+" />
+          </Location>
+          <OMIM>104614</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000341.4(SLC3A1):c.1069_1084dup (p.Arg362fs)</Name>
+      <CanonicalSPDI>NC_000002.12:44301059:ATGCACGACATTGTCC:ATGCACGACATTGTCCATGCACGACATTGTCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2p21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44301059" stop="44301060" display_start="44301059" display_stop="44301060" variantLength="16" positionVCF="44301059" referenceAlleleVCF="A" alternateAlleleVCF="AATGCACGACATTGTCC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44528198" stop="44528199" display_start="44528198" display_stop="44528199" variantLength="16" positionVCF="44528198" referenceAlleleVCF="A" alternateAlleleVCF="AATGCACGACATTGTCC" />
+      </Location>
+      <ProteinChange>R362fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.44528199_44528214dup" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.44528199_44528214dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.44301060_44301075dup" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.44301060_44301075dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008233.1" sequenceAccession="NG_008233" sequenceVersion="1" change="g.30603_30618dup">
+            <Expression>NG_008233.1:g.30603_30618dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000341.4" sequenceAccession="NM_000341" sequenceVersion="4" change="c.1069_1084dup" MANESelect="true">
+            <Expression>NM_000341.4:c.1069_1084dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000332.2" sequenceAccession="NP_000332" sequenceVersion="2" change="p.Arg362fs">
+            <Expression>NP_000332.2:p.Arg362fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372529" DB="ClinGen" />
+        <XRef Type="rs" ID="1553344107" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000341.4(SLC3A1):c.1069_1084dup (p.Arg362fs) AND Cystinuria" Accession="RCV000497086" Version="1">
+        <ClassifiedConditionList TraitSetID="1615">
+          <ClassifiedCondition DB="MedGen" ID="C0010691">Cystinuria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-13" MostRecentSubmission="2017-08-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1615" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1217" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cystinuria</ElementValue>
+                <XRef ID="22232" DB="GeneTests" />
+                <XRef ID="Cystinuria/2081" DB="Genetic Alliance" />
+                <XRef ID="HP:0003131" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0009067" DB="MONDO" />
+                <XRef ID="85020001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cystinuria, non-type I</ElementValue>
+                <XRef ID="UWMG_9204648" DB="CSER _CC_NCGL, University of Washington" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE I</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE II</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE III</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CSNU</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU1</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU3</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6237" />
+                <XRef ID="6237" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Cystinuria is an autosomal disorder characterized by impaired epithelial cell transport of cystine and dibasic amino acids (lysine, ornithine, and arginine) in the proximal renal tubule and gastrointestinal tract. The impaired renal reabsorption of cystine and its low solubility causes the formation of calculi in the urinary tract, resulting in obstructive uropathy, pyelonephritis, and, rarely, renal failure (summary by Barbosa et al., 2012).</Attribute>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="PubMed">21863055</ID>
+              </Citation>
+              <XRef ID="214" DB="Orphanet" />
+              <XRef ID="C0010691" DB="MedGen" />
+              <XRef ID="MONDO:0009067" DB="MONDO" />
+              <XRef Type="MIM" ID="220100" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0003131" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1142048" SubmissionDate="2017-08-10" DateLastUpdated="2017-08-13" DateCreated="2017-08-13">
+        <ClinVarSubmissionID localKey="SUB2942356" submittedAssembly="hg19" title="SUB2942356" />
+        <ClinVarAccession Accession="SCV000588235" DateUpdated="2017-08-13" DateCreated="2017-08-13" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Cologne University" OrgID="243629" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC3A1">
+              <Name>solute carrier family 3 member 1</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000341.3:c.1069_1084dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="220100" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2942356</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1142048" TraitType="Disease" MappingType="XRef" MappingValue="220100" MappingRef="OMIM">
+        <MedGen CUI="C0010691" Name="Cystinuria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

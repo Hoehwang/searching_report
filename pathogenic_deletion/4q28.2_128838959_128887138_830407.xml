@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="830407" VariationName="NC_000004.12:g.(?_127920610)_(127957612_?)del" VariationType="Deletion" Accession="VCV000830407" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819443" VariationID="830407">
+      <GeneList>
+        <Gene Symbol="MFSD8" FullName="major facilitator superfamily domain containing 8" GeneID="256471" HGNC_ID="HGNC:28486" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q28.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="127917732" stop="127965963" display_start="127917732" display_stop="127965963" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="128838959" stop="128887138" display_start="128838959" display_stop="128887138" Strand="-" />
+          </Location>
+          <OMIM>611124</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000004.12:g.(?_127920610)_(127957612_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q28.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="128841765" innerStop="128878767" display_start="128841765" display_stop="128878767" variantLength="37003" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_128841765)_(128878767_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_128841765)_(128878767_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000004.12:g.(?_127920610)_(127957612_?)del AND Neuronal ceroid lipofuscinosis 7" Accession="RCV001031045" Version="1">
+        <ClassifiedConditionList TraitSetID="265">
+          <ClassifiedCondition DB="MedGen" ID="C1838571">Neuronal ceroid lipofuscinosis 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19177532</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25976102</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28708303</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="265" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="875" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MFSD8-Related Neuronal Ceroid-Lipofuscinosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neuronal ceroid lipofuscinosis 7</ElementValue>
+                <XRef ID="MONDO:0012588" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CLN7</ElementValue>
+                <XRef Type="MIM" ID="610951" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1220" />
+                <XRef ID="1220" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="168491" DB="Orphanet" />
+              <XRef ID="228366" DB="Orphanet" />
+              <XRef ID="C1838571" DB="MedGen" />
+              <XRef ID="MONDO:0012588" DB="MONDO" />
+              <XRef Type="MIM" ID="610951" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2355604" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="3338749|MedGen:C1838571" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194351" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25976102</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28708303</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19177532</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 3-13 of the MFSD8 gene. The 5' boundary is likely confined to intron 2. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. This variant has not been reported in the literature in individuals with MFSD8-related conditions. This variant disrupts the C-terminus of the MFSD8 protein. Other variant(s) that disrupt this region (p.Arg482*) have been determined to be pathogenic (PMID: 25976102, 28708303, 19177532, Invitae). This suggests that variants that disrupt this region of the protein are likely to be causative of disease. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MFSD8" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000004.11:g.(?_128841765)_(128878767_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Ceroid lipofuscinosis neuronal 7</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1838571" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2355604" TraitType="Disease" MappingType="Name" MappingValue="Ceroid lipofuscinosis neuronal 7" MappingRef="Preferred">
+        <MedGen CUI="C1838571" Name="Neuronal ceroid lipofuscinosis 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="3977" VariationName="nsv1067861" VariationType="Deletion" Accession="VCV000003977" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-03-06" MostRecentSubmission="2015-03-06">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="19016" VariationID="3977">
+      <GeneList>
+        <Gene Symbol="RB1CC1" FullName="RB1 inducible coiled-coil 1" GeneID="9821" HGNC_ID="HGNC:15574" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="52622458" stop="52714435" display_start="52622458" display_stop="52714435" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="53535017" stop="53627025" display_start="53535017" display_stop="53627025" Strand="-" />
+          </Location>
+          <OMIM>606837</OMIM>
+          <Haploinsufficiency last_evaluated="2018-07-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RB1CC1">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-07-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RB1CC1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>nsv1067861</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="52624761" stop="52661660" display_start="52624761" display_stop="52661660" variantLength="36900" Strand="-" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="53537321" stop="53574220" display_start="53537321" display_stop="53574220" variantLength="36900" />
+      </Location>
+      <OtherNameList>
+        <Name>EX9-23 DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.53537321_53574220del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.53537321_53574220del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nsv1067861" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="606837.0002" DB="OMIM" />
+        <XRef ID="nssv3761618" DB="dbVar" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 12068296 Fig. 3B to determine the location of this allele on the current reference sequence.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">Deletion beginning in the CDS in exon 9 and extending in exon 23, resulting in the deletion of exons 3-23 from RB1CC1.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="nsv1067861 AND Breast adenocarcinoma" Accession="RCV000004183" Version="5">
+        <ClassifiedConditionList TraitSetID="1088">
+          <ClassifiedCondition DB="MedGen" ID="C0858252">Breast adenocarcinoma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2002-07-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2002-07-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-03-06" MostRecentSubmission="2015-03-06">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12068296</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1088" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18584" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Breast cancer, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Breast adenocarcinoma, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Breast adenocarcinoma</ElementValue>
+                <XRef ID="MONDO:0004988" DB="MONDO" />
+              </Name>
+              <XRef ID="C0858252" DB="MedGen" />
+              <XRef ID="MONDO:0004988" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="24349" SubmissionDate="2015-03-03" DateLastUpdated="2015-03-06" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="606837.0002_BREAST CANCER, SOMATIC" title="RB1CC1, EX9-23 DEL _BREAST CANCER, SOMATIC" />
+        <ClinVarAccession Accession="SCV000024349" DateUpdated="2015-03-06" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2002-07-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the deletion of exons 9-23 found in the RB1CC1 gene (nucleotides 1,757-5,187) that was found in compound heterozygous state in a tumor sample of primary breast cancer (114480) by Chano et al. (2002), see 606837.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">12068296</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="114480" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RB1CC1" />
+          </GeneList>
+          <Name>RB1CC1, EX9-23 DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX9-23 DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="606837.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BREAST CANCER, SOMATIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="24349" TraitType="Disease" MappingType="Name" MappingValue="BREAST CANCER, SOMATIC" MappingRef="Preferred">
+        <MedGen CUI="C0858252" Name="Breast adenocarcinoma" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

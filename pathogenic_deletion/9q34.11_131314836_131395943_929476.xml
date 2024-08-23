@@ -1,0 +1,145 @@
+<VariationArchive RecordType="classified" VariationID="929476" VariationName="NM_001130438.3:c.(?_1225)_(1572_?)del" VariationType="Deletion" Accession="VCV000929476" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2020-09-27" MostRecentSubmission="2020-09-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="917796" VariationID="929476">
+      <GeneList>
+        <Gene Symbol="SPTAN1" FullName="spectrin alpha, non-erythrocytic 1" GeneID="6709" HGNC_ID="HGNC:11273" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="128552587" stop="128633662" display_start="128552587" display_stop="128633662" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="131314836" stop="131395943" display_start="131314836" display_stop="131395943" Strand="+" />
+          </Location>
+          <OMIM>182810</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001130438.3:c.(?_1225)_(1572_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.11</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001130438.3:c.(?_1225)_(1572_?)del AND Developmental and epileptic encephalopathy, 5" Accession="RCV001257090" Version="1">
+        <ClassifiedConditionList TraitSetID="3505">
+          <ClassifiedCondition DB="MedGen" ID="C3150731">Developmental and epileptic encephalopathy, 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-06-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-06-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-09-27" MostRecentSubmission="2020-09-27">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32963807</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3505" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6755" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Early infantile epileptic encephalopathy 5</ElementValue>
+                <XRef ID="Epileptic+encephalopathy%2C+early+infantile%2C+5/8344" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 5</ElementValue>
+                <XRef ID="MONDO:0013277" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE5</ElementValue>
+                <XRef Type="MIM" ID="613477" DB="OMIM" />
+              </Symbol>
+              <XRef ID="3451" DB="Orphanet" />
+              <XRef ID="C3150731" DB="MedGen" />
+              <XRef ID="MONDO:0013277" DB="MONDO" />
+              <XRef Type="MIM" ID="613477" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2691867" SubmissionDate="2020-06-03" DateLastUpdated="2020-09-27" DateCreated="2020-09-27">
+        <ClinVarSubmissionID localKey="U075|OMIM:613477" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001364387" DateUpdated="2020-09-27" DateCreated="2020-09-27" Type="SCV" Version="1" SubmitterName="Department of Paediatrics and Adolescent Medicine, The University of Hong Kong" OrgID="507009" OrganizationCategory="laboratory" OrgAbbreviation="UPAM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-06-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32963807</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <CitationText>publication submitted</CitationText>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData>
+                <FamilyHistory>no</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">WES</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPTAN1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_001130438.3:exon10-12</GeneLocation>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001130438.3:c.(?_1225)_(1572_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613477" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32963807</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32963807</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7541158</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2691867" TraitType="Disease" MappingType="XRef" MappingValue="613477" MappingRef="OMIM">
+        <MedGen CUI="C3150731" Name="Developmental and epileptic encephalopathy, 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

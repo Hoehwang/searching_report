@@ -1,0 +1,225 @@
+<VariationArchive VariationID="3243499" VariationName="NC_000016.9:g.(?_5127426)_(5134882_?)del" VariationType="Deletion" Accession="VCV003243499" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3405968" VariationID="3243499">
+      <GeneList>
+        <Gene Symbol="ALG1" FullName="ALG1 chitobiosyldiphosphodolichol beta-mannosyltransferase" GeneID="56052" HGNC_ID="HGNC:18294" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="5071843" stop="5087379" display_start="5071843" display_stop="5087379" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="5121809" stop="5137379" display_start="5121809" display_stop="5137379" Strand="+" />
+          </Location>
+          <OMIM>605907</OMIM>
+        </Gene>
+        <Gene Symbol="EEF2KMT" FullName="eukaryotic elongation factor 2 lysine methyltransferase" GeneID="196483" HGNC_ID="HGNC:32221" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="5084284" stop="5097795" display_start="5084284" display_stop="5097795" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="5134300" stop="5147788" display_start="5134300" display_stop="5147788" Strand="-" />
+          </Location>
+          <OMIM>615263</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.9:g.(?_5127426)_(5134882_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="5127426" innerStop="5134882" display_start="5127426" display_stop="5134882" variantLength="7457" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_5127426)_(5134882_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_5127426)_(5134882_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.9:g.(?_5127426)_(5134882_?)del AND ALG1-congenital disorder of glycosylation" Accession="RCV004582727" Version="1">
+        <ClassifiedConditionList TraitSetID="1295">
+          <ClassifiedCondition DB="MedGen" ID="C2931005">ALG1-congenital disorder of glycosylation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14709599</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">14973778</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">14973782</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20679665</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22966035</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26931382</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27172925</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27325525</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28554332</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1295" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="836" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CDG 1K</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">ALG1-congenital disorder of glycosylation</ElementValue>
+                <XRef ID="MONDO:0012052" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ik</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG Ik</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital disorder of glycosylation type 1K</ElementValue>
+                <XRef ID="Congenital+Disorder+of+Glycosylation+Type+1K/1816" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ALG1-CDG</ElementValue>
+                <XRef ID="79327" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CDG1K</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CDGIk</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9838" />
+                <XRef ID="9838" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301507</ID>
+                <ID Source="BookShelf">NBK1332</ID>
+              </Citation>
+              <XRef ID="79327" DB="Orphanet" />
+              <XRef ID="C2931005" DB="MedGen" />
+              <XRef ID="MONDO:0012052" DB="MONDO" />
+              <XRef Type="MIM" ID="608540" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9833992" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000016.9:g.(?_5127426)_(5134882_?)del|MedGen:C2931005" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005062317" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">14709599</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">14973778</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">14973782</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20679665</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22966035</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26931382</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27172925</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27325525</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28554332</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 5-13 of the ALG1 gene, which includes the termination codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. While this deletion is not anticipated to lead to nonsense mediated decay, it is expected to alter mRNA translation or result in a truncated protein product. This variant has not been reported in the literature in individuals affected with ALG1-related conditions. For these reasons, this variant has been classified as Pathogenic. This variant disrupts a region of the ALG1 protein in which other variant(s) (p.Ser258Leu) have been determined to be pathogenic (PMID: 14709599, 14973778, 14973782, 20679665, 22966035, 26931382, 27172925, 27325525, 28554332). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_5127426)_(5134882_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C2931005" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9833992" TraitType="Disease" MappingType="XRef" MappingValue="C2931005" MappingRef="MedGen">
+        <MedGen CUI="C2931005" Name="ALG1-congenital disorder of glycosylation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

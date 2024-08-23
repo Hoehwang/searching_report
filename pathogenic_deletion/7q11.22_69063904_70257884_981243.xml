@@ -1,0 +1,157 @@
+<VariationArchive VariationID="981243" VariationName="Single allele" VariationType="Deletion" Accession="VCV000981243" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-14" DateCreated="2020-10-10" MostRecentSubmission="2020-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="969327" VariationID="981243">
+      <GeneList>
+        <Gene Symbol="AUTS2" FullName="activator of transcription and developmental regulator AUTS2" GeneID="26053" HGNC_ID="HGNC:14262" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="69598475" stop="70793506" display_start="69598475" display_stop="70793506" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="69063904" stop="70257884" display_start="69063904" display_stop="70257884" Strand="+" />
+          </Location>
+          <OMIM>607270</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="70138876" stop="70223604" display_start="70138876" display_stop="70223604" variantLength="84729" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.70138876_70223604del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.70138876_70223604del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="exon loss">
+        <XRef ID="0381" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Autism spectrum disorder due to AUTS2 deficiency" Accession="RCV001260591" Version="2">
+        <ClassifiedConditionList TraitSetID="13810">
+          <ClassifiedCondition DB="MedGen" ID="C4014435">Autism spectrum disorder due to AUTS2 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-09-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-09-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-10" MostRecentSubmission="2020-10-10">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="13810" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18793" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 26</ElementValue>
+                <XRef Type="MIM" ID="615834" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607270.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607270.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607270.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607270.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autism spectrum disorder due to AUTS2 deficiency</ElementValue>
+                <XRef ID="MONDO:0014361" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRD26</ElementValue>
+                <XRef Type="MIM" ID="615834" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17520" />
+                <XRef ID="17520" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="352490" DB="Orphanet" />
+              <XRef ID="C4014435" DB="MedGen" />
+              <XRef ID="MONDO:0014361" DB="MONDO" />
+              <XRef Type="MIM" ID="615834" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2839333" SubmissionDate="2020-09-30" DateLastUpdated="2020-10-10" DateCreated="2020-10-10">
+        <ClinVarSubmissionID localKey="SUB8218381" submittedAssembly="GRCh37" title="SUB8218381" />
+        <ClinVarAccession Accession="SCV001433869" DateUpdated="2020-10-10" DateCreated="2020-10-10" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Heidelberg University" OrgID="506821" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-09-28">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This deletion encompasses exon 6 of AUTS2. Exon 6 deletions have previously been described to cause C-terminal protein disruption by frameshift and severe expression of AUTS2 syndrome (PMID 23332918, PMID 27531620, PMID 27075013). The variant has not been detected in control populations (PMID 23332918).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" start="70138876" stop="70223604" />
+          </Location>
+          <FunctionalConsequence Value="exon loss">
+            <XRef DB="Variation Ontology" ID="0381" URL="http://purl.obolibrary.org/obo/VariO_0381" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615834" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8218381</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2839333" TraitType="Disease" MappingType="XRef" MappingValue="615834" MappingRef="OMIM">
+        <MedGen CUI="C4014435" Name="Autism spectrum disorder due to AUTS2 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

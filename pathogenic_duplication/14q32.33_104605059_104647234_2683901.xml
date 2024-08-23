@@ -1,0 +1,140 @@
+<VariationArchive VariationID="2683901" VariationName="NM_015656.2(KIF26A):c.4085dup (p.Ala1363fs)" VariationType="Duplication" Accession="VCV002683901" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-01-26" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2844938" VariationID="2683901">
+      <GeneList>
+        <Gene Symbol="KIF26A" FullName="kinesin family member 26A" GeneID="26153" HGNC_ID="HGNC:20226" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q32.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="104138587" stop="104180894" display_start="104138587" display_stop="104180894" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="104605059" stop="104647234" display_start="104605059" display_stop="104647234" Strand="+" />
+          </Location>
+          <OMIM>613231</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_015656.2(KIF26A):c.4085dup (p.Ala1363fs)</Name>
+      <CanonicalSPDI>NC_000014.9:104176866:CCCCCCC:CCCCCCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>14q32.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="104176866" stop="104176867" display_start="104176866" display_stop="104176867" variantLength="1" positionVCF="104176866" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="104643203" stop="104643204" display_start="104643203" display_stop="104643204" variantLength="1" positionVCF="104643203" referenceAlleleVCF="G" alternateAlleleVCF="GC" />
+      </Location>
+      <ProteinChange>A1363fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.104643210dup" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.104643210dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.104176873dup" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.104176873dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_015656.2" sequenceAccession="NM_015656" sequenceVersion="2" change="c.4085dup" MANESelect="true">
+            <Expression>NM_015656.2:c.4085dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_056471.1" sequenceAccession="NP_056471" sequenceVersion="1" change="p.Ala1363fs">
+            <Expression>NP_056471.1:p.Ala1363fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_015656.2(KIF26A):c.4085dup (p.Ala1363fs) AND Cortical dysplasia, complex, with other brain malformations 11" Accession="RCV003482491" Version="1">
+        <ClassifiedConditionList TraitSetID="81275">
+          <ClassifiedCondition DB="MedGen" ID="C5774270">Cortical dysplasia, complex, with other brain malformations 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-12-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-12-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="81275" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="66354" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cortical dysplasia, complex, with other brain malformations 11</ElementValue>
+                <XRef ID="MONDO:0859332" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CDCBM11</ElementValue>
+                <XRef Type="MIM" ID="620156" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5774270" DB="MedGen" />
+              <XRef ID="MONDO:0859332" DB="MONDO" />
+              <XRef Type="MIM" ID="620156" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7902054" SubmissionDate="2024-01-10" DateLastUpdated="2024-01-26" DateCreated="2024-01-26">
+        <ClinVarSubmissionID localKey="NM_015656.2:c.4085dup|OMIM:620156" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004229055" DateUpdated="2024-01-26" DateCreated="2024-01-26" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Cologne University" OrgID="243629" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-12-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KIF26A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_015656.2:c.4085dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="620156" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14144008</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7902054" TraitType="Disease" MappingType="XRef" MappingValue="620156" MappingRef="OMIM">
+        <MedGen CUI="C5774270" Name="Cortical dysplasia, complex, with other brain malformations 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

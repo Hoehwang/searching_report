@@ -1,0 +1,271 @@
+<VariationArchive VariationID="1174013" VariationName="Single allele" VariationType="Deletion" Accession="VCV001174013" Version="1" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2021-06-26" MostRecentSubmission="2021-06-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1163111" VariationID="1174013">
+      <GeneList>
+        <Gene Symbol="ATM" FullName="ATM serine/threonine kinase" GeneID="472" HGNC_ID="HGNC:795" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="108223067" stop="108369102" display_start="108223067" display_stop="108369102" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="108093558" stop="108239825" display_start="108093558" display_stop="108239825" Strand="+" />
+          </Location>
+          <OMIM>607585</OMIM>
+          <Haploinsufficiency last_evaluated="2020-04-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ATM">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-04-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ATM">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="108098332" stop="108236255" display_start="108098332" display_stop="108236255" variantLength="137924" alternateAllele="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.108098332_108236255del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.108098332_108236255del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Ovarian neoplasm" Accession="RCV001527475" Version="2">
+        <ClassifiedConditionList TraitSetID="6377">
+          <ClassifiedCondition DB="MedGen" ID="C0919267">Ovarian neoplasm</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-03-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="Single allele AND multiple conditions" Accession="RCV001527477" Version="2">
+        <ClassifiedConditionList TraitSetID="68094">
+          <ClassifiedCondition DB="MedGen" ID="C0032463">Acquired polycythemia vera</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0854924">Endometrial serous adenocarcinoma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-03-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-03-19" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2021-06-26" MostRecentSubmission="2021-06-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6377" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5713" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ovarian Neoplasms</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Ovarian neoplasm</ElementValue>
+                <XRef ID="HP:0100615" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0021068" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ovarian tumor</ElementValue>
+                <XRef ID="HP:0100615" DB="Human Phenotype Ontology" />
+                <XRef ID="123843001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Neoplasm of ovary</ElementValue>
+                <XRef ID="123843001" DB="SNOMED CT" />
+              </Name>
+              <Citation Type="general" Abbrev="NACB, 2008">
+                <ID Source="PubMed">19042984</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="USPSTF, 2012">
+                <ID Source="PubMed">22964825</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2013">
+                <ID Source="PubMed">23188549</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2021">
+                <ID Source="PubMed">33410258</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="USPSTF, 2018">
+                <ID Source="PubMed">29450531</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NICE, 2023">
+                <URL>https://www.nice.org.uk/guidance/cg122</URL>
+                <CitationText>UK NICE Clinical guideline (CG122), Ovarian cancer: recognition and initial management, 2023</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2024">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/ovarian.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®), Ovarian Cancer Including Fallopian Tube Cancer and Primary Peritoneal Cancer, 2024</CitationText>
+              </Citation>
+              <XRef ID="C0919267" DB="MedGen" />
+              <XRef ID="D010051" DB="MeSH" />
+              <XRef ID="MONDO:0021068" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0100615" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="68094" Type="TraitChoice" ContributesToAggregateClassification="true">
+            <Trait ID="3361" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Suspected polycythemia vera</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Polycythemia vera</ElementValue>
+                <XRef ID="Polycythemia+vera/5826" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Polycythemia vera, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Acquired polycythemia vera</ElementValue>
+                <XRef ID="MONDO:0009891" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Polycythemia rubra vera</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PV</ElementValue>
+                <XRef Type="MIM" ID="263300" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PRV</ElementValue>
+                <XRef Type="MIM" ID="263300" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7422" />
+                <XRef ID="7422" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2023">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/mpn.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®), Myeloproliferative Neoplasms, 2023</CitationText>
+              </Citation>
+              <XRef ID="729" DB="Orphanet" />
+              <XRef ID="C0032463" DB="MedGen" />
+              <XRef ID="D011087" DB="MeSH" />
+              <XRef ID="MONDO:0009891" DB="MONDO" />
+              <XRef Type="MIM" ID="263300" DB="OMIM" />
+            </Trait>
+            <Trait ID="46897" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Uterine corpus serous adenocarcinoma</ElementValue>
+                <XRef ID="MONDO:0003629" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Endometrial serous adenocarcinoma</ElementValue>
+                <XRef ID="MONDO:0006196" DB="MONDO" />
+              </Name>
+              <XRef ID="C0854924" DB="MedGen" />
+              <XRef ID="MONDO:0006196" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3425761" SubmissionDate="2021-05-19" DateLastUpdated="2021-06-26" DateCreated="2021-06-26">
+        <ClinVarSubmissionID localKey=":Chr.11_108098332_108236255_-_Deletion|MedGen:C0032463;C0854924" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001738495" DateUpdated="2021-06-26" DateCreated="2021-06-26" Type="SCV" Version="1" SubmitterName="University Health Network, Princess Margaret Cancer Centre" OrgID="507285" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-03-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">yes</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ATM" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="11" alternateAllele="-" start="108098332" stop="108236255" variantLength="137924" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="TraitChoice">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0032463" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0854924" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Comment>This is a full deletion of ATM. This whole gene deletion was detected by next generation sequencing of genomic DNA (gDNA) and confirmed by MLPA</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9611268</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3425759" SubmissionDate="2021-05-19" DateLastUpdated="2021-06-26" DateCreated="2021-06-26">
+        <ClinVarSubmissionID localKey=":Chr.11_108098332_108236255_-_Deletion|OMIM:167000" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001738493" DateUpdated="2021-06-26" DateCreated="2021-06-26" Type="SCV" Version="1" SubmitterName="University Health Network, Princess Margaret Cancer Centre" OrgID="507285" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-03-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>somatic</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">yes</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ATM" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="11" alternateAllele="-" start="108098332" stop="108236255" variantLength="137924" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="167000" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This is a full deletion of ATM. This whole gene deletion was detected by next generation sequencing of genomic DNA (gDNA) and confirmed by MLPA.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9611268</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3425759" TraitType="Disease" MappingType="XRef" MappingValue="167000" MappingRef="OMIM">
+        <MedGen CUI="C1140680" Name="Ovarian cancer" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3425761" TraitType="Disease" MappingType="XRef" MappingValue="C0854924" MappingRef="MedGen">
+        <MedGen CUI="C0854924" Name="Endometrial serous adenocarcinoma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3425761" TraitType="Disease" MappingType="XRef" MappingValue="C0032463" MappingRef="MedGen">
+        <MedGen CUI="C0032463" Name="Acquired polycythemia vera" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

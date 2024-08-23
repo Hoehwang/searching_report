@@ -1,0 +1,136 @@
+<VariationArchive VariationID="2425210" VariationName="NC_000003.11:g.(?_155560201)_(155560428_?)del" VariationType="Deletion" Accession="VCV002425210" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1946277" VariationID="2425210">
+      <GeneList>
+        <Gene Symbol="SLC33A1" FullName="solute carrier family 33 member 1" GeneID="9197" HGNC_ID="HGNC:95" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q25.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="155821024" stop="155854427" display_start="155821024" display_stop="155854427" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="155544299" stop="155572247" display_start="155544299" display_stop="155572247" Strand="-" />
+          </Location>
+          <OMIM>603690</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.(?_155560201)_(155560428_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q25.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="155560201" innerStop="155560428" display_start="155560201" display_stop="155560428" variantLength="228" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_155560201)_(155560428_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_155560201)_(155560428_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.(?_155560201)_(155560428_?)del AND Spastic paraplegia" Accession="RCV003113579" Version="3">
+        <ClassifiedConditionList TraitSetID="20865">
+          <ClassifiedCondition DB="MedGen" ID="C0037772">Spastic paraplegia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-06-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-06-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22243965</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27306358</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="20865" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32966" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spastic paraplegia</ElementValue>
+                <XRef ID="10DG0885" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+                <XRef ID="HP:0001258" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0037772" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001258" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007062" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007124" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007216" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7074085" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_004733.3_3_Deletion (exon 2)|MedGen:C0037772" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003793850" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-06-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22243965</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27306358</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with SLC33A1-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2 of the SLC33A1 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in SLC33A1 are known to be pathogenic (PMID: 22243965, 27306358).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC33A1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_155560201)_(155560428_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0037772" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7074085" TraitType="Disease" MappingType="XRef" MappingValue="C0037772" MappingRef="MedGen">
+        <MedGen CUI="C0037772" Name="Spastic paraplegia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

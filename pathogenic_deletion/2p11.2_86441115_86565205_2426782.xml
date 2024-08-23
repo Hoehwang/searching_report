@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="2426782" VariationName="NC_000002.11:g.(?_86479060)_(86481957_?)del" VariationType="Deletion" Accession="VCV002426782" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1950319" VariationID="2426782">
+      <GeneList>
+        <Gene Symbol="REEP1" FullName="receptor accessory protein 1" GeneID="65055" HGNC_ID="HGNC:25786" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="86213993" stop="86338083" display_start="86213993" display_stop="86338083" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="86441115" stop="86565205" display_start="86441115" display_stop="86565205" Strand="-" />
+          </Location>
+          <OMIM>609139</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.11:g.(?_86479060)_(86481957_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="86479060" innerStop="86481957" display_start="86479060" display_stop="86481957" variantLength="2898" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_86479060)_(86481957_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_86479060)_(86481957_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.11:g.(?_86479060)_(86481957_?)del AND Hereditary spastic paraplegia 31" Accession="RCV003111518" Version="3">
+        <ClassifiedConditionList TraitSetID="474">
+          <ClassifiedCondition DB="MedGen" ID="C1853247">Hereditary spastic paraplegia 31</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18321925</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">18644145</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22703882</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24451228</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="474" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5936" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Spastic paraplegia 31, autosomal dominant</ElementValue>
+                <XRef ID="Spastic+paraplegia+31%2C+autosomal+dominant/9319" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hereditary spastic paraplegia 31</ElementValue>
+                <XRef ID="MONDO:0012453" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPG31</ElementValue>
+                <XRef Type="MIM" ID="610250" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10817" />
+                <XRef ID="10817" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="101011" DB="Orphanet" />
+              <XRef ID="C1853247" DB="MedGen" />
+              <XRef ID="MONDO:0012453" DB="MONDO" />
+              <XRef Type="MIM" ID="610250" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7075747" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_022912.2_Deletion (Exons 4-5)|MedGen:C1853247" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003791940" DateUpdated="2023-11-11" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18321925</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18644145</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22703882</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24451228</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 4-5 of the REEP1 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in REEP1 are known to be pathogenic (PMID: 18321925, 18644145, 22703882). A similar copy number variant has been observed in individuals with hereditary spastic paraplegia (PMID: 24451228). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="REEP1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_86479060)_(86481957_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1853247" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7075747" TraitType="Disease" MappingType="XRef" MappingValue="C1853247" MappingRef="MedGen">
+        <MedGen CUI="C1853247" Name="Hereditary spastic paraplegia 31" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

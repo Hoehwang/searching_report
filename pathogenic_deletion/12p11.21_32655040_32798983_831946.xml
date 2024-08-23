@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="831946" VariationName="NC_000012.12:g.(?_32576256)_(32640543_?)del" VariationType="Deletion" Accession="VCV000831946" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820492" VariationID="831946">
+      <GeneList>
+        <Gene Symbol="FGD4" FullName="FYVE, RhoGEF and PH domain containing 4" GeneID="121512" HGNC_ID="HGNC:19125" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="32399558" stop="32646050" display_start="32399558" display_stop="32646050" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="32655040" stop="32798983" display_start="32655040" display_stop="32798983" Strand="+" />
+          </Location>
+          <OMIM>611104</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.12:g.(?_32576256)_(32640543_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12p11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="32729190" innerStop="32793477" display_start="32729190" display_stop="32793477" variantLength="64288" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_32729190)_(32793477_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_32729190)_(32793477_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.12:g.(?_32576256)_(32640543_?)del AND Charcot-Marie-Tooth disease type 4" Accession="RCV001032469" Version="1">
+        <ClassifiedConditionList TraitSetID="12261">
+          <ClassifiedCondition DB="MedGen" ID="C4082197">Charcot-Marie-Tooth disease type 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-10-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-10-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28902413</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12261" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9469" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease type 4</ElementValue>
+                <XRef ID="MONDO:0018995" DB="MONDO" />
+                <XRef ID="715795005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth, Type 4</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMT4</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12440" />
+                <XRef ID="12440" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301532</ID>
+                <ID Source="BookShelf">NBK1358</ID>
+              </Citation>
+              <XRef ID="64749" DB="Orphanet" />
+              <XRef ID="C4082197" DB="MedGen" />
+              <XRef ID="MONDO:0018995" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357031" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="7189787|MedGen:CN043578" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195776" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-10-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">28902413</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the FGD4 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has been observed in combination with another FGD4 variant in an individual affected with Charcot-Marie-Tooth disease (PMID: 28902413). Loss-of-function variants in FGD4 are known to be pathogenic (PMID: 17564972). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGD4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.(?_32729190)_(32793477_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN043578" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357031" TraitType="Disease" MappingType="XRef" MappingValue="CN043578" MappingRef="MedGen">
+        <MedGen CUI="C4082197" Name="Charcot-Marie-Tooth disease type 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

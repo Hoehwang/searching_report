@@ -1,0 +1,195 @@
+<VariationArchive RecordType="classified" VariationID="402275" VariationName="NM_000441.2(SLC26A4):c.1149+1del" VariationType="Deletion" Accession="VCV000402275" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-10" DateCreated="2017-04-03" MostRecentSubmission="2017-04-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="389226" VariationID="402275">
+      <GeneList>
+        <Gene Symbol="SLC26A4" FullName="solute carrier family 26 member 4" GeneID="5172" HGNC_ID="HGNC:8818" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="107660828" stop="107717809" display_start="107660828" display_stop="107717809" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="107301079" stop="107358253" display_start="107301079" display_stop="107358253" Strand="+" />
+          </Location>
+          <OMIM>605646</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000441.2(SLC26A4):c.1149+1del</Name>
+      <CanonicalSPDI>NC_000007.14:107689199:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="107689200" stop="107689200" display_start="107689200" display_stop="107689200" variantLength="1" positionVCF="107689199" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="107329645" stop="107329645" display_start="107329645" display_stop="107329645" variantLength="1" positionVCF="107329644" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.107329646del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.107329646del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.107689201del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.107689201del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008489.1" sequenceAccession="NG_008489" sequenceVersion="1" change="g.33567del">
+            <Expression>NG_008489.1:g.33567del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000441.2" sequenceAccession="NM_000441" sequenceVersion="2" change="c.1149+1del" MANESelect="true">
+            <Expression>NM_000441.2:c.1149+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA16609564" DB="ClinGen" />
+        <XRef Type="rs" ID="1060499807" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000441.2(SLC26A4):c.1149+1del AND Pendred syndrome" Accession="RCV000454360" Version="1">
+        <ClassifiedConditionList TraitSetID="1327">
+          <ClassifiedCondition DB="MedGen" ID="C0271829">Pendred syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2016-06-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-06-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-04-03" MostRecentSubmission="2017-04-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1327" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3780" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Pendred's syndrome</ElementValue>
+                <XRef ID="Pendred+syndrome/5656" DB="Genetic Alliance" />
+                <XRef ID="70348004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pendred syndrome</ElementValue>
+                <XRef ID="MONDO:0010134" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Goiter-deafness syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">DEAFNESS WITH GOITER</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPOTHYROIDISM, CONGENITAL, DUE TO DYSHORMONOGENESIS, 2B</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">THYROID DYSHORMONOGENESIS 2B</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">THYROID HORMONOGENESIS, GENETIC DEFECT IN, 2B</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SLC26A4</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">TDH2B</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">PDS</ElementValue>
+                <XRef Type="MIM" ID="274600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">SLC26A4-Related Pendred Syndrome</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4271" />
+                <XRef ID="4271" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Pendred syndrome / nonsyndromic enlarged vestibular aqueduct (PDS/NSEVA) comprises a phenotypic spectrum of sensorineural hearing loss (SNHL) that is usually congenital and often severe to profound (although mild-to-moderate progressive hearing impairment also occurs), vestibular dysfunction, and temporal bone abnormalities (bilateral enlarged vestibular aqueduct with or without cochlear hypoplasia). PDS also includes development of euthyroid goiter in late childhood to early adulthood whereas NSEVA does not.</Attribute>
+                <XRef ID="NBK1467" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301607</ID>
+                <ID Source="BookShelf">NBK1434</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301640</ID>
+                <ID Source="BookShelf">NBK1467</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2002">
+                <ID Source="pmc">3110944</ID>
+              </Citation>
+              <XRef ID="705" DB="Orphanet" />
+              <XRef ID="C0271829" DB="MedGen" />
+              <XRef ID="MONDO:0010134" DB="MONDO" />
+              <XRef Type="MIM" ID="274600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1048832" SubmissionDate="2016-07-28" DateLastUpdated="2017-04-03" DateCreated="2017-04-03">
+        <ClinVarSubmissionID localKey="NM_000441.1:c.1149delG|MedGen:C0271829" submittedAssembly="hg19" />
+        <ClinVarAccession Accession="SCV000538119" DateUpdated="2017-04-03" DateCreated="2017-04-03" Type="SCV" Version="1" SubmitterName="Hereditary Research Laboratory, Bethlehem University" OrgID="505778" OrganizationCategory="laboratory" OrgAbbreviation="BU" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-06-04">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>severe to profound w/endolymphatic sac</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC26A4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000441.1:c.1149delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0271829" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <StudyDescription>Study the Genetic causes of inherited hearing loss in Palestinian Families</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>Hereditary Research Laboratory-Bethlehem Universitypro</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1048832" TraitType="Disease" MappingType="XRef" MappingValue="C0271829" MappingRef="MedGen">
+        <MedGen CUI="C0271829" Name="Pendred syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

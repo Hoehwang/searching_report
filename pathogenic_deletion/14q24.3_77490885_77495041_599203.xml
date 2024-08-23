@@ -1,0 +1,126 @@
+<VariationArchive RecordType="classified" VariationID="599203" VariationName="IRF2BPL, 2-BP DEL, 2135GT" VariationType="Deletion" Accession="VCV000599203" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-10" DateCreated="2019-04-17" MostRecentSubmission="2019-04-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="590380" VariationID="599203">
+      <GeneList>
+        <Gene Symbol="IRF2BPL" FullName="interferon regulatory factor 2 binding protein like" GeneID="64207" HGNC_ID="HGNC:14282" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>14q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="77024543" stop="77028708" display_start="77024543" display_stop="77028708" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="77490885" stop="77495041" display_start="77490885" display_stop="77495041" Strand="-" />
+          </Location>
+          <OMIM>611720</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>IRF2BPL, 2-BP DEL, 2135GT</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q24.3</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>2-BP DEL, 2135GT</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="611720.0007" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="IRF2BPL, 2-BP DEL, 2135GT AND Neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures" Accession="RCV000735796" Version="3">
+        <ClassifiedConditionList TraitSetID="44073">
+          <ClassifiedCondition DB="MedGen" ID="C4748127">Neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-17" MostRecentSubmission="2019-04-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30166628</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="44073" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="40424" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures</ElementValue>
+                <XRef ID="MONDO:0060759" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">NEDAMSS</ElementValue>
+                <XRef Type="MIM" ID="618088" DB="OMIM" />
+              </Symbol>
+              <XRef ID="597623" DB="Orphanet" />
+              <XRef ID="C4748127" DB="MedGen" />
+              <XRef ID="MONDO:0060759" DB="MONDO" />
+              <XRef Type="MIM" ID="618088" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1689396" SubmissionDate="2019-04-10" DateLastUpdated="2019-04-17" DateCreated="2018-12-24">
+        <ClinVarSubmissionID localKey="611720.0007_NEURODEVELOPMENTAL DISORDER WITH REGRESSION, ABNORMAL MOVEMENTS, LOSS OF SPEECH, AND SEIZURES" title="IRF2BPL, 2-BP DEL, 2135GT_NEURODEVELOPMENTAL DISORDER WITH REGRESSION, ABNORMAL MOVEMENTS, LOSS OF SPEECH, AND SEIZURES" />
+        <ClinVarAccession Accession="SCV000863958" DateUpdated="2019-04-17" DateCreated="2018-12-24" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5-year-old boy (patient 9) with neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures (NEDAMSS; 618088), Tran Mau-Them et al. (2019) identified a de novo heterozygous 2-bp deletion () in the IRF2BPL gene, resulting in a frameshift and a premature termination codon (Leu713SerfsTer56). The mutation was found by exome sequencing and was not present in the gnomAD database.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30166628</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618088" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IRF2BPL" />
+          </GeneList>
+          <Name>IRF2BPL, 2-BP DEL, 2135GT</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DEL, 2135GT</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="611720.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">NEURODEVELOPMENTAL DISORDER WITH REGRESSION, ABNORMAL MOVEMENTS, LOSS OF SPEECH, AND SEIZURES</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1689396" TraitType="Disease" MappingType="Name" MappingValue="NEURODEVELOPMENTAL DISORDER WITH REGRESSION, ABNORMAL MOVEMENTS, LOSS OF SPEECH, AND SEIZURES" MappingRef="Preferred">
+        <MedGen CUI="C4748127" Name="Neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

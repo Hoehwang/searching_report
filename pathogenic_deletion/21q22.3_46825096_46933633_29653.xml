@@ -1,0 +1,155 @@
+<VariationArchive RecordType="classified" VariationID="29653" VariationName="COL18A1, 2-BP DEL" VariationType="Deletion" Accession="VCV000029653" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2015-05-23" MostRecentSubmission="2015-05-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="38608" VariationID="29653">
+      <GeneList>
+        <Gene Symbol="COL18A1" FullName="collagen type XVIII alpha 1 chain" GeneID="80781" HGNC_ID="HGNC:2195" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>21q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="45405165" stop="45513720" display_start="45405165" display_stop="45513720" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NW_025791815.1" start="22400" stop="130946" display_start="22400" display_stop="130946" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="46825096" stop="46933633" display_start="46825096" display_stop="46933633" Strand="+" />
+          </Location>
+          <OMIM>120328</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>COL18A1, 2-BP DEL</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" forDisplay="true" AssemblyStatus="previous" Chr="21" Accession="NC_000021.7" start="45754433" stop="45754433" display_start="45754433" display_stop="45754433" />
+      </Location>
+      <OtherNameList>
+        <Name>2-BP DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.7" sequenceAccession="NC_000021" sequenceVersion="7" change="g.45754433_NC_000021.7:g.45754434del" Assembly="NCBI36">
+            <Expression>NC_000021.7:g.45754433_NC_000021.7:g.45754434del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="120328.0007" DB="OMIM" />
+        <XRef Type="rs" ID="398122391" DB="dbSNP" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 120328.007 based on the description "Chr21:45,754,433-45,754,434 (NCBI36)".  This location is not consistent with a predicted frameshift of (Leu1587fs).</Comment>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00016" Source="1000 Genomes Project 30x" />
+        <AlleleFrequency Value="0.00028" Source="Trans-Omics for Precision Medicine (TOPMed)" />
+        <AlleleFrequency Value="0.00029" Source="The Genome Aggregation Database (gnomAD)" />
+        <AlleleFrequency Value="0.00030" Source="The Genome Aggregation Database (gnomAD), exomes" />
+        <AlleleFrequency Value="0.00089" Source="Exome Aggregation Consortium (ExAC)" />
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="COL18A1, 2-BP DEL AND Knobloch syndrome" Accession="RCV000022501" Version="29">
+        <ClassifiedConditionList TraitSetID="5644">
+          <ClassifiedCondition DB="MedGen" ID="C1849409">Knobloch syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2011-09-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-09-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-05-23" MostRecentSubmission="2015-05-23">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21937992</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="5644" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5368" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RETINAL DETACHMENT AND OCCIPITAL ENCEPHALOCELE</ElementValue>
+                <XRef Type="MIM" ID="267750" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Knobloch syndrome</ElementValue>
+                <XRef ID="MONDO:0800166" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myopia retinal detachment encephalocele</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">KNO</ElementValue>
+                <XRef Type="MIM" ID="267750" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="380" />
+                <XRef ID="380" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1571" DB="Orphanet" />
+              <XRef ID="C1849409" DB="MedGen" />
+              <XRef ID="MONDO:0800166" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS267750" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="49046" SubmissionDate="2015-05-20" DateLastUpdated="2015-05-23" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="120328.0007_KNOBLOCH SYNDROME 1" title="COL18A1, 2-BP DEL_KNOBLOCH SYNDROME 1" />
+        <ClinVarAccession Accession="SCV000043790" DateUpdated="2015-05-23" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-09-21">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a family (M175) in which first-cousin parents had 5 healthy children and 2 children with Knobloch syndrome (KNO1; 267750), characterized by intellectual disability and retinopathy, Najmabadi et al. (2011) identified a 2-bp deletion at genomic coordinate Chr21:45,754,433-45,754,434 (NCBI36) in the COL18A1 gene, resulting in a frameshift at codon 1587 (Leu1587fs). The mutation was found in homozygosity in affected individuals of the family.</Attribute>
+              <Citation>
+                <ID Source="PubMed">21937992</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="267750" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="COL18A1" />
+          </GeneList>
+          <Name>COL18A1, 2-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="120328.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">KNOBLOCH SYNDROME 1</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="49046" TraitType="Disease" MappingType="Name" MappingValue="KNOBLOCH SYNDROME 1" MappingRef="Preferred">
+        <MedGen CUI="C4551775" Name="Knobloch syndrome 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

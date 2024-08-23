@@ -1,0 +1,206 @@
+<VariationArchive VariationID="1412784" VariationName="NC_000001.10:g.(?_154163642)_(154164494_?)del" VariationType="Deletion" Accession="VCV001412784" Version="8" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1356382" VariationID="1412784">
+      <GeneList>
+        <Gene Symbol="TPM3" FullName="tropomyosin 3" GeneID="7170" HGNC_ID="HGNC:12012" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="154155308" stop="154192100" display_start="154155308" display_stop="154192100" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="154127779" stop="154164608" display_start="154127779" display_stop="154164608" Strand="-" />
+          </Location>
+          <OMIM>191030</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.(?_154163642)_(154164494_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="154163642" innerStop="154164494" display_start="154163642" display_stop="154164494" variantLength="853" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_154163642)_(154164494_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_154163642)_(154164494_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.(?_154163642)_(154164494_?)del AND multiple conditions" Accession="RCV001943283" Version="5">
+        <ClassifiedConditionList TraitSetID="9581">
+          <ClassifiedCondition DB="MedGen" ID="C5829889">Congenital myopathy 4B, autosomal recessive</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0546264">Congenital myopathy with fiber type disproportion</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-01-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-01-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10619715</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27858751</ID>
+        </Citation>
+        <DescriptionHistory Dated="2024-06-08">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9581" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3163" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Congenital myopathy 4B, autosomal recessive</ElementValue>
+                <XRef ID="MONDO:0012239" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy caused by mutation in the tropomyosin 3 gene</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy 1, autosomal dominant or recessive</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMYO4B</ElementValue>
+                <XRef Type="MIM" ID="609284" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15453" />
+                <XRef ID="15453" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2012">
+                <ID Source="PubMed">22510848</ID>
+              </Citation>
+              <XRef ID="171433" DB="Orphanet" />
+              <XRef ID="171439" DB="Orphanet" />
+              <XRef ID="171881" DB="Orphanet" />
+              <XRef ID="C5829889" DB="MedGen" />
+              <XRef ID="MONDO:0012239" DB="MONDO" />
+              <XRef Type="MIM" ID="609284" DB="OMIM" />
+            </Trait>
+            <Trait ID="5593" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Congenital myopathy with fiber type disproportion</ElementValue>
+                <XRef ID="Congenital+Fiber+Type+Disproportion/1827" DB="Genetic Alliance" />
+                <XRef ID="240084007" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital fiber-type disproportion myopathy</ElementValue>
+                <XRef ID="MONDO:0009711" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital Fiber-Type Disproportion</ElementValue>
+                <XRef ID="NBK1259" DB="GeneReviews" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CFTDM</ElementValue>
+                <XRef Type="MIM" ID="255310" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">TPM3-Related Congenital Fiber-Type Disproportion</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">all</Attribute>
+                <XRef ID="GTR000276064" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">SELENON-Related Congenital Fiber-Type Disproportion</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6161" />
+                <XRef ID="6161" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">ACTA1-Related Congenital Fiber-Type Disproportion</Attribute>
+              </AttributeSet>
+              <XRef ID="2020" DB="Orphanet" />
+              <XRef ID="C0546264" DB="MedGen" />
+              <XRef ID="MONDO:0009711" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4198334" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_152263.3_1_Deletion (exons 1-2)|MedGen:C0546264;C1836448" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002180316" DateUpdated="2024-06-09" DateCreated="2022-03-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-01-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27858751</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10619715</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27858751</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. A similar copy number variant has been observed in individual(s) with autosomal recessive nemaline myopathy (PMID: 27858751). This variant is a gross deletion of the genomic region encompassing exon(s) 1-2 of the TPM3 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in TPM3 are known to be pathogenic (PMID: 10619715, 27858751).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TPM3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_154163642)_(154164494_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0546264" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1836448" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4198334" TraitType="Disease" MappingType="XRef" MappingValue="C1836448" MappingRef="MedGen">
+        <MedGen CUI="C5829889" Name="Congenital myopathy 4B, autosomal recessive" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4198334" TraitType="Disease" MappingType="XRef" MappingValue="C0546264" MappingRef="MedGen">
+        <MedGen CUI="C0546264" Name="Congenital myopathy with fiber type disproportion" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

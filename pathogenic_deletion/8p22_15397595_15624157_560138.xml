@@ -1,0 +1,225 @@
+<VariationArchive RecordType="classified" VariationID="560138" VariationName="Single allele" VariationType="Deletion" Accession="VCV000560138" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2018-08-26" MostRecentSubmission="2022-12-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="550854" VariationID="560138">
+      <GeneList>
+        <Gene Symbol="TUSC3" FullName="tumor suppressor candidate 3" GeneID="7991" HGNC_ID="HGNC:30242" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8p22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="15417188" stop="15852091" display_start="15417188" display_stop="15852091" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="15397595" stop="15624157" display_start="15397595" display_stop="15624157" Strand="+" />
+          </Location>
+          <OMIM>601385</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8p22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="15570188" stop="15674295" display_start="15570188" display_stop="15674295" variantLength="104108" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="15427697" stop="15531804" display_start="15427697" display_stop="15531804" variantLength="104108" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.11" sequenceAccession="NC_000008" sequenceVersion="11" change="g.15570188_15674295del" Assembly="GRCh38">
+            <Expression>NC_000008.11:g.15570188_15674295del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.15427697_15531804del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.15427697_15531804del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Intellectual disability, autosomal recessive 7" Accession="RCV000678015" Version="2">
+        <ClassifiedConditionList TraitSetID="2240">
+          <ClassifiedCondition DB="MedGen" ID="C1970197">Intellectual disability, autosomal recessive 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-03-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-03-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-08-26" MostRecentSubmission="2022-12-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18452889</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">18455129</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27148795</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2240" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2851" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL RECESSIVE 7</ElementValue>
+                <XRef Type="MIM" ID="611093" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="601385.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="601385.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="601385.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION, AUTOSOMAL RECESSIVE 22</ElementValue>
+                <XRef Type="MIM" ID="611093" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, autosomal recessive 7</ElementValue>
+                <XRef ID="MONDO:0012615" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRT7</ElementValue>
+                <XRef Type="MIM" ID="611093" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">MRT22</ElementValue>
+                <XRef Type="MIM" ID="611093" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301507</ID>
+                <ID Source="BookShelf">NBK1332</ID>
+              </Citation>
+              <XRef ID="88616" DB="Orphanet" />
+              <XRef ID="C1970197" DB="MedGen" />
+              <XRef ID="MONDO:0012615" DB="MONDO" />
+              <XRef Type="MIM" ID="611093" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1567994" SubmissionDate="2018-04-18" DateLastUpdated="2022-12-11" DateCreated="2018-08-26">
+        <ClinVarSubmissionID localKey="ADMI00256" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000804170" DateUpdated="2022-12-11" DateCreated="2018-08-26" Type="SCV" Version="2" SubmitterName="Geisinger Autism and Developmental Medicine Institute, Geisinger Health System" OrgID="506174" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-03-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27148795</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18455129</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18452889</ID>
+          </Citation>
+          <Comment>This homozygous deletion was identified in a 6 year old male with global developmental delays, short stature, chiari malformation type I, exotropia, and microcephaly. Microarray showed 5-6% homozygosity. Analysis of a maternal sample confirmed she is a heterozygous carrier for this deletion. This deletion includes at least exons 2-6 of TUSC3, which is associated with an autosomal recessive form of intellectual disability. This deletion explains the neurodevelopmental phenotype of this patient.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>provider interpretation</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2015-11-17" integerValue="26957">GeneDx</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Short stature</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004322" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Arnold-Chiari type I malformation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0007099" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Exotropia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000577" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Microcephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000252" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="8" start="15427697" stop="15531804" variantLength="104108" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="611093" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3918644</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Finding" MappingType="Name" MappingValue="Exotropia" MappingRef="Preferred">
+        <MedGen CUI="C0015310" Name="Exotropia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Finding" MappingType="Name" MappingValue="Arnold-Chiari type I malformation" MappingRef="Preferred">
+        <MedGen CUI="C0750929" Name="Chiari type I malformation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Finding" MappingType="Name" MappingValue="Short stature" MappingRef="Preferred">
+        <MedGen CUI="C0349588" Name="Short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Finding" MappingType="Name" MappingValue="Microcephaly" MappingRef="Preferred">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Disease" MappingType="XRef" MappingValue="611093" MappingRef="OMIM">
+        <MedGen CUI="C1970197" Name="Intellectual disability, autosomal recessive 7" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1567994" TraitType="Finding" MappingType="Name" MappingValue="Global developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,191 @@
+<VariationArchive VariationID="2838924" VariationName="NM_012463.4(ATP6V0A2):c.377_378del (p.Ile126fs)" VariationType="Deletion" Accession="VCV002838924" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-29" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3000026" VariationID="2838924">
+      <GeneList>
+        <Gene Symbol="ATP6V0A2" FullName="ATPase H+ transporting V0 subunit a2" GeneID="23545" HGNC_ID="HGNC:18481" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="123712353" stop="123761755" display_start="123712353" display_stop="123761755" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="124196864" stop="124246301" display_start="124196864" display_stop="124246301" Strand="+" />
+          </Location>
+          <OMIM>611716</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_012463.4(ATP6V0A2):c.377_378del (p.Ile126fs)</Name>
+      <CanonicalSPDI>NC_000012.12:123724734:ATA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="123724735" stop="123724736" display_start="123724735" display_stop="123724736" variantLength="2" positionVCF="123724734" referenceAlleleVCF="GAT" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="124209282" stop="124209283" display_start="124209282" display_stop="124209283" variantLength="2" positionVCF="124209281" referenceAlleleVCF="GAT" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>I126fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.124209283_124209284del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.124209283_124209284del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_012463.4" sequenceAccession="NM_012463" sequenceVersion="4" change="c.377_378del" MANESelect="true">
+            <Expression>NM_012463.4:c.377_378del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_036595.2" sequenceAccession="NP_036595" sequenceVersion="2" change="p.Ile126fs">
+            <Expression>NP_036595.2:p.Ile126fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.123724736_123724737del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.123724736_123724737del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012743.1" sequenceAccession="NG_012743" sequenceVersion="1" change="g.17419_17420del">
+            <Expression>NG_012743.1:g.17419_17420del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_012463.4(ATP6V0A2):c.377_378del (p.Ile126fs) AND ALG9 congenital disorder of glycosylation" Accession="RCV003608745" Version="1">
+        <ClassifiedConditionList TraitSetID="1039">
+          <ClassifiedCondition DB="MedGen" ID="C2931006">ALG9 congenital disorder of glycosylation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-02-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-02-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18157129</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19321599</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1039" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4844" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CDG Il</ElementValue>
+                <XRef Type="MIM" ID="608776" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Il</ElementValue>
+                <XRef ID="Congenital+Disorder+of+Glycosylation+Type+1L/1817" DB="Genetic Alliance" />
+                <XRef Type="MIM" ID="608776" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606941.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606941.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606941.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606941.0005" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG 1L</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ALG9-CDG</ElementValue>
+                <XRef ID="79328" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">ALG9 congenital disorder of glycosylation</ElementValue>
+                <XRef ID="720978005" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CDG1L</ElementValue>
+                <XRef Type="MIM" ID="608776" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CDGIl</ElementValue>
+                <XRef Type="MIM" ID="608776" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9839" />
+                <XRef ID="9839" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301507</ID>
+                <ID Source="BookShelf">NBK1332</ID>
+              </Citation>
+              <XRef ID="79328" DB="Orphanet" />
+              <XRef ID="C2931006" DB="MedGen" />
+              <XRef ID="MONDO:0012117" DB="MONDO" />
+              <XRef Type="MIM" ID="608776" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8287871" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2024-02-20">
+        <ClinVarSubmissionID localKey="18390601|MedGen:C1837438" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004501201" DateUpdated="2024-02-20" DateCreated="2024-02-20" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-02-18">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18157129</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19321599</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Ile126Argfs*18) in the ATP6V0A2 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in ATP6V0A2 are known to be pathogenic (PMID: 18157129, 19321599). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with ATP6V0A2-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ATP6V0A2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.124209282_124209283del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1837438" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8287871" TraitType="Disease" MappingType="XRef" MappingValue="C1837438" MappingRef="MedGen">
+        <MedGen CUI="C2931006" Name="ALG9 congenital disorder of glycosylation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

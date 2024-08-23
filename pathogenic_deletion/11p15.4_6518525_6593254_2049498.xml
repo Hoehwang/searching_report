@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="2049498" VariationName="NM_144666.3(DNHD1):c.2260del (p.Gln754fs)" VariationType="Deletion" Accession="VCV002049498" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-02-13" DateCreated="2023-02-08" MostRecentSubmission="2023-02-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2111266" VariationID="2049498">
+      <GeneList>
+        <Gene Symbol="DNHD1" FullName="dynein heavy chain domain 1" GeneID="144132" HGNC_ID="HGNC:26532" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11p15.4</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="6497280" stop="6572020" display_start="6497280" display_stop="6572020" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="6518525" stop="6593254" display_start="6518525" display_stop="6593254" Strand="+" />
+          </Location>
+          <OMIM>617277</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_144666.3(DNHD1):c.2260del (p.Gln754fs)</Name>
+      <CanonicalSPDI>NC_000011.10:6529033:C:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.4</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="6529034" stop="6529034" display_start="6529034" display_stop="6529034" variantLength="1" positionVCF="6529033" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="6550264" stop="6550264" display_start="6550264" display_stop="6550264" variantLength="1" positionVCF="6550263" referenceAlleleVCF="GC" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>Q754fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.6529034del" Assembly="GRCh38">
+            <Expression>NC_000011.10:g.6529034del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.6550264del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.6550264del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_144666.3" sequenceAccession="NM_144666" sequenceVersion="3" change="c.2260del" MANESelect="true">
+            <Expression>NM_144666.3:c.2260del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_653267.2" sequenceAccession="NP_653267" sequenceVersion="2" change="p.Gln754fs">
+            <Expression>NP_653267.2:p.Gln754fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_144666.3(DNHD1):c.2260del (p.Gln754fs) AND not provided" Accession="RCV002937127" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2023-02-07">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">34932939</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5946783" SubmissionDate="2023-01-10" DateLastUpdated="2023-02-07" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="2403568|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003258245" DateUpdated="2023-02-07" DateCreated="2023-02-07" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">34932939</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Gln754Argfs*33) in the DNHD1 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in DNHD1 are known to be pathogenic (PMID: 34932939). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with DNHD1-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DNHD1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.6550264del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5946783" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

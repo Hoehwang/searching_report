@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="978989" VariationName="NM_001029883.3(PCARE):c.1377del (p.Phe459fs)" VariationType="Deletion" Accession="VCV000978989" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-10-03" MostRecentSubmission="2020-10-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="967073" VariationID="978989">
+      <GeneList>
+        <Gene Symbol="PCARE" FullName="photoreceptor cilium actin regulator" GeneID="388939" HGNC_ID="HGNC:34383" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="29061695" stop="29074523" display_start="29061695" display_stop="29074523" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="29284555" stop="29297126" display_start="29284555" display_stop="29297126" Strand="-" />
+          </Location>
+          <OMIM>613425</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001029883.3(PCARE):c.1377del (p.Phe459fs)</Name>
+      <CanonicalSPDI>NC_000002.12:29072884:AAA:AA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p23.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="29072885" stop="29072885" display_start="29072885" display_stop="29072885" variantLength="1" positionVCF="29072884" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="29295751" stop="29295751" display_start="29295751" display_stop="29295751" variantLength="1" positionVCF="29295750" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>F459fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.29295753del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.29295753del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.29072887del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.29072887del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_021427.1" sequenceAccession="NG_021427" sequenceVersion="1" change="g.6377del">
+            <Expression>NG_021427.1:g.6377del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001029883.3" sequenceAccession="NM_001029883" sequenceVersion="3" change="c.1377del" MANESelect="true">
+            <Expression>NM_001029883.3:c.1377del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001025054.1" sequenceAccession="NP_001025054" sequenceVersion="1" change="p.Phe459fs">
+            <Expression>NP_001025054.1:p.Phe459fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1667517587" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001029883.3(PCARE):c.1377del (p.Phe459fs) AND Autosomal recessive retinitis pigmentosa" Accession="RCV001257856" Version="1">
+        <ClassifiedConditionList TraitSetID="3552">
+          <ClassifiedCondition DB="MedGen" ID="C0339526">Autosomal recessive retinitis pigmentosa</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-09-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-09-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-03" MostRecentSubmission="2020-10-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30054919</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3552" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9560" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive retinitis pigmentosa</ElementValue>
+                <XRef ID="232053004" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="C0339526" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2833066" SubmissionDate="2020-09-02" DateLastUpdated="2020-10-03" DateCreated="2020-10-03">
+        <ClinVarSubmissionID localKey="NM_001029883.2:c.1377del|Autosomal recessive Retinitis Pigmentosa" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001434623" DateUpdated="2020-10-03" DateCreated="2020-10-03" Type="SCV" Version="1" SubmitterName="Faculty of Health Sciences, Beirut Arab University" OrgID="507726" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-09-03">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">30054919</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Arab</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="4" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PCARE" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>p.(Phe459Leufs*39)</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001029883.2:c.1377del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Autosomal recessive Retinitis Pigmentosa</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8079118</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2833066" TraitType="Disease" MappingType="Name" MappingValue="Autosomal recessive Retinitis Pigmentosa" MappingRef="Preferred">
+        <MedGen CUI="C0339526" Name="Autosomal recessive retinitis pigmentosa" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

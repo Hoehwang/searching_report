@@ -1,0 +1,137 @@
+<VariationArchive VariationID="636132" VariationName="NM_001142800.1:c.(2023+1_2024-1)_(3443+1_3444-1)del" VariationType="Deletion" Accession="VCV000636132" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2019-07-21" MostRecentSubmission="2023-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="624017" VariationID="636132">
+      <GeneList>
+        <Gene Symbol="EYS" FullName="eyes shut homolog" GeneID="346007" HGNC_ID="HGNC:21555" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>6q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="63719980" stop="65707226" display_start="63719980" display_stop="65707226" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="64429875" stop="66417117" display_start="64429875" display_stop="66417117" Strand="-" />
+          </Location>
+          <OMIM>612424</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001142800.1:c.(2023+1_2024-1)_(3443+1_3444-1)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q12</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001142800.1:c.(2023+1_2024-1)_(3443+1_3444-1)del AND Retinal dystrophy" Accession="RCV000787747" Version="1">
+        <ClassifiedConditionList TraitSetID="12366">
+          <ClassifiedCondition DB="MedGen" ID="C0854723">Retinal dystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-21" MostRecentSubmission="2023-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12366" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18440" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Inherited retinal dystrophy</ElementValue>
+                <XRef ID="MONDO:0019118" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Retinal dystrophy</ElementValue>
+                <XRef ID="HP:0000556" DB="Human Phenotype Ontology" />
+                <XRef ID="314407005" DB="SNOMED CT" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18916" />
+                <XRef ID="18916" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="71862" DB="Orphanet" />
+              <XRef ID="C0854723" DB="MedGen" />
+              <XRef ID="D058499" DB="MeSH" />
+              <XRef ID="MONDO:0019118" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0000556" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007736" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007910" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007974" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007982" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812529" SubmissionDate="2018-12-05" DateLastUpdated="2023-09-03" DateCreated="2019-07-21">
+        <ClinVarSubmissionID localKey="NM_001142800.1:c.(2023+1_2024-1)_(3443+1_3444-1)del|MedGen:C0854723" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926752" DateUpdated="2023-09-03" DateCreated="2019-07-21" Type="SCV" Version="2" SubmitterName="Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet" OrgID="1147" OrganizationCategory="laboratory" OrgAbbreviation="MGL_KC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30718709</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EYS" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001142800.1:c.(2023+1_2024-1)_(3443+1_3444-1)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Retinal dystrophy</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0854723" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <StudyName>VeluxRD</StudyName>
+        <StudyDescription>Investigation of 124 genes associated with retinal dystrophies</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>SUB4878608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812529" TraitType="Disease" MappingType="Name" MappingValue="Retinal dystrophy" MappingRef="Preferred">
+        <MedGen CUI="C0854723" Name="Retinal dystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

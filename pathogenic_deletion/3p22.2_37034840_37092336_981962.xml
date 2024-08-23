@@ -1,0 +1,201 @@
+<VariationArchive RecordType="classified" VariationID="981962" VariationName="NC_000003.12:g.(?_36993349)_(37028933_37040185)del" VariationType="Deletion" Accession="VCV000981962" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-30" DateCreated="2020-10-25" MostRecentSubmission="2020-10-25">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="970068" VariationID="981962">
+      <GeneList>
+        <Gene Symbol="MLH1" FullName="mutL homolog 1" GeneID="4292" HGNC_ID="HGNC:7127" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="36993466" stop="37050846" display_start="36993466" display_stop="37050846" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="37034840" stop="37092336" display_start="37034840" display_stop="37092336" Strand="+" />
+          </Location>
+          <OMIM>120436</OMIM>
+          <Haploinsufficiency last_evaluated="2021-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MLH1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MLH1">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.12:g.(?_36993349)_(37028933_37040185)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3p22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="37034840" innerStop="37070424" outerStop="37081676" display_start="37034840" display_stop="37081676" variantLength="35585" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_37034840)_(37070424_37081676)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_37034840)_(37070424_37081676)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.12:g.(?_36993349)_(37028933_37040185)del AND Hereditary nonpolyposis colon cancer" Accession="RCV001261452" Version="1">
+        <ClassifiedConditionList TraitSetID="53926">
+          <ClassifiedCondition DB="MedGen" ID="C1333990">Hereditary nonpolyposis colon cancer</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-07-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-07-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-25" MostRecentSubmission="2020-10-25">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12658575</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16143124</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21348412</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26681312</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="53926" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="53477" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hereditary nonpolyposis colorectal cancer</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial nonpolyposis colon cancer</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hereditary nonpolyposis colon cancer</ElementValue>
+                <XRef ID="MONDO:0018630" DB="MONDO" />
+                <XRef ID="155018" DB="NCBI for submitter" />
+                <XRef ID="315058005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hereditary Nonpolyposis Colorectal Cancer Syndrome</ElementValue>
+                <XRef ID="C120083" DB="NCI" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HNPCC</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8533" />
+                <XRef ID="8533" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000332533" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520080" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558908" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000596791" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000325623" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530028" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568362" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592450" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568365" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000570011" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2023">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/colon.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Colon Cancer, 2023</CitationText>
+              </Citation>
+              <Citation Type="general" Abbrev="EHTG/ESCP, 2021">
+                <ID Source="PubMed">34043773</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2012">
+                <URL>https://www.acmg.net/PDFLibrary/Colon-Cancer.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics Family History ACT Sheet, Colon Cancer (Asymptomatic), 2012</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2019">
+                <URL>https://www.acmg.net/PDFLibrary/Lynch-Syndrome.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Genomic Testing (Secondary Findings) ACT Sheet, MLH1, MSH2, MSH6, PMS2, EPCAM Pathogenic Variants, Lynch Syndrome (Hereditary Non-polyposis Colon Cancer [HNPCC]), 2019</CitationText>
+              </Citation>
+              <XRef ID="443909" DB="Orphanet" />
+              <XRef ID="C1333990" DB="MedGen" />
+              <XRef ID="MONDO:0018630" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS120435" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2841278" SubmissionDate="2020-10-22" DateLastUpdated="2020-10-25" DateCreated="2020-10-25">
+        <ClinVarSubmissionID localKey="NC_000003.11:g.(?_37034840)_(37070424_37081676)del|MedGen:C1333990" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001438749" DateUpdated="2020-10-25" DateCreated="2020-10-25" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12658575</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21348412</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26681312</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16143124</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 1-13 in the MLH1 gene. A presumed nomenclature of c.(?_-199)_(1558+1_1559-1)del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in a large deletion change in the MLH1 gene, a known mechanism of disease. The variant was absent in 21694 control chromosomes (gnomAD, Structural Variants dataset). Deletion of exons 1-13 has been reported in the literature in individuals affected with Hereditary Nonpolyposis Colorectal Cancer and breast, endometrial and pancreatic cancers (e.g. Baudhuin_2005, Susswein_2016, Wagner_2003). These data indicate that the variant is likely to be associated with disease. Experimental evidence demonstrated lack of MLH1 expression associated with the variant allele (Wagner_2003). A ClinVar submitter (evaluation after 2014) cites the variant as pathogenic. An expert panel (InSiGHT) had also cited the variant as pathogenic in an earlier ClinVar submission (2013). Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MLH1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_37034840)_(37070424_37081676)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Hereditary nonpolyposis colon cancer</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1333990" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8365395</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2841278" TraitType="Disease" MappingType="Name" MappingValue="Hereditary nonpolyposis colon cancer" MappingRef="Preferred">
+        <MedGen CUI="C1333990" Name="Hereditary nonpolyposis colon cancer" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

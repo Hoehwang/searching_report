@@ -1,0 +1,183 @@
+<VariationArchive VariationID="3248269" VariationName="NC_000020.10:g.(?_18491480)_(18535837_?)del" VariationType="Deletion" Accession="VCV003248269" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3407088" VariationID="3248269">
+      <GeneList>
+        <Gene Symbol="SEC23B" FullName="SEC23 homolog B, COPII coat complex component" GeneID="10483" HGNC_ID="HGNC:10702" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>20p11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="18507548" stop="18561415" display_start="18507548" display_stop="18561415" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="18488187" stop="18542058" display_start="18488187" display_stop="18542058" Strand="+" />
+          </Location>
+          <OMIM>610512</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000020.10:g.(?_18491480)_(18535837_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>20p11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" innerStart="18491480" innerStop="18535837" display_start="18491480" display_stop="18535837" variantLength="44358" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.10" sequenceAccession="NC_000020" sequenceVersion="10" change="g.(?_18491480)_(18535837_?)del" Assembly="GRCh37">
+            <Expression>NC_000020.10:g.(?_18491480)_(18535837_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000020.10:g.(?_18491480)_(18535837_?)del AND multiple conditions" Accession="RCV004579441" Version="1">
+        <ClassifiedConditionList TraitSetID="39848">
+          <ClassifiedCondition DB="MedGen" ID="C1306589">Congenital dyserythropoietic anemia, type II</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4225179">Cowden syndrome 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19561605</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25044164</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="39848" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="306" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Dyserythropoietic anemia, congenital type 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDA 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HEMPAS anemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hereditary Erythroblastic Multinuclearity with Positive Acidified-Serum test'</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Congenital dyserythropoietic anemia, type II</ElementValue>
+                <XRef ID="Dyserythropoietic+Anemia%2C+Congenital+Type+2/2376" DB="Genetic Alliance" />
+                <XRef ID="68870007" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CDAN2</ElementValue>
+                <XRef Type="MIM" ID="224100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HEMPAS</ElementValue>
+                <XRef Type="MIM" ID="224100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2001" />
+                <XRef ID="2001" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="98873" DB="Orphanet" />
+              <XRef ID="C1306589" DB="MedGen" />
+              <XRef ID="MONDO:0009134" DB="MONDO" />
+              <XRef Type="MIM" ID="224100" DB="OMIM" />
+            </Trait>
+            <Trait ID="34829" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cowden syndrome 7</ElementValue>
+                <XRef ID="MONDO:0014802" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CWS7</ElementValue>
+                <XRef Type="MIM" ID="616858" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16470" />
+                <XRef ID="16470" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="201" DB="Orphanet" />
+              <XRef ID="C4225179" DB="MedGen" />
+              <XRef ID="MONDO:0014802" DB="MONDO" />
+              <XRef Type="MIM" ID="616858" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9838821" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000020.10:g.(?_18491480)_(18535837_?)del|MedGen:C1306589;C4225179" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005063442" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19561605</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">25044164</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with SEC23B-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2-19 of the SEC23B gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in SEC23B are known to be pathogenic (PMID: 19561605, 25044164).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000020.10:g.(?_18491480)_(18535837_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1306589" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4225179" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9838821" TraitType="Disease" MappingType="XRef" MappingValue="C4225179" MappingRef="MedGen">
+        <MedGen CUI="C4225179" Name="Cowden syndrome 7" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9838821" TraitType="Disease" MappingType="XRef" MappingValue="C1306589" MappingRef="MedGen">
+        <MedGen CUI="C1306589" Name="Congenital dyserythropoietic anemia, type II" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

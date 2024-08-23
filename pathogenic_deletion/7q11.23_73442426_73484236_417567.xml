@@ -1,0 +1,136 @@
+<VariationArchive RecordType="classified" VariationID="417567" VariationName="NC_000007.13:g.(?_73482987)_(73484237_?)del" VariationType="Deletion" Accession="VCV000417567" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-04-17" MostRecentSubmission="2017-04-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="395238" VariationID="417567">
+      <GeneList>
+        <Gene Symbol="ELN" FullName="elastin" GeneID="2006" HGNC_ID="HGNC:3327" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7q11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="74028173" stop="74069907" display_start="74028173" display_stop="74069907" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="73442426" stop="73484236" display_start="73442426" display_stop="73484236" Strand="+" />
+          </Location>
+          <OMIM>130160</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-10" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ELN">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-10" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ELN">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.13:g.(?_73482987)_(73484237_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="73482987" innerStop="73484237" display_start="73482987" display_stop="73484237" variantLength="1251" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_73482987)_(73484237_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_73482987)_(73484237_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.13:g.(?_73482987)_(73484237_?)del AND Supravalvar aortic stenosis" Accession="RCV000470347" Version="1">
+        <ClassifiedConditionList TraitSetID="5484">
+          <ClassifiedCondition DB="MedGen" ID="C0003499">Supravalvar aortic stenosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-12-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-12-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-04-17" MostRecentSubmission="2017-04-17">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="5484" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6013" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Supravalvar aortic stenosis</ElementValue>
+                <XRef ID="Aortic+Supravalvular+Stenosis/538" DB="Genetic Alliance" />
+                <XRef ID="268185002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Supravalvar aortic stenosis, Eisenberg type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SVAS</ElementValue>
+                <XRef Type="MIM" ID="185500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="743" />
+                <XRef ID="743" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="3193" DB="Orphanet" />
+              <XRef ID="C0003499" DB="MedGen" />
+              <XRef ID="MONDO:0008504" DB="MONDO" />
+              <XRef Type="MIM" ID="185500" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0004381" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1076949" SubmissionDate="2017-03-14" DateLastUpdated="2017-04-17" DateCreated="2017-04-17">
+        <ClinVarSubmissionID localKey="732939|MedGen:C0003499" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000564031" DateUpdated="2017-04-17" DateCreated="2017-04-17" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-12-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">This variant is a gross deletion of the genomic region encompassing exon 34 (last exon) of the ELN gene. The 5' boundary is likely confined to intron 33. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated ELN protein. While this particular variant has not been reported in the literature, a truncating variant in exon 34 of the ELN gene has been reported to be deleterious in a family affected with cutis laxa (PMID: 23442826). In summary, this particular variant deletes the last exon of the ELN gene where a truncation has been reported to be deleterious. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ELN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_73482987)_(73484237_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0003499" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2017March_Invitae</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1076949" TraitType="Disease" MappingType="XRef" MappingValue="C0003499" MappingRef="MedGen">
+        <MedGen CUI="C0003499" Name="Supravalvar aortic stenosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

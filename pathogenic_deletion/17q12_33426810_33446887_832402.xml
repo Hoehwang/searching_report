@@ -1,0 +1,138 @@
+<VariationArchive RecordType="classified" VariationID="832402" VariationName="NC_000017.11:g.(?_35106376)_(35107457_?)del" VariationType="Deletion" Accession="VCV000832402" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2020-04-15" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="821038" VariationID="832402">
+      <GeneList>
+        <Gene Symbol="RAD51D" FullName="RAD51 paralog D" GeneID="5892" HGNC_ID="HGNC:9823" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="35092221" stop="35119860" display_start="35092221" display_stop="35119860" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="33426810" stop="33446887" display_start="33426810" display_stop="33446887" Strand="-" />
+          </Location>
+          <OMIM>602954</OMIM>
+          <Haploinsufficiency last_evaluated="2019-10-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51D">Some evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-10-09" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51D">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.11:g.(?_35106376)_(35107457_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="33433395" innerStop="33434476" display_start="33433395" display_stop="33434476" variantLength="1082" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_33433395)_(33434476_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_33433395)_(33434476_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.11:g.(?_35106376)_(35107457_?)del AND Breast-ovarian cancer, familial, susceptibility to, 4" Accession="RCV001032890" Version="2">
+        <ClassifiedConditionList TraitSetID="7625">
+          <ClassifiedCondition DB="MedGen" ID="C3280345">Breast-ovarian cancer, familial, susceptibility to, 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-01-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-01-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21822267</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7625" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16581" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Breast-ovarian cancer, familial 4</ElementValue>
+                <XRef ID="Breast-ovarian+cancer%2C+familial+4/7868" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Breast-ovarian cancer, familial, susceptibility to, 4</ElementValue>
+                <XRef ID="MONDO:0013669" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BROVCA4</ElementValue>
+                <XRef Type="MIM" ID="614291" DB="OMIM" />
+              </Symbol>
+              <XRef ID="145" DB="Orphanet" />
+              <XRef ID="C3280345" DB="MedGen" />
+              <XRef ID="MONDO:0013669" DB="MONDO" />
+              <XRef Type="MIM" ID="614291" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357453" SubmissionDate="2023-03-21" DateLastUpdated="2023-03-26" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_002878.3_Deletion (Exons 4-6)|MedGen:C3280345" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196197" DateUpdated="2023-03-26" DateCreated="2020-04-15" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-01-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">21822267</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 4-6 of the RAD51D gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in RAD51D are known to be pathogenic (PMID: 21822267). A similar copy number variant has been observed in individual(s) with fallopian tube cancer and uterine carcinosarcoma (Invitae). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAD51D" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_33433395)_(33434476_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3280345" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357453" TraitType="Disease" MappingType="XRef" MappingValue="C3280345" MappingRef="MedGen">
+        <MedGen CUI="C3280345" Name="Breast-ovarian cancer, familial, susceptibility to, 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

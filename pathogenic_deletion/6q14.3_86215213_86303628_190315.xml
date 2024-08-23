@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="190315" VariationName="NM_153816.2(SNX14):c.1108+1181_2108-2342del" VariationType="Deletion" Accession="VCV000190315" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-19" DateCreated="2018-07-09" MostRecentSubmission="2018-07-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="188144" VariationID="190315">
+      <GeneList>
+        <Gene Symbol="SNX14" FullName="sorting nexin 14" GeneID="57231" HGNC_ID="HGNC:14977" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>6q14.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="85505496" stop="85593858" display_start="85505496" display_stop="85593858" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="86215213" stop="86303628" display_start="86215213" display_stop="86303628" Strand="-" />
+          </Location>
+          <OMIM>616105</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_153816.2(SNX14):c.1108+1181_2108-2342del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q14.3</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>25.6-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_047171.1" sequenceAccession="NG_047171" sequenceVersion="1" change="g.53226_78767del">
+            <Expression>NG_047171.1:g.53226_78767del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="616105.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_153816.2(SNX14):c.1108+1181_2108-2342del AND Autosomal recessive spinocerebellar ataxia 20" Accession="RCV000170503" Version="4">
+        <ClassifiedConditionList TraitSetID="21506">
+          <ClassifiedCondition DB="MedGen" ID="C5190595">Autosomal recessive spinocerebellar ataxia 20</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2014-11-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2014-11-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-07-09" MostRecentSubmission="2018-07-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25439728</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="21506" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33340" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive spinocerebellar ataxia 20</ElementValue>
+                <XRef ID="MONDO:0014601" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SCAR20</ElementValue>
+                <XRef Type="MIM" ID="616354" DB="OMIM" />
+              </Symbol>
+              <XRef ID="397709" DB="Orphanet" />
+              <XRef ID="C5190595" DB="MedGen" />
+              <XRef ID="MONDO:0014601" DB="MONDO" />
+              <XRef Type="MIM" ID="616354" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="405603" SubmissionDate="2018-07-05" DateLastUpdated="2018-07-09" DateCreated="2015-05-19">
+        <ClinVarSubmissionID localKey="616105.0002_SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 20" title="SNX14, 25.6-KB DEL_SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 20" />
+        <ClinVarAccession Accession="SCV000222935" DateUpdated="2018-07-09" DateCreated="2015-05-19" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-11-06">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 4 affected members of a consanguineous Turkish family with autosomal recessive spinocerebellar ataxia-20 (SCAR20; 616354), Thomas et al. (2014) identified a homozygous 25.6-kb deletion between 2 Alu repeats in intron 12 and intron 21 of the SNX14 gene (c.1108+1181_2108-2342del, NM_153816.2). The mutation resulted in an in-frame deletion predicted to remove 334 residues (Val369_Leu702del) from the full-length protein, including the entire RGS and PX domains. The mutation, which was confirmed by Sanger sequencing, segregated with the disorder in the family. Patient cells showed decreased amounts of SNX14 protein compared to controls, consistent with a loss of function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">25439728</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="616354" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SNX14" />
+          </GeneList>
+          <Name>SNX14, 25.6-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">25.6-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="616105.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 20</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="405603" TraitType="Disease" MappingType="Name" MappingValue="SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 20" MappingRef="Preferred">
+        <MedGen CUI="C5190595" Name="Autosomal recessive spinocerebellar ataxia 20" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,165 @@
+<VariationArchive VariationID="2091633" VariationName="NM_014845.6(FIG4):c.2180+1del" VariationType="Deletion" Accession="VCV002091633" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-20" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2156016" VariationID="2091633">
+      <GeneList>
+        <Gene Symbol="FIG4" FullName="FIG4 phosphoinositide 5-phosphatase" GeneID="9896" HGNC_ID="HGNC:16873" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="109691296" stop="109825426" display_start="109691296" display_stop="109825426" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="110012423" stop="110146633" display_start="110012423" display_stop="110146633" Strand="+" />
+          </Location>
+          <OMIM>609390</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_014845.6(FIG4):c.2180+1del</Name>
+      <CanonicalSPDI>NC_000006.12:109789674:GGGG:GGG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="109789675" stop="109789675" display_start="109789675" display_stop="109789675" variantLength="1" positionVCF="109789674" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="110110878" stop="110110878" display_start="110110878" display_stop="110110878" variantLength="1" positionVCF="110110877" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+      </Location>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007977.1" sequenceAccession="NG_007977" sequenceVersion="1" change="g.103458del">
+            <Expression>NG_007977.1:g.103458del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_014845.6" sequenceAccession="NM_014845" sequenceVersion="6" change="c.2180+1del" MANESelect="true">
+            <Expression>NM_014845.6:c.2180+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.110110881del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.110110881del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.109789678del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.109789678del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_241" sequenceAccession="LRG_241">
+            <Expression>LRG_241:g.103458del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_014845.6(FIG4):c.2180+1del AND Charcot-Marie-Tooth disease type 4" Accession="RCV003015697" Version="2">
+        <ClassifiedConditionList TraitSetID="12261">
+          <ClassifiedCondition DB="MedGen" ID="C4082197">Charcot-Marie-Tooth disease type 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23623387</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12261" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9469" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Charcot-Marie-Tooth disease type 4</ElementValue>
+                <XRef ID="MONDO:0018995" DB="MONDO" />
+                <XRef ID="715795005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Charcot-Marie-Tooth, Type 4</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CMT4</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12440" />
+                <XRef ID="12440" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301532</ID>
+                <ID Source="BookShelf">NBK1358</ID>
+              </Citation>
+              <XRef ID="64749" DB="Orphanet" />
+              <XRef ID="C4082197" DB="MedGen" />
+              <XRef ID="MONDO:0018995" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="6003525" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="15732015|MedGen:CN043578" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003308062" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23623387</ID>
+          </Citation>
+          <Comment>This variant is not present in population databases (gnomAD no frequency). For these reasons, this variant has been classified as Pathogenic. Algorithms developed to predict the effect of sequence changes on RNA splicing suggest that this variant may disrupt the consensus splice site. This variant has not been reported in the literature in individuals affected with FIG4-related conditions. This sequence change creates a premature translational stop signal (p.Gly727Glufs*53) in the FIG4 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in FIG4 are known to be pathogenic (PMID: 23623387).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FIG4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.110110878del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN043578" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="6003525" TraitType="Disease" MappingType="XRef" MappingValue="CN043578" MappingRef="MedGen">
+        <MedGen CUI="C4082197" Name="Charcot-Marie-Tooth disease type 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,136 @@
+<VariationArchive RecordType="classified" VariationID="666999" VariationName="NC_000009.12:g.(?_72648590)_(72648670_?)del" VariationType="Deletion" Accession="VCV000666999" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2019-08-26" MostRecentSubmission="2019-08-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="654978" VariationID="666999">
+      <GeneList>
+        <Gene Symbol="TMC1" FullName="transmembrane channel like 1" GeneID="117531" HGNC_ID="HGNC:16513" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q21.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="72521608" stop="72838297" display_start="72521608" display_stop="72838297" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="75136716" stop="75451266" display_start="75136716" display_stop="75451266" Strand="+" />
+          </Location>
+          <OMIM>606706</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.12:g.(?_72648590)_(72648670_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q21.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="75263506" innerStop="75263586" display_start="75263506" display_stop="75263586" variantLength="81" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_75263506)_(75263586_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_75263506)_(75263586_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.12:g.(?_72648590)_(72648670_?)del AND Rare genetic deafness" Accession="RCV000825575" Version="4">
+        <ClassifiedConditionList TraitSetID="40993">
+          <ClassifiedCondition DB="MedGen" ID="C5680250">Rare genetic deafness</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-10-31" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-10-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-26" MostRecentSubmission="2019-08-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11850618</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="40993" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38576" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rare genetic deafness</ElementValue>
+                <XRef ID="96210" DB="Orphanet" />
+              </Name>
+              <XRef ID="96210" DB="Orphanet" />
+              <XRef ID="C5680250" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1894703" SubmissionDate="2019-03-21" DateLastUpdated="2019-08-26" DateCreated="2019-08-26">
+        <ClinVarSubmissionID localKey="92103346|Orphanet:ORPHA96210" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000966909" DateUpdated="2019-08-26" DateCreated="2019-08-26" Type="SCV" Version="1" SubmitterName="Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine" OrgID="21766" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-10-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">11850618</ID>
+          </Citation>
+          <Comment>This deletion encompasses exon 5 of the TMC1 gene; however it should be noted th at exact breakpoints cannot be determined due to technical limitations of the as say. The TMC1 gene contains 24 exons, and the first 4 exons are non-coding. A su ch, exon 5 is the first coding exon of this gene. A similar deletion encompassin g exons 4-5 has been previously reported in the homozygous state in 1 individual with hearing loss, and segregated in an affected sibling (Kurima 2002). In addi tion, several deletions affecting TMC1 are reported in ClinVar, including a dele tion encompassing exons 2-18 (ClinVar variation ID 253561). There are 6 chromoso mes harboring deletions of this exon in ExAC, including 4/32850 European chromos omes, and a deletion of this exon has been also reported in 1/2504 samples in th e Database of Genomic Variants (DGV Variant esv3620645). The deletion impacts ex on 5 is first coding exon and is expected to result in absence of protein expres sion. In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive nonsyndromic sensorineural hearing loss. ACMG/AMP criteria applied: PVS1, PM3, PM2_Supporting.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LMM Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">24033266</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMC1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_138691.2:EXON 5</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>NM_138691.2:c.(?_-52-7)_(16+6_?)del</Name>
+            <Name>p.?</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_75263506)_(75263586_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA96210" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5348959</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1894703" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA96210" MappingRef="Orphanet">
+        <MedGen CUI="C5680250" Name="Rare genetic deafness" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

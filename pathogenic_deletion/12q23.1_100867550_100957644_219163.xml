@@ -1,0 +1,282 @@
+<VariationArchive RecordType="classified" VariationID="219163" VariationName="NG_029843.1:g.23704_55438del" VariationType="Deletion" Accession="VCV000219163" Version="2" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2023-06-17" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="217182" VariationID="219163">
+      <GeneList>
+        <Gene Symbol="NR1H4" FullName="nuclear receptor subfamily 1 group H member 4" GeneID="9971" HGNC_ID="HGNC:7967" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="100473866" stop="100564414" display_start="100473866" display_stop="100564414" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="100867550" stop="100957644" display_start="100867550" display_stop="100957644" Strand="+" />
+          </Location>
+          <OMIM>603826</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_029843.1:g.23704_55438del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="100492476" stop="100524210" display_start="100492476" display_stop="100524210" variantLength="31735" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="100886254" stop="100917988" display_start="100886254" display_stop="100917988" variantLength="31735" />
+      </Location>
+      <OtherNameList>
+        <Name>31.7-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.100886254_100917988del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.100886254_100917988del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.100492476_100524210del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.100492476_100524210del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029843.1" sequenceAccession="NG_029843" sequenceVersion="1" change="g.23704_55438del">
+            <Expression>NG_029843.1:g.23704_55438del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603826.0003" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided HGVS expressions for allelic variant 603826.0003 based on the sequence across the breakpoint reported in Figure 2 of the paper by Gomez-Ospina et al., 2016 (PubMed 26888176).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_029843.1:g.23704_55438del AND Progressive familial intrahepatic cholestasis type 1" Accession="RCV000240814" Version="1">
+        <ClassifiedConditionList TraitSetID="1973">
+          <ClassifiedCondition DB="MedGen" ID="C4551898">Progressive familial intrahepatic cholestasis type 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2015-12-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NG_029843.1:g.23704_55438del AND Cholestasis, progressive familial intrahepatic, 5" Accession="RCV003231403" Version="1">
+        <ClassifiedConditionList TraitSetID="31470">
+          <ClassifiedCondition DB="MedGen" ID="C4310747">Cholestasis, progressive familial intrahepatic, 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2016-07-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-12-17" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">26888176</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="31470" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="35843" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cholestasis, progressive familial intrahepatic, 5</ElementValue>
+                <XRef ID="MONDO:0014884" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PFIC5</ElementValue>
+                <XRef Type="MIM" ID="617049" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">36108118</ID>
+                <ID Source="BookShelf">NBK584020</ID>
+              </Citation>
+              <XRef ID="480476" DB="Orphanet" />
+              <XRef ID="C4310747" DB="MedGen" />
+              <XRef ID="MONDO:0014884" DB="MONDO" />
+              <XRef Type="MIM" ID="617049" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1973" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="795" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Progressive familial intrahepatic cholestasis type 1</ElementValue>
+                <XRef ID="MONDO:0008892" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Byler's disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Byler disease</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PFIC1</ElementValue>
+                <XRef Type="MIM" ID="211600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9802" />
+                <XRef ID="9802" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">The phenotypic spectrum of ATP8B1 deficiency ranges from severe through moderate to mild. Severe ATP8B1 deficiency is characterized by infantile-onset cholestasis that progresses to cirrhosis, hepatic failure, and early death. Although mild-to-moderate ATP8B1 deficiency initially was thought to involve intermittent symptomatic cholestasis with a lack of hepatic fibrosis, it is now known that hepatic fibrosis may be present early in the disease course. Furthermore, in some persons with ATP8B1 deficiency the clinical findings can span the phenotypic spectrum, shifting over time from the mild end of the spectrum (episodic cholestasis) to the severe end of the spectrum (persistent cholestasis). Sensorineural hearing loss (SNHL) is common across the phenotypic spectrum.</Attribute>
+                <XRef ID="NBK1297" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301474</ID>
+                <ID Source="BookShelf">NBK1297</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">36108118</ID>
+                <ID Source="BookShelf">NBK584020</ID>
+              </Citation>
+              <XRef ID="79306" DB="Orphanet" />
+              <XRef ID="C4551898" DB="MedGen" />
+              <XRef ID="MONDO:0008892" DB="MONDO" />
+              <XRef Type="MIM" ID="211600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="576465" SubmissionDate="2016-07-27" DateLastUpdated="2016-08-22" DateCreated="2016-08-22">
+        <ClinVarSubmissionID localKey="603826.0003_CHOLESTASIS, PROGRESSIVE FAMILIAL INTRAHEPATIC, 5" title="NR1H4, 31.7-KB DEL_CHOLESTASIS, PROGRESSIVE FAMILIAL INTRAHEPATIC, 5" />
+        <ClinVarAccession Accession="SCV000297938" DateUpdated="2016-08-22" DateCreated="2016-08-22" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-07-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 31.7-kb deletion within the NR1H4 gene that was found in compound heterozygous state in 2 sibs with progressive familial intrahepatic cholestasis-5 (PFIC5; 617049) by Gomez-Ospina et al. (2016), see 603826.0002.</Attribute>
+              <Citation>
+                <ID Source="PubMed">26888176</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617049" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NR1H4" />
+          </GeneList>
+          <Name>NR1H4, 31.7-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">31.7-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603826.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CHOLESTASIS, PROGRESSIVE FAMILIAL INTRAHEPATIC, 5</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="483615" SubmissionDate="2015-12-22" DateLastUpdated="2016-09-17" DateCreated="2016-09-17">
+        <ClinVarSubmissionID localKey="chr12:100886253" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV000258399" DateUpdated="2016-09-17" DateCreated="2016-09-17" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-12-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">26888176</ID>
+          </Citation>
+          <Comment>This variant was found in compound heterozygous status with another pathogenic insertion variant in two affected members of a Caucasian family</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">26888176</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">3</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>mixed</Gender>
+              <FamilyData NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-gen sequencing; Sanger sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NR1H4" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" start="100886254" stop="100917988" variantLength="31735" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0268312" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">26888176</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26888176</ID>
+        </Citation>
+        <StudyDescription>establishing pathogenicity of NR1H4 variants</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>NR1H4_variants</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="576465" TraitType="Disease" MappingType="Name" MappingValue="CHOLESTASIS, PROGRESSIVE FAMILIAL INTRAHEPATIC, 5" MappingRef="Preferred">
+        <MedGen CUI="C4310747" Name="Cholestasis, progressive familial intrahepatic, 5" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="483615" TraitType="Disease" MappingType="XRef" MappingValue="C0268312" MappingRef="MedGen">
+        <MedGen CUI="C0268312" Name="Progressive familial intrahepatic cholestasis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

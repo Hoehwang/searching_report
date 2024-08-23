@@ -1,0 +1,188 @@
+<VariationArchive RecordType="classified" VariationID="831103" VariationName="NC_000006.12:g.(?_162201121)_(162201262_?)del" VariationType="Deletion" Accession="VCV000831103" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819677" VariationID="831103">
+      <GeneList>
+        <Gene Symbol="PRKN" FullName="parkin RBR E3 ubiquitin protein ligase" GeneID="5071" HGNC_ID="HGNC:8607" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q26</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="161347417" stop="162727766" display_start="161347417" display_stop="162727766" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="161768589" stop="163148833" display_start="161768589" display_stop="163148833" Strand="-" />
+          </Location>
+          <OMIM>602544</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.(?_162201121)_(162201262_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q26</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="162622153" innerStop="162622294" display_start="162622153" display_stop="162622294" variantLength="142" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_162622153)_(162622294_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_162622153)_(162622294_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.(?_162201121)_(162201262_?)del AND not provided" Accession="RCV001031690" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10072423</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">10824074</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">10939576</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">15254940</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21993715</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22956510</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27182553</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9560156</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9851438</ID>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301651</ID>
+          <ID Source="BookShelf">NBK1478</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356250" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5021259|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194996" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">10072423</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21993715</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9560156</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10824074</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20301651</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22956510</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27182553</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">9851438</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10939576</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">15254940</ID>
+          </Citation>
+          <Comment>This variant is an out-of-frame deletion of the genomic region encompassing exon 4 of the PARK2 gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. Similar deletions of exon 4 have been observed to be homozygous or on the opposite chromosome (in trans) from other pathogenic variants in individuals and families affected with early-onset Parkinson s disease (PMID: 9560156, 9851438, 10824074, 10939576, 15254940, 21993715, 27182553), and have also been observed to segregate with disease in affected families (PMID: 9560156, 10939576, 15254940, 21993715). This finding is consistent with autosomal recessive inheritance, and suggests that this variant contributes to disease. Loss-of-function variants in PARK2 are known to be pathogenic (PMID: 10072423, 20301651, 22956510). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRKN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_162622153)_(162622294_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356250" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

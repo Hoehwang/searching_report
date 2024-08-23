@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="1779" VariationName="NM_000102.4(CYP17A1):c.353_359dup (p.His120fs)" VariationType="Duplication" Accession="VCV000001779" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="16818" VariationID="1779">
+      <GeneList>
+        <Gene Symbol="CYP17A1" FullName="cytochrome P450 family 17 subfamily A member 1" GeneID="1586" HGNC_ID="HGNC:2593" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q24.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="102830531" stop="102837413" display_start="102830531" display_stop="102837413" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="104590287" stop="104597289" display_start="104590287" display_stop="104597289" Strand="-" />
+          </Location>
+          <OMIM>609300</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000102.4(CYP17A1):c.353_359dup (p.His120fs)</Name>
+      <CanonicalSPDI>NC_000010.11:102835330:TGTGCGC:TGTGCGCTGTGCGC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>10q24.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="102835330" stop="102835331" display_start="102835330" display_stop="102835331" variantLength="7" positionVCF="102835330" referenceAlleleVCF="G" alternateAlleleVCF="GTGTGCGC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="104595087" stop="104595088" display_start="104595087" display_stop="104595088" variantLength="7" positionVCF="104595087" referenceAlleleVCF="G" alternateAlleleVCF="GTGTGCGC" />
+      </Location>
+      <ProteinChange>H120fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.102835331_102835337dup" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.102835331_102835337dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.104595088_104595094dup" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.104595088_104595094dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000102.4" sequenceAccession="NM_000102" sequenceVersion="4" change="c.353_359dup" MANESelect="true">
+            <Expression>NM_000102.4:c.353_359dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000093.1" sequenceAccession="NP_000093" sequenceVersion="1" change="p.His120fs">
+            <Expression>NP_000093.1:p.His120fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007955.1" sequenceAccession="NG_007955" sequenceVersion="1" change="g.7197_7203dup">
+            <Expression>NG_007955.1:g.7197_7203dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="609300.0003" DB="OMIM" />
+        <XRef Type="rs" ID="1844147475" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000102.4(CYP17A1):c.353_359dup (p.His120fs) AND 17-alpha-hydroxylase/17,20-lyase deficiency, combined complete" Accession="RCV000001851" Version="2">
+        <ClassifiedConditionList TraitSetID="457">
+          <ClassifiedCondition DB="MedGen" ID="CN042980">17-alpha-hydroxylase/17,20-lyase deficiency, combined complete</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1990-05-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1990-05-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2013-04-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">2335573</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="457" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8871" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">17-alpha-hydroxylase/17,20-lyase deficiency, combined complete</ElementValue>
+                <XRef ID="MONDO:0800379" DB="MONDO" />
+              </Name>
+              <XRef ID="CN042980" DB="MedGen" />
+              <XRef ID="MONDO:0800379" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="22007" SubmissionDate="2013-04-19" DateLastUpdated="2013-04-04" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="609300.0003_17-@ALPHA-HYDROXYLASE/17,20-LYASE DEFICIENCY, COMBINED COMPLETE" title="CYP17A1, 7-BP DUP, EX2_17-@ALPHA-HYDROXYLASE/17,20-LYASE DEFICIENCY, COMBINED COMPLETE" />
+        <ClinVarAccession Accession="SCV000022007" DateUpdated="2013-04-04" DateCreated="2013-04-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1990-05-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a Japanese child, born of consanguineous parents, with combined 17-alpha-hydroxylase/17,20-lyase deficiency (202110), Yanase et al. (1990) identified a 7-bp duplication (GCGCACA) in exon 2 of the CYP17A1 gene, resulting in a frameshift and premature stop codon N-terminal to the heme-binding sequence. The patient was genotypically male (46,XY), but phenotypically female. The mutation led to the absence of a functional protein in the adrenal cortex and testis. This lack of protein led to an absence of sex steroids, resulting in female external genitalia, and excessive secretion of steroids with mineralocorticoid activity, resulting in hypertension.</Attribute>
+              <Citation>
+                <ID Source="PubMed">2335573</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="202110" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CYP17A1" />
+          </GeneList>
+          <Name>CYP17A1, 7-BP DUP, EX2</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">7-BP DUP, EX2</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609300.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">17-@ALPHA-HYDROXYLASE/17,20-LYASE DEFICIENCY, COMBINED COMPLETE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

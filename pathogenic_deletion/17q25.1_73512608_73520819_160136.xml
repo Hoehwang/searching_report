@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="160136" VariationName="NM_207346.3(TSEN54):c.575_576del (p.His192fs)" VariationType="Deletion" Accession="VCV000160136" Version="6" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2014-11-23" MostRecentSubmission="2014-11-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="169404" VariationID="160136">
+      <GeneList>
+        <Gene Symbol="TSEN54" FullName="tRNA splicing endonuclease subunit 54" GeneID="283989" HGNC_ID="HGNC:27561" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75516528" stop="75524735" display_start="75516528" display_stop="75524735" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73512608" stop="73520819" display_start="73512608" display_stop="73520819" Strand="+" />
+          </Location>
+          <OMIM>608755</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_207346.3(TSEN54):c.575_576del (p.His192fs)</Name>
+      <CanonicalSPDI>NC_000017.11:75521460:CAC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75521461" stop="75521462" display_start="75521461" display_stop="75521462" variantLength="2" positionVCF="75521460" referenceAlleleVCF="GCA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73517542" stop="73517543" display_start="73517542" display_stop="73517543" variantLength="2" positionVCF="73517541" referenceAlleleVCF="GCA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>H192fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.73517543_73517544del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.73517543_73517544del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.75521462_75521463del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.75521462_75521463del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_013041.1" sequenceAccession="NG_013041" sequenceVersion="1" change="g.9935_9936del">
+            <Expression>NG_013041.1:g.9935_9936del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_207346.3" sequenceAccession="NM_207346" sequenceVersion="3" change="c.575_576del" MANESelect="true">
+            <Expression>NM_207346.3:c.575_576del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_997229.2" sequenceAccession="NP_997229" sequenceVersion="2" change="p.His192fs">
+            <Expression>NP_997229.2:p.His192fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA173737" DB="ClinGen" />
+        <XRef Type="rs" ID="587784479" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_207346.3(TSEN54):c.575_576del (p.His192fs) AND Olivopontocerebellar hypoplasia" Accession="RCV000147787" Version="6">
+        <ClassifiedConditionList TraitSetID="20143">
+          <ClassifiedCondition DB="MedGen" ID="C1859341">Olivopontocerebellar hypoplasia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2013-01-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2013-01-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2014-11-23" MostRecentSubmission="2014-11-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20143" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="25920" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Olivopontocerebellar hypoplasia</ElementValue>
+                <XRef ID="HP:0006955" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C1859341" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0006955" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007168" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="343094" SubmissionDate="2014-09-11" DateLastUpdated="2014-11-23" DateCreated="2014-11-23">
+        <ClinVarSubmissionID localKey="NM_207346.2(TSEN54):c.575_576del" />
+        <ClinVarAccession Accession="SCV000195258" DateUpdated="2014-11-23" DateCreated="2014-11-23" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2013-01-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2007</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">18414213</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TSEN54" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" start="73517543" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_207346.2:c.575_576del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <Name>
+              <ElementValue Type="Preferred">olivopontocerebellar hypoplasia</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1859341" Type="CUI" />
+            <XRef DB="HP" ID="HP:0006955" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="343094" TraitType="Finding" MappingType="Name" MappingValue="olivopontocerebellar hypoplasia" MappingRef="Preferred">
+        <MedGen CUI="C1859341" Name="Olivopontocerebellar hypoplasia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

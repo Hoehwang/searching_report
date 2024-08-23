@@ -1,0 +1,139 @@
+<VariationArchive RecordType="classified" VariationID="636144" VariationName="NM_000350.2:c.(6816+1_6817-1)_(*1_?)del" VariationType="Deletion" Accession="VCV000636144" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-03" DateCreated="2019-07-21" MostRecentSubmission="2023-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="624029" VariationID="636144">
+      <GeneList>
+        <Gene Symbol="ABCA4" FullName="ATP binding cassette subfamily A member 4" GeneID="24" HGNC_ID="HGNC:34" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>1p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="93992834" stop="94121148" display_start="93992834" display_stop="94121148" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="94458392" stop="94586704" display_start="94458392" display_stop="94586704" Strand="-" />
+          </Location>
+          <OMIM>601691</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000350.2:c.(6816+1_6817-1)_(*1_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p22.1</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000350.2:c.(6816+1_6817-1)_(*1_?)del AND Stargardt disease" Accession="RCV000787759" Version="1">
+        <ClassifiedConditionList TraitSetID="2147">
+          <ClassifiedCondition DB="MedGen" ID="C0271093">Stargardt disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-21" MostRecentSubmission="2023-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2147" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8691" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Fundus flavimaculatus</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Stargardt's disease</ElementValue>
+                <XRef ID="Stargardt+disease/6861" DB="Genetic Alliance" />
+                <XRef ID="70099003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Stargardt disease</ElementValue>
+                <XRef ID="MONDO:0019353" DB="MONDO" />
+                <XRef ID="827" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FFM</ElementValue>
+                <XRef ID="248200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="181" />
+                <XRef ID="181" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="827" DB="Orphanet" />
+              <XRef ID="C0271093" DB="MedGen" />
+              <XRef ID="MONDO:0019353" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812541" SubmissionDate="2018-12-05" DateLastUpdated="2023-09-03" DateCreated="2019-07-21">
+        <ClinVarSubmissionID localKey="NM_000350.2:c.(6816+1_6817-1)_(*1_?)del|MedGen:C0271093" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926764" DateUpdated="2023-09-03" DateCreated="2019-07-21" Type="SCV" Version="2" SubmitterName="Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet" OrgID="1147" OrganizationCategory="laboratory" OrgAbbreviation="MGL_KC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-04-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30718709</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ABCA4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000350.2:c.(6816+1_6817-1)_(*1_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Stargardt disease</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0271093" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30718709</ID>
+        </Citation>
+        <StudyName>VeluxRD</StudyName>
+        <StudyDescription>Investigation of 124 genes associated with retinal dystrophies</StudyDescription>
+        <SubmissionNameList>
+          <SubmissionName>SUB4878608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812541" TraitType="Disease" MappingType="Name" MappingValue="Stargardt disease" MappingRef="Preferred">
+        <MedGen CUI="C0271093" Name="Stargardt disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

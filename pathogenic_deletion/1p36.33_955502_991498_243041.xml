@@ -1,0 +1,125 @@
+<VariationArchive RecordType="classified" VariationID="243041" VariationName="1p36.33 deletion (0.48 Mb)" VariationType="Deletion" Accession="VCV000243041" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2016-07-19" MostRecentSubmission="2016-07-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="244122" VariationID="243041">
+      <GeneList>
+        <Gene Symbol="AGRN" FullName="agrin" GeneID="375790" HGNC_ID="HGNC:329" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>1p36.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="1020120" stop="1056116" display_start="1020120" display_stop="1056116" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="955502" stop="991498" display_start="955502" display_stop="991498" Strand="+" />
+          </Location>
+          <OMIM>103320</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>1p36.33 deletion (0.48 Mb)</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.33</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="1p36.33 deletion (0.48 Mb) AND Congenital myasthenic syndrome" Accession="RCV000235031" Version="1">
+        <ClassifiedConditionList TraitSetID="9634">
+          <ClassifiedCondition DB="MedGen" ID="C0751882">Congenital myasthenic syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2016-07-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-07-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-07-19" MostRecentSubmission="2016-07-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24951643</ID>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301347</ID>
+          <ID Source="BookShelf">NBK1168</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9634" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9474" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Congenital myasthenic syndrome</ElementValue>
+                <XRef ID="MONDO:0018940" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMS</ElementValue>
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301347</ID>
+                <ID Source="BookShelf">NBK1168</ID>
+              </Citation>
+              <XRef ID="590" DB="Orphanet" />
+              <XRef ID="C0751882" DB="MedGen" />
+              <XRef ID="D020294" DB="MeSH" />
+              <XRef ID="MONDO:0018940" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS601462" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="557925" SubmissionDate="2016-07-14" DateLastUpdated="2016-07-19" DateCreated="2016-07-19">
+        <ClinVarSubmissionID localKey="0.48-Mb deletion|MedGen:C0751882" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV000292413" DateUpdated="2016-07-19" DateCreated="2016-07-19" Type="SCV" Version="1" SubmitterName="GeneReviews" OrgID="500062" OrganizationCategory="resource" OrgAbbreviation="GeneReviews" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-07-14">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24951643</ID>
+          </Citation>
+          <Citation>
+            <URL>http://www.ncbi.nlm.nih.gov/books/NBK1168/</URL>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="AGRN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">0.48-Mb deletion</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0751882" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Comment Type="public">0.48-Mb deletion encompassing all of AGRN</Comment>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="557925" TraitType="Disease" MappingType="XRef" MappingValue="C0751882" MappingRef="MedGen">
+        <MedGen CUI="C0751882" Name="Congenital myasthenic syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

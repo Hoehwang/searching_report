@@ -1,0 +1,173 @@
+<VariationArchive RecordType="classified" VariationID="2431547" VariationName="NC_000016.10:g.(28485964_28486930)del" VariationType="Deletion" Accession="VCV002431547" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2405051" VariationID="2431547">
+      <GeneList>
+        <Gene Symbol="CLN3" FullName="CLN3 lysosomal/endosomal transmembrane protein, battenin" GeneID="1201" HGNC_ID="HGNC:2074" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16p12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="28466653" stop="28492082" display_start="28466653" display_stop="28492082" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="28488599" stop="28503622" display_start="28488599" display_stop="28503622" Strand="-" />
+          </Location>
+          <OMIM>607042</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.10:g.(28485964_28486930)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.(28485964_28486930)del" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.(28485964_28486930)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.10:g.(28485964_28486930)del AND Neuronal ceroid lipofuscinosis 3" Accession="RCV003140601" Version="1">
+        <ClassifiedConditionList TraitSetID="926">
+          <ClassifiedCondition DB="MedGen" ID="C0751383">Neuronal ceroid lipofuscinosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="926" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="768" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Spielmeyer Sjogren disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neuronal ceroid lipofuscinosis 3</ElementValue>
+                <XRef ID="MONDO:0008767" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CLN3 Disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CLN3-Related Neuronal Ceroid-Lipofuscinosis</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CLN3</ElementValue>
+                <XRef Type="MIM" ID="204200" DB="OMIM" />
+              </Symbol>
+              <XRef ID="228346" DB="Orphanet" />
+              <XRef ID="C0751383" DB="MedGen" />
+              <XRef ID="MONDO:0008767" DB="MONDO" />
+              <XRef Type="MIM" ID="204200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7113589" SubmissionDate="2023-03-01" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey="1d4d98f0e9ed66056c7b7060dad4b7bf" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003807521" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <Description>Paired-end whole-genome sequencing</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000618" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0007256" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002133" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000648" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002059" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002069" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLN3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.10:g.(28485964_28486930)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="204200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12925816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002069" MappingRef="HP">
+        <MedGen CUI="C0494475" Name="Generalized tonic-clonic seizures" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000618" MappingRef="HP">
+        <MedGen CUI="C0456909" Name="Blindness" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002059" MappingRef="HP">
+        <MedGen CUI="C0235946" Name="Cerebral atrophy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0007256" MappingRef="HP">
+        <MedGen CUI="C0234132" Name="Abnormal pyramidal sign" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000648" MappingRef="HP">
+        <MedGen CUI="C0029124" Name="Optic atrophy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Disease" MappingType="XRef" MappingValue="204200" MappingRef="OMIM">
+        <MedGen CUI="C0751383" Name="Neuronal ceroid lipofuscinosis 3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113589" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002133" MappingRef="HP">
+        <MedGen CUI="C0038220" Name="Status epilepticus" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

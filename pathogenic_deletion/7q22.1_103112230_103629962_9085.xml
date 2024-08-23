@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="9085" VariationName="NM_005045.4:c.6524_6671del" VariationType="Deletion" Accession="VCV000009085" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-30" DateCreated="2013-04-04" MostRecentSubmission="2021-10-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="24124" VariationID="9085">
+      <GeneList>
+        <Gene Symbol="RELN" FullName="reelin" GeneID="5649" HGNC_ID="HGNC:9957" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>7q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="103471789" stop="103989658" display_start="103471789" display_stop="103989658" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="103112230" stop="103629962" display_start="103112230" display_stop="103629962" Strand="-" />
+          </Location>
+          <OMIM>600514</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005045.4:c.6524_6671del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22</CytogeneticLocation>
+      </Location>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005045.4" sequenceAccession="NM_005045" sequenceVersion="4" change="c.6524_6671del" MANESelect="true">
+            <Expression>NM_005045.4:c.6524_6671del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="600514.0002" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">Hong et al., 2000 (PubMed 10973257) defined this exon deletion only in the cDNA.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005045.4:c.6524_6671del AND Norman-Roberts syndrome" Accession="RCV000009653" Version="3">
+        <ClassifiedConditionList TraitSetID="2501">
+          <ClassifiedCondition DB="MedGen" ID="C0796089">Norman-Roberts syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2000-09-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2000-09-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-04-04" MostRecentSubmission="2021-10-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10973257</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">7682675</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2501" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2697" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Lissencephaly 2</ElementValue>
+                <XRef ID="Lissencephaly+2/4270" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Lissencephaly 2 (Norman-Roberts type)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Lissencephaly syndrome Norman-Roberts type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Norman-Roberts syndrome</ElementValue>
+                <XRef ID="MONDO:0009760" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LIS2</ElementValue>
+                <XRef Type="MIM" ID="257320" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3277" />
+                <XRef ID="3277" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="89844" DB="Orphanet" />
+              <XRef ID="C0796089" DB="MedGen" />
+              <XRef ID="MONDO:0009760" DB="MONDO" />
+              <XRef Type="MIM" ID="257320" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="29871" SubmissionDate="2021-10-14" DateLastUpdated="2021-10-16" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="600514.0002_LISSENCEPHALY 2" title="RELN, 148-BP DEL_LISSENCEPHALY 2" />
+        <ClinVarAccession Accession="SCV000029871" DateUpdated="2021-10-16" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2000-09-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a British family in which the parents were related as half first cousins, Hong et al. (2000) identified a homozygous 148-bp deletion in the RELN gene, corresponding to the removal of exon 42 (EX42DEL), in 3 brothers, including a set of identical twins, with lissencephaly-2 (LIS2; 257320). The family had previously been reported by Hourihane et al. (1993). At birth, the children showed normal head size, congenital lymphedema, and hypotonia. Brain MRI showed moderate lissencephaly and profound cerebellar hypoplasia. Cognitive development was delayed for all affected children, with little or no language and no ability to sit or stand unsupported. There was also myopia, nystagmus, and generalized seizures that could be controlled with medication. In 1 brother, muscle biopsy showed evidence of abnormal neuromuscular connectivity. One brother showed accumulation of chylous (that is, fatty) ascites fluid that required peritoneal shunting.</Attribute>
+              <Citation>
+                <ID Source="PubMed">10973257</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">7682675</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="257320" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RELN" />
+          </GeneList>
+          <Name>RELN, 148-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">148-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="600514.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">LISSENCEPHALY 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="29871" TraitType="Disease" MappingType="Name" MappingValue="LISSENCEPHALY 2" MappingRef="Preferred">
+        <MedGen CUI="C0796089" Name="Norman-Roberts syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

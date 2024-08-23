@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="627578" VariationName="NM_152513.4(MEI1):c.2206del (p.Val736fs)" VariationType="Deletion" Accession="VCV000627578" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-05-19" MostRecentSubmission="2019-05-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="615933" VariationID="627578">
+      <GeneList>
+        <Gene Symbol="MEI1" FullName="meiotic double-stranded break formation protein 1" GeneID="150365" HGNC_ID="HGNC:28613" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="41699503" stop="41799454" display_start="41699503" display_stop="41799454" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="42095517" stop="42195458" display_start="42095517" display_stop="42195458" Strand="+" />
+          </Location>
+          <OMIM>608797</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_152513.4(MEI1):c.2206del (p.Val736fs)</Name>
+      <CanonicalSPDI>NC_000022.11:41763257:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="41763258" stop="41763258" display_start="41763258" display_stop="41763258" variantLength="1" positionVCF="41763257" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="42159262" stop="42159262" display_start="42159262" display_stop="42159262" variantLength="1" positionVCF="42159261" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>V736fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.42159263del" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.42159263del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.41763259del" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.41763259del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_152513.4" sequenceAccession="NM_152513" sequenceVersion="4" change="c.2206del" MANESelect="true">
+            <Expression>NM_152513.4:c.2206del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_689726.3" sequenceAccession="NP_689726" sequenceVersion="3" change="p.Val736fs">
+            <Expression>NP_689726.3:p.Val736fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608797.0003" DB="OMIM" />
+        <XRef Type="rs" ID="759915989" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_152513.4(MEI1):c.2206del (p.Val736fs) AND Hydatidiform mole, recurrent, 3" Accession="RCV000770968" Version="2">
+        <ClassifiedConditionList TraitSetID="47242">
+          <ClassifiedCondition DB="MedGen" ID="C5193093">Hydatidiform mole, recurrent, 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-05-19" MostRecentSubmission="2019-05-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <CitationText>Hamosh, A. Personal Communication. 2019. Baltimore, Md.</CitationText>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30388401</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="47242" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41646" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hydatidiform mole, recurrent, 3</ElementValue>
+                <XRef ID="MONDO:0032746" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HYDM3</ElementValue>
+                <XRef Type="MIM" ID="618431" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193093" DB="MedGen" />
+              <XRef ID="MONDO:0032746" DB="MONDO" />
+              <XRef Type="MIM" ID="618431" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1770339" SubmissionDate="2019-05-15" DateLastUpdated="2019-05-19" DateCreated="2019-05-19">
+        <ClinVarSubmissionID localKey="608797.0003_HYDATIDIFORM MOLE, RECURRENT, 3" title="MEI1, 1-BP DEL, NT2206 (rs759915989)_HYDATIDIFORM MOLE, RECURRENT, 3" />
+        <ClinVarAccession Accession="SCV000902460" DateUpdated="2019-05-19" DateCreated="2019-05-19" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of a 1-bp deletion (c.2206del, NM_152513.3) in exon 19 of the MEI1 gene, resulting in frameshift and premature termination (Val736SerfsTer31), that was found in compound heterozygous state in a patient (proband 880) with complete hydatidiform mole (HYDM3; 618431) by Nguyen et al. (2018), see 608797.0002.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30388401</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618431" Type="MIM" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Hamosh (2019) noted that the Val736SerfsTer31 variant was present in 7 of 249,210 alleles in the gnomAD database, never in homozygosity (May 14, 2019).</Attribute>
+              <Citation>
+                <CitationText>Hamosh, A. Personal Communication. 2019. Baltimore, Md.</CitationText>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MEI1" />
+          </GeneList>
+          <Name>MEI1, 1-BP DEL, NT2206 (rs759915989)</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, NT2206 (rs759915989)</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608797.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HYDATIDIFORM MOLE, RECURRENT, 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1770339" TraitType="Disease" MappingType="Name" MappingValue="HYDATIDIFORM MOLE, RECURRENT, 3" MappingRef="Preferred">
+        <MedGen CUI="C5193093" Name="Hydatidiform mole, recurrent, 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

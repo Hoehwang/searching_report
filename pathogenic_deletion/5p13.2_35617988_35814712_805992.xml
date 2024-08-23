@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="805992" VariationName="NM_024867.4(SPEF2):c.3240del (p.Phe1080fs)" VariationType="Deletion" Accession="VCV000805992" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-02-03" MostRecentSubmission="2020-02-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="794328" VariationID="805992">
+      <GeneList>
+        <Gene Symbol="SPEF2" FullName="sperm flagellar 2" GeneID="79925" HGNC_ID="HGNC:26293" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="35617863" stop="35814611" display_start="35617863" display_stop="35814611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="35617988" stop="35814712" display_start="35617988" display_stop="35814712" Strand="+" />
+          </Location>
+          <OMIM>610172</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_024867.4(SPEF2):c.3240del (p.Phe1080fs)</Name>
+      <CanonicalSPDI>NC_000005.10:35740173:TTTT:TTT</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="35740174" stop="35740174" display_start="35740174" display_stop="35740174" variantLength="1" positionVCF="35740173" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="35740276" stop="35740276" display_start="35740276" display_stop="35740276" variantLength="1" positionVCF="35740275" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>F1080fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.35740177del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.35740177del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.35740279del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.35740279del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024867.4" sequenceAccession="NM_024867" sequenceVersion="4" change="c.3240del" MANESelect="true">
+            <Expression>NM_024867.4:c.3240del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_079143.3" sequenceAccession="NP_079143" sequenceVersion="3" change="p.Phe1080fs">
+            <Expression>NP_079143.3:p.Phe1080fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="610172.0007" DB="OMIM" />
+        <XRef Type="rs" ID="1580529760" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_024867.4(SPEF2):c.3240del (p.Phe1080fs) AND Spermatogenic failure 43" Accession="RCV000993865" Version="1">
+        <ClassifiedConditionList TraitSetID="52110">
+          <ClassifiedCondition DB="MedGen" ID="C5231490">Spermatogenic failure 43</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-03" MostRecentSubmission="2020-02-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31048344</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="52110" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="43448" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spermatogenic failure 43</ElementValue>
+                <XRef ID="MONDO:0032898" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPGF43</ElementValue>
+                <XRef Type="MIM" ID="618751" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5231490" DB="MedGen" />
+              <XRef ID="MONDO:0032898" DB="MONDO" />
+              <XRef Type="MIM" ID="618751" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2265186" SubmissionDate="2020-01-27" DateLastUpdated="2020-02-03" DateCreated="2020-02-03">
+        <ClinVarSubmissionID localKey="610172.0007_SPERMATOGENIC FAILURE 43" title="SPEF2, 1-BP DEL, 3240T_SPERMATOGENIC FAILURE 43" />
+        <ClinVarAccession Accession="SCV001147023" DateUpdated="2020-02-03" DateCreated="2020-02-03" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In an infertile Iranian man with multiple morphologic abnormalities of the flagella (SPGF43; 618751), Liu et al. (2020) identified homozygosity for a 1-bp deletion (c.3240delT) in the SPEF2 gene, causing a frameshift predicted to result in a premature termination codon (Phe1080LeufsTer2) with loss of the IFT20-binding domain. The proband had a deceased brother who was designated as affected, but his mutation status was not reported. The mutation was not found in the 1000 Genomes Project, ExAC, or gnomAD databases.</Attribute>
+              <Citation>
+                <ID Source="PubMed">31048344</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618751" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPEF2" />
+          </GeneList>
+          <Name>SPEF2, 1-BP DEL, 3240T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 3240T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="610172.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPERMATOGENIC FAILURE 43</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2265186" TraitType="Disease" MappingType="Name" MappingValue="SPERMATOGENIC FAILURE 43" MappingRef="Preferred">
+        <MedGen CUI="C5231490" Name="Spermatogenic failure 43" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

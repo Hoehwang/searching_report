@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="1460111" VariationName="NC_000016.9:g.(?_29825620)_(29825969_?)del" VariationType="Deletion" Accession="VCV001460111" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1481468" VariationID="1460111">
+      <GeneList>
+        <Gene Symbol="PRRT2" FullName="proline rich transmembrane protein 2" GeneID="112476" HGNC_ID="HGNC:30500" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="29812193" stop="29815881" display_start="29812193" display_stop="29815881" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="29823408" stop="29827201" display_start="29823408" display_stop="29827201" Strand="+" />
+          </Location>
+          <OMIM>614386</OMIM>
+          <Haploinsufficiency last_evaluated="2021-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PRRT2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PRRT2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.9:g.(?_29825620)_(29825969_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="29825620" innerStop="29825969" display_start="29825620" display_stop="29825969" variantLength="350" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_29825620)_(29825969_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_29825620)_(29825969_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.9:g.(?_29825620)_(29825969_?)del AND Episodic kinesigenic dyskinesia" Accession="RCV001963238" Version="1">
+        <ClassifiedConditionList TraitSetID="44946">
+          <ClassifiedCondition DB="MedGen" ID="C1868682">Episodic kinesigenic dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2022-03-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">2131349</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23496026</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24609974</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24886244</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="44946" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36813" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial paroxysmal dystonia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Episodic kinesigenic dyskinesia</ElementValue>
+                <XRef ID="MONDO:0044202" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS128200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Paroxysmal kinesigenic dyskinesia</ElementValue>
+                <XRef ID="98809" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EKD</ElementValue>
+                <XRef ID="MONDO:0044202" DB="MONDO" />
+              </Symbol>
+              <XRef ID="98809" DB="Orphanet" />
+              <XRef ID="C1868682" DB="MedGen" />
+              <XRef ID="MONDO:0044202" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS128200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4258381" SubmissionDate="2022-03-23" DateLastUpdated="2022-03-28" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_145239.2_16_Deletion (exons 3-4)|MedGen:C1868682" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002246696" DateUpdated="2022-03-28" DateCreated="2022-03-28" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">2131349</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23496026</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24609974</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24886244</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 3-4 of the PRRT2 gene, which includes the termination codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. While this deletion is not anticipated to lead to nonsense mediated decay, it is expected to alter mRNA translation or result in a truncated protein product. This variant has not been reported in the literature in individuals affected with PRRT2-related conditions. This variant disrupts a region of the PRRT2 protein in which other variant(s) (p.Ile327Met) have been determined to be pathogenic (PMID: 2131349, 23496026, 24609974, 24886244). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRRT2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_29825620)_(29825969_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1868682" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4258381" TraitType="Disease" MappingType="XRef" MappingValue="C1868682" MappingRef="MedGen">
+        <MedGen CUI="C1868682" Name="Episodic kinesigenic dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

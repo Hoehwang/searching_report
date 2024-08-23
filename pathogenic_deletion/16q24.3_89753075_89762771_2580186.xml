@@ -1,0 +1,120 @@
+<VariationArchive RecordType="classified" VariationID="2580186" VariationName="NM_052988.4:c.(87+1_88-1)_(232+1_233-1)del" VariationType="Deletion" Accession="VCV002580186" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-23" DateCreated="2023-09-23" MostRecentSubmission="2023-09-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2747733" VariationID="2580186">
+      <GeneList>
+        <Gene Symbol="CDK10" FullName="cyclin dependent kinase 10" GeneID="8558" HGNC_ID="HGNC:1770" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="89686689" stop="89696354" display_start="89686689" display_stop="89696354" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="89753075" stop="89762771" display_start="89753075" display_stop="89762771" Strand="+" />
+          </Location>
+          <OMIM>603464</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_052988.4:c.(87+1_88-1)_(232+1_233-1)del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_052988.4:c.(87+1_88-1)_(232+1_233-1)del AND Al Kaissi syndrome" Accession="RCV003329151" Version="1">
+        <ClassifiedConditionList TraitSetID="37373">
+          <ClassifiedCondition DB="MedGen" ID="C4540156">Al Kaissi syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-23" MostRecentSubmission="2023-09-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37373" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38146" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Al Kaissi syndrome</ElementValue>
+                <XRef ID="MONDO:0044324" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">GROWTH RETARDATION, SPINE MALFORMATION, DYSMORPHIC FACIES, AND DEVELOPMENTAL DELAY</ElementValue>
+                <XRef Type="MIM" ID="617694" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ALKAS</ElementValue>
+                <XRef Type="MIM" ID="617694" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4540156" DB="MedGen" />
+              <XRef ID="MONDO:0044324" DB="MONDO" />
+              <XRef Type="MIM" ID="617694" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7553240" SubmissionDate="2023-09-21" DateLastUpdated="2023-09-23" DateCreated="2023-09-23">
+        <ClinVarSubmissionID localKey="CDK10_Var4|OMIM:617694" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004035934" DateUpdated="2023-09-23" DateCreated="2023-09-23" Type="SCV" Version="1" SubmitterName="Laboratory of Medical Genetics (UMR_S 1112), INSERM/Strasbourg University" OrgID="506574" OrganizationCategory="laboratory" OrgAbbreviation="LGM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>biparental</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="2" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CDK10" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_052988.4:c.(87+1_88-1)_(232+1_233-1)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617694" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13855003</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7553240" TraitType="Disease" MappingType="XRef" MappingValue="617694" MappingRef="OMIM">
+        <MedGen CUI="C4540156" Name="Al Kaissi syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

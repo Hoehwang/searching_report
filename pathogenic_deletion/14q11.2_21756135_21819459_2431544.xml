@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="2431544" VariationName="NC_000014.9:g.(21329937_21330486)del" VariationType="Deletion" Accession="VCV002431544" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2405048" VariationID="2431544">
+      <GeneList>
+        <Gene Symbol="RPGRIP1" FullName="RPGR interacting protein 1" GeneID="57096" HGNC_ID="HGNC:13436" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>14q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="21280083" stop="21351301" display_start="21280083" display_stop="21351301" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="21756135" stop="21819459" display_start="21756135" display_stop="21819459" Strand="+" />
+          </Location>
+          <OMIM>605446</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000014.9:g.(21329937_21330486)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.(21329937_21330486)del" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.(21329937_21330486)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000014.9:g.(21329937_21330486)del AND Cone-rod dystrophy 13" Accession="RCV003140598" Version="1">
+        <ClassifiedConditionList TraitSetID="1369">
+          <ClassifiedCondition DB="MedGen" ID="C2750720">Cone-rod dystrophy 13</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-11-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-11-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1369" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="996" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cone-rod dystrophy 13</ElementValue>
+                <XRef ID="Cone-rod+dystrophy+13/8041" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0011987" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CORD13</ElementValue>
+                <XRef Type="MIM" ID="608194" DB="OMIM" />
+              </Symbol>
+              <XRef ID="1872" DB="Orphanet" />
+              <XRef ID="C2750720" DB="MedGen" />
+              <XRef ID="MONDO:0011987" DB="MONDO" />
+              <XRef Type="MIM" ID="608194" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7113585" SubmissionDate="2023-03-01" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey="1cf78c1793cb84b8ed388133283464be" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003807517" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-11-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <Description>Paired-end whole-genome sequencing</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001513" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000256" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004324" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000639" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001562" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RPGRIP1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000014.9:g.(21329937_21330486)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608194" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12925816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001562" MappingRef="HP">
+        <MedGen CUI="C0079924" Name="Oligohydramnios" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000639" MappingRef="HP">
+        <MedGen CUI="C0028738" Name="Nystagmus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001513" MappingRef="HP">
+        <MedGen CUI="C0028754" Name="Obesity" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Disease" MappingType="XRef" MappingValue="608194" MappingRef="OMIM">
+        <MedGen CUI="C2750720" Name="Cone-rod dystrophy 13" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004324" MappingRef="HP">
+        <MedGen CUI="C0043094" Name="Increased body weight" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113585" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000256" MappingRef="HP">
+        <MedGen CUI="C2243051" Name="Macrocephaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

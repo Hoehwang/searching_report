@@ -1,0 +1,189 @@
+<VariationArchive VariationID="3233916" VariationName="NC_000010.10:g.(89712017_89717609)_(89731688_?)del" VariationType="Deletion" Accession="VCV003233916" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-05-08" MostRecentSubmission="2024-07-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3393039" VariationID="3233916">
+      <GeneList>
+        <Gene Symbol="PTEN" FullName="phosphatase and tensin homolog" GeneID="5728" HGNC_ID="HGNC:9588" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q23.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="87863625" stop="87971930" display_start="87863625" display_stop="87971930" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NW_013171807.1" start="79449" stop="187719" display_start="79449" display_stop="187719" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="89623194" stop="89728531" display_start="89623194" display_stop="89728531" Strand="+" />
+          </Location>
+          <OMIM>601728</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTEN">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTEN">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(89712017_89717609)_(89731688_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" outerStart="89712017" innerStart="89717609" innerStop="89731688" display_start="89712017" display_stop="89731688" variantLength="19672" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(89712017_89717609)_(89731688_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(89712017_89717609)_(89731688_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(89712017_89717609)_(89731688_?)del AND Cowden syndrome" Accession="RCV004527196" Version="2">
+        <ClassifiedConditionList TraitSetID="22041">
+          <ClassifiedCondition DB="MedGen" ID="C0018553">Cowden syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-03-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-03-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-05-08" MostRecentSubmission="2024-07-07">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="22041" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33122" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cowden syndrome</ElementValue>
+                <XRef ID="Cowden+Syndrome/1947" DB="Genetic Alliance" />
+                <XRef ID="58037000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cowden's disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cowden's syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cowden disease</ElementValue>
+                <XRef ID="MONDO:0016063" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cowden</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CD</ElementValue>
+                <XRef Type="MIM" ID="158350" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CS</ElementValue>
+                <XRef Type="MIM" ID="158350" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="274">gain of function</Attribute>
+                <XRef ID="GTR000557801" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552107" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000515803" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530118" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530120" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520394" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552245" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000512190" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558905" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520069" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6202" />
+                <XRef ID="6202" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23519317</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NCCN, 2014">
+                <ID Source="PubMed">25190698</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Skin Cancer">
+                <ID Source="PubMed">26389333</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Genetics of Colorectal Cancer">
+                <ID Source="PubMed">26389505</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Breast and Gynecologic Cancers">
+                <ID Source="PubMed">26389210</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <XRef ID="201" DB="Orphanet" />
+              <XRef ID="C0018553" DB="MedGen" />
+              <XRef ID="MONDO:0016063" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS158350" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9757890" SubmissionDate="2024-06-29" DateLastUpdated="2024-07-07" DateCreated="2024-05-07">
+        <ClinVarSubmissionID localKey="NC_000010.10:g.(89712017_89717609)_(89731688_?)del|MedGen:C0018553" />
+        <ClinVarAccession Accession="SCV005039887" DateUpdated="2024-07-07" DateCreated="2024-05-07" Type="SCV" Version="2" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-03-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Variant summary: The variant involves the deletion of exons 7-9 in the PTEN gene. A presumed nomenclature of c.(634+1_635-1)_(*6459_?)del has been designated for the purposes of this classification. The exact breakpoint at the distal 3' end of this variant is unknown, therefore this deletion may extend downstream of the annotated region of the gene. As it encompasses the termination codon, it is predicted to escape nonsense mediated decay (NMD). The variant was absent in 21694 control chromosomes (gnomAD Structural Variants Dataset). To our knowledge, no occurrence of c.(634+1_635-1)_(*6459_?)del in individuals affected with Cowden Syndrome and no experimental evidence demonstrating its impact on protein function have been reported. However, in the deleted region several missense changes and truncations which are expected to avoid NMD have been classified as pathogenic by our laboratory, indicating the functional importance of the deleted region. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PTEN" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(89712017_89717609)_(89731688_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0018553" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>clinvar-submission.2024-03.anno.csv</SubmissionName>
+          <SubmissionName>clinvar-submission.2024-03.csv</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9757890" TraitType="Disease" MappingType="XRef" MappingValue="C0018553" MappingRef="MedGen">
+        <MedGen CUI="C0018553" Name="Cowden syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

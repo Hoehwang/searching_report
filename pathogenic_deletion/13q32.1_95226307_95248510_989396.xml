@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="989396" VariationName="Single allele" VariationType="Deletion" Accession="VCV000989396" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-12-24" MostRecentSubmission="2020-12-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="977323" VariationID="989396">
+      <GeneList>
+        <Gene Symbol="TGDS" FullName="TDP-glucose 4,6-dehydratase" GeneID="23483" HGNC_ID="HGNC:20324" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>13q32.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="94574054" stop="94596273" display_start="94574054" display_stop="94596273" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="95226307" stop="95248510" display_start="95226307" display_stop="95248510" Strand="-" />
+          </Location>
+          <OMIM>616146</OMIM>
+        </Gene>
+        <Gene Symbol="GPR180" FullName="G protein-coupled receptor 180" GeneID="160897" HGNC_ID="HGNC:28899" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>13q32.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="94601857" stop="94634661" display_start="94601857" display_stop="94634661" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="95254103" stop="95286898" display_start="95254103" display_stop="95286898" Strand="+" />
+          </Location>
+          <OMIM>607787</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>13q32.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="95209609" stop="95292265" display_start="95209609" display_stop="95292265" variantLength="82657" alternateAllele="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000013.10" sequenceAccession="NC_000013" sequenceVersion="10" change="g.95209609_95292265del" Assembly="GRCh37">
+            <Expression>NC_000013.10:g.95209609_95292265del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Congenital miosis" Accession="RCV001270921" Version="1">
+        <ClassifiedConditionList TraitSetID="64836">
+          <ClassifiedCondition DB="MedGen" ID="C1303009">Congenital miosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-12-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-12-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-12-24" MostRecentSubmission="2020-12-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="64836" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2941" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Microcoria, congenital</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Congenital miosis</ElementValue>
+                <XRef ID="HP:0007728" DB="Human Phenotype Ontology" />
+                <XRef ID="400962005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pinhole pupils</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHROMOSOME 13q32 DELETION SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="156600" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MCOR</ElementValue>
+                <XRef Type="MIM" ID="156600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3635" />
+                <XRef ID="3635" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="566" DB="Orphanet" />
+              <XRef ID="C1303009" DB="MedGen" />
+              <XRef ID="MONDO:0007989" DB="MONDO" />
+              <XRef Type="MIM" ID="156600" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0007728" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2866785" SubmissionDate="2020-12-21" DateLastUpdated="2020-12-24" DateCreated="2020-12-24">
+        <ClinVarSubmissionID localKey=":Chr.13_95209609_95292265_-_Deletion|OMIM:156600" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001451705" DateUpdated="2020-12-24" DateCreated="2020-12-24" Type="SCV" Version="1" SubmitterName="Institute of Medical Molecular Genetics, University of Zurich" OrgID="300471" OrganizationCategory="laboratory" OrgAbbreviation="Medmolgen" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-12-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Gerth-Kahlert C et al. (Ophthalmol Glaucoma 2018)</Attribute>
+          <Citation>
+            <ID Source="PubMed">32672565</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">PCR</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Congenital microcoria without goniodysgenesis</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="13" alternateAllele="-" start="95209609" stop="95292265" variantLength="82657" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="156600" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32672565</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB8765141</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2866785" TraitType="Finding" MappingType="Name" MappingValue="Congenital microcoria without goniodysgenesis" MappingRef="Preferred">
+        <MedGen CUI="None" Name="Congenital microcoria without goniodysgenesis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2866785" TraitType="Disease" MappingType="XRef" MappingValue="156600" MappingRef="OMIM">
+        <MedGen CUI="C1303009" Name="Congenital miosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

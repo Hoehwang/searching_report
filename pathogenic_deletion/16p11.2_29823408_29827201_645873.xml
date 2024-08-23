@@ -1,0 +1,172 @@
+<VariationArchive RecordType="classified" VariationID="645873" VariationName="NC_000016.10:g.(?_29813045)_(29814648_?)del" VariationType="Deletion" Accession="VCV000645873" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="652624" VariationID="645873">
+      <GeneList>
+        <Gene Symbol="MVP-DT" FullName="MVP divergent transcript" GeneID="112268170" HGNC_ID="HGNC:56029" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>16p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="29808644" stop="29820367" display_start="29808644" display_stop="29820367" Strand="-" />
+          </Location>
+        </Gene>
+        <Gene Symbol="PRRT2" FullName="proline rich transmembrane protein 2" GeneID="112476" HGNC_ID="HGNC:30500" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>16p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="29812193" stop="29815881" display_start="29812193" display_stop="29815881" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="29823408" stop="29827201" display_start="29823408" display_stop="29827201" Strand="+" />
+          </Location>
+          <OMIM>614386</OMIM>
+          <Haploinsufficiency last_evaluated="2021-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PRRT2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-12-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PRRT2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.10:g.(?_29813045)_(29814648_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" innerStart="29813045" innerStop="29814648" display_start="29813045" display_stop="29814648" variantLength="1604" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="29824366" innerStop="29825969" display_start="29824366" display_stop="29825969" variantLength="1604" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.(?_29813045)_(29814648_?)del" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.(?_29813045)_(29814648_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_29824366)_(29825969_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_29824366)_(29825969_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.10:g.(?_29813045)_(29814648_?)del AND Episodic kinesigenic dyskinesia" Accession="RCV000800041" Version="2">
+        <ClassifiedConditionList TraitSetID="44946">
+          <ClassifiedCondition DB="MedGen" ID="C1868682">Episodic kinesigenic dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22515636</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23363396</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24811917</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="44946" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36813" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial paroxysmal dystonia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Episodic kinesigenic dyskinesia</ElementValue>
+                <XRef ID="MONDO:0044202" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS128200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Paroxysmal kinesigenic dyskinesia</ElementValue>
+                <XRef ID="98809" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EKD</ElementValue>
+                <XRef ID="MONDO:0044202" DB="MONDO" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8721" />
+                <XRef ID="8721" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="98809" DB="Orphanet" />
+              <XRef ID="C1868682" DB="MedGen" />
+              <XRef ID="MONDO:0044202" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS128200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1833641" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="5181925|MedGen:C1868682" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000939738" DateUpdated="2020-04-09" DateCreated="2019-08-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22515636</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23363396</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24811917</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the PRRT2 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. Loss-of-function variants in PRRT2 are known to be pathogenic. This particular deletion has been reported in the literature in individuals affected with paroxysmal kinesigenic dyskinesia, infantile convulsions with paroxysmal choreoathetosis syndrome, and/or epilepsy (PMID: 22515636, 23363396, 24811917). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRRT2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_29824366)_(29825969_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Paroxysmal kinesigenic dyskinesia</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1868682" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1833641" TraitType="Disease" MappingType="Name" MappingValue="Paroxysmal kinesigenic dyskinesia" MappingRef="Preferred">
+        <MedGen CUI="C1868682" Name="Episodic kinesigenic dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

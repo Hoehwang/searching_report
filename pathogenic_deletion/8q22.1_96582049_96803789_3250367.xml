@@ -1,0 +1,134 @@
+<VariationArchive VariationID="3250367" VariationName="NC_000008.10:g.96582049_96803789del" VariationType="Deletion" Accession="VCV003250367" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2024-07-07" MostRecentSubmission="2024-07-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3409170" VariationID="3250367">
+      <Name>NC_000008.10:g.96582049_96803789del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="96582049" stop="96803789" display_start="96582049" display_stop="96803789" variantLength="221741" />
+      </Location>
+      <OtherNameList>
+        <Name>seq[GRCh37] del(8)(q22.1(96,582,048)::q22.1(96,803,789))</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.96582049_96803789del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.96582049_96803789del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.10:g.96582049_96803789del AND Hearing loss, autosomal recessive 118, with cochlear aplasia" Accession="RCV004584586" Version="1">
+        <ClassifiedConditionList TraitSetID="98192">
+          <ClassifiedCondition DB="MedGen" ID="C5561996">Hearing loss, autosomal recessive 118, with cochlear aplasia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-07-07" MostRecentSubmission="2024-07-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32369452</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="98192" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57470" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hearing loss, autosomal recessive 118, with cochlear aplasia</ElementValue>
+                <XRef ID="MONDO:0030449" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Deafness, autosomal recessive 118, with cochlear aplasia</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DFNB118</ElementValue>
+                <XRef Type="MIM" ID="619553" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5561996" DB="MedGen" />
+              <XRef ID="MONDO:0030449" DB="MONDO" />
+              <XRef Type="MIM" ID="619553" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9850956" SubmissionDate="2024-07-04" DateLastUpdated="2024-07-07" DateCreated="2024-07-07">
+        <ClinVarSubmissionID localKey="SUB14584852" submittedAssembly="GRCh37" title="SUB14584852" />
+        <ClinVarAccession Accession="SCV005073668" DateUpdated="2024-07-07" DateCreated="2024-07-07" Type="SCV" Version="1" SubmitterName="ClinVar Staff, National Center for Biotechnology Information (NCBI)" OrgID="500139" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32369452</ID>
+          </Citation>
+          <Comment>There were 2 affected first cousins in a Turkish family with consanguinity (family 1) "In this study we show that homozygous deletions removing putative enhancers of GDF6 lead to nonsyndromic HL associated with cochlear aplasia" (Bademci et al. , 2020; PubMed 32369452).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Turkey</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="7" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="5" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>seq[GRCh37] del(8)(q22.1(96,582,048)::q22.1(96,803,789))</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.96582049_96803789del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619553" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14584852</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9850956" TraitType="Disease" MappingType="XRef" MappingValue="619553" MappingRef="OMIM">
+        <MedGen CUI="C5561996" Name="Hearing loss, autosomal recessive 118, with cochlear aplasia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

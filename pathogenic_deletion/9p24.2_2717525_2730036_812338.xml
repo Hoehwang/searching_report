@@ -1,0 +1,136 @@
+<VariationArchive RecordType="classified" VariationID="812338" VariationName="NM_133497.4(KCNV2):c.411_414del (p.Leu138fs)" VariationType="Deletion" Accession="VCV000812338" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-02-16" MostRecentSubmission="2020-02-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="800545" VariationID="812338">
+      <GeneList>
+        <Gene Symbol="KCNV2" FullName="potassium voltage-gated channel modifier subfamily V member 2" GeneID="169522" HGNC_ID="HGNC:19698" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="2717510" stop="2730037" display_start="2717510" display_stop="2730037" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="2717525" stop="2730036" display_start="2717525" display_stop="2730036" Strand="+" />
+          </Location>
+          <OMIM>607604</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_133497.4(KCNV2):c.411_414del (p.Leu138fs)</Name>
+      <CanonicalSPDI>NC_000009.12:2718148:GCCTG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9p24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="2718149" stop="2718152" display_start="2718149" display_stop="2718152" variantLength="4" positionVCF="2718148" referenceAlleleVCF="AGCCT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="2718149" stop="2718152" display_start="2718149" display_stop="2718152" variantLength="4" positionVCF="2718148" referenceAlleleVCF="AGCCT" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>L138fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.2718150_2718153del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.2718150_2718153del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.2718150_2718153del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.2718150_2718153del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012181.1" sequenceAccession="NG_012181" sequenceVersion="1" change="g.5625_5628del">
+            <Expression>NG_012181.1:g.5625_5628del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_133497.4" sequenceAccession="NM_133497" sequenceVersion="4" change="c.411_414del" MANESelect="true">
+            <Expression>NM_133497.4:c.411_414del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_598004.1" sequenceAccession="NP_598004" sequenceVersion="1" change="p.Leu138fs">
+            <Expression>NP_598004.1:p.Leu138fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1586686845" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_133497.4(KCNV2):c.411_414del (p.Leu138fs) AND cone dystrophy with supernormal rod electroretinogram" Accession="RCV001003061" Version="1">
+        <ClassifiedConditionList TraitSetID="52314">
+          <ClassifiedCondition>cone dystrophy with supernormal rod electroretinogram</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-16" MostRecentSubmission="2020-02-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="52314" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="43544" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">cone dystrophy with supernormal rod electroretinogram</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2288414" SubmissionDate="2019-06-25" DateLastUpdated="2020-02-16" DateCreated="2020-02-16">
+        <ClinVarSubmissionID localKey="NM_133497.3:c.410_413delGCCT|cone dystrophy with supernormal rod electroretinogram" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001161118" DateUpdated="2020-02-16" DateCreated="2020-02-16" Type="SCV" Version="1" SubmitterName="Sharon lab, Hadassah-Hebrew University Medical Center" OrgID="506232" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-23">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KCNV2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_133497.3:c.410_413delGCCT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">cone dystrophy with supernormal rod electroretinogram</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5871661</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2288414" TraitType="Disease" MappingType="Name" MappingValue="cone dystrophy with supernormal rod electroretinogram" MappingRef="Preferred">
+        <MedGen CUI="None" Name="cone dystrophy with supernormal rod electroretinogram" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

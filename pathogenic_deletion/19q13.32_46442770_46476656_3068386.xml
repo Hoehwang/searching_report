@@ -1,0 +1,176 @@
+<VariationArchive VariationID="3068386" VariationName="NM_002516.4(NOVA2):c.987del (p.Tyr330fs)" VariationType="Deletion" Accession="VCV003068386" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-02" DateCreated="2024-04-15" MostRecentSubmission="2024-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3227720" VariationID="3068386">
+      <GeneList>
+        <Gene Symbol="NOVA2" FullName="NOVA alternative splicing regulator 2" GeneID="4858" HGNC_ID="HGNC:7887" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19q13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="45933734" stop="45973865" display_start="45933734" display_stop="45973865" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="46442770" stop="46476656" display_start="46442770" display_stop="46476656" Strand="-" />
+          </Location>
+          <OMIM>601991</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_002516.4(NOVA2):c.987del (p.Tyr330fs)</Name>
+      <CanonicalSPDI>NC_000019.10:45940354:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="45940355" stop="45940355" display_start="45940355" display_stop="45940355" variantLength="1" positionVCF="45940354" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="46443613" stop="46443613" display_start="46443613" display_stop="46443613" variantLength="1" positionVCF="46443612" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>Y330fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.45940356del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.45940356del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.46443614del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.46443614del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002516.4" sequenceAccession="NM_002516" sequenceVersion="4" change="c.987del" MANESelect="true">
+            <Expression>NM_002516.4:c.987del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002507.1" sequenceAccession="NP_002507" sequenceVersion="1" change="p.Tyr330fs">
+            <Expression>NP_002507.1:p.Tyr330fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002516.4(NOVA2):c.987del (p.Tyr330fs) AND Neurodevelopmental disorder with or without autistic features and/or structural brain abnormalities" Accession="RCV003992061" Version="2">
+        <ClassifiedConditionList TraitSetID="53421">
+          <ClassifiedCondition DB="MedGen" ID="C5394311">Neurodevelopmental disorder with or without autistic features and/or structural brain abnormalities</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-04-15" MostRecentSubmission="2024-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="53421" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="52380" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder with or without autistic features and/or structural brain abnormalities</ElementValue>
+                <XRef ID="MONDO:0030024" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">NEDASB</ElementValue>
+                <XRef Type="MIM" ID="618859" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5394311" DB="MedGen" />
+              <XRef ID="MONDO:0030024" DB="MONDO" />
+              <XRef Type="MIM" ID="618859" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8994572" SubmissionDate="2024-04-10" DateLastUpdated="2024-04-15" DateCreated="2024-04-15">
+        <ClinVarSubmissionID localKey="chr19:46443613del_618859" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV004811949" DateUpdated="2024-04-15" DateCreated="2024-04-15" Type="SCV" Version="1" SubmitterName="MVZ Medizinische Genetik Mainz" OrgID="509214" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>ACMG Criteria: PVS1_STR, PS2_MOD, PM2_SUP, PM5_SUP, PM1 (ACMG Version 3)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">UK Practice Guidelines For Variant Classification V4 01 2020</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/sman24qb/uk-practice-guidelines-for-variant-classification-v4-01-2020.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Disease">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Disease">
+                <XRef DB="HP" ID="HP:0000733" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Disease">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Disease">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Disease">
+                <XRef DB="HP" ID="HP:0002463" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NOVA2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="19" alternateAllele="A" referenceAllele="AG" start="46443612" stop="46443613" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">chr19:46443613del</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618859" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14369574</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8994572" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8994572" TraitType="Disease" MappingType="XRef" MappingValue="HP:0002463" MappingRef="HP">
+        <MedGen CUI="C0023015" Name="Language disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8994572" TraitType="Disease" MappingType="XRef" MappingValue="618859" MappingRef="OMIM">
+        <MedGen CUI="C5394311" Name="Neurodevelopmental disorder with or without autistic features and/or structural brain abnormalities" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8994572" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000733" MappingRef="HP">
+        <MedGen CUI="C0038271" Name="Motor stereotypies" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8994572" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

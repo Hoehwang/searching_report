@@ -1,0 +1,187 @@
+<VariationArchive VariationID="830915" VariationName="NC_000007.14:g.(?_2944192)_(2947807_?)del" VariationType="Deletion" Accession="VCV000830915" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819869" VariationID="830915">
+      <GeneList>
+        <Gene Symbol="CARD11" FullName="caspase recruitment domain family member 11" GeneID="84433" HGNC_ID="HGNC:16393" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="2906142" stop="3043867" display_start="2906142" display_stop="3043867" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="2945708" stop="3083508" display_start="2945708" display_stop="3083508" Strand="-" />
+          </Location>
+          <OMIM>607210</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.14:g.(?_2944192)_(2947807_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="2983826" innerStop="2987441" display_start="2983826" display_stop="2987441" variantLength="3616" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_2983826)_(2987441_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_2983826)_(2987441_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.14:g.(?_2944192)_(2947807_?)del AND multiple conditions" Accession="RCV001031513" Version="6">
+        <ClassifiedConditionList TraitSetID="35835">
+          <ClassifiedCondition DB="MedGen" ID="C4551967">BENTA disease</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3554686">Severe combined immunodeficiency due to CARD11 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23374270</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23561803</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">26289640</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="35835" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17786" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Immunodeficiency 11</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IMMUNODEFICIENCY 11A</ElementValue>
+                <XRef Type="MIM" ID="615206" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607210.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607210.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to CARD11 deficiency</ElementValue>
+                <XRef ID="MONDO:0014081" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD11A</ElementValue>
+                <XRef Type="MIM" ID="615206" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17549" />
+                <XRef ID="17549" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="357237" DB="Orphanet" />
+              <XRef ID="C3554686" DB="MedGen" />
+              <XRef ID="MONDO:0014081" DB="MONDO" />
+              <XRef Type="MIM" ID="615206" DB="OMIM" />
+            </Trait>
+            <Trait ID="33577" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">B-cell expansion with NFKB and T-cell anergy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">BENTA disease</ElementValue>
+                <XRef ID="MONDO:0014645" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BENTA</ElementValue>
+                <XRef Type="MIM" ID="616452" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13339" />
+                <XRef ID="13339" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="464336" DB="Orphanet" />
+              <XRef ID="C4551967" DB="MedGen" />
+              <XRef ID="MONDO:0014645" DB="MONDO" />
+              <XRef Type="MIM" ID="616452" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356073" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_032415.5_7_Deletion (exons 3-5)|MedGen:C3554686;CN231446" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194819" DateUpdated="2024-06-09" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23374270</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23561803</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">26289640</ID>
+          </Citation>
+          <Comment>This variant is an out-of-frame deletion of the genomic region encompassing exons 3-5 of the CARD11 gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. For these reasons, this variant has been classified as Pathogenic. Loss-of-function variants in CARD11 are known to be pathogenic (PMID: 23374270, 23561803, 26289640). This variant has not been reported in the literature in individuals with CARD11-related conditions.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CARD11" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_2983826)_(2987441_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3554686" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN231446" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356073" TraitType="Disease" MappingType="XRef" MappingValue="CN231446" MappingRef="MedGen">
+        <MedGen CUI="C4551967" Name="BENTA disease" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2356073" TraitType="Disease" MappingType="XRef" MappingValue="C3554686" MappingRef="MedGen">
+        <MedGen CUI="C3554686" Name="Severe combined immunodeficiency due to CARD11 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

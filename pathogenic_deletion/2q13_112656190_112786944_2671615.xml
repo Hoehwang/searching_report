@@ -1,0 +1,116 @@
+<VariationArchive RecordType="classified" VariationID="2671615" VariationName="Single allele" VariationType="Deletion" Accession="VCV002671615" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-17" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2839143" VariationID="2671615">
+      <GeneList>
+        <Gene Symbol="MERTK" FullName="MER proto-oncogene, tyrosine kinase" GeneID="10461" HGNC_ID="HGNC:7027" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="111898607" stop="112029561" display_start="111898607" display_stop="112029561" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="112656190" stop="112786944" display_start="112656190" display_stop="112786944" Strand="+" />
+          </Location>
+          <OMIM>604705</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="112687864" stop="112808213" display_start="112687864" display_stop="112808213" variantLength="120350" alternateAllele="-" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND not provided" Accession="RCV003448700" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-12-17" MostRecentSubmission="2023-12-17">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7815204" SubmissionDate="2023-12-07" DateLastUpdated="2023-12-17" DateCreated="2023-12-17">
+        <ClinVarSubmissionID localKey=":Chr.2_112687864_112808213_-_Deletion|Not Provided" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004176342" DateUpdated="2023-12-17" DateCreated="2023-12-17" Type="SCV" Version="1" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-18">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This CNV is a 120 kb deletion of 2q13 on chromosome 2, seq[GRCh37]del(2)(q13), NC_000002.11:g.112687864_112808213del, which encompasses exons 3-19 of the MERTK gene and is predicted to disrupt the MERTK gene product. One of the breakpoints lies within intron 2 and the other in an intergenic region. Deletion of exons 3-19 has been reported in a homozygous state in an individual with cone-rod dystrophy (CRD) (PMID: 26103963). Additionally, this deletion is reported with a missense variant in an individual with retinal dystrophy, and with a splice region variant in an individual with retinitis pigmentosa (unconfirmed diagnosis). However, the phase of the variants identified in these individuals was not confirmed (PMID: 29074561; 32783370). Smaller deletions in this region have also been reported in individuals with retinopathies (PMID: 29659094). A similar deletion has been observed at a frequency of 0.001468 in the African/African American population of the Genome Aggregation Database (gnomAD SVs version 2.1). Based on the available evidence, this CNV is classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL CNVClassificationCriteria Aug2020</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/wisyz6nm/icsl_cnvclassificationcriteria_aug2020.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" alternateAllele="-" start="112687864" stop="112808213" variantLength="120350" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14024614</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7815204" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

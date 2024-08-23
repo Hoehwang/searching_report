@@ -1,0 +1,114 @@
+<VariationArchive RecordType="classified" VariationID="995474" VariationName="NM_021628.2:c.435-?_554+?del" VariationType="Deletion" Accession="VCV000995474" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-24" DateCreated="2021-01-26" MostRecentSubmission="2021-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="983336" VariationID="995474">
+      <GeneList>
+        <Gene Symbol="ALOXE3" FullName="arachidonate lipoxygenase 3" GeneID="59344" HGNC_ID="HGNC:13743" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>17p13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="8095900" stop="8118916" display_start="8095900" display_stop="8118916" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="7999217" stop="8022233" display_start="7999217" display_stop="8022233" Strand="-" />
+          </Location>
+          <OMIM>607206</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_021628.2:c.435-?_554+?del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_021628.2:c.435-?_554+?del AND Autosomal recessive congenital ichthyosis 3" Accession="RCV001289505" Version="2">
+        <ClassifiedConditionList TraitSetID="7157">
+          <ClassifiedCondition DB="MedGen" ID="C3539888">Autosomal recessive congenital ichthyosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-01-26" MostRecentSubmission="2021-01-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7157" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5320" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive congenital ichthyosis 3</ElementValue>
+                <XRef ID="MONDO:0011680" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ICHTHYOSIS, LAMELLAR, 5</ElementValue>
+                <XRef Type="MIM" ID="606545" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">LI5</ElementValue>
+                <XRef Type="MIM" ID="606545" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">ARCI3</ElementValue>
+                <XRef Type="MIM" ID="606545" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C3539888" DB="MedGen" />
+              <XRef ID="MONDO:0011680" DB="MONDO" />
+              <XRef Type="MIM" ID="606545" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2906550" SubmissionDate="2021-01-18" DateLastUpdated="2021-01-26" DateCreated="2021-01-26">
+        <ClinVarSubmissionID localKey="NM_021628.2:NM_021628.2:c.435-?_554+?del|OMIM:606545" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001477377" DateUpdated="2021-01-26" DateCreated="2021-01-26" Type="SCV" Version="1" SubmitterName="Institute for Human Genetics, University Medical Center Freiburg" OrgID="21170" OrganizationCategory="laboratory" OrgAbbreviation="AGFischer_LAB_FREIBURG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-07">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ALOXE3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_021628.2:c.435-?_554+?del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="606545" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8903998</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2906550" TraitType="Disease" MappingType="XRef" MappingValue="606545" MappingRef="OMIM">
+        <MedGen CUI="C3539888" Name="Autosomal recessive congenital ichthyosis 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

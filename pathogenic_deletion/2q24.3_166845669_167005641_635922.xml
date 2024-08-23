@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="635922" VariationName="Single allele" VariationType="Deletion" Accession="VCV000635922" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623735" VariationID="635922">
+      <GeneList>
+        <Gene Symbol="SCN1A" FullName="sodium voltage-gated channel alpha subunit 1" GeneID="6323" HGNC_ID="HGNC:10585" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="165984641" stop="166149161" display_start="165984641" display_stop="166149161" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="166845669" stop="167005641" display_start="166845669" display_stop="167005641" Strand="-" />
+          </Location>
+          <OMIM>182389</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN1A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="166818453" stop="166939516" display_start="166818453" display_stop="166939516" variantLength="121064" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.166818453_166939516del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.166818453_166939516del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Epilepsy" Accession="RCV000787428" Version="2">
+        <ClassifiedConditionList TraitSetID="8168">
+          <ClassifiedCondition DB="MedGen" ID="C0014544">Epilepsy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8168" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9566" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Seizure Disorders</ElementValue>
+                <XRef ID="Seizure+Disorders/6488" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy</ElementValue>
+                <XRef ID="HP:0001250" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0005027" DB="MONDO" />
+                <XRef ID="84757009" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Seizure disorder</ElementValue>
+                <XRef ID="11DG0893" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <XRef ID="C0014544" DB="MedGen" />
+              <XRef ID="D004827" DB="MeSH" />
+              <XRef ID="MONDO:0005027" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812043" SubmissionDate="2019-04-09" DateLastUpdated="2019-07-27" DateCreated="2019-07-27">
+        <ClinVarSubmissionID localKey=":Chr.2_166818453_166939516_Deletion|Epilepsy" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926390" DateUpdated="2019-07-27" DateCreated="2019-07-27" Type="SCV" Version="1" SubmitterName="Rare Disease Group, Clinical Genetics, Karolinska Institutet" OrgID="506202" OrganizationCategory="laboratory" OrgAbbreviation="RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" start="166818453" stop="166939516" variantLength="121064" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Epilepsy</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5433665</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812043" TraitType="Disease" MappingType="Name" MappingValue="Epilepsy" MappingRef="Preferred">
+        <MedGen CUI="C0014544" Name="Epilepsy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

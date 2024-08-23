@@ -1,0 +1,218 @@
+<VariationArchive RecordType="classified" VariationID="208479" VariationName="NC_000010.11:g.(93704377_?)_(?_93785620)del" VariationType="Deletion" Accession="VCV000208479" Version="2" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2022-09-24" DateCreated="2015-10-05" MostRecentSubmission="2016-10-03">
+  <RecordStatus>current</RecordStatus>
+  <ReplacedList>
+    <Replaced DateChanged="2022-09-24" Accession="VCV000040218" Version="1" VariationID="40218">
+      <Comment Type="MergeComment">VCV000040218 was merged into VCV000208479 because the AlleleID created automatically for OMIM was identified to be redundant when the sequence definition of the allelic variant was established.  Both OMIM and GeneReviews cite the paper by Fanciulli et al., 2012 (PubMed 22496201) which reports "The deletion encompasses the region between SNPs rs11187602 (chromosome position 95464132) and rs7099034 (95545377)...".</Comment>
+    </Replaced>
+  </ReplacedList>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="205006" VariationID="208479">
+      <GeneList>
+        <Gene Symbol="LGI1" FullName="leucine rich glioma inactivated 1" GeneID="9211" HGNC_ID="HGNC:6572" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q23.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="93757936" stop="93798159" display_start="93757936" display_stop="93798159" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="95517565" stop="95557915" display_start="95517565" display_stop="95557915" Strand="+" />
+          </Location>
+          <OMIM>604619</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.11:g.(93704377_?)_(?_93785620)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" outerStart="93704377" outerStop="93785620" display_start="93704377" display_stop="93785620" variantLength="81244" Strand="+" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" outerStart="95464133" outerStop="95545376" display_start="95464133" display_stop="95545376" variantLength="81244" />
+      </Location>
+      <OtherNameList>
+        <Name>81-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(95464133_?)_(?_95545376)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(95464133_?)_(?_95545376)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.(93704377_?)_(?_93785620)del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.(93704377_?)_(?_93785620)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="604619.0012" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">Approximately 81kb genomic deletion beginning 3'-of the LGI1 gene and spanning the first four exons, ending in intron 4.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.11:g.(93704377_?)_(?_93785620)del AND Epilepsy, familial temporal lobe, 1" Accession="RCV000194261" Version="2">
+        <ClassifiedConditionList TraitSetID="1523">
+          <ClassifiedCondition DB="MedGen" ID="C4551957">Epilepsy, familial temporal lobe, 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2015-08-27" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-08-27" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2015-10-05" MostRecentSubmission="2016-10-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22496201</ID>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301709</ID>
+          <ID Source="BookShelf">NBK1537</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1523" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2102" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, familial temporal lobe, 1</ElementValue>
+                <XRef ID="MONDO:0700090" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ADLTE</ElementValue>
+                <XRef Type="MIM" ID="600512" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ADPEAF</ElementValue>
+                <XRef Type="MIM" ID="600512" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ETL1</ElementValue>
+                <XRef Type="MIM" ID="600512" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Autosomal dominant epilepsy with auditory features (ADEAF) is a focal epilepsy syndrome with auditory symptoms and/or receptive aphasia as prominent ictal manifestations. The most common auditory symptoms are simple unformed sounds including humming, buzzing, or ringing; less common forms are distortions (e.g., volume changes) or complex sounds (e.g., specific songs or voices). Ictal receptive aphasia consists of a sudden onset of inability to understand language in the absence of general confusion. Less commonly, other ictal symptoms may occur, including sensory symptoms (visual, olfactory, vertiginous, or cephalic) or motor, psychic, and autonomic symptoms. Most affected individuals have focal to bilateral tonic-clonic seizures, usually accompanied by "focal aware" and "focal impaired-awareness" seizures, with auditory symptoms as a major focal aware seizure manifestation. Some persons have seizures precipitated by sounds such as a ringing telephone. Age at onset is usually in adolescence or early adulthood (range: age 4-50 years). The clinical course of ADEAF is benign. Seizures are usually well controlled after initiation of medical therapy.</Attribute>
+                <XRef ID="NBK1537" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301709</ID>
+                <ID Source="BookShelf">NBK1537</ID>
+              </Citation>
+              <XRef ID="101046" DB="Orphanet" />
+              <XRef ID="C4551957" DB="MedGen" />
+              <XRef ID="MONDO:0700090" DB="MONDO" />
+              <XRef Type="MIM" ID="600512" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="454110" SubmissionDate="2015-08-27" DateLastUpdated="2015-10-05" DateCreated="2015-10-05">
+        <ClinVarSubmissionID localKey="Deletion~81kb|OMIM:600512" />
+        <ClinVarAccession Accession="SCV000245374" DateUpdated="2015-10-05" DateCreated="2015-10-05" Type="SCV" Version="1" SubmitterName="GeneReviews" OrgID="500062" OrganizationCategory="resource" OrgAbbreviation="GeneReviews" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-08-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22496201</ID>
+          </Citation>
+          <Citation>
+            <URL>http://www.ncbi.nlm.nih.gov/books/NBK1537/</URL>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LGI1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">Deletion~81kb</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Epilepsy, lateral temporal lobe, autosomal dominant</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="600512" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment Type="public">Deletes exons 1-4 and maps between rs11187602 and rs7099034 [Fanciulli et al 2012 (PMID:22496201)]</Comment>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="95484" SubmissionDate="2016-09-30" DateLastUpdated="2016-10-03" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="604619.0012_EPILEPSY, LATERAL TEMPORAL LOBE, AUTOSOMAL DOMINANT" title="LGI1, 81-KB DEL_EPILEPSY, LATERAL TEMPORAL LOBE, AUTOSOMAL DOMINANT" />
+        <ClinVarAccession Accession="SCV000057085" DateUpdated="2016-10-03" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-04-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected members of a 3-generation Italian family with ADLTE (600512), Fanciulli et al. (2012) identified a heterozygous 81-kb deletion encompassing part of the upstream region and the first 4 exons of the LGI1 gene, predicted to result in a loss of function. The deletion was found by CNV analysis after exon sequencing of the gene failed to identify a point mutation. The deletion was not found in several large databases. There were 8 affected individuals. Most patients had onset of seizures in the second decade, although 2 had onset as adults. Six had tonic-clonic seizures with focal onset, and most experienced accompanying auditory features. Brain imaging was unremarkable in all patients who were studied, and EEG showed mild abnormalities only in 3 patients. Patients showed a good response to antiepileptic medication. Two unaffected family members, aged 24 and 17 years, also carried the deletion, consistent with later onset of the disorder or incomplete penetrance.</Attribute>
+              <Citation>
+                <ID Source="PubMed">22496201</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="600512" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LGI1" />
+          </GeneList>
+          <Name>LGI1, 81-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">81-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604619.0012" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">EPILEPSY, LATERAL TEMPORAL LOBE, AUTOSOMAL DOMINANT</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="454110" TraitType="Disease" MappingType="Name" MappingValue="Epilepsy, lateral temporal lobe, autosomal dominant" MappingRef="Preferred">
+        <MedGen CUI="C4551957" Name="Epilepsy, familial temporal lobe, 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="95484" TraitType="Disease" MappingType="Name" MappingValue="EPILEPSY, LATERAL TEMPORAL LOBE, AUTOSOMAL DOMINANT" MappingRef="Preferred">
+        <MedGen CUI="C4551957" Name="Epilepsy, familial temporal lobe, 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

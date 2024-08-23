@@ -1,0 +1,126 @@
+<VariationArchive VariationID="1676602" VariationName="TCF3, EX5-11 DEL" VariationType="Deletion" Accession="VCV001676602" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-01-26" DateCreated="2022-04-16" MostRecentSubmission="2022-04-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1668089" VariationID="1676602">
+      <GeneList>
+        <Gene Symbol="TCF3" FullName="transcription factor 3" GeneID="6929" HGNC_ID="HGNC:11633" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="1609292" stop="1652615" display_start="1609292" display_stop="1652615" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="1609288" stop="1652327" display_start="1609288" display_stop="1652327" Strand="-" />
+          </Location>
+          <OMIM>147141</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>TCF3, EX5-11 DEL</Name>
+      <VariantType>Deletion</VariantType>
+      <OtherNameList>
+        <Name>EX5-11 DEL</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="147141.0003" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="TCF3, EX5-11 DEL AND Agammaglobulinemia 8b, autosomal recessive" Accession="RCV002221971" Version="1">
+        <ClassifiedConditionList TraitSetID="74303">
+          <ClassifiedCondition DB="MedGen" ID="C5676958">Agammaglobulinemia 8b, autosomal recessive</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-04-16" MostRecentSubmission="2022-04-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30063982</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="74303" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="62237" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AGAMMAGLOBULINEMIA, AUTOSOMAL RECESSIVE, DUE TO TCF3 DEFECT</ElementValue>
+                <XRef Type="MIM" ID="619824" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Agammaglobulinemia 8b, autosomal recessive</ElementValue>
+                <XRef ID="MONDO:0859234" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">AGM8B</ElementValue>
+                <XRef Type="MIM" ID="619824" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5676958" DB="MedGen" />
+              <XRef ID="MONDO:0859234" DB="MONDO" />
+              <XRef Type="MIM" ID="619824" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4889003" SubmissionDate="2022-04-12" DateLastUpdated="2022-04-16" DateCreated="2022-04-16">
+        <ClinVarSubmissionID localKey="147141.0003_AGAMMAGLOBULINEMIA 8B, AUTOSOMAL RECESSIVE" title="TCF3, EX5-11 DEL_AGAMMAGLOBULINEMIA 8B, AUTOSOMAL RECESSIVE" />
+        <ClinVarAccession Accession="SCV002499270" DateUpdated="2022-04-16" DateCreated="2022-04-16" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 9-year-old girl, born of consanguineous Pakistani parents, with autosomal recessive agammaglobulinemia-8B (AGM8B; 619824), Qureshi et al. (2019) identified a homozygous deletion spanning exons 5 through 11 of the TCF3 gene. The deletion was found by targeted next-generation sequencing; segregation within the family was not reported. The deletion was predicted to be out of frame and result in a loss of function. Functional studies of the variant were not performed.</Attribute>
+              <Citation>
+                <ID Source="PubMed">30063982</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619824" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TCF3" />
+          </GeneList>
+          <Name>TCF3, EX5-11 DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX5-11 DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="147141.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">AGAMMAGLOBULINEMIA 8B, AUTOSOMAL RECESSIVE</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4889003" TraitType="Disease" MappingType="Name" MappingValue="AGAMMAGLOBULINEMIA 8B, AUTOSOMAL RECESSIVE" MappingRef="Preferred">
+        <MedGen CUI="C5676958" Name="Agammaglobulinemia 8b, autosomal recessive" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

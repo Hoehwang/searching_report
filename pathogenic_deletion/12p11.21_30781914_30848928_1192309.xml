@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="1192309" VariationName="NM_006390.4(IPO8):c.2695+4_2695+8del" VariationType="Deletion" Accession="VCV001192309" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-08-17" MostRecentSubmission="2021-08-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1182317" VariationID="1192309">
+      <GeneList>
+        <Gene Symbol="IPO8" FullName="importin 8" GeneID="10526" HGNC_ID="HGNC:9853" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="30628988" stop="30695869" display_start="30628988" display_stop="30695869" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="30781914" stop="30848928" display_start="30781914" display_stop="30848928" Strand="-" />
+          </Location>
+          <OMIM>605600</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006390.4(IPO8):c.2695+4_2695+8del</Name>
+      <CanonicalSPDI>NC_000012.12:30636973:GACTT:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12p11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="30636974" stop="30636978" display_start="30636974" display_stop="30636978" variantLength="5" positionVCF="30636973" referenceAlleleVCF="AGACTT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="30789908" stop="30789912" display_start="30789908" display_stop="30789912" variantLength="5" positionVCF="30789907" referenceAlleleVCF="AGACTT" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.30789908_30789912del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.30789908_30789912del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.30636974_30636978del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.30636974_30636978del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006390.4" sequenceAccession="NM_006390" sequenceVersion="4" change="c.2695+4_2695+8del" MANESelect="true">
+            <Expression>NM_006390.4:c.2695+4_2695+8del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001190995.2" sequenceAccession="NM_001190995" sequenceVersion="2" change="c.2080+4_2080+8del">
+            <Expression>NM_001190995.2:c.2080+4_2080+8del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605600.0007" DB="OMIM" />
+        <XRef Type="rs" ID="2136125267" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006390.4(IPO8):c.2695+4_2695+8del AND VISS syndrome" Accession="RCV001553801" Version="3">
+        <ClassifiedConditionList TraitSetID="69133">
+          <ClassifiedCondition DB="MedGen" ID="C5561955">VISS syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-08-17" MostRecentSubmission="2021-08-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33875846</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="69133" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57187" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">VISS syndrome</ElementValue>
+                <XRef ID="MONDO:0859177" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">VASCULAR ANEURYSM, IMMUNE DYSREGULATION, SKELETAL ANOMALIES, AND SKIN AND JOINT LAXITY</ElementValue>
+                <XRef Type="MIM" ID="619472" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">VISS</ElementValue>
+                <XRef Type="MIM" ID="619472" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5561955" DB="MedGen" />
+              <XRef ID="MONDO:0859177" DB="MONDO" />
+              <XRef Type="MIM" ID="619472" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3488868" SubmissionDate="2021-08-12" DateLastUpdated="2021-08-17" DateCreated="2021-08-14">
+        <ClinVarSubmissionID localKey="605600.0007_VISS SYNDROME" title="IPO8, 5-BP DEL, NT2965+4_VISS SYNDROME" />
+        <ClinVarAccession Accession="SCV001774798" DateUpdated="2021-08-17" DateCreated="2021-08-14" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 unrelated patients (patients 7 and 11) with VISS syndrome (VISS; 619472), Bertoli-Avella et al. (2021) identified homozygosity for a 5-bp deletion (c.2695+4_2695+8del) in the IPO8 gene. Familial segregation and functional analysis were not reported.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33875846</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619472" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IPO8" />
+          </GeneList>
+          <Name>IPO8, 5-BP DEL, NT2965+4</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">5-BP DEL, NT2965+4</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605600.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">VISS SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3488868" TraitType="Disease" MappingType="Name" MappingValue="VISS SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C5561955" Name="VISS syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

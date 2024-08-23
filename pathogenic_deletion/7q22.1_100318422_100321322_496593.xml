@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="496593" VariationName="NM_000799.4(EPO):c.33del (p.Trp11fs)" VariationType="Deletion" Accession="VCV000496593" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-03-20" MostRecentSubmission="2018-03-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="488085" VariationID="496593">
+      <GeneList>
+        <Gene Symbol="EPO" FullName="erythropoietin" GeneID="2056" HGNC_ID="HGNC:3415" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="100720468" stop="100723700" display_start="100720468" display_stop="100723700" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="100318422" stop="100321322" display_start="100318422" display_stop="100321322" Strand="+" />
+          </Location>
+          <OMIM>133170</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000799.4(EPO):c.33del (p.Trp11fs)</Name>
+      <CanonicalSPDI>NC_000007.14:100721575:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="100721576" stop="100721576" display_start="100721576" display_stop="100721576" variantLength="1" positionVCF="100721575" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="100319199" stop="100319199" display_start="100319199" display_stop="100319199" variantLength="1" positionVCF="100319198" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>W11fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.100319200del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.100319200del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.100721577del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.100721577del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_021471.2" sequenceAccession="NG_021471" sequenceVersion="2" change="g.5778del">
+            <Expression>NG_021471.2:g.5778del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000799.4" sequenceAccession="NM_000799" sequenceVersion="4" change="c.33del" MANESelect="true">
+            <Expression>NM_000799.4:c.33del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000790.2" sequenceAccession="NP_000790" sequenceVersion="2" change="p.Trp11fs">
+            <Expression>NP_000790.2:p.Trp11fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA658683486" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="133170.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1554393463" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000799.4(EPO):c.33del (p.Trp11fs) AND Erythrocytosis, familial, 5" Accession="RCV000590858" Version="1">
+        <ClassifiedConditionList TraitSetID="40715">
+          <ClassifiedCondition DB="MedGen" ID="C4693552">Erythrocytosis, familial, 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-03-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-03-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-03-20" MostRecentSubmission="2018-03-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29514032</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="40715" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38669" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Erythrocytosis, familial, 5</ElementValue>
+                <XRef ID="MONDO:0033483" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ECYT5</ElementValue>
+                <XRef Type="MIM" ID="617907" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4693552" DB="MedGen" />
+              <XRef ID="MONDO:0033483" DB="MONDO" />
+              <XRef Type="MIM" ID="617907" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1371468" SubmissionDate="2018-03-16" DateLastUpdated="2018-03-20" DateCreated="2018-03-20">
+        <ClinVarSubmissionID localKey="133170.0002_ERYTHROCYTOSIS, FAMILIAL, 5" title="EPO, 1-BP DEL, 32G_ERYTHROCYTOSIS, FAMILIAL, 5" />
+        <ClinVarAccession Accession="SCV000700068" DateUpdated="2018-03-20" DateCreated="2018-03-20" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-03-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 10 affected members of a 4-generation Norwegian family with autosomal dominant familial erythrocytosis-5 (ECYT5; 617907), Zmajkovic et al. (2018) identified a heterozygous 1-bp deletion, c.32delG (chr7.100,319,199GG-G, GRCh37) in exon 2 of the EPO gene, within the signal peptide. The mutation was predicted to cause a frameshift with disruption of the signal peptide, resulting in premature termination after 51 amino acids. The mutation, which was found by linkage analysis and candidate gene sequencing, segregated with the disorder in the family and was not found in the gnomAD database. The authors were unable to study patient tissue, so they used CRISPR to introduce the mutation into Hep3B human cells. The supernatant of mutant cells contained an 8 to 10-fold increase in biologically active EPO, indicating that the mutation paradoxically results in a gain of function, not a loss of function. Analysis of mRNA in wildtype Hep3B cells identified the wildtype EPO transcript produced from the physiologic promoter (P1) as well as 2 additional noncoding transcripts, a long and a short transcript, from use of an alternative promoter (P2) in intron 1. These 2 alternative transcripts were detected at higher levels in cells with the c.32delG mutation, and further studies indicated that the P2 transcripts in mutant cells had increased stability compared to wildtype and produced functional transcripts using another start codon in exon 2, resulting in excess production of EPO.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29514032</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617907" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EPO" />
+          </GeneList>
+          <Name>EPO, 1-BP DEL, 32G</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 32G</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="133170.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ERYTHROCYTOSIS, FAMILIAL, 5</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1371468" TraitType="Disease" MappingType="Name" MappingValue="ERYTHROCYTOSIS, FAMILIAL, 5" MappingRef="Preferred">
+        <MedGen CUI="C4693552" Name="Erythrocytosis, familial, 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

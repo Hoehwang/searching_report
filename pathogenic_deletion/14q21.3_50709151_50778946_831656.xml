@@ -1,0 +1,147 @@
+<VariationArchive VariationID="831656" VariationName="NC_000014.9:g.(?_50267733)_(50269350_?)del" VariationType="Deletion" Accession="VCV000831656" Version="5" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820624" VariationID="831656">
+      <GeneList>
+        <Gene Symbol="L2HGDH" FullName="L-2-hydroxyglutarate dehydrogenase" GeneID="79944" HGNC_ID="HGNC:20499" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="50242434" stop="50312229" display_start="50242434" display_stop="50312229" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="50709151" stop="50778946" display_start="50709151" display_stop="50778946" Strand="-" />
+          </Location>
+          <OMIM>609584</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000014.9:g.(?_50267733)_(50269350_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" innerStart="50734451" innerStop="50736068" display_start="50734451" display_stop="50736068" variantLength="1618" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.(?_50734451)_(50736068_?)del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.(?_50734451)_(50736068_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000014.9:g.(?_50267733)_(50269350_?)del AND L-2-hydroxyglutaric aciduria" Accession="RCV001032200" Version="5">
+        <ClassifiedConditionList TraitSetID="414">
+          <ClassifiedCondition DB="MedGen" ID="C1855995">L-2-hydroxyglutaric aciduria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-03-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-03-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">16134148</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20052767</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="414" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2447" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">L-2-hydroxyglutaric aciduria</ElementValue>
+                <XRef ID="L-2-hydroxyglutaric+aciduria/4061" DB="Genetic Alliance" />
+                <XRef ID="HP:0040144" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0009370" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">L2HGA</ElementValue>
+                <XRef Type="MIM" ID="236792" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10472" />
+                <XRef ID="10472" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="79314" DB="Orphanet" />
+              <XRef ID="C1855995" DB="MedGen" />
+              <XRef ID="MONDO:0009370" DB="MONDO" />
+              <XRef Type="MIM" ID="236792" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0040144" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356762" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="NM_024884.2_14_Deletion (exons 7-8)|MedGen:C1855995" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195507" DateUpdated="2024-06-09" DateCreated="2020-04-15" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-03-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">16134148</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20052767</ID>
+          </Citation>
+          <Comment>This variant is an out-of-frame deletion of the genomic region encompassing exons 7-8 of the L2HGDH gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. For these reasons, this variant has been classified as Pathogenic. Loss-of-function variants in L2HGDH are known to be pathogenic (PMID: 16134148, 20052767). This variant has not been reported in the literature in individuals with L2HGDH-related conditions.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="L2HGDH" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000014.8:g.(?_50734451)_(50736068_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1855995" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356762" TraitType="Disease" MappingType="XRef" MappingValue="C1855995" MappingRef="MedGen">
+        <MedGen CUI="C1855995" Name="L-2-hydroxyglutaric aciduria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

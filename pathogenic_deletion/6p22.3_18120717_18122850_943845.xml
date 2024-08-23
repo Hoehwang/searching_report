@@ -1,0 +1,196 @@
+<VariationArchive VariationID="943845" VariationName="NM_198586.3(NHLRC1):c.612del (p.Phe204fs)" VariationType="Deletion" Accession="VCV000943845" Version="8" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-17" DateCreated="2020-07-16" MostRecentSubmission="2024-02-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="933249" VariationID="943845">
+      <GeneList>
+        <Gene Symbol="NHLRC1" FullName="NHL repeat containing E3 ubiquitin protein ligase 1" GeneID="378884" HGNC_ID="HGNC:21576" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="18120440" stop="18122677" display_start="18120440" display_stop="18122677" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="18120717" stop="18122850" display_start="18120717" display_stop="18122850" Strand="-" />
+          </Location>
+          <OMIM>608072</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_198586.3(NHLRC1):c.612del (p.Phe204fs)</Name>
+      <CanonicalSPDI>NC_000006.12:18121994:AAAAAAA:AAAAAA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="18121995" stop="18121995" display_start="18121995" display_stop="18121995" variantLength="1" positionVCF="18121994" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="18122226" stop="18122226" display_start="18122226" display_stop="18122226" variantLength="1" positionVCF="18122225" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>F204fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.18122232del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.18122232del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.18122001del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.18122001del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016750.1" sequenceAccession="NG_016750" sequenceVersion="1" change="g.5626del">
+            <Expression>NG_016750.1:g.5626del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_198586.3" sequenceAccession="NM_198586" sequenceVersion="3" change="c.612del" MANESelect="true">
+            <Expression>NM_198586.3:c.612del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_940988.2" sequenceAccession="NP_940988" sequenceVersion="2" change="p.Phe204fs">
+            <Expression>NP_940988.2:p.Phe204fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1171412241" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_198586.3(NHLRC1):c.612del (p.Phe204fs) AND Lafora disease" Accession="RCV001214119" Version="7">
+        <ClassifiedConditionList TraitSetID="792">
+          <ClassifiedCondition DB="MedGen" ID="C0751783">Lafora disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-05-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-16" MostRecentSubmission="2024-02-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">16021330</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">16529633</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="792" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3139" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Lafora body disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myoclonic epilepsy of Lafora</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Lafora disease</ElementValue>
+                <XRef ID="Lafora+disease/4074" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009697" DB="MONDO" />
+                <XRef ID="230425004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy progressive myoclonic  2</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">LBD</ElementValue>
+                <XRef Type="MIM" ID="254780" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">EPM2</ElementValue>
+                <XRef Type="MIM" ID="254780" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">MELF</ElementValue>
+                <XRef Type="MIM" ID="254780" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8214" />
+                <XRef ID="8214" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Progressive myoclonus epilepsy, Lafora type (also known as Lafora disease [LD]) is characterized by focal occipital seizures presenting as transient blindness or visual hallucinations and fragmentary, symmetric, or generalized myoclonus beginning in previously healthy individuals at age eight to 19 years (peak 14-16 years). Generalized tonic-clonic seizures, atypical absence seizures, atonic seizures, and focal seizures with impaired awareness may occur. The course of the disease is characterized by increasing frequency and intractability of seizures. Status epilepticus with any of the seizure types is common. Cognitive decline becomes apparent at or soon after the onset of seizures. Dysarthria and ataxia appear early while spasticity appears late. Emotional disturbance and confusion are common in the early stages of the disease and are followed by dementia. Most affected individuals die within ten years of onset, usually from status epilepticus or from complications related to nervous system degeneration.</Attribute>
+                <XRef ID="NBK1389" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301563</ID>
+                <ID Source="BookShelf">NBK1389</ID>
+              </Citation>
+              <XRef ID="501" DB="Orphanet" />
+              <XRef ID="C0751783" DB="MedGen" />
+              <XRef ID="MONDO:0009697" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS254780" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2720606" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-14" DateCreated="2020-07-16">
+        <ClinVarSubmissionID localKey="4860643|MedGen:C0751783" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001385785" DateUpdated="2024-02-14" DateCreated="2020-07-16" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">16021330</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">16529633</ID>
+          </Citation>
+          <Comment>This variant disrupts the C-terminus of the NHLRC1 protein. Other variant(s) that disrupt this region (p.Ser300Valfs*13) have been determined to be pathogenic (PMID: 16021330). This suggests that variants that disrupt this region of the protein are likely to be causative of disease. This variant has been observed in an individual affected with Lafora disease (PMID: 16529633). This variant is also known as 907delT in the literature. For these reasons, this variant has been classified as Pathogenic. This sequence change results in a premature translational stop signal in the NHLRC1 gene (p.Phe204Leufs*28). While this is not anticipated to result in nonsense mediated decay, it is expected to disrupt the last 192 amino acids of the NHLRC1 protein. This variant is not present in population databases (ExAC no frequency).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NHLRC1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.18122226del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0751783" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12508014</SubmissionName>
+          <SubmissionName>SUB14200283</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2720606" TraitType="Disease" MappingType="XRef" MappingValue="C0751783" MappingRef="MedGen">
+        <MedGen CUI="C0751783" Name="Lafora disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,169 @@
+<VariationArchive RecordType="classified" VariationID="599338" VariationName="NM_001252.5(CD70):c.250del (p.Ser84fs)" VariationType="Deletion" Accession="VCV000599338" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-19" DateCreated="2020-02-15" MostRecentSubmission="2020-02-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="590635" VariationID="599338">
+      <GeneList>
+        <Gene Symbol="CD70" FullName="CD70 molecule" GeneID="970" HGNC_ID="HGNC:11937" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="6581648" stop="6591150" display_start="6581648" display_stop="6591150" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="6585849" stop="6591162" display_start="6585849" display_stop="6591162" Strand="-" />
+          </Location>
+          <OMIM>602840</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001252.5(CD70):c.250del (p.Ser84fs)</Name>
+      <CanonicalSPDI>NC_000019.10:6586351:A:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="6586352" stop="6586352" display_start="6586352" display_stop="6586352" variantLength="1" positionVCF="6586351" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="6586363" stop="6586363" display_start="6586363" display_stop="6586363" variantLength="1" positionVCF="6586362" referenceAlleleVCF="GA" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>S84fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.6586352del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.6586352del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.6586363del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.6586363del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001252.5" sequenceAccession="NM_001252" sequenceVersion="5" change="c.250del" MANESelect="true">
+            <Expression>NM_001252.5:c.250del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001243.1" sequenceAccession="NP_001243" sequenceVersion="1" change="p.Ser84fs">
+            <Expression>NP_001243.1:p.Ser84fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001330332.2" sequenceAccession="NM_001330332" sequenceVersion="2" change="c.250del">
+            <Expression>NM_001330332.2:c.250del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001317261.1" sequenceAccession="NP_001317261" sequenceVersion="1" change="p.Ser84fs">
+            <Expression>NP_001317261.1:p.Ser84fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="602840.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1568431262" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001252.5(CD70):c.250del (p.Ser84fs) AND Severe combined immunodeficiency due to CD70 deficiency" Accession="RCV000735976" Version="3">
+        <ClassifiedConditionList TraitSetID="45423">
+          <ClassifiedCondition DB="MedGen" ID="C5568559">Severe combined immunodeficiency due to CD70 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-01-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-01-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-15" MostRecentSubmission="2020-02-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28011864</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="45423" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="40939" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to CD70 deficiency</ElementValue>
+                <XRef ID="MONDO:0034054" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CD70 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="618261" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LYMPHOPROLIFERATIVE SYNDROME 3</ElementValue>
+                <XRef Type="MIM" ID="618261" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602840.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602840.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="602840.0003" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">LPFS3</ElementValue>
+                <XRef Type="MIM" ID="618261" DB="OMIM" />
+              </Symbol>
+              <XRef ID="538958" DB="Orphanet" />
+              <XRef ID="C5568559" DB="MedGen" />
+              <XRef ID="MONDO:0034054" DB="MONDO" />
+              <XRef Type="MIM" ID="618261" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1690029" SubmissionDate="2019-01-10" DateLastUpdated="2020-02-15" DateCreated="2019-01-13">
+        <ClinVarSubmissionID localKey="602840.0002_LYMPHOPROLIFERATIVE SYNDROME 3" title="CD70, 1-BP DEL, 250T_LYMPHOPROLIFERATIVE SYNDROME 3" />
+        <ClinVarAccession Accession="SCV000864175" DateUpdated="2020-02-15" DateCreated="2019-01-13" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-01-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 sibs, born of consanguineous Persian parents (family 1), with lymphoproliferative syndrome-3 (LPFS3; 618261), Abolhassani et al. (2017) identified a homozygous 1-bp deletion (c.250delT) in exon 3 of the CD70 gene, resulting in a frameshift and premature termination (Ser84Profs27Ter). The mutation, which was found by whole-exome sequencing and confirmed by Sanger sequencing, segregated with the disorder in the family. It was not found in the 1000 Genomes Project, Exome Sequencing Project, or ExAC databases, or in 251 Iranian controls. Analysis of patient-derived cells showed normal CD70 mRNA, indicating minimal nonsense-mediated mRNA decay, but flow cytometric analysis showed absent protein levels and Western blot analysis of transfected HEK293 cells showed neither full-length nor truncated forms of CD70, consistent with a loss of expression and function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28011864</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618261" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CD70" />
+          </GeneList>
+          <Name>CD70, 1-BP DEL, 250T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 250T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="602840.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">LYMPHOPROLIFERATIVE SYNDROME 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1690029" TraitType="Disease" MappingType="Name" MappingValue="LYMPHOPROLIFERATIVE SYNDROME 3" MappingRef="Preferred">
+        <MedGen CUI="C5568559" Name="Severe combined immunodeficiency due to CD70 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

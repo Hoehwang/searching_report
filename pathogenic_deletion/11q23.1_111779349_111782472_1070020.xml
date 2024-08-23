@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="1070020" VariationName="NC_000011.9:g.(?_111779478)_(111782458_?)del" VariationType="Deletion" Accession="VCV001070020" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1057521" VariationID="1070020">
+      <GeneList>
+        <Gene Symbol="CRYAB" FullName="crystallin alpha B" GeneID="1410" HGNC_ID="HGNC:2389" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="111908564" stop="111923740" display_start="111908564" display_stop="111923740" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="111779349" stop="111782472" display_start="111779349" display_stop="111782472" Strand="-" />
+          </Location>
+          <OMIM>123590</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(?_111779478)_(111782458_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="111779478" innerStop="111782458" display_start="111779478" display_stop="111782458" variantLength="2981" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_111779478)_(111782458_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_111779478)_(111782458_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(?_111779478)_(111782458_?)del AND Dilated cardiomyopathy 1II" Accession="RCV001382021" Version="1">
+        <ClassifiedConditionList TraitSetID="9506">
+          <ClassifiedCondition DB="MedGen" ID="C3554649">Dilated cardiomyopathy 1II</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21337604</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9506" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17745" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Dilated cardiomyopathy 1II</ElementValue>
+                <XRef ID="MONDO:0014073" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMD1II</ElementValue>
+                <XRef Type="MIM" ID="615184" DB="OMIM" />
+              </Symbol>
+              <XRef ID="154" DB="Orphanet" />
+              <XRef ID="C3554649" DB="MedGen" />
+              <XRef ID="MONDO:0014073" DB="MONDO" />
+              <XRef Type="MIM" ID="615184" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3106223" SubmissionDate="2021-01-07" DateLastUpdated="2021-05-10" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_001885.2_11_Deletion (entire coding sequence)|MedGen:CN168962" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001580611" DateUpdated="2021-05-10" DateCreated="2021-05-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">21337604</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the CRYAB gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with CRYAB-related conditions. Loss-of-function variants in CRYAB are known to be pathogenic (PMID: 21337604). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CRYAB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_111779478)_(111782458_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN168962" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3106223" TraitType="Disease" MappingType="XRef" MappingValue="CN168962" MappingRef="MedGen">
+        <MedGen CUI="C3554649" Name="Dilated cardiomyopathy 1II" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

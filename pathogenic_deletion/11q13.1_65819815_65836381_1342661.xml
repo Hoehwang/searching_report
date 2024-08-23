@@ -1,0 +1,148 @@
+<VariationArchive VariationID="1342661" VariationName="NM_006842.3(SF3B2):c.1780-2del" VariationType="Deletion" Accession="VCV001342661" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2022-03-02" MostRecentSubmission="2023-07-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1334236" VariationID="1342661">
+      <GeneList>
+        <Gene Symbol="SF3B2" FullName="splicing factor 3b subunit 2" GeneID="10992" HGNC_ID="HGNC:10769" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="66052364" stop="66069308" display_start="66052364" display_stop="66069308" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="65819815" stop="65836381" display_start="65819815" display_stop="65836381" Strand="+" />
+          </Location>
+          <OMIM>605591</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006842.3(SF3B2):c.1780-2del</Name>
+      <CanonicalSPDI>NC_000011.10:66061683:A:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="66061684" stop="66061684" display_start="66061684" display_stop="66061684" variantLength="1" positionVCF="66061683" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="65829155" stop="65829155" display_start="65829155" display_stop="65829155" variantLength="1" positionVCF="65829154" referenceAlleleVCF="CA" alternateAlleleVCF="C" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.66061684del" Assembly="GRCh38">
+            <Expression>NC_000011.10:g.66061684del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.65829155del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.65829155del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006842.3" sequenceAccession="NM_006842" sequenceVersion="3" change="c.1780-2del" MANESelect="true">
+            <Expression>NM_006842.3:c.1780-2del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605591.0003" DB="OMIM" />
+        <XRef Type="rs" ID="2135050433" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006842.3(SF3B2):c.1780-2del AND Craniofacial microsomia 1" Accession="RCV004576998" Version="1">
+        <ClassifiedConditionList TraitSetID="2023">
+          <ClassifiedCondition DB="MedGen" ID="C3495417">Craniofacial microsomia 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-07-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-07-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-02" MostRecentSubmission="2023-07-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">34344887</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2023" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15829" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hemifacial microsomia</ElementValue>
+                <XRef ID="254025006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Craniofacial microsomia 1</ElementValue>
+                <XRef ID="MONDO:0958175" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CFM1</ElementValue>
+                <XRef Type="MIM" ID="164210" DB="OMIM" />
+              </Symbol>
+              <XRef ID="374" DB="Orphanet" />
+              <XRef ID="C3495417" DB="MedGen" />
+              <XRef ID="MONDO:0958175" DB="MONDO" />
+              <XRef Type="MIM" ID="164210" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4106218" SubmissionDate="2022-02-26" DateLastUpdated="2023-07-16" DateCreated="2022-03-02">
+        <ClinVarSubmissionID localKey="605591.0003_CRANIOFACIAL MICROSOMIA 1" title="SF3B2, 1-BP DEL, 1780-2A_CRANIOFACIAL MICROSOMIA 1" />
+        <ClinVarAccession Accession="SCV002099439" DateUpdated="2023-07-16" DateCreated="2022-03-02" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-07-13">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 10-year-old Asian-Indian boy (kindred 3) with craniofacial microsomia (CFM1; 164210), Timberlake et al. (2021) identified heterozygosity for a de novo splice site deletion (c.1780-2delA, NM_006842.2) in intron 15 of the SF3B2 gene. The mutation was not found in his unaffected parents or in the gnomAD database.</Attribute>
+              <Citation>
+                <ID Source="PubMed">34344887</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="164210" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SF3B2" />
+          </GeneList>
+          <Name>SF3B2, 1-BP DEL, 1780-2A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 1780-2A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605591.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CRANIOFACIAL MICROSOMIA 1</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4106218" TraitType="Disease" MappingType="Name" MappingValue="CRANIOFACIAL MICROSOMIA 1" MappingRef="Preferred">
+        <MedGen CUI="C3495417" Name="Craniofacial microsomia 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

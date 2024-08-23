@@ -1,0 +1,146 @@
+<VariationArchive RecordType="classified" VariationID="645368" VariationName="NC_000014.9:g.(?_74239552)_(74245298_?)del" VariationType="Deletion" Accession="VCV000645368" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2019-08-14" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="652424" VariationID="645368">
+      <GeneList>
+        <Gene Symbol="VSX2" FullName="visual system homeobox 2" GeneID="338917" HGNC_ID="HGNC:1975" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="74239449" stop="74262738" display_start="74239449" display_stop="74262738" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="74706174" stop="74729440" display_start="74706174" display_stop="74729440" Strand="+" />
+          </Location>
+          <OMIM>142993</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000014.9:g.(?_74239552)_(74245298_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" innerStart="74239552" innerStop="74245298" display_start="74239552" display_stop="74245298" variantLength="5747" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" innerStart="74706255" innerStop="74712001" display_start="74706255" display_stop="74712001" variantLength="5747" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.(?_74239552)_(74245298_?)del" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.(?_74239552)_(74245298_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.(?_74706255)_(74712001_?)del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.(?_74706255)_(74712001_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000014.9:g.(?_74239552)_(74245298_?)del AND Isolated microphthalmia 2" Accession="RCV000799426" Version="4">
+        <ClassifiedConditionList TraitSetID="4106">
+          <ClassifiedCondition DB="MedGen" ID="C1864720">Isolated microphthalmia 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20414678</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="4106" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2792" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Isolated microphthalmia 2</ElementValue>
+                <XRef ID="MONDO:0012409" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MCOP2</ElementValue>
+                <XRef Type="MIM" ID="610093" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">VSX2-Related Isolated Microphthalmia</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">ANOPHTHALMIA, CLINICAL, ISOLATED</Attribute>
+                <XRef Type="MIM" ID="610093" DB="OMIM" />
+              </AttributeSet>
+              <XRef ID="2542" DB="Orphanet" />
+              <XRef ID="C1864720" DB="MedGen" />
+              <XRef ID="MONDO:0012409" DB="MONDO" />
+              <XRef Type="MIM" ID="610093" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1832979" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="NM_182894.2_14_Deletion (exons 1-3)|MedGen:C1864720" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000939087" DateUpdated="2023-11-11" DateCreated="2019-08-14" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">20414678</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 1-3 of the VSX2 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 3 of the VSX2 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with VSX2-related disease. Loss-of-function variants in VSX2 are known to be pathogenic (PMID: 20414678). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="VSX2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000014.8:g.(?_74706255)_(74712001_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1864720" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1832979" TraitType="Disease" MappingType="XRef" MappingValue="C1864720" MappingRef="MedGen">
+        <MedGen CUI="C1864720" Name="Isolated microphthalmia 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,146 @@
+<VariationArchive RecordType="classified" VariationID="48650" VariationName="NM_032415.5(CARD11):c.2704-890_2839+352del" VariationType="Deletion" Accession="VCV000048650" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2017-08-27" MostRecentSubmission="2017-08-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="57812" VariationID="48650">
+      <GeneList>
+        <Gene Symbol="CARD11" FullName="caspase recruitment domain family member 11" GeneID="84433" HGNC_ID="HGNC:16393" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="2906142" stop="3043867" display_start="2906142" display_stop="3043867" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="2945708" stop="3083508" display_start="2945708" display_stop="3083508" Strand="-" />
+          </Location>
+          <OMIM>607210</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_032415.5(CARD11):c.2704-890_2839+352del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" outerStart="2914850" innerStart="2914885" innerStop="2916227" outerStop="2916262" display_start="2914850" display_stop="2916262" variantLength="1343" Strand="-" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.(2914850_2914885)_(2916227_2916262)del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.(2914850_2914885)_(2916227_2916262)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv7487159" DB="dbVar" />
+        <XRef ID="nsv1197536" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="607210.0004" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">1,377-nt genomic deletion of exon 21 from CARD11 plus flanking intronic sequences.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 23374270 Fig. 3 to determine the location of this allele on the current reference sequence.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_032415.5(CARD11):c.2704-890_2839+352del AND Severe combined immunodeficiency due to CARD11 deficiency" Accession="RCV000041971" Version="6">
+        <ClassifiedConditionList TraitSetID="9610">
+          <ClassifiedCondition DB="MedGen" ID="C3554686">Severe combined immunodeficiency due to CARD11 deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2013-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2013-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-08-27" MostRecentSubmission="2017-08-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23374270</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9610" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17786" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Immunodeficiency 11</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IMMUNODEFICIENCY 11A</ElementValue>
+                <XRef Type="MIM" ID="615206" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607210.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607210.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to CARD11 deficiency</ElementValue>
+                <XRef ID="MONDO:0014081" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD11A</ElementValue>
+                <XRef Type="MIM" ID="615206" DB="OMIM" />
+              </Symbol>
+              <XRef ID="357237" DB="Orphanet" />
+              <XRef ID="C3554686" DB="MedGen" />
+              <XRef ID="MONDO:0014081" DB="MONDO" />
+              <XRef Type="MIM" ID="615206" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="113850" SubmissionDate="2017-08-22" DateLastUpdated="2017-08-27" DateCreated="2013-05-03">
+        <ClinVarSubmissionID localKey="607210.0004_IMMUNODEFICIENCY 11A" title="CARD11, 1,377-BP DEL_IMMUNODEFICIENCY 11A" />
+        <ClinVarAccession Accession="SCV000065674" DateUpdated="2017-08-27" DateCreated="2013-05-03" Type="SCV" Version="4" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2013-02-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a girl, born of consanguineous parents of Palestinian descent, with immunodeficiency-11A (IMD11A; 615206), Stepensky et al. (2013) identified a homozygous 1,377-bp genomic deletion in the CARD11 gene, resulting in the deletion of exon 21. The deletion was flanked by a stretch of 36 identical basepairs. The mutation, which was identified by exome sequencing and Sanger sequencing, was present in heterozygosity in each of the unaffected parents. No protein could be detected in patient cells, indicating a complete loss of protein expression. The patient presented in infancy with recurrent respiratory infections and later developed P. jirovecii pneumonia. Two sibs had died in infancy with recurrent infections. Laboratory studies of the proband showed hypogammaglobulinemia with normal numbers of B and T cells. Flow cytometric studies showed decreased numbers of regulatory T cells and reduced numbers of differentiated T cells compared to naive cells. B cells were predominantly transitional cells, with decreased numbers of differentiated B cells. Patient lymphocytes showed defective NFKB signaling upon activation. The abrogated activation of the canonical NFKB pathway was associated with severely impaired upregulation of inducible T-cell costimulator (604558), OX40 (600315), cytokine production, T-cell proliferation, and B cell-activating factor receptor expression on B cells. The patient underwent successful bone marrow transplantation.</Attribute>
+              <Citation>
+                <ID Source="PubMed">23374270</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="615206" Type="MIM" />
+              <XRef DB="OMIM" ID="604558" Type="MIM" />
+              <XRef DB="OMIM" ID="600315" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CARD11" />
+          </GeneList>
+          <Name>CARD11, 1,377-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1,377-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="607210.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">IMMUNODEFICIENCY 11A</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="113850" TraitType="Disease" MappingType="Name" MappingValue="IMMUNODEFICIENCY 11A" MappingRef="Preferred">
+        <MedGen CUI="C3554686" Name="Severe combined immunodeficiency due to CARD11 deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

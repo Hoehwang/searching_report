@@ -1,0 +1,165 @@
+<VariationArchive VariationID="1709011" VariationName="NM_000102.4(CYP17A1):c.438_439del (p.Ile146fs)" VariationType="Deletion" Accession="VCV001709011" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2022-10-15" MostRecentSubmission="2022-10-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1707365" VariationID="1709011">
+      <GeneList>
+        <Gene Symbol="CYP17A1" FullName="cytochrome P450 family 17 subfamily A member 1" GeneID="1586" HGNC_ID="HGNC:2593" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q24.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="102830531" stop="102837413" display_start="102830531" display_stop="102837413" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="104590287" stop="104597289" display_start="104590287" display_stop="104597289" Strand="-" />
+          </Location>
+          <OMIM>609300</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000102.4(CYP17A1):c.438_439del (p.Ile146fs)</Name>
+      <CanonicalSPDI>NC_000010.11:102835011:AAA:A</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q24.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="102835012" stop="102835013" display_start="102835012" display_stop="102835013" variantLength="2" positionVCF="102835011" referenceAlleleVCF="CAA" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="104594769" stop="104594770" display_start="104594769" display_stop="104594770" variantLength="2" positionVCF="104594768" referenceAlleleVCF="CAA" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>I146fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.104594770_104594771del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.104594770_104594771del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.102835013_102835014del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.102835013_102835014del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007955.1" sequenceAccession="NG_007955" sequenceVersion="1" change="g.7521_7522del">
+            <Expression>NG_007955.1:g.7521_7522del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000102.4" sequenceAccession="NM_000102" sequenceVersion="4" change="c.438_439del" MANESelect="true">
+            <Expression>NM_000102.4:c.438_439del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000093.1" sequenceAccession="NP_000093" sequenceVersion="1" change="p.Ile146fs">
+            <Expression>NP_000093.1:p.Ile146fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000102.4(CYP17A1):c.438_439del (p.Ile146fs) AND Deficiency of steroid 17-alpha-monooxygenase" Accession="RCV002288295" Version="2">
+        <ClassifiedConditionList TraitSetID="6417">
+          <ClassifiedCondition DB="MedGen" ID="C0268285">Deficiency of steroid 17-alpha-monooxygenase</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-10-15" MostRecentSubmission="2022-10-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6417" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="185" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ADRENAL HYPERPLASIA V</ElementValue>
+                <XRef Type="MIM" ID="202110" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Deficiency of steroid 17-alpha-monooxygenase</ElementValue>
+                <XRef ID="124220008" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">17-alpha-hydroxylase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency</ElementValue>
+                <XRef ID="MONDO:0008730" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital adrenal hyperplasia type 5</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">17-alpha-hydroxylase/17,20-lyase deficiency</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1469" />
+                <XRef ID="1469" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="90793" DB="Orphanet" />
+              <XRef ID="C0268285" DB="MedGen" />
+              <XRef ID="MONDO:0008730" DB="MONDO" />
+              <XRef Type="MIM" ID="202110" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5041314" SubmissionDate="2022-10-06" DateLastUpdated="2022-10-15" DateCreated="2022-10-15">
+        <ClinVarSubmissionID localKey="NM_000102.4:c.438_439del|OMIM:202110" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002579751" DateUpdated="2022-10-15" DateCreated="2022-10-15" Type="SCV" Version="1" SubmitterName="MGZ Medical Genetics Center" OrgID="255845" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CYP17A1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000102.4:c.438_439del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="202110" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>ACMG criteria applied: PVS1, PM3, PM2_SUP</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB12035528</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5041314" TraitType="Disease" MappingType="XRef" MappingValue="202110" MappingRef="OMIM">
+        <MedGen CUI="C0268285" Name="Deficiency of steroid 17-alpha-monooxygenase" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

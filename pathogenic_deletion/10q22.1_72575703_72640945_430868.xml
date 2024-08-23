@@ -1,0 +1,187 @@
+<VariationArchive RecordType="classified" VariationID="430868" VariationName="NM_003901.4(SGPL1):c.934del (p.Leu312fs)" VariationType="Deletion" Accession="VCV000430868" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2018-07-21" MostRecentSubmission="2023-08-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="424413" VariationID="430868">
+      <GeneList>
+        <Gene Symbol="SGPL1" FullName="sphingosine-1-phosphate lyase 1" GeneID="8879" HGNC_ID="HGNC:10817" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="70815948" stop="70881184" display_start="70815948" display_stop="70881184" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="72575703" stop="72640945" display_start="72575703" display_stop="72640945" Strand="+" />
+          </Location>
+          <OMIM>603729</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003901.4(SGPL1):c.934del (p.Leu312fs)</Name>
+      <CanonicalSPDI>NC_000010.11:70871857:CCCC:CCC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="70871858" stop="70871858" display_start="70871858" display_stop="70871858" variantLength="1" positionVCF="70871857" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="72631615" stop="72631615" display_start="72631615" display_stop="72631615" variantLength="1" positionVCF="72631614" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>L312fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.72631618del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.72631618del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.70871861del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.70871861del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003901.4" sequenceAccession="NM_003901" sequenceVersion="4" change="c.934del" MANESelect="true">
+            <Expression>NM_003901.4:c.934del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003892.2" sequenceAccession="NP_003892" sequenceVersion="2" change="p.Leu312fs">
+            <Expression>NP_003892.2:p.Leu312fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372501" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="603729.0008" DB="OMIM" />
+        <XRef Type="rs" ID="1131692235" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003901.4(SGPL1):c.934del (p.Leu312fs) AND Nephrotic syndrome 14" Accession="RCV000495966" Version="5">
+        <ClassifiedConditionList TraitSetID="36864">
+          <ClassifiedCondition DB="MedGen" ID="C4540559">Nephrotic syndrome 14</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-07-21" MostRecentSubmission="2023-08-29">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">28181337</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="36864" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37939" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RENI SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="617575" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0009" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603729.0008" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RENAL, ENDOCRINE, NEUROLOGIC, AND IMMUNE SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="617575" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Nephrotic syndrome 14</ElementValue>
+                <XRef ID="MONDO:0033203" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPLIS</ElementValue>
+                <XRef Type="MIM" ID="617575" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">RENI</ElementValue>
+                <XRef Type="MIM" ID="617575" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">NPHS14</ElementValue>
+                <XRef Type="MIM" ID="617575" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13818" />
+                <XRef ID="13818" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Sphingosine phosphate lyase insufficiency syndrome (SPLIS) is characterized by varying combinations of steroid-resistant nephrotic syndrome (ranging from nonimmune fetal hydrops to adolescent onset), primary adrenal insufficiency (with or without mineralocorticoid deficiency), testicular insufficiency, hypothyroidism, ichthyosis, lymphopenia/immunodeficiency, and neurologic abnormalities that can include developmental delay, regression / progressive neurologic involvement, cranial nerve deficits, and peripheral motor and sensory neuropathy.</Attribute>
+                <XRef ID="NBK562988" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">33074640</ID>
+                <ID Source="BookShelf">NBK562988</ID>
+              </Citation>
+              <XRef ID="506334" DB="Orphanet" />
+              <XRef ID="C4540559" DB="MedGen" />
+              <XRef ID="MONDO:0033203" DB="MONDO" />
+              <XRef Type="MIM" ID="617575" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1139035" SubmissionDate="2018-07-18" DateLastUpdated="2023-08-29" DateCreated="2017-07-24">
+        <ClinVarSubmissionID localKey="603729.0008_RENI SYNDROME" title="SGPL1, 1-BP DEL, 934C_RENI SYNDROME" />
+        <ClinVarAccession Accession="SCV000584003" DateUpdated="2023-08-29" DateCreated="2017-07-24" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a male patient, born of consanguineous parents, with RENI syndrome (RENI; 617575), Janecke et al. (2017) identified a homozygous 1-bp deletion (c.934delC, NM_003901.3) in the SGPL1 gene, resulting in a frameshift and premature termination (Leu312PhefsTer30). The mutation, which was found by whole-exome sequencing and confirmed by Sanger sequencing, segregated with the disorder in the family. It was not found in the dbSNP, Exome Sequencing Project, or ExAC databases. The mutation was predicted to result in nonsense-mediated mRNA decay and a loss of function. The levels of SGPL1 substrates, S1P, and sphingosine were markedly increased in the patient's blood and fibroblasts.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28181337</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617575" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SGPL1" />
+          </GeneList>
+          <Name>SGPL1, 1-BP DEL, 934C</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 934C</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603729.0008" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">RENI SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1139035" TraitType="Disease" MappingType="Name" MappingValue="RENI SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C4540559" Name="Nephrotic syndrome 14" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

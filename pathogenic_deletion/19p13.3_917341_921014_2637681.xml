@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="2637681" VariationName="NC_000019.9:g.(?_917332)_(921006_?)del" VariationType="Deletion" Accession="VCV002637681" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-25" DateCreated="2023-11-20" MostRecentSubmission="2023-11-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2805158" VariationID="2637681">
+      <GeneList>
+        <Gene Symbol="KISS1R" FullName="KISS1 receptor" GeneID="84634" HGNC_ID="HGNC:4510" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="917333" stop="921005" display_start="917333" display_stop="921005" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="917341" stop="921014" display_start="917341" display_stop="921014" Strand="+" />
+          </Location>
+          <OMIM>604161</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.9:g.(?_917332)_(921006_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" innerStart="917332" innerStop="921006" display_start="917332" display_stop="921006" variantLength="3675" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_917332)_(921006_?)del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_917332)_(921006_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.9:g.(?_917332)_(921006_?)del AND Hypogonadotropic hypogonadism 8 with or without anosmia" Accession="RCV003404979" Version="1">
+        <ClassifiedConditionList TraitSetID="8907">
+          <ClassifiedCondition DB="MedGen" ID="C3553841">Hypogonadotropic hypogonadism 8 with or without anosmia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-10-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-10-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-11-20" MostRecentSubmission="2023-11-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8907" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17378" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypogonadotropic hypogonadism 8 with or without anosmia</ElementValue>
+                <XRef ID="MONDO:0013910" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HYPOGONADOTROPIC HYPOGONADISM 8 WITH ANOSMIA, SUSCEPTIBILITY TO</ElementValue>
+                <XRef Type="Allelic variant" ID="604161.0007" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HH8</ElementValue>
+                <XRef Type="MIM" ID="614837" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Isolated gonadotropin-releasing hormone (GnRH) deficiency (IGD) is characterized by inappropriately low serum concentrations of the gonadotropins LH (luteinizing hormone) and FSH (follicle-stimulating hormone) in the presence of low circulating concentrations of sex steroids. IGD is associated with a normal sense of smell (normosmic IGD) in approximately 40% of affected individuals and an impaired sense of smell (Kallmann syndrome) in approximately 60%. IGD can first become apparent in infancy, adolescence, or adulthood. Infant boys with congenital IGD often have micropenis and cryptorchidism. Adolescents and adults with IGD have clinical evidence of hypogonadism and incomplete sexual maturation on physical examination. Adult males with IGD tend to have prepubertal testicular volume (i.e., &lt;4 mL), absence of secondary sexual features (e.g., facial and axillary hair growth, deepening of the voice), decreased muscle mass, diminished libido, erectile dysfunction, and infertility. Adult females have little or no breast development and primary amenorrhea. Although skeletal maturation is delayed, the rate of linear growth is usually normal except for the absence of a distinct pubertal growth spurt.</Attribute>
+                <XRef ID="NBK1334" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15849" />
+                <XRef ID="15849" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301509</ID>
+                <ID Source="BookShelf">NBK1334</ID>
+              </Citation>
+              <XRef ID="478" DB="Orphanet" />
+              <XRef ID="C3553841" DB="MedGen" />
+              <XRef ID="MONDO:0013910" DB="MONDO" />
+              <XRef Type="MIM" ID="614837" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7702452" SubmissionDate="2023-11-14" DateLastUpdated="2023-11-20" DateCreated="2023-11-20">
+        <ClinVarSubmissionID localKey="NC_000019.9:g.(?_917332)_(921006_?)del|MedGen:C3553841" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004122775" DateUpdated="2023-11-20" DateCreated="2023-11-20" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-10-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 1-5 (i.e. the full coding sequence) of the KISS1R gene. Since the exact breakpoints of this deletion are not known, it might extend beyond the assayed region of the gene and include other flanking genes. A presumed nomenclature of c.(?_-171)_(*258_?)del has been designated for the purposes of this classification. The variant was absent in 21694 control chromosomes in the gnomAD database (structural variants dataset). To our knowledge, no occurrence of c.(?_-171)_(*258_?)del in individuals affected with Hypogonadotropic Hypogonadism 8 With Or Without Anosmia and no experimental evidence demonstrating its impact on protein function have been reported. No submitters have cited clinical-significance assessments for this variant to ClinVar after 2014. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KISS1R" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000019.9:g.(?_917332)_(921006_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3553841" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13972740</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7702452" TraitType="Disease" MappingType="XRef" MappingValue="C3553841" MappingRef="MedGen">
+        <MedGen CUI="C3553841" Name="Hypogonadotropic hypogonadism 8 with or without anosmia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

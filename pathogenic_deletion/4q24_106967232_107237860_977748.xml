@@ -1,0 +1,298 @@
+<VariationArchive RecordType="classified" VariationID="977748" VariationName="NC_000004.12:g.106168703_106217941del" VariationType="Deletion" Accession="VCV000977748" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-19" DateCreated="2020-09-14" MostRecentSubmission="2020-09-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="965887" VariationID="977748">
+      <GeneList>
+        <Gene Symbol="TBCK" FullName="TBC1 domain containing kinase" GeneID="93627" HGNC_ID="HGNC:28261" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>4q24</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="106041599" stop="106316683" display_start="106041599" display_stop="106316683" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="106967232" stop="107237860" display_start="106967232" display_stop="107237860" Strand="-" />
+          </Location>
+          <OMIM>616899</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000004.12:g.106168703_106217941del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000004.12:g.106168703_106217941del AND Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" Accession="RCV001255612" Version="2">
+        <ClassifiedConditionList TraitSetID="26499">
+          <ClassifiedCondition DB="MedGen" ID="C5567480">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-02-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-02-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-09-14" MostRecentSubmission="2020-09-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="26499" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35280" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ElementValue>
+                <XRef ID="MONDO:0014823" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IHPRF3</ElementValue>
+                <XRef Type="MIM" ID="616900" DB="OMIM" />
+              </Symbol>
+              <XRef ID="488632" DB="Orphanet" />
+              <XRef ID="C5567480" DB="MedGen" />
+              <XRef ID="MONDO:0014823" DB="MONDO" />
+              <XRef Type="MIM" ID="616900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2827869" SubmissionDate="2020-05-20" DateLastUpdated="2020-09-14" DateCreated="2020-09-14">
+        <ClinVarSubmissionID localKey="348e5b44-121f-4326-b87b-86f8754d3be8_1|OMIM:616900" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV001432139" DateUpdated="2020-09-14" DateCreated="2020-09-14" Type="SCV" Version="1" SubmitterName="Undiagnosed Diseases Network, NIH" OrgID="505999" OrganizationCategory="consortium" OrgAbbreviation="UDN" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-02-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant was found in compound heterozygous state with NM_001163436.2:c.456-2A&gt;G likely pathogenic variant.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Ethnicity>South East Asian</Ethnicity>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">Trio genome</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2020-02-12" integerValue="1006">Baylor Genetics</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Ventilator dependence with inability to wean</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0005946" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Tracheomalacia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002779" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Respiratory failure requiring assisted ventilation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004887" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Patent foramen ovale</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001655" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Laryngomalacia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001601" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Intellectual disability</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hydrocephalus</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000238" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Generalized hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001290" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gastrostomy tube feeding in infancy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011471" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gastroesophageal reflux</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002020" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Flexion contracture of finger</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012785" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Feeding difficulties</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011968" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Extra-axial cerebrospinal fluid accumulation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012510" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">EEG with generalized slow activity</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010845" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Coarse facial features</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000280" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Cortical visual impairment</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100704" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Cardiac arrest</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001695" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TBCK" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001163436.2:c.1775-5106_2235+2392del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>Undiagnosed Diseases Network (NIH), UDN</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB7478250</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Extra-axial cerebrospinal fluid accumulation" MappingRef="Preferred">
+        <MedGen CUI="C4022871" Name="Extra-axial cerebrospinal fluid accumulation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Respiratory failure requiring assisted ventilation" MappingRef="Preferred">
+        <MedGen CUI="C4025279" Name="Respiratory failure requiring assisted ventilation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="EEG with generalized slow activity" MappingRef="Preferred">
+        <MedGen CUI="C4021217" Name="EEG with generalized slow activity" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Gastroesophageal reflux" MappingRef="Preferred">
+        <MedGen CUI="C4317146" Name="Gastroesophageal reflux" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Gastrostomy tube feeding in infancy" MappingRef="Preferred">
+        <MedGen CUI="C4023342" Name="Gastrostomy tube feeding in infancy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Hydrocephalus" MappingRef="Preferred">
+        <MedGen CUI="C0020255" Name="Hydrocephalus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Patent foramen ovale" MappingRef="Preferred">
+        <MedGen CUI="C0016522" Name="Patent foramen ovale" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Cardiac arrest" MappingRef="Preferred">
+        <MedGen CUI="C0018790" Name="Cardiac arrest" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Flexion contracture of finger" MappingRef="Preferred">
+        <MedGen CUI="C1857304" Name="Flexion contracture of finger" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Ventilator dependence with inability to wean" MappingRef="Preferred">
+        <MedGen CUI="C4025097" Name="Ventilator dependence with inability to wean" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Cortical visual impairment" MappingRef="Preferred">
+        <MedGen CUI="C4048268" Name="Cerebral visual impairment" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Generalized hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C1858120" Name="Generalized hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Feeding difficulties" MappingRef="Preferred">
+        <MedGen CUI="C0232466" Name="Feeding difficulties" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Tracheomalacia" MappingRef="Preferred">
+        <MedGen CUI="C0948187" Name="Tracheomalacia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Disease" MappingType="XRef" MappingValue="616900" MappingRef="OMIM">
+        <MedGen CUI="C5567480" Name="Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Coarse facial features" MappingRef="Preferred">
+        <MedGen CUI="C1845847" Name="Coarse facial features" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Laryngomalacia" MappingRef="Preferred">
+        <MedGen CUI="C0264303" Name="Congenital laryngomalacia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2827869" TraitType="Finding" MappingType="Name" MappingValue="Global developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

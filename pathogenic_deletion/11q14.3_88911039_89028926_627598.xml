@@ -1,0 +1,158 @@
+<VariationArchive VariationID="627598" VariationName="NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del" VariationType="Deletion" Accession="VCV000627598" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2019-09-28" MostRecentSubmission="2019-09-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="615966" VariationID="627598">
+      <GeneList>
+        <Gene Symbol="TYR" FullName="tyrosinase" GeneID="7299" HGNC_ID="HGNC:12442" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q14.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="89177875" stop="89295759" display_start="89177875" display_stop="89295759" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="88911039" stop="89028926" display_start="88911039" display_stop="89028926" Strand="+" />
+          </Location>
+          <OMIM>606933</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q14.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" outerStart="88911941" innerStart="88911969" innerStop="88961139" outerStop="89017940" display_start="88911941" display_stop="89017940" variantLength="49171" />
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" outerStart="89178773" innerStart="89178801" innerStop="89227971" outerStop="89284772" display_start="89178773" display_stop="89284772" variantLength="49171" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.(89178773_89178801)_(89227971_89284772)del" Assembly="GRCh38">
+            <Expression>NC_000011.10:g.(89178773_89178801)_(89227971_89284772)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(88911941_88911969)_(88961139_89017940)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del AND Tyrosinase-negative oculocutaneous albinism" Accession="RCV000851374" Version="2">
+        <ClassifiedConditionList TraitSetID="1042">
+          <ClassifiedCondition DB="MedGen" ID="C4551504">Tyrosinase-negative oculocutaneous albinism</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-03-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-03-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-09-28" MostRecentSubmission="2019-09-28">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1042" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="96" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Oculocutaneous albinism type 1A</ElementValue>
+                <XRef ID="Oculocutaneous+Albinism+Type+1A/9639" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0008745" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Tyrosinase-negative oculocutaneous albinism</ElementValue>
+                <XRef ID="6483008" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Albinism, oculocutaneous, type IA</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">OCA1A</ElementValue>
+                <XRef Type="MIM" ID="203100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ATN</ElementValue>
+                <XRef Type="MIM" ID="203100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000520184" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16721" />
+                <XRef ID="16721" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">37053367</ID>
+                <ID Source="BookShelf">NBK590568</ID>
+              </Citation>
+              <XRef ID="352731" DB="Orphanet" />
+              <XRef ID="79431" DB="Orphanet" />
+              <XRef ID="C4551504" DB="MedGen" />
+              <XRef ID="MONDO:0008745" DB="MONDO" />
+              <XRef Type="MIM" ID="203100" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1770372" SubmissionDate="2019-03-26" DateLastUpdated="2019-09-28" DateCreated="2019-09-28">
+        <ClinVarSubmissionID localKey="NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del|OMIM:203100" submittedAssembly="not applicable" />
+        <ClinVarAccession Accession="SCV000902465" DateUpdated="2019-09-28" DateCreated="2019-09-28" Type="SCV" Version="1" SubmitterName="Center of Medical Genetics, Central South University" OrgID="506608" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-03-26">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TYR" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_000372.4:exon 2-3</GeneLocation>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(88911941_88911969)_(88961139_89017940)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="203100" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5364475</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1770372" TraitType="Disease" MappingType="XRef" MappingValue="203100" MappingRef="OMIM">
+        <MedGen CUI="C4551504" Name="Tyrosinase-negative oculocutaneous albinism" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

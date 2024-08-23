@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="1321213" VariationName="NM_024640.4(YRDC):c.721_724del (p.Val241fs)" VariationType="Deletion" Accession="VCV001321213" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-11-29" MostRecentSubmission="2021-11-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1311456" VariationID="1321213">
+      <GeneList>
+        <Gene Symbol="YRDC" FullName="yrdC N6-threonylcarbamoyltransferase domain containing" GeneID="79693" HGNC_ID="HGNC:28905" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p34.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="37802945" stop="37808208" display_start="37802945" display_stop="37808208" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="38268613" stop="38273864" display_start="38268613" display_stop="38273864" Strand="-" />
+          </Location>
+          <OMIM>612276</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_024640.4(YRDC):c.721_724del (p.Val241fs)</Name>
+      <CanonicalSPDI>NC_000001.11:37804344:CAACCA:CA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p34.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="37804345" stop="37804348" display_start="37804345" display_stop="37804348" variantLength="4" positionVCF="37804344" referenceAlleleVCF="TCAAC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="38270017" stop="38270020" display_start="38270017" display_stop="38270020" variantLength="4" positionVCF="38270016" referenceAlleleVCF="TCAAC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>V241fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.38270019_38270022del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.38270019_38270022del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.37804347_37804350del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.37804347_37804350del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024640.4" sequenceAccession="NM_024640" sequenceVersion="4" change="c.721_724del" MANESelect="true">
+            <Expression>NM_024640.4:c.721_724del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_078916.3" sequenceAccession="NP_078916" sequenceVersion="3" change="p.Val241fs">
+            <Expression>NP_078916.3:p.Val241fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="612276.0002" DB="OMIM" />
+        <XRef Type="rs" ID="747256043" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_024640.4(YRDC):c.721_724del (p.Val241fs) AND Galloway-Mowat syndrome 10" Accession="RCV001777188" Version="1">
+        <ClassifiedConditionList TraitSetID="70854">
+          <ClassifiedCondition DB="MedGen" ID="C5562020">Galloway-Mowat syndrome 10</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-11-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-11-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-29" MostRecentSubmission="2021-11-29">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31481669</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="70854" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57650" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Galloway-Mowat syndrome 10</ElementValue>
+                <XRef ID="MONDO:0030476" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GAMOS10</ElementValue>
+                <XRef Type="MIM" ID="619609" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5562020" DB="MedGen" />
+              <XRef ID="MONDO:0030476" DB="MONDO" />
+              <XRef Type="MIM" ID="619609" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3955060" SubmissionDate="2021-11-10" DateLastUpdated="2021-11-29" DateCreated="2021-11-29">
+        <ClinVarSubmissionID localKey="612276.0002_GALLOWAY-MOWAT SYNDROME 10" title="YRDC, 4-BP DEL, NT721_GALLOWAY-MOWAT SYNDROME 10" />
+        <ClinVarAccession Accession="SCV002014602" DateUpdated="2021-11-29" DateCreated="2021-11-29" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-11-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 4-bp deletion (c.721_724del, NM_024640.3), in the YRDC gene, resulting in a frameshift and premature termination (Val241IlefsTer72), that was found in compound heterozygous state in a patient with Galloway-Mowat syndrome-10 (GAMOS10; 619609) by Arrondel et al. (2019), see 612276.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">31481669</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619609" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="YRDC" />
+          </GeneList>
+          <Name>YRDC, 4-BP DEL, NT721</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">4-BP DEL, NT721</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="612276.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">GALLOWAY-MOWAT SYNDROME 10</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3955060" TraitType="Disease" MappingType="Name" MappingValue="GALLOWAY-MOWAT SYNDROME 10" MappingRef="Preferred">
+        <MedGen CUI="C5562020" Name="Galloway-Mowat syndrome 10" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

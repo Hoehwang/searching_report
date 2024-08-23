@@ -1,0 +1,166 @@
+<VariationArchive VariationID="525588" VariationName="NC_000015.10:g.(?_55430650)_(55432622_?)del" VariationType="Deletion" Accession="VCV000525588" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="528570" VariationID="525588">
+      <GeneList>
+        <Gene Symbol="DNAAF4" FullName="dynein axonemal assembly factor 4" GeneID="161582" HGNC_ID="HGNC:21493" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="55417755" stop="55508234" display_start="55417755" display_stop="55508234" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="55709952" stop="55800431" display_start="55709952" display_stop="55800431" Strand="-" />
+          </Location>
+          <OMIM>608706</OMIM>
+        </Gene>
+        <Gene Symbol="DNAAF4-CCPG1" FullName="DNAAF4-CCPG1 readthrough (NMD candidate)" GeneID="100533483" HGNC_ID="HGNC:43019" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="55355223" stop="55498584" display_start="55355223" display_stop="55498584" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.10:g.(?_55430650)_(55432622_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" innerStart="55430650" innerStop="55432622" display_start="55430650" display_stop="55432622" variantLength="1973" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" innerStart="55722848" innerStop="55724820" display_start="55722848" display_stop="55724820" variantLength="1973" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.(?_55430650)_(55432622_?)del" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.(?_55430650)_(55432622_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(?_55722848)_(55724820_?)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(?_55722848)_(55724820_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.10:g.(?_55430650)_(55432622_?)del AND Primary ciliary dyskinesia" Accession="RCV000629668" Version="3">
+        <ClassifiedConditionList TraitSetID="8944">
+          <ClassifiedCondition DB="MedGen" ID="C0008780">Primary ciliary dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-04-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-04-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8944" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15219" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia</ElementValue>
+                <XRef ID="Primary+ciliary+dyskinesia/5941" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0016575" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ciliary dyskinesia</ElementValue>
+                <XRef ID="HP:0012265" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ICS</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PCD</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4484" />
+                <XRef ID="4484" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="PCD Foundation, 2016">
+                <ID Source="pmc">4912005</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C0008780" DB="MedGen" />
+              <XRef ID="MONDO:0016575" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0012265" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1459971" SubmissionDate="2018-08-29" DateLastUpdated="2018-10-10" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="2622168|MedGen:C0008780" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000750624" DateUpdated="2018-10-10" DateCreated="2018-05-28" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-04-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 9-10 of the DYX1C1 gene. The 5' boundary is likely confined to intron 8. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. Deletion of exons 9-10 has not been reported in the literature in individuals with a DYX1C1-related disease. However, this variant has been observed in the homozygous state, or with a pathogenic variant (deletion of exon 7) in DYX1C1, in individuals with primary ciliary dyskinesia (Invitae). These observations suggest that deletion of exons 9-10 contributes to the cause of disease. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DYX1C1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(?_55722848)_(55724820_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Ciliary dyskinesia</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0008780" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1459971" TraitType="Disease" MappingType="Name" MappingValue="Ciliary dyskinesia" MappingRef="Preferred">
+        <MedGen CUI="C0008780" Name="Primary ciliary dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

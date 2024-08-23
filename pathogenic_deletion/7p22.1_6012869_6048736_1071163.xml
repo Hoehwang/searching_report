@@ -1,0 +1,125 @@
+<VariationArchive RecordType="classified" VariationID="1071163" VariationName="NC_000007.13:g.(?_6026380)_(6043699_?)del" VariationType="Deletion" Accession="VCV001071163" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-17" DateCreated="2021-05-10" MostRecentSubmission="2022-05-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1057291" VariationID="1071163">
+      <GeneList>
+        <Gene Symbol="PMS2" FullName="PMS1 homolog 2, mismatch repair system component" GeneID="5395" HGNC_ID="HGNC:9122" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7p22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="5970925" stop="6009106" display_start="5970925" display_stop="6009106" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="6012869" stop="6048736" display_start="6012869" display_stop="6048736" Strand="-" />
+          </Location>
+          <OMIM>600259</OMIM>
+          <Haploinsufficiency last_evaluated="2015-11-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMS2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2015-11-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMS2">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.13:g.(?_6026380)_(6043699_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="6026380" innerStop="6043699" display_start="6026380" display_stop="6043699" variantLength="17320" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_6026380)_(6043699_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_6026380)_(6043699_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.13:g.(?_6026380)_(6043699_?)del AND Hereditary nonpolyposis colorectal neoplasms" Accession="RCV001383544" Version="4">
+        <ClassifiedConditionList TraitSetID="37727">
+          <ClassifiedCondition DB="MedGen" ID="C0009405">Hereditary nonpolyposis colorectal neoplasms</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2022-05-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37727" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38245" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hereditary nonpolyposis colorectal neoplasms</ElementValue>
+                <XRef ID="D003123" DB="MeSH" />
+              </Name>
+              <XRef ID="C0009405" DB="MedGen" />
+              <XRef ID="D003123" DB="MeSH" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3108329" SubmissionDate="2022-05-04" DateLastUpdated="2022-05-16" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_000535.5_7_Deletion (exons 3-11)|MedGen:C0009405" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001582703" DateUpdated="2022-05-16" DateCreated="2021-05-10" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PMS2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_6026380)_(6043699_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0009405" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3108329" TraitType="Disease" MappingType="XRef" MappingValue="C0009405" MappingRef="MedGen">
+        <MedGen CUI="C0009405" Name="Hereditary nonpolyposis colorectal neoplasms" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

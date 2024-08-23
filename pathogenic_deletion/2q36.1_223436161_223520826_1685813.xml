@@ -1,0 +1,166 @@
+<VariationArchive RecordType="classified" VariationID="1685813" VariationName="NM_005687.5(FARSB):c.1408del (p.Leu470fs)" VariationType="Deletion" Accession="VCV001685813" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1677827" VariationID="1685813">
+      <GeneList>
+        <Gene Symbol="FARSB" FullName="phenylalanyl-tRNA synthetase subunit beta" GeneID="10056" HGNC_ID="HGNC:17800" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q36.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="222566899" stop="222656092" display_start="222566899" display_stop="222656092" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="223436161" stop="223520826" display_start="223436161" display_stop="223520826" Strand="-" />
+          </Location>
+          <OMIM>609690</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005687.5(FARSB):c.1408del (p.Leu470fs)</Name>
+      <CanonicalSPDI>NC_000002.12:222613864:GGGG:GGG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q36.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="222613865" stop="222613865" display_start="222613865" display_stop="222613865" variantLength="1" positionVCF="222613864" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="223478584" stop="223478584" display_start="223478584" display_stop="223478584" variantLength="1" positionVCF="223478583" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>L470fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.223478587del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.223478587del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.222613868del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.222613868del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005687.5" sequenceAccession="NM_005687" sequenceVersion="5" change="c.1408del" MANESelect="true">
+            <Expression>NM_005687.5:c.1408del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005678.3" sequenceAccession="NP_005678" sequenceVersion="3" change="p.Leu470fs">
+            <Expression>NP_005678.3:p.Leu470fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_130154.2" sequenceAccession="NR_130154" sequenceVersion="2" change="n.1623del">
+            <Expression>NR_130154.2:n.1623del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2106209945" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005687.5(FARSB):c.1408del (p.Leu470fs) AND Rajab interstitial lung disease with brain calcifications 1" Accession="RCV002249980" Version="1">
+        <ClassifiedConditionList TraitSetID="65960">
+          <ClassifiedCondition DB="MedGen" ID="C5436276">Rajab interstitial lung disease with brain calcifications 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="65960" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55985" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DEVELOPMENTAL DELAY, SMALL STATURE, MICROCEPHALY, AND BRAIN CALCIFICATIONS</ElementValue>
+                <XRef Type="MIM" ID="613658" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Rajab interstitial lung disease with brain calcifications 1</ElementValue>
+                <XRef ID="MONDO:0100215" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">NEURODEVELOPMENTAL DISORDER WITH BRAIN, LIVER, AND LUNG ABNORMALITIES</ElementValue>
+                <XRef Type="MIM" ID="613658" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RILDBC1</ElementValue>
+                <XRef Type="MIM" ID="613658" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">NEDBLLA</ElementValue>
+                <XRef Type="MIM" ID="613658" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">RILDBC</ElementValue>
+                <XRef Type="MIM" ID="613658" DB="OMIM" />
+              </Symbol>
+              <XRef ID="178506" DB="Orphanet" />
+              <XRef ID="C5436276" DB="MedGen" />
+              <XRef ID="MONDO:0100215" DB="MONDO" />
+              <XRef Type="MIM" ID="613658" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4933040" SubmissionDate="2022-05-21" DateLastUpdated="2022-05-28" DateCreated="2022-05-28">
+        <ClinVarSubmissionID localKey="NC_000002.12:g.222613865_222613865delG|OMIM:613658" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002519708" DateUpdated="2022-05-28" DateCreated="2022-05-28" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fxi2k7be/mendelics_assertion_criteria_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FARSB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.12:g.222613865_222613865delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613658" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_033</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4933040" TraitType="Disease" MappingType="XRef" MappingValue="613658" MappingRef="OMIM">
+        <MedGen CUI="C5436276" Name="Rajab interstitial lung disease with brain calcifications 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

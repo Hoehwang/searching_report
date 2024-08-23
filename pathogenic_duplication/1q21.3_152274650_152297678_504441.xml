@@ -1,0 +1,180 @@
+<VariationArchive RecordType="classified" VariationID="504441" VariationName="NM_002016.2(FLG):c.745dup (p.Ser249fs)" VariationType="Duplication" Accession="VCV000504441" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2018-04-02" MostRecentSubmission="2018-04-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="495061" VariationID="504441">
+      <GeneList>
+        <Gene Symbol="FLG" FullName="filaggrin" GeneID="2312" HGNC_ID="HGNC:3748" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>1q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="152302165" stop="152325239" display_start="152302165" display_stop="152325239" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="152274650" stop="152297678" display_start="152274650" display_stop="152297678" Strand="-" />
+          </Location>
+          <OMIM>135940</OMIM>
+          <Haploinsufficiency last_evaluated="2020-02-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FLG">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-02-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FLG">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="FLG-AS1" FullName="FLG antisense RNA 1" GeneID="339400" HGNC_ID="HGNC:27913" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>1q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="152189303" stop="152366692" display_start="152189303" display_stop="152366692" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_002016.2(FLG):c.745dup (p.Ser249fs)</Name>
+      <CanonicalSPDI>NC_000001.11:152314140:T:TT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="152314140" stop="152314141" display_start="152314140" display_stop="152314141" variantLength="1" positionVCF="152314140" referenceAlleleVCF="C" alternateAlleleVCF="CT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="152286616" stop="152286617" display_start="152286616" display_stop="152286617" variantLength="1" positionVCF="152286616" referenceAlleleVCF="C" alternateAlleleVCF="CT" />
+      </Location>
+      <ProteinChange>S249fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_1028" sequenceAccession="LRG_1028">
+            <Expression>LRG_1028:g.16063dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002016.1" sequenceAccession="NM_002016" sequenceVersion="1" change="c.745dupA">
+            <Expression>NM_002016.1:c.745dupA</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.152286617dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.152286617dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.152314141dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.152314141dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016190.1" sequenceAccession="NG_016190" sequenceVersion="1" change="g.16063dup">
+            <Expression>NG_016190.1:g.16063dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002016.2" sequenceAccession="NM_002016" sequenceVersion="2" change="c.745dup" MANESelect="true">
+            <Expression>NM_002016.2:c.745dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002007.1" sequenceAccession="NP_002007" sequenceVersion="1" change="p.Ser249fs">
+            <Expression>NP_002007.1:p.Ser249fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA1107921" DB="ClinGen" />
+        <XRef Type="rs" ID="781280495" DB="dbSNP" />
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00001" Source="The Genome Aggregation Database (gnomAD), exomes" />
+        <AlleleFrequency Value="0.00006" Source="The Genome Aggregation Database (gnomAD)" />
+        <AlleleFrequency Value="0.00000" Source="Trans-Omics for Precision Medicine (TOPMed)" />
+        <AlleleFrequency Value="0.00001" Source="Exome Aggregation Consortium (ExAC)" />
+        <AlleleFrequency Value="0.00003" Source="The Genome Aggregation Database (gnomAD)" />
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002016.2(FLG):c.745dup (p.Ser249fs) AND not provided" Accession="RCV000599537" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-02-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-02-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-04-02" MostRecentSubmission="2018-04-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1390771" SubmissionDate="2019-01-29" DateLastUpdated="2018-04-02" DateCreated="2018-04-02">
+        <ClinVarSubmissionID localKey="GDX:1950920|Not Provided" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000710765" DateUpdated="2018-04-02" DateCreated="2018-04-02" Type="SCV" Version="1" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-02-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The c.745dupA variant in the FLG gene has not been reported previously as a pathogenic variant nor as a benign variant, to our knowledge. The c.745dupA variant causes a frameshift starting with codon Serine 249, changes this amino acid to a Lysine residue, and creates a premature Stop codon at position 10 of the new reading frame, denoted p.Ser249LysfsX10. This variant is predicted to cause loss of normal protein function through protein truncation, as the last 3,813 amino acids are lost and replaced with 9 incorrect amino acids. The c.745dupA variant is observed in 4/277,196 total alleles in large population cohorts (Lek et al., 2016). We interpret c.745dupA as a pathogenic variant.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FLG" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="TT" referenceAllele="T" start="152286616" stop="152286617" variantLength="2" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002016.1:c.745dupA</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5098196</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1390771" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

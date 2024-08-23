@@ -1,0 +1,150 @@
+<VariationArchive RecordType="classified" VariationID="1685915" VariationName="NM_170606.3(KMT2C):c.2532+1del" VariationType="Deletion" Accession="VCV001685915" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1677928" VariationID="1685915">
+      <GeneList>
+        <Gene Symbol="KMT2C" FullName="lysine methyltransferase 2C" GeneID="58508" HGNC_ID="HGNC:13726" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q36.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="152134925" stop="152436003" display_start="152134925" display_stop="152436003" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="151832009" stop="152133089" display_start="151832009" display_stop="152133089" Strand="-" />
+          </Location>
+          <OMIM>606833</OMIM>
+          <Haploinsufficiency last_evaluated="2018-01-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KMT2C">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-01-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KMT2C">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_170606.3(KMT2C):c.2532+1del</Name>
+      <CanonicalSPDI>NC_000007.14:152247900:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7q36.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="152247901" stop="152247901" display_start="152247901" display_stop="152247901" variantLength="1" positionVCF="152247900" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="151944986" stop="151944986" display_start="151944986" display_stop="151944986" variantLength="1" positionVCF="151944985" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.151944987del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.151944987del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.152247902del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.152247902del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_033948.1" sequenceAccession="NG_033948" sequenceVersion="1" change="g.193105del">
+            <Expression>NG_033948.1:g.193105del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_170606.3" sequenceAccession="NM_170606" sequenceVersion="3" change="c.2532+1del" MANESelect="true">
+            <Expression>NM_170606.3:c.2532+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2129163740" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_170606.3(KMT2C):c.2532+1del AND Kleefstra syndrome 2" Accession="RCV002250082" Version="1">
+        <ClassifiedConditionList TraitSetID="39647">
+          <ClassifiedCondition DB="MedGen" ID="C4540395">Kleefstra syndrome 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-28" MostRecentSubmission="2022-05-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="39647" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38345" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Kleefstra syndrome 2</ElementValue>
+                <XRef ID="MONDO:0054701" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">KLEFS2</ElementValue>
+                <XRef Type="MIM" ID="617768" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18382" />
+                <XRef ID="18382" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C4540395" DB="MedGen" />
+              <XRef ID="MONDO:0054701" DB="MONDO" />
+              <XRef Type="MIM" ID="617768" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4933319" SubmissionDate="2022-05-21" DateLastUpdated="2022-05-28" DateCreated="2022-05-28">
+        <ClinVarSubmissionID localKey="NC_000007.14:g.152247901_152247901delC|OMIM:617768" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV002516631" DateUpdated="2022-05-28" DateCreated="2022-05-28" Type="SCV" Version="1" SubmitterName="Mendelics" OrgID="500035" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Mendelics Assertion Criteria 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fxi2k7be/mendelics_assertion_criteria_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KMT2C" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.14:g.152247901_152247901delC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617768" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>MENDELICS_CLINVAR_033</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4933319" TraitType="Disease" MappingType="XRef" MappingValue="617768" MappingRef="OMIM">
+        <MedGen CUI="C4540395" Name="Kleefstra syndrome 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

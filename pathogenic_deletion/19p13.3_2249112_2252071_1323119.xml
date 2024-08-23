@@ -1,0 +1,176 @@
+<VariationArchive VariationID="1323119" VariationName="NM_000479.5(AMH):c.151del (p.Gln51fs)" VariationType="Deletion" Accession="VCV001323119" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-17" DateCreated="2021-11-29" MostRecentSubmission="2024-02-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1313405" VariationID="1323119">
+      <GeneList>
+        <Gene Symbol="AMH" FullName="anti-Mullerian hormone" GeneID="268" HGNC_ID="HGNC:464" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="2249323" stop="2252073" display_start="2249323" display_stop="2252073" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="2249112" stop="2252071" display_start="2249112" display_stop="2252071" Strand="+" />
+          </Location>
+          <OMIM>600957</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000479.5(AMH):c.151del (p.Gln51fs)</Name>
+      <CanonicalSPDI>NC_000019.10:2249482:C:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="2249483" stop="2249483" display_start="2249483" display_stop="2249483" variantLength="1" positionVCF="2249482" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="2249482" stop="2249482" display_start="2249482" display_stop="2249482" variantLength="1" positionVCF="2249481" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>Q51fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.2249483del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.2249483del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.2249482del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.2249482del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012190.1" sequenceAccession="NG_012190" sequenceVersion="1" change="g.5370del">
+            <Expression>NG_012190.1:g.5370del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000479.5" sequenceAccession="NM_000479" sequenceVersion="5" change="c.151del" MANESelect="true">
+            <Expression>NM_000479.5:c.151del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000470.3" sequenceAccession="NP_000470" sequenceVersion="3" change="p.Gln51fs">
+            <Expression>NP_000470.3:p.Gln51fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1443929462" DB="dbSNP" />
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00001" Source="The Genome Aggregation Database (gnomAD)" />
+        <AlleleFrequency Value="0.00001" Source="Trans-Omics for Precision Medicine (TOPMed)" />
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000479.5(AMH):c.151del (p.Gln51fs) AND Persistent Mullerian duct syndrome" Accession="RCV001783483" Version="4">
+        <ClassifiedConditionList TraitSetID="6487">
+          <ClassifiedCondition DB="MedGen" ID="C1849930">Persistent Mullerian duct syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-11-29" MostRecentSubmission="2024-02-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6487" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3789" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Persistent Mullerian duct syndrome</ElementValue>
+                <XRef ID="Persistent+Mullerian+duct+syndrome/5687" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009857" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Female genital ducts in otherwise normal male</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Persistent mullerian duct syndrome, types 1 and 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudohermaphroditism, male internal</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hernia uteri inguinale</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Persistent oviduct syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PERSISTENT MULLERIAN DUCT SYNDROME, TYPES I AND II</ElementValue>
+                <XRef Type="MIM" ID="261550" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PMDS</ElementValue>
+                <XRef Type="MIM" ID="261550" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8435" />
+                <XRef ID="8435" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2856" DB="Orphanet" />
+              <XRef ID="C1849930" DB="MedGen" />
+              <XRef ID="MONDO:0009857" DB="MONDO" />
+              <XRef Type="MIM" ID="261550" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3962776" SubmissionDate="2024-01-26" DateLastUpdated="2024-02-04" DateCreated="2021-11-29">
+        <ClinVarSubmissionID localKey="2e8ad7fff287fd096848a8313e9db62906f4f69d33fce38c2b3b291c61341956|OMIM:261550" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002023169" DateUpdated="2024-02-04" DateCreated="2021-11-29" Type="SCV" Version="3" SubmitterName="Revvity Omics, Revvity" OrgID="167595" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000479.3:c.151del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="261550" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10694847</SubmissionName>
+          <SubmissionName>SUB12926214</SubmissionName>
+          <SubmissionName>SUB14173319</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3962776" TraitType="Disease" MappingType="XRef" MappingValue="261550" MappingRef="OMIM">
+        <MedGen CUI="C1849930" Name="Persistent Mullerian duct syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

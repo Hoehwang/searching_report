@@ -1,0 +1,166 @@
+<VariationArchive RecordType="classified" VariationID="810684" VariationName="NM_005121.3(MED13):c.4487del (p.Thr1496fs)" VariationType="Deletion" Accession="VCV000810684" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-12-17" MostRecentSubmission="2020-12-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="798970" VariationID="810684">
+      <GeneList>
+        <Gene Symbol="MED13" FullName="mediator complex subunit 13" GeneID="9969" HGNC_ID="HGNC:22474" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="61942605" stop="62065278" display_start="61942605" display_stop="62065278" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="60019965" stop="60142642" display_start="60019965" display_stop="60142642" Strand="-" />
+          </Location>
+          <OMIM>603808</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005121.3(MED13):c.4487del (p.Thr1496fs)</Name>
+      <CanonicalSPDI>NC_000017.11:61965362:G:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q23.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="61965363" stop="61965363" display_start="61965363" display_stop="61965363" variantLength="1" positionVCF="61965362" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="60042724" stop="60042724" display_start="60042724" display_stop="60042724" variantLength="1" positionVCF="60042723" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>T1496fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.60042724del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.60042724del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.61965363del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.61965363del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_046948.1" sequenceAccession="NG_046948" sequenceVersion="1" change="g.104949del">
+            <Expression>NG_046948.1:g.104949del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005121.3" sequenceAccession="NM_005121" sequenceVersion="3" change="c.4487del" MANESelect="true">
+            <Expression>NM_005121.3:c.4487del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005112.2" sequenceAccession="NP_005112" sequenceVersion="2" change="p.Thr1496fs">
+            <Expression>NP_005112.2:p.Thr1496fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603808.0005" DB="OMIM" />
+        <XRef Type="rs" ID="2080047817" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005121.3(MED13):c.4487del (p.Thr1496fs) AND Intellectual developmental disorder 61" Accession="RCV000999503" Version="3">
+        <ClassifiedConditionList TraitSetID="52181">
+          <ClassifiedCondition DB="MedGen" ID="C5231400">Intellectual developmental disorder 61</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-12-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-12-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-12-17" MostRecentSubmission="2020-12-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29740699</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="52181" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="43466" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual developmental disorder 61</ElementValue>
+                <XRef ID="MONDO:0032485" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 61</ElementValue>
+                <XRef Type="MIM" ID="618009" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603808.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603808.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603808.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603808.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603808.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION, AUTOSOMAL DOMINANT 61</ElementValue>
+                <XRef Type="MIM" ID="618009" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MRD61</ElementValue>
+                <XRef Type="MIM" ID="618009" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5231400" DB="MedGen" />
+              <XRef ID="MONDO:0032485" DB="MONDO" />
+              <XRef Type="MIM" ID="618009" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2280151" SubmissionDate="2020-12-14" DateLastUpdated="2020-12-17" DateCreated="2020-02-03">
+        <ClinVarSubmissionID localKey="603808.0005_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 61" title="MED13, 1-BP DEL, 4487C_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 61" />
+        <ClinVarAccession Accession="SCV001156150" DateUpdated="2020-12-17" DateCreated="2020-02-03" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-12-14">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5-year-old boy (patient K) with autosomal dominant intellectual developmental disorder-61 (MRD61; 618009), Snijders Blok et al. (2018) identified a de novo heterozygous 1-bp deletion (c.4487delC, NM_005112.2) in the MED13 gene, resulting in a frameshift and premature termination (Thr1496Metfs). The mutation, which was found by whole-exome sequencing and confirmed by Sanger sequencing, was not present in the gnomAD database. Functional studies of the variant and studies of patient cells were not performed.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29740699</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618009" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MED13" />
+          </GeneList>
+          <Name>MED13, 1-BP DEL, 4487C</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 4487C</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603808.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 61</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2280151" TraitType="Disease" MappingType="Name" MappingValue="INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 61" MappingRef="Preferred">
+        <MedGen CUI="C5231400" Name="Intellectual developmental disorder 61" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

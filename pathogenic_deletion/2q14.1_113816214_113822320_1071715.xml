@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="1071715" VariationName="NC_000002.11:g.(?_113816996)_(113820274_?)del" VariationType="Deletion" Accession="VCV001071715" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1056906" VariationID="1071715">
+      <GeneList>
+        <Gene Symbol="IL36RN" FullName="interleukin 36 receptor antagonist" GeneID="26525" HGNC_ID="HGNC:15561" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="113058638" stop="113064744" display_start="113058638" display_stop="113064744" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="113816214" stop="113822320" display_start="113816214" display_stop="113822320" Strand="+" />
+          </Location>
+          <OMIM>605507</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.11:g.(?_113816996)_(113820274_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="113816996" innerStop="113820274" display_start="113816996" display_stop="113820274" variantLength="3279" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_113816996)_(113820274_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_113816996)_(113820274_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.11:g.(?_113816996)_(113820274_?)del AND Generalized pustular psoriasis" Accession="RCV001384237" Version="1">
+        <ClassifiedConditionList TraitSetID="7599">
+          <ClassifiedCondition DB="MedGen" ID="C0343055">Generalized pustular psoriasis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23698098</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7599" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16517" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Generalized pustular psoriasis</ElementValue>
+                <XRef ID="MONDO:0100491" DB="MONDO" />
+                <XRef ID="238612002" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GPP</ElementValue>
+                <XRef Type="MIM" ID="614204" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PSORP</ElementValue>
+                <XRef Type="MIM" ID="614204" DB="OMIM" />
+              </Symbol>
+              <XRef ID="247353" DB="Orphanet" />
+              <XRef ID="C0343055" DB="MedGen" />
+              <XRef ID="MONDO:0100491" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3109290" SubmissionDate="2021-01-07" DateLastUpdated="2021-05-10" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_012275.2_2_Deletion (entire coding sequence)|MedGen:C0343055" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001583650" DateUpdated="2021-05-10" DateCreated="2021-05-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23698098</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the IL36RN gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with IL36RN-related conditions. Loss-of-function variants in IL36RN are known to be pathogenic (PMID: 23698098). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IL36RN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_113816996)_(113820274_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0343055" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3109290" TraitType="Disease" MappingType="XRef" MappingValue="C0343055" MappingRef="MedGen">
+        <MedGen CUI="C0343055" Name="Generalized pustular psoriasis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

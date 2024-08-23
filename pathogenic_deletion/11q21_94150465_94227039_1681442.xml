@@ -1,0 +1,139 @@
+<VariationArchive VariationID="1681442" VariationName="NC_000011.9:g.(?_94153291)_(94225967_?)del" VariationType="Deletion" Accession="VCV001681442" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2022-05-16" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1673346" VariationID="1681442">
+      <GeneList>
+        <Gene Symbol="MRE11" FullName="MRE11 homolog, double strand break repair nuclease" GeneID="4361" HGNC_ID="HGNC:7230" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="94415570" stop="94512412" display_start="94415570" display_stop="94512412" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="94150465" stop="94227039" display_start="94150465" display_stop="94227039" Strand="-" />
+          </Location>
+          <OMIM>600814</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.9:g.(?_94153291)_(94225967_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="94153291" innerStop="94225967" display_start="94153291" display_stop="94225967" variantLength="72677" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_94153291)_(94225967_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_94153291)_(94225967_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.9:g.(?_94153291)_(94225967_?)del AND Ataxia-telangiectasia-like disorder" Accession="RCV002239014" Version="3">
+        <ClassifiedConditionList TraitSetID="36621">
+          <ClassifiedCondition DB="MedGen" ID="C1858391">Ataxia-telangiectasia-like disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-16" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23080121</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23912341</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="36621" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36734" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ataxia-telangiectasia-like disorder</ElementValue>
+                <XRef ID="MONDO:0011457" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS604391" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ATLD</ElementValue>
+                <XRef Type="MIM" ID="604391" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C1858391" DB="MedGen" />
+              <XRef ID="MONDO:0011457" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS604391" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4905888" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-05-16">
+        <ClinVarSubmissionID localKey="NM_005591.3_11_Deletion (entire coding sequence)|MedGen:C1858391" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002509307" DateUpdated="2024-06-09" DateCreated="2022-05-16" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23080121</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23912341</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the MRE11 gene has been identified. Loss-of-function variants in MRE11 are known to be pathogenic (PMID: 23080121, 23912341). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals affected with MRE11-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MRE11" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_94153291)_(94225967_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1858391" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4905888" TraitType="Disease" MappingType="XRef" MappingValue="C1858391" MappingRef="MedGen">
+        <MedGen CUI="C1858391" Name="Ataxia-telangiectasia-like disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

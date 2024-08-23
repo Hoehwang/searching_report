@@ -1,0 +1,163 @@
+<VariationArchive VariationID="501" VariationName="NM_173560.4(RFX6):c.779_780+12del" VariationType="Deletion" Accession="VCV000000501" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2014-04-27" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="15540" VariationID="501">
+      <GeneList>
+        <Gene Symbol="RFX6" FullName="regulatory factor X6" GeneID="222546" HGNC_ID="HGNC:21478" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="116877242" stop="116932161" display_start="116877242" display_stop="116932161" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="117198375" stop="117253325" display_start="117198375" display_stop="117253325" Strand="+" />
+          </Location>
+          <OMIM>612659</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_173560.4(RFX6):c.779_780+12del</Name>
+      <CanonicalSPDI>NC_000006.12:116911037:ACAAGGTATCAATTACA:ACA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="116911038" stop="116911051" display_start="116911038" display_stop="116911051" variantLength="14" positionVCF="116911037" referenceAlleleVCF="GACAAGGTATCAATT" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="117232201" stop="117232214" display_start="117232201" display_stop="117232214" variantLength="14" positionVCF="117232200" referenceAlleleVCF="GACAAGGTATCAATT" alternateAlleleVCF="G" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.117232204_117232217del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.117232204_117232217del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.12" sequenceAccession="NC_000006" sequenceVersion="12" change="g.116911041_116911054del" Assembly="GRCh38">
+            <Expression>NC_000006.12:g.116911041_116911054del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_027699.1" sequenceAccession="NG_027699" sequenceVersion="1" change="g.38829_38842del">
+            <Expression>NG_027699.1:g.38829_38842del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_173560.4" sequenceAccession="NM_173560" sequenceVersion="4" change="c.779_780+12del" MANESelect="true">
+            <Expression>NM_173560.4:c.779_780+12del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA114335" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="612659.0006" DB="OMIM" />
+        <XRef Type="rs" ID="587776517" DB="dbSNP" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the trace in the paper by Smith et al., 2010 (PubMed 20148032). The sequence across the breakpoint is GA, consistent with a deletion of 14 nucleotides, not 13. The location was then shifted right to conform to the HGVS standard.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_173560.4(RFX6):c.779_780+12del AND Hypoplastic pancreas-intestinal atresia-hypoplastic gallbalder syndrome" Accession="RCV000000530" Version="4">
+        <ClassifiedConditionList TraitSetID="13467">
+          <ClassifiedCondition DB="MedGen" ID="C2748662">Hypoplastic pancreas-intestinal atresia-hypoplastic gallbalder syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2010-02-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2010-02-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2014-04-27" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20148032</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="13467" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18678" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DIABETES, NEONATAL, WITH PANCREATIC HYPOPLASIA, INTESTINAL ATRESIA, AND GALLBLADDER APLASIA OR HYPOPLASIA</ElementValue>
+                <XRef Type="MIM" ID="615710" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mitchell-Riley syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hypoplastic pancreas-intestinal atresia-hypoplastic gallbalder syndrome</ElementValue>
+                <XRef ID="MONDO:0017400" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MTCHRS</ElementValue>
+                <XRef Type="MIM" ID="615710" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5237" />
+                <XRef ID="5237" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="293864" DB="Orphanet" />
+              <XRef ID="C2748662" DB="MedGen" />
+              <XRef ID="MONDO:0017400" DB="MONDO" />
+              <XRef Type="MIM" ID="615710" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="20679" SubmissionDate="2014-04-10" DateLastUpdated="2024-06-09" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="612659.0006_MITCHELL-RILEY SYNDROME" title="RFX6, 13-BP DEL, EXON/INTRON 7_MITCHELL-RILEY SYNDROME" />
+        <ClinVarAccession Accession="SCV000020679" DateUpdated="2024-06-09" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2010-02-11">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a male infant, born to nonconsanguineous parents, who had intrauterine growth retardation and duodenal atresia and was diagnosed with neonatal diabetes on day 2 of life (MTCHRS; 615710), Smith et al. (2010) identified homozygosity for an out-of-frame 13-bp deletion encompassing the last 5 nucleotides of exon 7 and the first 8 nucleotides of intron 7 of the RFX6 gene. The patient had a complicated course and died of gastrointestinal hemorrhage at 2.5 months of age. Both the mother, who had gestational diabetes during the pregnancy, and the father, who had been diagnosed with type 1 diabetes, were heterozygous for the mutation.</Attribute>
+              <Citation>
+                <ID Source="PubMed">20148032</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="615710" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RFX6" />
+          </GeneList>
+          <Name>RFX6, 13-BP DEL, EXON/INTRON 7</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">13-BP DEL, EXON/INTRON 7</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="612659.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MITCHELL-RILEY SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="20679" TraitType="Disease" MappingType="Name" MappingValue="MITCHELL-RILEY SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C2748662" Name="Hypoplastic pancreas-intestinal atresia-hypoplastic gallbalder syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

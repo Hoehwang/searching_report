@@ -1,0 +1,149 @@
+<VariationArchive VariationID="3247780" VariationName="NC_000001.10:g.(?_120282989)_(120283161_?)del" VariationType="Deletion" Accession="VCV003247780" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3404287" VariationID="3247780">
+      <GeneList>
+        <Gene Symbol="PHGDH" FullName="phosphoglycerate dehydrogenase" GeneID="26227" HGNC_ID="HGNC:8923" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="119711934" stop="119744215" display_start="119711934" display_stop="119744215" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="120254418" stop="120286848" display_start="120254418" display_stop="120286848" Strand="+" />
+          </Location>
+          <OMIM>606879</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.10:g.(?_120282989)_(120283161_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="120282989" innerStop="120283161" display_start="120282989" display_stop="120283161" variantLength="173" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_120282989)_(120283161_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_120282989)_(120283161_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.10:g.(?_120282989)_(120283161_?)del AND PHGDH deficiency" Accession="RCV004584064" Version="1">
+        <ClassifiedConditionList TraitSetID="1057">
+          <ClassifiedCondition DB="MedGen" ID="C1866174">PHGDH deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-10-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-10-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14645240</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24836451</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1057" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3293" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Phosphoglycerate dehydrogenase deficiency</ElementValue>
+                <XRef ID="Phosphoglycerate+dehydrogenase+deficiency/9103" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">PHGDH deficiency</ElementValue>
+                <XRef ID="MONDO:0011152" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PHGDHD</ElementValue>
+                <XRef Type="MIM" ID="601815" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16718" />
+                <XRef ID="16718" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">37347880</ID>
+                <ID Source="BookShelf">NBK592681</ID>
+              </Citation>
+              <XRef ID="79351" DB="Orphanet" />
+              <XRef ID="C1866174" DB="MedGen" />
+              <XRef ID="MONDO:0011152" DB="MONDO" />
+              <XRef Type="MIM" ID="601815" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9838322" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000001.10:g.(?_120282989)_(120283161_?)del|MedGen:C1866174" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005066457" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-10-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">14645240</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24836451</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 9 of the PHGDH gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in PHGDH are known to be pathogenic (PMID: 14645240, 24836451). This variant has not been reported in the literature in individuals affected with PHGDH-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_120282989)_(120283161_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1866174" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9838322" TraitType="Disease" MappingType="XRef" MappingValue="C1866174" MappingRef="MedGen">
+        <MedGen CUI="C1866174" Name="PHGDH deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

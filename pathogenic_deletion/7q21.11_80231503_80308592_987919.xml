@@ -1,0 +1,121 @@
+<VariationArchive VariationID="987919" VariationName="NM_001001547.2:c.(?_-183)_(120_?)del" VariationType="Deletion" Accession="VCV000987919" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2020-12-07" MostRecentSubmission="2020-12-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="975889" VariationID="987919">
+      <GeneList>
+        <Gene Symbol="CD36" FullName="CD36 molecule (CD36 blood group)" GeneID="948" HGNC_ID="HGNC:1663" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>7q21.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="80602207" stop="80679274" display_start="80602207" display_stop="80679274" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="80231503" stop="80308592" display_start="80231503" display_stop="80308592" Strand="+" />
+          </Location>
+          <OMIM>173510</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001001547.2:c.(?_-183)_(120_?)del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001001547.2:c.(?_-183)_(120_?)del AND Platelet-type bleeding disorder 10" Accession="RCV001269331" Version="3">
+        <ClassifiedConditionList TraitSetID="3722">
+          <ClassifiedCondition DB="MedGen" ID="C1842090">Platelet-type bleeding disorder 10</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-12-07" MostRecentSubmission="2020-12-07">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3722" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3503" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Platelet glycoprotein IV deficiency</ElementValue>
+                <XRef ID="PLATELET+GLYCOPROTEIN+IV+DEFICIENCY/9121" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CD36 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="608404" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Platelet-type bleeding disorder 10</ElementValue>
+                <XRef ID="MONDO:0012031" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BDPLT10</ElementValue>
+                <XRef Type="MIM" ID="608404" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C1842090" DB="MedGen" />
+              <XRef ID="MONDO:0012031" DB="MONDO" />
+              <XRef Type="MIM" ID="608404" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2860436" SubmissionDate="2020-11-16" DateLastUpdated="2020-12-07" DateCreated="2020-12-07">
+        <ClinVarSubmissionID localKey="NM_001001547.2:c.(?_-183)_(120_?)del|OMIM:608404" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001448276" DateUpdated="2020-12-07" DateCreated="2020-12-07" Type="SCV" Version="1" SubmitterName="Al Jalila Children’s Genomics Center, Al Jalila Childrens Speciality Hospital" OrgID="507199" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CD36" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001001547.2:c.(?_-183)_(120_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608404" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8555056</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2860436" TraitType="Disease" MappingType="XRef" MappingValue="608404" MappingRef="OMIM">
+        <MedGen CUI="C1842090" Name="Platelet-type bleeding disorder 10" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

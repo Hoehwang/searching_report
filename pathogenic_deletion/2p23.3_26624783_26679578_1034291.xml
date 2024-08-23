@@ -1,0 +1,163 @@
+<VariationArchive RecordType="classified" VariationID="1034291" VariationName="NM_145038.5(DRC1):c.1976del (p.Ser659fs)" VariationType="Deletion" Accession="VCV001034291" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1019623" VariationID="1034291">
+      <GeneList>
+        <Gene Symbol="DRC1" FullName="dynein regulatory complex subunit 1" GeneID="92749" HGNC_ID="HGNC:24245" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="26401920" stop="26456711" display_start="26401920" display_stop="26456711" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="26624783" stop="26679578" display_start="26624783" display_stop="26679578" Strand="+" />
+          </Location>
+          <OMIM>615288</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_145038.5(DRC1):c.1976del (p.Ser659fs)</Name>
+      <CanonicalSPDI>NC_000002.12:26454702:C:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="26454703" stop="26454703" display_start="26454703" display_stop="26454703" variantLength="1" positionVCF="26454702" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="26677571" stop="26677571" display_start="26677571" display_stop="26677571" variantLength="1" positionVCF="26677570" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>S659fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.26677571del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.26677571del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.26454703del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.26454703del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_042824.1" sequenceAccession="NG_042824" sequenceVersion="1" change="g.57792del">
+            <Expression>NG_042824.1:g.57792del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_145038.5" sequenceAccession="NM_145038" sequenceVersion="5" change="c.1976del" MANESelect="true">
+            <Expression>NM_145038.5:c.1976del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_659475.2" sequenceAccession="NP_659475" sequenceVersion="2" change="p.Ser659fs">
+            <Expression>NP_659475.2:p.Ser659fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="772974990" DB="dbSNP" />
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00001" Source="Exome Aggregation Consortium (ExAC)" />
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_145038.5(DRC1):c.1976del (p.Ser659fs) AND Primary ciliary dyskinesia 21" Accession="RCV001336981" Version="1">
+        <ClassifiedConditionList TraitSetID="10619">
+          <ClassifiedCondition DB="MedGen" ID="C3809087">Primary ciliary dyskinesia 21</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-01-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-01-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-03-22" MostRecentSubmission="2021-03-22">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="10619" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17954" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CILIARY DYSKINESIA, PRIMARY, 21, WITHOUT SITUS INVERSUS</ElementValue>
+                <XRef Type="MIM" ID="615294" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="615288.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="615288.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia 21</ElementValue>
+                <XRef ID="MONDO:0014123" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD21</ElementValue>
+                <XRef Type="MIM" ID="615294" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C3809087" DB="MedGen" />
+              <XRef ID="MONDO:0014123" DB="MONDO" />
+              <XRef Type="MIM" ID="615294" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3005742" SubmissionDate="2021-03-05" DateLastUpdated="2021-03-22" DateCreated="2021-03-22">
+        <ClinVarSubmissionID localKey="NM_145038.2:c.1976delC|OMIM:615294" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001530527" DateUpdated="2021-03-22" DateCreated="2021-03-22" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant was determined to be pathogenic according to ACMG Guidelines, 2015 [PMID:25741868].</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DRC1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_145038.2:c.1976delC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615294" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9201740</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3005742" TraitType="Disease" MappingType="XRef" MappingValue="615294" MappingRef="OMIM">
+        <MedGen CUI="C3809087" Name="Primary ciliary dyskinesia 21" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="13229" VariationName="BCHE*FS126" VariationType="Deletion" Accession="VCV000013229" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-07" DateCreated="2018-04-27" MostRecentSubmission="2018-04-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="28268" VariationID="13229">
+      <GeneList>
+        <Gene Symbol="BCHE" FullName="butyrylcholinesterase" GeneID="590" HGNC_ID="HGNC:983" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>3q26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="165772904" stop="165837423" display_start="165772904" display_stop="165837423" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="165490691" stop="165555252" display_start="165490691" display_stop="165555252" Strand="-" />
+          </Location>
+          <OMIM>177400</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>BCHE*FS126</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q26.1-q26.2</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>2-BP DEL, 376CA</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="177400.0015" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="BCHE*FS126 AND Postanesthetic apnea" Accession="RCV000014133" Version="20">
+        <ClassifiedConditionList TraitSetID="3591">
+          <ClassifiedCondition DB="MedGen" ID="C1867468">Postanesthetic apnea</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2007-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2007-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-04-27" MostRecentSubmission="2018-04-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">9110359</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">18075469</ID>
+        </Citation>
+        <DescriptionHistory Dated="2018-04-26">
+          <Description>Pathogenic, Affects</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="3591" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="11118" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Postanesthetic apnea</ElementValue>
+              </Name>
+              <XRef ID="C1867468" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="34381" SubmissionDate="2018-04-24" DateLastUpdated="2018-04-27" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="177400.0015_APNEA, POSTANESTHETIC" title="BCHE, 2-BP DEL, 376CA_APNEA, POSTANESTHETIC" />
+        <ClinVarAccession Accession="SCV000034381" DateUpdated="2018-04-27" DateCreated="2013-04-04" Type="SCV" Version="4" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2007-11-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with butyrylcholinesterase deficiency and prolonged apnea after succinylcholine administration, Gatke et al. (2007) identified a 2-bp deletion (376delCA) in the BCHE gene, resulting in a frameshift and premature termination. The patient's second allele contained a known silent BCHE variant (gly115-to-asp; G115D) (Primo-Parmo et al., 1997) in cis with a novel splice site mutation (177400.0016). BChE activity in the patient was undetectable. This variant has been designated BCHE*FS126.</Attribute>
+              <Citation>
+                <ID Source="PubMed">18075469</ID>
+              </Citation>
+              <Citation>
+                <ID Source="PubMed">9110359</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BCHE" />
+          </GeneList>
+          <Name>BCHE, 2-BP DEL, 376CA</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DEL, 376CA</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="177400.0015" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">APNEA, POSTANESTHETIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="34381" TraitType="Disease" MappingType="Name" MappingValue="APNEA, POSTANESTHETIC" MappingRef="Preferred">
+        <MedGen CUI="C1867468" Name="Postanesthetic apnea" />
+      </TraitMapping>
+    </TraitMappingList>
+    <DeletedSCVList>
+      <SCV>
+        <Accession Version="3" DateDeleted="2018-04-25">SCV000034382</Accession>
+      </SCV>
+    </DeletedSCVList>
+  </ClassifiedRecord>
+</VariationArchive>
+

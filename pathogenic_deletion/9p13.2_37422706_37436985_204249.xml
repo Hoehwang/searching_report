@@ -1,0 +1,198 @@
+<VariationArchive RecordType="classified" VariationID="204249" VariationName="NM_012203.2(GRHPR):c.375del (p.Leu126fs)" VariationType="Deletion" Accession="VCV000204249" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2015-07-21" MostRecentSubmission="2015-07-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="200627" VariationID="204249">
+      <GeneList>
+        <Gene Symbol="GRHPR" FullName="glyoxylate and hydroxypyruvate reductase" GeneID="9380" HGNC_ID="HGNC:4570" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="37422435" stop="37439494" display_start="37422435" display_stop="37439494" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="37422706" stop="37436985" display_start="37422706" display_stop="37436985" Strand="+" />
+          </Location>
+          <OMIM>604296</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_012203.2(GRHPR):c.375del (p.Leu126fs)</Name>
+      <CanonicalSPDI>NC_000009.12:37426623:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="37426624" stop="37426624" display_start="37426624" display_stop="37426624" variantLength="1" positionVCF="37426623" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="37426621" stop="37426621" display_start="37426621" display_stop="37426621" variantLength="1" positionVCF="37426620" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>L126fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.37426622del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.37426622del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.37426625del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.37426625del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008135.1" sequenceAccession="NG_008135" sequenceVersion="1" change="g.8916del">
+            <Expression>NG_008135.1:g.8916del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_012203.2" sequenceAccession="NM_012203" sequenceVersion="2" change="c.375del" MANESelect="true">
+            <Expression>NM_012203.2:c.375del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_036335.1" sequenceAccession="NP_036335" sequenceVersion="1" change="p.Leu126fs">
+            <Expression>NP_036335.1:p.Leu126fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA275909" DB="ClinGen" />
+        <XRef Type="rs" ID="180177308" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_012203.2(GRHPR):c.375del (p.Leu126fs) AND Primary hyperoxaluria, type II" Accession="RCV000186456" Version="2">
+        <ClassifiedConditionList TraitSetID="1588">
+          <ClassifiedCondition DB="MedGen" ID="C0268165">Primary hyperoxaluria, type II</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2014-11-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2014-11-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-07-21" MostRecentSubmission="2015-07-21">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14635115</ID>
+        </Citation>
+        <Citation Type="general">
+          <URL>http://www.uclh.nhs.uk/OurServices/ServiceA-Z/PATH/PATHBIOMED/CBIO/Documents/GRHPR%20mutation%20database.pdf</URL>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1588" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2365" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary hyperoxaluria, type II</ElementValue>
+                <XRef ID="Primary+hyperoxaluria+type+2/5948" DB="Genetic Alliance" />
+                <XRef ID="40951006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Oxalosis 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Glyoxylate reductase/hydroxypyruvate reductase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Glyceric aciduria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">D-glycerate dehydrogenase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">OXALOSIS II</ElementValue>
+                <XRef Type="MIM" ID="260000" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Primary hyperoxaluria type 2</ElementValue>
+                <XRef ID="MONDO:0009824" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HP2</ElementValue>
+                <XRef Type="MIM" ID="260000" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PH2</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Primary hyperoxaluria type 2 (PH2), caused by deficiency of the enzyme glyoxylate reductase/hydroxypyruvate reductase (GR/HPR), is characterized by recurrent nephrolithiasis (deposition of calcium oxalate in the renal pelvis/urinary tract), nephrocalcinosis (deposition of calcium oxalate in the renal parenchyma), and end-stage renal disease (ESRD). After ESRD, oxalosis (widespread tissue deposition of calcium oxalate) usually develops. Symptom onset is typically in childhood.</Attribute>
+                <XRef ID="NBK2692" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000507682" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000561372" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2836" />
+                <XRef ID="2836" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301742</ID>
+                <ID Source="BookShelf">NBK2692</ID>
+              </Citation>
+              <XRef ID="416" DB="Orphanet" />
+              <XRef ID="93599" DB="Orphanet" />
+              <XRef ID="C0268165" DB="MedGen" />
+              <XRef ID="MONDO:0009824" DB="MONDO" />
+              <XRef Type="MIM" ID="260000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="443565" SubmissionDate="2014-11-27" DateLastUpdated="2015-07-21" DateCreated="2015-07-21">
+        <ClinVarSubmissionID localKey="NM_012203.1:c.375delG" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV000239813" DateUpdated="2015-07-21" DateCreated="2015-07-21" Type="SCV" Version="1" SubmitterName="Clinical Biochemistry Laboratory, Health Services Laboratory" OrgID="118451" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-11-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">14635115</ID>
+            </Citation>
+            <Citation>
+              <URL>http://www.uclh.nhs.uk/OurServices/ServiceA-Z/PATH/PATHBIOMED/CBIO/Documents/GRHPR%20mutation%20database.pdf</URL>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GRHPR" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_012203.1:c.375delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Primary hyperoxaluria, type II</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="260000" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="443565" TraitType="Disease" MappingType="Name" MappingValue="Primary hyperoxaluria, type II" MappingRef="Preferred">
+        <MedGen CUI="C0268165" Name="Primary hyperoxaluria, type II" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

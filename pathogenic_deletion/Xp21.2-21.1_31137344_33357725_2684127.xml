@@ -1,0 +1,133 @@
+<VariationArchive VariationID="2684127" VariationName="Single allele" VariationType="Deletion" Accession="VCV002684127" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2845162" VariationID="2684127">
+      <GeneList>
+        <Gene Symbol="DMD" FullName="dystrophin" GeneID="1756" HGNC_ID="HGNC:2928" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp21.2-21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="31119222" stop="33339388" display_start="31119222" display_stop="33339388" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="31137344" stop="33357725" display_start="31137344" display_stop="33357725" Strand="-" />
+          </Location>
+          <OMIM>300377</OMIM>
+          <Haploinsufficiency last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" outerStart="31792319" innerStart="31838082" innerStop="32408308" outerStop="32429859" display_start="31792319" display_stop="32429859" alternateAllele="-" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND not provided" Accession="RCV003482623" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-01-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-01-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31705731</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32194622</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7902498" SubmissionDate="2024-01-03" DateLastUpdated="2024-01-26" DateCreated="2024-01-26">
+        <ClinVarSubmissionID localKey="A18833|not provided" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004229479" DateUpdated="2024-01-26" DateCreated="2024-01-26" Type="SCV" Version="1" SubmitterName="Athena Diagnostics" OrgID="1012" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-01-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31705731</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32194622</ID>
+          </Citation>
+          <Comment>This variant is expected to result in the loss of a functional protein. Similar variants have not been reported in large, multi-ethnic general populations (Genome Aggregation Database (gnomAD), Cambridge, MA (URL: http://gnomad.broadinstitute.org)). A similar deletion of exons 31-50 has been identified in at least one male with DMD.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Athena Diagnostics Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">26467025</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" alternateAllele="-" innerStart="31838082" innerStop="32408308" outerStart="31792319" outerStop="32429859" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14108777</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7902498" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

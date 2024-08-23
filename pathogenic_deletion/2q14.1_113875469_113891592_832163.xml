@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="832163" VariationName="NC_000002.12:g.(?_113116893)_(113135016_?)del" VariationType="Deletion" Accession="VCV000832163" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819044" VariationID="832163">
+      <GeneList>
+        <Gene Symbol="IL1RN" FullName="interleukin 1 receptor antagonist" GeneID="3557" HGNC_ID="HGNC:6000" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="113099360" stop="113134014" display_start="113099360" display_stop="113134014" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="113875469" stop="113891592" display_start="113875469" display_stop="113891592" Strand="+" />
+          </Location>
+          <OMIM>147679</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_113116893)_(113135016_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="113874470" innerStop="113892593" display_start="113874470" display_stop="113892593" variantLength="18124" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_113874470)_(113892593_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_113874470)_(113892593_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_113116893)_(113135016_?)del AND Sterile multifocal osteomyelitis with periostitis and pustulosis" Accession="RCV001032678" Version="1">
+        <ClassifiedConditionList TraitSetID="4057">
+          <ClassifiedCondition DB="MedGen" ID="C2748507">Sterile multifocal osteomyelitis with periostitis and pustulosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="4057" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6767" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Sterile multifocal osteomyelitis with periostitis and pustulosis</ElementValue>
+                <XRef ID="MONDO:0013021" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CRMO2</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">Deficiency of interleukin-1 receptor antagonist</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">OMPP</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">DIRA</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10516" />
+                <XRef ID="10516" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="210115" DB="Orphanet" />
+              <XRef ID="C2748507" DB="MedGen" />
+              <XRef ID="MONDO:0013021" DB="MONDO" />
+              <XRef Type="MIM" ID="612852" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357240" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="8414460|MedGen:C2748507" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195985" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the IL1RN gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with IL1RN-related conditions. Loss-of-function variants in IL1RN are known to be pathogenic (PMID: 19494218, 21792839, 22940634, 26100510). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IL1RN" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_113874470)_(113892593_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Osteomyelitis, sterile multifocal, with periostitis and pustulosis</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C2748507" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357240" TraitType="Disease" MappingType="Name" MappingValue="Osteomyelitis, sterile multifocal, with periostitis and pustulosis" MappingRef="Preferred">
+        <MedGen CUI="C2748507" Name="Sterile multifocal osteomyelitis with periostitis and pustulosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

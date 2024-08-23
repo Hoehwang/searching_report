@@ -1,0 +1,152 @@
+<VariationArchive VariationID="656837" VariationName="NC_000001.11:g.(?_23859778)_(23859923_?)del" VariationType="Deletion" Accession="VCV000656837" Version="8" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2019-08-14" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="650558" VariationID="656837">
+      <GeneList>
+        <Gene Symbol="FUCA1" FullName="alpha-L-fucosidase 1" GeneID="2517" HGNC_ID="HGNC:4006" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="23845077" stop="23868290" display_start="23845077" display_stop="23868290" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="24171566" stop="24194858" display_start="24171566" display_stop="24194858" Strand="-" />
+          </Location>
+          <OMIM>612280</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.11:g.(?_23859778)_(23859923_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" innerStart="23859778" innerStop="23859923" display_start="23859778" display_stop="23859923" variantLength="146" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="24186268" innerStop="24186413" display_start="24186268" display_stop="24186413" variantLength="146" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.(?_23859778)_(23859923_?)del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.(?_23859778)_(23859923_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_24186268)_(24186413_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_24186268)_(24186413_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.11:g.(?_23859778)_(23859923_?)del AND Fucosidosis" Accession="RCV000813343" Version="8">
+        <ClassifiedConditionList TraitSetID="172">
+          <ClassifiedCondition DB="MedGen" ID="C0016788">Fucosidosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10094192</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="172" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1356" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Fucosidosis</ElementValue>
+                <XRef ID="3120" DB="GeneTests" />
+                <XRef ID="Fucosidosis/2958" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009254" DB="MONDO" />
+                <XRef ID="64716005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Alpha-l-fucosidase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Lysosomal storage disease caused by defective alpha-L-fucosidase with accumulation of fucose in the tissues</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6473" />
+                <XRef ID="6473" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="349" DB="Orphanet" />
+              <XRef ID="C0016788" DB="MedGen" />
+              <XRef ID="MONDO:0009254" DB="MONDO" />
+              <XRef Type="MIM" ID="230000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1847860" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="NM_000147.4_1_Deletion (exon 4)|MedGen:C0016788" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000953701" DateUpdated="2024-06-09" DateCreated="2019-08-14" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">10094192</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10094192</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. A similar copy number variant has been observed in individual(s) with fucosidosis (PMID: 10094192). This variant is a gross deletion of the genomic region encompassing exon(s) 4 of the FUCA1 gene. This deletion is out-of-frame, and is expected to create a premature termination codon and result in an absent or disrupted protein product. Loss-of-function variants in FUCA1 are known to be pathogenic (PMID: 10094192).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FUCA1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_24186268)_(24186413_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0016788" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1847860" TraitType="Disease" MappingType="XRef" MappingValue="C0016788" MappingRef="MedGen">
+        <MedGen CUI="C0016788" Name="Fucosidosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

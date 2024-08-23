@@ -1,0 +1,132 @@
+<VariationArchive RecordType="classified" VariationID="996012" VariationName="NM_201280.2:c.196-678_384+3483del" VariationType="Deletion" Accession="VCV000996012" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2021-02-07" MostRecentSubmission="2021-02-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="983721" VariationID="996012">
+      <GeneList>
+        <Gene Symbol="BLOC1S5" FullName="biogenesis of lysosomal organelles complex 1 subunit 5" GeneID="63915" HGNC_ID="HGNC:18561" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>6p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="8013567" stop="8064414" display_start="8013567" display_stop="8064414" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="8013799" stop="8064646" display_start="8013799" display_stop="8064646" Strand="-" />
+          </Location>
+          <OMIM>607289</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_201280.2:c.196-678_384+3483del</Name>
+      <VariantType>Deletion</VariantType>
+      <OtherNameList>
+        <Name>EX3-EX4 DEL</Name>
+      </OtherNameList>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="607289.0001" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_201280.2:c.196-678_384+3483del AND Hermansky-Pudlak syndrome 11" Accession="RCV001290297" Version="1">
+        <ClassifiedConditionList TraitSetID="65255">
+          <ClassifiedCondition DB="MedGen" ID="C5436936">Hermansky-Pudlak syndrome 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-07" MostRecentSubmission="2021-02-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32565547</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="65255" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33254" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hermansky-Pudlak syndrome 11</ElementValue>
+                <XRef ID="MONDO:0030903" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HPS11</ElementValue>
+                <XRef Type="MIM" ID="619172" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Hermansky-Pudlak syndrome (HPS) is characterized by oculocutaneous albinism, a bleeding diathesis, and, in some individuals, pulmonary fibrosis, granulomatous colitis, or immunodeficiency. Ocular findings include reduced iris pigment with iris transillumination, reduced retinal pigment, foveal hypoplasia with significant reduction in visual acuity (usually in the range of 20/50 to 20/400), nystagmus, and increased crossing of the optic nerve fibers. Hair color ranges from white to brown; skin color ranges from white to olive and is usually a shade lighter than that of other family members. The bleeding diathesis can result in variable bruising, epistaxis, gingival bleeding, postpartum hemorrhage, colonic bleeding, and prolonged bleeding with menses or after tooth extraction, circumcision, and other surgeries. Pulmonary fibrosis, a restrictive lung disease, typically causes symptoms in the early thirties and can progress to death within a decade. Granulomatous colitis is severe in about 15% of affected individuals. Neutropenia and/or immune defects occur primarily in individuals with pathogenic variants in AP3B1 and AP3D1.</Attribute>
+                <XRef ID="NBK1287" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301464</ID>
+                <ID Source="BookShelf">NBK1287</ID>
+              </Citation>
+              <XRef ID="C5436936" DB="MedGen" />
+              <XRef ID="MONDO:0030903" DB="MONDO" />
+              <XRef Type="MIM" ID="619172" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2914419" SubmissionDate="2021-01-29" DateLastUpdated="2021-02-07" DateCreated="2021-02-07">
+        <ClinVarSubmissionID localKey="607289.0001_HERMANSKY-PUDLAK SYNDROME 11" title="BLOC1S5, EX3-EX4 DEL_HERMANSKY-PUDLAK SYNDROME 11" />
+        <ClinVarAccession Accession="SCV001478328" DateUpdated="2021-02-07" DateCreated="2021-02-07" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-29">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 20-year-old French woman with mild oculocutaneous albinism and a bleeding diathesis (HPS11; 619172), Pennamen et al. (2020) identified homozygosity for a 19,063-bp deletion (c.196-678_384+3483del, NM_201280.2) encompassing exons 3 and 4 of the BLOC1S5 gene. The deletion was present in heterozygosity in her unaffected parents. The breakpoints were located within a region of 100% homology in introns 2 and 4, suggesting that the deletion resulted from a nonallelic homologous recombination event. Western blot analysis of the patient's platelet lysates showed reduced or absent levels of pallidin (BLOC1S6; 604310) and dysbindin (DTNBP1; 607145) compared to controls. Functional analysis demonstrated that the mutant protein was unable to restore BLOC1 stability or function in melanogenesis and protein sorting in murine melanocytes lacking the orthologous BLOC1S5/muted protein, suggesting that this represents a loss-of-function variant.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32565547</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619172" Type="MIM" />
+              <XRef DB="OMIM" ID="604310" Type="MIM" />
+              <XRef DB="OMIM" ID="607145" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BLOC1S5" />
+          </GeneList>
+          <Name>BLOC1S5, EX3-EX4 DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX3-EX4 DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="607289.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HERMANSKY-PUDLAK SYNDROME 11</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2914419" TraitType="Disease" MappingType="Name" MappingValue="HERMANSKY-PUDLAK SYNDROME 11" MappingRef="Preferred">
+        <MedGen CUI="C5436936" Name="Hermansky-Pudlak syndrome 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

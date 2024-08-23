@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="1098739" VariationName="NM_015015.3(KDM4B):c.2221dup (p.Glu741fs)" VariationType="Duplication" Accession="VCV001098739" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-05-23" MostRecentSubmission="2021-05-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1087467" VariationID="1098739">
+      <GeneList>
+        <Gene Symbol="KDM4B" FullName="lysine demethylase 4B" GeneID="23030" HGNC_ID="HGNC:29136" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="4969113" stop="5153598" display_start="4969113" display_stop="5153598" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="4969123" stop="5153608" display_start="4969123" display_stop="5153608" Strand="+" />
+          </Location>
+          <OMIM>609765</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_015015.3(KDM4B):c.2221dup (p.Glu741fs)</Name>
+      <CanonicalSPDI>NC_000019.10:5135472:GG:GGG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="5135472" stop="5135473" display_start="5135472" display_stop="5135473" variantLength="1" positionVCF="5135472" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="5135483" stop="5135484" display_start="5135483" display_stop="5135484" variantLength="1" positionVCF="5135483" referenceAlleleVCF="C" alternateAlleleVCF="CG" />
+      </Location>
+      <ProteinChange>E741fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.5135474dup" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.5135474dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.5135485dup" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.5135485dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_015015.3" sequenceAccession="NM_015015" sequenceVersion="3" change="c.2221dup" MANESelect="true">
+            <Expression>NM_015015.3:c.2221dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_055830.1" sequenceAccession="NP_055830" sequenceVersion="1" change="p.Glu741fs">
+            <Expression>NP_055830.1:p.Glu741fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="609765.0003" DB="OMIM" />
+        <XRef Type="rs" ID="2146074788" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_015015.3(KDM4B):c.2221dup (p.Glu741fs) AND Intellectual developmental disorder, autosomal dominant 65" Accession="RCV001420724" Version="1">
+        <ClassifiedConditionList TraitSetID="66876">
+          <ClassifiedCondition DB="MedGen" ID="C5543371">Intellectual developmental disorder, autosomal dominant 65</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-23" MostRecentSubmission="2021-05-23">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33232677</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="66876" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="56128" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual developmental disorder, autosomal dominant 65</ElementValue>
+                <XRef ID="MONDO:0023657" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION, AUTOSOMAL DOMINANT 65</ElementValue>
+                <XRef Type="MIM" ID="619320" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MRD65</ElementValue>
+                <XRef Type="MIM" ID="619320" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18547" />
+                <XRef ID="18547" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C5543371" DB="MedGen" />
+              <XRef ID="MONDO:0023657" DB="MONDO" />
+              <XRef Type="MIM" ID="619320" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3194953" SubmissionDate="2021-05-18" DateLastUpdated="2021-05-23" DateCreated="2021-05-23">
+        <ClinVarSubmissionID localKey="609765.0003_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 65" title="KDM4B, 1-BP DUP, NT2221_INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 65" />
+        <ClinVarAccession Accession="SCV001623060" DateUpdated="2021-05-23" DateCreated="2021-05-23" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-18">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 5.7-year-old French boy (patient 5) with autosomal dominant intellectual developmental disorder-65 (MRD65; 619320), Duncan et al. (2020) identified a de novo heterozygous 1-bp duplication (c.2221dup, NM_015015.2) in the KDM4B gene, predicted to result in a frameshift and premature termination (Glu741GlyfsTer41). The mutation, which was found by exome sequencing, was not present in the gnomAD database. Functional studies of the variant were not performed, but it was predicted to result in a loss of function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33232677</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619320" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KDM4B" />
+          </GeneList>
+          <Name>KDM4B, 1-BP DUP, NT2221</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DUP, NT2221</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="609765.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 65</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3194953" TraitType="Disease" MappingType="Name" MappingValue="INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 65" MappingRef="Preferred">
+        <MedGen CUI="C5543371" Name="Intellectual developmental disorder, autosomal dominant 65" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

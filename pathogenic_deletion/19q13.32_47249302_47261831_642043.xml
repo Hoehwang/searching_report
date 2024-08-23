@@ -1,0 +1,144 @@
+<VariationArchive VariationID="642043" VariationName="NC_000019.10:g.(?_46755431)_(46756958_?)del" VariationType="Deletion" Accession="VCV000642043" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-30" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="653461" VariationID="642043">
+      <GeneList>
+        <Gene Symbol="FKRP" FullName="fukutin related protein" GeneID="79147" HGNC_ID="HGNC:17997" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19q13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="46744760" stop="46758575" display_start="46744760" display_stop="46758575" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="47249302" stop="47261831" display_start="47249302" display_stop="47261831" Strand="+" />
+          </Location>
+          <OMIM>606596</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.10:g.(?_46755431)_(46756958_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" innerStart="46755431" innerStop="46756958" display_start="46755431" display_stop="46756958" variantLength="1528" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" innerStart="47258688" innerStop="47260215" display_start="47258688" display_stop="47260215" variantLength="1528" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.(?_46755431)_(46756958_?)del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.(?_46755431)_(46756958_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.(?_47258688)_(47260215_?)del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.(?_47258688)_(47260215_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.10:g.(?_46755431)_(46756958_?)del AND Walker-Warburg congenital muscular dystrophy" Accession="RCV000795432" Version="1">
+        <ClassifiedConditionList TraitSetID="31131">
+          <ClassifiedCondition DB="MedGen" ID="C0265221">Walker-Warburg congenital muscular dystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-07-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-07-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="31131" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35635" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Walker-Warburg congenital muscular dystrophy</ElementValue>
+                <XRef ID="Walker-Warburg+syndrome/7436" DB="Genetic Alliance" />
+                <XRef ID="111504002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Muscular dystrophy-dystroglycanopathy, type A</ElementValue>
+                <XRef ID="MONDO:0000171" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS236670" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Walker-Warburg syndrome</ElementValue>
+                <XRef ID="899" DB="Orphanet" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2599" />
+                <XRef ID="2599" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="899" DB="Orphanet" />
+              <XRef ID="C0265221" DB="MedGen" />
+              <XRef ID="MONDO:0000171" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS236670" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1828715" SubmissionDate="2019-03-28" DateLastUpdated="2019-08-14" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="4624574|MedGen:C0265221" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000934896" DateUpdated="2019-08-14" DateCreated="2019-08-14" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-07-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the FKRP gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with FKRP-related disease. Loss-of-function variants in FKRP are known to be pathogenic (PMID: 11592034, 12707425, 23591631). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FKRP" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000019.9:g.(?_47258688)_(47260215_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Walker-Warburg congenital muscular dystrophy</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0265221" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1828715" TraitType="Disease" MappingType="Name" MappingValue="Walker-Warburg congenital muscular dystrophy" MappingRef="Preferred">
+        <MedGen CUI="C0265221" Name="Walker-Warburg congenital muscular dystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

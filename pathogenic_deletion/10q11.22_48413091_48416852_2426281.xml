@@ -1,0 +1,145 @@
+<VariationArchive RecordType="classified" VariationID="2426281" VariationName="NC_000010.10:g.(?_48413578)_(48416693_?)del" VariationType="Deletion" Accession="VCV002426281" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1951683" VariationID="2426281">
+      <GeneList>
+        <Gene Symbol="GDF2" FullName="growth differentiation factor 2" GeneID="2658" HGNC_ID="HGNC:4217" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="47322454" stop="47327588" display_start="47322454" display_stop="47327588" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="48413091" stop="48416852" display_start="48413091" display_stop="48416852" Strand="-" />
+          </Location>
+          <OMIM>605120</OMIM>
+          <Haploinsufficiency last_evaluated="2016-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GDF2">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GDF2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(?_48413578)_(48416693_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="48413578" innerStop="48416693" display_start="48413578" display_stop="48416693" variantLength="3116" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_48413578)_(48416693_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_48413578)_(48416693_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(?_48413578)_(48416693_?)del AND Telangiectasia, hereditary hemorrhagic, type 5" Accession="RCV003119719" Version="3">
+        <ClassifiedConditionList TraitSetID="12093">
+          <ClassifiedCondition DB="MedGen" ID="C3809710">Telangiectasia, hereditary hemorrhagic, type 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-10-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-10-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31661308</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12093" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18351" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Telangiectasia, hereditary hemorrhagic, type 5</ElementValue>
+                <XRef ID="MONDO:0014217" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HHT5</ElementValue>
+                <XRef Type="MIM" ID="615506" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Hereditary hemorrhagic telangiectasia (HHT) is characterized by the presence of multiple arteriovenous malformations (AVMs) that lack intervening capillaries and result in direct connections between arteries and veins. The most common clinical manifestation is spontaneous and recurrent nosebleeds (epistaxis) beginning on average at age 12 years. Telangiectases (small AVMs) are characteristically found on the lips, tongue, buccal and gastrointestinal (GI) mucosa, face, and fingers. The appearance of telangiectases is generally later than epistaxis but may be during childhood. Large AVMs occur most often in the lungs, liver, or brain; complications from bleeding or shunting may be sudden and catastrophic. A minority of individuals with HHT have GI bleeding, which is rarely seen before age 50 years.</Attribute>
+                <XRef ID="NBK1351" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15978" />
+                <XRef ID="15978" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301525</ID>
+                <ID Source="BookShelf">NBK1351</ID>
+              </Citation>
+              <XRef ID="774" DB="Orphanet" />
+              <XRef ID="C3809710" DB="MedGen" />
+              <XRef ID="MONDO:0014217" DB="MONDO" />
+              <XRef Type="MIM" ID="615506" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7075217" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_016204.2_Deletion (Entire Coding Sequence)|MedGen:C3809710" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003794976" DateUpdated="2023-11-11" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-10-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31661308</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the GDF2 gene has been identified. The current clinical and genetic evidence is not sufficient to establish whether loss-of-function variants in GDF2 cause disease. The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. A similar copy number variant has been observed in individuals with autosomal dominant pulmonary arterial hypertension (Invitae). Larger copy number events that include this gene have also been reported (PMID: 31661308). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GDF2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(?_48413578)_(48416693_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3809710" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7075217" TraitType="Disease" MappingType="XRef" MappingValue="C3809710" MappingRef="MedGen">
+        <MedGen CUI="C3809710" Name="Telangiectasia, hereditary hemorrhagic, type 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

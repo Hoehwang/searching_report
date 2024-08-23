@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="265703" VariationName="NM_178161.3(PTF1A):c.705del (p.Pro236fs)" VariationType="Deletion" Accession="VCV000265703" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2016-10-10" MostRecentSubmission="2016-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="259936" VariationID="265703">
+      <GeneList>
+        <Gene Symbol="PTF1A" FullName="pancreas associated transcription factor 1a" GeneID="256297" HGNC_ID="HGNC:23734" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10p12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="23192312" stop="23194245" display_start="23192312" display_stop="23194245" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="23481459" stop="23483180" display_start="23481459" display_stop="23483180" Strand="+" />
+          </Location>
+          <OMIM>607194</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_178161.3(PTF1A):c.705del (p.Pro236fs)</Name>
+      <CanonicalSPDI>NC_000010.11:23193229:GGGGGG:GGGGG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10p12.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="23193230" stop="23193230" display_start="23193230" display_stop="23193230" variantLength="1" positionVCF="23193229" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="23482159" stop="23482159" display_start="23482159" display_stop="23482159" variantLength="1" positionVCF="23482158" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>P236fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.23482164del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.23482164del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.23193235del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.23193235del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009798.1" sequenceAccession="NG_009798" sequenceVersion="1" change="g.5705del">
+            <Expression>NG_009798.1:g.5705del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_178161.3" sequenceAccession="NM_178161" sequenceVersion="3" change="c.705del" MANESelect="true">
+            <Expression>NM_178161.3:c.705del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_835455.1" sequenceAccession="NP_835455" sequenceVersion="1" change="p.Pro236fs">
+            <Expression>NP_835455.1:p.Pro236fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10588478" DB="ClinGen" />
+        <XRef Type="rs" ID="886039746" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_178161.3(PTF1A):c.705del (p.Pro236fs) AND not provided" Accession="RCV000255341" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-08-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-08-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-10-10" MostRecentSubmission="2016-10-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="617352" SubmissionDate="2019-01-29" DateLastUpdated="2016-10-10" DateCreated="2016-10-10">
+        <ClinVarSubmissionID localKey="GDX:1184376|Not Provided" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000322699" DateUpdated="2016-10-10" DateCreated="2016-10-10" Type="SCV" Version="5" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-08-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The c.705delG pathogenic variant in the PTF1A gene has not been reported previously as apathogenic variant nor as a benign variant, to our knowledge. The c.705delG variant causes aframeshift starting with codon Proline 236, changes this amino acid to an Arginine residue, and createsa premature Stop codon at position 41 of the new reading frame, denoted p.Pro236ArgfsX41. Thisvariant is predicted to cause loss of normal protein function through protein truncation. Thec.705delG variant was not observed in approximately 2360 individuals of European and AfricanAmerican ancestry in the NHLBI Exome Sequencing Project, indicating it is not a common benignvariant in these populations. We interpret c.705delG as a pathogenic variant.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PTF1A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_178161.2:c.705delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5098196</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="617352" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,119 @@
+<VariationArchive VariationID="1807240" VariationName="Single allele" VariationType="Deletion" Accession="VCV001807240" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1864244" VariationID="1807240">
+      <GeneList>
+        <Gene Symbol="DEPDC5" FullName="DEP domain containing 5, GATOR1 subcomplex subunit" GeneID="9681" HGNC_ID="HGNC:18423" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.2-12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="31753968" stop="31908033" display_start="31753968" display_stop="31908033" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="32149936" stop="32303019" display_start="32149936" display_stop="32303019" Strand="+" />
+          </Location>
+          <OMIM>614191</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.2-12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" outerStart="32188813" innerStart="32193576" innerStop="32202187" outerStop="32205587" display_start="32188813" display_stop="32205587" alternateAllele="-" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND not provided" Accession="RCV002475197" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5419426" SubmissionDate="2022-12-27" DateLastUpdated="2022-12-31" DateCreated="2022-12-31">
+        <ClinVarSubmissionID localKey="A17234|not provided" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002771493" DateUpdated="2022-12-31" DateCreated="2022-12-31" Type="SCV" Version="1" SubmitterName="Athena Diagnostics" OrgID="1012" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is expected to result in the loss of a functional protein. Similar variants have not been reported in large, multi-ethnic general populations (http://gnomad.broadinstitute.org). This variant has been identified in at least one individual tested at Athena Diagnostics with clinical features associated with this gene.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Athena Diagnostics Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">26467025</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="-" innerStart="32193576" innerStop="32202187" outerStart="32188813" outerStop="32205587" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478070</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5419426" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

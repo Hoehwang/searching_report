@@ -1,0 +1,144 @@
+<VariationArchive RecordType="classified" VariationID="12947" VariationName="NG_007511.1:g.6141_16535del" VariationType="Deletion" Accession="VCV000012947" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-24" DateCreated="2018-12-24" MostRecentSubmission="2018-12-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="27986" VariationID="12947">
+      <GeneList>
+        <Gene Symbol="FUT2" FullName="fucosyltransferase 2" GeneID="2524" HGNC_ID="HGNC:4013" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>19q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="48695971" stop="48705951" display_start="48695971" display_stop="48705951" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="49199227" stop="49209190" display_start="49199227" display_stop="49209190" Strand="+" />
+          </Location>
+          <OMIM>182100</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_007511.1:g.6141_16535del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19q13.3</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>FUT2, DEL</Name>
+        <Name>DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_811" sequenceAccession="LRG_811">
+            <Expression>LRG_811:g.6141_16535del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007511.1" sequenceAccession="NG_007511" sequenceVersion="1" change="g.6141_16535del">
+            <Expression>NG_007511.1:g.6141_16535del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="182100.0003" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 182100.0003 from the sequence of the breakpoint in Figure 2 of the paper by Koda et al., 2000 (PubMed 10982186).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_007511.1:g.6141_16535del AND BOMBAY PHENOTYPE, DIGENIC" Accession="RCV000013812" Version="25">
+        <ClassifiedConditionList TraitSetID="45345">
+          <ClassifiedCondition DB="MedGen" ID="C4749062">BOMBAY PHENOTYPE, DIGENIC</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2000-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2000-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-12-24" MostRecentSubmission="2018-12-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">9299444</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">10982186</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="45345" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="40917" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">BOMBAY PHENOTYPE, DIGENIC</ElementValue>
+                <XRef Type="Allelic variant" ID="211100.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="182100.0003" DB="OMIM" />
+                <XRef ID="616754" DB="OMIM" />
+              </Name>
+              <XRef ID="C4749062" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="34059" SubmissionDate="2018-12-19" DateLastUpdated="2018-12-24" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="182100.0003_BOMBAY PHENOTYPE, DIGENIC" title="FUT2, DEL_BOMBAY PHENOTYPE, DIGENIC" />
+        <ClinVarAccession Accession="SCV000034059" DateUpdated="2018-12-24" DateCreated="2013-04-04" Type="SCV" Version="4" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2000-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 3 unrelated individuals with the Bombay phenotype (see 616754), Koda et al. (1997) found that a 725T-G transversion in FUT1 (211100.0004), which results in an amino acid change, leu242 to arg, and complete deletion of FUT2 were responsible for the classic Bombay phenotype. The individuals lacked the H antigen not only on blood cells but also in saliva, which prompted Koda et al. (1997) to investigate the FUT2 gene in these persons. The mutations in both genes were homozygous. The results of analyses of FUT1 and FUT2 by Koda et al. (1997) suggested that the homozygosity for these 2 unusual and linked genetic mutations is common in individuals with the classic Bombay phenotype.</Attribute>
+              <Citation>
+                <ID Source="PubMed">9299444</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="616754" Type="MIM" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">Koda et al. (2000) isolated the junction region of the deletion of FUT2 and found evidence that the deletion was generated by Alu-Alu recombination.</Attribute>
+              <Citation>
+                <ID Source="PubMed">10982186</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FUT2" />
+          </GeneList>
+          <Name>FUT2, DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="182100.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BOMBAY PHENOTYPE, DIGENIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="34059" TraitType="Disease" MappingType="Name" MappingValue="BOMBAY PHENOTYPE, DIGENIC" MappingRef="Preferred">
+        <MedGen CUI="C4749062" Name="BOMBAY PHENOTYPE, DIGENIC" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

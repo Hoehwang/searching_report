@@ -1,0 +1,137 @@
+<VariationArchive VariationID="3246392" VariationName="NC_000005.9:g.(?_1432559)_(1443312_?)del" VariationType="Deletion" Accession="VCV003246392" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3402539" VariationID="3246392">
+      <GeneList>
+        <Gene Symbol="SLC6A3" FullName="solute carrier family 6 member 3" GeneID="6531" HGNC_ID="HGNC:11049" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5p15.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="1392794" stop="1445440" display_start="1392794" display_stop="1445440" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NT_187547.1" start="64333" stop="121215" display_start="64333" display_stop="121215" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="1392904" stop="1445542" display_start="1392904" display_stop="1445542" Strand="-" />
+          </Location>
+          <OMIM>126455</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.(?_1432559)_(1443312_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5p15.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="1432559" innerStop="1443312" display_start="1432559" display_stop="1443312" variantLength="10754" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_1432559)_(1443312_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_1432559)_(1443312_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.(?_1432559)_(1443312_?)del AND Parkinsonism-dystonia, infantile" Accession="RCV004580497" Version="1">
+        <ClassifiedConditionList TraitSetID="52629">
+          <ClassifiedCondition DB="MedGen" ID="C2751067">Parkinsonism-dystonia, infantile</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21112253</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="52629" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="43198" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Parkinsonism-dystonia, infantile</ElementValue>
+                <XRef ID="MONDO:0013150" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS613135" DB="OMIM" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">Infantile dystonia-parkinsonism (IPD) is an extremely rare inherited neurological syndrome that presents in early infancy with hypokinetic parkinsonism and dystonia and that can be fatal.</Attribute>
+                <XRef ID="238455" DB="Orphanet" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10484" />
+                <XRef ID="10484" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="238455" DB="Orphanet" />
+              <XRef ID="C2751067" DB="MedGen" />
+              <XRef ID="MONDO:0013150" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS613135" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9836925" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000005.9:g.(?_1432559)_(1443312_?)del|MedGen:C2751067" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005063028" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">21112253</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with SLC6A3-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 2-4 of the SLC6A3 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in SLC6A3 are known to be pathogenic (PMID: 21112253).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.(?_1432559)_(1443312_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C2751067" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9836925" TraitType="Disease" MappingType="XRef" MappingValue="C2751067" MappingRef="MedGen">
+        <MedGen CUI="C2751067" Name="Parkinsonism-dystonia, infantile" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

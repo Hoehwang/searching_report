@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="2501105" VariationName="NC_000014.8:g.(?_23242430)_(23245528_23248001)del" VariationType="Deletion" Accession="VCV002501105" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-05-13" DateCreated="2023-05-13" MostRecentSubmission="2023-05-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2523997" VariationID="2501105">
+      <GeneList>
+        <Gene Symbol="SLC7A7" FullName="solute carrier family 7 member 7" GeneID="9056" HGNC_ID="HGNC:11065" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="22773222" stop="22819791" display_start="22773222" display_stop="22819791" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="23242430" stop="23289019" display_start="23242430" display_stop="23289019" Strand="-" />
+          </Location>
+          <OMIM>603593</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000014.8:g.(?_23242430)_(23245528_23248001)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>14q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" innerStart="23242430" innerStop="23245528" outerStop="23248001" display_start="23242430" display_stop="23248001" variantLength="5572" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.(?_23242430)_(23245528_23248001)del" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.(?_23242430)_(23245528_23248001)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000014.8:g.(?_23242430)_(23245528_23248001)del AND Lysinuric protein intolerance" Accession="RCV003226702" Version="1">
+        <ClassifiedConditionList TraitSetID="1722">
+          <ClassifiedCondition DB="MedGen" ID="C0268647">Lysinuric protein intolerance</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-05-13" MostRecentSubmission="2023-05-13">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18716612</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25419514</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32888943</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1722" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2712" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Dibasicamino aciduria II</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Lysinuric protein intolerance</ElementValue>
+                <XRef ID="Dibasic+Aminoaciduria+2/4383" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009109" DB="MONDO" />
+                <XRef ID="303852004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LPI</ElementValue>
+                <XRef Type="MIM" ID="222700" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Lysinuric protein intolerance (LPI) typically presents after an infant is weaned from breast milk or formula; variable findings include recurrent vomiting and episodes of diarrhea, episodes of stupor and coma after a protein-rich meal, poor feeding, aversion to protein-rich food, failure to thrive, hepatosplenomegaly, and muscular hypotonia. Over time, findings include: poor growth, osteoporosis, involvement of the lungs (progressive interstitial changes, pulmonary alveolar proteinosis) and of the kidneys (progressive glomerular and proximal tubular disease), hematologic abnormalities (normochromic or hypochromic anemia, leukopenia, thrombocytopenia, erythroblastophagocytosis in the bone marrow aspirate), and a clinical presentation resembling the hemophagocytic lymphohistiocytosis/macrophagic activation syndrome. Hypercholesterolemia, hypertriglyceridemia, and acute pancreatitis can also be seen.</Attribute>
+                <XRef ID="NBK1361" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301535</ID>
+                <ID Source="BookShelf">NBK1361</ID>
+              </Citation>
+              <XRef ID="470" DB="Orphanet" />
+              <XRef ID="C0268647" DB="MedGen" />
+              <XRef ID="MONDO:0009109" DB="MONDO" />
+              <XRef Type="MIM" ID="222700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7333282" SubmissionDate="2023-04-14" DateLastUpdated="2023-05-13" DateCreated="2023-05-13">
+        <ClinVarSubmissionID localKey="NC_000014.8:g.(?_23242430)_(23245528_23248001)del|MedGen:C0268647" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003922782" DateUpdated="2023-05-13" DateCreated="2023-05-13" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-03-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25419514</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18716612</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32888943</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 6-11 in the SLC7A7 gene. A presumed nomenclature of c.(770+1_771-1)_(*389_?)del has been designated for the purposes of this classification. Although exact breakpoints of this CNV are not known, it is expected to result in a large deletion change in the SLC7A7 gene, a known mechanism of disease. The variant was absent in 21690 control chromosomes. c.(770+1_771-1)_(*389_?)del has been reported in the literature in individuals affected with Lysinuric Protein Intolerance or Primary Immunodeficiency (Font-Llitjos_2009, Posey_2014, Platt_2021), and one of these individuals was reported as compound heterozygous with a pathogenic truncating variant in trans. These data indicate that the variant is very likely to be associated with disease. To our knowledge, no experimental evidence demonstrating an impact on protein function has been reported. Two submitters have provided clinical-significance assessments for this variant to ClinVar after 2014 , and classified the variant as pathogenic. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC7A7" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000014.8:g.(?_23242430)_(23245528_23248001)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0268647" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13077516</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7333282" TraitType="Disease" MappingType="XRef" MappingValue="C0268647" MappingRef="MedGen">
+        <MedGen CUI="C0268647" Name="Lysinuric protein intolerance" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

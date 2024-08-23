@@ -1,0 +1,185 @@
+<VariationArchive VariationID="1701914" VariationName="NM_000693.4(ALDH1A3):c.1444del (p.Met482fs)" VariationType="Deletion" Accession="VCV001701914" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1694302" VariationID="1701914">
+      <GeneList>
+        <Gene Symbol="ALDH1A3-AS1" FullName="ALDH1A3 antisense RNA 1" GeneID="101927751" HGNC_ID="HGNC:55416" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q26.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="100892343" stop="100919283" display_start="100892343" display_stop="100919283" Strand="-" />
+          </Location>
+        </Gene>
+        <Gene Symbol="ALDH1A3" FullName="aldehyde dehydrogenase 1 family member A3" GeneID="220" HGNC_ID="HGNC:409" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q26.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="100879831" stop="100916626" display_start="100879831" display_stop="100916626" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="101420008" stop="101456830" display_start="101420008" display_stop="101456830" Strand="+" />
+          </Location>
+          <OMIM>600463</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000693.4(ALDH1A3):c.1444del (p.Met482fs)</Name>
+      <CanonicalSPDI>NC_000015.10:100908456:AAAA:AAA</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q26.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="100908457" stop="100908457" display_start="100908457" display_stop="100908457" variantLength="1" positionVCF="100908456" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="101448662" stop="101448662" display_start="101448662" display_stop="101448662" variantLength="1" positionVCF="101448661" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>M375fs</ProteinChange>
+      <ProteinChange>M482fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.100908460del" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.100908460del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.101448665del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.101448665del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012254.1" sequenceAccession="NG_012254" sequenceVersion="1" change="g.33657del">
+            <Expression>NG_012254.1:g.33657del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000693.4" sequenceAccession="NM_000693" sequenceVersion="4" change="c.1444del" MANESelect="true">
+            <Expression>NM_000693.4:c.1444del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000684.2" sequenceAccession="NP_000684" sequenceVersion="2" change="p.Met482fs">
+            <Expression>NP_000684.2:p.Met482fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001293815.2" sequenceAccession="NM_001293815" sequenceVersion="2" change="c.1123del">
+            <Expression>NM_001293815.2:c.1123del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001280744.1" sequenceAccession="NP_001280744" sequenceVersion="1" change="p.Met375fs">
+            <Expression>NP_001280744.1:p.Met375fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2041848486" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="RNA degradation by nonsense-mediated decay">
+        <XRef ID="0347" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000693.4(ALDH1A3):c.1444del (p.Met482fs) AND Microphthalmia" Accession="RCV002277718" Version="2">
+        <ClassifiedConditionList TraitSetID="8564">
+          <ClassifiedCondition DB="MedGen" ID="C0026010">Microphthalmia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="DOI">10.1016/j.exer.2016.03.014</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8564" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17232" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Microphthalmos</ElementValue>
+                <XRef ID="HP:0000568" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Microphthalmia</ElementValue>
+                <XRef ID="HP:0000568" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0021129" DB="MONDO" />
+              </Name>
+              <XRef ID="C0026010" DB="MedGen" />
+              <XRef ID="MONDO:0021129" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0000568" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007996" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5015071" SubmissionDate="2022-08-20" DateLastUpdated="2022-08-29" DateCreated="2022-08-29">
+        <ClinVarSubmissionID localKey="SUB11954365" submittedAssembly="GRCh38" title="SUB11954365" />
+        <ClinVarAccession Accession="SCV002564411" DateUpdated="2022-08-29" DateCreated="2022-08-29" Type="SCV" Version="1" SubmitterName="Madar Genetics Lab, Lorestan University of Medical Sciences" OrgID="508719" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="DOI">10.1016/j.exer.2016.03.014</ID>
+          </Citation>
+          <Comment>Up to date, only two frameshift mutations, c.172dup (p. Glu58Glyfs*5) and c.1310_1311delAT (p.Tyr437Trpfs*44), have been previously reported in ALDH1A3 causing anophthalmia both in Pakistani population(Lin et al., 2018; Ullah et al., 2016). Human ALDH1A3 protein consists of three highly-conserved functional domains including the N-terminal NAD binding domain, the catalytic domain and the oligomerization domain after folding in the form of a tetramer (Moretti et al., 2016). Nevertheless, each single monomer can catalyze the retinal oxidation. Totally, 13 α-helices, 19 β-sheets and the connecting coils build up these domains. Featured by β12-β13 and β15-β18, the catalytic domain comprises β12 G283–M482, while the oligomerization domain is built by K150–P170 and S483–L507 forming a three-stranded antiparallel β-sheet (β5-β6 and β15) (Moretti et al., 2016). The ALDH1A3 gene contains 13 exons(Hsu et al., 1994), and in the present study, the c.1441delA (p.M482Cfs*8) variant has been identified in exon 12 of ALDH1A3. Met482 is the last amino acid of catalytic domain which is immediately continued by oligomeration domain (S483-L507)(Lin et al., 2018). The variant p.M482Cfs*8 may entirely disrupt the oligomeration domain.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Ethnicity>Lor</Ethnicity>
+              <GeographicOrigin>Iran</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="15" alternateAllele="-" referenceAllele="A" start="100908457" stop="100908457" />
+          </Location>
+          <FunctionalConsequence Value="RNA degradation by nonsense-mediated decay">
+            <XRef DB="Variation Ontology" ID="0347" URL="http://purl.obolibrary.org/obo/VariO_0347" />
+          </FunctionalConsequence>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0000568" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11954365</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5015071" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000568" MappingRef="HP">
+        <MedGen CUI="C0026010" Name="Microphthalmia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

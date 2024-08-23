@@ -1,0 +1,258 @@
+<VariationArchive RecordType="classified" VariationID="66087" VariationName="NC_000024.9:g.730550_778092del" VariationType="Deletion" Accession="VCV000066087" Version="1" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2022-06-11" DateCreated="2018-11-09" MostRecentSubmission="2018-11-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="76989" VariationID="66087">
+      <GeneList>
+        <Gene Symbol="SHOX" FullName="short stature homeobox" GeneID="6473" HGNC_ID="HGNC:10853" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>Xp22.33</CytogeneticLocation>
+            <CytogeneticLocation>Yp11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="624344" stop="659411" display_start="624344" display_stop="659411" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="624344" stop="659411" display_start="624344" display_stop="659411" Strand="+" />
+          </Location>
+          <OMIM>312865</OMIM>
+          <OMIM>400020</OMIM>
+          <Haploinsufficiency last_evaluated="2015-10-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SHOX">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2015-10-15" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SHOX">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000024.9:g.730550_778092del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Yp11.32</CytogeneticLocation>
+        <CytogeneticLocation>Xp22.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000024.9" start="730550" stop="778092" display_start="730550" display_stop="778092" variantLength="47543" />
+      </Location>
+      <OtherNameList>
+        <Name>47.5-KB DEL, DOWNSTREAM ENHANCER</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000024.9" sequenceAccession="NC_000024" sequenceVersion="9" change="g.730550_778092del" Assembly="GRCh37">
+            <Expression>NC_000024.9:g.730550_778092del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="312865.0016" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">47.5-kb deletion downstream of the SHOX gene</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000024.9:g.730550_778092del AND Leri-Weill dyschondrosteosis" Accession="RCV000056322" Version="4">
+        <ClassifiedConditionList TraitSetID="2777">
+          <ClassifiedCondition DB="MedGen" ID="C0265309">Leri-Weill dyschondrosteosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2012-07-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NC_000024.9:g.730550_778092del AND SHOX-related short stature" Accession="RCV000056323" Version="5">
+        <ClassifiedConditionList TraitSetID="2776">
+          <ClassifiedCondition DB="MedGen" ID="C1845118">SHOX-related short stature</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2012-07-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2012-07-01" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2018-11-09" MostRecentSubmission="2018-11-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22791839</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2776" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4142" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Short stature, idiopathic, X-linked</ElementValue>
+                <XRef ID="SHORT+STATURE%2C+IDIOPATHIC%2C+X-LINKED/9296" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">SHOX-related short stature</ElementValue>
+                <XRef ID="MONDO:0010367" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ISS</ElementValue>
+                <XRef Type="MIM" ID="300582" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">SS</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000529040" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000512698" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000593073" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508920" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000511912" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <XRef ID="314795" DB="Orphanet" />
+              <XRef ID="C1845118" DB="MedGen" />
+              <XRef ID="MONDO:0010367" DB="MONDO" />
+              <XRef Type="MIM" ID="300582" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="2777" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2677" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Dyschondrosteosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Léri-Weill dyschondrosteosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Leri-Weill dyschondrosteosis</ElementValue>
+                <XRef ID="MONDO:0007481" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LWD</ElementValue>
+                <XRef Type="MIM" ID="127300" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">DCO</ElementValue>
+                <XRef Type="MIM" ID="127300" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The phenotypic spectrum of SHOX deficiency disorders, caused by haploinsufficiency of the short stature homeobox-containing gene (SHOX), ranges from Leri-Weill dyschondrosteosis (LWD) at the severe end of the spectrum to nonspecific short stature at the mild end of the spectrum. In adults with SHOX deficiency, the proportion of LWD versus short stature without features of LWD is not well defined. In LWD the classic clinical triad is short stature, mesomelia, and Madelung deformity. Mesomelia, in which the middle portion of a limb is shortened in relation to the proximal portion, can be evident first in school-aged children and increases with age in frequency and severity. Madelung deformity (abnormal alignment of the radius, ulna, and carpal bones at the wrist) typically develops in mid-to-late childhood and is more common and severe in females. The phenotype of short stature caused by SHOX deficiency in the absence of mesomelia and Madelung deformity (called SHOX-deficient short stature in this GeneReview) is highly variable, even within the same family.</Attribute>
+                <XRef ID="NBK1215" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3224" />
+                <XRef ID="3224" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301394</ID>
+                <ID Source="BookShelf">NBK1215</ID>
+              </Citation>
+              <XRef ID="240" DB="Orphanet" />
+              <XRef ID="C0265309" DB="MedGen" />
+              <XRef ID="MONDO:0007481" DB="MONDO" />
+              <XRef Type="MIM" ID="127300" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="146801" SubmissionDate="2018-11-07" DateLastUpdated="2018-11-09" DateCreated="2013-10-18">
+        <ClinVarSubmissionID localKey="312865.0016_LERI-WEILL DYSCHONDROSTEOSIS" title="SHOX, 47.5-KB DEL, DOWNSTREAM ENHANCER_LERI-WEILL DYSCHONDROSTEOSIS" />
+        <ClinVarAccession Accession="SCV000087491" DateUpdated="2018-11-09" DateCreated="2013-10-18" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-07-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Benito-Sanz et al. (2012) identified the same 47,543-bp deletion (chrX:700,549-748,093, GRCh37) in the pseudoautosomal region 1 (PAR1) downstream of the SHOX gene in 19 of 124 probands with Leri-Weill dyschondrosteosis (127300) (15.3%) and 11 of 576 probands with idiopathic short stature (300582) (1.9%). Eight evolutionarily conserved regions (ECRs) were identified within the deleted sequence, and all ECRs were evaluated for SHOX regulatory activity. Chromosome conformation capture assays in embryonic chicken limbs demonstrated that ECR1 interacts with a sequence close to or within the SHOX proximal promoter. Luciferase reporter assays confirmed that ECR1 operates as an orientation- and position-independent enhancer.</Attribute>
+              <Citation>
+                <ID Source="PubMed">22791839</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="127300" Type="MIM" />
+              <XRef DB="OMIM" ID="300582" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SHOX" />
+          </GeneList>
+          <Name>SHOX, 47.5-KB DEL, DOWNSTREAM ENHANCER</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">47.5-KB DEL, DOWNSTREAM ENHANCER</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="312865.0016" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">LERI-WEILL DYSCHONDROSTEOSIS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="146802" SubmissionDate="2018-11-07" DateLastUpdated="2018-11-09" DateCreated="2013-10-18">
+        <ClinVarSubmissionID localKey="312865.0016_SHORT STATURE, IDIOPATHIC, X-LINKED" title="SHOX, 47.5-KB DEL, DOWNSTREAM ENHANCER_SHORT STATURE, IDIOPATHIC, X-LINKED" />
+        <ClinVarAccession Accession="SCV000087492" DateUpdated="2018-11-09" DateCreated="2013-10-18" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-07-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to included disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Benito-Sanz et al. (2012) identified the same 47,543-bp deletion (chrX:700,549-748,093, GRCh37) in the pseudoautosomal region 1 (PAR1) downstream of the SHOX gene in 19 of 124 probands with Leri-Weill dyschondrosteosis (127300) (15.3%) and 11 of 576 probands with idiopathic short stature (300582) (1.9%). Eight evolutionarily conserved regions (ECRs) were identified within the deleted sequence, and all ECRs were evaluated for SHOX regulatory activity. Chromosome conformation capture assays in embryonic chicken limbs demonstrated that ECR1 interacts with a sequence close to or within the SHOX proximal promoter. Luciferase reporter assays confirmed that ECR1 operates as an orientation- and position-independent enhancer.</Attribute>
+              <Citation>
+                <ID Source="PubMed">22791839</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="127300" Type="MIM" />
+              <XRef DB="OMIM" ID="300582" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SHOX" />
+          </GeneList>
+          <Name>SHOX, 47.5-KB DEL, DOWNSTREAM ENHANCER</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">47.5-KB DEL, DOWNSTREAM ENHANCER</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="312865.0016" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="included">SHORT STATURE, IDIOPATHIC, X-LINKED</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="146802" TraitType="Disease" MappingType="Name" MappingValue="SHORT STATURE, IDIOPATHIC, X-LINKED" MappingRef="Alternate">
+        <MedGen CUI="C1845118" Name="SHOX-related short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="146801" TraitType="Disease" MappingType="Name" MappingValue="LERI-WEILL DYSCHONDROSTEOSIS" MappingRef="Preferred">
+        <MedGen CUI="C0265309" Name="Leri-Weill dyschondrosteosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

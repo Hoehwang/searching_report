@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="1801351" VariationName="NM_001353345.2(SETD1B):c.598dup (p.Gln200fs)" VariationType="Duplication" Accession="VCV001801351" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-07" DateCreated="2022-12-03" MostRecentSubmission="2022-12-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1858638" VariationID="1801351">
+      <GeneList>
+        <Gene Symbol="SETD1B" FullName="SET domain containing 1B, histone lysine methyltransferase" GeneID="23067" HGNC_ID="HGNC:29187" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="121790155" stop="121832656" display_start="121790155" display_stop="121832656" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="122242637" stop="122270561" display_start="122242637" display_stop="122270561" Strand="+" />
+          </Location>
+          <OMIM>611055</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001353345.2(SETD1B):c.598dup (p.Gln200fs)</Name>
+      <CanonicalSPDI>NC_000012.12:121808255:CCCCCC:CCCCCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="121808255" stop="121808256" display_start="121808255" display_stop="121808256" variantLength="1" positionVCF="121808255" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="122246161" stop="122246162" display_start="122246161" display_stop="122246162" variantLength="1" positionVCF="122246161" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+      </Location>
+      <ProteinChange>Q200fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.122246167dup" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.122246167dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.121808261dup" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.121808261dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001353345.2" sequenceAccession="NM_001353345" sequenceVersion="2" change="c.598dup" MANESelect="true">
+            <Expression>NM_001353345.2:c.598dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001340274.1" sequenceAccession="NP_001340274" sequenceVersion="1" change="p.Gln200fs">
+            <Expression>NP_001340274.1:p.Gln200fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001353345.2(SETD1B):c.598dup (p.Gln200fs) AND Intellectual developmental disorder with seizures and language delay" Accession="RCV002463412" Version="1">
+        <ClassifiedConditionList TraitSetID="56423">
+          <ClassifiedCondition DB="MedGen" ID="C5436574">Intellectual developmental disorder with seizures and language delay</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-03" MostRecentSubmission="2022-12-03">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="56423" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="53941" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual developmental disorder with seizures and language delay</ElementValue>
+                <XRef ID="MONDO:0033559" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IDDSELD</ElementValue>
+                <XRef Type="MIM" ID="619000" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">SETD1B-related neurodevelopmental disorder (SETD1B-NDD) is characterized by developmental delay (mainly affecting speech and language), intellectual disability, seizures, autism spectrum disorder or autism-like behaviors, and additional behavioral concerns. Speech delay and/or language disorder has been reported in most affected individuals. Delay in gross motor skills and mild-to-moderate intellectual disability are common. Most affected individuals have seizures with variable onset and seizure type. Behavioral issues including hyperactivity, aggression, anxiety, and sleep disorders have been reported in approximately half of individuals. Less common features include ophthalmologic manifestations and feeding issues.</Attribute>
+                <XRef ID="NBK584549" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">SETD1B-Related Neurodevelopmental Disorder</Attribute>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">36173874</ID>
+              </Citation>
+              <XRef ID="C5436574" DB="MedGen" />
+              <XRef ID="MONDO:0033559" DB="MONDO" />
+              <XRef Type="MIM" ID="619000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5395770" SubmissionDate="2022-11-30" DateLastUpdated="2022-12-03" DateCreated="2022-12-03">
+        <ClinVarSubmissionID localKey="NM_001353345.1:c.598dup|OMIM:619000" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002757847" DateUpdated="2022-12-03" DateCreated="2022-12-03" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Clinical Exome/Genome Diagnostics Group, University Hospital Bonn" OrgID="508040" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SETD1B" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001353345.1:c.598dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619000" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12342007</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5395770" TraitType="Disease" MappingType="XRef" MappingValue="619000" MappingRef="OMIM">
+        <MedGen CUI="C5436574" Name="Intellectual developmental disorder with seizures and language delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

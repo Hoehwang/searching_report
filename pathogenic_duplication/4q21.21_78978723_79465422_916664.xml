@@ -1,0 +1,161 @@
+<VariationArchive VariationID="916664" VariationName="NM_025074.7(FRAS1):c.5952dup (p.Asp1985fs)" VariationType="Duplication" Accession="VCV000916664" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-06-12" MostRecentSubmission="2020-06-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904983" VariationID="916664">
+      <GeneList>
+        <Gene Symbol="FRAS1" FullName="Fraser extracellular matrix complex subunit 1" GeneID="80144" HGNC_ID="HGNC:19185" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q21.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="78057323" stop="78544269" display_start="78057323" display_stop="78544269" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="78978723" stop="79465422" display_start="78978723" display_stop="79465422" Strand="+" />
+          </Location>
+          <OMIM>607830</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_025074.7(FRAS1):c.5952dup (p.Asp1985fs)</Name>
+      <CanonicalSPDI>NC_000004.12:78446820:AA:AAA</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>4q21.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="78446820" stop="78446821" display_start="78446820" display_stop="78446821" variantLength="1" positionVCF="78446820" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="79367974" stop="79367975" display_start="79367974" display_stop="79367975" variantLength="1" positionVCF="79367974" referenceAlleleVCF="C" alternateAlleleVCF="CA" />
+      </Location>
+      <ProteinChange>D1985fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.79367976dup" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.79367976dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.12" sequenceAccession="NC_000004" sequenceVersion="12" change="g.78446822dup" Assembly="GRCh38">
+            <Expression>NC_000004.12:g.78446822dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_015812.2" sequenceAccession="NG_015812" sequenceVersion="2" change="g.394253dup">
+            <Expression>NG_015812.2:g.394253dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_025074.7" sequenceAccession="NM_025074" sequenceVersion="7" change="c.5952dup" MANESelect="true">
+            <Expression>NM_025074.7:c.5952dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_079350.5" sequenceAccession="NP_079350" sequenceVersion="5" change="p.Asp1985fs">
+            <Expression>NP_079350.5:p.Asp1985fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1718847595" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_025074.7(FRAS1):c.5952dup (p.Asp1985fs) AND Fraser syndrome 1" Accession="RCV001172434" Version="2">
+        <ClassifiedConditionList TraitSetID="502">
+          <ClassifiedCondition DB="MedGen" ID="C4551480">Fraser syndrome 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-09-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-09-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-06-12" MostRecentSubmission="2020-06-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="502" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1303" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Fraser syndrome 1</ElementValue>
+                <XRef ID="MONDO:0054737" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cryptophthalmos with other malformations</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FRASRS1</ElementValue>
+                <XRef ID="GTR000553865" DB="Genetic Testing Registry (GTR)" />
+                <XRef Type="MIM" ID="219000" DB="OMIM" />
+              </Symbol>
+              <XRef ID="2052" DB="Orphanet" />
+              <XRef ID="C4551480" DB="MedGen" />
+              <XRef ID="MONDO:0054737" DB="MONDO" />
+              <XRef Type="MIM" ID="219000" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2640392" SubmissionDate="2020-03-09" DateLastUpdated="2020-06-12" DateCreated="2020-06-12">
+        <ClinVarSubmissionID localKey="M093_v1|OMIM:219000" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001335493" DateUpdated="2020-06-12" DateCreated="2020-06-12" Type="SCV" Version="1" SubmitterName="Service de Biochimie Médicale et Biologie Moléculaire, CHU Clermont-Ferrand" OrgID="507283" OrganizationCategory="laboratory" OrgAbbreviation="CHU CF" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-09-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant in homozygous state or compound heterozygous state induced Fraser syndrome phenotype</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <Software name="Seqscape" purpose="alignment" />
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FRAS1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_025074.6:c.5952dupA</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="219000" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB7124995</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2640392" TraitType="Disease" MappingType="XRef" MappingValue="219000" MappingRef="OMIM">
+        <MedGen CUI="C4551480" Name="Fraser syndrome 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

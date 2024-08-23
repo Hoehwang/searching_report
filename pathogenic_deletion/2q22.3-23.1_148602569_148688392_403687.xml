@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="403687" VariationName="Single allele" VariationType="Deletion" Accession="VCV000403687" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-02-07" DateCreated="2017-04-09" MostRecentSubmission="2017-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="390661" VariationID="403687">
+      <GeneList>
+        <Gene Symbol="ACVR2A" FullName="activin A receptor type 2A" GeneID="92" HGNC_ID="HGNC:173" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q22.3-23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="147844517" stop="147930822" display_start="147844517" display_stop="147930822" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148602569" stop="148688392" display_start="148602569" display_stop="148688392" Strand="+" />
+          </Location>
+          <OMIM>102581</OMIM>
+        </Gene>
+        <Gene Symbol="MBD5" FullName="methyl-CpG binding domain protein 5" GeneID="55777" HGNC_ID="HGNC:20444" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>2q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="148020927" stop="148516971" display_start="148020927" display_stop="148516971" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148778579" stop="149271045" display_start="148778579" display_stop="149271045" Strand="+" />
+          </Location>
+          <OMIM>611472</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Little evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="ORC4" FullName="origin recognition complex subunit 4" GeneID="5000" HGNC_ID="HGNC:8490" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="147930396" stop="148021551" display_start="147930396" display_stop="148021551" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148687965" stop="148779172" display_start="148687965" display_stop="148779172" Strand="-" />
+          </Location>
+          <OMIM>603056</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="148483962" innerStop="148694158" display_start="148483962" display_stop="148694158" variantLength="210197" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_148483962)_(148694158_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_148483962)_(148694158_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND MBD5 associated neurodevelopmental disorder" Accession="RCV000454803" Version="2">
+        <ClassifiedConditionList TraitSetID="35948">
+          <ClassifiedCondition DB="MedGen" ID="CN241843">MBD5 associated neurodevelopmental disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2012-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2012-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-04-09" MostRecentSubmission="2017-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21981781</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27222293</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="35948" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37763" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">MBD5 associated neurodevelopmental disorder</ElementValue>
+              </Name>
+              <XRef ID="CN241843" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1052001" SubmissionDate="2016-02-05" DateLastUpdated="2017-04-09" DateCreated="2017-04-09">
+        <ClinVarSubmissionID localKey="NC_000002.12:g.148483962_ 148694158del" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000264471" DateUpdated="2017-04-09" DateCreated="2017-04-09" Type="SCV" Version="1" SubmitterName="Elsea Laboratory, Baylor College of Medicine" OrgID="242449" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-10-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">21981781</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation>
+            <ID Source="PubMed">21981781</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACVR2A" />
+            <Gene Symbol="ORC4L" />
+            <Gene Symbol="MBD5" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="148483962" innerStop="148694158" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MBD5 associated neurodevelopmental disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1052001" TraitType="Disease" MappingType="Name" MappingValue="MBD5 associated neurodevelopmental disorder" MappingRef="Preferred">
+        <MedGen CUI="CN241843" Name="MBD5 associated neurodevelopmental disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

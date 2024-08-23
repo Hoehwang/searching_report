@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="832116" VariationName="NC_000001.11:g.(?_75724778)_(75724827_?)del" VariationType="Deletion" Accession="VCV000832116" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="818995" VariationID="832116">
+      <GeneList>
+        <Gene Symbol="ACADM" FullName="acyl-CoA dehydrogenase medium chain" GeneID="34" HGNC_ID="HGNC:89" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="75724709" stop="75763679" display_start="75724709" display_stop="75763679" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="76190042" stop="76229354" display_start="76190042" display_stop="76229354" Strand="+" />
+          </Location>
+          <OMIM>607008</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.11:g.(?_75724778)_(75724827_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="76190463" innerStop="76190512" display_start="76190463" display_stop="76190512" variantLength="50" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_76190463)_(76190512_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_76190463)_(76190512_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.11:g.(?_75724778)_(75724827_?)del AND Medium-chain acyl-coenzyme A dehydrogenase deficiency" Accession="RCV001032633" Version="1">
+        <ClassifiedConditionList TraitSetID="944">
+          <ClassifiedCondition DB="MedGen" ID="C0220710">Medium-chain acyl-coenzyme A dehydrogenase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-09-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-09-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="944" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="81" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Medium-chain acyl-coenzyme A dehydrogenase deficiency</ElementValue>
+                <XRef ID="Medium-chain+acyl-coenzyme+A+dehydrogenase+deficiency/4547" DB="Genetic Alliance" />
+                <XRef ID="128596003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MCADD</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CARNITINE DEFICIENCY SECONDARY TO MEDIUM-CHAIN ACYL-CoA DEHYDROGENASE DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="201450" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Medium chain acyl-CoA dehydrogenase deficiency</ElementValue>
+                <XRef ID="MONDO:0008721" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ACADMD</ElementValue>
+                <XRef Type="MIM" ID="201450" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Medium-chain acyl-coenzyme A dehydrogenase (MCAD) is one of the enzymes involved in mitochondrial fatty acid ß-oxidation. Fatty acid ß-oxidation fuels hepatic ketogenesis, which provides a major source of energy once hepatic glycogen stores become depleted during prolonged fasting and periods of higher energy demands. MCAD deficiency is the most common disorder of fatty acid ß-oxidation and one of the most common inborn errors of metabolism. Most children are now diagnosed through newborn screening. Clinical symptoms in a previously apparently healthy child with MCAD deficiency include hypoketotic hypoglycemia and vomiting that may progress to lethargy, seizures, and coma triggered by a common illness. Hepatomegaly and liver disease are often present during an acute episode. Children appear normal at birth and – if not identified through newborn screening – typically present between age three and 24 months, although presentation even as late as adulthood is possible. The prognosis is excellent once the diagnosis is established and frequent feedings are instituted to avoid any prolonged periods of fasting.</Attribute>
+                <XRef ID="NBK1424" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="540" />
+                <XRef ID="540" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301597</ID>
+                <ID Source="BookShelf">NBK1424</ID>
+              </Citation>
+              <XRef ID="42" DB="Orphanet" />
+              <XRef ID="C0220710" DB="MedGen" />
+              <XRef ID="MONDO:0008721" DB="MONDO" />
+              <XRef Type="MIM" ID="201450" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357195" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5874245|MedGen:C0220710" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195940" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-09-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon 1 of the ACADM gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 1 of the ACADM gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with ACADM-related conditions. Loss-of-function variants in ACADM are known to be pathogenic (PMID: 16121256, 20434380). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ACADM" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_76190463)_(76190512_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Medium-chain acyl-coenzyme A dehydrogenase deficiency</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0220710" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357195" TraitType="Disease" MappingType="Name" MappingValue="Medium-chain acyl-coenzyme A dehydrogenase deficiency" MappingRef="Preferred">
+        <MedGen CUI="C0220710" Name="Medium-chain acyl-coenzyme A dehydrogenase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

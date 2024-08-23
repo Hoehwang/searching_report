@@ -1,0 +1,170 @@
+<VariationArchive RecordType="classified" VariationID="212452" VariationName="NM_207346.3(TSEN54):c.1397dup (p.Gly467fs)" VariationType="Duplication" Accession="VCV000212452" Version="6" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2015-10-05" MostRecentSubmission="2015-10-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="208420" VariationID="212452">
+      <GeneList>
+        <Gene Symbol="TSEN54" FullName="tRNA splicing endonuclease subunit 54" GeneID="283989" HGNC_ID="HGNC:27561" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75516528" stop="75524735" display_start="75516528" display_stop="75524735" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73512608" stop="73520819" display_start="73512608" display_stop="73520819" Strand="+" />
+          </Location>
+          <OMIM>608755</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_207346.3(TSEN54):c.1397dup (p.Gly467fs)</Name>
+      <CanonicalSPDI>NC_000017.11:75523743:CCC:CCCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>17q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75523743" stop="75523744" display_start="75523743" display_stop="75523744" variantLength="1" positionVCF="75523743" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73519824" stop="73519825" display_start="73519824" display_stop="73519825" variantLength="1" positionVCF="73519824" referenceAlleleVCF="A" alternateAlleleVCF="AC" />
+      </Location>
+      <ProteinChange>G467fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.73519827dup" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.73519827dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.75523746dup" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.75523746dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_013041.1" sequenceAccession="NG_013041" sequenceVersion="1" change="g.12219dup">
+            <Expression>NG_013041.1:g.12219dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_207346.3" sequenceAccession="NM_207346" sequenceVersion="3" change="c.1397dup" MANESelect="true">
+            <Expression>NM_207346.3:c.1397dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_997229.2" sequenceAccession="NP_997229" sequenceVersion="2" change="p.Gly467fs">
+            <Expression>NP_997229.2:p.Gly467fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA277378" DB="ClinGen" />
+        <XRef Type="rs" ID="797046055" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_207346.3(TSEN54):c.1397dup (p.Gly467fs) AND Pontocerebellar hypoplasia type 2A" Accession="RCV000194772" Version="6">
+        <ClassifiedConditionList TraitSetID="538">
+          <ClassifiedCondition DB="MedGen" ID="C1848526">Pontocerebellar hypoplasia type 2A</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2015-08-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-08-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-05" MostRecentSubmission="2015-10-05">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="538" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3519" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PONTOCEREBELLAR HYPOPLASIA WITH PROGRESSIVE CEREBRAL ATROPHY</ElementValue>
+                <XRef Type="MIM" ID="277470" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">VOLENDAM NEURODEGENERATIVE DISEASE</ElementValue>
+                <XRef Type="MIM" ID="277470" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pontocerebellar hypoplasia type 2A</ElementValue>
+                <XRef ID="Pontocerebellar+hypoplasia+type+2A/9133" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010190" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PCH2A</ElementValue>
+                <XRef Type="MIM" ID="277470" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">TSEN54 pontocerebellar hypoplasia (TSEN54-PCH) comprises three PCH phenotypes (PCH2, 4, and 5) that share characteristic neuroradiologic and neurologic findings. The three PCH phenotypes (which differ mainly in life expectancy) were considered to be distinct entities before their molecular basis was known. PCH2. Children usually succumb before age ten years (those with PCH4 and 5 usually succumb as neonates). Children with PCH2 have generalized clonus, uncoordinated sucking and swallowing, impaired cognitive development, lack of voluntary motor development, cortical blindness, and an increased risk for rhabdomyolysis during severe infections. Epilepsy is present in approximately 50%. PCH4. Neonates often have seizures, multiple joint contractures ("arthrogryposis"), generalized clonus, and central respiratory impairment. PCH5 resembles PCH4 and has been described in one family.</Attribute>
+                <XRef ID="NBK9673" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3631" />
+                <XRef ID="3631" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301773</ID>
+                <ID Source="BookShelf">NBK9673</ID>
+              </Citation>
+              <XRef ID="2524" DB="Orphanet" />
+              <XRef ID="C1848526" DB="MedGen" />
+              <XRef ID="MONDO:0010190" DB="MONDO" />
+              <XRef Type="MIM" ID="277470" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="460860" SubmissionDate="2015-09-15" DateLastUpdated="2015-10-05" DateCreated="2015-10-05">
+        <ClinVarSubmissionID localKey="NM_207346.2(TSEN54):c.1397dup|Pontocerebellar hypoplasia type 2A" />
+        <ClinVarAccession Accession="SCV000249222" DateUpdated="2015-10-05" DateCreated="2015-10-05" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-08-06">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TSEN54" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_207346.2:c.1397dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Pontocerebellar hypoplasia type 2A</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="460860" TraitType="Disease" MappingType="Name" MappingValue="Pontocerebellar hypoplasia type 2A" MappingRef="Preferred">
+        <MedGen CUI="C1848526" Name="Pontocerebellar hypoplasia type 2A" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

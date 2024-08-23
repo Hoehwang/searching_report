@@ -1,0 +1,151 @@
+<VariationArchive VariationID="2571357" VariationName="NM_000292.3(PHKA2):c.285+1del" VariationType="Deletion" Accession="VCV002571357" Version="10" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2023-07-17" MostRecentSubmission="2024-07-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2736310" VariationID="2571357">
+      <GeneList>
+        <Gene Symbol="PHKA2" FullName="phosphorylase kinase regulatory subunit alpha 2" GeneID="5256" HGNC_ID="HGNC:8926" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="18892298" stop="18984114" display_start="18892298" display_stop="18984114" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="18910415" stop="19002479" display_start="18910415" display_stop="19002479" Strand="-" />
+          </Location>
+          <OMIM>300798</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000292.3(PHKA2):c.285+1del</Name>
+      <CanonicalSPDI>NC_000023.11:18952492:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="18952493" stop="18952493" display_start="18952493" display_stop="18952493" variantLength="1" positionVCF="18952492" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="18970611" stop="18970611" display_start="18970611" display_stop="18970611" variantLength="1" positionVCF="18970610" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.18970612del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.18970612del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.18952494del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.18952494del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016622.1" sequenceAccession="NG_016622" sequenceVersion="1" change="g.36870del">
+            <Expression>NG_016622.1:g.36870del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000292.3" sequenceAccession="NM_000292" sequenceVersion="3" change="c.285+1del" MANESelect="true">
+            <Expression>NM_000292.3:c.285+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000292.3(PHKA2):c.285+1del AND not provided" Accession="RCV003312758" Version="9">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-07-17" MostRecentSubmission="2024-07-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7508168" SubmissionDate="2024-07-04" DateLastUpdated="2024-07-15" DateCreated="2023-07-16">
+        <ClinVarSubmissionID localKey="131153|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004010918" DateUpdated="2024-07-15" DateCreated="2023-07-16" Type="SCV" Version="9" SubmitterName="CeGaT Center for Human Genetics Tuebingen" OrgID="505870" OrganizationCategory="laboratory" OrgAbbreviation="CHGT" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>PHKA2: PVS1, PM2, PP4</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">CeGaT Center For Human Genetics Tuebingen Variant Classification Criteria Version 2</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/0ynenhfo/cegat_center_for_human_genetics_tuebingen_-_variant_classification_criteria_-_version_2.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PHKA2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" alternateAllele="A" referenceAllele="AC" start="18970610" stop="18970611" variantLength="2" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2023-09-add-ACMG-details</SubmissionName>
+          <SubmissionName>2023-10</SubmissionName>
+          <SubmissionName>2024-04</SubmissionName>
+          <SubmissionName>SUB13641132</SubmissionName>
+          <SubmissionName>SUB13985080</SubmissionName>
+          <SubmissionName>SUB14102099</SubmissionName>
+          <SubmissionName>SUB14290090</SubmissionName>
+          <SubmissionName>SUB14426581</SubmissionName>
+          <SubmissionName>SUB14513473</SubmissionName>
+          <SubmissionName>SUB14584463</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7508168" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

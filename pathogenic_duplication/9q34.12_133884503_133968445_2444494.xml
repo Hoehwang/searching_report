@@ -1,0 +1,200 @@
+<VariationArchive RecordType="classified" VariationID="2444494" VariationName="NM_006059.4(LAMC3):c.3423dup (p.Pro1142fs)" VariationType="Duplication" Accession="VCV002444494" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2023-03-26" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2418224" VariationID="2444494">
+      <GeneList>
+        <Gene Symbol="LAMC3" FullName="laminin subunit gamma 3" GeneID="10319" HGNC_ID="HGNC:6494" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="131009174" stop="131094473" display_start="131009174" display_stop="131094473" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="133884503" stop="133968445" display_start="133884503" display_stop="133968445" Strand="+" />
+          </Location>
+          <OMIM>604349</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006059.4(LAMC3):c.3423dup (p.Pro1142fs)</Name>
+      <CanonicalSPDI>NC_000009.12:131073248:TT:TTT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="133948635" stop="133948636" display_start="133948635" display_stop="133948636" variantLength="1" positionVCF="133948635" referenceAlleleVCF="A" alternateAlleleVCF="AT" />
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="131073248" stop="131073249" display_start="131073248" display_stop="131073249" variantLength="1" positionVCF="131073248" referenceAlleleVCF="A" alternateAlleleVCF="AT" />
+      </Location>
+      <ProteinChange>P1142fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.133948637dup" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.133948637dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.131073250dup" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.131073250dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029800.1" sequenceAccession="NG_029800" sequenceVersion="1" change="g.69134dup">
+            <Expression>NG_029800.1:g.69134dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006059.4" sequenceAccession="NM_006059" sequenceVersion="4" change="c.3423dup" MANESelect="true">
+            <Expression>NM_006059.4:c.3423dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_006050.3" sequenceAccession="NP_006050" sequenceVersion="3" change="p.Pro1142fs">
+            <Expression>NP_006050.3:p.Pro1142fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="protein truncation">
+        <XRef ID="0015" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006059.4(LAMC3):c.3423dup (p.Pro1142fs) AND Occipital pachygyria and polymicrogyria" Accession="RCV003153290" Version="1">
+        <ClassifiedConditionList TraitSetID="7567">
+          <ClassifiedCondition DB="MedGen" ID="C3279875">Occipital pachygyria and polymicrogyria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-26" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7567" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16110" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Cortical malformations, occipital</ElementValue>
+                <XRef ID="Cortical+malformations%2C+occipital/8099" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Occipital pachygyria and polymicrogyria</ElementValue>
+                <XRef ID="MONDO:0013583" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">OCCM</ElementValue>
+                <XRef Type="MIM" ID="614115" DB="OMIM" />
+              </Symbol>
+              <XRef ID="280640" DB="Orphanet" />
+              <XRef ID="C3279875" DB="MedGen" />
+              <XRef ID="MONDO:0013583" DB="MONDO" />
+              <XRef Type="MIM" ID="614115" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7178730" SubmissionDate="2023-03-20" DateLastUpdated="2023-03-26" DateCreated="2023-03-26">
+        <ClinVarSubmissionID localKey="SUB12944277" submittedAssembly="GRCh38" title="SUB12944277" />
+        <ClinVarAccession Accession="SCV003842219" DateUpdated="2023-03-26" DateCreated="2023-03-26" Type="SCV" Version="1" SubmitterName="Human Genome Lab, NIMHANS, National Institute of Mental Health and Neuro Sciences" OrgID="508696" OrganizationCategory="laboratory" OrgAbbreviation="HGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The frameshift duplication NM_006059.4(LAMC3):c.3423dupT (p.Pro1142Serfs*90) has not been reported previously as a pathogenic variant nor as a benign variant, to our knowledge. The p.Pro1142Serfs*90 variant is novel (not in any individuals) in 1kG All. The p.Pro1142Serfs*90 variant is novel (not in any individuals) in gnomAD as well as in our inhouse database. This variant is predicted to cause loss of normal protein function through protein truncation caused a frameshift mutation. The frame shifted sequence continues 90 residues until a stop codon is reached. This variant is a frameshift variant which occurs in an exon of LAMC3 upstream of where nonsense mediated decay is predicted to occur. There are 8 downstream pathogenic loss of function variants, with the furthest variant being 310 residues downstream of this variant. This indicates that the region is critical to protein function. The p.Pro1142Serfs*90 variant is a loss of function variant in the gene LAMC3, which is intolerant of Loss of Function variants, as indicated by the presence of existing pathogenic loss of function variant NP_006050.3:p.Q49* and 42 others. In addition the clinical phenotype of the proband matches with that of the disorder caused by the pathogenic variants in LAMC3 gene. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Ethnicity>South Indian Muslim</Ethnicity>
+              <GeographicOrigin>South India</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">10</Age>
+              <Age Type="maximum" age_unit="years">19</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2022-08-16" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001339" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001302" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002126" />
+              </Trait>
+            </TraitSet>
+            <Comment>12 years old male born of non consanguineous parentage presented with Seizures from 5 years of age. On examination, he had subtle dysmorphic features with normal CNS examination. MRI brain showed lissencephaly and pachygyria involving bilateral occipital regions and polymicrogyria in parietal region. EEG showed multifocal sharp waves. Video EEG showed habitual events characterized by tonic spasms of all 4 limbs with ictal EEG showing fast activity during the event. The identified p.Pro1142Serfs*90 variant is a loss of function variant in the gene LAMC3, which is intolerant of Loss of Function variants, as indicated by the presence of existing pathogenic loss of function variant NP_006050.3:p.Q49* and 42 others. In addition the clinical phenotype of the proband matches with that of the disorder caused by pathogenic variants in LAMC3 gene. Thus, this variant has been classified as Pathogenic.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LAMC3">
+              <Name>laminin subunit gamma 3</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_006059.4:exon 20</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">NM_006059.4(LAMC3):c.3423dupT(p.Pro1142Serfs*90)</Name>
+          </OtherNameList>
+          <FunctionalConsequence Value="protein truncation">
+            <XRef DB="Variation Ontology" ID="0015" URL="http://purl.obolibrary.org/obo/VariO_0015" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.12:g.131073250_131073251insT</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614115" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12944277</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7178730" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001250" MappingRef="HP">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7178730" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001339" MappingRef="HP">
+        <MedGen CUI="C0266463" Name="Lissencephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7178730" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001302" MappingRef="HP">
+        <MedGen CUI="CN001193" Name="Pachygyria" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7178730" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002126" MappingRef="HP">
+        <MedGen CUI="C0266464" Name="Polymicrogyria" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7178730" TraitType="Disease" MappingType="XRef" MappingValue="614115" MappingRef="OMIM">
+        <MedGen CUI="C3279875" Name="Occipital pachygyria and polymicrogyria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

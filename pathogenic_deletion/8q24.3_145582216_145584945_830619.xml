@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="830619" VariationName="NC_000008.11:g.(?_144358571)_(144361296_?)del" VariationType="Deletion" Accession="VCV000830619" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-29" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819950" VariationID="830619">
+      <GeneList>
+        <Gene Symbol="SLC52A2" FullName="solute carrier family 52 member 2" GeneID="79581" HGNC_ID="HGNC:30224" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="144358552" stop="144361272" display_start="144358552" display_stop="144361272" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NW_018654716.1" start="89155" stop="91875" display_start="89155" display_stop="91875" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="145582216" stop="145584945" display_start="145582216" display_stop="145584945" Strand="+" />
+          </Location>
+          <OMIM>607882</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000008.11:g.(?_144358571)_(144361296_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="145582231" innerStop="145584956" display_start="145582231" display_stop="145584956" variantLength="2726" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_145582231)_(145584956_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_145582231)_(145584956_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.11:g.(?_144358571)_(144361296_?)del AND Brown-Vialetto-van Laere syndrome 2" Accession="RCV001031238" Version="1">
+        <ClassifiedConditionList TraitSetID="8705">
+          <ClassifiedCondition DB="MedGen" ID="C3553538">Brown-Vialetto-van Laere syndrome 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-09-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-09-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8705" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17309" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Riboflavin transporter deficiency type 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Brown-Vialetto-van Laere syndrome 2</ElementValue>
+                <XRef ID="MONDO:0013867" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BVVLS2</ElementValue>
+                <XRef Type="MIM" ID="614707" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12861" />
+                <XRef ID="12861" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">26072523</ID>
+                <ID Source="BookShelf">NBK299312</ID>
+              </Citation>
+              <XRef ID="572550" DB="Orphanet" />
+              <XRef ID="97229" DB="Orphanet" />
+              <XRef ID="C3553538" DB="MedGen" />
+              <XRef ID="MONDO:0013867" DB="MONDO" />
+              <XRef Type="MIM" ID="614707" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2355798" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5220777|MedGen:C3553538" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194544" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-09-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the SLC52A2 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with SLC52A2-related conditions. Loss-of-function variants in SLC52A2 are known to be pathogenic (PMID: 24253200). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC52A2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.(?_145582231)_(145584956_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Brown-Vialetto-Van Laere syndrome 2</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C3553538" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2355798" TraitType="Disease" MappingType="Name" MappingValue="Brown-Vialetto-Van Laere syndrome 2" MappingRef="Preferred">
+        <MedGen CUI="C3553538" Name="Brown-Vialetto-van Laere syndrome 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

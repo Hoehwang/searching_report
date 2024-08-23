@@ -1,0 +1,193 @@
+<VariationArchive VariationID="534574" VariationName="NC_000001.11:g.(?_236795684)_(236897664_?)del" VariationType="Deletion" Accession="VCV000534574" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2018-05-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="514894" VariationID="534574">
+      <GeneList>
+        <Gene Symbol="LOC122152347" FullName="Sharpr-MPRA regulatory region 3741" GeneID="122152347" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q43</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="236833589" stop="236833883" display_start="236833589" display_stop="236833883" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="LOC129932886" FullName="ATAC-STARR-seq lymphoblastoid active region 2827" GeneID="129932886" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q43</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="236795708" stop="236795897" display_start="236795708" display_stop="236795897" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="MTR" FullName="5-methyltetrahydrofolate-homocysteine methyltransferase" GeneID="4548" HGNC_ID="HGNC:7468" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q43</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="236795281" stop="236903981" display_start="236795281" display_stop="236903981" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="236958580" stop="237067280" display_start="236958580" display_stop="237067280" Strand="+" />
+          </Location>
+          <OMIM>156570</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.11:g.(?_236795684)_(236897664_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1q43</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" innerStart="236795684" innerStop="236897664" display_start="236795684" display_stop="236897664" variantLength="101981" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="236958984" innerStop="237060964" display_start="236958984" display_stop="237060964" variantLength="101981" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.(?_236795684)_(236897664_?)del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.(?_236795684)_(236897664_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_236958984)_(237060964_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_236958984)_(237060964_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.11:g.(?_236795684)_(236897664_?)del AND Methylcobalamin deficiency type cblG" Accession="RCV000642177" Version="6">
+        <ClassifiedConditionList TraitSetID="3939">
+          <ClassifiedCondition DB="MedGen" ID="C1855128">Methylcobalamin deficiency type cblG</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-05-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-05-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12068375</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">9683607</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3939" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2775" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Functional methionine synthase deficiency type cblG</ElementValue>
+                <XRef ID="MONDO:0009609" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HOMOCYSTINURIA-MEGALOBLASTIC ANEMIA, cblG COMPLEMENTATION TYPE</ElementValue>
+                <XRef Type="MIM" ID="250940" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0009" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0011" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="156570.0010" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Methylcobalamin deficiency type cblG</ElementValue>
+                <XRef ID="MONDO:0009609" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HOMOCYSTINURIA-MEGALOBLASTIC ANEMIA DUE TO DEFECT IN COBALAMIN METABOLISM, cblG COMPLEMENTATION TYPE</ElementValue>
+                <XRef Type="MIM" ID="250940" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HMAG</ElementValue>
+                <XRef Type="MIM" ID="250940" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3577" />
+                <XRef ID="3577" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Disorders of intracellular cobalamin metabolism have a variable phenotype and age of onset that are influenced by the severity and location within the pathway of the defect. The prototype and best understood phenotype is cblC; it is also the most common of these disorders. The age of initial presentation of cblC spans a wide range: In utero with fetal presentation of nonimmune hydrops, cardiomyopathy, and intrauterine growth restriction. Newborns, who can have microcephaly, poor feeding, and encephalopathy. Infants, who can have poor feeding and slow growth, neurologic abnormality, and, rarely, hemolytic uremic syndrome (HUS). Toddlers, who can have poor growth, progressive microcephaly, cytopenias (including megaloblastic anemia), global developmental delay, encephalopathy, and neurologic signs such as hypotonia and seizures. Adolescents and adults, who can have neuropsychiatric symptoms, progressive cognitive decline, thromboembolic complications, and/or subacute combined degeneration of the spinal cord.</Attribute>
+                <XRef ID="NBK1328" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301503</ID>
+                <ID Source="BookShelf">NBK1328</ID>
+              </Citation>
+              <XRef ID="2170" DB="Orphanet" />
+              <XRef ID="622" DB="Orphanet" />
+              <XRef ID="C1855128" DB="MedGen" />
+              <XRef ID="MONDO:0009609" DB="MONDO" />
+              <XRef Type="MIM" ID="250940" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1473564" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="NM_000254.2_1_Deletion (entire coding sequence)|MedGen:C1855128" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000763831" DateUpdated="2024-06-09" DateCreated="2018-05-28" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-05-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">9683607</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">12068375</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. Loss-of-function variants in MTR are known to be pathogenic (PMID: 9683607, 12068375). This variant has not been reported in the literature in individuals with MTR-related disease. A gross deletion of the genomic region encompassing the full coding sequence of the MTR gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MTR" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_236958984)_(237060964_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1855128" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+          <SubmissionName>SUB3864685</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1473564" TraitType="Disease" MappingType="XRef" MappingValue="C1855128" MappingRef="MedGen">
+        <MedGen CUI="C1855128" Name="Methylcobalamin deficiency type cblG" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,129 @@
+<VariationArchive VariationID="812253" VariationName="NC_000012.12:g.1839550_1875411del" VariationType="Deletion" Accession="VCV000812253" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2020-02-16" MostRecentSubmission="2020-02-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="800696" VariationID="812253">
+      <GeneList>
+        <Gene Symbol="CACNA2D4" FullName="calcium voltage-gated channel auxiliary subunit alpha2delta 4" GeneID="93589" HGNC_ID="HGNC:20202" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>12p13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="1791963" stop="1918652" display_start="1791963" display_stop="1918652" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NW_018654718.1" start="134107" stop="260796" display_start="134107" display_stop="260796" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="1901122" stop="2027869" display_start="1901122" display_stop="2027869" Strand="-" />
+          </Location>
+          <OMIM>608171</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.12:g.1839550_1875411del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.12:g.1839550_1875411del AND Cone-rod dystrophy" Accession="RCV002267753" Version="8">
+        <ClassifiedConditionList TraitSetID="1633">
+          <ClassifiedCondition DB="MedGen" ID="C4085590">Cone-rod dystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-16" MostRecentSubmission="2020-02-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1633" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10194" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Cone-rod degeneration</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cone-rod dystrophy</ElementValue>
+                <XRef ID="Cone+Rod+Dystrophy/1766" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0015993" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cone/cone-rod dystrophy</ElementValue>
+                <XRef ID="HP:0000548" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CORD</ElementValue>
+                <XRef Type="MIM" ID="120970" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10790" />
+                <XRef ID="10790" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="Orphanet">
+                <ID Source="PubMed">17270046</ID>
+              </Citation>
+              <XRef ID="1872" DB="Orphanet" />
+              <XRef ID="C4085590" DB="MedGen" />
+              <XRef ID="MONDO:0015993" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS120970" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0000548" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2288253" SubmissionDate="2019-06-25" DateLastUpdated="2020-02-16" DateCreated="2020-02-16">
+        <ClinVarSubmissionID localKey="NM_172364.4:c.1720-74_2551+1189del|Cone-rod degeneration" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001160957" DateUpdated="2020-02-16" DateCreated="2020-02-16" Type="SCV" Version="1" SubmitterName="Sharon lab, Hadassah-Hebrew University Medical Center" OrgID="506232" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-23">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CACNA2D4" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_172364.4:c.1720-74_2551+1189del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Cone-rod degeneration</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5871661</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2288253" TraitType="Disease" MappingType="Name" MappingValue="Cone-rod degeneration" MappingRef="Preferred">
+        <MedGen CUI="C4085590" Name="Cone-rod dystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

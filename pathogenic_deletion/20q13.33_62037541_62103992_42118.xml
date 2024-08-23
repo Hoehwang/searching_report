@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="42118" VariationName="nsv1197577" VariationType="Deletion" Accession="VCV000042118" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-26" DateCreated="2018-09-01" MostRecentSubmission="2018-09-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="51284" VariationID="42118">
+      <GeneList>
+        <Gene Symbol="KCNQ2" FullName="potassium voltage-gated channel subfamily Q member 2" GeneID="3785" HGNC_ID="HGNC:6296" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>20q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="63400208" stop="63472655" display_start="63400208" display_stop="63472655" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NT_187625.1" start="183" stop="33239" display_start="183" display_stop="33239" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="62037541" stop="62103992" display_start="62037541" display_stop="62103992" Strand="-" />
+          </Location>
+          <OMIM>602235</OMIM>
+          <Haploinsufficiency last_evaluated="2013-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KCNQ2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2013-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KCNQ2">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="LOC125387319" FullName="Sharpr-MPRA regulatory region 327" GeneID="125387319" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>20q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="63409896" stop="63410190" display_start="63409896" display_stop="63410190" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>nsv1197577</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>20q13.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="63384457" stop="63433124" display_start="63384457" display_stop="63433124" variantLength="48668" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="62015806" stop="62064474" display_start="62015806" display_stop="62064474" variantLength="48669" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.11" sequenceAccession="NC_000020" sequenceVersion="11" change="g.63384457_63433124del" Assembly="GRCh38">
+            <Expression>NC_000020.11:g.63384457_63433124del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv7487172" DB="dbVar" />
+        <XRef ID="nsv1197577" DB="dbVar" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">Deletion of KCNQ2 from Ser382 in NP_742105.1 to 3'-UTR.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="nsv1197577 AND Seizures, benign familial neonatal, 1" Accession="RCV000678111" Version="2">
+        <ClassifiedConditionList TraitSetID="2010">
+          <ClassifiedCondition DB="MedGen" ID="C3149074">Seizures, benign familial neonatal, 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2010-04-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2010-04-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-09-01" MostRecentSubmission="2018-09-01">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20437616</ID>
+          <ID Source="BookShelf">NBK32534</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">14534157</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2010" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5025" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">KCNQ2-Related Benign Familial Neonatal Epilepsy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Benign Neonatal Epilepsy 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Seizures, benign familial neonatal, 1</ElementValue>
+                <XRef ID="MONDO:0007365" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BFNS1</ElementValue>
+                <XRef Type="MIM" ID="121200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">KCNQ2-related disorders represent a continuum of overlapping neonatal epileptic phenotypes ranging from self-limited familial neonatal epilepsy (SLFNE) at the mild end to neonatal-onset developmental and epileptic encephalopathy (NEO-DEE) at the severe end. Additional, less common phenotypes consisting of neonatal encephalopathy with non-epileptic myoclonus, infantile or childhood-onset developmental and epileptic encephalopathy (DEE), and isolated intellectual disability (ID) without epilepsy have also been described. KCNQ2-SLFNE is characterized by seizures that start in otherwise healthy infants between two and eight days after term birth and spontaneously disappear between the first and the sixth to 12th month of life. There is always a seizure-free interval between birth and the onset of seizures. Seizures are characterized by sudden onset with prominent motor involvement, often accompanied by apnea and cyanosis; video EEG identifies seizures as focal onset with tonic stiffening of limb(s) and some migration during each seizure's evolution. About 30% of individuals with KCNQ2-SLFNE develop epileptic seizures later in life. KCNQ2-NEO-DEE is characterized by multiple daily seizures beginning in the first week of life that are mostly tonic, with associated focal motor and autonomic features. Seizures generally cease between ages nine months and four years. At onset, EEG shows a burst-suppression pattern or multifocal epileptiform activity; early brain MRI can show basal ganglia hyperdensities and later MRIs may show white matter or general volume loss. Moderate-to-profound developmental impairment is present.</Attribute>
+                <XRef ID="NBK32534" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20437616</ID>
+                <ID Source="BookShelf">NBK32534</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20298421</ID>
+              </Citation>
+              <XRef ID="1949" DB="Orphanet" />
+              <XRef ID="C3149074" DB="MedGen" />
+              <XRef ID="MONDO:0007365" DB="MONDO" />
+              <XRef Type="MIM" ID="121200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="97493" SubmissionDate="2013-03-26" DateLastUpdated="2018-09-01" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="NP_742105.1:p.delSer382_3-prime-UTR_NBK32534" title="NP_742105.1:p.delSer382_3-prime-UTR and KCNQ2-Related Disorders" />
+        <ClinVarAccession Accession="SCV000058218" DateUpdated="2018-09-01" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="GeneReviews" OrgID="500062" OrganizationCategory="resource" OrgAbbreviation="GeneReviews" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2010-04-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Converted during submission to Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>not provided</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <Purpose>Assert pathogenicity</Purpose>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="nucleotide change">NP_742105.1:p.delSer382_3-prime-UTR</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">KCNQ2-Related Disorders</ElementValue>
+            </Name>
+            <XRef DB="GeneReviews" ID="NBK32534" />
+            <XRef DB="OMIM" ID="121200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="97493" TraitType="Disease" MappingType="Name" MappingValue="KCNQ2-Related Disorders" MappingRef="Preferred">
+        <MedGen CUI="CN169299" Name="KCNQ2-Related Disorders" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,143 @@
+<VariationArchive VariationID="3063893" VariationName="NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del" VariationType="Deletion" Accession="VCV003063893" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3224099" VariationID="3063893">
+      <GeneList>
+        <Gene Symbol="NGLY1" FullName="N-glycanase 1" GeneID="55768" HGNC_ID="HGNC:17646" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3p24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="25718944" stop="25790039" display_start="25718944" display_stop="25790039" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="25760434" stop="25831529" display_start="25760434" display_stop="25831529" Strand="-" />
+          </Location>
+          <OMIM>610661</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3p24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" outerStart="25781291" innerStart="25792588" innerStop="25792755" outerStop="25805556" display_start="25781291" display_stop="25805556" variantLength="24266" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(25781291_25792588)_(25792755_25805556)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del AND Congenital disorder of deglycosylation" Accession="RCV003988481" Version="1">
+        <ClassifiedConditionList TraitSetID="10324">
+          <ClassifiedCondition DB="MedGen" ID="C3808991">Congenital disorder of deglycosylation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-01-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-01-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31440721</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">35243670</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="10324" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17936" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Congenital disorder of deglycosylation</ElementValue>
+                <XRef ID="MONDO:0031376" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CDDG</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Individuals with NGLY1-related congenital disorder of deglycosylation (NGLY1-CDDG) typically display a clinical tetrad of developmental delay / intellectual disability in the mild to profound range, hypo- or alacrima, elevated liver transaminases that may spontaneously resolve in childhood, and a complex hyperkinetic movement disorder that can include choreiform, athetoid, dystonic, myoclonic, action tremor, and dysmetric movements. About half of affected individuals will develop clinical seizures. Other findings may include obstructive and/or central sleep apnea, oral motor defects that affect feeding ability, auditory neuropathy, constipation, scoliosis, and peripheral neuropathy.</Attribute>
+                <XRef ID="NBK481554" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29419975</ID>
+                <ID Source="BookShelf">NBK481554</ID>
+              </Citation>
+              <XRef ID="C3808991" DB="MedGen" />
+              <XRef ID="MONDO:0031376" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS615273" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8982543" SubmissionDate="2024-02-19" DateLastUpdated="2024-03-30" DateCreated="2024-03-30">
+        <ClinVarSubmissionID localKey="NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del|MedGen:C3808991" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004803294" DateUpdated="2024-03-30" DateCreated="2024-03-30" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-01-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31440721</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">35243670</ID>
+          </Citation>
+          <Comment>Variant summary: The variant involves the deletion of exon 4 in the NGLY1 gene. This Copy Number Variant (CNV) is expected to alter the reading frame and predicted to result in a truncation or absence of the encoded protein due to nonsense mediated decay (NMD). A presumed nomenclature of c.(492+1_493-1)_(658+1_659-1)del has been designated for the purposes of this classification. The variant was absent in 21694 control chromosomes (gnomAD, Structural Variants dataset). Similar deletion has been reported in the literature in individuals affected with NGLY1 deficiency associated epilepsy (examples: Truty_2019, Levy_2022). To our knowledge, no experimental evidence demonstrating an impact on protein function has been reported. ClinVar contains an entry for this variant (Variation ID: 647459). The following publications have been ascertained in the context of this evaluation (PMID: 31440721, 35243670). Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NGLY1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(25781291_25792588)_(25792755_25805556)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3808991" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14257878</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8982543" TraitType="Disease" MappingType="XRef" MappingValue="C3808991" MappingRef="MedGen">
+        <MedGen CUI="C3808991" Name="Congenital disorder of deglycosylation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

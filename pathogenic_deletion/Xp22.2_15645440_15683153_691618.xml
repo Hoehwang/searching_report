@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="691618" VariationName="Single allele" VariationType="Deletion" Accession="VCV000691618" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-10-10" MostRecentSubmission="2019-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="679339" VariationID="691618">
+      <GeneList>
+        <Gene Symbol="CLTRN" FullName="collectrin, amino acid transport regulator" GeneID="57393" HGNC_ID="HGNC:29437" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="15627318" stop="15675644" display_start="15627318" display_stop="15675644" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="15645440" stop="15683153" display_start="15645440" display_stop="15683153" Strand="-" />
+          </Location>
+          <OMIM>300631</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="15677140" innerStop="15682898" display_start="15677140" display_stop="15682898" variantLength="5759" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_15677140)_(15682898_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_15677140)_(15682898_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="exon loss">
+        <XRef ID="0381" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Aminoaciduria" Accession="RCV000852384" Version="1">
+        <ClassifiedConditionList TraitSetID="47386">
+          <ClassifiedCondition DB="MedGen" ID="C0238621">Aminoaciduria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-09-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-09-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-10-10" MostRecentSubmission="2019-10-10">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="47386" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="23734" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Aminoaciduria</ElementValue>
+                <XRef ID="HP:0003355" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0238621" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0003355" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002903" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0200014" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1950739" SubmissionDate="2019-10-02" DateLastUpdated="2019-10-10" DateCreated="2019-10-10">
+        <ClinVarSubmissionID localKey="SUB6272797" submittedAssembly="GRCh37" title="SUB6272797" />
+        <ClinVarAccession Accession="SCV000992310" DateUpdated="2019-10-10" DateCreated="2019-10-10" Type="SCV" Version="1" SubmitterName="Daryl Scott Lab, Baylor College of Medicine" OrgID="505993" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-09-07">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This change was seen in an individual with aminoaciduria, psychiatric/behavioral phenotypes, and an intermittent photosensitive dermatitis phenotype similar to that seen in Hartnup disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">20</Age>
+              <Age Type="maximum" age_unit="years">29</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <Description>Exome sequencing with qPCR validatrion</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2019-09-16" Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0003355" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">intellectual disability</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="15677140" innerStop="15682898" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">CLTRN Deletion Patient 2</Name>
+          </OtherNameList>
+          <FunctionalConsequence Value="exon loss" />
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Aminoaciduria</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6272797</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1950739" TraitType="Disease" MappingType="Name" MappingValue="Aminoaciduria" MappingRef="Preferred">
+        <MedGen CUI="C0238621" Name="Aminoaciduria" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1950739" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003355" MappingRef="HP">
+        <MedGen CUI="C0238621" Name="Aminoaciduria" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1950739" TraitType="Finding" MappingType="Name" MappingValue="intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

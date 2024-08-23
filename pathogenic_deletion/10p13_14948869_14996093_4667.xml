@@ -1,0 +1,163 @@
+<VariationArchive RecordType="classified" VariationID="4667" VariationName="NG_007276.1:g.(19287_22502)_(23634_24320)del" VariationType="Deletion" Accession="VCV000004667" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-01-21" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="19706" VariationID="4667">
+      <GeneList>
+        <Gene Symbol="DCLRE1C" FullName="DNA cross-link repair 1C" GeneID="64421" HGNC_ID="HGNC:17642" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="14897359" stop="14954432" display_start="14897359" display_stop="14954432" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="14948869" stop="14996093" display_start="14948869" display_stop="14996093" Strand="-" />
+          </Location>
+          <OMIM>605988</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_007276.1:g.(19287_22502)_(23634_24320)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10p13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" outerStart="14934776" innerStart="14935462" innerStop="14936594" outerStop="14939809" display_start="14934776" display_stop="14939809" variantLength="5034" />
+      </Location>
+      <OtherNameList>
+        <Name>NM_001033855.3:c.307_464del</Name>
+        <Name>EX5-6DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.(14934776_14935462)_(14936594_14939809)del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.(14934776_14935462)_(14936594_14939809)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001033855.3" sequenceAccession="NM_001033855" sequenceVersion="3" change="c.(306+1_307-1)_(464+1_465-1)del" MANESelect="true">
+            <Expression>NM_001033855.3:c.(306+1_307-1)_(464+1_465-1)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007276.1" sequenceAccession="NG_007276" sequenceVersion="1" change="g.(19287_22502)_(23634_24320)del">
+            <Expression>NG_007276.1:g.(19287_22502)_(23634_24320)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_54" sequenceAccession="LRG_54">
+            <Expression>LRG_54:g.(19287_22502)_(23634_24320)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605988.0003" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided HGVS expressions for allelic variant 605988.0003 from the alignments of AJ296101.1, cited by the paper by Moshous et al., 2001 (PubMed 11336668), to current RefSeq genomic sequences.</Comment>
+      <Comment DataSource="NCBI curation" Type="LocationOnGenomeAndProductNotAligned">NM_001033855.3:c.307_464del represents the explicit change in the mRNA, whereas NG_007276.1:g.(19287_22502)_(23634_24320)del represents the uncertainty of the location of the breakpoints in the introns.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_007276.1:g.(19287_22502)_(23634_24320)del AND Severe combined immunodeficiency due to DCLRE1C deficiency" Accession="RCV000004931" Version="4">
+        <ClassifiedConditionList TraitSetID="1281">
+          <ClassifiedCondition DB="MedGen" ID="C1865370">Severe combined immunodeficiency due to DCLRE1C deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2001-04-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2001-04-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-17" MostRecentSubmission="2016-09-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">11336668</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1281" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4388" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Severe combined immunodeficiency with sensitivity to ionizing radiation</ElementValue>
+                <XRef ID="Severe+combined+immunodeficiency+with+sensitivity+to+ionizing+radiation/6524" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to DCLRE1C deficiency</ElementValue>
+                <XRef ID="MONDO:0011225" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SCID, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-POSITIVE, WITH SENSITIVITY TO IONIZING RADIATION</ElementValue>
+                <XRef Type="MIM" ID="602450" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RS-SCID</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9987" />
+                <XRef ID="9987" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="275" DB="Orphanet" />
+              <XRef ID="C1865370" DB="MedGen" />
+              <XRef ID="MONDO:0011225" DB="MONDO" />
+              <XRef Type="MIM" ID="602450" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="25107" SubmissionDate="2016-09-14" DateLastUpdated="2016-09-17" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="605988.0003_SEVERE COMBINED IMMUNODEFICIENCY WITH SENSITIVITY TO IONIZING RADIATION" title="DCLRE1C, EX5-6DEL_SEVERE COMBINED IMMUNODEFICIENCY WITH SENSITIVITY TO IONIZING RADIATION" />
+        <ClinVarAccession Accession="SCV000025107" DateUpdated="2016-09-17" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2001-04-20">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient (P3) with severe combined immunodeficiency with sensitivity to ionizing radiation (RS-SCID; 602450), Moshous et al. (2001) identified a deletion of exons 5 to 6 of the Artemis gene, resulting in the out-of-frame splicing of exons 4 to 7 and a frameshift at lys96. The patient was compound heterozygous for this mutation and an exon 11 splice donor site mutation (605988.0004).</Attribute>
+              <Citation>
+                <ID Source="PubMed">11336668</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="602450" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DCLRE1C" />
+          </GeneList>
+          <Name>DCLRE1C, EX5-6DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX5-6DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605988.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SEVERE COMBINED IMMUNODEFICIENCY WITH SENSITIVITY TO IONIZING RADIATION</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="25107" TraitType="Disease" MappingType="Name" MappingValue="SEVERE COMBINED IMMUNODEFICIENCY WITH SENSITIVITY TO IONIZING RADIATION" MappingRef="Preferred">
+        <MedGen CUI="C1865370" Name="Severe combined immunodeficiency due to DCLRE1C deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

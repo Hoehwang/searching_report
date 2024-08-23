@@ -1,0 +1,244 @@
+<VariationArchive RecordType="classified" VariationID="812756" VariationName="NM_014704.4(CEP104):c.89del (p.Thr30fs)" VariationType="Deletion" Accession="VCV000812756" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-13" DateCreated="2020-02-27" MostRecentSubmission="2020-02-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="800984" VariationID="812756">
+      <GeneList>
+        <Gene Symbol="CEP104" FullName="centrosomal protein 104" GeneID="9731" HGNC_ID="HGNC:24866" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="3812086" stop="3857211" display_start="3812086" display_stop="3857211" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="3728644" stop="3773796" display_start="3728644" display_stop="3773796" Strand="-" />
+          </Location>
+          <OMIM>616690</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_014704.4(CEP104):c.89del (p.Thr30fs)</Name>
+      <CanonicalSPDI>NC_000001.11:3852318:G:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="3852319" stop="3852319" display_start="3852319" display_stop="3852319" variantLength="1" positionVCF="3852318" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="3768883" stop="3768883" display_start="3768883" display_stop="3768883" variantLength="1" referenceAllele="AG" alternateAllele="A" positionVCF="3768882" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>T30fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.3768883del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.3768883del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.3852319del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.3852319del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_046726.1" sequenceAccession="NG_046726" sequenceVersion="1" change="g.9915del">
+            <Expression>NG_046726.1:g.9915del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_014704.4" sequenceAccession="NM_014704" sequenceVersion="4" change="c.89del" MANESelect="true">
+            <Expression>NM_014704.4:c.89del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_055519.1" sequenceAccession="NP_055519" sequenceVersion="1" change="p.Thr30fs">
+            <Expression>NP_055519.1:p.Thr30fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1570858523" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_014704.4(CEP104):c.89del (p.Thr30fs) AND multiple conditions" Accession="RCV001003566" Version="1">
+        <ClassifiedConditionList TraitSetID="52402">
+          <ClassifiedCondition DB="MedGen" ID="C0007758">Cerebellar ataxia</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0013421">Dystonic disorder</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0557874">Global developmental delay</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-27" MostRecentSubmission="2020-02-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="52402" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16759" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Dystonia</ElementValue>
+                <XRef ID="Dystonia/2405" DB="Genetic Alliance" />
+                <XRef Type="Phenotypic series" ID="PS128100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Dystonic disorder</ElementValue>
+                <XRef ID="MONDO:0003441" DB="MONDO" />
+              </Name>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301334</ID>
+                <ID Source="BookShelf">NBK1155</ID>
+              </Citation>
+              <XRef ID="C0013421" DB="MedGen" />
+              <XRef ID="MONDO:0003441" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0001332" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002328" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="17050" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DD</ElementValue>
+                <XRef ID="GTR000501388" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000553938" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592357" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520936" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569041" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592358" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000509471" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000521543" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522222" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558520" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568239" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="Retired, AAN/CNS, 2011">
+                <ID Source="PubMed">21956720</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2021">
+                <ID Source="PubMed">34211152</ID>
+              </Citation>
+              <XRef ID="C0557874" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001263" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000754" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001255" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001277" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001292" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002433" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002473" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002532" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006793" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006867" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006885" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006935" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007005" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007094" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007106" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007174" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007224" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007228" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007342" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0025356" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="13515" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cerebellar ataxia</ElementValue>
+                <XRef ID="HP:0001251" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0000437" DB="MONDO" />
+                <XRef ID="85102008" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="102002" DB="Orphanet" />
+              <XRef ID="C0007758" DB="MedGen" />
+              <XRef ID="MONDO:0000437" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0001251" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001253" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002513" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007050" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007157" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2290086" SubmissionDate="2019-09-13" DateLastUpdated="2020-02-27" DateCreated="2020-02-27">
+        <ClinVarSubmissionID localKey="c.89delC_HP:0001332" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001161927" DateUpdated="2020-02-27" DateCreated="2020-02-27" Type="SCV" Version="1" SubmitterName="NIHR Bioresource Rare Diseases, University of Cambridge" OrgID="505998" OrganizationCategory="consortium" OrgAbbreviation="NIHR BR RD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32581362</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">G004761</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CEP104" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" alternateAllele="A" referenceAllele="AG" start="3768882" stop="3768883" variantLength="2" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001332" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001251" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001263" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32581362</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>NIHR_Bioresource_Rare_Diseases_13k</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2290086" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001251" MappingRef="HP">
+        <MedGen CUI="C0007758" Name="Cerebellar ataxia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2290086" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2290086" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001332" MappingRef="HP">
+        <MedGen CUI="C0013421" Name="Dystonic disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

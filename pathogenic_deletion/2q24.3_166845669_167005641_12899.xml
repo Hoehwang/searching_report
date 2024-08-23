@@ -1,0 +1,195 @@
+<VariationArchive RecordType="classified" VariationID="12899" VariationName="NC_000002.12:g.(?_165985812)_(166002754_166009718)del" VariationType="Deletion" Accession="VCV000012899" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2020-10-20" MostRecentSubmission="2020-10-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="27938" VariationID="12899">
+      <GeneList>
+        <Gene Symbol="LOC102724058" FullName="uncharacterized LOC102724058" GeneID="102724058" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>2q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="165957418" stop="166036400" display_start="165957418" display_stop="166036400" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="SCN1A" FullName="sodium voltage-gated channel alpha subunit 1" GeneID="6323" HGNC_ID="HGNC:10585" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>2q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="165984641" stop="166149161" display_start="165984641" display_stop="166149161" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="166845669" stop="167005641" display_start="166845669" display_stop="167005641" Strand="-" />
+          </Location>
+          <OMIM>182389</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN1A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_165985812)_(166002754_166009718)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" innerStart="165985812" innerStop="166002754" outerStop="166009718" display_start="165985812" display_stop="166009718" variantLength="23907" />
+      </Location>
+      <OtherNameList>
+        <Name>EX21-26DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(?_165985812)_(166002754_166009718)del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(?_165985812)_(166002754_166009718)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="182389.0018" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 182389.0018 from the annotation of SCN1A on GRCh38.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_165985812)_(166002754_166009718)del AND Severe myoclonic epilepsy in infancy" Accession="RCV000032607" Version="27">
+        <ClassifiedConditionList TraitSetID="1766">
+          <ClassifiedCondition DB="MedGen" ID="C0751122">Severe myoclonic epilepsy in infancy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2006-09-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2006-09-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-20" MostRecentSubmission="2020-10-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17000989</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1766" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4140" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 6 (Dravet syndrome)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, Myoclonic, Infantile, Severe</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 6A</ElementValue>
+                <XRef Type="MIM" ID="607208" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe myoclonic epilepsy in infancy</ElementValue>
+                <XRef ID="219513" DB="GeneTests" />
+                <XRef ID="Dravet+Syndrome/2332" DB="Genetic Alliance" />
+                <XRef ID="230437002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Dravet syndrome</ElementValue>
+                <XRef ID="MONDO:0100135" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ICE-GTC</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">DEE6A</ElementValue>
+                <XRef Type="MIM" ID="607208" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">EIEE6</ElementValue>
+                <XRef Type="MIM" ID="607208" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">DRVT</ElementValue>
+                <XRef Type="MIM" ID="607208" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">SMEI</ElementValue>
+                <XRef Type="MIM" ID="607208" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">SME</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">SCN1A seizure disorders encompass a spectrum that ranges from simple febrile seizures and generalized epilepsy with febrile seizures plus (GEFS+) at the mild end to Dravet syndrome and intractable childhood epilepsy with generalized tonic-clonic seizures (ICE-GTC) at the severe end. Phenotypes with intractable seizures including Dravet syndrome are often associated with cognitive decline. Less commonly observed phenotypes include myoclonic astatic epilepsy (MAE), Lennox-Gastaut syndrome, infantile spasms, epilepsy with focal seizures, and vaccine-related encephalopathy and seizures. The phenotype of SCN1A seizure disorders can vary even within the same family.</Attribute>
+                <XRef ID="NBK1318" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301494</ID>
+                <ID Source="BookShelf">NBK1318</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="Orphanet, 2008">
+                <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_Dravet.pdf</URL>
+                <CitationText>Orphanet, Dravet syndrome, 2008</CitationText>
+              </Citation>
+              <Citation Type="general" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20298421</ID>
+              </Citation>
+              <Citation Type="Suggested Reading">
+                <ID Source="PubMed">28880996</ID>
+              </Citation>
+              <XRef ID="33069" DB="Orphanet" />
+              <XRef ID="C0751122" DB="MedGen" />
+              <XRef ID="MONDO:0100135" DB="MONDO" />
+              <XRef Type="MIM" ID="607208" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="93554" SubmissionDate="2020-10-09" DateLastUpdated="2020-10-20" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="182389.0018_DRAVET SYNDROME" title="SCN1A, EX21-26DEL_DRAVET SYNDROME" />
+        <ClinVarAccession Accession="SCV000056361" DateUpdated="2020-10-20" DateCreated="2013-04-04" Type="SCV" Version="5" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2006-09-26">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a patient with Dravet syndrome (DRVT; 607208) manifest as severe myoclonic epilepsy of infancy (SMEI), Mulley et al. (2006) used multiplex ligation-dependent probe amplification (MLPA) to identify a de novo heterozygous deletion of exons 21 through 26 of the SCN1A gene. The phenotype was similar to SMEI patients with coding or splicing SCN1A mutations.</Attribute>
+              <Citation>
+                <ID Source="PubMed">17000989</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="607208" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SCN1A" />
+          </GeneList>
+          <Name>SCN1A, EX21-26DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX21-26DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="182389.0018" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">DRAVET SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="93554" TraitType="Disease" MappingType="Name" MappingValue="DRAVET SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C0751122" Name="Severe myoclonic epilepsy in infancy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

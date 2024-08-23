@@ -1,0 +1,128 @@
+<VariationArchive RecordType="classified" VariationID="944601" VariationName="NC_000010.11:g.14935443_14954030del" VariationType="Deletion" Accession="VCV000944601" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2020-07-16" MostRecentSubmission="2020-07-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="940952" VariationID="944601">
+      <GeneList>
+        <Gene Symbol="DCLRE1C" FullName="DNA cross-link repair 1C" GeneID="64421" HGNC_ID="HGNC:17642" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>10p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="14897359" stop="14954432" display_start="14897359" display_stop="14954432" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="14948869" stop="14996093" display_start="14948869" display_stop="14996093" Strand="-" />
+          </Location>
+          <OMIM>605988</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.11:g.14935443_14954030del</Name>
+      <VariantType>Deletion</VariantType>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.11:g.14935443_14954030del AND Severe combined immunodeficiency due to DCLRE1C deficiency" Accession="RCV001215031" Version="1">
+        <ClassifiedConditionList TraitSetID="1281">
+          <ClassifiedCondition DB="MedGen" ID="C1865370">Severe combined immunodeficiency due to DCLRE1C deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-07-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-07-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-16" MostRecentSubmission="2020-07-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1281" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4388" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to DCLRE1C deficiency</ElementValue>
+                <XRef ID="MONDO:0011225" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Severe combined immunodeficiency with sensitivity to ionizing radiation</ElementValue>
+                <XRef ID="Severe+combined+immunodeficiency+with+sensitivity+to+ionizing+radiation/6524" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SCID, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-POSITIVE, WITH SENSITIVITY TO IONIZING RADIATION</ElementValue>
+                <XRef Type="MIM" ID="602450" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RS-SCID</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9987" />
+                <XRef ID="9987" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="275" DB="Orphanet" />
+              <XRef ID="C1865370" DB="MedGen" />
+              <XRef ID="MONDO:0011225" DB="MONDO" />
+              <XRef Type="MIM" ID="602450" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2721584" SubmissionDate="2020-02-06" DateLastUpdated="2020-07-16" DateCreated="2020-07-16">
+        <ClinVarSubmissionID localKey="5189992|MedGen:C1865370" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001386750" DateUpdated="2020-07-16" DateCreated="2020-07-16" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-07-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 1-6 of the DCLRE1C gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 6 of the DCLRE1C gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with DCLRE1C-related conditions. Loss-of-function variants in DCLRE1C are known to be pathogenic (PMID: 21664875, 26123418). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DCLRE1C" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001033855.2:c.-20_464+20del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Severe combined immunodeficiency due to DCLRE1C deficiency</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1865370" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933842</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2721584" TraitType="Disease" MappingType="Name" MappingValue="Severe combined immunodeficiency due to DCLRE1C deficiency" MappingRef="Preferred">
+        <MedGen CUI="C1865370" Name="Severe combined immunodeficiency due to DCLRE1C deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

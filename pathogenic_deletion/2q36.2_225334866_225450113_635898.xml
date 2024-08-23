@@ -1,0 +1,139 @@
+<VariationArchive RecordType="classified" VariationID="635898" VariationName="Single allele" VariationType="Deletion" Accession="VCV000635898" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623711" VariationID="635898">
+      <GeneList>
+        <Gene Symbol="CUL3" FullName="cullin 3" GeneID="8452" HGNC_ID="HGNC:2553" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q36.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="224470150" stop="224585363" display_start="224470150" display_stop="224585363" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="225334866" stop="225450113" display_start="225334866" display_stop="225450113" Strand="-" />
+          </Location>
+          <OMIM>603136</OMIM>
+          <Haploinsufficiency last_evaluated="2018-01-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CUL3">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-01-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CUL3">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="DOCK10" FullName="dedicator of cytokinesis 10" GeneID="55619" HGNC_ID="HGNC:23479" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q36.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="224765090" stop="225042468" display_start="224765090" display_stop="225042468" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="225629806" stop="225907329" display_start="225629806" display_stop="225907329" Strand="-" />
+          </Location>
+          <OMIM>611518</OMIM>
+        </Gene>
+        <Gene Symbol="NYAP2" FullName="neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adaptor 2" GeneID="57624" HGNC_ID="HGNC:29291" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q36.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="225397939" stop="225703654" display_start="225397939" display_stop="225703654" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="226265601" stop="226518733" display_start="226265601" display_stop="226518733" Strand="+" />
+          </Location>
+          <OMIM>615478</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q36.2-36.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="225317517" stop="226707110" display_start="225317517" display_stop="226707110" variantLength="1389594" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.225317517_226707110del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.225317517_226707110del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Neurodevelopmental disorder" Accession="RCV000787404" Version="2">
+        <ClassifiedConditionList TraitSetID="37229">
+          <ClassifiedCondition DB="MedGen" ID="C1535926">Neurodevelopmental disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37229" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38088" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+                <XRef ID="MONDO:0700092" DB="MONDO" />
+              </Name>
+              <XRef ID="C1535926" DB="MedGen" />
+              <XRef ID="D065886" DB="MeSH" />
+              <XRef ID="MONDO:0700092" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812019" SubmissionDate="2019-04-09" DateLastUpdated="2019-07-27" DateCreated="2019-07-27">
+        <ClinVarSubmissionID localKey=":Chr.2_225317517_226707110_Deletion|Neurodevelopmental disorder" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926366" DateUpdated="2019-07-27" DateCreated="2019-07-27" Type="SCV" Version="1" SubmitterName="Rare Disease Group, Clinical Genetics, Karolinska Institutet" OrgID="506202" OrganizationCategory="laboratory" OrgAbbreviation="RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" start="225317517" stop="226707110" variantLength="1389594" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5433665</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812019" TraitType="Disease" MappingType="Name" MappingValue="Neurodevelopmental disorder" MappingRef="Preferred">
+        <MedGen CUI="C1535926" Name="Neurodevelopmental disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

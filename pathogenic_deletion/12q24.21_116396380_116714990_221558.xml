@@ -1,0 +1,139 @@
+<VariationArchive VariationID="221558" VariationName="NC_000012.12:g.(?_115982183)_(116022795_?)del" VariationType="Deletion" Accession="VCV000221558" Version="5" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2021-10-08" MostRecentSubmission="2021-10-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="223287" VariationID="221558">
+      <GeneList>
+        <Gene Symbol="MED13L" FullName="mediator complex subunit 13L" GeneID="23389" HGNC_ID="HGNC:22962" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="115958576" stop="116277693" display_start="115958576" display_stop="116277693" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="116396380" stop="116714990" display_start="116396380" display_stop="116714990" Strand="-" />
+          </Location>
+          <OMIM>608771</OMIM>
+          <Haploinsufficiency last_evaluated="2023-08-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MED13L">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-08-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MED13L">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.12:g.(?_115982183)_(116022795_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" innerStart="115982183" innerStop="116022795" display_start="115982183" display_stop="116022795" variantLength="40613" Strand="-" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="116419988" innerStop="116460600" display_start="116419988" display_stop="116460600" variantLength="40613" />
+      </Location>
+      <OtherNameList>
+        <Name>41-KB DEL, EX6-20DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_116419988)_(116460600_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_116419988)_(116460600_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.(?_115982183)_(116022795_?)del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.(?_115982183)_(116022795_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608771.0007" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 24781760 Fig. 2a to determine the location of this allele on the current reference sequence.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">41-kb genomic deletion in gene MED13L beginning in intron 4 and ending in intron 22 of NG_023366.1.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.12:g.(?_115982183)_(116022795_?)del AND Impaired intellectual development and distinctive facial features with cardiac defects" Accession="RCV001777154" Version="9">
+        <ClassifiedConditionList TraitSetID="70855">
+          <ClassifiedCondition DB="MedGen" ID="C4225516">Impaired intellectual development and distinctive facial features with cardiac defects</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2015-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-10-08" MostRecentSubmission="2021-10-08">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24781760</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="70855" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57653" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Impaired intellectual development and distinctive facial features with cardiac defects</ElementValue>
+              </Name>
+              <XRef ID="C4225516" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="491342" SubmissionDate="2021-09-30" DateLastUpdated="2021-10-08" DateCreated="2016-02-09">
+        <ClinVarSubmissionID localKey="608771.0007_IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS" title="MED13L, 41-KB DEL, EX6-20DEL_IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS" />
+        <ClinVarAccession Accession="SCV000262633" DateUpdated="2021-10-08" DateCreated="2016-02-09" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 4-year-old boy (patient 1) with impaired intellectual development and distinctive facial features with cardiac defects (MRFACD; 616789), van Haelst et al. (2015) identified a de novo heterozygous 41-kb intragenic deletion in the MED13L gene, resulting in the deletion of exon 6 to 20, predicted to result in a loss of protein function. The deletion was identified by array CGH analysis. The patient had a small persistent foramen ovale. Functional studies of the variant and studies on patient cells were not performed, but the authors postulated haploinsufficiency as a disease mechanism.</Attribute>
+              <Citation>
+                <ID Source="PubMed">24781760</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="616789" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MED13L" />
+          </GeneList>
+          <Name>MED13L, 41-KB DEL, EX6-20DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">41-KB DEL, EX6-20DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608771.0007" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="491342" TraitType="Disease" MappingType="Name" MappingValue="IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS" MappingRef="Preferred">
+        <MedGen CUI="C4225516" Name="Impaired intellectual development and distinctive facial features with cardiac defects" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

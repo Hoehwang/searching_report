@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="2442244" VariationName="Single allele" VariationType="Deletion" Accession="VCV002442244" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-11" MostRecentSubmission="2023-03-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2415957" VariationID="2442244">
+      <GeneList>
+        <Gene Symbol="UNC13D" FullName="unc-13 homolog D" GeneID="201294" HGNC_ID="HGNC:23147" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q25.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="75827225" stop="75844404" display_start="75827225" display_stop="75844404" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="73823305" stop="73840797" display_start="73823305" display_stop="73840797" Strand="-" />
+          </Location>
+          <OMIM>608897</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q25.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" outerStart="73827722" innerStart="73828213" innerStop="73835841" outerStop="73835910" display_start="73827722" display_stop="73835910" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Familial hemophagocytic lymphohistiocytosis 3" Accession="RCV003148581" Version="1">
+        <ClassifiedConditionList TraitSetID="507">
+          <ClassifiedCondition DB="MedGen" ID="C1837174">Familial hemophagocytic lymphohistiocytosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-03-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-03-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-11" MostRecentSubmission="2023-03-11">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="507" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2266" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Familial hemophagocytic lymphohistiocytosis 3</ElementValue>
+                <XRef ID="MONDO:0012146" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HLH3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HPLH3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">FHL3</ElementValue>
+                <XRef Type="MIM" ID="608898" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9928" />
+                <XRef ID="9928" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="540" DB="Orphanet" />
+              <XRef ID="C1837174" DB="MedGen" />
+              <XRef ID="MONDO:0012146" DB="MONDO" />
+              <XRef Type="MIM" ID="608898" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7158751" SubmissionDate="2023-03-02" DateLastUpdated="2023-03-11" DateCreated="2023-03-11">
+        <ClinVarSubmissionID localKey="SUB12928644" submittedAssembly="hg19" title="SUB12928644" />
+        <ClinVarAccession Accession="SCV003806696" DateUpdated="2023-03-11" DateCreated="2023-03-11" Type="SCV" Version="1" SubmitterName="Cincinnati Children's Hospital Medical Center Genetics and Genomics Diagnostic Laboratory, Cincinnati Children's Hospital Medical Center" OrgID="1237" OrganizationCategory="laboratory" OrgAbbreviation="CCHMC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-03-02">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="17" innerStart="73828213" innerStop="73835841" outerStart="73827722" outerStop="73835910" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608898" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12928644</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7158751" TraitType="Disease" MappingType="XRef" MappingValue="608898" MappingRef="OMIM">
+        <MedGen CUI="C1837174" Name="Familial hemophagocytic lymphohistiocytosis 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,160 @@
+<VariationArchive RecordType="classified" VariationID="583666" VariationName="NC_000012.11:g.(?_7053265)_(7055105_?)del" VariationType="Deletion" Accession="VCV000583666" Version="5" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2018-10-10" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="564991" VariationID="583666">
+      <GeneList>
+        <Gene Symbol="C12orf57" FullName="chromosome 12 open reading frame 57" GeneID="113246" HGNC_ID="HGNC:29521" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p13.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="6943433" stop="6946003" display_start="6943433" display_stop="6946003" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="7053202" stop="7055164" display_start="7053202" display_stop="7055164" Strand="+" />
+          </Location>
+          <OMIM>615140</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.11:g.(?_7053265)_(7055105_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12p13.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="7053265" innerStop="7055105" display_start="7053265" display_stop="7055105" variantLength="1841" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_7053265)_(7055105_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_7053265)_(7055105_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.11:g.(?_7053265)_(7055105_?)del AND Temtamy syndrome" Accession="RCV000707948" Version="5">
+        <ClassifiedConditionList TraitSetID="9509">
+          <ClassifiedCondition DB="MedGen" ID="C1857512">Temtamy syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23453665</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24798461</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9509" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="854" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Temtamy syndrome</ElementValue>
+                <XRef ID="Temtamy+syndrome/7024" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009033" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Dysmorphism, corpus callosum agenesis and colobomas</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Craniofacial dysmorphism with ocular coloboma absent corpus callosum and aortic dilatation</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION WITH OR WITHOUT CRANIOFACIAL DYSMORPHISM, OCULAR COLOBOMA, OR ABNORMAL CORPUS CALLOSUM</ElementValue>
+                <XRef Type="MIM" ID="218340" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TEMTYS</ElementValue>
+                <XRef Type="MIM" ID="218340" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">C12orf57</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5688" />
+                <XRef ID="5688" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1777" DB="Orphanet" />
+              <XRef ID="C1857512" DB="MedGen" />
+              <XRef ID="MONDO:0009033" DB="MONDO" />
+              <XRef Type="MIM" ID="218340" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1609083" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="NM_138425.3_12_Deletion (entire coding sequence)|MedGen:C1857512" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000837058" DateUpdated="2023-11-11" DateCreated="2018-10-10" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23453665</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24798461</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the C12orf57 gene has been identified. Loss-of-function variants in C12orf57 are known to be pathogenic (PMID: 23453665, 24798461). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals affected with C12orf57-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="C12orf57" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.(?_7053265)_(7055105_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1857512" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1609083" TraitType="Disease" MappingType="XRef" MappingValue="C1857512" MappingRef="MedGen">
+        <MedGen CUI="C1857512" Name="Temtamy syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

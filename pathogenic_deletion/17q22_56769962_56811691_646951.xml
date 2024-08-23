@@ -1,0 +1,178 @@
+<VariationArchive RecordType="classified" VariationID="646951" VariationName="NC_000017.11:g.(?_58692634)_(58692798_?)del" VariationType="Deletion" Accession="VCV000646951" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2019-08-14" MostRecentSubmission="2023-03-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="652669" VariationID="646951">
+      <GeneList>
+        <Gene Symbol="LOC130061310" FullName="ATAC-STARR-seq lymphoblastoid active region 12491" GeneID="130061310" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58692790" stop="58692959" display_start="58692790" display_stop="58692959" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="RAD51C" FullName="RAD51 paralog C" GeneID="5889" HGNC_ID="HGNC:9820" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58692573" stop="58735611" display_start="58692573" display_stop="58735611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="56769962" stop="56811691" display_start="56769962" display_stop="56811691" Strand="+" />
+          </Location>
+          <OMIM>602774</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000017.11:g.(?_58692634)_(58692798_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" innerStart="58692634" innerStop="58692798" display_start="58692634" display_stop="58692798" variantLength="165" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="56769995" innerStop="56770159" display_start="56769995" display_stop="56770159" variantLength="165" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.(?_58692634)_(58692798_?)del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.(?_58692634)_(58692798_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_56769995)_(56770159_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_56769995)_(56770159_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000017.11:g.(?_58692634)_(58692798_?)del AND Fanconi anemia complementation group O" Accession="RCV000801343" Version="2">
+        <ClassifiedConditionList TraitSetID="1880">
+          <ClassifiedCondition DB="MedGen" ID="C3150653">Fanconi anemia complementation group O</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-08-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-08-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2023-03-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20400964</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21990120</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24800917</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1880" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6757" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Fanconi anemia complementation group O</ElementValue>
+                <XRef ID="MONDO:0013248" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">FANCO</ElementValue>
+                <XRef Type="MIM" ID="613390" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15656" />
+                <XRef ID="15656" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Fanconi anemia (FA) is characterized by physical abnormalities, bone marrow failure, and increased risk for malignancy. Physical abnormalities, present in approximately 75% of affected individuals, include one or more of the following: short stature, abnormal skin pigmentation, skeletal malformations of the upper and/or lower limbs, microcephaly, and ophthalmic and genitourinary tract anomalies. Progressive bone marrow failure with pancytopenia typically presents in the first decade, often initially with thrombocytopenia or leukopenia. The incidence of acute myeloid leukemia is 13% by age 50 years. Solid tumors – particularly of the head and neck, skin, and genitourinary tract – are more common in individuals with FA.</Attribute>
+                <XRef ID="NBK1401" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301575</ID>
+                <ID Source="BookShelf">NBK1401</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="FARF, 2008">
+                <URL>http://www.fanconi.org/images/uploads/other/Guidelines_for_Diagnosis_and_Management.pdf</URL>
+                <CitationText>Fanconi Anemia Research Fund, Guidelines for Diagnosis and Management, 2008 (See 2020 Update)</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="FARF, 2020">
+                <URL>https://www.fanconi.org/images/uploads/other/Fanconi_Anemia_Clinical_Care_Guidelines_5thEdition_web.pdf</URL>
+                <CitationText>Fanconi Anemia Clinical Care Guidelines, Fifth Edition.</CitationText>
+              </Citation>
+              <XRef ID="84" DB="Orphanet" />
+              <XRef ID="C3150653" DB="MedGen" />
+              <XRef ID="MONDO:0013248" DB="MONDO" />
+              <XRef Type="MIM" ID="613390" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1835054" SubmissionDate="2023-03-21" DateLastUpdated="2023-03-26" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="NM_058216.2_17_Deletion (exon 1)|MedGen:C3150653" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000941117" DateUpdated="2023-03-26" DateCreated="2019-08-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-08-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">20400964</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21990120</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24800917</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon 1 of the RAD51C gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 1 of the RAD51C gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with RAD51C-related disease. Loss-of-function variants in RAD51C are known to be pathogenic (PMID: 20400964, 21990120, 24800917). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAD51C" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.(?_56769995)_(56770159_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3150653" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12974844</SubmissionName>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1835054" TraitType="Disease" MappingType="XRef" MappingValue="C3150653" MappingRef="MedGen">
+        <MedGen CUI="C3150653" Name="Fanconi anemia complementation group O" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

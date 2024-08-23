@@ -1,0 +1,175 @@
+<VariationArchive RecordType="classified" VariationID="14678" VariationName="NC_000002.12:g.112960554_113135775del" VariationType="Deletion" Accession="VCV000014678" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2013-07-03" MostRecentSubmission="2023-08-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="29717" VariationID="14678">
+      <GeneList>
+        <Gene Symbol="IL1RN" FullName="interleukin 1 receptor antagonist" GeneID="3557" HGNC_ID="HGNC:6000" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>2q14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="113099360" stop="113134014" display_start="113099360" display_stop="113134014" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="113875469" stop="113891592" display_start="113875469" display_stop="113891592" Strand="+" />
+          </Location>
+          <OMIM>147679</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.112960554_113135775del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q14.2</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>175-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.112960554_113135775del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.112960554_113135775del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.10" sequenceAccession="NC_000002" sequenceVersion="10" change="g.113434602_113609823del" Assembly="NCBI36">
+            <Expression>NC_000002.10:g.113434602_113609823del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="147679.0005" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.112960554_113135775del AND Sterile multifocal osteomyelitis with periostitis and pustulosis" Accession="RCV000015792" Version="29">
+        <ClassifiedConditionList TraitSetID="4057">
+          <ClassifiedCondition DB="MedGen" ID="C2748507">Sterile multifocal osteomyelitis with periostitis and pustulosis</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2009-06-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2009-06-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2013-07-03" MostRecentSubmission="2023-08-05">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19494219</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="4057" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6767" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Sterile multifocal osteomyelitis with periostitis and pustulosis</ElementValue>
+                <XRef ID="MONDO:0013021" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="147679.0003" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DIRA</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CRMO2</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">OMPP</ElementValue>
+                <XRef Type="MIM" ID="612852" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">Deficiency of interleukin-1 receptor antagonist</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10516" />
+                <XRef ID="10516" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="210115" DB="Orphanet" />
+              <XRef ID="C2748507" DB="MedGen" />
+              <XRef ID="MONDO:0013021" DB="MONDO" />
+              <XRef Type="MIM" ID="612852" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="36059" SubmissionDate="2020-11-11" DateLastUpdated="2023-08-05" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="147679.0005_CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS" title="IL1RN, 175-KB DEL_CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS" />
+        <ClinVarAccession Accession="SCV000036059" DateUpdated="2023-08-05" DateCreated="2013-04-04" Type="SCV" Version="5" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2009-06-04">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a child from a family originating from Puerto Rico who had neonatal onset of chronic recurrent multifocal osteomyelitis-2 with periostitis and pustulosis (CRMO2; 612852), Aksentijevich et al. (2009) identified homozygosity for a 175-kb deletion that encompassed 6 IL1-related genes: IL1RN, IL1F9 (605542), IL1F6 (605509), IL1F8 (605508), IL1F5 (605507), and IL1F10 (615296). Quantitative PCR of whole blood from the patient revealed complete absence of IL1RN mRNA. His unaffected parents and sister were heterozygous for the deletion, which was also found in 3 unrelated carriers from a panel of 119 geographically matched controls, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+              <Citation>
+                <ID Source="PubMed">19494218</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="612852" Type="MIM" />
+              <XRef DB="OMIM" ID="605542" Type="MIM" />
+              <XRef DB="OMIM" ID="605509" Type="MIM" />
+              <XRef DB="OMIM" ID="605508" Type="MIM" />
+              <XRef DB="OMIM" ID="605507" Type="MIM" />
+              <XRef DB="OMIM" ID="615296" Type="MIM" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Description">In an 18-month-old male infant with neonatal onset of pustular rash, osteopenia, lytic bone lesions, respiratory insufficiency, and thrombosis, Reddy et al. (2009) identified homozygosity for the 175-kb deletion. The unaffected parents were heterozygous for the deletion. Anakinra treatment completely resolved the symptoms and lesions.</Attribute>
+              <Citation>
+                <ID Source="PubMed">19494219</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IL1RN" />
+          </GeneList>
+          <Name>IL1RN, 175-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">175-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="147679.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="36059" TraitType="Disease" MappingType="Name" MappingValue="CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 2, WITH PERIOSTITIS AND PUSTULOSIS" MappingRef="Preferred">
+        <MedGen CUI="C2748507" Name="Sterile multifocal osteomyelitis with periostitis and pustulosis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

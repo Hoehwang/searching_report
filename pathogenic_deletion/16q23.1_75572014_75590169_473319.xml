@@ -1,0 +1,181 @@
+<VariationArchive RecordType="classified" VariationID="473319" VariationName="NC_000016.10:g.(?_75539974)_(75545515_?)del" VariationType="Deletion" Accession="VCV000473319" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-05-26" MostRecentSubmission="2018-05-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="465438" VariationID="473319">
+      <GeneList>
+        <Gene Symbol="TMEM231" FullName="transmembrane protein 231" GeneID="79583" HGNC_ID="HGNC:37234" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="75536741" stop="75556286" display_start="75536741" display_stop="75556286" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="75572014" stop="75590169" display_start="75572014" display_stop="75590169" Strand="-" />
+          </Location>
+          <OMIM>614949</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.10:g.(?_75539974)_(75545515_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>16q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" innerStart="75539974" innerStop="75545515" display_start="75539974" display_stop="75545515" variantLength="5542" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="75573872" innerStop="75579413" display_start="75573872" display_stop="75579413" variantLength="5542" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.(?_75539974)_(75545515_?)del" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.(?_75539974)_(75545515_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_75573872)_(75579413_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_75573872)_(75579413_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.10:g.(?_75539974)_(75545515_?)del AND multiple conditions" Accession="RCV000530418" Version="2">
+        <ClassifiedConditionList TraitSetID="13457">
+          <ClassifiedCondition DB="MedGen" ID="C3554235">Joubert syndrome 20</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3809352">Meckel syndrome, type 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-11-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-11-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-26" MostRecentSubmission="2018-05-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23012439</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27449316</ID>
+        </Citation>
+        <DescriptionHistory Dated="2018-05-26">
+          <Description>Likely pathogenic</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="13457" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18257" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Meckel syndrome, type 11</ElementValue>
+                <XRef ID="MONDO:0014164" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MKS11</ElementValue>
+                <XRef Type="MIM" ID="615397" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">TMEM231</ElementValue>
+              </Symbol>
+              <XRef ID="564" DB="Orphanet" />
+              <XRef ID="C3809352" DB="MedGen" />
+              <XRef ID="MONDO:0014164" DB="MONDO" />
+              <XRef Type="MIM" ID="615397" DB="OMIM" />
+            </Trait>
+            <Trait ID="17503" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Joubert syndrome 20</ElementValue>
+                <XRef ID="MONDO:0013994" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">JBTS20</ElementValue>
+                <XRef Type="MIM" ID="614970" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">TMEM231</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Classic Joubert syndrome (JS) is characterized by three primary findings: A distinctive cerebellar and brain stem malformation called the molar tooth sign (MTS). Hypotonia. Developmental delays. Often these findings are accompanied by episodic tachypnea or apnea and/or atypical eye movements. In general, the breathing abnormalities improve with age, truncal ataxia develops over time, and acquisition of gross motor milestones is delayed. Cognitive abilities are variable, ranging from severe intellectual disability to normal. Additional findings can include retinal dystrophy, renal disease, ocular colobomas, occipital encephalocele, hepatic fibrosis, polydactyly, oral hamartomas, and endocrine abnormalities. Both intra- and interfamilial variation are seen.</Attribute>
+                <XRef ID="NBK1325" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301500</ID>
+                <ID Source="BookShelf">NBK1325</ID>
+              </Citation>
+              <XRef ID="475" DB="Orphanet" />
+              <XRef ID="C3554235" DB="MedGen" />
+              <XRef ID="MONDO:0013994" DB="MONDO" />
+              <XRef Type="MIM" ID="614970" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1251038" SubmissionDate="2018-04-02" DateLastUpdated="2018-05-26" DateCreated="2017-12-26">
+        <ClinVarSubmissionID localKey="1874907|MedGen:C3554235;C3809352" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000652858" DateUpdated="2018-05-26" DateCreated="2017-12-26" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-11-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23012439</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27449316</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 3-6 of the TMEM231 gene. The 5' boundary is likely confined to intron 2. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. This variant has been observed in trans with a pathogenic TMEM231 variant in multiple affected individuals in a family with TMEM231-related disease (Invitae). A missense substitution in exon 4 (p.Asp262Asn) has been determined to be pathogenic (PMID: 23012439, 27449316). This suggests that the aspartic acid residue is critical for TMEM231 protein function, and that variants that disrupt this residue, including this deletion, may also be pathogenic. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMEM231" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000016.9:g.(?_75573872)_(75579413_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3554235" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3809352" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3864685</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1251038" TraitType="Disease" MappingType="XRef" MappingValue="C3554235" MappingRef="MedGen">
+        <MedGen CUI="C3554235" Name="Joubert syndrome 20" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1251038" TraitType="Disease" MappingType="XRef" MappingValue="C3809352" MappingRef="MedGen">
+        <MedGen CUI="C3809352" Name="Meckel syndrome, type 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

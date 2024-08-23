@@ -1,0 +1,170 @@
+<VariationArchive RecordType="classified" VariationID="459905" VariationName="NC_000022.11:g.(?_18913155)_(18936307_?)del" VariationType="Deletion" Accession="VCV000459905" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-24" DateCreated="2022-05-16" MostRecentSubmission="2022-05-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="469838" VariationID="459905">
+      <GeneList>
+        <Gene Symbol="HSERVPRODH" FullName="human-specific endogenous retroviral insert PRODH enhancer" GeneID="106660608" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="18936275" stop="18939737" display_start="18936275" display_stop="18939737" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="PRODH" FullName="proline dehydrogenase 1" GeneID="5625" HGNC_ID="HGNC:9453" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="18912781" stop="18936553" display_start="18912781" display_stop="18936553" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="18900286" stop="18924065" display_start="18900286" display_stop="18924065" Strand="-" />
+          </Location>
+          <OMIM>606810</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000022.11:g.(?_18913155)_(18936307_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>22q11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" innerStart="18913155" innerStop="18936307" display_start="18913155" display_stop="18936307" variantLength="23153" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" innerStart="18900668" innerStop="18923820" display_start="18900668" display_stop="18923820" variantLength="23153" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.(?_18900668)_(18923820_?)del" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.(?_18900668)_(18923820_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.(?_18913155)_(18936307_?)del" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.(?_18913155)_(18936307_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000022.11:g.(?_18913155)_(18936307_?)del AND Proline dehydrogenase deficiency" Accession="RCV000530008" Version="4">
+        <ClassifiedConditionList TraitSetID="1096">
+          <ClassifiedCondition DB="MedGen" ID="C0268529">Proline dehydrogenase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-07-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-07-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-16" MostRecentSubmission="2022-05-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">12217952</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">12525555</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">15662599</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1096" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1742" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PROLINE OXIDASE DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="239500" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Proline dehydrogenase deficiency</ElementValue>
+                <XRef ID="Proline+dehydrogenase+deficiency/9171" DB="Genetic Alliance" />
+                <XRef ID="61071003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hyperprolinemia type 1</ElementValue>
+                <XRef ID="MONDO:0009400" DB="MONDO" />
+                <XRef ID="419" DB="Orphanet" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HYRPRO1</ElementValue>
+                <XRef Type="MIM" ID="239500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">HPI</ElementValue>
+                <XRef Type="MIM" ID="239500" DB="OMIM" />
+              </Symbol>
+              <XRef ID="419" DB="Orphanet" />
+              <XRef ID="C0268529" DB="MedGen" />
+              <XRef ID="MONDO:0009400" DB="MONDO" />
+              <XRef Type="MIM" ID="239500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1224054" SubmissionDate="2022-05-04" DateLastUpdated="2022-05-16" DateCreated="2017-12-26">
+        <ClinVarSubmissionID localKey="NM_016335.4_22_Deletion (entire coding sequence)_18900667_18923820|MedGen:C0268529" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000631836" DateUpdated="2022-05-16" DateCreated="2017-12-26" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-07-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">12217952</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">12525555</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">15662599</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the PRODH gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has been reported in a single family affected with hyperprolinemia and schizophrenia (PMID: 12217952). Loss-of-function variants in PRODH are known to be pathogenic (PMID: 12525555, 15662599). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRODH" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000022.10:g.(?_18900668)_(18923820_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0268529" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1224054" TraitType="Disease" MappingType="XRef" MappingValue="C0268529" MappingRef="MedGen">
+        <MedGen CUI="C0268529" Name="Proline dehydrogenase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

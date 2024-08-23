@@ -1,0 +1,279 @@
+<VariationArchive RecordType="classified" VariationID="832574" VariationName="NC_000002.12:g.(?_44320179)_(44346410_?)del" VariationType="Deletion" Accession="VCV000832574" Version="2" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2021-05-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819171" VariationID="832574">
+      <GeneList>
+        <Gene Symbol="PREPL" FullName="prolyl endopeptidase like" GeneID="9581" HGNC_ID="HGNC:30228" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44317607" stop="44361862" display_start="44317607" display_stop="44361862" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44544745" stop="44589000" display_start="44544745" display_stop="44589000" Strand="-" />
+          </Location>
+          <OMIM>609557</OMIM>
+        </Gene>
+        <Gene Symbol="SLC3A1" FullName="solute carrier family 3 member 1" GeneID="6519" HGNC_ID="HGNC:11025" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="44275480" stop="44322437" display_start="44275480" display_stop="44322437" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="44502596" stop="44547962" display_start="44502596" display_stop="44547962" Strand="+" />
+          </Location>
+          <OMIM>104614</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_44320179)_(44346410_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="44547318" innerStop="44573549" display_start="44547318" display_stop="44573549" variantLength="26232" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_44547318)_(44573549_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_44547318)_(44573549_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_44320179)_(44346410_?)del AND Cystinuria" Accession="RCV001388551" Version="1">
+        <ClassifiedConditionList TraitSetID="1615">
+          <ClassifiedCondition DB="MedGen" ID="C0010691">Cystinuria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NC_000002.12:g.(?_44320179)_(44346410_?)del AND Myasthenic syndrome, congenital, 22" Accession="RCV001033051" Version="1">
+        <ClassifiedConditionList TraitSetID="35374">
+          <ClassifiedCondition DB="MedGen" ID="C4479088">Myasthenic syndrome, congenital, 22</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-04" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2021-05-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">10737983</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19782624</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22796000</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24610330</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="35374" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37039" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PREPL DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="616224" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Myasthenic syndrome, congenital, 22</ElementValue>
+                <XRef ID="MONDO:0044299" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMS22</ElementValue>
+                <XRef Type="MIM" ID="616224" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4479088" DB="MedGen" />
+              <XRef ID="MONDO:0044299" DB="MONDO" />
+              <XRef Type="MIM" ID="616224" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1615" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1217" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE I</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE II</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CYSTINURIA, TYPE III</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cystinuria</ElementValue>
+                <XRef ID="22232" DB="GeneTests" />
+                <XRef ID="Cystinuria/2081" DB="Genetic Alliance" />
+                <XRef ID="HP:0003131" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0009067" DB="MONDO" />
+                <XRef ID="85020001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cystinuria, non-type I</ElementValue>
+                <XRef ID="UWMG_9204648" DB="CSER _CC_NCGL, University of Washington" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU1</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CSNU3</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CSNU</ElementValue>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6237" />
+                <XRef ID="6237" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Cystinuria is an autosomal disorder characterized by impaired epithelial cell transport of cystine and dibasic amino acids (lysine, ornithine, and arginine) in the proximal renal tubule and gastrointestinal tract. The impaired renal reabsorption of cystine and its low solubility causes the formation of calculi in the urinary tract, resulting in obstructive uropathy, pyelonephritis, and, rarely, renal failure (summary by Barbosa et al., 2012).</Attribute>
+                <XRef Type="MIM" ID="220100" DB="OMIM" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="PubMed">21863055</ID>
+              </Citation>
+              <XRef ID="214" DB="Orphanet" />
+              <XRef ID="C0010691" DB="MedGen" />
+              <XRef ID="MONDO:0009067" DB="MONDO" />
+              <XRef Type="MIM" ID="220100" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0003131" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357614" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="6702003|MedGen:CN240841" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196358" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">22796000</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24610330</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 2-14 of the PREPL gene. The 5' boundary is likely confined to intron 1. If SLC3A1 has been tested and no copy number events are reported for it, then the 3' boundary of this event lies between the PREPL and SLC3A1 genes. If SLC3A1 has not been tested, the 3' end of this event is unknown as it extends beyond the assayed region of this test. This is expected to result in an absent or disrupted protein product.. Isolated deletions of exons 2-14 of PREPL have not been reported in the literature. However, larger copy number events that include this region have been reported in individuals affected with hypotonia-cystinuria syndrome (PMID: 24610330, 22796000, 24610330). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PREPL" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_44547318)_(44573549_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN240841" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3115228" SubmissionDate="2021-01-07" DateLastUpdated="2021-05-10" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_000341.3_2_Deletion (exon 10)|MedGen:C0010691" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001589562" DateUpdated="2021-05-10" DateCreated="2021-05-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19782624</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">10737983</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon 10 of the SLC3A1 gene. The 5' boundary is likely confined to intron 9. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. This variant has been observed in individuals affected with cystinuria and to segregate with disease in a family (PMID: 19782624, 10737983). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC3A1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_44547318)_(44573549_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0010691" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357614" TraitType="Disease" MappingType="XRef" MappingValue="CN240841" MappingRef="MedGen">
+        <MedGen CUI="C4479088" Name="Myasthenic syndrome, congenital, 22" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3115228" TraitType="Disease" MappingType="XRef" MappingValue="C0010691" MappingRef="MedGen">
+        <MedGen CUI="C0010691" Name="Cystinuria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

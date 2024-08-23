@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="1064671" VariationName="NM_017619.4(RNPC3):c.1421del (p.Pro474fs)" VariationType="Deletion" Accession="VCV001064671" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-09-08" MostRecentSubmission="2021-09-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1052919" VariationID="1064671">
+      <GeneList>
+        <Gene Symbol="RNPC3" FullName="RNA binding region (RNP1, RRM) containing 3" GeneID="55599" HGNC_ID="HGNC:18666" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="103525699" stop="103555239" display_start="103525699" display_stop="103555239" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="104068577" stop="104097860" display_start="104068577" display_stop="104097860" Strand="+" />
+          </Location>
+          <OMIM>618016</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_017619.4(RNPC3):c.1421del (p.Pro474fs)</Name>
+      <CanonicalSPDI>NC_000001.11:103550998:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="103550999" stop="103550999" display_start="103550999" display_stop="103550999" variantLength="1" positionVCF="103550998" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="104093621" stop="104093621" display_start="104093621" display_stop="104093621" variantLength="1" positionVCF="104093620" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>P474fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.104093622del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.104093622del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.103551000del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.103551000del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017619.4" sequenceAccession="NM_017619" sequenceVersion="4" change="c.1421del" MANESelect="true">
+            <Expression>NM_017619.4:c.1421del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_060089.1" sequenceAccession="NP_060089" sequenceVersion="1" change="p.Pro474fs">
+            <Expression>NP_060089.1:p.Pro474fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1461692571" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_017619.4(RNPC3):c.1421del (p.Pro474fs) AND Isolated growth hormone deficiency, type 5" Accession="RCV001594477" Version="1">
+        <ClassifiedConditionList TraitSetID="44991">
+          <ClassifiedCondition DB="MedGen" ID="C4748435">Isolated growth hormone deficiency, type 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-04-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-04-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-09-08" MostRecentSubmission="2021-09-08">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="44991" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="40741" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Isolated growth hormone deficiency, type 5</ElementValue>
+                <XRef ID="MONDO:0032569" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PITUITARY HORMONE DEFICIENCY, COMBINED OR ISOLATED, 7</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CPHD7</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">IGHD5</ElementValue>
+                <XRef Type="MIM" ID="618160" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4748435" DB="MedGen" />
+              <XRef ID="MONDO:0032569" DB="MONDO" />
+              <XRef Type="MIM" ID="618160" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3094527" SubmissionDate="2021-04-05" DateLastUpdated="2021-09-08" DateCreated="2021-09-08">
+        <ClinVarSubmissionID localKey="NM_017619.3:c.1421del|OMIM:618160" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV001571476" DateUpdated="2021-09-08" DateCreated="2021-09-08" Type="SCV" Version="1" SubmitterName="Department of Pediatric Endocrinology, Ondokuz Mayis University" OrgID="508017" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-04-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_017619.3:c.1421del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618160" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9430480</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3094527" TraitType="Disease" MappingType="XRef" MappingValue="618160" MappingRef="OMIM">
+        <MedGen CUI="C4748435" Name="Isolated growth hormone deficiency, type 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

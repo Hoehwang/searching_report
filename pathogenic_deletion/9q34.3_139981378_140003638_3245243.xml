@@ -1,0 +1,135 @@
+<VariationArchive VariationID="3245243" VariationName="NC_000009.11:g.(?_139981452)_(140003043_?)del" VariationType="Deletion" Accession="VCV003245243" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3406484" VariationID="3245243">
+      <GeneList>
+        <Gene Symbol="MAN1B1" FullName="mannosidase alpha class 1B member 1" GeneID="11253" HGNC_ID="HGNC:6823" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="137086985" stop="137109183" display_start="137086985" display_stop="137109183" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="139981378" stop="140003638" display_start="139981378" display_stop="140003638" Strand="+" />
+          </Location>
+          <OMIM>604346</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.11:g.(?_139981452)_(140003043_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="139981452" innerStop="140003043" display_start="139981452" display_stop="140003043" variantLength="21592" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_139981452)_(140003043_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_139981452)_(140003043_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.11:g.(?_139981452)_(140003043_?)del AND Rafiq syndrome" Accession="RCV004582012" Version="1">
+        <ClassifiedConditionList TraitSetID="7597">
+          <ClassifiedCondition DB="MedGen" ID="C3280127">Rafiq syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-01-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-01-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24566669</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7597" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16522" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rafiq syndrome</ElementValue>
+                <XRef ID="MONDO:0013624" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RAFQS</ElementValue>
+                <XRef Type="MIM" ID="614202" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="22550" />
+                <XRef ID="22550" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="88616" DB="Orphanet" />
+              <XRef ID="C3280127" DB="MedGen" />
+              <XRef ID="MONDO:0013624" DB="MONDO" />
+              <XRef Type="MIM" ID="614202" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9835766" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.(?_139981452)_(140003043_?)del|MedGen:C3280127" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005067357" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-01-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24566669</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the MAN1B1 gene has been identified. Loss-of-function variants in MAN1B1 are known to be pathogenic (PMID: 24566669). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals affected with MAN1B1-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_139981452)_(140003043_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3280127" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9835766" TraitType="Disease" MappingType="XRef" MappingValue="C3280127" MappingRef="MedGen">
+        <MedGen CUI="C3280127" Name="Rafiq syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

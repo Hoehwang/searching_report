@@ -1,0 +1,184 @@
+<VariationArchive VariationID="13225" VariationName="NM_000055.4:c.1160_1161ins[N[342];1146_1160]" VariationType="Duplication" Accession="VCV000013225" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2018-04-27" MostRecentSubmission="2018-04-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="28264" VariationID="13225">
+      <GeneList>
+        <Gene Symbol="BCHE" FullName="butyrylcholinesterase" GeneID="590" HGNC_ID="HGNC:983" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>3q26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="165772904" stop="165837423" display_start="165772904" display_stop="165837423" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="165490691" stop="165555252" display_start="165490691" display_stop="165555252" Strand="-" />
+          </Location>
+          <OMIM>177400</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000055.4:c.1160_1161ins[N[342];1146_1160]</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>3q26.1-q26.2</CytogeneticLocation>
+      </Location>
+      <OtherNameList>
+        <Name>NM_000055.4:c.1160_1161ins[Alu;1146_1160]</Name>
+        <Name>ALU INS, EX2</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009031.1" sequenceAccession="NG_009031" sequenceVersion="1" change="g.12577_12578insAlu12579_12590dup">
+            <Expression>NG_009031.1:g.12577_12578insAlu12579_12590dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000055.4" sequenceAccession="NM_000055" sequenceVersion="4" change="c.1145_1146insAlu1147_1158dup" MANESelect="true">
+            <Expression>NM_000055.4:c.1145_1146insAlu1147_1158dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009031.1" sequenceAccession="NG_009031" sequenceVersion="1" change="g.12592_12593ins[N[342];12578_12592]">
+            <Expression>NG_009031.1:g.12592_12593ins[N[342];12578_12592]</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000055.4" sequenceAccession="NM_000055" sequenceVersion="4" change="c.1160_1161ins[N[342];1146_1160]" MANESelect="true">
+            <Expression>NM_000055.4:c.1160_1161ins[N[342];1146_1160]</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="177400.0011" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS-like expression for the Alu insert with the direct repeat of AAAAATATTTTTTCC from the sequence reported in Figure 3 of the paper by Muratani et al., 1991 (PubMed 1662391).</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000055.4:c.1160_1161ins[N[342];1146_1160] AND Deficiency of butyrylcholinesterase" Accession="RCV000014129" Version="26">
+        <ClassifiedConditionList TraitSetID="3618">
+          <ClassifiedCondition DB="MedGen" ID="C1283400">Deficiency of butyrylcholinesterase</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1991-12-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1991-12-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-04-27" MostRecentSubmission="2018-04-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">1662391</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3618" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6333" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">BCHE deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHE1 deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acylcholine acylhydrolase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudocholinesterase E1 deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BCHE, silent 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Butyrylcholinesterase deficiency</ElementValue>
+                <XRef ID="MONDO:0015270" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Deficiency of butyrylcholinesterase</ElementValue>
+                <XRef ID="360619001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acholinesterasemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Deficiency of butyrylcholine esterase</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BCHED</ElementValue>
+                <XRef Type="MIM" ID="617936" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">BCHE Ann Arbor</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Pharmacogenetic</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7482" />
+                <XRef ID="7482" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="132" DB="Orphanet" />
+              <XRef ID="C1283400" DB="MedGen" />
+              <XRef ID="MONDO:0015270" DB="MONDO" />
+              <XRef Type="MIM" ID="617936" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="34377" SubmissionDate="2018-04-24" DateLastUpdated="2018-04-27" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="177400.0011_BUTYRYLCHOLINESTERASE DEFICIENCY" title="BCHE, ALU INS, EX2_BUTYRYLCHOLINESTERASE DEFICIENCY" />
+        <ClinVarAccession Accession="SCV000034377" DateUpdated="2018-04-27" DateCreated="2013-04-04" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1991-12-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">Muratani et al. (1991) described inactivation of the cholinesterase gene by an Alu insertion. The patient was a 60-year-old Japanese man who was by chance found to have no cholinesterase activity in his serum when he was hospitalized for diabetes mellitus. By using BCHE cDNA as a probe, Muratani et al. (1991) isolated clones from a genomic library constructed from the patient's DNA. Sequencing showed that exon 2 of the BCHE gene was disrupted by a 342-bp Alu insertion. The Alu element included a poly(A) tract of 38 bp and showed 93% sequence homology with a current type of human Alu consensus sequence. The subject was homozygous and the Alu insertion was inherited in his family. It was flanked by 15 bp of target site duplication in exon 2 corresponding to positions 1062-1076 of the cDNA, indicating that the Alu element could have been integrated by retrotransposition.</Attribute>
+              <Citation>
+                <ID Source="PubMed">1662391</ID>
+              </Citation>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BCHE" />
+          </GeneList>
+          <Name>BCHE, ALU INS, EX2</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">ALU INS, EX2</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="177400.0011" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BUTYRYLCHOLINESTERASE DEFICIENCY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="34377" TraitType="Disease" MappingType="Name" MappingValue="BUTYRYLCHOLINESTERASE DEFICIENCY" MappingRef="Preferred">
+        <MedGen CUI="C1283400" Name="Deficiency of butyrylcholinesterase" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

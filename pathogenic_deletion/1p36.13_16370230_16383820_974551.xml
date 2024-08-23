@@ -1,0 +1,141 @@
+<VariationArchive VariationID="974551" VariationName="NM_000085.5:c.(?_-1)_(*1_?)del" VariationType="Deletion" Accession="VCV000974551" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2021-01-13" MostRecentSubmission="2021-01-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="962848" VariationID="974551">
+      <GeneList>
+        <Gene Symbol="CLCNKB" FullName="chloride voltage-gated channel Kb" GeneID="1188" HGNC_ID="HGNC:2027" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>1p36.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16043782" stop="16057326" display_start="16043782" display_stop="16057326" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="16370230" stop="16383820" display_start="16370230" display_stop="16383820" Strand="+" />
+          </Location>
+          <OMIM>602023</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000085.5:c.(?_-1)_(*1_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.13</CytogeneticLocation>
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000085.5:c.(?_-1)_(*1_?)del AND Bartter disease type 3" Accession="RCV001281334" Version="2">
+        <ClassifiedConditionList TraitSetID="2068">
+          <ClassifiedCondition DB="MedGen" ID="C1846343">Bartter disease type 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-01-13" MostRecentSubmission="2021-01-13">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33532864</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2068" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="379" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome type 3</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome classic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Bartter disease type 3</ElementValue>
+                <XRef ID="MONDO:0011822" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BARTS3</ElementValue>
+                <XRef Type="MIM" ID="607364" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9659" />
+                <XRef ID="9659" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="112" DB="Orphanet" />
+              <XRef ID="93605" DB="Orphanet" />
+              <XRef ID="C1846343" DB="MedGen" />
+              <XRef ID="MONDO:0011822" DB="MONDO" />
+              <XRef Type="MIM" ID="607364" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2813983" SubmissionDate="2020-07-10" DateLastUpdated="2021-01-13" DateCreated="2021-01-13">
+        <ClinVarSubmissionID localKey="NM_000085.5:c.(?_-1)_(*1_?)del|OMIM:607364" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001424985" DateUpdated="2021-01-13" DateCreated="2021-01-13" Type="SCV" Version="1" SubmitterName="Molecular Biology Laboratory, Fundació Puigvert" OrgID="507661" OrganizationCategory="laboratory" OrgAbbreviation="Lab BM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-02-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">33532864</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="2" />
+            </Sample>
+            <Method>
+              <TypePlatform>next-gen sequencing</TypePlatform>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLCNKB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000085.5:c.(?_-1)_(*1_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="607364" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">33532864</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">33532864</ID>
+        </Citation>
+        <StudyName>KidneyPanel_2020</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB7750420</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2813983" TraitType="Disease" MappingType="XRef" MappingValue="607364" MappingRef="OMIM">
+        <MedGen CUI="C1846343" Name="Bartter disease type 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

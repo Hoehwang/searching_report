@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="583448" VariationName="NC_000002.12:g.(?_47373463)_(47377077_?)del" VariationType="Deletion" Accession="VCV000583448" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-17" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="559137" VariationID="583448">
+      <GeneList>
+        <Gene Symbol="EPCAM" FullName="epithelial cell adhesion molecule" GeneID="4072" HGNC_ID="HGNC:11529" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="47369311" stop="47387020" display_start="47369311" display_stop="47387020" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="47596286" stop="47614166" display_start="47596286" display_stop="47614166" Strand="+" />
+          </Location>
+          <OMIM>185535</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_47373463)_(47377077_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" innerStart="47373463" innerStop="47377077" display_start="47373463" display_stop="47377077" variantLength="3615" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="47600602" innerStop="47604216" display_start="47600602" display_stop="47604216" variantLength="3615" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_47600602)_(47604216_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_47600602)_(47604216_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(?_47373463)_(47377077_?)del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(?_47373463)_(47377077_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_47373463)_(47377077_?)del AND Hereditary nonpolyposis colorectal neoplasms" Accession="RCV000707773" Version="1">
+        <ClassifiedConditionList TraitSetID="37727">
+          <ClassifiedCondition DB="MedGen" ID="C0009405">Hereditary nonpolyposis colorectal neoplasms</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-06-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-06-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-10-10" MostRecentSubmission="2018-10-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37727" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38245" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hereditary nonpolyposis colorectal neoplasms</ElementValue>
+                <XRef ID="D003123" DB="MeSH" />
+              </Name>
+              <XRef ID="C0009405" DB="MedGen" />
+              <XRef ID="D003123" DB="MeSH" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1608908" SubmissionDate="2018-08-29" DateLastUpdated="2018-10-10" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="3903166|MedGen:C0009405" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000836883" DateUpdated="2018-10-10" DateCreated="2018-10-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-06-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is an out-of-frame deletion of the genomic region encompassing exons 2-7 of the EPCAM gene. This is expected to create a premature translational stop signal and result in an absent or disrupted protein product. A similar deletion has not been reported in the literature in individuals with EPCAM-related disease. Loss-of-function variants in EPCAM are known to be pathogenic (PMID: 21315192, 20034091). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EPCAM" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_47600602)_(47604216_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Hereditary nonpolyposis colon cancer</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0009405" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1608908" TraitType="Disease" MappingType="Name" MappingValue="Hereditary nonpolyposis colon cancer" MappingRef="Preferred">
+        <MedGen CUI="C1333990" Name="Hereditary nonpolyposis colon cancer" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

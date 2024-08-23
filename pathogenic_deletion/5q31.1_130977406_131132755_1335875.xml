@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="1335875" VariationName="NC_000005.9:g.(?_130766131)_(131044371_131044893)del" VariationType="Deletion" Accession="VCV001335875" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-05-07" DateCreated="2022-02-04" MostRecentSubmission="2022-02-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1326868" VariationID="1335875">
+      <GeneList>
+        <Gene Symbol="FNIP1" FullName="folliculin interacting protein 1" GeneID="96459" HGNC_ID="HGNC:29418" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="131641714" stop="131797017" display_start="131641714" display_stop="131797017" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="130977406" stop="131132755" display_start="130977406" display_stop="131132755" Strand="-" />
+          </Location>
+          <OMIM>610594</OMIM>
+        </Gene>
+        <Gene Symbol="RAPGEF6" FullName="Rap guanine nucleotide exchange factor 6" GeneID="51735" HGNC_ID="HGNC:20655" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="131423921" stop="131635229" display_start="131423921" display_stop="131635229" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="130759613" stop="130970928" display_start="130759613" display_stop="130970928" Strand="-" />
+          </Location>
+          <OMIM>610499</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000005.9:g.(?_130766131)_(131044371_131044893)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="130766131" innerStop="131044371" outerStop="131044893" display_start="130766131" display_stop="131044893" variantLength="278763" />
+      </Location>
+      <OtherNameList>
+        <Name>EX9-18 DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_130766131)_(131044371_131044893)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_130766131)_(131044371_131044893)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="610594.0006" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff provided an HGVS expression for allelic variant 610594.0006 based on the minimal interval reported in Table 1 of the paper by Saettini et al., 2021 (PubMed 32905580) and the location of exon 8 on the GRCh37 assembly.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000005.9:g.(?_130766131)_(131044371_131044893)del AND Immunodeficiency 93 and hypertrophic cardiomyopathy" Accession="RCV001822078" Version="1">
+        <ClassifiedConditionList TraitSetID="72260">
+          <ClassifiedCondition DB="MedGen" ID="C5676899">Immunodeficiency 93 and hypertrophic cardiomyopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-01-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-01-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-04" MostRecentSubmission="2022-02-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32905580</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="72260" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="61523" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 93 and hypertrophic cardiomyopathy</ElementValue>
+                <XRef ID="MONDO:0030528" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD93</ElementValue>
+                <XRef Type="MIM" ID="619705" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5676899" DB="MedGen" />
+              <XRef ID="MONDO:0030528" DB="MONDO" />
+              <XRef Type="MIM" ID="619705" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4046789" SubmissionDate="2022-01-24" DateLastUpdated="2022-02-04" DateCreated="2022-02-04">
+        <ClinVarSubmissionID localKey="610594.0006_IMMUNODEFICIENCY 93 AND HYPERTROPHIC CARDIOMYOPATHY" title="FNIP1, EX9-18 DEL_IMMUNODEFICIENCY 93 AND HYPERTROPHIC CARDIOMYOPATHY" />
+        <ClinVarAccession Accession="SCV002064255" DateUpdated="2022-02-04" DateCreated="2022-02-04" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-01-24">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the intragenic deletion of exons 9 to 18 in the FNIP1 gene that was found in compound heterozygous state in a patient with immunodeficiency-93 and hypertrophic cardiomyopathy (IMD93; 619705) by Saettini et al. (2021), see 610594.0005.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32905580</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619705" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FNIP1" />
+          </GeneList>
+          <Name>FNIP1, EX9-18 DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX9-18 DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="610594.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">IMMUNODEFICIENCY 93 AND HYPERTROPHIC CARDIOMYOPATHY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4046789" TraitType="Disease" MappingType="Name" MappingValue="IMMUNODEFICIENCY 93 AND HYPERTROPHIC CARDIOMYOPATHY" MappingRef="Preferred">
+        <MedGen CUI="C5676899" Name="Immunodeficiency 93 and hypertrophic cardiomyopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

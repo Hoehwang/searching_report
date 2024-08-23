@@ -1,0 +1,127 @@
+<VariationArchive RecordType="classified" VariationID="375545" VariationName="Single allele" VariationType="Duplication" Accession="VCV000375545" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-17" DateCreated="2017-02-12" MostRecentSubmission="2017-02-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="362333" VariationID="375545">
+      <GeneList>
+        <Gene Symbol="LOC114827831" FullName="VISTA enhancer hs2342" GeneID="114827831" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="127661222" stop="127662040" display_start="127661222" display_stop="127662040" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="STXBP1" FullName="syntaxin binding protein 1" GeneID="6812" HGNC_ID="HGNC:11444" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="127611912" stop="127696029" display_start="127611912" display_stop="127696029" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="130374485" stop="130454994" display_start="130374485" display_stop="130454994" Strand="+" />
+          </Location>
+          <OMIM>602926</OMIM>
+          <Haploinsufficiency last_evaluated="2013-06-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=STXBP1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2013-06-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=STXBP1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="127659781" stop="127677280" display_start="127659781" display_stop="127677280" variantLength="17500" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="130422060" stop="130439559" display_start="130422060" display_stop="130439559" variantLength="17500" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Epileptic encephalopathy" Accession="RCV000416971" Version="1">
+        <ClassifiedConditionList TraitSetID="22837">
+          <ClassifiedCondition DB="MedGen" ID="C0543888">Epileptic encephalopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-11-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-11-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-02-12" MostRecentSubmission="2017-02-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="22837" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="31797" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Epileptic encephalopathy</ElementValue>
+                <XRef ID="HP:0200134" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0543888" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0200134" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="967470" SubmissionDate="2016-11-16" DateLastUpdated="2017-02-12" DateCreated="2017-02-12">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.130422060_130439559dup" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000494569" DateUpdated="2017-02-12" DateCreated="2017-02-12" Type="SCV" Version="1" SubmitterName="Neurogenetics Laboratory - MEYER, AOU Meyer" OrgID="505994" OrganizationCategory="laboratory" OrgAbbreviation="NGL-MEYER" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-11-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <FamilyData>
+                <FamilyHistory>no</FamilyHistory>
+              </FamilyData>
+              <Proband>yes</Proband>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="STXBP1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.130422060_130439559dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="MedGen" ID="C0543888" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>NG_HM_MEYER</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="967470" TraitType="Finding" MappingType="XRef" MappingValue="C0543888" MappingRef="MedGen">
+        <MedGen CUI="C0543888" Name="Epileptic encephalopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

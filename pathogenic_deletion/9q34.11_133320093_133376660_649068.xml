@@ -1,0 +1,279 @@
+<VariationArchive VariationID="649068" VariationName="NC_000009.12:g.(?_130452214)_(130454383_?)del" VariationType="Deletion" Accession="VCV000649068" Version="3" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2019-08-14" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="651832" VariationID="649068">
+      <GeneList>
+        <Gene Symbol="ASS1" FullName="argininosuccinate synthase 1" GeneID="445" HGNC_ID="HGNC:758" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q34.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="130444707" stop="130501274" display_start="130444707" display_stop="130501274" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="133320093" stop="133376660" display_start="133320093" display_stop="133376660" Strand="+" />
+          </Location>
+          <OMIM>603470</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.12:g.(?_130452214)_(130454383_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9q34.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" innerStart="130452214" innerStop="130454383" display_start="130452214" display_stop="130454383" variantLength="2170" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="133327601" innerStop="133329770" display_start="133327601" display_stop="133329770" variantLength="2170" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.(?_130452214)_(130454383_?)del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.(?_130452214)_(130454383_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_133327601)_(133329770_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_133327601)_(133329770_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.12:g.(?_130452214)_(130454383_?)del AND Citrullinemia type I" Accession="RCV000803925" Version="2">
+        <ClassifiedConditionList TraitSetID="1757">
+          <ClassifiedCondition DB="MedGen" ID="C4721769">Citrullinemia type I</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-09-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NC_000009.12:g.(?_130452214)_(130454383_?)del AND Citrullinemia" Accession="RCV004579564" Version="1">
+        <ClassifiedConditionList TraitSetID="64881">
+          <ClassifiedCondition DB="MedGen" ID="C0175683">Citrullinemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-21" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18473344</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19006241</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="64881" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="54673" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Citrullinemia</ElementValue>
+                <XRef ID="MONDO:0015991" DB="MONDO" />
+                <XRef ID="398680004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Citrullinuria</ElementValue>
+                <XRef ID="HP:0032397" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CTNL1</ElementValue>
+                <XRef ID="GTR000558544" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16522" />
+                <XRef ID="16522" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="187" DB="Orphanet" />
+              <XRef ID="C0175683" DB="MedGen" />
+              <XRef ID="MONDO:0015991" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS215700" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0032397" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1757" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1459" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">argininosuccinate synthetase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Citrullinemia type I</ElementValue>
+                <XRef ID="Citrullinemia+Type+I/1651" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0008988" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Classic citrullinemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ASS deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Citrullinemia 1</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CTLN1</ElementValue>
+                <XRef Type="MIM" ID="215700" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">CTNL1</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6114" />
+                <XRef ID="6114" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Citrullinemia type I (CTLN1) presents as a spectrum that includes a neonatal acute form (the "classic" form), a milder late-onset form (the "non-classic" form), a form in which women have onset of symptoms at pregnancy or post partum, and a form without symptoms or hyperammonemia. Distinction between the forms is based primarily on clinical findings, although emerging evidence suggests that measurement of residual argininosuccinate synthase enzyme activity may help to predict those who are likely to have a severe phenotype and those who are likely to have an attenuated phenotype. Infants with the acute neonatal form appear normal at birth. Shortly thereafter, they develop hyperammonemia and become progressively lethargic, feed poorly, often vomit, and may develop signs of increased intracranial pressure (ICP). Without prompt intervention, hyperammonemia and the accumulation of other toxic metabolites (e.g., glutamine) result in increased ICP, increased neuromuscular tone, spasticity, ankle clonus, seizures, loss of consciousness, and death. Children with the severe form who are treated promptly may survive for an indeterminate period of time, but usually with significant neurologic deficits. Even with chronic protein restriction and scavenger therapy, long-term complications such as liver failure and other (rarely reported) organ system manifestations are possible. The late-onset form may be milder than that seen in the acute neonatal form, but commences later in life for reasons that are not completely understood. The episodes of hyperammonemia are similar to those seen in the acute neonatal form, but the initial neurologic findings may be more subtle because of the older age of the affected individuals. Women with onset of severe symptoms including acute hepatic decompensation during pregnancy or in the postpartum period have been reported. Furthermore, previously asymptomatic and non-pregnant individuals have been described who remained asymptomatic up to at least age ten years, with the possibility that they could remain asymptomatic lifelong.</Attribute>
+                <XRef ID="NBK1458" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301631</ID>
+                <ID Source="BookShelf">NBK1458</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301396</ID>
+                <ID Source="BookShelf">NBK1217</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG, ACT Sheet, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/Citrullinemia.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, [Elevated Citrulline], Amino Acidemia/Urea Cycle Disorder, 2022</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/Citrulline-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Elevated Citrulline: Amino Acidemia Algorithm, 2022</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2012">
+                <URL>https://www.acmg.net/PDFLibrary/Citrullinemia-I-Transition.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Transition to Adult Health Care ACT Sheet, Citrullinemia I, Urea Cycle Disorder, 2012</CitationText>
+              </Citation>
+              <XRef ID="247525" DB="Orphanet" />
+              <XRef ID="C4721769" DB="MedGen" />
+              <XRef ID="MONDO:0008988" DB="MONDO" />
+              <XRef Type="MIM" ID="215700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1837800" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="4737294|MedGen:C0175683" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000943813" DateUpdated="2020-04-09" DateCreated="2019-08-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-09-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 3-4 of the ASS1 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 4 of the ASS1 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with ASS1-related disease. Loss-of-function variants in ASS1 are known to be pathogenic (PMID: 18473344, 19006241). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ASS1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_133327601)_(133329770_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Citrullinuria</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0175683" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="9835610" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.(?_133327601)_(133329770_?)del|MedGen:C0175683" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005067201" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18473344</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19006241</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 3-4 of the ASS1 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in ASS1 are known to be pathogenic (PMID: 18473344, 19006241). This variant has not been reported in the literature in individuals affected with ASS1-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_133327601)_(133329770_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0175683" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1837800" TraitType="Disease" MappingType="Name" MappingValue="Citrullinuria" MappingRef="Preferred">
+        <MedGen CUI="C0175683" Name="Citrullinemia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9835610" TraitType="Disease" MappingType="XRef" MappingValue="C0175683" MappingRef="MedGen">
+        <MedGen CUI="C0175683" Name="Citrullinemia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

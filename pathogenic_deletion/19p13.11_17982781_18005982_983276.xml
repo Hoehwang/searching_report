@@ -1,0 +1,194 @@
+<VariationArchive RecordType="classified" VariationID="983276" VariationName="NM_000453.3(SLC5A5):c.152del (p.Gly51fs)" VariationType="Deletion" Accession="VCV000983276" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-10-31" MostRecentSubmission="2020-10-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="971345" VariationID="983276">
+      <GeneList>
+        <Gene Symbol="SLC5A5" FullName="solute carrier family 5 member 5" GeneID="6528" HGNC_ID="HGNC:11040" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="17871945" stop="17895174" display_start="17871945" display_stop="17895174" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="17982781" stop="18005982" display_start="17982781" display_stop="18005982" Strand="+" />
+          </Location>
+          <OMIM>601843</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000453.3(SLC5A5):c.152del (p.Gly51fs)</Name>
+      <CanonicalSPDI>NC_000019.10:17872466:GGGGG:GGGG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="17872467" stop="17872467" display_start="17872467" display_stop="17872467" variantLength="1" positionVCF="17872466" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="17983276" stop="17983276" display_start="17983276" display_stop="17983276" variantLength="1" positionVCF="17983275" referenceAlleleVCF="CG" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>G51fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.17872471del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.17872471del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.9" sequenceAccession="NC_000019" sequenceVersion="9" change="g.17983280del" Assembly="GRCh37">
+            <Expression>NC_000019.9:g.17983280del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012930.1" sequenceAccession="NG_012930" sequenceVersion="1" change="g.5499del">
+            <Expression>NG_012930.1:g.5499del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000453.3" sequenceAccession="NM_000453" sequenceVersion="3" change="c.152del" MANESelect="true">
+            <Expression>NM_000453.3:c.152del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000444.1" sequenceAccession="NP_000444" sequenceVersion="1" change="p.Gly51fs">
+            <Expression>NP_000444.1:p.Gly51fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="2094296642" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000453.3(SLC5A5):c.152del (p.Gly51fs) AND Familial thyroid dyshormonogenesis 1" Accession="RCV001263164" Version="1">
+        <ClassifiedConditionList TraitSetID="2090">
+          <ClassifiedCondition DB="MedGen" ID="C1848805">Familial thyroid dyshormonogenesis 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-05-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-05-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-10-31" MostRecentSubmission="2020-10-31">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2090" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6053" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOTHYROIDISM, CONGENITAL, DUE TO DYSHORMONOGENESIS, 1</ElementValue>
+                <XRef Type="MIM" ID="274400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IODINE ACCUMULATION, TRANSPORT, OR TRAPPING DEFECT</ElementValue>
+                <XRef Type="MIM" ID="274400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Thyroid dyshormonogenesis 1</ElementValue>
+                <XRef ID="Thyroid+dyshormonogenesis+1/9401" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">THYROID HORMONOGENESIS, GENETIC DEFECT IN, 1</ElementValue>
+                <XRef Type="MIM" ID="274400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Familial thyroid dyshormonogenesis 1</ElementValue>
+                <XRef ID="MONDO:0020716" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">TDH1</ElementValue>
+                <XRef Type="MIM" ID="274400" DB="OMIM" />
+              </Symbol>
+              <XRef ID="95716" DB="Orphanet" />
+              <XRef ID="C1848805" DB="MedGen" />
+              <XRef ID="MONDO:0020716" DB="MONDO" />
+              <XRef Type="MIM" ID="274400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2845296" SubmissionDate="2020-10-25" DateLastUpdated="2020-10-31" DateCreated="2020-10-31">
+        <ClinVarSubmissionID localKey="CHT00165_1" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001441247" DateUpdated="2020-10-31" DateCreated="2020-10-31" Type="SCV" Version="1" SubmitterName="The Core Laboratory in Medical Center of Clinical Research, Shanghai Ninth People's Hospital, Shanghai Jiaotong University School of Medicine" OrgID="507758" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-05-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Elevated TSH levels</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">low T3 levels</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">low T4 levels</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">normal thyroid</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC5A5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000453.2:c.148delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="274400" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8385796</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2845296" TraitType="Finding" MappingType="Name" MappingValue="normal thyroid" MappingRef="Preferred">
+        <MedGen CUI="None" Name="normal thyroid" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2845296" TraitType="Finding" MappingType="Name" MappingValue="low T4 levels" MappingRef="Preferred">
+        <MedGen CUI="None" Name="low T4 levels" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2845296" TraitType="Disease" MappingType="XRef" MappingValue="274400" MappingRef="OMIM">
+        <MedGen CUI="C1848805" Name="Familial thyroid dyshormonogenesis 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2845296" TraitType="Finding" MappingType="Name" MappingValue="low T3 levels" MappingRef="Preferred">
+        <MedGen CUI="None" Name="low T3 levels" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2845296" TraitType="Finding" MappingType="Name" MappingValue="Elevated TSH levels" MappingRef="Preferred">
+        <MedGen CUI="C5232344" Name="Elevated TSH levels" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

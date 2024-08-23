@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="1071006" VariationName="NC_000023.10:g.(?_43515570)_(43603780_?)del" VariationType="Deletion" Accession="VCV001071006" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1058335" VariationID="1071006">
+      <GeneList>
+        <Gene Symbol="MAOA" FullName="monoamine oxidase A" GeneID="4128" HGNC_ID="HGNC:6833" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp11.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="43655006" stop="43746817" display_start="43655006" display_stop="43746817" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="43514154" stop="43606070" display_start="43514154" display_stop="43606070" Strand="+" />
+          </Location>
+          <OMIM>309850</OMIM>
+          <Haploinsufficiency last_evaluated="2012-09-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MAOA">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-09-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MAOA">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.(?_43515570)_(43603780_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="43515570" innerStop="43603780" display_start="43515570" display_stop="43603780" variantLength="88211" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_43515570)_(43603780_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_43515570)_(43603780_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.(?_43515570)_(43603780_?)del AND Brunner syndrome" Accession="RCV001383346" Version="1">
+        <ClassifiedConditionList TraitSetID="2817">
+          <ClassifiedCondition DB="MedGen" ID="C0796275">Brunner syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-09-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-09-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-10" MostRecentSubmission="2021-05-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">8211186</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2817" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1070" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Brunner syndrome</ElementValue>
+                <XRef ID="MONDO:0010379" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Monoamine oxidase A deficiency</ElementValue>
+                <XRef ID="Monoamine+oxidase+A+deficiency/4856" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BRNRS</ElementValue>
+                <XRef Type="MIM" ID="300615" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3531" />
+                <XRef ID="3531" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="3057" DB="Orphanet" />
+              <XRef ID="C0796275" DB="MedGen" />
+              <XRef ID="MONDO:0010379" DB="MONDO" />
+              <XRef Type="MIM" ID="300615" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3108062" SubmissionDate="2021-01-07" DateLastUpdated="2021-05-10" DateCreated="2021-05-10">
+        <ClinVarSubmissionID localKey="NM_000240.3_X_Deletion (entire coding sequence)|MedGen:C0796275" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001582440" DateUpdated="2021-05-10" DateCreated="2021-05-10" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-09-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">8211186</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the MAOA gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with MAOA-related conditions. Loss-of-function variants in MAOA are known to be pathogenic (PMID: 8211186). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MAOA" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000023.10:g.(?_43515570)_(43603780_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0796275" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3108062" TraitType="Disease" MappingType="XRef" MappingValue="C0796275" MappingRef="MedGen">
+        <MedGen CUI="C0796275" Name="Brunner syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

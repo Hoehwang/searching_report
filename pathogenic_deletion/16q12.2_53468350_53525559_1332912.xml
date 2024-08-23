@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="1332912" VariationName="NC_000016.9:g.(53498276_53499349)_(53504835_53513065)del" VariationType="Deletion" Accession="VCV001332912" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-09" DateCreated="2022-01-12" MostRecentSubmission="2022-01-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1323642" VariationID="1332912">
+      <GeneList>
+        <Gene Symbol="RBL2" FullName="RB transcriptional corepressor like 2" GeneID="5934" HGNC_ID="HGNC:9894" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="53434471" stop="53491648" display_start="53434471" display_stop="53491648" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="53468350" stop="53525559" display_start="53468350" display_stop="53525559" Strand="+" />
+          </Location>
+          <OMIM>180203</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000016.9:g.(53498276_53499349)_(53504835_53513065)del</Name>
+      <VariantType>Deletion</VariantType>
+      <OtherNameList>
+        <Name>EX13-17 DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.53499350_53504833del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.53499350_53504833del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(53498276_53499349)_(53504835_53513065)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(53498276_53499349)_(53504835_53513065)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="180203.0002" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">In Supplementary table S3, Brunet et al, 2020 (PubMed 32105419) reported allelic variant 180203.0002 as deletion beginning 16 53.499.350 and deletion ending	16 53.504.833.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000016.9:g.(53498276_53499349)_(53504835_53513065)del AND Brunet-Wagner neurodevelopmental syndrome" Accession="RCV001807546" Version="1">
+        <ClassifiedConditionList TraitSetID="71534">
+          <ClassifiedCondition DB="MedGen" ID="C5562056">Brunet-Wagner neurodevelopmental syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-01-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-01-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-01-12" MostRecentSubmission="2022-01-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32105419</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="71534" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="61475" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Brunet-Wagner neurodevelopmental syndrome</ElementValue>
+                <XRef ID="MONDO:0859217" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BRUWAG</ElementValue>
+                <XRef Type="MIM" ID="619690" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5562056" DB="MedGen" />
+              <XRef ID="MONDO:0859217" DB="MONDO" />
+              <XRef Type="MIM" ID="619690" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4027045" SubmissionDate="2022-01-07" DateLastUpdated="2022-01-12" DateCreated="2022-01-12">
+        <ClinVarSubmissionID localKey="180203.0002_BRUNET-WAGNER NEURODEVELOPMENTAL SYNDROME" title="RBL2, EX13-17 DEL_BRUNET-WAGNER NEURODEVELOPMENTAL SYNDROME" />
+        <ClinVarAccession Accession="SCV002054138" DateUpdated="2022-01-12" DateCreated="2022-01-12" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-01-07">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the in-frame deletion of exons 13 to 17 of the RBL2 gene that was found in compound heterozygous state in 2 sibs with Brunet-Wagner neurodevelopmental syndrome (BRUWAG; 619690) by Brunet et al. (2020), see 180203.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32105419</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619690" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RBL2" />
+          </GeneList>
+          <Name>RBL2, EX13-17 DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX13-17 DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="180203.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BRUNET-WAGNER NEURODEVELOPMENTAL SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4027045" TraitType="Disease" MappingType="Name" MappingValue="BRUNET-WAGNER NEURODEVELOPMENTAL SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C5562056" Name="Brunet-Wagner neurodevelopmental syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

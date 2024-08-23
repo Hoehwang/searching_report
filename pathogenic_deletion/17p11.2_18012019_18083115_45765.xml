@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="45765" VariationName="NM_016239.4(MYO15A):c.8100del (p.Lys2701fs)" VariationType="Deletion" Accession="VCV000045765" Version="5" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2015-02-24" MostRecentSubmission="2015-02-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="54930" VariationID="45765">
+      <GeneList>
+        <Gene Symbol="MYO15A" FullName="myosin XVA" GeneID="51168" HGNC_ID="HGNC:7594" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="18108756" stop="18179800" display_start="18108756" display_stop="18179800" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="18012019" stop="18083115" display_start="18012019" display_stop="18083115" Strand="+" />
+          </Location>
+          <OMIM>602666</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_016239.4(MYO15A):c.8100del (p.Lys2701fs)</Name>
+      <CanonicalSPDI>NC_000017.11:18154138:CCCC:CCC</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>17p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="18154139" stop="18154139" display_start="18154139" display_stop="18154139" variantLength="1" positionVCF="18154138" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="18057453" stop="18057453" display_start="18057453" display_stop="18057453" variantLength="1" positionVCF="18057452" referenceAlleleVCF="AC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>K2701fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.18057456del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.18057456del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.11" sequenceAccession="NC_000017" sequenceVersion="11" change="g.18154142del" Assembly="GRCh38">
+            <Expression>NC_000017.11:g.18154142del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_011634.2" sequenceAccession="NG_011634" sequenceVersion="2" change="g.50437del">
+            <Expression>NG_011634.2:g.50437del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016239.4" sequenceAccession="NM_016239" sequenceVersion="4" change="c.8100del" MANESelect="true">
+            <Expression>NM_016239.4:c.8100del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_057323.3" sequenceAccession="NP_057323" sequenceVersion="3" change="p.Lys2701fs">
+            <Expression>NP_057323.3:p.Lys2701fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA261770" DB="ClinGen" />
+        <XRef Type="rs" ID="397517287" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_016239.4(MYO15A):c.8100del (p.Lys2701fs) AND Rare genetic deafness" Accession="RCV000038989" Version="5">
+        <ClassifiedConditionList TraitSetID="40993">
+          <ClassifiedCondition DB="MedGen" ID="C5680250">Rare genetic deafness</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2013-02-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2013-02-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-02-24" MostRecentSubmission="2015-02-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="40993" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38576" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rare genetic deafness</ElementValue>
+                <XRef ID="96210" DB="Orphanet" />
+              </Name>
+              <XRef ID="96210" DB="Orphanet" />
+              <XRef ID="C5680250" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="103867" SubmissionDate="2019-03-21" DateLastUpdated="2015-02-24" DateCreated="2013-05-03">
+        <ClinVarSubmissionID localKey="38350437|Orphanet:ORPHA96210" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000062667" DateUpdated="2015-02-24" DateCreated="2013-05-03" Type="SCV" Version="6" SubmitterName="Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine" OrgID="21766" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <ReplacedList>
+          <Replaced Accession="SCV000199429" DateChanged="2015-02-23" Version="1" />
+        </ReplacedList>
+        <Classification DateLastEvaluated="2013-02-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The Lys2701fs variant in MYO15A has not been reported in the literature nor prev iously identified by our laboratory. This frameshift variant is predicted to alt er the protein?s amino acid sequence beginning at position 2701 and lead to a pr emature termination codon 37 amino acids downstream. This alteration is then pre dicted to lead to a truncated or absent protein. In summary, this variant meets our criteria to be classified as pathogenic (http://pcpgm.partners.org/LMM).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LMM Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">24033266</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MYO15A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_016239.3:EXON 44</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>NM_016239.3:c.8100delC</Name>
+            <Name>p.Lys2701ArgfsX37</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000017.10:g.18057456delC</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA96210" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5348977</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="103867" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA96210" MappingRef="Orphanet">
+        <MedGen CUI="C5680250" Name="Rare genetic deafness" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

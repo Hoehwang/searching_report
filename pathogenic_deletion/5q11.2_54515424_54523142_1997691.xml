@@ -1,0 +1,177 @@
+<VariationArchive VariationID="1997691" VariationName="NM_001190787.3(MCIDAS):c.149del (p.Gly50fs)" VariationType="Deletion" Accession="VCV001997691" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2056911" VariationID="1997691">
+      <GeneList>
+        <Gene Symbol="MCIDAS" FullName="multiciliate differentiation and DNA synthesis associated cell cycle protein" GeneID="345643" HGNC_ID="HGNC:40050" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="55219564" stop="55227315" display_start="55219564" display_stop="55227315" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="54515424" stop="54523142" display_start="54515424" display_stop="54523142" Strand="-" />
+          </Location>
+          <OMIM>614086</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001190787.3(MCIDAS):c.149del (p.Gly50fs)</Name>
+      <CanonicalSPDI>NC_000005.10:55226902:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="55226903" stop="55226903" display_start="55226903" display_stop="55226903" variantLength="1" positionVCF="55226902" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="54522731" stop="54522731" display_start="54522731" display_stop="54522731" variantLength="1" positionVCF="54522730" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>G50fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.55226904del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.55226904del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.54522732del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.54522732del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_051620.1" sequenceAccession="NG_051620" sequenceVersion="1" change="g.5413del">
+            <Expression>NG_051620.1:g.5413del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001190787.3" sequenceAccession="NM_001190787" sequenceVersion="3" change="c.149del" MANESelect="true">
+            <Expression>NM_001190787.3:c.149del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001177716.1" sequenceAccession="NP_001177716" sequenceVersion="1" change="p.Gly50fs">
+            <Expression>NP_001177716.1:p.Gly50fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001190787.3(MCIDAS):c.149del (p.Gly50fs) AND Primary ciliary dyskinesia" Accession="RCV002791906" Version="3">
+        <ClassifiedConditionList TraitSetID="8944">
+          <ClassifiedCondition DB="MedGen" ID="C0008780">Primary ciliary dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-08" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25048963</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8944" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15219" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia</ElementValue>
+                <XRef ID="Primary+ciliary+dyskinesia/5941" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0016575" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ciliary dyskinesia</ElementValue>
+                <XRef ID="HP:0012265" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ICS</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PCD</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4484" />
+                <XRef ID="4484" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="PCD Foundation, 2016">
+                <ID Source="pmc">4912005</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C0008780" DB="MedGen" />
+              <XRef ID="MONDO:0016575" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0012265" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5889399" SubmissionDate="2024-02-08" DateLastUpdated="2024-02-20" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="16701337|MedGen:C0008780" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003201232" DateUpdated="2024-02-20" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25048963</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Gly50Aspfs*28) in the MCIDAS gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in MCIDAS are known to be pathogenic (PMID: 25048963). This variant is not present in population databases (gnomAD no frequency). This variant has not been reported in the literature in individuals affected with MCIDAS-related conditions. ClinVar contains an entry for this variant (Variation ID: 1997691). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MCIDAS" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.9:g.54522731del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0008780" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5889399" TraitType="Disease" MappingType="XRef" MappingValue="C0008780" MappingRef="MedGen">
+        <MedGen CUI="C0008780" Name="Primary ciliary dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

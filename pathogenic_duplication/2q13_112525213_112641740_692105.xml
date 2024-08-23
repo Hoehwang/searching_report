@@ -1,0 +1,172 @@
+<VariationArchive VariationID="692105" VariationName="NM_022662.4(ANAPC1):c.1778dup (p.Asn593fs)" VariationType="Duplication" Accession="VCV000692105" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-01-26" DateCreated="2019-10-20" MostRecentSubmission="2019-10-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="679849" VariationID="692105">
+      <GeneList>
+        <Gene Symbol="ANAPC1" FullName="anaphase promoting complex subunit 1" GeneID="64682" HGNC_ID="HGNC:19988" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="111766231" stop="111884193" display_start="111766231" display_stop="111884193" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="112525213" stop="112641740" display_start="112525213" display_stop="112641740" Strand="-" />
+          </Location>
+          <OMIM>608473</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_022662.4(ANAPC1):c.1778dup (p.Asn593fs)</Name>
+      <CanonicalSPDI>NC_000002.12:111847737:TT:TTT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>2q13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="111847737" stop="111847738" display_start="111847737" display_stop="111847738" variantLength="1" positionVCF="111847737" referenceAlleleVCF="G" alternateAlleleVCF="GT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="112605314" stop="112605315" display_start="112605314" display_stop="112605315" variantLength="1" positionVCF="112605314" referenceAlleleVCF="G" alternateAlleleVCF="GT" />
+      </Location>
+      <ProteinChange>N593fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.112605316dup" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.112605316dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.111847739dup" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.111847739dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_022662.4" sequenceAccession="NM_022662" sequenceVersion="4" change="c.1778dup" MANESelect="true">
+            <Expression>NM_022662.4:c.1778dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_073153.1" sequenceAccession="NP_073153" sequenceVersion="1" change="p.Asn593fs">
+            <Expression>NP_073153.1:p.Asn593fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608473.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1573454278" DB="dbSNP" />
+        <XRef Type="Interpreted" ID="694458" DB="ClinVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_022662.4(ANAPC1):c.1778dup (p.Asn593fs) AND Rothmund-Thomson syndrome type 1" Accession="RCV000853403" Version="1">
+        <ClassifiedConditionList TraitSetID="51019">
+          <ClassifiedCondition DB="MedGen" ID="C5231433">Rothmund-Thomson syndrome type 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-10-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-10-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-10-20" MostRecentSubmission="2019-10-20">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31303264</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="51019" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="43000" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rothmund-Thomson syndrome type 1</ElementValue>
+                <XRef ID="MONDO:0016368" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">POIKILODERMA ATROPHICANS AND CATARACT</ElementValue>
+                <XRef Type="MIM" ID="618625" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RTS1</ElementValue>
+                <XRef Type="MIM" ID="618625" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Rothmund-Thomson syndrome (RTS) is characterized by a rash that progresses to poikiloderma; sparse hair, eyelashes, and/or eyebrows; small size; skeletal and dental abnormalities; juvenile cataracts; and an increased risk for cancer, especially osteosarcoma. A variety of benign and malignant hematologic abnormalities have been reported in affected individuals. The rash of RTS typically develops between ages three and six months (occasionally as late as age two years) as erythema, swelling, and blistering on the face, subsequently spreading to the buttocks and extremities. The rash evolves over months to years into the chronic pattern of reticulated hypo- and hyperpigmentation, telangiectasias, and punctate atrophy (collectively known as poikiloderma) that persist throughout life. Hyperkeratotic lesions occur in approximately one third of individuals. Skeletal abnormalities can include radial ray defects, ulnar defects, absent or hypoplastic patella, and osteopenia.</Attribute>
+                <XRef ID="NBK1237" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17134" />
+                <XRef ID="17134" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301415</ID>
+                <ID Source="BookShelf">NBK1237</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Skin Cancer">
+                <ID Source="PubMed">26389333</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <XRef ID="221008" DB="Orphanet" />
+              <XRef ID="C5231433" DB="MedGen" />
+              <XRef ID="MONDO:0016368" DB="MONDO" />
+              <XRef Type="MIM" ID="618625" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1955063" SubmissionDate="2019-10-17" DateLastUpdated="2019-10-20" DateCreated="2019-10-20">
+        <ClinVarSubmissionID localKey="608473.0002_ROTHMUND-THOMSON SYNDROME, TYPE 1" title="ANAPC1, 1-BP DUP, 1778A_ROTHMUND-THOMSON SYNDROME, TYPE 1" />
+        <ClinVarAccession Accession="SCV000996308" DateUpdated="2019-10-20" DateCreated="2019-10-20" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-10-17">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 1-bp duplication (c.1778dupA, NM_022662.3) in exon 15 of the ANAPC1 gene, causing a frameshift predicted to result in a premature termination codon (Asn593LysfsTer9), that was found in compound heterozygous state in 2 brothers (family 6) with Rothmund-Thomson syndrome (RTS1; 618625) by Ajeawung et al. (2019), see 608473.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">31303264</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="618625" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ANAPC1" />
+          </GeneList>
+          <Name>ANAPC1, 1-BP DUP, 1778A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DUP, 1778A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608473.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">ROTHMUND-THOMSON SYNDROME, TYPE 1</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1955063" TraitType="Disease" MappingType="Name" MappingValue="ROTHMUND-THOMSON SYNDROME, TYPE 1" MappingRef="Preferred">
+        <MedGen CUI="C5231433" Name="Rothmund-Thomson syndrome type 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

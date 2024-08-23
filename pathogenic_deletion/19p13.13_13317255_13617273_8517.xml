@@ -1,0 +1,185 @@
+<VariationArchive RecordType="classified" VariationID="8517" VariationName="NC_000019.10:g.(13255260_13259564)_(13259701_?)del" VariationType="Deletion" Accession="VCV000008517" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-05-09" MostRecentSubmission="2018-05-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="23556" VariationID="8517">
+      <GeneList>
+        <Gene Symbol="CACNA1A" FullName="calcium voltage-gated channel subunit alpha1 A" GeneID="773" HGNC_ID="HGNC:1388" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="13206442" stop="13506479" display_start="13206442" display_stop="13506479" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="13317255" stop="13617273" display_start="13317255" display_stop="13617273" Strand="-" />
+          </Location>
+          <OMIM>601011</OMIM>
+          <Haploinsufficiency last_evaluated="2017-05-21" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CACNA1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2017-05-21" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CACNA1A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000019.10:g.(13255260_13259564)_(13259701_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" outerStart="13255260" innerStart="13259564" innerStop="13259701" display_start="13255260" display_stop="13259701" variantLength="138" Strand="+" />
+      </Location>
+      <OtherNameList>
+        <Name>7.4-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000019.10" sequenceAccession="NC_000019" sequenceVersion="10" change="g.(13255260_13259564)_(13259701_?)del" Assembly="GRCh38">
+            <Expression>NC_000019.10:g.(13255260_13259564)_(13259701_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv1415008" DB="dbVar" />
+        <XRef ID="nsv513780" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="601011.0031" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">Deletion from gene CACNA1A minimally including exon 27, and potentially comprising 7.4-kb spanning exons 26 through 28 plus flanking intronic sequences.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000019.10:g.(13255260_13259564)_(13259701_?)del AND Episodic ataxia type 2" Accession="RCV000009043" Version="8">
+        <ClassifiedConditionList TraitSetID="2343">
+          <ClassifiedCondition DB="MedGen" ID="C1720416">Episodic ataxia type 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2009-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2009-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-09" MostRecentSubmission="2018-05-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19586927</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2343" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1620" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Episodic ataxia with nystagmus</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nystagmus-associated episodic ataxia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Episodic ataxia type 2</ElementValue>
+                <XRef ID="Episodic+Ataxia+with+Nystagmus/2620" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0007163" DB="MONDO" />
+                <XRef ID="420932006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cerebellopathy, hereditary paroxysmal</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ataxia, familial, paroxysmal</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acetazolamide-responsive, hereditary, paroxysmal, cerebellar ataxia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acetazolamide-responsive episodic ataxia syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cerebellar ataxia, paroxysmal, Acetazolamide-responsive</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EA2</ElementValue>
+                <XRef Type="MIM" ID="108500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">APCA</ElementValue>
+                <XRef Type="MIM" ID="108500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CAPA</ElementValue>
+                <XRef Type="MIM" ID="108500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9602" />
+                <XRef ID="9602" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">The hereditary ataxias are a group of genetic disorders characterized by slowly progressive incoordination of gait and often associated with poor coordination of hands, speech, and eye movements. Frequently, atrophy of the cerebellum occurs. In this GeneReview the hereditary ataxias are categorized by mode of inheritance and gene (or chromosome locus) in which pathogenic variants occur.</Attribute>
+                <XRef ID="NBK1138" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301317</ID>
+                <ID Source="BookShelf">NBK1138</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20050888</ID>
+              </Citation>
+              <XRef ID="97" DB="Orphanet" />
+              <XRef ID="C1720416" DB="MedGen" />
+              <XRef ID="MONDO:0007163" DB="MONDO" />
+              <XRef Type="MIM" ID="108500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="29260" SubmissionDate="2017-09-07" DateLastUpdated="2018-05-09" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="601011.0031_EPISODIC ATAXIA, TYPE 2" title="CACNA1A, 7.4-KB DEL_EPISODIC ATAXIA, TYPE 2" />
+        <ClinVarAccession Accession="SCV000029260" DateUpdated="2018-05-09" DateCreated="2013-04-04" Type="SCV" Version="6" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2009-11-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a proband with episodic ataxia type 2 (EA2; 108500), Labrum et al. (2009) identified a heterozygous 7.4-kb deletion in the CACNA1A gene, resulting in deletion of exon 27. The deletion was not detected in a panel of 180 normal control chromosomes.</Attribute>
+              <Citation>
+                <ID Source="PubMed">19586927</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="108500" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CACNA1A" />
+          </GeneList>
+          <Name>CACNA1A, 7.4-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">7.4-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="601011.0031" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">EPISODIC ATAXIA, TYPE 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="29260" TraitType="Disease" MappingType="Name" MappingValue="EPISODIC ATAXIA, TYPE 2" MappingRef="Preferred">
+        <MedGen CUI="C1720416" Name="Episodic ataxia type 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

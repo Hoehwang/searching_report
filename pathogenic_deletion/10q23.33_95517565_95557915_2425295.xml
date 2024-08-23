@@ -1,0 +1,133 @@
+<VariationArchive VariationID="2425295" VariationName="NC_000010.10:g.(?_95517902)_(95518136_?)del" VariationType="Deletion" Accession="VCV002425295" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1943022" VariationID="2425295">
+      <GeneList>
+        <Gene Symbol="LGI1" FullName="leucine rich glioma inactivated 1" GeneID="9211" HGNC_ID="HGNC:6572" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q23.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="93757936" stop="93798159" display_start="93757936" display_stop="93798159" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="95517565" stop="95557915" display_start="95517565" display_stop="95557915" Strand="+" />
+          </Location>
+          <OMIM>604619</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(?_95517902)_(95518136_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="95517902" innerStop="95518136" display_start="95517902" display_stop="95518136" variantLength="235" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_95517902)_(95518136_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_95517902)_(95518136_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(?_95517902)_(95518136_?)del AND Autosomal dominant epilepsy with auditory features" Accession="RCV003116308" Version="3">
+        <ClassifiedConditionList TraitSetID="73587">
+          <ClassifiedCondition DB="MedGen" ID="C1838062">Autosomal dominant epilepsy with auditory features</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24206907</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="73587" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57444" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal dominant epilepsy with auditory features</ElementValue>
+                <XRef ID="MONDO:0010898" DB="MONDO" />
+                <XRef ID="458762" DB="NCBI for submitter" />
+                <XRef ID="784377008" DB="SNOMED CT" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2257" />
+                <XRef ID="2257" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="101046" DB="Orphanet" />
+              <XRef ID="C1838062" DB="MedGen" />
+              <XRef ID="MONDO:0010898" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7074177" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_005097.2_10_Deletion (exon 1)|MedGen:C1838062" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003794748" DateUpdated="2024-06-09" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24206907</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with LGI1-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 1 of the LGI1 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in LGI1 are known to be pathogenic (PMID: 24206907).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LGI1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(?_95517902)_(95518136_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1838062" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7074177" TraitType="Disease" MappingType="XRef" MappingValue="C1838062" MappingRef="MedGen">
+        <MedGen CUI="C1838062" Name="Autosomal dominant epilepsy with auditory features" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

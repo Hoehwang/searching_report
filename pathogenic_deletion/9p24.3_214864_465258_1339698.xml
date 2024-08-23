@@ -1,0 +1,156 @@
+<VariationArchive RecordType="classified" VariationID="1339698" VariationName="NC_000009.11:g.(?_214864)_(399260_404917)del" VariationType="Deletion" Accession="VCV001339698" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2022-02-12" MostRecentSubmission="2022-02-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1330908" VariationID="1339698">
+      <GeneList>
+        <Gene Symbol="DOCK8" FullName="dedicator of cytokinesis 8" GeneID="81704" HGNC_ID="HGNC:19191" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="211257" stop="465255" display_start="211257" display_stop="465255" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="214864" stop="465258" display_start="214864" display_stop="465258" Strand="+" />
+          </Location>
+          <OMIM>611432</OMIM>
+        </Gene>
+        <Gene Symbol="DOCK8-AS1" FullName="DOCK8 antisense RNA 1" GeneID="157983" HGNC_ID="HGNC:26436" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="213457" stop="215750" display_start="213457" display_stop="215750" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="213107" stop="215892" display_start="213107" display_stop="215892" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.11:g.(?_214864)_(399260_404917)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="214864" innerStop="399260" outerStop="404917" display_start="214864" display_stop="404917" variantLength="190054" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_214864)_(399260_404917)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_214864)_(399260_404917)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.11:g.(?_214864)_(399260_404917)del AND Severe combined immunodeficiency disease" Accession="RCV001825086" Version="1">
+        <ClassifiedConditionList TraitSetID="8766">
+          <ClassifiedCondition DB="MedGen" ID="C0085110">Severe combined immunodeficiency disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-01-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-01-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-12" MostRecentSubmission="2022-02-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32888943</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8766" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6210" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Severe Combined Immune Deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Bubble boy disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency disease</ElementValue>
+                <XRef ID="31323000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Severe combined immunodeficiency</ElementValue>
+                <XRef ID="HP:0004430" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0015974" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SCID</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7628" />
+                <XRef ID="7628" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">X-Linked or Autosomal recessive</Attribute>
+              </AttributeSet>
+              <XRef ID="183660" DB="Orphanet" />
+              <XRef ID="C0085110" DB="MedGen" />
+              <XRef ID="D016511" DB="MeSH" />
+              <XRef ID="MONDO:0015974" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0004430" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4065272" SubmissionDate="2022-02-09" DateLastUpdated="2022-02-12" DateCreated="2022-02-12">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.(?_214864)_(399260_404917)del|MedGen:C0085110" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002074252" DateUpdated="2022-02-12" DateCreated="2022-02-12" Type="SCV" Version="1" SubmitterName="Women's Health and Genetics/Laboratory Corporation of America, LabCorp" OrgID="500026" OrganizationCategory="laboratory" OrgAbbreviation="WHG-LC" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-01-13">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">32888943</ID>
+          </Citation>
+          <Comment>Variant summary: The variant identified by MLPA or other technology involves the deletion of exons 1-26 in the DOCK8 gene. A presumed nomenclature of c.(?_-113)_(3234+1_3235-1)del has been designated for the purposes of this classification. Although exact breakpoints of this deletion are not known, it is expected to result in a loss of start in the DOCK8 gene, a known mechanism of disease. The variant was absent in 21640 control chromosomes. c.(?_-113)_(3234+1_3235-1)del has been reported in the literature in individuals affected with primary Immunodeficiency (PLatt_2021). These data indicate that the variant is likely to be associated with disease. To our knowledge, no experimental evidence demonstrating an impact on protein function has been reported. No clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014. Based on the evidence outlined above, the variant was classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LabCorp Variant Classification Summary - May 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/rtxspsnt/labcorp_variant_classification_method_-_may_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DOCK8" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_214864)_(399260_404917)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0085110" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11058952</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4065272" TraitType="Disease" MappingType="XRef" MappingValue="C0085110" MappingRef="MedGen">
+        <MedGen CUI="C0085110" Name="Severe combined immunodeficiency disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,167 @@
+<VariationArchive VariationID="3243812" VariationName="NC_000015.9:g.(?_27017529)_(27018109_?)del" VariationType="Deletion" Accession="VCV003243812" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3406270" VariationID="3243812">
+      <GeneList>
+        <Gene Symbol="GABRB3" FullName="gamma-aminobutyric acid type A receptor subunit beta3" GeneID="2562" HGNC_ID="HGNC:4083" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="26543552" stop="26773763" display_start="26543552" display_stop="26773763" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="26788692" stop="27018934" display_start="26788692" display_stop="27018934" Strand="-" />
+          </Location>
+          <OMIM>137192</OMIM>
+          <Haploinsufficiency last_evaluated="2012-04-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRB3">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-04-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GABRB3">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.9:g.(?_27017529)_(27018109_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" innerStart="27017529" innerStop="27018109" display_start="27017529" display_stop="27018109" variantLength="581" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(?_27017529)_(27018109_?)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(?_27017529)_(27018109_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.9:g.(?_27017529)_(27018109_?)del AND multiple conditions" Accession="RCV004583049" Version="1">
+        <ClassifiedConditionList TraitSetID="31129">
+          <ClassifiedCondition DB="MedGen" ID="C1838604">Epilepsy, childhood absence, susceptibility to, 1</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C2677087">Epilepsy, childhood absence, susceptibility to, 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-05-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-05-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">26950270</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28053010</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="31129" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5028" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, childhood absence 5</ElementValue>
+                <XRef ID="Epilepsy%2C+childhood+absence+5/8324" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, childhood absence, susceptibility to, 5</ElementValue>
+                <XRef ID="MONDO:0012843" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ECA5</ElementValue>
+                <XRef Type="MIM" ID="612269" DB="OMIM" />
+              </Symbol>
+              <XRef ID="64280" DB="Orphanet" />
+              <XRef ID="C2677087" DB="MedGen" />
+              <XRef ID="MONDO:0012843" DB="MONDO" />
+              <XRef Type="MIM" ID="612269" DB="OMIM" />
+            </Trait>
+            <Trait ID="1166" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, childhood absence, susceptibility to, 1</ElementValue>
+                <XRef ID="MONDO:0020759" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epilepsy, childhood absence 1</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ECA1</ElementValue>
+                <XRef Type="MIM" ID="600131" DB="OMIM" />
+              </Symbol>
+              <XRef ID="64280" DB="Orphanet" />
+              <XRef ID="C1838604" DB="MedGen" />
+              <XRef ID="MONDO:0020759" DB="MONDO" />
+              <XRef Type="MIM" ID="600131" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9834307" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000015.9:g.(?_27017529)_(27018109_?)del|MedGen:C2677087;C1838604" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005064123" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-05-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">26950270</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28053010</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with GABRB3-related conditions. This variant is a gross deletion of the genomic region encompassing exon(s) 1-3 of the GABRB3 gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in GABRB3 are known to be pathogenic (PMID: 26950270, 28053010).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(?_27017529)_(27018109_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C2677087" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1838604" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9834307" TraitType="Disease" MappingType="XRef" MappingValue="C1838604" MappingRef="MedGen">
+        <MedGen CUI="C1838604" Name="Epilepsy, childhood absence, susceptibility to, 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9834307" TraitType="Disease" MappingType="XRef" MappingValue="C2677087" MappingRef="MedGen">
+        <MedGen CUI="C2677087" Name="Epilepsy, childhood absence, susceptibility to, 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

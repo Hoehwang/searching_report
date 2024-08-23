@@ -1,0 +1,150 @@
+<VariationArchive RecordType="classified" VariationID="1805962" VariationName="NM_017799.4(TMEM260):c.1783_1795dup (p.Phe599Ter)" VariationType="Duplication" Accession="VCV001805962" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-24" DateCreated="2022-12-24" MostRecentSubmission="2022-12-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1862972" VariationID="1805962">
+      <GeneList>
+        <Gene Symbol="TMEM260" FullName="transmembrane protein 260" GeneID="54916" HGNC_ID="HGNC:20185" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>14q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="56579525" stop="56663165" display_start="56579525" display_stop="56663165" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="57046510" stop="57116232" display_start="57046510" display_stop="57116232" Strand="+" />
+          </Location>
+          <OMIM>617449</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_017799.4(TMEM260):c.1783_1795dup (p.Phe599Ter)</Name>
+      <CanonicalSPDI>NC_000014.9:56636511:AAAACACCGTTCT:AAAACACCGTTCTAAAACACCGTTCT</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>14q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="14" Accession="NC_000014.9" start="56636511" stop="56636512" display_start="56636511" display_stop="56636512" variantLength="13" positionVCF="56636511" referenceAlleleVCF="G" alternateAlleleVCF="GAAAACACCGTTCT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="14" Accession="NC_000014.8" start="57103229" stop="57103230" display_start="57103229" display_stop="57103230" variantLength="13" positionVCF="57103229" referenceAlleleVCF="G" alternateAlleleVCF="GAAAACACCGTTCT" />
+      </Location>
+      <ProteinChange>F599*</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.8" sequenceAccession="NC_000014" sequenceVersion="8" change="g.57103230_57103242dup" Assembly="GRCh37">
+            <Expression>NC_000014.8:g.57103230_57103242dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000014.9" sequenceAccession="NC_000014" sequenceVersion="9" change="g.56636512_56636524dup" Assembly="GRCh38">
+            <Expression>NC_000014.9:g.56636512_56636524dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_017799.4" sequenceAccession="NM_017799" sequenceVersion="4" change="c.1783_1795dup" MANESelect="true">
+            <Expression>NM_017799.4:c.1783_1795dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_060269.3" sequenceAccession="NP_060269" sequenceVersion="3" change="p.Phe599Ter">
+            <Expression>NP_060269.3:p.Phe599Ter</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001587" Type="nonsense" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_017799.4(TMEM260):c.1783_1795dup (p.Phe599Ter) AND Structural heart defects and renal anomalies syndrome" Accession="RCV002470246" Version="1">
+        <ClassifiedConditionList TraitSetID="36122">
+          <ClassifiedCondition DB="MedGen" ID="C4479549">Structural heart defects and renal anomalies syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-24" MostRecentSubmission="2022-12-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36122" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37813" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Structural heart defects and renal anomalies syndrome</ElementValue>
+                <XRef ID="MONDO:0044321" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SHDRA</ElementValue>
+                <XRef Type="MIM" ID="617478" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4479549" DB="MedGen" />
+              <XRef ID="MONDO:0044321" DB="MONDO" />
+              <XRef Type="MIM" ID="617478" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5414745" SubmissionDate="2022-12-21" DateLastUpdated="2022-12-24" DateCreated="2022-12-24">
+        <ClinVarSubmissionID localKey="vcgs/unit_1/hg38_NM_017799_3_TMEM260_c_1783_1795dupAAAACACCGTTCT" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV002766971" DateUpdated="2022-12-24" DateCreated="2022-12-24" Type="SCV" Version="1" SubmitterName="Victorian Clinical Genetics Services, Murdoch Childrens Research Institute" OrgID="500104" OrganizationCategory="laboratory" OrgAbbreviation="VCGS" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="508197" SubmitterName="Shariant Australia, Australian Genomics" Type="behalf" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Based on the classification scheme VCGS_Germline_v1.3.4, this variant is classified as Pathogenic. Following criteria are met: 0102 - Loss of function is a known mechanism of disease in this gene and is associated with structural heart defects and renal anomalies syndrome (MIM#617478). (I) 0106 - This gene is associated with autosomal recessive disease. (I) 0201 - Variant is predicted to cause nonsense-mediated decay (NMD) and loss of protein (premature termination codon is located at least 54 nucleotides upstream of the final exon-exon junction). (SP) 0252 - This variant is homozygous. (I) 0301 - Variant is absent from gnomAD (both v2 and v3). (SP) 0701 - Other NMD-predicted variants comparable to the one identified in this case have very strong previous evidence for pathogenicity (DECIPHER). (SP) 0807 - This variant has no previous evidence of pathogenicity. (I) 0905 - No published segregation evidence has been identified for this variant. (I) 1007 - No published functional evidence has been identified for this variant. (I) 1209 - This variant has been shown to be both maternally and paternally inherited (biallelic) (by trio analysis). (I) Legend: (SP) - Supporting pathogenic, (I) - Information, (SB) - Supporting benign</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMEM260" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ALLELE_15790</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_017799.3:c.1783_1795dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617478" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>submission_38</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5414745" TraitType="Disease" MappingType="XRef" MappingValue="617478" MappingRef="OMIM">
+        <MedGen CUI="C4479549" Name="Structural heart defects and renal anomalies syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

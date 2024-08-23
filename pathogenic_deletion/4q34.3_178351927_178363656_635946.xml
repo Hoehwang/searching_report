@@ -1,0 +1,129 @@
+<VariationArchive RecordType="classified" VariationID="635946" VariationName="Single allele" VariationType="Deletion" Accession="VCV000635946" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623759" VariationID="635946">
+      <GeneList>
+        <Gene Symbol="AGA" FullName="aspartylglucosaminidase" GeneID="175" HGNC_ID="HGNC:318" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q34.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="177430774" stop="177442437" display_start="177430774" display_stop="177442437" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="178351927" stop="178363656" display_start="178351927" display_stop="178363656" Strand="-" />
+          </Location>
+          <OMIM>613228</OMIM>
+        </Gene>
+        <Gene Symbol="NEIL3" FullName="nei like DNA glycosylase 3" GeneID="55247" HGNC_ID="HGNC:24573" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q34.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="177309874" stop="177371268" display_start="177309874" display_stop="177371268" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="178230990" stop="178284091" display_start="178230990" display_stop="178284091" Strand="+" />
+          </Location>
+          <OMIM>608934</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q34.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="178174991" stop="178942685" display_start="178174991" display_stop="178942685" variantLength="767695" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.178174991_178942685del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.178174991_178942685del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Neurodevelopmental disorder" Accession="RCV000787452" Version="2">
+        <ClassifiedConditionList TraitSetID="37229">
+          <ClassifiedCondition DB="MedGen" ID="C1535926">Neurodevelopmental disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-27" MostRecentSubmission="2019-07-27">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="37229" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38088" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+                <XRef ID="MONDO:0700092" DB="MONDO" />
+              </Name>
+              <XRef ID="C1535926" DB="MedGen" />
+              <XRef ID="D065886" DB="MeSH" />
+              <XRef ID="MONDO:0700092" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1812067" SubmissionDate="2019-04-09" DateLastUpdated="2019-07-27" DateCreated="2019-07-27">
+        <ClinVarSubmissionID localKey=":Chr.4_178174991_178942685_Deletion|Neurodevelopmental disorder" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926414" DateUpdated="2019-07-27" DateCreated="2019-07-27" Type="SCV" Version="1" SubmitterName="Rare Disease Group, Clinical Genetics, Karolinska Institutet" OrgID="506202" OrganizationCategory="laboratory" OrgAbbreviation="RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" start="178174991" stop="178942685" variantLength="767695" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5433665</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1812067" TraitType="Disease" MappingType="Name" MappingValue="Neurodevelopmental disorder" MappingRef="Preferred">
+        <MedGen CUI="C1535926" Name="Neurodevelopmental disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

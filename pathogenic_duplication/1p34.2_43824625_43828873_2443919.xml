@@ -1,0 +1,165 @@
+<VariationArchive RecordType="classified" VariationID="2443919" VariationName="NM_001255.3(CDC20):c.810_813dup (p.Gly272fs)" VariationType="Duplication" Accession="VCV002443919" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-02" DateCreated="2023-03-18" MostRecentSubmission="2023-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2417656" VariationID="2443919">
+      <GeneList>
+        <Gene Symbol="CDC20" FullName="cell division cycle 20" GeneID="991" HGNC_ID="HGNC:1723" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p34.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="43358981" stop="43363203" display_start="43358981" display_stop="43363203" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="43824625" stop="43828873" display_start="43824625" display_stop="43828873" Strand="+" />
+          </Location>
+          <OMIM>603618</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001255.3(CDC20):c.810_813dup (p.Gly272fs)</Name>
+      <CanonicalSPDI>NC_000001.11:43360553:GAGTG:GAGTGAGTG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1p34.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="43360553" stop="43360554" display_start="43360553" display_stop="43360554" variantLength="4" positionVCF="43360553" referenceAlleleVCF="C" alternateAlleleVCF="CGAGT" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="43826224" stop="43826225" display_start="43826224" display_stop="43826225" variantLength="4" positionVCF="43826224" referenceAlleleVCF="C" alternateAlleleVCF="CGAGT" />
+      </Location>
+      <ProteinChange>G272fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.43826226_43826229dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.43826226_43826229dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.43360555_43360558dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.43360555_43360558dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001255.3" sequenceAccession="NM_001255" sequenceVersion="3" change="c.810_813dup" MANESelect="true">
+            <Expression>NM_001255.3:c.810_813dup</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001246.2" sequenceAccession="NP_001246" sequenceVersion="2" change="p.Gly272fs">
+            <Expression>NP_001246.2:p.Gly272fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603618.0005" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001255.3(CDC20):c.810_813dup (p.Gly272fs) AND Oocyte maturation defect 14" Accession="RCV003152527" Version="2">
+        <ClassifiedConditionList TraitSetID="83633">
+          <ClassifiedCondition DB="MedGen" ID="C5830326">Oocyte maturation defect 14</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-18" MostRecentSubmission="2023-04-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32666501</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="83633" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="67168" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">OOCYTE/ZYGOTE/EMBRYO MATURATION ARREST 14</ElementValue>
+                <XRef Type="MIM" ID="620276" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0011" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0010" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603618.0009" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Oocyte maturation defect 14</ElementValue>
+                <XRef ID="MONDO:0859521" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">OOMD14</ElementValue>
+                <XRef Type="MIM" ID="620276" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">OZEMA14</ElementValue>
+                <XRef Type="MIM" ID="620276" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5830326" DB="MedGen" />
+              <XRef ID="MONDO:0859521" DB="MONDO" />
+              <XRef Type="MIM" ID="620276" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7169791" SubmissionDate="2023-03-10" DateLastUpdated="2023-04-15" DateCreated="2023-03-18">
+        <ClinVarSubmissionID localKey="603618.0005_OOCYTE/ZYGOTE/EMBRYO MATURATION ARREST 14" title="CDC20, 4-BP INS, 813AGTG_OOCYTE/ZYGOTE/EMBRYO MATURATION ARREST 14" />
+        <ClinVarAccession Accession="SCV003841121" DateUpdated="2023-04-15" DateCreated="2023-03-18" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-10">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 4-bp insertion (c.813_814insAGTG) in exon 6 of the CDC20 gene, causing a frameshift predicted to result in a premature termination codon (Gly272SerfsTer24), that was found in compound heterozygous state in a 34-year-old Chinese woman (proband 4) with infertility due to oocyte maturation arrest and fertilization failure (OZEMA14; 620276) by Zhao et al. (2020), see 603618.0003.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32666501</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="620276" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CDC20" />
+          </GeneList>
+          <Name>CDC20, 4-BP INS, 813AGTG</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">4-BP INS, 813AGTG</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603618.0005" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">OOCYTE/ZYGOTE/EMBRYO MATURATION ARREST 14</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7169791" TraitType="Disease" MappingType="Name" MappingValue="OOCYTE/ZYGOTE/EMBRYO MATURATION ARREST 14" MappingRef="Preferred">
+        <MedGen CUI="C5830326" Name="Oocyte maturation defect 14" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

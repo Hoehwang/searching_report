@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="647953" VariationName="NC_000007.14:g.(?_2554285)_(2554451_?)del" VariationType="Deletion" Accession="VCV000647953" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-16" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="651717" VariationID="647953">
+      <GeneList>
+        <Gene Symbol="BRAT1" FullName="BRCA1 associated ATM activator 1" GeneID="221927" HGNC_ID="HGNC:21701" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7p22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="2537810" stop="2555524" display_start="2537810" display_stop="2555524" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="2577443" stop="2595391" display_start="2577443" display_stop="2595391" Strand="-" />
+          </Location>
+          <OMIM>614506</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000007.14:g.(?_2554285)_(2554451_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>7p22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" innerStart="2554285" innerStop="2554451" display_start="2554285" display_stop="2554451" variantLength="167" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="2593919" innerStop="2594085" display_start="2593919" display_stop="2594085" variantLength="167" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_2593919)_(2594085_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_2593919)_(2594085_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.(?_2554285)_(2554451_?)del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.(?_2554285)_(2554451_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000007.14:g.(?_2554285)_(2554451_?)del AND Neonatal-onset encephalopathy with rigidity and seizures" Accession="RCV000802580" Version="1">
+        <ClassifiedConditionList TraitSetID="7926">
+          <ClassifiedCondition DB="MedGen" ID="C3281029">Neonatal-onset encephalopathy with rigidity and seizures</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-09-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-09-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-14" MostRecentSubmission="2019-08-14">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7926" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16850" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Rigidity and multifocal seizure syndrome, lethal neonatal</ElementValue>
+                <XRef ID="RIGIDITY+AND+MULTIFOCAL+SEIZURE+SYNDROME%2C+LETHAL+NEONATAL/9257" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Lethal neonatal spasticity-epileptic encephalopathy syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neonatal-onset encephalopathy with rigidity and seizures</ElementValue>
+                <XRef ID="MONDO:0013784" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RMFSL</ElementValue>
+                <XRef Type="MIM" ID="614498" DB="OMIM" />
+              </Symbol>
+              <XRef ID="435845" DB="Orphanet" />
+              <XRef ID="C3281029" DB="MedGen" />
+              <XRef ID="MONDO:0013784" DB="MONDO" />
+              <XRef Type="MIM" ID="614498" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1836382" SubmissionDate="2019-03-28" DateLastUpdated="2019-08-14" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="4991917|MedGen:C3281029" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000942417" DateUpdated="2019-08-14" DateCreated="2019-08-14" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-09-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon 2 of the BRAT1 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 2 of the BRAT1 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with BRAT1-related disease. Loss-of-function variants in BRAT1 are known to be pathogenic (PMID: 22279524, 25500575). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BRAT1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000007.13:g.(?_2593919)_(2594085_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Rigidity and multifocal seizure syndrome, lethal neonatal</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C3281029" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5371970</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1836382" TraitType="Disease" MappingType="Name" MappingValue="Rigidity and multifocal seizure syndrome, lethal neonatal" MappingRef="Preferred">
+        <MedGen CUI="C3281029" Name="Neonatal-onset encephalopathy with rigidity and seizures" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="1705858" VariationName="NM_003551.3(NME5):c.415del (p.Ile139fs)" VariationType="Deletion" Accession="VCV001705858" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-04" DateCreated="2022-09-17" MostRecentSubmission="2022-09-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1704179" VariationID="1705858">
+      <GeneList>
+        <Gene Symbol="NME5" FullName="NME/NM23 family member 5" GeneID="8382" HGNC_ID="HGNC:7853" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q31.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="138115175" stop="138139428" display_start="138115175" display_stop="138139428" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="137450860" stop="137475131" display_start="137450860" display_stop="137475131" Strand="-" />
+          </Location>
+          <OMIM>603575</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003551.3(NME5):c.415del (p.Ile139fs)</Name>
+      <CanonicalSPDI>NC_000005.10:138128499:TTT:TT</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q31.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="138128500" stop="138128500" display_start="138128500" display_stop="138128500" variantLength="1" positionVCF="138128499" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="137464189" stop="137464189" display_start="137464189" display_stop="137464189" variantLength="1" positionVCF="137464188" referenceAlleleVCF="AT" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>I139fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.138128502del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.138128502del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.137464191del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.137464191del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003551.3" sequenceAccession="NM_003551" sequenceVersion="3" change="c.415del" MANESelect="true">
+            <Expression>NM_003551.3:c.415del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003542.1" sequenceAccession="NP_003542" sequenceVersion="1" change="p.Ile139fs">
+            <Expression>NP_003542.1:p.Ile139fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603575.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003551.3(NME5):c.415del (p.Ile139fs) AND Ciliary dyskinesia, primary, 48, without situs inversus" Accession="RCV002284166" Version="1">
+        <ClassifiedConditionList TraitSetID="80284">
+          <ClassifiedCondition DB="MedGen" ID="C5774214">Ciliary dyskinesia, primary, 48, without situs inversus</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-17" MostRecentSubmission="2022-09-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32950024</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="80284" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="65920" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ciliary dyskinesia, primary, 48, without situs inversus</ElementValue>
+                <XRef ID="MONDO:0031054" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CILD48</ElementValue>
+                <XRef Type="MIM" ID="620032" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5774214" DB="MedGen" />
+              <XRef ID="MONDO:0031054" DB="MONDO" />
+              <XRef Type="MIM" ID="620032" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5031175" SubmissionDate="2022-09-15" DateLastUpdated="2022-09-17" DateCreated="2022-09-17">
+        <ClinVarSubmissionID localKey="603575.0002_CILIARY DYSKINESIA, PRIMARY, 48, WITHOUT SITUS INVERSUS" title="NME5, 1-BP DEL, 415A_CILIARY DYSKINESIA, PRIMARY, 48, WITHOUT SITUS INVERSUS" />
+        <ClinVarAccession Accession="SCV002573546" DateUpdated="2022-09-17" DateCreated="2022-09-17" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 22-year-old Turkish female with primary ciliary dyskinesia-48 without situs inversus (CILD48; 620032), Sahabian et al. (2020) identified a homozygous 1-bp deletion (c.415delA) in the NME5 gene, resulting in a frameshift and premature termination (Ile139TyrfsTer8). Functional studies of the variant were not performed, but these authors generated 2 induced pluripotent stem cell clones carrying the mutation by isolating CD34+ cells from the patient's blood.</Attribute>
+              <Citation>
+                <ID Source="PubMed">32950024</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="620032" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NME5" />
+          </GeneList>
+          <Name>NME5, 1-BP DEL, 415A</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 415A</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603575.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CILIARY DYSKINESIA, PRIMARY, 48, WITHOUT SITUS INVERSUS</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5031175" TraitType="Disease" MappingType="Name" MappingValue="CILIARY DYSKINESIA, PRIMARY, 48, WITHOUT SITUS INVERSUS" MappingRef="Preferred">
+        <MedGen CUI="C5774214" Name="Ciliary dyskinesia, primary, 48, without situs inversus" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

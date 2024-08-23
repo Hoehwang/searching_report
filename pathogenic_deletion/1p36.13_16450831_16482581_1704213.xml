@@ -1,0 +1,221 @@
+<VariationArchive VariationID="1704213" VariationName="NM_004431.5(EPHA2):c.2825+2del" VariationType="Deletion" Accession="VCV001704213" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-09-10" MostRecentSubmission="2022-09-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1696690" VariationID="1704213">
+      <GeneList>
+        <Gene Symbol="EPHA2" FullName="EPH receptor A2" GeneID="1969" HGNC_ID="HGNC:3386" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16124337" stop="16156069" display_start="16124337" display_stop="16156069" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="16450831" stop="16482581" display_start="16450831" display_stop="16482581" Strand="-" />
+          </Location>
+          <OMIM>176946</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_004431.5(EPHA2):c.2825+2del</Name>
+      <CanonicalSPDI>NC_000001.11:16129431:A:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16129432" stop="16129432" display_start="16129432" display_stop="16129432" variantLength="1" positionVCF="16129431" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="16455927" stop="16455927" display_start="16455927" display_stop="16455927" variantLength="1" positionVCF="16455926" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.16455927del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.16455927del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.16129432del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.16129432del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_021396.1" sequenceAccession="NG_021396" sequenceVersion="1" change="g.31656del">
+            <Expression>NG_021396.1:g.31656del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001329090.2" sequenceAccession="NM_001329090" sequenceVersion="2" change="c.2663+2del">
+            <Expression>NM_001329090.2:c.2663+2del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004431.5" sequenceAccession="NM_004431" sequenceVersion="5" change="c.2825+2del" MANESelect="true">
+            <Expression>NM_004431.5:c.2825+2del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="Unknown function" />
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_004431.5(EPHA2):c.2825+2del AND Cataract 6 multiple types" Accession="RCV002281543" Version="2">
+        <ClassifiedConditionList TraitSetID="3631">
+          <ClassifiedCondition DB="MedGen" ID="C1861825">Cataract 6 multiple types</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-10" MostRecentSubmission="2022-09-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3631" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="741" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cataract 6 multiple types</ElementValue>
+                <XRef ID="MONDO:0007288" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cataract, posterior polar, 1</ElementValue>
+                <XRef ID="Cataract%2C+Posterior+Polar%2C+1/1157" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CATARACT 6, POSTERIOR POLAR</ElementValue>
+                <XRef Type="Allelic variant" ID="176946.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="176946.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="176946.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CATARACT 6, CONGENITAL TOTAL</ElementValue>
+                <XRef Type="Allelic variant" ID="176946.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CATARACT, AGE-RELATED CORTICAL, 2</ElementValue>
+                <XRef Type="MIM" ID="116600" DB="OMIM" />
+                <XRef Type="MIM" ID="613020" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CTPA</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CTPP</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CTPP1</ElementValue>
+                <XRef Type="MIM" ID="116600" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CTRCT6</ElementValue>
+                <XRef Type="MIM" ID="116600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10234" />
+                <XRef ID="10234" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="91492" DB="Orphanet" />
+              <XRef ID="C1861825" DB="MedGen" />
+              <XRef ID="MONDO:0007288" DB="MONDO" />
+              <XRef Type="MIM" ID="116600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5025042" SubmissionDate="2022-09-07" DateLastUpdated="2022-09-10" DateCreated="2022-09-10">
+        <ClinVarSubmissionID localKey="SUB11896467" submittedAssembly="GRCh38" title="SUB11896467" />
+        <ClinVarAccession Accession="SCV002569376" DateUpdated="2022-09-10" DateCreated="2022-09-10" Type="SCV" Version="1" SubmitterName="Foundation for Research in Genetics and Endocrinology, FRIGE's Institute of Human Genetics" OrgID="505565" OrganizationCategory="other" OrgAbbreviation="FRIGE - IHG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A heterozygous 5’splice site variation in intron 16 of the EPHA2 gene that affects the invariant GT donor splice site upstream of exon 16 was detected. The observed variant c.2825+2del has not been reported in the 1000 genomes and gnomAD databases.The in silico prediction of the variant is damaging by LRT and MutationTaster2. The reference codon is conserved across primates.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Illumina sequencing platform</NamePlatform>
+              <TypePlatform>Sanger sequencing</TypePlatform>
+              <Description>DNA was used to perform targeted gene capture using a custom capture kit. Libraries were sequenced to mean &gt;80-100X coverage on Illumina sequencing platform. Sequence obtained were aligned to human references genome using BWA program and analyzed using Picard and GATK-Lite toolkit to identify variants in the targeted genes relevant to clinical indication</Description>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000486" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000519" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EPHA2">
+              <Name>EPH receptor A2</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_004431.5:intron 2</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">D-6541</Name>
+          </OtherNameList>
+          <FunctionalConsequence Value="Unknown function" />
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004431.5:c.2825+2del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="116600" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11896467</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5025042" TraitType="Disease" MappingType="XRef" MappingValue="116600" MappingRef="OMIM">
+        <MedGen CUI="C1861825" Name="Cataract 6 multiple types" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5025042" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000519" MappingRef="HP">
+        <MedGen CUI="C0009691" Name="Developmental cataract" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5025042" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5025042" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000486" MappingRef="HP">
+        <MedGen CUI="C0038379" Name="Strabismus" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

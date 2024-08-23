@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="830835" VariationName="NC_000001.11:g.(?_2405756)_(2412512_?)del" VariationType="Deletion" Accession="VCV000830835" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="818948" VariationID="830835">
+      <GeneList>
+        <Gene Symbol="PEX10" FullName="peroxisomal biogenesis factor 10" GeneID="5192" HGNC_ID="HGNC:8851" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="2403974" stop="2413827" display_start="2403974" display_stop="2413827" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="2336240" stop="2344009" display_start="2336240" display_stop="2344009" Strand="-" />
+          </Location>
+          <OMIM>602859</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000001.11:g.(?_2405756)_(2412512_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="2337195" innerStop="2343951" display_start="2337195" display_stop="2343951" variantLength="6757" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_2337195)_(2343951_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_2337195)_(2343951_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000001.11:g.(?_2405756)_(2412512_?)del AND Peroxisome biogenesis disorder, complementation group 7" Accession="RCV001031439" Version="1">
+        <ClassifiedConditionList TraitSetID="9162">
+          <ClassifiedCondition DB="MedGen" ID="C1864399">Peroxisome biogenesis disorder, complementation group 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-02-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-02-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9162" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16273" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Peroxisome biogenesis disorder, complementation group B</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Peroxisome biogenesis disorder, complementation group 7</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CG7</ElementValue>
+                <XRef ID="614870" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CGB</ElementValue>
+                <XRef ID="614870" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C1864399" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2355999" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="6079935|MedGen:C1864399" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194745" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-02-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the PEX10 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has not been reported in the literature in individuals with PEX10-related conditions. Loss-of-function variants in PEX10 are known to be pathogenic (PMID: 9683594, 10862081, 21031596). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PEX10" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.(?_2337195)_(2343951_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Peroxisome biogenesis disorder, complementation group 7</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1864399" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2355999" TraitType="Disease" MappingType="Name" MappingValue="Peroxisome biogenesis disorder, complementation group 7" MappingRef="Preferred">
+        <MedGen CUI="C1864399" Name="Peroxisome biogenesis disorder, complementation group 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

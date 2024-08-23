@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="2431416" VariationName="NC_000021.9:g.(33336874_33344911)del" VariationType="Deletion" Accession="VCV002431416" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2404920" VariationID="2431416">
+      <GeneList>
+        <Gene Symbol="IFNAR1" FullName="interferon alpha and beta receptor subunit 1" GeneID="3454" HGNC_ID="HGNC:5432" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>21q22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="33324395" stop="33359864" display_start="33324395" display_stop="33359864" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34697213" stop="34732128" display_start="34697213" display_stop="34732128" Strand="+" />
+          </Location>
+          <OMIM>107450</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000021.9:g.(33336874_33344911)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.(33336874_33344911)del" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.(33336874_33344911)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000021.9:g.(33336874_33344911)del AND Immunodeficiency 106, susceptibility to viral infections" Accession="RCV003140469" Version="1">
+        <ClassifiedConditionList TraitSetID="76345">
+          <ClassifiedCondition DB="MedGen" ID="C5677009">Immunodeficiency 106, susceptibility to viral infections</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-12-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-12-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="76345" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="62937" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">IFNAR1 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="619935" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 106, susceptibility to viral infections</ElementValue>
+                <XRef ID="MONDO:0030970" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD106</ElementValue>
+                <XRef Type="MIM" ID="619935" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5677009" DB="MedGen" />
+              <XRef ID="MONDO:0030970" DB="MONDO" />
+              <XRef Type="MIM" ID="619935" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7113292" SubmissionDate="2023-03-01" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey="16364b5c6780abec1140ac44a091176a" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003807193" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-12-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <Description>Paired-end whole-genome sequencing</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000407" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000822" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0031697" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004787" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFNAR1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000021.9:g.(33336874_33344911)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619935" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12925816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Finding" MappingType="XRef" MappingValue="HP:0031697" MappingRef="HP">
+        <MedGen CUI="C4703486" Name="Disseminated infection with live vaccine virus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000822" MappingRef="HP">
+        <MedGen CUI="C0020538" Name="Hypertensive disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Disease" MappingType="XRef" MappingValue="619935" MappingRef="OMIM">
+        <MedGen CUI="C5677009" Name="Immunodeficiency 106, susceptibility to viral infections" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001250" MappingRef="HP">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000407" MappingRef="HP">
+        <MedGen CUI="C0018784" Name="Sensorineural hearing loss disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113292" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004787" MappingRef="HP">
+        <MedGen CUI="C0302809" Name="Fulminant hepatitis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

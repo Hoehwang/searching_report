@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="652395" VariationName="NC_000002.12:g.(?_151646120)_(151646244_?)del" VariationType="Deletion" Accession="VCV000652395" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="650770" VariationID="652395">
+      <GeneList>
+        <Gene Symbol="NEB" FullName="nebulin" GeneID="4703" HGNC_ID="HGNC:7720" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="151485339" stop="151734476" display_start="151485339" display_stop="151734476" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="152341852" stop="152591000" display_start="152341852" display_stop="152591000" Strand="-" />
+          </Location>
+          <OMIM>161650</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_151646120)_(151646244_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" innerStart="151646120" innerStop="151646244" display_start="151646120" display_stop="151646244" variantLength="125" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="152502634" innerStop="152502758" display_start="152502634" display_stop="152502758" variantLength="125" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(?_151646120)_(151646244_?)del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(?_151646120)_(151646244_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_152502634)_(152502758_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_152502634)_(152502758_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_151646120)_(151646244_?)del AND Nemaline myopathy 2" Accession="RCV000807931" Version="2">
+        <ClassifiedConditionList TraitSetID="3882">
+          <ClassifiedCondition DB="MedGen" ID="C1850569">Nemaline myopathy 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15221447</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19232495</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23715096</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3882" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5618" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Nemaline myopathy 2</ElementValue>
+                <XRef ID="Nemaline+myopathy+2/5124" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009725" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy caused by mutation in the nebulin gene</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy 2, autosomal recessive</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEM2</ElementValue>
+                <XRef Type="MIM" ID="256030" DB="OMIM" />
+              </Symbol>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2012">
+                <ID Source="PubMed">22510848</ID>
+              </Citation>
+              <XRef ID="C1850569" DB="MedGen" />
+              <XRef ID="MONDO:0009725" DB="MONDO" />
+              <XRef Type="MIM" ID="256030" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1842069" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2019-08-14">
+        <ClinVarSubmissionID localKey="4951317|MedGen:C1850569" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000948011" DateUpdated="2020-04-09" DateCreated="2019-08-14" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">15221447</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23715096</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19232495</ID>
+          </Citation>
+          <Comment>This variant is an in-frame deletion of the genomic region encompassing exon 55 of the NEB gene. It preserves the integrity of the reading frame. This is a common pathogenic variant among individuals of Ashkenazi Jewish ancestry with a carrier frequency of 1/108 (~0.9%) (PMID: 15221447, 19232495). Experimental studies have shown that mice homozygous for this variant display a phenotype that resembles nemaline myopathy including severe muscle weakness and the presence of nemaline bodies in muscle biopsies (PMID: 23715096). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NEB" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_152502634)_(152502758_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Nemaline myopathy 2</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1850569" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1842069" TraitType="Disease" MappingType="Name" MappingValue="Nemaline myopathy 2" MappingRef="Preferred">
+        <MedGen CUI="C1850569" Name="Nemaline myopathy 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

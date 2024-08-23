@@ -1,0 +1,179 @@
+<VariationArchive RecordType="classified" VariationID="1723179" VariationName="NM_006204.4(PDE6C):c.480+1del" VariationType="Deletion" Accession="VCV001723179" Version="5" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1780678" VariationID="1723179">
+      <GeneList>
+        <Gene Symbol="PDE6C" FullName="phosphodiesterase 6C" GeneID="5146" HGNC_ID="HGNC:8787" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q23.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="93612537" stop="93666010" display_start="93612537" display_stop="93666010" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="95372344" stop="95425429" display_start="95372344" display_stop="95425429" Strand="+" />
+          </Location>
+          <OMIM>600827</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_006204.4(PDE6C):c.480+1del</Name>
+      <CanonicalSPDI>NC_000010.11:93613204:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="93613205" stop="93613205" display_start="93613205" display_stop="93613205" variantLength="1" positionVCF="93613204" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="95372962" stop="95372962" display_start="95372962" display_stop="95372962" variantLength="1" positionVCF="95372961" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.95372963del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.95372963del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.11" sequenceAccession="NC_000010" sequenceVersion="11" change="g.93613206del" Assembly="GRCh38">
+            <Expression>NC_000010.11:g.93613206del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016752.1" sequenceAccession="NG_016752" sequenceVersion="1" change="g.5619del">
+            <Expression>NG_016752.1:g.5619del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006204.4" sequenceAccession="NM_006204" sequenceVersion="4" change="c.480+1del" MANESelect="true">
+            <Expression>NM_006204.4:c.480+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="Component leading to Loss-of-Function (LoF)">
+        <XRef ID="FENICS-0004" DB="Functional Epilepsy Nomenclature for Ion Channels" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_006204.4(PDE6C):c.480+1del AND Cone dystrophy 4" Accession="RCV003108008" Version="3">
+        <ClassifiedConditionList TraitSetID="2415">
+          <ClassifiedCondition DB="MedGen" ID="C2751308">Cone dystrophy 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2415" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6672" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cone dystrophy 4</ElementValue>
+                <XRef ID="Cone+dystrophy+4/8036" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013129" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PDE6C</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">COD4</ElementValue>
+                <XRef Type="MIM" ID="613093" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Achromatopsia is characterized by reduced visual acuity, pendular nystagmus, increased sensitivity to light (photophobia), a small central scotoma, eccentric fixation, and reduced or complete loss of color discrimination. All individuals with achromatopsia (achromats) have impaired color discrimination along all three axes of color vision corresponding to the three cone classes: the protan or long-wavelength-sensitive cone axis (red), the deutan or middle-wavelength-sensitive cone axis (green), and the tritan or short-wavelength-sensitive cone axis (blue). Most individuals have complete achromatopsia, with total lack of function of all three types of cones. Rarely, individuals have incomplete achromatopsia, in which one or more cone types may be partially functioning. The manifestations are similar to those of individuals with complete achromatopsia, but generally less severe. Hyperopia is common in achromatopsia. Nystagmus develops during the first few weeks after birth followed by increased sensitivity to bright light. Best visual acuity varies with severity of the disease; it is 20/200 or less in complete achromatopsia and may be as high as 20/80 in incomplete achromatopsia. Visual acuity is usually stable over time; both nystagmus and sensitivity to bright light may improve slightly. Although the fundus is usually normal, macular changes (which may show early signs of progression) and vessel narrowing may be present in some affected individuals. Defects in the macula are visible on optical coherence tomography.</Attribute>
+                <XRef ID="NBK1418" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16449" />
+                <XRef ID="16449" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301591</ID>
+                <ID Source="BookShelf">NBK1418</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2011">
+                <ID Source="pmc">3110037</ID>
+              </Citation>
+              <XRef ID="49382" DB="Orphanet" />
+              <XRef ID="C2751308" DB="MedGen" />
+              <XRef ID="MONDO:0013129" DB="MONDO" />
+              <XRef Type="MIM" ID="613093" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5080842" SubmissionDate="2022-11-10" DateLastUpdated="2023-11-11" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="SUB12265708" submittedAssembly="GRCh37" title="SUB12265708" />
+        <ClinVarAccession Accession="SCV002599429" DateUpdated="2023-11-11" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Department of Biotechnology and Genetic Engineering, Kohat University of Science and Technology" OrgID="508810" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Ethnicity>Pashtoon</Ethnicity>
+              <GeographicOrigin>Pakistan</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="8" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="3" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="5" />
+            </ObservedData>
+            <Comment>Pathogenic to cause cone dystrophy</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDE6C">
+              <Name>phosphodiesterase 6C</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_006204.4:exon 1</GeneLocation>
+          </Location>
+          <FunctionalConsequence Value="Component leading to Loss-of-Function (LoF)">
+            <XRef DB="Functional Epilepsy Nomenclature for Ion Channels" ID="FENICS-0004" URL="-" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.95372963del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613093" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12265708</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5080842" TraitType="Disease" MappingType="XRef" MappingValue="613093" MappingRef="OMIM">
+        <MedGen CUI="C2751308" Name="Cone dystrophy 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

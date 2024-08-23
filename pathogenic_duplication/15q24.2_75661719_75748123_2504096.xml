@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="2504096" VariationName="NM_001145358.2(SIN3A):c.3384dup" VariationType="Duplication" Accession="VCV002504096" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-17" DateCreated="2023-06-10" MostRecentSubmission="2023-06-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2669052" VariationID="2504096">
+      <GeneList>
+        <Gene Symbol="SIN3A" FullName="SIN3 transcription regulator family member A" GeneID="25942" HGNC_ID="HGNC:19353" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="75369379" stop="75455815" display_start="75369379" display_stop="75455815" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="75661719" stop="75748123" display_start="75661719" display_stop="75748123" Strand="-" />
+          </Location>
+          <OMIM>607776</OMIM>
+          <Haploinsufficiency last_evaluated="2020-01-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SIN3A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-01-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SIN3A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_001145358.2(SIN3A):c.3384dup</Name>
+      <CanonicalSPDI>NC_000015.10:75375871:CC:CCC</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>15q24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="75375871" stop="75375872" display_start="75375871" display_stop="75375872" variantLength="1" positionVCF="75375871" referenceAlleleVCF="T" alternateAlleleVCF="TC" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="75668212" stop="75668213" display_start="75668212" display_stop="75668213" variantLength="1" positionVCF="75668212" referenceAlleleVCF="T" alternateAlleleVCF="TC" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.75668214dup" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.75668214dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_052855.1" sequenceAccession="NG_052855" sequenceVersion="1" change="g.84912dup">
+            <Expression>NG_052855.1:g.84912dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.75375873dup" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.75375873dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001145358.2" sequenceAccession="NM_001145358" sequenceVersion="2" change="c.3384dup" MANESelect="true">
+            <Expression>NM_001145358.2:c.3384dup</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001145358.2(SIN3A):c.3384dup AND SIN3A-related intellectual disability syndrome due to a point mutation" Accession="RCV003232888" Version="1">
+        <ClassifiedConditionList TraitSetID="7683">
+          <ClassifiedCondition DB="MedGen" ID="C4310804">SIN3A-related intellectual disability syndrome due to a point mutation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-06-10" MostRecentSubmission="2023-06-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7683" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6678" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">SIN3A-related intellectual disability syndrome due to a point mutation</ElementValue>
+                <XRef ID="MONDO:0044700" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">15q24 Microdeletion Syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Witteveen-kolk syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">WITKOS</ElementValue>
+                <XRef Type="MIM" ID="613406" DB="OMIM" />
+              </Symbol>
+              <XRef ID="500166" DB="Orphanet" />
+              <XRef ID="94065" DB="Orphanet" />
+              <XRef ID="C4310804" DB="MedGen" />
+              <XRef ID="MONDO:0044700" DB="MONDO" />
+              <XRef Type="MIM" ID="613406" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7345109" SubmissionDate="2023-05-22" DateLastUpdated="2023-06-10" DateCreated="2023-06-10">
+        <ClinVarSubmissionID localKey="NM_001145358.2:c.3384dup|OMIM:613406" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003929423" DateUpdated="2023-06-10" DateCreated="2023-06-10" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Cologne University" OrgID="243629" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SIN3A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001145358.2:c.3384dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613406" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13428779</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7345109" TraitType="Disease" MappingType="XRef" MappingValue="613406" MappingRef="OMIM">
+        <MedGen CUI="C4310804" Name="SIN3A-related intellectual disability syndrome due to a point mutation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

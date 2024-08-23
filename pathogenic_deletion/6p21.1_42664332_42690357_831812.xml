@@ -1,0 +1,144 @@
+<VariationArchive VariationID="831812" VariationName="NC_000006.12:g.(?_42704365)_(42704611_?)del" VariationType="Deletion" Accession="VCV000831812" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-12" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819689" VariationID="831812">
+      <GeneList>
+        <Gene Symbol="PRPH2" FullName="peripherin 2" GeneID="5961" HGNC_ID="HGNC:9942" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="42696598" stop="42722597" display_start="42696598" display_stop="42722597" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="42664332" stop="42690357" display_start="42664332" display_stop="42690357" Strand="-" />
+          </Location>
+          <OMIM>179605</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.(?_42704365)_(42704611_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6p21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="42672103" innerStop="42672349" display_start="42672103" display_stop="42672349" variantLength="247" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_42672103)_(42672349_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_42672103)_(42672349_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.(?_42704365)_(42704611_?)del AND PRPH2-related disorder" Accession="RCV001032342" Version="1">
+        <ClassifiedConditionList TraitSetID="33745">
+          <ClassifiedCondition DB="MedGen" ID="CN239395">PRPH2-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">22183351</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">24265693</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8019570</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="33745" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36592" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PRPH2-related condition</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">PRPH2-related disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PRPH2-Related Disorders</ElementValue>
+              </Name>
+              <XRef ID="CN239395" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356904" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="8239206|MedGen:CN239395" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195649" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">8019570</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">24265693</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22183351</ID>
+          </Citation>
+          <Comment>This variant is a sub-genic deletion of the genomic region encompassing exon 2 of the PRPH2 gene. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product. This variant has not been reported in the literature in individuals with PRPH2-related conditions. This variant disrupts the C-terminus of the PRPH2 protein. Other variant(s) that disrupt this region (p.Leu307Argfs*17) have been determined to be pathogenic (PMID: 22183351, 8019570, 24265693). This suggests that variants that disrupt this region of the protein are likely to be causative of disease. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRPH2" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_42672103)_(42672349_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PRPH2-Related Disorders</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="CN239395" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356904" TraitType="Disease" MappingType="Name" MappingValue="PRPH2-Related Disorders" MappingRef="Preferred">
+        <MedGen CUI="CN239395" Name="PRPH2-related disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

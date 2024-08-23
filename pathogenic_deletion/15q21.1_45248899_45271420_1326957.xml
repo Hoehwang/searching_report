@@ -1,0 +1,144 @@
+<VariationArchive RecordType="classified" VariationID="1326957" VariationName="NM_152448.3(TERB2):c.457_458del (p.Thr153fs)" VariationType="Deletion" Accession="VCV001326957" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-12-12" MostRecentSubmission="2021-12-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1317461" VariationID="1326957">
+      <GeneList>
+        <Gene Symbol="TERB2" FullName="telomere repeat binding bouquet formation protein 2" GeneID="145645" HGNC_ID="HGNC:28520" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="44956687" stop="44979229" display_start="44956687" display_stop="44979229" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="45248899" stop="45271420" display_start="45248899" display_stop="45271420" Strand="+" />
+          </Location>
+          <OMIM>617131</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_152448.3(TERB2):c.457_458del (p.Thr153fs)</Name>
+      <CanonicalSPDI>NC_000015.10:44973888:AC:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="44973889" stop="44973890" display_start="44973889" display_stop="44973890" variantLength="2" positionVCF="44973888" referenceAlleleVCF="AAC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="45266087" stop="45266088" display_start="45266087" display_stop="45266088" variantLength="2" positionVCF="45266086" referenceAlleleVCF="AAC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>T153fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.44973889_44973890del" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.44973889_44973890del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.45266087_45266088del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.45266087_45266088del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_152448.3" sequenceAccession="NM_152448" sequenceVersion="3" change="c.457_458del" MANESelect="true">
+            <Expression>NM_152448.3:c.457_458del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_689661.1" sequenceAccession="NP_689661" sequenceVersion="1" change="p.Thr153fs">
+            <Expression>NP_689661.1:p.Thr153fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="617131.0001" DB="OMIM" />
+        <XRef Type="rs" ID="2141244939" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_152448.3(TERB2):c.457_458del (p.Thr153fs) AND Spermatogenic failure 59" Accession="RCV001788840" Version="1">
+        <ClassifiedConditionList TraitSetID="71212">
+          <ClassifiedCondition DB="MedGen" ID="C5562034">Spermatogenic failure 59</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-12" MostRecentSubmission="2021-12-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33211200</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="71212" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="60969" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spermatogenic failure 59</ElementValue>
+                <XRef ID="MONDO:0030492" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SPGF59</ElementValue>
+                <XRef Type="MIM" ID="619645" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5562034" DB="MedGen" />
+              <XRef ID="MONDO:0030492" DB="MONDO" />
+              <XRef Type="MIM" ID="619645" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3982199" SubmissionDate="2021-12-02" DateLastUpdated="2021-12-12" DateCreated="2021-12-12">
+        <ClinVarSubmissionID localKey="617131.0001_SPERMATOGENIC FAILURE 59 (1 family)" title="TERB2, 2-BP DEL, NT457_SPERMATOGENIC FAILURE 59 (1 family)" />
+        <ClinVarAccession Accession="SCV002029225" DateUpdated="2021-12-12" DateCreated="2021-12-12" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-02">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamilies="1" />
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 3 infertile brothers from a nonconsanguineous Utah family of European ancestry (family 1) with spermatogenic failure characterized by nonobstructive azoospermia (SPGF59; 619645), Salas-Huetos et al. (2021) identified compound heterozygosity for 2 frameshift mutations in the TERB2 gene: a 2-bp deletion (c.457_458del, NM_152448.3) in exon 6, predicted to result in a premature termination codon (Thr153fsTer17) that truncates nearly a quarter of the protein, and a complex mutation involving a 1-bp duplication (c.544dup) and 5-bp deletion (c.547_551del) in exon 7 (617131.0002), also resulting in early termination (Met182fsTer31). Their father and 3 fertile brothers were heterozygous for the complex variant, and their mother was heterozygous for the 2-bp deletion. The 2-bp deletion was not found in the gnomAD databases v.2.1.1 or v.3, whereas the complex variant was present at very low minor allele frequency (2.8 x 10(-5) in v.3), only in heterozygosity. One of the brothers had undergone testicular biopsy in his twenties; he was informed that the histology showed maturation arrest.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33211200</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619645" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TERB2" />
+          </GeneList>
+          <Name>TERB2, 2-BP DEL, NT457</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">2-BP DEL, NT457</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="617131.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPERMATOGENIC FAILURE 59 (1 family)</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

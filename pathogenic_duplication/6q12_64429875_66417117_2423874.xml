@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="2423874" VariationName="NC_000006.11:g.(?_65098563)_(65098753_?)dup" VariationType="Duplication" Accession="VCV002423874" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-11-11" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1942754" VariationID="2423874">
+      <GeneList>
+        <Gene Symbol="EYS" FullName="eyes shut homolog" GeneID="346007" HGNC_ID="HGNC:21555" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="63719980" stop="65707226" display_start="63719980" display_stop="65707226" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="64429875" stop="66417117" display_start="64429875" display_stop="66417117" Strand="-" />
+          </Location>
+          <OMIM>612424</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.11:g.(?_65098563)_(65098753_?)dup</Name>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>6q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="65098563" innerStop="65098753" display_start="65098563" display_stop="65098753" variantLength="191" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_65098563)_(65098753_?)dup" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_65098563)_(65098753_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.11:g.(?_65098563)_(65098753_?)dup AND not provided" Accession="RCV003105568" Version="3">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-13" MostRecentSubmission="2023-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18836446</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20333770</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">25640679</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30543658</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7072699" SubmissionDate="2023-02-03" DateLastUpdated="2023-11-11" DateCreated="2023-02-13">
+        <ClinVarSubmissionID localKey="NM_001142800.1_Gain (Exon 29)|MedGen:CN517202" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003792374" DateUpdated="2023-11-11" DateCreated="2023-02-13" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-18">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25640679</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">18836446</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20333770</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">30543658</ID>
+          </Citation>
+          <Comment>This variant results in a copy number gain of the genomic region encompassing exon(s) 29 of the EYS gene. While the exact position of this variant cannot be determined from the data, sub-genic copy number gains are generally in tandem (PMID: 25640679). This variant is predicted to be out-of-frame, and may result in an absent or disrupted protein product. Loss-of-function variants in EYS are known to be pathogenic (PMID: 18836446, 20333770). A similar copy number variant has been observed in individuals with retinitis pigmentosa (PMID: 30543658). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EYS" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_65098563)_(65098753_?)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12699154</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7072699" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

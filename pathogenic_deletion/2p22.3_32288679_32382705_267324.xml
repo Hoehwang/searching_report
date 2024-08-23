@@ -1,0 +1,162 @@
+<VariationArchive RecordType="classified" VariationID="267324" VariationName="NC_000002.12:g.(?_32063826)_(32087584_?)del" VariationType="Deletion" Accession="VCV000267324" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2016-10-30" MostRecentSubmission="2016-10-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="262398" VariationID="267324">
+      <GeneList>
+        <Gene Symbol="LOC129933455" FullName="ATAC-STARR-seq lymphoblastoid silent region 11339" GeneID="129933455" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="32064290" stop="32064419" display_start="32064290" display_stop="32064419" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="SPAST" FullName="spastin" GeneID="6683" HGNC_ID="HGNC:11233" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="32063556" stop="32157637" display_start="32063556" display_stop="32157637" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="32288679" stop="32382705" display_start="32288679" display_stop="32382705" Strand="+" />
+          </Location>
+          <OMIM>604277</OMIM>
+          <Haploinsufficiency last_evaluated="2019-09-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SPAST">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-09-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SPAST">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_32063826)_(32087584_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2p22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" innerStart="32063826" innerStop="32087584" display_start="32063826" display_stop="32087584" variantLength="23759" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="32288895" innerStop="32312653" display_start="32288895" display_stop="32312653" variantLength="23759" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.12" sequenceAccession="NC_000002" sequenceVersion="12" change="g.(?_32063826)_(32087584_?)del" Assembly="GRCh38">
+            <Expression>NC_000002.12:g.(?_32063826)_(32087584_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_32288895)_(32312653_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_32288895)_(32312653_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_32063826)_(32087584_?)del AND Hereditary spastic paraplegia 4" Accession="RCV000258051" Version="1">
+        <ClassifiedConditionList TraitSetID="6399">
+          <ClassifiedCondition DB="MedGen" ID="C1866855">Hereditary spastic paraplegia 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2015-11-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-11-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-10-30" MostRecentSubmission="2016-10-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6399" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4415" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial spastic paraplegia autosomal dominant 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hereditary spastic paraplegia 4</ElementValue>
+                <XRef ID="MONDO:0008438" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Spastic paraplegia 4, autosomal dominant</ElementValue>
+                <XRef ID="Spastic+paraplegia+4/6695" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">FSP2</ElementValue>
+                <XRef Type="MIM" ID="182601" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">SPG4</ElementValue>
+                <XRef Type="MIM" ID="182601" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Spastic paraplegia 4 (SPG4; also known as SPAST-HSP) is characterized by insidiously progressive bilateral lower-limb gait spasticity. More than 50% of affected individuals have some weakness in the legs and impaired vibration sense at the ankles. Sphincter disturbances are very common. Onset is insidious, mostly in young adulthood, although symptoms may start as early as age one year and as late as age 76 years. Intrafamilial variation is considerable.</Attribute>
+                <XRef ID="NBK1160" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4925" />
+                <XRef ID="4925" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301339</ID>
+                <ID Source="BookShelf">NBK1160</ID>
+              </Citation>
+              <XRef ID="100985" DB="Orphanet" />
+              <XRef ID="C1866855" DB="MedGen" />
+              <XRef ID="MONDO:0008438" DB="MONDO" />
+              <XRef Type="MIM" ID="182601" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="623710" SubmissionDate="2016-10-26" DateLastUpdated="2016-10-30" DateCreated="2016-10-30">
+        <ClinVarSubmissionID localKey="NC_000002.11:g.(?_32288895)_(32312653_?)del|MedGen:C1866855" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000328217" DateUpdated="2016-10-30" DateCreated="2016-10-30" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-11-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment Type="public">A gross deletion of the genomic region encompassing the full coding sequence of the SPAST gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. Gross gene deletion in SPAST are known to be pathogenic (PMID: 24451228, 17098887) . This particular entire gene deletion has been reported in the literature (PMID: 25421405). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPAST" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_32288895)_(32312653_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1866855" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2016June_Corrections3</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="623710" TraitType="Disease" MappingType="XRef" MappingValue="C1866855" MappingRef="MedGen">
+        <MedGen CUI="C1866855" Name="Hereditary spastic paraplegia 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

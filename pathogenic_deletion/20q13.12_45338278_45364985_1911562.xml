@@ -1,0 +1,187 @@
+<VariationArchive VariationID="1911562" VariationName="NM_030777.4(SLC2A10):c.10del (p.Ser4fs)" VariationType="Deletion" Accession="VCV001911562" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-29" DateCreated="2023-02-07" MostRecentSubmission="2024-02-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1973075" VariationID="1911562">
+      <GeneList>
+        <Gene Symbol="SLC2A10" FullName="solute carrier family 2 member 10" GeneID="81031" HGNC_ID="HGNC:13444" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>20q13.12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="46708320" stop="46736347" display_start="46708320" display_stop="46736347" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="45338278" stop="45364985" display_start="45338278" display_stop="45364985" Strand="+" />
+          </Location>
+          <OMIM>606145</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_030777.4(SLC2A10):c.10del (p.Ser4fs)</Name>
+      <CanonicalSPDI>NC_000020.11:46725045:T:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>20q13.12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="46725046" stop="46725046" display_start="46725046" display_stop="46725046" variantLength="1" positionVCF="46725045" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="45353685" stop="45353685" display_start="45353685" display_stop="45353685" variantLength="1" positionVCF="45353684" referenceAlleleVCF="CT" alternateAlleleVCF="C" />
+      </Location>
+      <ProteinChange>S4fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.10" sequenceAccession="NC_000020" sequenceVersion="10" change="g.45353685del" Assembly="GRCh37">
+            <Expression>NC_000020.10:g.45353685del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.11" sequenceAccession="NC_000020" sequenceVersion="11" change="g.46725046del" Assembly="GRCh38">
+            <Expression>NC_000020.11:g.46725046del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_016284.1" sequenceAccession="NG_016284" sequenceVersion="1" change="g.20407del">
+            <Expression>NG_016284.1:g.20407del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_030777.4" sequenceAccession="NM_030777" sequenceVersion="4" change="c.10del" MANESelect="true">
+            <Expression>NM_030777.4:c.10del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_110404.1" sequenceAccession="NP_110404" sequenceVersion="1" change="p.Ser4fs">
+            <Expression>NP_110404.1:p.Ser4fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_030777.4(SLC2A10):c.10del (p.Ser4fs) AND Arterial tortuosity syndrome" Accession="RCV002597043" Version="2">
+        <ClassifiedConditionList TraitSetID="1257">
+          <ClassifiedCondition DB="MedGen" ID="C1859726">Arterial tortuosity syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-04" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-09-04" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-02-07" MostRecentSubmission="2024-02-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17935213</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22488877</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">23494979</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1257" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="437" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Arterial tortuosity syndrome</ElementValue>
+                <XRef ID="MONDO:0008818" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ATORS</ElementValue>
+                <XRef Type="MIM" ID="208050" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="774" />
+                <XRef ID="774" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Arterial tortuosity syndrome (ATS) is characterized by widespread elongation and tortuosity of the aorta and mid-sized arteries as well as focal stenosis of segments of the pulmonary arteries and/or aorta combined with findings of a generalized connective tissue disorder, which may include soft or doughy hyperextensible skin, joint hypermobility, inguinal hernia, and diaphragmatic hernia. Skeletal findings include pectus excavatum or carinatum, arachnodactyly, scoliosis, knee/elbow contractures, and camptodactyly. The cardiovascular system is the major source of morbidity and mortality with increased risk at any age for aneurysm formation and dissection both at the aortic root and throughout the arterial tree, and for ischemic vascular events involving cerebrovascular circulation (resulting in non-hemorrhagic stroke) and the abdominal arteries (resulting in infarctions of abdominal organs).</Attribute>
+                <XRef ID="NBK253404" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ACMG, 2012">
+                <ID Source="PubMed">22237449</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">25392904</ID>
+                <ID Source="BookShelf">NBK253404</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESC, 2014">
+                <ID Source="PubMed">25173340</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CSANZ, 2017">
+                <ID Source="PubMed">28161018</ID>
+              </Citation>
+              <XRef ID="3342" DB="Orphanet" />
+              <XRef ID="C1859726" DB="MedGen" />
+              <XRef ID="MONDO:0008818" DB="MONDO" />
+              <XRef Type="MIM" ID="208050" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5634431" SubmissionDate="2024-02-07" DateLastUpdated="2024-02-28" DateCreated="2023-02-07">
+        <ClinVarSubmissionID localKey="12470648|MedGen:C1859726" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002943433" DateUpdated="2024-02-28" DateCreated="2023-02-07" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">17935213</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22488877</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">23494979</ID>
+          </Citation>
+          <Comment>This sequence change creates a premature translational stop signal (p.Ser4Profs*17) in the SLC2A10 gene. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in SLC2A10 are known to be pathogenic (PMID: 17935213, 22488877, 23494979). For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with SLC2A10-related conditions. This variant is not present in population databases (gnomAD no frequency).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC2A10" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000020.10:g.45353685del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1859726" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12506961</SubmissionName>
+          <SubmissionName>SUB14200269</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5634431" TraitType="Disease" MappingType="XRef" MappingValue="C1859726" MappingRef="MedGen">
+        <MedGen CUI="C1859726" Name="Arterial tortuosity syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

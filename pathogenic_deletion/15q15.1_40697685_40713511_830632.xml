@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="830632" VariationName="NC_000015.9:g.(?_40698000)_(40700209_?)del" VariationType="Deletion" Accession="VCV000830632" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820757" VariationID="830632">
+      <GeneList>
+        <Gene Symbol="IVD" FullName="isovaleryl-CoA dehydrogenase" GeneID="3712" HGNC_ID="HGNC:6186" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>15q15.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="40405795" stop="40435947" display_start="40405795" display_stop="40435947" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="40697685" stop="40713511" display_start="40697685" display_stop="40713511" Strand="+" />
+          </Location>
+          <OMIM>607036</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.9:g.(?_40698000)_(40700209_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>15q15.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" innerStart="40698000" innerStop="40700209" display_start="40698000" display_stop="40700209" variantLength="2210" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.9" sequenceAccession="NC_000015" sequenceVersion="9" change="g.(?_40698000)_(40700209_?)del" Assembly="GRCh37">
+            <Expression>NC_000015.9:g.(?_40698000)_(40700209_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.9:g.(?_40698000)_(40700209_?)del AND Isovaleryl-CoA dehydrogenase deficiency" Accession="RCV001031250" Version="1">
+        <ClassifiedConditionList TraitSetID="936">
+          <ClassifiedCondition DB="MedGen" ID="C0268575">Isovaleryl-CoA dehydrogenase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27904153</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="936" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2427" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Isovaleric acid CoA dehydrogenase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Isovaleric acidemia</ElementValue>
+                <XRef ID="MONDO:0009475" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Isovaleryl CoA carboxylase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IVD deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Isovaleryl-CoA dehydrogenase deficiency</ElementValue>
+                <XRef ID="Isovaleric+Acidemia/3888" DB="Genetic Alliance" />
+                <XRef ID="87827003" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IVA</ElementValue>
+                <XRef Type="MIM" ID="243500" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="465" />
+                <XRef ID="465" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="33" DB="Orphanet" />
+              <XRef ID="C0268575" DB="MedGen" />
+              <XRef ID="MONDO:0009475" DB="MONDO" />
+              <XRef Type="MIM" ID="243500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2355810" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="4573850|MedGen:C0268575" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194556" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">27904153</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 1-3 of the IVD gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 3 of the IVD gene. This is expected to result in an absent or disrupted protein product. This variant has been observed in an individual affected with isovaleric acidemia (PMID: 27904153). Loss-of-function variants in IVD are known to be pathogenic (PMID: 16602101). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IVD" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.9:g.(?_40698000)_(40700209_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Isovaleryl-CoA dehydrogenase deficiency</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0268575" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2355810" TraitType="Disease" MappingType="Name" MappingValue="Isovaleryl-CoA dehydrogenase deficiency" MappingRef="Preferred">
+        <MedGen CUI="C0268575" Name="Isovaleryl-CoA dehydrogenase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,120 @@
+<VariationArchive RecordType="classified" VariationID="2502348" VariationName="NM_001077350.3:c.(118+1_119-1)_(188+1_189-1)del" VariationType="Deletion" Accession="VCV002502348" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-05-27" DateCreated="2023-05-20" MostRecentSubmission="2023-05-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2543831" VariationID="2502348">
+      <GeneList>
+        <Gene Symbol="NPRL3" FullName="NPR3 like, GATOR1 complex subunit" GeneID="8131" HGNC_ID="HGNC:14124" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="85386" stop="138673" display_start="85386" display_stop="138673" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="135799" stop="188696" display_start="135799" display_stop="188696" Strand="-" />
+          </Location>
+          <OMIM>600928</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001077350.3:c.(118+1_119-1)_(188+1_189-1)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001077350.3" sequenceAccession="NM_001077350" sequenceVersion="3" change="c.(118+1_119-1)_(188+1_189-1)del" MANESelect="true">
+            <Expression>NM_001077350.3:c.(118+1_119-1)_(188+1_189-1)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001077350.3:c.(118+1_119-1)_(188+1_189-1)del AND Epilepsy, familial focal, with variable foci 3" Accession="RCV003228767" Version="1">
+        <ClassifiedConditionList TraitSetID="32575">
+          <ClassifiedCondition DB="MedGen" ID="C4310708">Epilepsy, familial focal, with variable foci 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-05-20" MostRecentSubmission="2023-05-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="32575" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36161" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, familial focal, with variable foci 3</ElementValue>
+                <XRef ID="MONDO:0014925" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FFEVF3</ElementValue>
+                <XRef Type="MIM" ID="617118" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4310708" DB="MedGen" />
+              <XRef ID="MONDO:0014925" DB="MONDO" />
+              <XRef Type="MIM" ID="617118" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7337637" SubmissionDate="2023-05-17" DateLastUpdated="2023-05-20" DateCreated="2023-05-20">
+        <ClinVarSubmissionID localKey="CVb_2416|OMIM:617118" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003925610" DateUpdated="2023-05-20" DateCreated="2023-05-20" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>_x000D_Exon 3 Deletion. Criteria applied: PVS1, PS4_MOD, PM2_SUP</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NPRL3" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001077350.3:c.(118+1_119-1)_(188+1_189-1)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617118" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13362238</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7337637" TraitType="Disease" MappingType="XRef" MappingValue="617118" MappingRef="OMIM">
+        <MedGen CUI="C4310708" Name="Epilepsy, familial focal, with variable foci 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

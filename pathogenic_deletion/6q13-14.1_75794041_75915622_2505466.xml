@@ -1,0 +1,131 @@
+<VariationArchive VariationID="2505466" VariationName="NG_042181.1:(g.89607_91434)_(105703_107097)del" VariationType="Deletion" Accession="VCV002505466" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2023-06-17" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2670430" VariationID="2505466">
+      <GeneList>
+        <Gene Symbol="COL12A1" FullName="collagen type XII alpha 1 chain" GeneID="1303" HGNC_ID="HGNC:2188" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>6q13-14.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="75084326" stop="75206053" display_start="75084326" display_stop="75206053" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="75794041" stop="75915622" display_start="75794041" display_stop="75915622" Strand="-" />
+          </Location>
+          <OMIM>120320</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_042181.1:(g.89607_91434)_(105703_107097)del</Name>
+      <VariantType>Deletion</VariantType>
+      <OtherNameList>
+        <Name>EX45-EX54DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_042181.1" sequenceAccession="NG_042181" sequenceVersion="1" change="(g.89607_91434)_(105703_107097)del">
+            <Expression>NG_042181.1:(g.89607_91434)_(105703_107097)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="120320.0006" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_042181.1:(g.89607_91434)_(105703_107097)del AND Bethlem myopathy 2" Accession="RCV003234734" Version="2">
+        <ClassifiedConditionList TraitSetID="22085">
+          <ClassifiedCondition DB="MedGen" ID="C4225313">Bethlem myopathy 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-07-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-07-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-06-17" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">35019233</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="22085" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33593" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bethlem myopathy 2</ElementValue>
+                <XRef ID="MONDO:0034022" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BTHLM2</ElementValue>
+                <XRef Type="MIM" ID="616471" DB="OMIM" />
+              </Symbol>
+              <XRef ID="536516" DB="Orphanet" />
+              <XRef ID="610" DB="Orphanet" />
+              <XRef ID="C4225313" DB="MedGen" />
+              <XRef ID="MONDO:0034022" DB="MONDO" />
+              <XRef Type="MIM" ID="616471" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7351987" SubmissionDate="2023-06-14" DateLastUpdated="2024-06-09" DateCreated="2023-06-17">
+        <ClinVarSubmissionID localKey="120320.0006_BETHLEM MYOPATHY 2" title="COL12A1, EX45-54DEL_BETHLEM MYOPATHY 2" />
+        <ClinVarAccession Accession="SCV003932616" DateUpdated="2024-06-09" DateCreated="2023-06-17" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-07-11">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In a 13-year-old boy with congenital myopathy and joint laxity (BTHLM2; 616471), Coppens et al. (2022) identified heterozygosity for a de novo heterozygous in-frame deletion of exons 45 to 54 (NM_004370.6) in the COL12A1 gene, predicted to remove the last half of the fourth vWA domain, the entire laminin-G domain, and the proximal part of the COL2 domain. The deletion, which affects both the short and long COL12A1 isoforms, was not found in gnomAD. Patient fibroblasts showed nearly complete absence of collagen XII in the extracellular matrix and increased intracellular staining.</Attribute>
+              <Citation>
+                <ID Source="PubMed">35019233</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="616471" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="COL12A1" />
+          </GeneList>
+          <Name>COL12A1, EX45-54DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX45-54DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="120320.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BETHLEM MYOPATHY 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7351987" TraitType="Disease" MappingType="Name" MappingValue="BETHLEM MYOPATHY 2" MappingRef="Preferred">
+        <MedGen CUI="C4225313" Name="Bethlem myopathy 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

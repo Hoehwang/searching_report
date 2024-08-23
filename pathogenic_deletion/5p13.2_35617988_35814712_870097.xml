@@ -1,0 +1,223 @@
+<VariationArchive VariationID="870097" VariationName="NM_024867.4(SPEF2):c.2507+5del" VariationType="Deletion" Accession="VCV000870097" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2020-05-04" MostRecentSubmission="2020-05-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="858269" VariationID="870097">
+      <GeneList>
+        <Gene Symbol="SPEF2" FullName="sperm flagellar 2" GeneID="79925" HGNC_ID="HGNC:26293" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5p13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="35617863" stop="35814611" display_start="35617863" display_stop="35814611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="35617988" stop="35814712" display_start="35617988" display_stop="35814712" Strand="+" />
+          </Location>
+          <OMIM>610172</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_024867.4(SPEF2):c.2507+5del</Name>
+      <CanonicalSPDI>NC_000005.10:35704666:G:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="35704667" stop="35704667" display_start="35704667" display_stop="35704667" variantLength="1" positionVCF="35704666" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="35704769" stop="35704769" display_start="35704769" display_stop="35704769" variantLength="1" positionVCF="35704768" referenceAlleleVCF="AG" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.35704667del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.35704667del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.35704769del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.35704769del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024867.4" sequenceAccession="NM_024867" sequenceVersion="4" change="c.2507+5del" MANESelect="true">
+            <Expression>NM_024867.4:c.2507+5del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO" />
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_024867.4" sequenceAccession="NM_024867" sequenceVersion="4" change="c.2507+5delG" MANESelect="true">
+            <Expression>NM_024867.4:c.2507+5delG</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1739374011" DB="dbSNP" />
+      </XRefList>
+      <FunctionalConsequence Value="effect on protein degradation">
+        <XRef ID="0051" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_024867.4(SPEF2):c.2507+5del AND Primary ciliary dyskinesia" Accession="RCV001089640" Version="3">
+        <ClassifiedConditionList TraitSetID="8944">
+          <ClassifiedCondition DB="MedGen" ID="C0008780">Primary ciliary dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-04" MostRecentSubmission="2020-05-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8944" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15219" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia</ElementValue>
+                <XRef ID="Primary+ciliary+dyskinesia/5941" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0016575" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ciliary dyskinesia</ElementValue>
+                <XRef ID="HP:0012265" DB="Human Phenotype Ontology" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ICS</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PCD</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4484" />
+                <XRef ID="4484" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="PCD Foundation, 2016">
+                <ID Source="pmc">4912005</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C0008780" DB="MedGen" />
+              <XRef ID="MONDO:0016575" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0012265" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2465705" SubmissionDate="2020-04-27" DateLastUpdated="2020-05-04" DateCreated="2020-05-04">
+        <ClinVarSubmissionID localKey="SUB7193805" submittedAssembly="GRCh37" title="SUB7193805" />
+        <ClinVarAccession Accession="SCV001190583" DateUpdated="2020-05-04" DateCreated="2020-05-04" Type="SCV" Version="1" SubmitterName="Institute of Reproductive and Stem Cell Engineering, Central South University" OrgID="506234" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>RT-PCR followed by Sanger sequencing were applied to assess the functional consequence of the splice variant in family 1 (c.2507 + 5delG). This variant caused aberrant splicing and led to the skipping of exon 17, giving rise to an out-of-frame fusion of exon 16 and exon 18. The disrupted coding frame introduced downstream premature termination codon (PTC) and led to truncated SPEF2 proteins of 801 (exon 18) amino acids</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Tu et al. (Hum Genet. 2020)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">31942643</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Han Chinese</Ethnicity>
+              <GeographicOrigin>Hunan, China</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">30</Age>
+              <Age Type="maximum" age_unit="years">39</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <NamePlatform>HiSeq</NamePlatform>
+              <TypePlatform>Next-generation exome sequencing</TypePlatform>
+              <Description>Genomic DNA extraction and subsequent WES and data analysis for the 47 infertile males with severe asthenozoospermia and 637 controls were carried out by Beijing Genome Institute (BGI) in Shenzhen as described previously (Tan et al. 2019). All available individuals were sequenced to at least a mean depth of 120 Ã—. The most promising candidate variants were identifed using the criteria described in our previous studies (Tan et al. 2019; Wang et al. 2019a). Briefy, a candidate variant was preferentially considered if it was (1) reported to have a frequency below 5% in public databases; (2) predicted to be deleterious variants; (3) associated with phenotype, including expression in ciliated tissue or the existence of a mouse KO model with PCD phenotype; and (4) homozygous or compound heterozygous variants. Meanwhile, homozygosity mapping was performed using HomozygosityMapper, and homozygous variants which are located in homozygous regions greater than 2.0 Mb were considered with priority.</Description>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="2" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">primary ciliary dyskinesia and male infertility</ElementValue>
+                </Name>
+              </Trait>
+              <Comment>Recurrent airway infections, bronchiectasis, rhinosinusitis, otitis media, and severe asthenoteratospermia.</Comment>
+            </TraitSet>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Spef2 knockout mice present male infertility with severe fagellar defects and a PCD-like phenotype caused by reduced ciliary beat frequency.</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SPEF2">
+              <Name>sperm flagellar 2</Name>
+            </Gene>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <FunctionalConsequence Value="effect on protein degradation">
+            <XRef DB="Variation Ontology" ID="0051" URL="http://purl.obolibrary.org/obo/VariO_0051" />
+          </FunctionalConsequence>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_024867.4:c.2507+5delG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0012265" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">31942643</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7193805</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2465705" TraitType="Finding" MappingType="Name" MappingValue="primary ciliary dyskinesia and male infertility" MappingRef="Preferred">
+        <MedGen CUI="None" Name="primary ciliary dyskinesia and male infertility" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2465705" TraitType="Disease" MappingType="XRef" MappingValue="HP:0012265" MappingRef="HP">
+        <MedGen CUI="C0008780" Name="Primary ciliary dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

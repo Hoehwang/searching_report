@@ -1,0 +1,175 @@
+<VariationArchive VariationID="505015" VariationName="NM_007348.3(ATF6):c.160dup (p.Glu54Glyfs)" VariationType="Duplication" Accession="VCV000505015" Version="6" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2018-04-09" MostRecentSubmission="2018-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="496144" VariationID="505015">
+      <GeneList>
+        <Gene Symbol="ATF6" FullName="activating transcription factor 6" GeneID="22926" HGNC_ID="HGNC:791" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="161766320" stop="161964070" display_start="161766320" display_stop="161964070" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="161736033" stop="161933859" display_start="161736033" display_stop="161933859" Strand="+" />
+          </Location>
+          <OMIM>605537</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_007348.3(ATF6):c.160dup (p.Glu54Glyfs)</Name>
+      <CanonicalSPDI>NC_000001.11:161781910:GG:GGG</CanonicalSPDI>
+      <VariantType>Duplication</VariantType>
+      <Location>
+        <CytogeneticLocation>1q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="161781910" stop="161781911" display_start="161781910" display_stop="161781911" variantLength="1" positionVCF="161781910" referenceAlleleVCF="A" alternateAlleleVCF="AG" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="161751700" stop="161751701" display_start="161751700" display_stop="161751701" variantLength="1" positionVCF="161751700" referenceAlleleVCF="A" alternateAlleleVCF="AG" />
+      </Location>
+      <OtherNameList>
+        <Name>p.Glu54GlyfsX5</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_007348.3" sequenceAccession="NM_007348" sequenceVersion="3" change="c.160dupG">
+            <Expression>NM_007348.3:c.160dupG</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.161751702dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.161751702dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.161781912dup" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.161781912dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029773.1" sequenceAccession="NG_029773" sequenceVersion="1" change="g.20669dup">
+            <Expression>NG_029773.1:g.20669dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA658795561" DB="ClinGen" />
+        <XRef Type="rs" ID="1553227755" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_007348.3(ATF6):c.160dup (p.Glu54Glyfs) AND Achromatopsia" Accession="RCV000608330" Version="13">
+        <ClassifiedConditionList TraitSetID="10198">
+          <ClassifiedCondition DB="MedGen" ID="C0152200">Achromatopsia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-05-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-05-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-04-09" MostRecentSubmission="2018-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="10198" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9454" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Achromatopsia</ElementValue>
+                <XRef ID="2668" DB="GeneTests" />
+                <XRef ID="HP:0011516" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0018852" DB="MONDO" />
+                <XRef ID="56852002" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Rod monochromatism</ElementValue>
+                <XRef ID="HP:0011516" DB="Human Phenotype Ontology" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15015" />
+                <XRef ID="15015" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Achromatopsia is characterized by reduced visual acuity, pendular nystagmus, increased sensitivity to light (photophobia), a small central scotoma, eccentric fixation, and reduced or complete loss of color discrimination. All individuals with achromatopsia (achromats) have impaired color discrimination along all three axes of color vision corresponding to the three cone classes: the protan or long-wavelength-sensitive cone axis (red), the deutan or middle-wavelength-sensitive cone axis (green), and the tritan or short-wavelength-sensitive cone axis (blue). Most individuals have complete achromatopsia, with total lack of function of all three types of cones. Rarely, individuals have incomplete achromatopsia, in which one or more cone types may be partially functioning. The manifestations are similar to those of individuals with complete achromatopsia, but generally less severe. Hyperopia is common in achromatopsia. Nystagmus develops during the first few weeks after birth followed by increased sensitivity to bright light. Best visual acuity varies with severity of the disease; it is 20/200 or less in complete achromatopsia and may be as high as 20/80 in incomplete achromatopsia. Visual acuity is usually stable over time; both nystagmus and sensitivity to bright light may improve slightly. Although the fundus is usually normal, macular changes (which may show early signs of progression) and vessel narrowing may be present in some affected individuals. Defects in the macula are visible on optical coherence tomography.</Attribute>
+                <XRef ID="NBK1418" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301591</ID>
+                <ID Source="BookShelf">NBK1418</ID>
+              </Citation>
+              <XRef ID="49382" DB="Orphanet" />
+              <XRef ID="C0152200" DB="MedGen" />
+              <XRef ID="MONDO:0018852" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0011516" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1393191" SubmissionDate="2019-03-21" DateLastUpdated="2018-04-09" DateCreated="2018-04-09">
+        <ClinVarSubmissionID localKey="68574953|Orphanet:ORPHA49382" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000712085" DateUpdated="2018-04-09" DateCreated="2018-04-09" Type="SCV" Version="1" SubmitterName="Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine" OrgID="21766" OrganizationCategory="laboratory" OrgAbbreviation="LMM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-05-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The p.Glu54GlyfsX5 variant in ATF6 has not been reported in the literature and w as absent form large population studies. This variant is predicted to cause a fr ameshift, which alters the protein?s amino acid sequence beginning at position 5 4 and leads to a premature termination codon 5 amino acids downstream. This alte ration is then predicted to lead to a truncated or absent protein. Biallelic los s of function of the ATF6 gene has been associated with achromatopsia. In summar y, the p.Glu54GlyfsX5 variant meets our criteria to be classified as pathogenic for achromatopsia in an autosomal recessive manner based upon its predicted func tional impact and absence from controls.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">LMM Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">24033266</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ATF6" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_007348.3:EXON 3</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>NM_007348.3:c.160dupG</Name>
+            <Name>p.Glu54GlyfsX5</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.10:g.161751702_161751703insG</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA49382" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5348977</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1393191" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA49382" MappingRef="Orphanet">
+        <MedGen CUI="C0152200" Name="Achromatopsia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

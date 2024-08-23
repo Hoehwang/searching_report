@@ -1,0 +1,177 @@
+<VariationArchive VariationID="1179179" VariationName="NM_001041.4(SI):c.793del (p.Gln265fs)" VariationType="Deletion" Accession="VCV001179179" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168633" VariationID="1179179">
+      <GeneList>
+        <Gene Symbol="SI" FullName="sucrase-isomaltase" GeneID="6476" HGNC_ID="HGNC:10856" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="164978898" stop="165157921" display_start="164978898" display_stop="165157921" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="164696685" stop="164796282" display_start="164696685" display_stop="164796282" Strand="-" />
+          </Location>
+          <OMIM>609845</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001041.4(SI):c.793del (p.Gln265fs)</Name>
+      <CanonicalSPDI>NC_000003.12:165065274:GG:G</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q26.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="165065275" stop="165065275" display_start="165065275" display_stop="165065275" variantLength="1" positionVCF="165065274" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="164783063" stop="164783063" display_start="164783063" display_stop="164783063" variantLength="1" positionVCF="164783062" referenceAlleleVCF="TG" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>Q265fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.164783064del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.164783064del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.165065276del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.165065276del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_017043.1" sequenceAccession="NG_017043" sequenceVersion="1" change="g.18221del">
+            <Expression>NG_017043.1:g.18221del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001041.4" sequenceAccession="NM_001041" sequenceVersion="4" change="c.793del" MANESelect="true">
+            <Expression>NM_001041.4:c.793del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001032.2" sequenceAccession="NP_001032" sequenceVersion="2" change="p.Gln265fs">
+            <Expression>NP_001032.2:p.Gln265fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="rs" ID="1714177959" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001041.4(SI):c.793del (p.Gln265fs) AND Sucrase-isomaltase deficiency" Accession="RCV001536069" Version="3">
+        <ClassifiedConditionList TraitSetID="382">
+          <ClassifiedCondition DB="MedGen" ID="C1283620">Sucrase-isomaltase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-06-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-06-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="382" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4472" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Congenital sucrose-isomaltase malabsorption</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Disaccharide intolerance, 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Sucrose intolerance congenital</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SI deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Deficiency of isomaltase</ElementValue>
+                <XRef ID="360854006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital sucrose isomaltose malabsorption</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Sucrose isomaltose enzyme deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Sucrase-isomaltase deficiency</ElementValue>
+                <XRef ID="Sucrase-isomaltase+deficiency%2C+congenital/6919" DB="Genetic Alliance" />
+                <XRef ID="78373000" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CSID</ElementValue>
+                <XRef Type="MIM" ID="222900" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7710" />
+                <XRef ID="7710" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="35122" DB="Orphanet" />
+              <XRef ID="C1283620" DB="MedGen" />
+              <XRef ID="MONDO:0009114" DB="MONDO" />
+              <XRef Type="MIM" ID="222900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448242" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey="NM_001041.3:c.793del|OMIM:222900" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752766" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-06-30">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SI" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001041.3:c.793del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="222900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448242" TraitType="Disease" MappingType="XRef" MappingValue="222900" MappingRef="OMIM">
+        <MedGen CUI="C1283620" Name="Sucrase-isomaltase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

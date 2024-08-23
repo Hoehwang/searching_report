@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="562002" VariationName="Single allele" VariationType="Deletion" Accession="VCV000562002" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2018-09-23" MostRecentSubmission="2018-09-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="553149" VariationID="562002">
+      <GeneList>
+        <Gene Symbol="RERE" FullName="arginine-glutamic acid dipeptide repeats" GeneID="473" HGNC_ID="HGNC:9965" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="8352404" stop="8817640" display_start="8352404" display_stop="8817640" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="8412463" stop="8877698" display_start="8412463" display_stop="8877698" Strand="-" />
+          </Location>
+          <OMIM>605226</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" outerStart="8497191" innerStart="8509888" innerStop="8803072" outerStop="8813784" display_start="8497191" display_stop="8813784" variantLength="316594" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(8497191_8509888)_(8803072_8813784)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(8497191_8509888)_(8803072_8813784)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart" Accession="RCV000681464" Version="1">
+        <ClassifiedConditionList TraitSetID="28644">
+          <ClassifiedCondition DB="MedGen" ID="C4310772">Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-09-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-09-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-09-23" MostRecentSubmission="2018-09-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="28644" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35654" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart</ElementValue>
+                <XRef ID="MONDO:0014857" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEDBEH</ElementValue>
+                <XRef Type="MIM" ID="616975" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">RERE-related disorders are characterized by neurodevelopmental problems with or without structural anomalies of the eyes, heart, kidneys, and genitourinary tract and mild sensorineural hearing loss. Hypotonia and feeding problems are common among affected individuals. Developmental delay and intellectual disability range from mild to profound. Behavior problems may include attention-deficit/hyperactivity disorder, self-injurious behavior, and autism spectrum disorder. A variety of eye anomalies (coloboma, optic nerve anomalies, microphthalmia, and/or Peter's anomaly) and vision issues (myopia, anisometropia, astigmatism, exotropia, esotropia) have been reported. Congenital heart defects, most commonly septal defects, have also been described. Genitourinary abnormalities include vesicoureteral reflux, and cryptorchidism and hypospadias in males. Sensorineural hearing loss can be unilateral or bilateral.</Attribute>
+                <XRef ID="NBK538938" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">30896913</ID>
+                <ID Source="BookShelf">NBK538938</ID>
+              </Citation>
+              <XRef ID="494344" DB="Orphanet" />
+              <XRef ID="C4310772" DB="MedGen" />
+              <XRef ID="MONDO:0014857" DB="MONDO" />
+              <XRef Type="MIM" ID="616975" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1577534" SubmissionDate="2017-09-12" DateLastUpdated="2018-09-23" DateCreated="2018-09-23">
+        <ClinVarSubmissionID localKey="NM_012102.3:Chr.1_8509888_8803072_Deletion|OMIM:616975|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000808912" DateUpdated="2018-09-23" DateCreated="2018-09-23" Type="SCV" Version="1" SubmitterName="Daryl Scott Lab, Baylor College of Medicine" OrgID="505993" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-09-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Jordan VK et al. (Hum Mutat 2018)</Attribute>
+          <Citation>
+            <ID Source="PubMed">29330883</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RERE" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="8509888" innerStop="8803072" outerStart="8497191" outerStop="8813784" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616975" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3037732</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1577534" TraitType="Disease" MappingType="XRef" MappingValue="616975" MappingRef="OMIM">
+        <MedGen CUI="C4310772" Name="Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

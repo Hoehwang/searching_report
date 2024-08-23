@@ -1,0 +1,208 @@
+<VariationArchive VariationID="1459992" VariationName="NC_000003.11:g.(?_97486952)_(97516893_?)del" VariationType="Deletion" Accession="VCV001459992" Version="5" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1481349" VariationID="1459992">
+      <GeneList>
+        <Gene Symbol="ARL6" FullName="ADP ribosylation factor like GTPase 6" GeneID="84100" HGNC_ID="HGNC:13210" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="97764521" stop="97801242" display_start="97764521" display_stop="97801242" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="97483594" stop="97517372" display_start="97483594" display_stop="97517372" Strand="+" />
+          </Location>
+          <OMIM>608845</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000003.11:g.(?_97486952)_(97516893_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="97486952" innerStop="97516893" display_start="97486952" display_stop="97516893" variantLength="29942" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_97486952)_(97516893_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_97486952)_(97516893_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000003.11:g.(?_97486952)_(97516893_?)del AND multiple conditions" Accession="RCV001951365" Version="5">
+        <ClassifiedConditionList TraitSetID="39881">
+          <ClassifiedCondition DB="MedGen" ID="C1859564">Bardet-Biedl syndrome 3</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3150808">Retinitis pigmentosa 55</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-01-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-01-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-03-28" MostRecentSubmission="2024-06-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">15258860</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">19858128</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20142850</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22334370</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27486776</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31736247</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="39881" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9759" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Retinitis pigmentosa 55</ElementValue>
+                <XRef ID="Retinitis+pigmentosa+55/9240" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013312" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RP55</ElementValue>
+                <XRef Type="MIM" ID="613575" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15677" />
+                <XRef ID="15677" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301590</ID>
+                <ID Source="BookShelf">NBK1417</ID>
+              </Citation>
+              <XRef ID="791" DB="Orphanet" />
+              <XRef ID="C3150808" DB="MedGen" />
+              <XRef ID="MONDO:0013312" DB="MONDO" />
+              <XRef Type="MIM" ID="613575" DB="OMIM" />
+            </Trait>
+            <Trait ID="8915" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome 3</ElementValue>
+                <XRef ID="MONDO:0010832" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS3</ElementValue>
+                <XRef Type="MIM" ID="600151" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="822" />
+                <XRef ID="822" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301537</ID>
+                <ID Source="BookShelf">NBK1363</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2010">
+                <ID Source="pmc">3061994</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ES/PES/ESE, 2017">
+                <ID Source="PubMed">28359099</ID>
+                <ID Source="pmc">6283429</ID>
+              </Citation>
+              <XRef ID="110" DB="Orphanet" />
+              <XRef ID="C1859564" DB="MedGen" />
+              <XRef ID="MONDO:0010832" DB="MONDO" />
+              <XRef Type="MIM" ID="600151" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4263640" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-09" DateCreated="2022-03-28">
+        <ClinVarSubmissionID localKey="NM_177976.2_3_Deletion (entire coding sequence)|MedGen:C3150808;C1859564" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002241958" DateUpdated="2024-06-09" DateCreated="2022-03-28" Type="SCV" Version="4" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-01-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">15258860</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">19858128</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20142850</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">22334370</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27486776</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">31736247</ID>
+          </Citation>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. This variant has not been reported in the literature in individuals affected with ARL6-related conditions. A gross deletion of the genomic region encompassing the full coding sequence of the ARL6 gene has been identified. Loss-of-function variants in ARL6 are known to be pathogenic (PMID: 15258860, 19858128, 20142850, 22334370, 27486776, 31736247). The boundaries of this event are unknown as they extend beyond the assayed region for this gene and therefore may encompass additional genes.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ARL6" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.(?_97486952)_(97516893_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease" multipleConditionExplanation="Uncertain">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3150808" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1859564" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11173117</SubmissionName>
+          <SubmissionName>SUB12699154</SubmissionName>
+          <SubmissionName>SUB14505679</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4263640" TraitType="Disease" MappingType="XRef" MappingValue="C1859564" MappingRef="MedGen">
+        <MedGen CUI="C1859564" Name="Bardet-Biedl syndrome 3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4263640" TraitType="Disease" MappingType="XRef" MappingValue="C3150808" MappingRef="MedGen">
+        <MedGen CUI="C3150808" Name="Retinitis pigmentosa 55" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

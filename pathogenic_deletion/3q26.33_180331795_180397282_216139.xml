@@ -1,0 +1,177 @@
+<VariationArchive VariationID="216139" VariationName="NM_181426.2(CCDC39):c.1644del (p.Asp548fs)" VariationType="Deletion" Accession="VCV000216139" Version="7" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2015-10-11" MostRecentSubmission="2024-02-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="212294" VariationID="216139">
+      <GeneList>
+        <Gene Symbol="CCDC39" FullName="coiled-coil domain 39 molecular ruler complex subunit" GeneID="339829" HGNC_ID="HGNC:25244" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3q26.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="180614008" stop="180679489" display_start="180614008" display_stop="180679489" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="180331795" stop="180397282" display_start="180331795" display_stop="180397282" Strand="-" />
+          </Location>
+          <OMIM>613798</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_181426.2(CCDC39):c.1644del (p.Asp548fs)</Name>
+      <CanonicalSPDI>NC_000003.12:180644140:A:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3q26.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="180644141" stop="180644141" display_start="180644141" display_stop="180644141" variantLength="1" positionVCF="180644140" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="180361929" stop="180361929" display_start="180361929" display_stop="180361929" variantLength="1" positionVCF="180361928" referenceAlleleVCF="TA" alternateAlleleVCF="T" />
+      </Location>
+      <ProteinChange>D548fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.180361929del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.180361929del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.180644141del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.180644141del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029581.1" sequenceAccession="NG_029581" sequenceVersion="1" change="g.40355del">
+            <Expression>NG_029581.1:g.40355del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_181426.2" sequenceAccession="NM_181426" sequenceVersion="2" change="c.1644del" MANESelect="true">
+            <Expression>NM_181426.2:c.1644del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_852091.1" sequenceAccession="NP_852091" sequenceVersion="1" change="p.Asp548fs">
+            <Expression>NP_852091.1:p.Asp548fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA337101" DB="ClinGen" />
+        <XRef Type="rs" ID="863224531" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_181426.2(CCDC39):c.1644del (p.Asp548fs) AND Primary ciliary dyskinesia" Accession="RCV000197291" Version="8">
+        <ClassifiedConditionList TraitSetID="8944">
+          <ClassifiedCondition DB="MedGen" ID="C0008780">Primary ciliary dyskinesia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2015-03-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-03-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-11" MostRecentSubmission="2024-02-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8944" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15219" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ciliary dyskinesia</ElementValue>
+                <XRef ID="HP:0012265" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia</ElementValue>
+                <XRef ID="Primary+ciliary+dyskinesia/5941" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0016575" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ICS</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">PCD</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4484" />
+                <XRef ID="4484" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="PCD Foundation, 2016">
+                <ID Source="pmc">4912005</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C0008780" DB="MedGen" />
+              <XRef ID="MONDO:0016575" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS244400" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0012265" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="469068" SubmissionDate="2024-02-07" DateLastUpdated="2024-02-28" DateCreated="2015-10-11">
+        <ClinVarSubmissionID localKey="1113291|MedGen:C0008780" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000253974" DateUpdated="2024-02-28" DateCreated="2015-10-11" Type="SCV" Version="5" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-03-19">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>For these reasons, this variant has been classified as Pathogenic. While this particular sequence change has not been reported in the literature, truncating mutations in CCDC39 are known to be pathogenic (PMID:¬†23255504). This sequence change inserts 1 nucleotide in exon 12 of the CCDC39 mRNA (c.1644delT), causing a frameshift at codon 548. This creates a premature translational stop signal (p.Asp548Glufs*10) and is expected to result in an absent or disrupted protein product.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CCDC39" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000003.11:g.180361929del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0008780" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2015September</SubmissionName>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12506961</SubmissionName>
+          <SubmissionName>SUB14200269</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="469068" TraitType="Disease" MappingType="XRef" MappingValue="C0008780" MappingRef="MedGen">
+        <MedGen CUI="C0008780" Name="Primary ciliary dyskinesia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

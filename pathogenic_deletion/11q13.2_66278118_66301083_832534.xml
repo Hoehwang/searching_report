@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="832534" VariationName="NC_000011.10:g.(?_66510650)_(66524211_?)del" VariationType="Deletion" Accession="VCV000832534" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="820407" VariationID="832534">
+      <GeneList>
+        <Gene Symbol="BBS1" FullName="Bardet-Biedl syndrome 1" GeneID="582" HGNC_ID="HGNC:966" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="66510635" stop="66533598" display_start="66510635" display_stop="66533598" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="66278118" stop="66301083" display_start="66278118" display_stop="66301083" Strand="+" />
+          </Location>
+          <OMIM>209901</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.10:g.(?_66510650)_(66524211_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="66278121" innerStop="66291682" display_start="66278121" display_stop="66291682" variantLength="13562" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_66278121)_(66291682_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_66278121)_(66291682_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.10:g.(?_66510650)_(66524211_?)del AND Bardet-Biedl syndrome" Accession="RCV001033013" Version="1">
+        <ClassifiedConditionList TraitSetID="6293">
+          <ClassifiedCondition DB="MedGen" ID="C0752166">Bardet-Biedl syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24746959</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6293" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="376" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome</ElementValue>
+                <XRef ID="Bardet-Biedl+Syndrome/723" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0015229" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+                <XRef ID="5619004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6866" />
+                <XRef ID="6866" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301537</ID>
+                <ID Source="BookShelf">NBK1363</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2010">
+                <ID Source="pmc">3061994</ID>
+              </Citation>
+              <XRef ID="110" DB="Orphanet" />
+              <XRef ID="C0752166" DB="MedGen" />
+              <XRef ID="MONDO:0015229" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357576" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="5994224|MedGen:C0752166" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001196320" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-19">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">24746959</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 1-11 of the BBS1 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 11 of the BBS1 gene. This is expected to result in an absent or disrupted protein product. This variant has been observed in an individual affected with Bardet-Biedl syndrome (PMID: 24746959). Loss-of-function variants in BBS1 are known to be pathogenic (PMID: 12118255). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BBS1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.9:g.(?_66278121)_(66291682_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Bardet-Biedl syndrome</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0752166" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357576" TraitType="Disease" MappingType="Name" MappingValue="Bardet-Biedl syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0752166" Name="Bardet-Biedl syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

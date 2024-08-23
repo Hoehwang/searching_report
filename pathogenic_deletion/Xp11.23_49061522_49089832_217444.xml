@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="217444" VariationName="NG_009095.2:g.(16929_16947)_(21383_21401)del" VariationType="Deletion" Accession="VCV000217444" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2015-10-31" MostRecentSubmission="2015-10-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="214084" VariationID="217444">
+      <GeneList>
+        <Gene Symbol="CACNA1F" FullName="calcium voltage-gated channel subunit alpha1 F" GeneID="778" HGNC_ID="HGNC:1393" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp11.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="49205063" stop="49233340" display_start="49205063" display_stop="49233340" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="49061522" stop="49089832" display_start="49061522" display_stop="49089832" Strand="-" />
+          </Location>
+          <OMIM>300110</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NG_009095.2:g.(16929_16947)_(21383_21401)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" outerStart="49216966" innerStart="49216984" innerStop="49221420" outerStop="49221438" display_start="49216966" display_stop="49221438" variantLength="4437" />
+      </Location>
+      <OtherNameList>
+        <Name>EX18-26DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005183.3" sequenceAccession="NM_005183" sequenceVersion="3" change="c.2322_3122del">
+            <Expression>NM_005183.3:c.2322_3122del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009095.2" sequenceAccession="NG_009095" sequenceVersion="2" change="g.(16929_16947)_(21383_21401)del">
+            <Expression>NG_009095.2:g.(16929_16947)_(21383_21401)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.11" sequenceAccession="NC_000023" sequenceVersion="11" change="g.(49216966_49216984)_(49221420_49221438)del" Assembly="GRCh38">
+            <Expression>NC_000023.11:g.(49216966_49216984)_(49221420_49221438)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="300110.0010" DB="OMIM" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 24124559 Fig. 3 to determine the location of this allele on the current reference sequence.</Comment>
+      <Comment DataSource="NCBI curation" Type="LocationOnGenomeAndProductNotAligned">Deletion endpoints are within AluSx repeats located in introns 17 and 26 of gene CACNA1F, resulting in the skipping of exons 18-26 in the gene product.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">Genomic deletion of about 4.4-kb starting in intron 17 and ending in intron 26 of gene CACNA1F.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NG_009095.2:g.(16929_16947)_(21383_21401)del AND X-linked cone-rod dystrophy 3" Accession="RCV000201391" Version="1">
+        <ClassifiedConditionList TraitSetID="3170">
+          <ClassifiedCondition DB="MedGen" ID="C1845407">X-linked cone-rod dystrophy 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2013-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2013-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-31" MostRecentSubmission="2015-10-31">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">24124559</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3170" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1545" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">X-linked cone-rod dystrophy 3</ElementValue>
+                <XRef ID="MONDO:0010335" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CORDX3</ElementValue>
+                <XRef Type="MIM" ID="300476" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10654" />
+                <XRef ID="10654" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1872" DB="Orphanet" />
+              <XRef ID="C1845407" DB="MedGen" />
+              <XRef ID="MONDO:0010335" DB="MONDO" />
+              <XRef Type="MIM" ID="300476" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="477977" SubmissionDate="2015-10-28" DateLastUpdated="2015-10-31" DateCreated="2015-10-31">
+        <ClinVarSubmissionID localKey="300110.0010_CONE-ROD DYSTROPHY, X-LINKED, 3" title="CACNA1F, EX18-26DEL_CONE-ROD DYSTROPHY, X-LINKED, 3" />
+        <ClinVarAccession Accession="SCV000256099" DateUpdated="2015-10-31" DateCreated="2015-10-31" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2013-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In affected male members over 3 generations of a large German family with slowly progressive cone-rod dystrophy (CORDX3; 300476), Hauke et al. (2013) identified hemizygosity for a large intragenic in-frame deletion encompassing exons 18 to 26 of the CACNA1F gene (EX18-27del, NM_005183.2). The deletion is flanked by AluSx repeat sequences on both sides, suggesting that it results from Alu-Alu repeat-mediated nonhomologous recombination. Sequencing of truncated transcripts from affected individuals revealed the aberrant junction of exon 17 to exon 27, representing the loss of 267 amino acids (residues 77-1041), including 4 transmembrane helices within the homologous domain III. The deletion segregated with disease in the family, with asymptomatic female carriers being heterozygous for the deletion.</Attribute>
+              <Citation>
+                <ID Source="PubMed">24124559</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="300476" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CACNA1F" />
+          </GeneList>
+          <Name>CACNA1F, EX18-26DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">EX18-26DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="300110.0010" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CONE-ROD DYSTROPHY, X-LINKED, 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="477977" TraitType="Disease" MappingType="Name" MappingValue="CONE-ROD DYSTROPHY, X-LINKED, 3" MappingRef="Preferred">
+        <MedGen CUI="C1845407" Name="X-linked cone-rod dystrophy 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

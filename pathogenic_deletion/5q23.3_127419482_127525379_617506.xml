@@ -1,0 +1,995 @@
+<VariationArchive VariationID="617506" VariationName="Single allele" VariationType="Deletion" Accession="VCV000617506" Version="4" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2024-06-23" DateCreated="2019-01-31" MostRecentSubmission="2019-08-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="608866" VariationID="617506">
+      <GeneList>
+        <Gene Symbol="SLC12A2" FullName="solute carrier family 12 member 2" GeneID="6558" HGNC_ID="HGNC:10911" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="128083766" stop="128189677" display_start="128083766" display_stop="128189677" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="127419482" stop="127525379" display_start="127419482" display_stop="127525379" Strand="+" />
+          </Location>
+          <OMIM>600840</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>Single allele</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="127441491" stop="127471419" display_start="127441491" display_stop="127471419" variantLength="29929" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.127441491_127471419del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.127441491_127471419del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="effect on protein abundance">
+        <XRef ID="0052" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="Single allele AND Kilquist syndrome" Accession="RCV000754630" Version="4">
+        <ClassifiedConditionList TraitSetID="46286">
+          <ClassifiedCondition DB="MedGen" ID="C5436756">Kilquist syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-01-01" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-01-01" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2019-01-31" MostRecentSubmission="2019-08-05">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="46286" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41330" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Kilquist syndrome</ElementValue>
+                <XRef ID="MONDO:0033664" DB="MONDO" />
+                <XRef ID="18c3fb5f-b11b-44db-a639-" DB="Undiagnosed Diseases Network, NIH" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">KILQS</ElementValue>
+                <XRef Type="MIM" ID="619080" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5436756" DB="MedGen" />
+              <XRef ID="MONDO:0033664" DB="MONDO" />
+              <XRef Type="MIM" ID="619080" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1824166" SubmissionDate="2019-05-22" DateLastUpdated="2019-08-05" DateCreated="2019-08-05">
+        <ClinVarSubmissionID localKey="18c3fb5f-b11b-44db-a639-da7c4ce22e2c_1|Kilquist syndrome" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000930559" DateUpdated="2019-08-05" DateCreated="2019-08-05" Type="SCV" Version="1" SubmitterName="Undiagnosed Diseases Network, NIH" OrgID="505999" OrganizationCategory="consortium" OrgAbbreviation="UDN" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Homozygous deletion of SLC12A2 due to uniparental paternal isodisomy. Deletion from intron 1 to the beginning of exon 7 (chr5:127441491â€ 127471419) including an inversion of 34 base pairs (chr5:127441491â€127471419delins34). As a carrier, the father shows no symptoms of Kilquist syndrome. This family has been reported in PMID: 30740830.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Ethnicity>White</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">genome sequencing</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory">HudsonAlpha</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Xerostomia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000217" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Widened cerebral subarachnoid space</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012766" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Verrucae</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0200043" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Upper airway obstruction</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002781" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Tricuspid regurgitation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0005180" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Thoracic kyphosis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002942" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Thick hair</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100874" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Slender long bone</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003100" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Short foot</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001773" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Shallow acetabular fossae</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003182" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Severe muscular hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0006829" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Severe expressive language delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0006863" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Right ventricular dilatation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0005133" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Ridged fingernail</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0008402" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Profound global developmental delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012736" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Primary Caesarian section</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0030363" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Premature birth</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001622" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Prelingual sensorineural hearing impairment</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000399" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Preeclampsia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100602" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Posteriorly rotated ears</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000358" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Poor head control</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002421" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Pneumonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002090" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Pectus carinatum</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000768" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Patent ductus arteriosus</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001643" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Palmoplantar keratoderma</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000982" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Osteopenia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000938" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Oral motor hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0030190" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Oral aversion</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012523" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Obstructive sleep apnea syndrome</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002870" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Neonatal respiratory distress</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002643" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Narrow forehead</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000341" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Multiple plantar creases</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0008113" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Multiple palmar creases</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0006114" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Morphological abnormality of the semicircular canal</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011380" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Midgut malrotation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0005211" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Midface retrusion</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011800" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Microtia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0008551" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Microcephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Lower limb asymmetry</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100559" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Low CSF 5-methyltetrahydrofolate</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012446" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Long face</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000276" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Joint hypermobility</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001382" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Intermittent diarrhea</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002254" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Inability to walk</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002540" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hyporeflexia of lower limbs</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002600" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hypoplasia of the ear cartilage</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100720" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hip subluxation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0030043" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">High-frequency hearing impairment</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0005101" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hiatal hernia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002036" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Hepatic steatosis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001397" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Heat intolerance</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002046" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Generalized hyperreflexia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0007034" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gastroparesis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002578" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gastrointestinal dysmotility</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002579" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gastroesophageal reflux</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002020" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Frontal bossing</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002007" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Fragile nails</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001808" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Feeding difficulties in infancy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0008872" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Esophagitis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100633" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Epicanthus</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000286" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Elevated serum creatine phosphokinase</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003236" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">EMG abnormality</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003457" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">EEG with focal slow activity</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010843" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Dolichocephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000268" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Dilatation of the renal pelvis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010946" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Constipation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002019" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Coarse hair</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002208" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Cholelithiasis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001081" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Choanal atresia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000453" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Cerebral palsy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0100021" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Bruxism</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003763" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Broad forehead</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000337" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Babinski sign</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0003487" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Anemia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001903" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of the subarachnoid space</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012703" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of the cerebrospinal fluid</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002921" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of eye movement</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000496" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of amino acid metabolism</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004337" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormal sweat homeostasis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0040127" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormal sudomotor regulation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0012333" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormal auditory evoked potentials</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0006958" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">2-3 toe syndactyly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004691" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC12A2" />
+          </GeneList>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="5" start="127441491" stop="127471419" variantLength="29929" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Kilquist syndrome</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <StudyName>Undiagnosed Diseases Network (NIH), UDN</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB5658946</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="1727079" SubmissionDate="2019-01-28" DateLastUpdated="2019-01-31" DateCreated="2019-01-31">
+        <ClinVarSubmissionID localKey="SUB5070576" submittedAssembly="hg19" title="SUB5070576" />
+        <ClinVarAccession Accession="SCV000882431" DateUpdated="2019-01-31" DateCreated="2019-01-31" Type="SCV" Version="1" SubmitterName="Undiagnosed Diseases Program Translational Research Laboratory, National Institutes of Health" OrgID="505589" OrganizationCategory="laboratory" OrgAbbreviation="UDP" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-01-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Ethnicity>Mixed European</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet DateLastEvaluated="2018-01-23" Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000407" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011343" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002566" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002019" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0100755" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000522" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>not applicable</Origin>
+              <CellLine>Dermal fibroblasts from patient and unaffected controls</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Nonsense mediated decay of SLC12A2 and absence of protein.</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Deletion</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="5" start="127441491" stop="127471419" />
+          </Location>
+          <FunctionalConsequence Value="effect on protein abundance">
+            <XRef DB="Variation Ontology" ID="0052" URL="http://purl.obolibrary.org/obo/VariO_0052" />
+          </FunctionalConsequence>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Kilquist Syndrome</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5070576</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of eye movement" MappingRef="Preferred">
+        <MedGen CUI="C0497202" Name="Abnormality of eye movement" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Profound global developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C3553450" Name="Profound global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Intermittent diarrhea" MappingRef="Preferred">
+        <MedGen CUI="C0239181" Name="Intermittent diarrhea" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Constipation" MappingRef="Preferred">
+        <MedGen CUI="C0009806" Name="Constipation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Upper airway obstruction" MappingRef="Preferred">
+        <MedGen CUI="C0740852" Name="Upper airway obstruction" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Midface retrusion" MappingRef="Preferred">
+        <MedGen CUI="C1853242" Name="Midface retrusion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Elevated serum creatine phosphokinase" MappingRef="Preferred">
+        <MedGen CUI="C0241005" Name="Elevated circulating creatine kinase concentration" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000407" MappingRef="HP">
+        <MedGen CUI="C0018784" Name="Sensorineural hearing loss disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Gastrointestinal dysmotility" MappingRef="Preferred">
+        <MedGen CUI="C1836923" Name="Gastrointestinal dysmotility" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Broad forehead" MappingRef="Preferred">
+        <MedGen CUI="C1849089" Name="Broad forehead" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Severe muscular hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C1839630" Name="Severe muscular hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormal sweat homeostasis" MappingRef="Preferred">
+        <MedGen CUI="C4022423" Name="Abnormal sweat homeostasis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Choanal atresia" MappingRef="Preferred">
+        <MedGen CUI="C0008297" Name="Choanal atresia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Lower limb asymmetry" MappingRef="Preferred">
+        <MedGen CUI="C0023221" Name="Lower limb asymmetry" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Poor head control" MappingRef="Preferred">
+        <MedGen CUI="C1836038" Name="Poor head control" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Disease" MappingType="Name" MappingValue="Kilquist Syndrome" MappingRef="Preferred">
+        <MedGen CUI="C5436756" Name="Kilquist syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Feeding difficulties in infancy" MappingRef="Preferred">
+        <MedGen CUI="C2674608" Name="Feeding difficulties in infancy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Babinski sign" MappingRef="Preferred">
+        <MedGen CUI="C0034935" Name="Babinski sign" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Disease" MappingType="Name" MappingValue="Kilquist syndrome" MappingRef="Preferred">
+        <MedGen CUI="C5436756" Name="Kilquist syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="EMG abnormality" MappingRef="Preferred">
+        <MedGen CUI="C0476403" Name="EMG abnormality" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Hip subluxation" MappingRef="Preferred">
+        <MedGen CUI="C0434785" Name="Hip subluxation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Hiatal hernia" MappingRef="Preferred">
+        <MedGen CUI="C3489393" Name="Hiatus hernia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Multiple plantar creases" MappingRef="Preferred">
+        <MedGen CUI="C1861873" Name="Multiple plantar creases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Palmoplantar keratoderma" MappingRef="Preferred">
+        <MedGen CUI="C4551675" Name="Palmoplantar keratoderma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormal sudomotor regulation" MappingRef="Preferred">
+        <MedGen CUI="C4021092" Name="Abnormal sudomotor regulation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Preeclampsia" MappingRef="Preferred">
+        <MedGen CUI="C0032914" Name="Preeclampsia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Hypoplasia of the ear cartilage" MappingRef="Preferred">
+        <MedGen CUI="C4021986" Name="Hypoplasia of the ear cartilage" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002019" MappingRef="HP">
+        <MedGen CUI="C0009806" Name="Constipation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Primary Caesarian section" MappingRef="Preferred">
+        <MedGen CUI="C4072903" Name="Primary Caesarian section" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Tricuspid regurgitation" MappingRef="Preferred">
+        <MedGen CUI="C0040961" Name="Tricuspid regurgitation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Neonatal respiratory distress" MappingRef="Preferred">
+        <MedGen CUI="C4281993" Name="Neonatal respiratory distress" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Fragile nails" MappingRef="Preferred">
+        <MedGen CUI="C1856963" Name="Fragile nails" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Hepatic steatosis" MappingRef="Preferred">
+        <MedGen CUI="C2711227" Name="Hepatic steatosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Long face" MappingRef="Preferred">
+        <MedGen CUI="C1836047" Name="Long face" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Oral aversion" MappingRef="Preferred">
+        <MedGen CUI="C3665983" Name="Oral aversion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Low CSF 5-methyltetrahydrofolate" MappingRef="Preferred">
+        <MedGen CUI="C4022901" Name="Decreased CSF 5-methyltetrahydrofolate concentration" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Cerebral palsy" MappingRef="Preferred">
+        <MedGen CUI="C0007789" Name="Cerebral palsy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Obstructive sleep apnea syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0520679" Name="Obstructive sleep apnea syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Short foot" MappingRef="Preferred">
+        <MedGen CUI="C1848673" Name="Short foot" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Patent ductus arteriosus" MappingRef="Preferred">
+        <MedGen CUI="C0013274" Name="Patent ductus arteriosus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Generalized hyperreflexia" MappingRef="Preferred">
+        <MedGen CUI="C4024949" Name="Generalized hyperreflexia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Severe expressive language delay" MappingRef="Preferred">
+        <MedGen CUI="C1851085" Name="Severe expressive language delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Midgut malrotation" MappingRef="Preferred">
+        <MedGen CUI="C1849706" Name="Midgut malrotation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Prelingual sensorineural hearing impairment" MappingRef="Preferred">
+        <MedGen CUI="C4021806" Name="Prelingual sensorineural hearing impairment" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of the cerebrospinal fluid" MappingRef="Preferred">
+        <MedGen CUI="C0151583" Name="Abnormal cerebrospinal fluid morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Xerostomia" MappingRef="Preferred">
+        <MedGen CUI="C0043352" Name="Xerostomia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Dilatation of the renal pelvis" MappingRef="Preferred">
+        <MedGen CUI="C0341676" Name="Dilatation of the renal pelvis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Gastroparesis" MappingRef="Preferred">
+        <MedGen CUI="C0152020" Name="Gastroparesis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Thoracic kyphosis" MappingRef="Preferred">
+        <MedGen CUI="C1184919" Name="Thoracic kyphosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Frontal bossing" MappingRef="Preferred">
+        <MedGen CUI="C0221354" Name="Frontal bossing" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Premature birth" MappingRef="Preferred">
+        <MedGen CUI="C0151526" Name="Premature birth" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Posteriorly rotated ears" MappingRef="Preferred">
+        <MedGen CUI="C0431478" Name="Posteriorly rotated ears" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Hyporeflexia of lower limbs" MappingRef="Preferred">
+        <MedGen CUI="C1834696" Name="Hyporeflexia of lower limbs" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Narrow forehead" MappingRef="Preferred">
+        <MedGen CUI="C1839758" Name="Narrow forehead" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Joint hypermobility" MappingRef="Preferred">
+        <MedGen CUI="C1844820" Name="Joint hypermobility" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Esophagitis" MappingRef="Preferred">
+        <MedGen CUI="C0014868" Name="Esophagitis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002566" MappingRef="HP">
+        <MedGen CUI="C0221210" Name="Intestinal malrotation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Heat intolerance" MappingRef="Preferred">
+        <MedGen CUI="C0231274" Name="Heat intolerance" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormal auditory evoked potentials" MappingRef="Preferred">
+        <MedGen CUI="C0522216" Name="Abnormal auditory evoked potentials" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Dolichocephaly" MappingRef="Preferred">
+        <MedGen CUI="C0221358" Name="Dolichocephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0100755" MappingRef="HP">
+        <MedGen CUI="C4021978" Name="Abnormality of salivation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Oral motor hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C4022592" Name="Oral motor hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Slender long bone" MappingRef="Preferred">
+        <MedGen CUI="C1833144" Name="Slender long bone" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of the subarachnoid space" MappingRef="Preferred">
+        <MedGen CUI="C4022765" Name="Abnormal subarachnoid space morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Pectus carinatum" MappingRef="Preferred">
+        <MedGen CUI="C0158731" Name="Pectus carinatum" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Thick hair" MappingRef="Preferred">
+        <MedGen CUI="C4073184" Name="Thick hair" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Widened cerebral subarachnoid space" MappingRef="Preferred">
+        <MedGen CUI="C4022733" Name="Widened cerebral subarachnoid space" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Epicanthus" MappingRef="Preferred">
+        <MedGen CUI="C0678230" Name="Epicanthus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Bruxism" MappingRef="Preferred">
+        <MedGen CUI="C0006325" Name="Bruxism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Right ventricular dilatation" MappingRef="Preferred">
+        <MedGen CUI="C0344893" Name="Right ventricular dilatation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Microtia" MappingRef="Preferred">
+        <MedGen CUI="C0152423" Name="Microtia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Verrucae" MappingRef="Preferred">
+        <MedGen CUI="C3665596" Name="Verrucae" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="2-3 toe syndactyly" MappingRef="Preferred">
+        <MedGen CUI="C4551570" Name="2-3 toe syndactyly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Inability to walk" MappingRef="Preferred">
+        <MedGen CUI="C0560046" Name="Inability to walk" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011343" MappingRef="HP">
+        <MedGen CUI="C2237142" Name="Moderate global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Osteopenia" MappingRef="Preferred">
+        <MedGen CUI="C0029453" Name="Osteopenia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Gastroesophageal reflux" MappingRef="Preferred">
+        <MedGen CUI="C4317146" Name="Gastroesophageal reflux" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Ridged fingernail" MappingRef="Preferred">
+        <MedGen CUI="C1849392" Name="Ridged fingernail" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Microcephaly" MappingRef="Preferred">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Cholelithiasis" MappingRef="Preferred">
+        <MedGen CUI="C0008350" Name="Cholelithiasis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="EEG with focal slow activity" MappingRef="Preferred">
+        <MedGen CUI="C4021218" Name="EEG with focal slow activity" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Shallow acetabular fossae" MappingRef="Preferred">
+        <MedGen CUI="C1854910" Name="Shallow acetabular fossae" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Pneumonia" MappingRef="Preferred">
+        <MedGen CUI="C0032285" Name="Pneumonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="High-frequency hearing impairment" MappingRef="Preferred">
+        <MedGen CUI="C0018780" Name="High-frequency hearing impairment" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1727079" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000522" MappingRef="HP">
+        <MedGen CUI="C0344505" Name="Alacrima" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Anemia" MappingRef="Preferred">
+        <MedGen CUI="C0002871" Name="Anemia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Multiple palmar creases" MappingRef="Preferred">
+        <MedGen CUI="C1861872" Name="Multiple palmar creases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of amino acid metabolism" MappingRef="Preferred">
+        <MedGen CUI="C1328440" Name="Abnormality of amino acid metabolism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1824166" TraitType="Finding" MappingType="Name" MappingValue="Coarse hair" MappingRef="Preferred">
+        <MedGen CUI="C0277959" Name="Coarse hair" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

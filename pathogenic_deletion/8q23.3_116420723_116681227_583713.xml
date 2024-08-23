@@ -1,0 +1,203 @@
+<VariationArchive RecordType="classified" VariationID="583713" VariationName="NC_000008.10:g.(?_116426231)_(116635884_?)del" VariationType="Deletion" Accession="VCV000583713" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="564540" VariationID="583713">
+      <GeneList>
+        <Gene Symbol="TRPS1" FullName="transcriptional repressor GATA binding 1" GeneID="7227" HGNC_ID="HGNC:12340" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="115408496" stop="115668975" display_start="115408496" display_stop="115668975" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="116420723" stop="116681227" display_start="116420723" display_stop="116681227" Strand="-" />
+          </Location>
+          <OMIM>604386</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TRPS1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TRPS1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000008.10:g.(?_116426231)_(116635884_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="116426231" innerStop="116635884" display_start="116426231" display_stop="116635884" variantLength="209654" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_116426231)_(116635884_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_116426231)_(116635884_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000008.10:g.(?_116426231)_(116635884_?)del AND multiple conditions" Accession="RCV000707989" Version="3">
+        <ClassifiedConditionList TraitSetID="11726">
+          <ClassifiedCondition DB="MedGen" ID="C0432233">Trichorhinophalangeal dysplasia type I</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1860823">Trichorhinophalangeal syndrome, type III</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-09" MostRecentSubmission="2020-04-09">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25792522</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="11726" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3914" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Trichorhinophalangeal syndrome type 3</ElementValue>
+                <XRef ID="Trichorhinophalangeal+syndrome+type+3/7205" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Trichorhinophalangeal syndrome, type III</ElementValue>
+                <XRef ID="MONDO:0008597" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">TRPS 3</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Sugio-Kajii Syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TRPS3</ElementValue>
+                <XRef Type="MIM" ID="190351" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7802" />
+                <XRef ID="7802" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="77258" DB="Orphanet" />
+              <XRef ID="C1860823" DB="MedGen" />
+              <XRef ID="MONDO:0008597" DB="MONDO" />
+              <XRef Type="MIM" ID="190351" DB="OMIM" />
+            </Trait>
+            <Trait ID="4294" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Trichorhinophalangeal syndrome type 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">TRPS I</ElementValue>
+                <XRef Type="MIM" ID="190350" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Giedion syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Trichorhinophalangeal dysplasia type I</ElementValue>
+                <XRef ID="Trichorhinophalangeal+dysplasia+type+I/9425" DB="Genetic Alliance" />
+                <XRef ID="254091006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Trichorhinophalangeal Syndrome Type I</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TRPS1</ElementValue>
+                <XRef Type="MIM" ID="190350" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Trichorhinophalangeal syndrome (TRPS) comprises TRPS I (caused by a heterozygous pathogenic variant in TRPS1) and TRPS II (caused by contiguous gene deletion of TRPS1, RAD21, and EXT1). Both types of TRPS are characterized by distinctive facial features; ectodermal features (fine, sparse, depigmented, and slow growing hair; dystrophic nails; and small breasts); and skeletal findings (short stature; short feet; brachydactyly with ulnar or radial deviation of the fingers; and early, marked hip dysplasia). TRPS II is characterized by multiple osteochondromas (typically first observed clinically on the scapulae and around the elbows and knees between ages 1 month and 6 years) and an increased risk of mild-to-moderate intellectual disability.</Attribute>
+                <XRef ID="NBK425926" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7800" />
+                <XRef ID="7800" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">28426188</ID>
+                <ID Source="BookShelf">NBK425926</ID>
+              </Citation>
+              <XRef ID="77258" DB="Orphanet" />
+              <XRef ID="C0432233" DB="MedGen" />
+              <XRef ID="MONDO:0008596" DB="MONDO" />
+              <XRef Type="MIM" ID="190350" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1609124" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-09" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="3719922|MedGen:C1860823;C0432233" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000837099" DateUpdated="2020-04-09" DateCreated="2018-10-10" Type="SCV" Version="3" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">25792522</ID>
+          </Citation>
+          <Comment>A gross deletion of the genomic region encompassing the full coding sequence of the TRPS1 gene has been identified. The boundaries of this event are unknown as the deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. This variant has been observed in an individual with TRPS1-related disease (Invitae). Isolated whole-gene deletions of TRPS1 have not been reported in the literature, however, larger copy number events that include this gene have been reported (PMID: 25792522). Loss-of-function variants in TRPS1 are known to be pathogenic (PMID: 11112658). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TRPS1" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000008.10:g.(?_116426231)_(116635884_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Trichorhinophalangeal syndrome type 3</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1860823" Type="CUI" />
+          </Trait>
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Trichorhinophalangeal dysplasia type I</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0432233" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1609124" TraitType="Disease" MappingType="Name" MappingValue="Trichorhinophalangeal syndrome type 3" MappingRef="Preferred">
+        <MedGen CUI="C1860823" Name="Trichorhinophalangeal syndrome, type III" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1609124" TraitType="Disease" MappingType="Name" MappingValue="Trichorhinophalangeal dysplasia type I" MappingRef="Preferred">
+        <MedGen CUI="C0432233" Name="Trichorhinophalangeal dysplasia type I" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

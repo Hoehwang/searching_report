@@ -1,0 +1,157 @@
+<VariationArchive VariationID="3220947" VariationName="NM_177531.6(PKHD1L1):c.8452_8468del (p.Leu2818fs)" VariationType="Deletion" Accession="VCV003220947" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-17" DateCreated="2024-05-01" MostRecentSubmission="2024-05-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3380123" VariationID="3220947">
+      <GeneList>
+        <Gene Symbol="PKHD1L1" FullName="PKHD1 like 1" GeneID="93035" HGNC_ID="HGNC:20313" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q23.1-23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="109362461" stop="109537207" display_start="109362461" display_stop="109537207" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="110374705" stop="110543499" display_start="110374705" display_stop="110543499" Strand="+" />
+          </Location>
+          <OMIM>607843</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_177531.6(PKHD1L1):c.8452_8468del (p.Leu2818fs)</Name>
+      <CanonicalSPDI>NC_000008.11:109466608:CTCATTGCTAGACCCTTCTCATTG:CTCATTG</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="109466609" stop="109466625" display_start="109466609" display_stop="109466625" variantLength="17" positionVCF="109466608" referenceAlleleVCF="GCTCATTGCTAGACCCTT" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="110478838" stop="110478854" display_start="110478838" display_stop="110478854" variantLength="17" positionVCF="110478837" referenceAlleleVCF="GCTCATTGCTAGACCCTT" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>L2818fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.110478845_110478861del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.110478845_110478861del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.11" sequenceAccession="NC_000008" sequenceVersion="11" change="g.109466616_109466632del" Assembly="GRCh38">
+            <Expression>NC_000008.11:g.109466616_109466632del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_177531.6" sequenceAccession="NM_177531" sequenceVersion="6" change="c.8452_8468del" MANESelect="true">
+            <Expression>NM_177531.6:c.8452_8468del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_803875.2" sequenceAccession="NP_803875" sequenceVersion="2" change="p.Leu2818fs">
+            <Expression>NP_803875.2:p.Leu2818fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="607843.0006" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_177531.6(PKHD1L1):c.8452_8468del (p.Leu2818fs) AND Autosomal recessive nonsyndromic hearing loss 124" Accession="RCV004515824" Version="1">
+        <ClassifiedConditionList TraitSetID="97198">
+          <ClassifiedCondition DB="MedGen" ID="CN377639">Autosomal recessive nonsyndromic hearing loss 124</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2024-04-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-04-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-05-01" MostRecentSubmission="2024-05-01">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">38459354</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="97198" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="76285" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DEAFNESS, AUTOSOMAL RECESSIVE 124</ElementValue>
+                <XRef Type="MIM" ID="620794" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607843.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive nonsyndromic hearing loss 124</ElementValue>
+                <XRef ID="MONDO:0968981" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DFNB124</ElementValue>
+                <XRef Type="MIM" ID="620794" DB="OMIM" />
+              </Symbol>
+              <XRef ID="CN377639" DB="MedGen" />
+              <XRef ID="MONDO:0968981" DB="MONDO" />
+              <XRef Type="MIM" ID="620794" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9226312" SubmissionDate="2024-04-23" DateLastUpdated="2024-05-01" DateCreated="2024-05-01">
+        <ClinVarSubmissionID localKey="607843.0006_DEAFNESS, AUTOSOMAL RECESSIVE 124" title="PKHD1L1, 16-BP DEL, NT8452_DEAFNESS, AUTOSOMAL RECESSIVE 124" />
+        <ClinVarAccession Accession="SCV005016640" DateUpdated="2024-05-01" DateCreated="2024-05-01" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-04-23">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 16-bp deletion (c.8452_8468del, NM_177531.6) in the PKHD1L1 gene, causing a frameshift predicted to result in a premature termination codon (Leu2818TyrfsTer5), that was found in compound heterozygous state in an 8-year-old Chinese boy (patient 4) with nonsyndromic bilateral moderate sensorineural hearing loss (DFNB124; 620794) by Redfield et al. (2024), see 607843.0005.</Attribute>
+              <Citation>
+                <ID Source="PubMed">38459354</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="620794" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PKHD1L1" />
+          </GeneList>
+          <Name>PKHD1L1, 16-BP DEL, NT8452</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">16-BP DEL, NT8452</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="607843.0006" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">DEAFNESS, AUTOSOMAL RECESSIVE 124</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9226312" TraitType="Disease" MappingType="Name" MappingValue="DEAFNESS, AUTOSOMAL RECESSIVE 124" MappingRef="Preferred">
+        <MedGen CUI="CN377639" Name="Autosomal recessive nonsyndromic hearing loss 124" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

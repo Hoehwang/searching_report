@@ -1,0 +1,173 @@
+<VariationArchive RecordType="classified" VariationID="583466" VariationName="NC_000012.12:g.(?_51662798)_(51688869_?)del" VariationType="Deletion" Accession="VCV000583466" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-24" DateCreated="2022-05-16" MostRecentSubmission="2022-05-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="571163" VariationID="583466">
+      <GeneList>
+        <Gene Symbol="LOC114803470" FullName="SCN8A eExon liver enhancer" GeneID="114803470" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>12q13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="51662737" stop="51663319" display_start="51662737" display_stop="51663319" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="SCN8A" FullName="sodium voltage-gated channel alpha subunit 8" GeneID="6334" HGNC_ID="HGNC:10596" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="51591233" stop="51812864" display_start="51591233" display_stop="51812864" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="51985019" stop="52206647" display_start="51985019" display_stop="52206647" Strand="+" />
+          </Location>
+          <OMIM>600702</OMIM>
+          <Haploinsufficiency last_evaluated="2013-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN8A">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2013-04-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SCN8A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000012.12:g.(?_51662798)_(51688869_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>12q13.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="52056582" innerStop="52082653" display_start="52056582" display_stop="52082653" variantLength="26072" />
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" innerStart="51662798" innerStop="51688869" display_start="51662798" display_stop="51688869" variantLength="26072" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.12" sequenceAccession="NC_000012" sequenceVersion="12" change="g.(?_51662798)_(51688869_?)del" Assembly="GRCh38">
+            <Expression>NC_000012.12:g.(?_51662798)_(51688869_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_52056582)_(52082653_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_52056582)_(52082653_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000012.12:g.(?_51662798)_(51688869_?)del AND Early infantile epileptic encephalopathy with suppression bursts" Accession="RCV000707787" Version="3">
+        <ClassifiedConditionList TraitSetID="21987">
+          <ClassifiedCondition DB="MedGen" ID="C0393706">Early infantile epileptic encephalopathy with suppression bursts</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-11-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-11-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-05-16" MostRecentSubmission="2022-05-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19254928</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32651551</ID>
+        </Citation>
+        <DescriptionHistory Dated="2022-05-15">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="21987" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32998" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Developmental and epileptic encephalopathy</ElementValue>
+                <XRef ID="MONDO:0100062" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Early infantile epileptic encephalopathy</ElementValue>
+                <XRef ID="1934" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ohtahara syndrome</ElementValue>
+                <XRef ID="1934" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Early infantile epileptic encephalopathy with suppression bursts</ElementValue>
+                <XRef ID="230429005" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EIEE</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9255" />
+                <XRef ID="9255" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="1934" DB="Orphanet" />
+              <XRef ID="C0393706" DB="MedGen" />
+              <XRef ID="MONDO:0100062" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS308350" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1608922" SubmissionDate="2022-05-04" DateLastUpdated="2022-05-16" DateCreated="2018-10-10">
+        <ClinVarSubmissionID localKey="NM_014191.3_12_Deletion (exons 2-6)|MedGen:C0393706" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000836897" DateUpdated="2022-05-16" DateCreated="2018-10-10" Type="SCV" Version="2" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-11-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19254928</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">32651551</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exon(s) 2-6 of the SCN8A gene, which includes the initiator codon. This deletion extends beyond the assayed region for this gene and therefore may encompass additional genes. It is expected to result in an absent or disrupted protein product. Loss-of-function variants in SCN8A are known to be pathogenic (PMID: 19254928, 32651551). This variant has not been reported in the literature in individuals affected with SCN8A-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SCN8A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.(?_52056582)_(52082653_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0393706" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB4474525</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1608922" TraitType="Disease" MappingType="XRef" MappingValue="C0393706" MappingRef="MedGen">
+        <MedGen CUI="C0393706" Name="Early infantile epileptic encephalopathy with suppression bursts" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,151 @@
+<VariationArchive RecordType="classified" VariationID="2431643" VariationName="NC_000015.10:g.(40529939_40562522)del" VariationType="Deletion" Accession="VCV002431643" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2405147" VariationID="2431643">
+      <GeneList>
+        <Gene Symbol="CCDC32" FullName="coiled-coil domain containing 32" GeneID="90416" HGNC_ID="HGNC:28295" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>15q15.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="40520993" stop="40565042" display_start="40520993" display_stop="40565042" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="40845297" stop="40857251" display_start="40845297" display_stop="40857251" Strand="-" />
+          </Location>
+          <OMIM>618941</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000015.10:g.(40529939_40562522)del</Name>
+      <VariantType>Deletion</VariantType>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000015.10" sequenceAccession="NC_000015" sequenceVersion="10" change="g.(40529939_40562522)del" Assembly="GRCh38">
+            <Expression>NC_000015.10:g.(40529939_40562522)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000015.10:g.(40529939_40562522)del AND Cardiofacioneurodevelopmental syndrome" Accession="RCV003142279" Version="1">
+        <ClassifiedConditionList TraitSetID="64726">
+          <ClassifiedCondition DB="MedGen" ID="C5436852">Cardiofacioneurodevelopmental syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-06-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-06-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="64726" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="54782" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cardiofacioneurodevelopmental syndrome</ElementValue>
+                <XRef ID="MONDO:0030873" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CFNDS</ElementValue>
+                <XRef Type="MIM" ID="619123" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5436852" DB="MedGen" />
+              <XRef ID="MONDO:0030873" DB="MONDO" />
+              <XRef Type="MIM" ID="619123" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7113817" SubmissionDate="2023-03-01" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey="41bc03d33e923a99d4ca7a294593acd9" localKeyIsSubmitted="1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003807749" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein" OrgID="508506" OrganizationCategory="laboratory" OrgAbbreviation="LABO-HIAE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-06-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <GeographicOrigin>Brazil</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <Description>Paired-end whole-genome sequencing</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Paired-end mapping</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011451" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0012758" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000652" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0030084" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CCDC32" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000015.10:g.(40529939_40562522)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619123" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12925816</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7113817" TraitType="Finding" MappingType="XRef" MappingValue="HP:0030084" MappingRef="HP">
+        <MedGen CUI="C4551485" Name="Clinodactyly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113817" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000652" MappingRef="HP">
+        <MedGen CUI="C1837826" Name="Lower eyelid coloboma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113817" TraitType="Disease" MappingType="XRef" MappingValue="619123" MappingRef="OMIM">
+        <MedGen CUI="C5436852" Name="Cardiofacioneurodevelopmental syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113817" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012758" MappingRef="HP">
+        <MedGen CUI="C4022738" Name="Neurodevelopmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7113817" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011451" MappingRef="HP">
+        <MedGen CUI="C2677180" Name="Primary microcephaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

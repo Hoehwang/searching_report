@@ -1,0 +1,144 @@
+<VariationArchive RecordType="classified" VariationID="1179003" VariationName="NM_005733.3(KIF20A):c.1909del (p.Tyr637fs)" VariationType="Deletion" Accession="VCV001179003" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168554" VariationID="1179003">
+      <GeneList>
+        <Gene Symbol="KIF20A" FullName="kinesin family member 20A" GeneID="10112" HGNC_ID="HGNC:9787" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q31.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="138179112" stop="138187723" display_start="138179112" display_stop="138187723" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="137514416" stop="137523403" display_start="137514416" display_stop="137523403" Strand="+" />
+          </Location>
+          <OMIM>605664</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005733.3(KIF20A):c.1909del (p.Tyr637fs)</Name>
+      <CanonicalSPDI>NC_000005.10:138185175:TTTTT:TTTT</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>5q31.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="138185176" stop="138185176" display_start="138185176" display_stop="138185176" variantLength="1" positionVCF="138185175" referenceAlleleVCF="GT" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="137520865" stop="137520865" display_start="137520865" display_stop="137520865" variantLength="1" positionVCF="137520864" referenceAlleleVCF="GT" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>Y637fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.138185180del" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.138185180del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.137520869del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.137520869del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005733.3" sequenceAccession="NM_005733" sequenceVersion="3" change="c.1909del" MANESelect="true">
+            <Expression>NM_005733.3:c.1909del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005724.1" sequenceAccession="NP_005724" sequenceVersion="1" change="p.Tyr637fs">
+            <Expression>NP_005724.1:p.Tyr637fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="605664.0002" DB="OMIM" />
+        <XRef Type="rs" ID="2151233812" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005733.3(KIF20A):c.1909del (p.Tyr637fs) AND Cardiomyopathy, familial restrictive, 6" Accession="RCV001535816" Version="1">
+        <ClassifiedConditionList TraitSetID="68504">
+          <ClassifiedCondition DB="MedGen" ID="C5543638">Cardiomyopathy, familial restrictive, 6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-07-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-07-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29357359</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="68504" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57084" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cardiomyopathy, familial restrictive, 6</ElementValue>
+                <XRef ID="MONDO:0030330" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RCM6</ElementValue>
+                <XRef Type="MIM" ID="619433" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5543638" DB="MedGen" />
+              <XRef ID="MONDO:0030330" DB="MONDO" />
+              <XRef Type="MIM" ID="619433" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3447865" SubmissionDate="2021-07-14" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey="605664.0002_CARDIOMYOPATHY, FAMILIAL RESTRICTIVE, 6 (1 family)" title="KIF20A, 1-BP DEL, 1905T_CARDIOMYOPATHY, FAMILIAL RESTRICTIVE, 6 (1 family)" />
+        <ClinVarAccession Accession="SCV001752416" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-07-14">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+              <FamilyData NumFamilies="1" />
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 1-bp deletion (c.1905delT, NM_005733) in exon 15 of the KIF20A gene, causing a frameshift predicted to result in a premature termination codon (Ser635ThrfsTer15), that was found in compound heterozygous state in a brother and sister with severe restrictive cardiomyopathy of the right ventricle (RCM6; 619433) by Louw et al. (2018), see 605664.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29357359</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619433" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KIF20A" />
+          </GeneList>
+          <Name>KIF20A, 1-BP DEL, 1905T</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 1905T</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="605664.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CARDIOMYOPATHY, FAMILIAL RESTRICTIVE, 6 (1 family)</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+  </ClassifiedRecord>
+</VariationArchive>
+

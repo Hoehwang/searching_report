@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="40292" VariationName="NC_000011.8:g.(67967534_67967551)_(67974756_67974774)del" VariationType="Deletion" Accession="VCV000040292" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-18" DateCreated="2015-07-18" MostRecentSubmission="2023-03-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="48775" VariationID="40292">
+      <GeneList>
+        <Gene Symbol="LRP5" FullName="LDL receptor related protein 5" GeneID="4041" HGNC_ID="HGNC:6697" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>11q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="68298412" stop="68449275" display_start="68298412" display_stop="68449275" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="68080107" stop="68216742" display_start="68080107" display_stop="68216742" Strand="+" />
+          </Location>
+          <OMIM>603506</OMIM>
+          <Haploinsufficiency last_evaluated="2021-12-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LRP5">Some evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-12-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LRP5">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000011.8:g.(67967534_67967551)_(67974756_67974774)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>11q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.8" outerStart="67967534" innerStart="67967551" innerStop="67974756" outerStop="67974774" display_start="67967534" display_stop="67974774" variantLength="7206" />
+      </Location>
+      <OtherNameList>
+        <Name>7.2-KB DEL, EXONS 22-23</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.8" sequenceAccession="NC_000011" sequenceVersion="8" change="g.(67967534_67967551)_(67974756_67974774)del" Assembly="NCBI36">
+            <Expression>NC_000011.8:g.(67967534_67967551)_(67974756_67974774)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="603506.0034" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000011.8:g.(67967534_67967551)_(67974756_67974774)del AND Osteoporosis with pseudoglioma" Accession="RCV000033262" Version="8">
+        <ClassifiedConditionList TraitSetID="1739">
+          <ClassifiedCondition DB="MedGen" ID="C0432252">Osteoporosis with pseudoglioma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2010-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2010-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-07-18" MostRecentSubmission="2023-03-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20034086</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1739" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5707" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Osteogenesis imperfecta ocular form</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudoglioma with bone fragility</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Osteoporosis with pseudoglioma</ElementValue>
+                <XRef ID="Osteoporosis-pseudoglioma+syndrome/5488" DB="Genetic Alliance" />
+                <XRef ID="254112001" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">OPPG</ElementValue>
+                <XRef Type="MIM" ID="259770" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">LRP5</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">OPS</ElementValue>
+                <XRef Type="MIM" ID="259770" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="4160" />
+                <XRef ID="4160" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2788" DB="Orphanet" />
+              <XRef ID="C0432252" DB="MedGen" />
+              <XRef ID="MONDO:0009820" DB="MONDO" />
+              <XRef Type="MIM" ID="259770" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="95659" SubmissionDate="2021-05-11" DateLastUpdated="2023-03-18" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="603506.0034_OSTEOPOROSIS-PSEUDOGLIOMA SYNDROME" title="LRP5, 7.2-KB DEL, EXONS 22-23_OSTEOPOROSIS-PSEUDOGLIOMA SYNDROME" />
+        <ClinVarAccession Accession="SCV000057145" DateUpdated="2023-03-18" DateCreated="2013-04-04" Type="SCV" Version="5" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2010-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 7.2-kb microdeletion encompassing exons 22 and 23 of the LRP5 gene that was found in compound heterozygous state in a patient with osteoporosis-pseudoglioma syndrome (OPPG; 259770) by Narumi et al. (2010), see 603506.0033.</Attribute>
+              <Citation>
+                <ID Source="PubMed">20034086</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="259770" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LRP5" />
+          </GeneList>
+          <Name>LRP5, 7.2-KB DEL, EXONS 22-23</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">7.2-KB DEL, EXONS 22-23</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603506.0034" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">OSTEOPOROSIS-PSEUDOGLIOMA SYNDROME</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="95659" TraitType="Disease" MappingType="Name" MappingValue="OSTEOPOROSIS-PSEUDOGLIOMA SYNDROME" MappingRef="Preferred">
+        <MedGen CUI="C0432252" Name="Osteoporosis with pseudoglioma" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

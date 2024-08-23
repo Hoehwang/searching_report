@@ -1,0 +1,120 @@
+<VariationArchive VariationID="3245209" VariationName="NC_000009.11:g.(?_304561)_(340341_?)del" VariationType="Deletion" Accession="VCV003245209" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-07" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3406450" VariationID="3245209">
+      <GeneList>
+        <Gene Symbol="DOCK8" FullName="dedicator of cytokinesis 8" GeneID="81704" HGNC_ID="HGNC:19191" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="211257" stop="465255" display_start="211257" display_stop="465255" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="214864" stop="465258" display_start="214864" display_stop="465258" Strand="+" />
+          </Location>
+          <OMIM>611432</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000009.11:g.(?_304561)_(340341_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>9p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="304561" innerStop="340341" display_start="304561" display_stop="340341" variantLength="35781" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_304561)_(340341_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_304561)_(340341_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000009.11:g.(?_304561)_(340341_?)del AND not provided" Accession="RCV004581978" Version="1">
+        <ClassifiedConditionList TraitSetID="98102">
+          <ClassifiedCondition>not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-30" MostRecentSubmission="2024-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20004785</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="98102" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="76481" Type="Disease">
+              <XRef ID="C1968689" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9835729" SubmissionDate="2024-06-04" DateLastUpdated="2024-06-29" DateCreated="2024-06-29">
+        <ClinVarSubmissionID localKey="NC_000009.11:g.(?_304561)_(340341_?)del|MedGen:C1968689" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV005067320" DateUpdated="2024-06-29" DateCreated="2024-06-29" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">20004785</ID>
+          </Citation>
+          <Comment>This variant disrupts a region of the DOCK8 protein in which other variant(s) (p.Lys473Arg) have been determined to be pathogenic (PMID: 20004785; Invitae). This suggests that this is a clinically significant region of the protein, and that variants that disrupt it are likely to be disease-causing. This variant is a gross deletion of the genomic region encompassing exon(s) 5-14 of the DOCK8 gene. This variant would be expected to be in-frame, preserving the integrity of the reading frame. This variant has not been reported in the literature in individuals affected with DOCK8-related conditions. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.11:g.(?_304561)_(340341_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1968689" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14505471</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9835729" TraitType="Disease" MappingType="XRef" MappingValue="C1968689" MappingRef="MedGen">
+        <MedGen CUI="C1968689" Name="" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

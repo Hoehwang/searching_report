@@ -1,0 +1,152 @@
+<VariationArchive RecordType="classified" VariationID="830902" VariationName="NC_000006.12:g.(?_145625675)_(145635506_?)del" VariationType="Deletion" Accession="VCV000830902" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819669" VariationID="830902">
+      <GeneList>
+        <Gene Symbol="EPM2A" FullName="EPM2A glucan phosphatase, laforin" GeneID="7957" HGNC_ID="HGNC:3413" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="145383353" stop="145736023" display_start="145383353" display_stop="145736023" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="145946439" stop="146056990" display_start="145946439" display_stop="146056990" Strand="-" />
+          </Location>
+          <OMIM>607566</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000006.12:g.(?_145625675)_(145635506_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>6q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="145946811" innerStop="145956642" display_start="145946811" display_stop="145956642" variantLength="9832" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_145946811)_(145956642_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_145946811)_(145956642_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000006.12:g.(?_145625675)_(145635506_?)del AND Progressive myoclonic epilepsy" Accession="RCV001031500" Version="1">
+        <ClassifiedConditionList TraitSetID="13597">
+          <ClassifiedCondition DB="MedGen" ID="C0751778">Progressive myoclonic epilepsy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-09-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-09-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">18311786</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">20738377</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="13597" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3141" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial progressive myoclonic epilepsy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myoclonic Epilepsies, Progressive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Progressive myoclonic epilepsy</ElementValue>
+                <XRef ID="Progressive+myoclonic+epilepsy/9622" DB="Genetic Alliance" />
+                <XRef ID="267581004" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Myoclonus epilepsy</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Progressive myoclonus epilepsy</ElementValue>
+                <XRef ID="MONDO:0020074" DB="MONDO" />
+                <XRef ID="267581004" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="308" DB="Orphanet" />
+              <XRef ID="98261" DB="Orphanet" />
+              <XRef ID="C0751778" DB="MedGen" />
+              <XRef ID="MONDO:0020074" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS254800" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2356060" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="3037167|MedGen:C0751778" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001194806" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-09-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">18311786</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">20738377</ID>
+          </Citation>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 3-4 of the EPM2A gene. The 5' boundary is likely confined to intron 2. The 3' end of this event is unknown as it extends through the termination codon beyond the assayed region for this gene and may encompass additional genes. While this deletion is not anticipated to result in nonsense mediated decay, it is expected to create a truncated protein product or disrupt mRNA translation. This variant has been observed in combination with another EPM2A variant in an individual suspected of having Lafora disease (PMID: 20738377). Sub-genic deletion of exon 3 has been determined to be pathogenic (PMID: 18311786). Therefore, deletions that fully encompass that region are also expected to be pathogenic. For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EPM2A" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000006.11:g.(?_145946811)_(145956642_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Progressive myoclonic epilepsy</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0751778" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2356060" TraitType="Disease" MappingType="Name" MappingValue="Progressive myoclonic epilepsy" MappingRef="Preferred">
+        <MedGen CUI="C0751778" Name="Progressive myoclonic epilepsy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

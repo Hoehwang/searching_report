@@ -1,0 +1,122 @@
+<VariationArchive RecordType="classified" VariationID="996052" VariationName="NC_000010.10:g.(?_104678237)_(104816721_?)del" VariationType="Deletion" Accession="VCV000996052" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2021-02-07" MostRecentSubmission="2021-02-07">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="983751" VariationID="996052">
+      <GeneList>
+        <Gene Symbol="CNNM2" FullName="cyclin and CBS domain divalent metal cation transport mediator 2" GeneID="54805" HGNC_ID="HGNC:103" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q24.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="102918294" stop="103090222" display_start="102918294" display_stop="103090222" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="104678074" stop="104838343" display_start="104678074" display_stop="104838343" Strand="+" />
+          </Location>
+          <OMIM>607803</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000010.10:g.(?_104678237)_(104816721_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>10q24.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="104678237" innerStop="104816721" display_start="104678237" display_stop="104816721" variantLength="138485" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_104678237)_(104816721_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_104678237)_(104816721_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000010.10:g.(?_104678237)_(104816721_?)del AND Hypomagnesemia, seizures, and intellectual disability 1" Accession="RCV001290329" Version="1">
+        <ClassifiedConditionList TraitSetID="21727">
+          <ClassifiedCondition DB="MedGen" ID="C4225333">Hypomagnesemia, seizures, and intellectual disability 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-07" MostRecentSubmission="2021-02-07">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="21727" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33528" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOMAGNESEMIA, SEIZURES, AND IMPAIRED INTELLECTUAL DEVELOPMENT 1</ElementValue>
+                <XRef Type="MIM" ID="616418" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607803.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607803.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607803.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hypomagnesemia, seizures, and intellectual disability 1</ElementValue>
+                <XRef ID="MONDO:0020787" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HOMGSMR1</ElementValue>
+                <XRef Type="MIM" ID="616418" DB="OMIM" />
+              </Symbol>
+              <XRef ID="34527" DB="Orphanet" />
+              <XRef ID="C4225333" DB="MedGen" />
+              <XRef ID="MONDO:0020787" DB="MONDO" />
+              <XRef Type="MIM" ID="616418" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2914536" SubmissionDate="2021-02-02" DateLastUpdated="2021-02-07" DateCreated="2021-02-07">
+        <ClinVarSubmissionID localKey="NC_000010.10:g.(?_104678237)_(104816721_?)del|OMIM:616418" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001478389" DateUpdated="2021-02-07" DateCreated="2021-02-07" Type="SCV" Version="1" SubmitterName="Physiology, Radboud University Medical Center" OrgID="507915" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000010.10:g.(?_104678237)_(104816721_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616418" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9024005</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2914536" TraitType="Disease" MappingType="XRef" MappingValue="616418" MappingRef="OMIM">
+        <MedGen CUI="C4225333" Name="Hypomagnesemia, seizures, and intellectual disability 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

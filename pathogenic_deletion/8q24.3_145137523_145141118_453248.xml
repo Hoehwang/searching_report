@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="453248" VariationName="NM_003801.4(GPAA1):c.981_993del (p.Gln327fs)" VariationType="Deletion" Accession="VCV000453248" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-12-26" MostRecentSubmission="2017-12-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="446830" VariationID="453248">
+      <GeneList>
+        <Gene Symbol="GPAA1" FullName="glycosylphosphatidylinositol anchor attachment 1" GeneID="8733" HGNC_ID="HGNC:4446" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="144082634" stop="144086216" display_start="144082634" display_stop="144086216" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="145137523" stop="145141118" display_start="145137523" display_stop="145141118" Strand="+" />
+          </Location>
+          <OMIM>603048</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_003801.4(GPAA1):c.981_993del (p.Gln327fs)</Name>
+      <CanonicalSPDI>NC_000008.11:144084579:GTACAAGTATGAC:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="144084580" stop="144084592" display_start="144084580" display_stop="144084592" variantLength="13" positionVCF="144084579" referenceAlleleVCF="AGTACAAGTATGAC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="145139483" stop="145139495" display_start="145139483" display_stop="145139495" variantLength="13" positionVCF="145139482" referenceAlleleVCF="AGTACAAGTATGAC" alternateAlleleVCF="A" />
+      </Location>
+      <ProteinChange>Q327fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.145139483_145139495del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.145139483_145139495del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.11" sequenceAccession="NC_000008" sequenceVersion="11" change="g.144084580_144084592del" Assembly="GRCh38">
+            <Expression>NC_000008.11:g.144084580_144084592del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003801.4" sequenceAccession="NM_003801" sequenceVersion="4" change="c.981_993del" MANESelect="true">
+            <Expression>NM_003801.4:c.981_993del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003792.1" sequenceAccession="NP_003792" sequenceVersion="1" change="p.Gln327fs">
+            <Expression>NP_003792.1:p.Gln327fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA658657836" DB="ClinGen" />
+        <XRef Type="Allelic variant" ID="603048.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1554764080" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003801.4(GPAA1):c.981_993del (p.Gln327fs) AND Glycosylphosphatidylinositol biosynthesis defect 15" Accession="RCV000523072" Version="3">
+        <ClassifiedConditionList TraitSetID="39781">
+          <ClassifiedCondition DB="MedGen" ID="C4540520">Glycosylphosphatidylinositol biosynthesis defect 15</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-12-18" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-12-18" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-12-26" MostRecentSubmission="2017-12-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29100095</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="39781" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38419" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DEVELOPMENTAL DELAY, EPILEPSY, CEREBELLAR ATROPHY, AND OSTEOPENIA</ElementValue>
+                <XRef Type="MIM" ID="617810" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Glycosylphosphatidylinositol biosynthesis defect 15</ElementValue>
+                <XRef ID="MONDO:0060627" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GPIBD15</ElementValue>
+                <XRef Type="MIM" ID="617810" DB="OMIM" />
+              </Symbol>
+              <XRef ID="529665" DB="Orphanet" />
+              <XRef ID="C4540520" DB="MedGen" />
+              <XRef ID="MONDO:0060627" DB="MONDO" />
+              <XRef Type="MIM" ID="617810" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1208567" SubmissionDate="2017-12-18" DateLastUpdated="2017-12-26" DateCreated="2017-12-19">
+        <ClinVarSubmissionID localKey="603048.0002_GLYCOSYLPHOSPHATIDYLINOSITOL BIOSYNTHESIS DEFECT 15" title="GPAA1, 13-BP DEL, NT981_GLYCOSYLPHOSPHATIDYLINOSITOL BIOSYNTHESIS DEFECT 15" />
+        <ClinVarAccession Accession="SCV000622102" DateUpdated="2017-12-26" DateCreated="2017-12-19" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-12-18">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 13-bp deletion (c.981_993del, NM_003801.3) in the GPAA1 gene, resulting in a frameshift and premature termination (Gln327HisfsTer102), that was found in compound heterozygous state in 2 sibs with glycosylphosphatidylinositol biosynthesis defect-15 (GPIBD15; 617810) by Nguyen et al. (2017), see 603048.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29100095</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617810" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GPAA1" />
+          </GeneList>
+          <Name>GPAA1, 13-BP DEL, NT981</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">13-BP DEL, NT981</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="603048.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">GLYCOSYLPHOSPHATIDYLINOSITOL BIOSYNTHESIS DEFECT 15</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1208567" TraitType="Disease" MappingType="Name" MappingValue="GLYCOSYLPHOSPHATIDYLINOSITOL BIOSYNTHESIS DEFECT 15" MappingRef="Preferred">
+        <MedGen CUI="C4540520" Name="Glycosylphosphatidylinositol biosynthesis defect 15" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

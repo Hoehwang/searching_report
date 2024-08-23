@@ -1,0 +1,160 @@
+<VariationArchive RecordType="classified" VariationID="12133" VariationName="NM_000387.6(SLC25A20):c.200_326+1del" VariationType="Deletion" Accession="VCV000012133" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-08-09" MostRecentSubmission="2019-08-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="27172" VariationID="12133">
+      <GeneList>
+        <Gene Symbol="SLC25A20" FullName="solute carrier family 25 member 20" GeneID="788" HGNC_ID="HGNC:1421" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>3p21.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="48856926" stop="48898882" display_start="48856926" display_stop="48898882" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="48894355" stop="48936425" display_start="48894355" display_stop="48936425" Strand="-" />
+          </Location>
+          <OMIM>613698</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000387.6(SLC25A20):c.200_326+1del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>3p21.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="48883996" stop="48884123" display_start="48883996" display_stop="48884123" variantLength="128" Strand="-" positionVCF="48883995" referenceAlleleVCF="ACCTGAGCACATCTTCTGGGTGTTTCTGTTGTAGTTTCTTCCCCAAACCAAACCCAAAGAAGCACACGGCAAACATGGGAGTGACCCCGATGATAGGGGCAGCCATTCCCCGATATAGCCCCGTGATGC" alternateAlleleVCF="A" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="48921429" stop="48921556" display_start="48921429" display_stop="48921556" variantLength="128" positionVCF="48921428" referenceAlleleVCF="ACCTGAGCACATCTTCTGGGTGTTTCTGTTGTAGTTTCTTCCCCAAACCAAACCCAAAGAAGCACACGGCAAACATGGGAGTGACCCCGATGATAGGGGCAGCCATTCCCCGATATAGCCCCGTGATGC" alternateAlleleVCF="A" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.48921433_48921560del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.48921433_48921560del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.12" sequenceAccession="NC_000003" sequenceVersion="12" change="g.48884000_48884127del" Assembly="GRCh38">
+            <Expression>NC_000003.12:g.48884000_48884127del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_008171.1" sequenceAccession="NG_008171" sequenceVersion="1" change="g.19774_19901del">
+            <Expression>NG_008171.1:g.19774_19901del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000387.6" sequenceAccession="NM_000387" sequenceVersion="6" change="c.200_326+1del" MANESelect="true">
+            <Expression>NM_000387.6:c.200_326+1del</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001574" Type="splice acceptor variant" DB="SO" />
+          <MolecularConsequence ID="SO:0001575" Type="splice donor variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA121913" DB="ClinGen" />
+        <XRef ID="nssv7487162" DB="dbVar" />
+        <XRef ID="nsv1197563" DB="dbVar" />
+        <XRef Type="Allelic variant" ID="613698.0002" DB="OMIM" />
+        <XRef Type="rs" ID="1553686314" DB="dbSNP" />
+      </XRefList>
+      <Comment DataSource="NCBI curation" Type="public">128-nt deletion in transcript of gene SLC25A20, resulting on loss of exon 3.</Comment>
+      <Comment DataSource="NCBI curation" Type="public">NCBI staff reviewed the sequence information reported in PubMed 9686371 and PubMed 9399886 Fig. 1 to determine the location of this deletion on the current reference sequence.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000387.6(SLC25A20):c.200_326+1del AND Carnitine acylcarnitine translocase deficiency" Accession="RCV000012916" Version="4">
+        <ClassifiedConditionList TraitSetID="3286">
+          <ClassifiedCondition DB="MedGen" ID="C0342791">Carnitine acylcarnitine translocase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="1998-06-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="1998-06-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-08-09" MostRecentSubmission="2019-08-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">9686371</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3286" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10955" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Carnitine acylcarnitine translocase deficiency</ElementValue>
+                <XRef ID="Carnitine-Acylcarnitine+Translocase+Deficiency/1115" DB="Genetic Alliance" />
+                <XRef ID="238003000" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CACTD</ElementValue>
+                <XRef Type="MIM" ID="212138" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1123" />
+                <XRef ID="1123" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="159" DB="Orphanet" />
+              <XRef ID="C0342791" DB="MedGen" />
+              <XRef ID="MONDO:0008918" DB="MONDO" />
+              <XRef Type="MIM" ID="212138" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="33157" SubmissionDate="2019-08-06" DateLastUpdated="2019-08-09" DateCreated="2013-04-04">
+        <ClinVarSubmissionID localKey="613698.0002_CARNITINE-ACYLCARNITINE TRANSLOCASE DEFICIENCY" title="SLC25A20, 128-BP DEL_CARNITINE-ACYLCARNITINE TRANSLOCASE DEFICIENCY" />
+        <ClinVarAccession Accession="SCV000033157" DateUpdated="2019-08-09" DateCreated="2013-04-04" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="1998-06-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 sibs with carnitine-acylcarnitine translocase deficiency (CACTD; 212138), the offspring of consanguineous Turkish parents, Huizing et al. (1998) identified compound heterozygosity for 2 deletions of the CACT gene: deletion of 128 bp (basepairs 261-388) and deletion of 110 bp (basepairs 671-780) (613698.0003). In each case a premature stop codon was introduced owing to frameshift. Further studies indicated that no product carrying both deletions was obtained, suggesting that the patient was a compound heterozygote (despite consanguinity of the parents). It was predicted that the number of amino acids, 301 in the wildtype protein, was reduced to 139 in the first deletion and 211 in the second deletion. The patient in this case became somnolent, had bradycardia, and developed generalized skeletal muscle weakness by the third day of life. Hypoglycemia, moderate metabolic acidosis, increased plasma ammonia concentrations, and dicarboxylic aciduria were found. During an attack of cardiac arrhythmias and arrest he was resuscitated and artificial ventilation was started, which was continued until death at the age of 8 weeks. On treatment he developed hypertrophic cardiomyopathy and marked hepatomegaly. At least one other child in this sibship, a girl, was well until the sixth day of life when she developed a course of disease strikingly similar to that of her younger brother, with somnolence, tachyarrhythmias, and cardiorespiratory distress requiring resuscitation. Later she showed mild hyperammonemia, hepatomegaly with abnormal liver functions and seizures, and she died with multiorgan failure at the age of 5 weeks.</Attribute>
+              <Citation>
+                <ID Source="PubMed">9686371</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="212138" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC25A20" />
+          </GeneList>
+          <Name>SLC25A20, 128-BP DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">128-BP DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="613698.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CARNITINE-ACYLCARNITINE TRANSLOCASE DEFICIENCY</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="33157" TraitType="Disease" MappingType="Name" MappingValue="CARNITINE-ACYLCARNITINE TRANSLOCASE DEFICIENCY" MappingRef="Preferred">
+        <MedGen CUI="C0342791" Name="Carnitine acylcarnitine translocase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

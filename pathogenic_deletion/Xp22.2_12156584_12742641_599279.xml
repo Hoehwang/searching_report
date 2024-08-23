@@ -1,0 +1,141 @@
+<VariationArchive RecordType="classified" VariationID="599279" VariationName="NC_000023.10:g.12515801_12581900del" VariationType="Deletion" Accession="VCV000599279" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2021-08-24" MostRecentSubmission="2021-08-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="590541" VariationID="599279">
+      <GeneList>
+        <Gene Symbol="FRMPD4" FullName="FERM and PDZ domain containing 4" GeneID="9758" HGNC_ID="HGNC:29007" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="11822439" stop="12724523" display_start="11822439" display_stop="12724523" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="12156584" stop="12742641" display_start="12156584" display_stop="12742641" Strand="+" />
+          </Location>
+          <OMIM>300838</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NC_000023.10:g.12515801_12581900del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="12515801" stop="12581900" display_start="12515801" display_stop="12581900" variantLength="66100" />
+      </Location>
+      <OtherNameList>
+        <Name>66-KB DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.12515801_12581900del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.12515801_12581900del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="300838.0003" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000023.10:g.12515801_12581900del AND Intellectual disability, X-linked 104" Accession="RCV000735867" Version="3">
+        <ClassifiedConditionList TraitSetID="32612">
+          <ClassifiedCondition DB="MedGen" ID="C4310817">Intellectual disability, X-linked 104</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-08-24" MostRecentSubmission="2021-08-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29267967</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="32612" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36172" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 104</ElementValue>
+                <XRef Type="MIM" ID="300983" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300838.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300838.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300838.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300838.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, X-linked 104</ElementValue>
+                <XRef ID="MONDO:0010509" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">XLID104</ElementValue>
+                <XRef Type="MIM" ID="300983" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4310817" DB="MedGen" />
+              <XRef ID="MONDO:0010509" DB="MONDO" />
+              <XRef Type="MIM" ID="300983" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1689804" SubmissionDate="2021-08-20" DateLastUpdated="2021-08-24" DateCreated="2019-01-11">
+        <ClinVarSubmissionID localKey="300838.0003_INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 104" title="FRMPD4, 66-KB DEL_INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 104" />
+        <ClinVarAccession Accession="SCV000864071" DateUpdated="2021-08-24" DateCreated="2019-01-11" Type="SCV" Version="2" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-20">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 2 brothers (patients 6 and 7, family 2) with X-linked intellectual developmental disorder-104 (XLID104; 300983), Piard et al. (2018) identified a hemizygous 66-kb deletion in the FRMPD4 gene, resulting in the deletion of exon 2. The mutation, which was found by X-chromosome exome sequencing and confirmed by Sanger sequencing, was inherited from the unaffected mother. The mutation was not found in the dbSNP, 1000 Genomes Project, or Exome Variant Server databases. The mutation was predicted to cause an in-frame deletion of 40 amino acids that includes the entire WW domain at the N terminus. Functional studies of the variant and studies of patient cells were not performed, but the mutation was predicted to result in a loss of function.</Attribute>
+              <Citation>
+                <ID Source="PubMed">29267967</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="300983" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FRMPD4" />
+          </GeneList>
+          <Name>FRMPD4, 66-KB DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">66-KB DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="300838.0003" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 104</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1689804" TraitType="Disease" MappingType="Name" MappingValue="INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 104" MappingRef="Preferred">
+        <MedGen CUI="C4310817" Name="Intellectual disability, X-linked 104" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

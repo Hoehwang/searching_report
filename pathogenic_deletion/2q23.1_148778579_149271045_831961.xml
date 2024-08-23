@@ -1,0 +1,146 @@
+<VariationArchive RecordType="classified" VariationID="831961" VariationName="NC_000002.12:g.(?_148458739)_(148463939_?)del" VariationType="Deletion" Accession="VCV000831961" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="819048" VariationID="831961">
+      <GeneList>
+        <Gene Symbol="MBD5" FullName="methyl-CpG binding domain protein 5" GeneID="55777" HGNC_ID="HGNC:20444" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="148020927" stop="148516971" display_start="148020927" display_stop="148516971" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148778579" stop="149271045" display_start="148778579" display_stop="149271045" Strand="+" />
+          </Location>
+          <OMIM>611472</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Little evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NC_000002.12:g.(?_148458739)_(148463939_?)del</Name>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>2q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="149216308" innerStop="149221508" display_start="149216308" display_stop="149221508" variantLength="5201" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_149216308)_(149221508_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_149216308)_(149221508_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NC_000002.12:g.(?_148458739)_(148463939_?)del AND Intellectual disability, autosomal dominant 1" Accession="RCV001032484" Version="1">
+        <ClassifiedConditionList TraitSetID="242">
+          <ClassifiedCondition DB="MedGen" ID="C1969562">Intellectual disability, autosomal dominant 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-11-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-11-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-04-15" MostRecentSubmission="2020-04-15">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="242" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2886" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 1</ElementValue>
+                <XRef Type="MIM" ID="156200" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611472.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611472.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611472.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="611472.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, autosomal dominant 1</ElementValue>
+                <XRef ID="MONDO:0007974" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRD1</ElementValue>
+                <XRef Type="MIM" ID="156200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">MBD5 haploinsufficiency is a neurodevelopmental disorder characterized by developmental delay, intellectual disability, severe speech impairment, seizures, sleep disturbances, and abnormal behaviors. Most children lack speech entirely or have single words, short phrases, or short sentences. Seizures are present in more than 80% of children; onset is usually around age two years. Sleep disturbances, present in about 90%, can result in excessive daytime drowsiness. Abnormal behaviors can include autistic-like behaviors (80%) and self-injury and aggression (&gt;60%).</Attribute>
+                <XRef ID="NBK390803" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">27786435</ID>
+                <ID Source="BookShelf">NBK390803</ID>
+              </Citation>
+              <XRef ID="228402" DB="Orphanet" />
+              <XRef ID="C1969562" DB="MedGen" />
+              <XRef ID="MONDO:0007974" DB="MONDO" />
+              <XRef Type="MIM" ID="156200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2357046" SubmissionDate="2020-02-06" DateLastUpdated="2020-04-15" DateCreated="2020-04-15">
+        <ClinVarSubmissionID localKey="8275504|MedGen:C1969562" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001195791" DateUpdated="2020-04-15" DateCreated="2020-04-15" Type="SCV" Version="1" SubmitterName="Invitae" OrgID="500031" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-11-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant is a gross deletion of the genomic region encompassing exons 6-8 of the MBD5 gene, which includes the initiator codon. The 5' end of this event is unknown as it extends beyond the assayed region for this gene and therefore may encompass additional genes. The 3' boundary is likely confined to intron 8 of the MBD5 gene. This is expected to result in an absent or disrupted protein product. This variant has not been reported in the literature in individuals with MBD5-related conditions. Loss-of-function variants in MBD5 are known to be pathogenic (PMID: 23422940, 23587880). For these reasons, this variant has been classified as Pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MBD5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000002.11:g.(?_149216308)_(149221508_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Mental retardation, autosomal dominant 1</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C1969562" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6933794</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2357046" TraitType="Disease" MappingType="Name" MappingValue="Mental retardation, autosomal dominant 1" MappingRef="Preferred">
+        <MedGen CUI="C1969562" Name="Intellectual disability, autosomal dominant 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

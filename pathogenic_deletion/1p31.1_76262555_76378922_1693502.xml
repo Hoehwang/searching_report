@@ -1,0 +1,166 @@
+<VariationArchive RecordType="classified" VariationID="1693502" VariationName="NM_002440.4(MSH4):c.805_812del (p.Val269fs)" VariationType="Deletion" Accession="VCV001693502" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-12-25" DateCreated="2022-07-08" MostRecentSubmission="2022-07-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1685936" VariationID="1693502">
+      <GeneList>
+        <Gene Symbol="MSH4" FullName="mutS homolog 4" GeneID="4438" HGNC_ID="HGNC:7327" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="75796882" stop="75913242" display_start="75796882" display_stop="75913242" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="76262555" stop="76378922" display_start="76262555" display_stop="76378922" Strand="+" />
+          </Location>
+          <OMIM>602105</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_002440.4(MSH4):c.805_812del (p.Val269fs)</Name>
+      <CanonicalSPDI>NC_000001.11:75815125:GTTCAGTC:</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>1p31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="75815126" stop="75815133" display_start="75815126" display_stop="75815133" variantLength="8" positionVCF="75815125" referenceAlleleVCF="GGTTCAGTC" alternateAlleleVCF="G" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="76280811" stop="76280818" display_start="76280811" display_stop="76280818" variantLength="8" positionVCF="76280810" referenceAlleleVCF="GGTTCAGTC" alternateAlleleVCF="G" />
+      </Location>
+      <ProteinChange>V269fs</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.76280811_76280818del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.76280811_76280818del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.75815126_75815133del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.75815126_75815133del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029861.1" sequenceAccession="NG_029861" sequenceVersion="1" change="g.23256_23263del">
+            <Expression>NG_029861.1:g.23256_23263del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002440.4" sequenceAccession="NM_002440" sequenceVersion="4" change="c.805_812del" MANESelect="true">
+            <Expression>NM_002440.4:c.805_812del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002431.2" sequenceAccession="NP_002431" sequenceVersion="2" change="p.Val269fs">
+            <Expression>NP_002431.2:p.Val269fs</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001589" Type="frameshift variant" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="602105.0004" DB="OMIM" />
+        <XRef Type="rs" ID="2100513927" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002440.4(MSH4):c.805_812del (p.Val269fs) AND Spermatogenic failure 2" Accession="RCV002260908" Version="1">
+        <ClassifiedConditionList TraitSetID="76343">
+          <ClassifiedCondition DB="MedGen" ID="C1862459">Spermatogenic failure 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-07-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-07-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-07-08" MostRecentSubmission="2022-07-08">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">35090489</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="76343" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="454" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spermatogenic failure 2</ElementValue>
+                <XRef ID="MONDO:0007161" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ASPERMIOGENESIS FACTOR</ElementValue>
+                <XRef Type="MIM" ID="108420" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SPGF2</ElementValue>
+                <XRef ID="MONDO:0007161" DB="MONDO" />
+                <XRef Type="MIM" ID="108420" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">ASG</ElementValue>
+                <XRef Type="MIM" ID="108420" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15041" />
+                <XRef ID="15041" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C1862459" DB="MedGen" />
+              <XRef ID="MONDO:0007161" DB="MONDO" />
+              <XRef Type="MIM" ID="108420" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4970017" SubmissionDate="2022-07-01" DateLastUpdated="2022-07-08" DateCreated="2022-07-08">
+        <ClinVarSubmissionID localKey="602105.0004_SPERMATOGENIC FAILURE 2" title="MSH4, 8-BP DEL, NT805_SPERMATOGENIC FAILURE 2" />
+        <ClinVarAccession Accession="SCV002540600" DateUpdated="2022-07-08" DateCreated="2022-07-08" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-07-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In an infertile Chinese man (family P9359) with azoospermia due to meiotic arrest at the spermatocyte stage (SPGF2; 108420), Li et al. (2022) identified homozygosity for an 8-bp deletion (c.805_812del, NM_002440.4) in the MSH4 gene, causing a frameshift predicted to result in a premature termination codon (Val269GlnfsTer15) and loss of MutS domains III to V. His parents were heterozygous for the deletion, which was not found in the ExAC or gnomAD databases.</Attribute>
+              <Citation>
+                <ID Source="PubMed">35090489</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="108420" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MSH4" />
+          </GeneList>
+          <Name>MSH4, 8-BP DEL, NT805</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">8-BP DEL, NT805</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="602105.0004" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">SPERMATOGENIC FAILURE 2</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4970017" TraitType="Disease" MappingType="Name" MappingValue="SPERMATOGENIC FAILURE 2" MappingRef="Preferred">
+        <MedGen CUI="C1862459" Name="Spermatogenic failure 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

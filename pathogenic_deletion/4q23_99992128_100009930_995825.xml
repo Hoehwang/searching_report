@@ -1,0 +1,307 @@
+<VariationArchive RecordType="classified" VariationID="995825" VariationName="NM_000671.4(ADH5):c.966del (p.Gly321_Trp322insTer)" VariationType="Deletion" Accession="VCV000995825" Version="2" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2023-12-02" DateCreated="2021-01-26" MostRecentSubmission="2021-11-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="983526" VariationID="995825">
+      <GeneList>
+        <Gene Symbol="ADH5" FullName="alcohol dehydrogenase 5 (class III), chi polypeptide" GeneID="128" HGNC_ID="HGNC:253" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="99070978" stop="99088788" display_start="99070978" display_stop="99088788" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="99992128" stop="100009930" display_start="99992128" display_stop="100009930" Strand="-" />
+          </Location>
+          <OMIM>103710</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_000671.4(ADH5):c.966del (p.Gly321_Trp322insTer)</Name>
+      <CanonicalSPDI>NC_000004.12:99072706:CC:C</CanonicalSPDI>
+      <VariantType>Deletion</VariantType>
+      <Location>
+        <CytogeneticLocation>4q23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="99072707" stop="99072707" display_start="99072707" display_stop="99072707" variantLength="1" positionVCF="99072706" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="99993858" stop="99993858" display_start="99993858" display_stop="99993858" variantLength="1" positionVCF="99993857" referenceAlleleVCF="TC" alternateAlleleVCF="T" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.99993859del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.99993859del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.12" sequenceAccession="NC_000004" sequenceVersion="12" change="g.99072708del" Assembly="GRCh38">
+            <Expression>NC_000004.12:g.99072708del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_000671.4" sequenceAccession="NM_000671" sequenceVersion="4" change="c.966del" MANESelect="true">
+            <Expression>NM_000671.4:c.966del</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_000662.3" sequenceAccession="NP_000662" sequenceVersion="3" change="p.Gly321_Trp322insTer">
+            <Expression>NP_000662.3:p.Gly321_Trp322insTer</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001587" Type="nonsense" DB="SO" />
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="103710.0001" DB="OMIM" />
+        <XRef Type="rs" ID="748162259" DB="dbSNP" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_000671.4(ADH5):c.966del (p.Gly321_Trp322insTer) AND AMED syndrome, digenic" Accession="RCV001290002" Version="2">
+        <ClassifiedConditionList TraitSetID="65196">
+          <ClassifiedCondition DB="MedGen" ID="C5436906">AMED syndrome, digenic</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-10-02" SubmissionCount="2">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-10-02" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2021-01-26" MostRecentSubmission="2021-11-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">33355142</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="65196" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55743" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">BONE MARROW FAILURE SYNDROME 7, DIGENIC</ElementValue>
+                <XRef Type="MIM" ID="619151" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">AMED syndrome, digenic</ElementValue>
+                <XRef ID="MONDO:0030894" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ALDEHYDE DEGRADATION DEFICIENCY SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="619151" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BMFS7</ElementValue>
+                <XRef Type="MIM" ID="619151" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">AMEDS</ElementValue>
+                <XRef Type="MIM" ID="619151" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">ADDS</ElementValue>
+                <XRef Type="MIM" ID="619151" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18026" />
+                <XRef ID="18026" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="611216" DB="Orphanet" />
+              <XRef ID="C5436906" DB="MedGen" />
+              <XRef ID="MONDO:0030894" DB="MONDO" />
+              <XRef Type="MIM" ID="619151" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2907451" SubmissionDate="2021-01-21" DateLastUpdated="2021-01-26" DateCreated="2021-01-26">
+        <ClinVarSubmissionID localKey="103710.0001_AMED SYNDROME, DIGENIC" title="ADH5, 1-BP DEL, 966G_AMED SYNDROME, DIGENIC" />
+        <ClinVarAccession Accession="SCV001478056" DateUpdated="2021-01-26" DateCreated="2021-01-26" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-21">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 5 children from 3 unrelated Japanese families (families 1, 4, and 6), with AMED syndrome (AMEDS; 619151), Oka et al. (2020) identified a homozygous 1-bp deletion (c.966delG) in exon 8 of the ADH5 gene, resulting in a frameshift and premature termination (trp322 to ter, W322X). Four additional patients (from families 3, 5, 7, and 8) with the disorder were compound heterozygous for W322X and a c.832G-C transversion in exon 7 of the ADH5 gene, resulting in an ala278-to-pro (A278P; 103710.0003) substitution. All patients also carried a homozygous or heterozygous E504K variant in the ALDH2 gene (100650.0001), resulting in deficiency of that enzyme and confirming a digenic disorder. The mutations, which were found by whole-exome sequencing (ADH5) or direct sequencing (ALDH2), segregated with the disorders in the families in whom parental DNA was available. No homozygous ADH5 loss-of-function variants were identified in gnomAD or in several large Japanese control databases. Immunoblot analysis of fibroblasts from some of the patients showed a significant reduction in ADH5 protein levels compared to controls, consistent with a loss-of-function effect. Patient cells showed increased sensitivity to formaldehyde treatment and inhibition of DNA replication compared to controls.</Attribute>
+              <Citation>
+                <ID Source="PubMed">33355142</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="619151" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ADH5" />
+          </GeneList>
+          <Name>ADH5, 1-BP DEL, 966G</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">1-BP DEL, 966G</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="103710.0001" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">AMED SYNDROME, DIGENIC</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3950465" SubmissionDate="2021-11-05" DateLastUpdated="2021-11-11" DateCreated="2021-11-11">
+        <ClinVarSubmissionID localKey="4-99993857-TC-T" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002012125" DateUpdated="2021-11-11" DateCreated="2021-11-11" Type="SCV" Version="1" SubmitterName="3billion" OrgID="507830" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-10-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">33355142</ID>
+          </Citation>
+          <Comment>Stop-gained (nonsense): predicted to result in a loss or disruption of normal protein function through nonsense-mediated decay (NMD) or protein truncation. Multiple pathogenic variants are reported downstream of the variant (PVS1_VS). It is observed at an extremely low frequency in the gnomAD v2.1.1 dataset (total allele frequency: 0.00004). The variant was observed in trans with a pathogenic variant as compound heterozygous or homozygous at multiple unrelated families (3billion dataset, PMID: 33355142, PM3_S). Patient's phenotype is considered compatible with AMED syndrome, digenic (3billion dataset, PP4).In addition, the patient carries ALDH2 heterozygous defective allele (NM_000690.4):c.1510G&gt;A), which is considered to be associated with the severity of AMED syndrome clinical features. Therefore, this variant is classified as pathogenic according to the recommendation of ACMG/AMP guideline.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Proband>yes</Proband>
+            </Sample>
+            <Method>
+              <NamePlatform>NovaSeq</NamePlatform>
+              <TypePlatform>whole exome sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001876" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001875" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0002194" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001328" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001510" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0004322" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001328" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001508" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001903" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001511" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0010862" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ADH5" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_000671.4:c.966del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619151" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10606558</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001508" MappingRef="HP">
+        <MedGen CUI="C2315100" Name="Failure to thrive" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001328" MappingRef="HP">
+        <MedGen CUI="C4025790" Name="Specific learning disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001875" MappingRef="HP">
+        <MedGen CUI="C0853697" Name="Neutropenia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004322" MappingRef="HP">
+        <MedGen CUI="C0349588" Name="Short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0010862" MappingRef="HP">
+        <MedGen CUI="C4023681" Name="Delayed fine motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2907451" TraitType="Disease" MappingType="Name" MappingValue="AMED SYNDROME, DIGENIC" MappingRef="Preferred">
+        <MedGen CUI="C5436906" Name="AMED syndrome, digenic" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001903" MappingRef="HP">
+        <MedGen CUI="C0002871" Name="Anemia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001510" MappingRef="HP">
+        <MedGen CUI="C0456070" Name="Growth delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001511" MappingRef="HP">
+        <MedGen CUI="C0015934" Name="Fetal growth restriction" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001876" MappingRef="HP">
+        <MedGen CUI="C0030312" Name="Pancytopenia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Disease" MappingType="XRef" MappingValue="619151" MappingRef="OMIM">
+        <MedGen CUI="C5436906" Name="AMED syndrome, digenic" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001328" MappingRef="HP">
+        <MedGen CUI="C4025790" Name="Specific learning disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001249" MappingRef="HP">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3950465" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002194" MappingRef="HP">
+        <MedGen CUI="C1837658" Name="Delayed gross motor development" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

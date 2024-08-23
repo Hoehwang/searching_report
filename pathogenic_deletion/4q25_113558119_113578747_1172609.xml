@@ -1,0 +1,109 @@
+<VariationArchive VariationID="1172609" VariationName="NM_016648.3:c.392_997del" VariationType="Deletion" Accession="VCV001172609" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1161781" VariationID="1172609">
+      <GeneList>
+        <Gene Symbol="LARP7" FullName="La ribonucleoprotein 7, transcriptional regulator" GeneID="51574" HGNC_ID="HGNC:24912" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>4q25</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="112637143" stop="112657586" display_start="112637143" display_stop="112657586" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="113558119" stop="113578747" display_start="113558119" display_stop="113578747" Strand="+" />
+          </Location>
+          <OMIM>612026</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_016648.3:c.392_997del</Name>
+      <VariantType>Deletion</VariantType>
+      <Comment DataSource="NCBI curation" Type="GenomicLocationNotEstablished">The genomic location for this variant will not be computed from alignment of the transcript sequence to the genome until there is experimental evidence for the genomic basis of the deletion.</Comment>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_016648.3:c.392_997del AND Epileptic encephalopathy" Accession="RCV001526549" Version="3">
+        <ClassifiedConditionList TraitSetID="22837">
+          <ClassifiedCondition DB="MedGen" ID="C0543888">Epileptic encephalopathy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="22837" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="31797" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Epileptic encephalopathy</ElementValue>
+                <XRef ID="HP:0200134" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0543888" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0200134" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3414278" SubmissionDate="2021-06-14" DateLastUpdated="2021-06-19" DateCreated="2021-06-19">
+        <ClinVarSubmissionID localKey="PED3073.12|HPO:HP:0200134" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001736974" DateUpdated="2021-06-19" DateCreated="2021-06-19" Type="SCV" Version="1" SubmitterName="Equipe Genetique des Anomalies du Developpement, Université de Bourgogne" OrgID="506039" OrganizationCategory="laboratory" OrgAbbreviation="GADteam" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARP7" />
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_016648.3:c.392_997del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0200134" />
+          </Trait>
+        </TraitSet>
+        <Comment>Compound heterozygous (other variant: PED3073.11), each variant is inherited from one of two unaffected parents</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9847331</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3414278" TraitType="Finding" MappingType="XRef" MappingValue="HP:0200134" MappingRef="HP">
+        <MedGen CUI="C0543888" Name="Epileptic encephalopathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+
