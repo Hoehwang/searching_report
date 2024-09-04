@@ -1,0 +1,113 @@
+<VariationArchive VariationID="2505362" VariationName="GRCh37/hg19 2q24.2(chr2:160229645-160357102)" VariationType="copy number loss" Accession="VCV002505362" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2023-06-17" MostRecentSubmission="2023-06-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2670325" VariationID="2505362">
+      <GeneList>
+        <Gene Symbol="BAZ2B" FullName="bromodomain adjacent to zinc finger domain 2B" GeneID="29994" HGNC_ID="HGNC:963" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="159315312" stop="159712442" display_start="159315312" display_stop="159712442" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="160175489" stop="160473058" display_start="160175489" display_stop="160473058" Strand="-" />
+          </Location>
+          <OMIM>605683</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q24.2(chr2:160229645-160357102)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="160229645" innerStop="160357102" display_start="160229645" display_stop="160357102" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q24.2(chr2:160229645-160357102) AND BAZ2B-related disorder" Accession="RCV003234631" Version="2">
+        <ClassifiedConditionList TraitSetID="85363">
+          <ClassifiedCondition>BAZ2B-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-06-13" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-06-13" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-06-17" MostRecentSubmission="2023-06-17">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">37872713</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="85363" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="68044" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">BAZ2B-related disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BAZ2B-related condition</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7351823" SubmissionDate="2023-06-13" DateLastUpdated="2023-06-17" DateCreated="2023-06-17">
+        <ClinVarSubmissionID localKey="BAZ2B 2 S2|BAZ2B-related disorder" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003932451" DateUpdated="2023-06-17" DateCreated="2023-06-17" Type="SCV" Version="1" SubmitterName="Daryl Scott Lab, Baylor College of Medicine" OrgID="505993" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-06-13">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="160229645" innerStop="160357102" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BAZ2B-related disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">37872713</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB13518882</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7351823" TraitType="Disease" MappingType="Name" MappingValue="BAZ2B-related disorder" MappingRef="Preferred">
+        <MedGen CUI="None" Name="BAZ2B-related disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,126 @@
+<VariationArchive VariationID="3062917" VariationName="GRCh37/hg19 6q22.31(chr6:118786589-119039118)x1" VariationType="copy number loss" Accession="VCV003062917" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-30" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3223136" VariationID="3062917">
+      <GeneList>
+        <Gene Symbol="CEP85L" FullName="centrosomal protein 85 like" GeneID="387119" HGNC_ID="HGNC:21638" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="118460772" stop="118710089" display_start="118460772" display_stop="118710089" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="118781934" stop="119031237" display_start="118781934" display_stop="119031237" Strand="-" />
+          </Location>
+          <OMIM>618865</OMIM>
+        </Gene>
+        <Gene Symbol="PLN" FullName="phospholamban" GeneID="5350" HGNC_ID="HGNC:9080" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q22.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="118548296" stop="118561716" display_start="118548296" display_stop="118561716" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="118869441" stop="118881586" display_start="118869441" display_stop="118881586" Strand="+" />
+          </Location>
+          <OMIM>172405</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 6q22.31(chr6:118786589-119039118)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>6q22.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="118786589" innerStop="119039118" display_start="118786589" display_stop="119039118" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 6q22.31(chr6:118786589-119039118)x1 AND not specified" Accession="RCV003986646" Version="1">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8979610" SubmissionDate="2024-03-14" DateLastUpdated="2024-03-30" DateCreated="2024-03-30">
+        <ClinVarSubmissionID localKey="['16358-1']|MedGen:CN169374|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004802775" DateUpdated="2024-03-30" DateCreated="2024-03-30" Type="SCV" Version="1" SubmitterName="ARUP Laboratories, Cytogenetics and Genomic Microarray, ARUP Laboratories" OrgID="319864" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Constitutional Copy Number Variant Assertion Criteria</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/tpyca7q1/constitutional_copy_number_variant_assertion_criteria_082023_final.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" innerStart="118786589" innerStop="119039118" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14313623</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8979610" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

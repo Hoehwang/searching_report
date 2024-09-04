@@ -1,0 +1,178 @@
+<VariationArchive VariationID="443787" VariationName="GRCh37/hg19 22q13.33(chr22:51127897-51176099)x1" VariationType="copy number loss" Accession="VCV000443787" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="437449" VariationID="443787">
+      <GeneList>
+        <Gene Symbol="SHANK3" FullName="SH3 and multiple ankyrin repeat domains 3" GeneID="85358" HGNC_ID="HGNC:14294" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q13.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NW_015148969.2" start="8917" stop="69331" display_start="8917" display_stop="69331" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="50672823" stop="50733212" display_start="50672823" display_stop="50733212" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="51113069" stop="51171639" display_start="51113069" display_stop="51171639" Strand="+" />
+          </Location>
+          <OMIM>606230</OMIM>
+          <Haploinsufficiency last_evaluated="2018-08-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SHANK3">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-08-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SHANK3">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 22q13.33(chr22:51127897-51176099)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" innerStart="51127897" innerStop="51176099" display_start="51127897" display_stop="51176099" variantLength="48203" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.(?_51127897)_(51176099_?)del" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.(?_51127897)_(51176099_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv14081945" DB="dbVar" />
+        <XRef ID="nsv3109940" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 22q13.33(chr22:51127897-51176099)x1 AND See cases" Accession="RCV000511183" Version="3">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2014-08-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2014-08-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1180219" SubmissionDate="2017-09-26" DateLastUpdated="2017-10-26" DateCreated="2017-10-26">
+        <ClinVarSubmissionID localKey="nsv3109940:copy number loss:See cases:1:SCV000586473" />
+        <ClinVarAccession Accession="SCV000586473" DateUpdated="2017-10-26" DateCreated="2017-10-26" Type="SCV" Version="1" SubmitterName="ISCA site 1" OrgID="505237" OrganizationCategory="laboratory" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="500029" SubmitterName="International Standards For Cytogenomic Arrays Consortium (ISCA)" Type="secondary" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-08-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Affymetrix CytoScan HD</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Urinary incontinence</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000020" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gait disturbance</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001288" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Scoliosis</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002650" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Recurrent fractures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002757" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv14081945" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000022.10" Assembly="GRCh37" Chr="22" innerStart="51127897" innerStop="51176099" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv14081945" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv3109940" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <StudyDescription>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</StudyDescription>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+        <SubmissionNameList>
+          <SubmissionName>nstd37</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1180219" TraitType="Finding" MappingType="Name" MappingValue="Urinary incontinence" MappingRef="Preferred">
+        <MedGen CUI="C0042024" Name="Urinary incontinence" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1180219" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1180219" TraitType="Finding" MappingType="Name" MappingValue="Recurrent fractures" MappingRef="Preferred">
+        <MedGen CUI="C0016655" Name="Recurrent fractures" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1180219" TraitType="Finding" MappingType="Name" MappingValue="Scoliosis" MappingRef="Preferred">
+        <MedGen CUI="C0036439" Name="Scoliosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1180219" TraitType="Finding" MappingType="Name" MappingValue="Gait disturbance" MappingRef="Preferred">
+        <MedGen CUI="C0575081" Name="Gait disturbance" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

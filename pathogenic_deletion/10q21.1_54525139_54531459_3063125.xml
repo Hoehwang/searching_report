@@ -1,0 +1,149 @@
+<VariationArchive VariationID="3063125" VariationName="GRCh37/hg19 10q21.1(chr10:54459920-56080457)x1" VariationType="copy number loss" Accession="VCV003063125" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-30" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3223342" VariationID="3063125">
+      <GeneList>
+        <Gene Symbol="MBL2" FullName="mannose binding lectin 2" GeneID="4153" HGNC_ID="HGNC:6922" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="52765380" stop="52772784" display_start="52765380" display_stop="52772784" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="54525139" stop="54531459" display_start="54525139" display_stop="54531459" Strand="-" />
+          </Location>
+          <OMIM>154545</OMIM>
+        </Gene>
+        <Gene Symbol="PCDH15" FullName="protocadherin related 15" GeneID="65217" HGNC_ID="HGNC:14674" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="53802771" stop="55627942" display_start="53802771" display_stop="55627942" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="55562530" stop="56561050" display_start="55562530" display_stop="56561050" Strand="-" />
+          </Location>
+          <OMIM>605514</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 10q21.1(chr10:54459920-56080457)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10q21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="54459920" innerStop="56080457" display_start="54459920" display_stop="56080457" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 10q21.1(chr10:54459920-56080457)x1 AND not specified" Accession="RCV003986854" Version="1">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-03-30" MostRecentSubmission="2024-03-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8979818" SubmissionDate="2024-03-14" DateLastUpdated="2024-03-30" DateCreated="2024-03-30">
+        <ClinVarSubmissionID localKey="['15720-1']|MedGen:CN169374|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004802983" DateUpdated="2024-03-30" DateCreated="2024-03-30" Type="SCV" Version="1" SubmitterName="ARUP Laboratories, Cytogenetics and Genomic Microarray, ARUP Laboratories" OrgID="319864" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Constitutional Copy Number Variant Assertion Criteria</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/tpyca7q1/constitutional_copy_number_variant_assertion_criteria_082023_final.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000717" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0012759" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001328" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="10" innerStart="54459920" innerStop="56080457" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14313623</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8979818" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8979818" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001328" MappingRef="HP">
+        <MedGen CUI="C4025790" Name="Specific learning disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8979818" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000717" MappingRef="HP">
+        <MedGen CUI="C0004352" Name="Autism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8979818" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012759" MappingRef="HP">
+        <MedGen CUI="C4022737" Name="Neurodevelopmental abnormality" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

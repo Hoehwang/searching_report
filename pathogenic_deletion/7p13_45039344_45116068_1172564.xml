@@ -1,0 +1,192 @@
+<VariationArchive RecordType="classified" VariationID="1172564" VariationName="GRCh37/hg19 7p13(chr7:45058501-45136990)x1" VariationType="copy number loss" Accession="VCV001172564" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1161740" VariationID="1172564">
+      <GeneList>
+        <Gene Symbol="CCM2" FullName="CCM2 scaffold protein" GeneID="83605" HGNC_ID="HGNC:21708" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="44999746" stop="45076470" display_start="44999746" display_stop="45076470" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="45039344" stop="45116068" display_start="45039344" display_stop="45116068" Strand="+" />
+          </Location>
+          <OMIM>607929</OMIM>
+        </Gene>
+        <Gene Symbol="NACAD" FullName="NAC alpha domain containing" GeneID="23148" HGNC_ID="HGNC:22196" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="45080437" stop="45088969" display_start="45080437" display_stop="45088969" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="45120035" stop="45128492" display_start="45120035" display_stop="45128492" Strand="-" />
+          </Location>
+          <OMIM>619419</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7p13(chr7:45058501-45136990)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7p13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" outerStart="45058501" outerStop="45136990" display_start="45058501" display_stop="45136990" variantLength="78489" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(45058501_?)_(?_45136990)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(45058501_?)_(?_45136990)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7p13(chr7:45058501-45136990)x1 AND See cases" Accession="RCV001526482" Version="1">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-12-06" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-12-06" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3414200" SubmissionDate="2021-06-10" DateLastUpdated="2021-06-19" DateCreated="2021-06-19">
+        <ClinVarSubmissionID localKey="7(45058501-45136990)" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001736903" DateUpdated="2021-06-19" DateCreated="2021-06-19" Type="SCV" Version="1" SubmitterName="HudsonAlpha Institute for Biotechnology, HudsonAlpha Institute for Biotechnology" OrgID="505530" OrganizationCategory="laboratory" OrgAbbreviation="HA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-12-06">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">7(45058501-45136990):UMMC00018</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000271" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000347" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0000463" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001629" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001719" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0002326" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0002575" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0008455" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0010305" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0010442" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0100258" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" outerStart="45058501" outerStop="45136990" variantLength="78489" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <StudyName>CSER-SouthSeq</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB9828428</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000463" MappingRef="HP">
+        <MedGen CUI="C1840077" Name="Anteverted nares" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001719" MappingRef="HP">
+        <MedGen CUI="C0013069" Name="Double outlet right ventricle" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002575" MappingRef="HP">
+        <MedGen CUI="C0040588" Name="Tracheoesophageal fistula" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000347" MappingRef="HP">
+        <MedGen CUI="C0025990" Name="Micrognathia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0008455" MappingRef="HP">
+        <MedGen CUI="C0431414" Name="Dysplastic sacrum" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0100258" MappingRef="HP">
+        <MedGen CUI="C0345354" Name="Preaxial polydactyly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000271" MappingRef="HP">
+        <MedGen CUI="C4025871" Name="Abnormality of the face" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001629" MappingRef="HP">
+        <MedGen CUI="C0018818" Name="Ventricular septal defect" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002326" MappingRef="HP">
+        <MedGen CUI="C0007787" Name="Transient ischemic attack" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0010442" MappingRef="HP">
+        <MedGen CUI="C0152427" Name="Polydactyly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414200" TraitType="Finding" MappingType="XRef" MappingValue="HP:0010305" MappingRef="HP">
+        <MedGen CUI="C4476549" Name="Absence of the sacrum" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

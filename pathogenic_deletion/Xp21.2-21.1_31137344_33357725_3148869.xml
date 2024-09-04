@@ -1,0 +1,142 @@
+<VariationArchive VariationID="3148869" VariationName="GRCh37/hg19 Xp21.2-21.1(chrX:31445412-31542339)x0" VariationType="copy number loss" Accession="VCV003148869" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2024-05-01" MostRecentSubmission="2024-05-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3308117" VariationID="3148869">
+      <GeneList>
+        <Gene Symbol="DMD" FullName="dystrophin" GeneID="1756" HGNC_ID="HGNC:2928" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp21.2-21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="31119222" stop="33339388" display_start="31119222" display_stop="33339388" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="31137344" stop="33357725" display_start="31137344" display_stop="33357725" Strand="-" />
+          </Location>
+          <OMIM>300377</OMIM>
+          <Haploinsufficiency last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp21.2-21.1(chrX:31445412-31542339)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp21.2-21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="31445412" innerStop="31542339" display_start="31445412" display_stop="31542339" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp21.2-21.1(chrX:31445412-31542339)x0 AND See cases" Accession="RCV004442766" Version="1">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-05-01" MostRecentSubmission="2024-05-01">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9143661" SubmissionDate="2024-03-25" DateLastUpdated="2024-05-01" DateCreated="2024-05-01">
+        <ClinVarSubmissionID localKey="SA210303|See cases|copy:0" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004934004" DateUpdated="2024-05-01" DateCreated="2024-05-01" Type="SCV" Version="1" SubmitterName="Prenatal Diagnosis Center, Urumqi Maternal and Child Health Care Hospital" OrgID="509435" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Ethnicity>Asian</Ethnicity>
+              <GeographicOrigin>China</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="weeks gestation">20</Age>
+              <Age Type="maximum" age_unit="weeks gestation">29</Age>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan 750K array</NamePlatform>
+              <TypePlatform>microarray</TypePlatform>
+              <Purpose>discovery</Purpose>
+              <Software name="Chromosome Analysis Suite (ChAS) v4.1" purpose="view and summarize chromosomal aberrations across the genome" />
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Mild intrauterine growth retardation</ElementValue>
+                </Name>
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Echogenic intracardiac focus</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="31445412" innerStop="31542339" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14331664</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9143661" TraitType="Finding" MappingType="Name" MappingValue="Echogenic intracardiac focus" MappingRef="Preferred">
+        <MedGen CUI="C4023634" Name="Echogenic intracardiac focus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9143661" TraitType="Finding" MappingType="Name" MappingValue="Mild intrauterine growth retardation" MappingRef="Preferred">
+        <MedGen CUI="C1840006" Name="Mild intrauterine growth retardation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9143661" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

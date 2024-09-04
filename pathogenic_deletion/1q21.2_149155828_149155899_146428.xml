@@ -1,0 +1,308 @@
+<VariationArchive VariationID="146428" VariationName="GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x1" VariationType="copy number loss" Accession="VCV000146428" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2019-04-28" MostRecentSubmission="2019-04-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="156179" VariationID="146428">
+      <GeneList>
+        <Gene Symbol="TRH-GTG2-1" FullName="tRNA-His (GTG) 2-1" GeneID="100189350" HGNC_ID="HGNC:34918" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="149155828" stop="149155899" display_start="149155828" display_stop="149155899" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.1-11.21</CytogeneticLocation>
+        <CytogeneticLocation>1q21.1-21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" innerStart="61006478" innerStop="62410831" display_start="61006478" display_stop="62410831" variantLength="1404354" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="146143189" innerStop="149232481" display_start="146143189" display_stop="149232481" variantLength="3089293" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="1" Accession="NC_000001.9" innerStart="144854546" innerStop="147499105" display_start="144854546" display_stop="147499105" variantLength="2644560" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.9" sequenceAccession="NC_000001" sequenceVersion="9" change="g.(?_144854546)_(147499105_?)del" Assembly="NCBI36">
+            <Expression>NC_000001.9:g.(?_144854546)_(147499105_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.14" sequenceAccession="NC_000007" sequenceVersion="14" change="g.(?_61006478)_(62410831_?)del" Assembly="GRCh38">
+            <Expression>NC_000007.14:g.(?_61006478)_(62410831_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_146143189)_(149232481_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_146143189)_(149232481_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv582540" DB="dbVar" />
+        <XRef ID="nssv582847" DB="dbVar" />
+        <XRef ID="nssv584352" DB="dbVar" />
+        <XRef ID="nssv584353" DB="dbVar" />
+        <XRef ID="nsv531144" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x1 AND See cases" Accession="RCV000135726" Version="7">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-02-14" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-02-14" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-28" MostRecentSubmission="2019-04-28">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <DescriptionHistory Dated="2019-04-23">
+          <Description>conflicting data from submitters</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="315078" SubmissionDate="2019-02-04" DateLastUpdated="2019-04-28" DateCreated="2014-09-01">
+        <ClinVarSubmissionID localKey="nsv531144:copy number loss:See cases:1:SCV000175637" />
+        <ClinVarAccession Accession="SCV000175637" DateUpdated="2019-04-28" DateCreated="2014-09-01" Type="SCV" Version="5" SubmitterName="ISCA site 1" OrgID="505237" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <ReplacedList>
+          <Replaced Accession="SCV000175638" DateChanged="2014-12-31" Version="1" />
+        </ReplacedList>
+        <Classification DateLastEvaluated="2018-02-14">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Phenotype: generalized epilepsy</Description>
+              </SampleDescription>
+              <Origin>unknown</Origin>
+              <Ethnicity>human</Ethnicity>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <Method>
+              <TypePlatform>FISH</TypePlatform>
+              <Purpose>Validation</Purpose>
+              <Description>Fluorescence in situ hybridization</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Pass</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay AND/OR other significant developmental or morphological phenotypes</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv582540" Type="dbVarVariantCallId" />
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Phenotype: mental delay, dysmorphism</Description>
+              </SampleDescription>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <Method>
+              <TypePlatform>FISH</TypePlatform>
+              <Purpose>Validation</Purpose>
+              <Description>Fluorescence in situ hybridization</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Pass</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay AND/OR other significant developmental or morphological phenotypes</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv582847" Type="dbVarVariantCallId" />
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Deletion also found in brother who has schizencephaly; Also found in sister who has schizencephaly</Description>
+              </SampleDescription>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <Method>
+              <TypePlatform>FISH</TypePlatform>
+              <Purpose>Validation</Purpose>
+              <Description>Fluorescence in situ hybridization</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Pass</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Schizencephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010636" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv584352" Type="dbVarVariantCallId" />
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Deletion also found in sister who has schizencephaly; Also found in sister who has schizencephaly</Description>
+              </SampleDescription>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <Method>
+              <TypePlatform>FISH</TypePlatform>
+              <Purpose>Validation</Purpose>
+              <Description>Fluorescence in situ hybridization</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Pass</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Schizencephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010636" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv584353" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000001.9" Assembly="NCBI36" Chr="1" innerStart="144854546" innerStop="147499105" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv582540" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nssv582847" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nssv584352" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nssv584353" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv531144" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="315078" TraitType="Finding" MappingType="Name" MappingValue="Schizencephaly" MappingRef="Preferred">
+        <MedGen CUI="C0266484" Name="Schizencephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="315078" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay AND/OR other significant developmental or morphological phenotypes" MappingRef="Preferred">
+        <MedGen CUI="CN218420" Name="Developmental delay AND/OR other significant developmental or morphological phenotypes" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="315078" TraitType="Finding" MappingType="Name" MappingValue="Schizencephaly" MappingRef="Preferred">
+        <MedGen CUI="C0266484" Name="Schizencephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="315078" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay AND/OR other significant developmental or morphological phenotypes" MappingRef="Preferred">
+        <MedGen CUI="CN218420" Name="Developmental delay AND/OR other significant developmental or morphological phenotypes" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="315078" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

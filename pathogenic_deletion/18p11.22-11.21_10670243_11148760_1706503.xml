@@ -1,0 +1,116 @@
+<VariationArchive RecordType="classified" VariationID="1706503" VariationName="GRCh37/hg19 18p11.21(chr18:11087706-11346713)x1" VariationType="copy number loss" Accession="VCV001706503" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-10-01" DateCreated="2022-09-24" MostRecentSubmission="2022-09-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1704813" VariationID="1706503">
+      <GeneList>
+        <Gene Symbol="PIEZO2" FullName="piezo type mechanosensitive ion channel component 2" GeneID="63895" HGNC_ID="HGNC:26270" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>18p11.22-11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="18" Accession="NC_000018.10" start="10670247" stop="11149569" display_start="10670247" display_stop="11149569" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="18" Accession="NC_000018.9" start="10670243" stop="11148760" display_start="10670243" display_stop="11148760" Strand="-" />
+          </Location>
+          <OMIM>613629</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 18p11.21(chr18:11087706-11346713)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>18p11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="18" Accession="NC_000018.9" outerStart="11087706" outerStop="11346713" display_start="11087706" display_stop="11346713" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 18p11.21(chr18:11087706-11346713)x1 AND See cases" Accession="RCV002285058" Version="1">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-24" MostRecentSubmission="2022-09-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5033971" SubmissionDate="2022-09-21" DateLastUpdated="2022-09-24" DateCreated="2022-09-24">
+        <ClinVarSubmissionID localKey="2021-431" submittedAssembly="hg19" title="2021-431" />
+        <ClinVarAccession Accession="SCV002571735" DateUpdated="2022-09-24" DateCreated="2022-09-24" Type="SCV" Version="1" SubmitterName="Cytogenetics, Genetics Associates, Inc." OrgID="508710" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Flat foot [pes planus] (acquired), right foot, Flat foot [pes planus] (acquired), left foot, Flail joint, unspecified joint, Retractile testis, Pelvic and perineal pain Body mass index (BMI) pediatric, greater than or equal to 95th percentile for age</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan Dx</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="18" outerStart="11087706" outerStop="11346713" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">see cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2021-431</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5033971" TraitType="Disease" MappingType="Name" MappingValue="see cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

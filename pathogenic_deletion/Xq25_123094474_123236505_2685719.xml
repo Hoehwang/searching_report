@@ -1,0 +1,124 @@
+<VariationArchive VariationID="2685719" VariationName="GRCh37/hg19 Xq25(chrX:123118140-123166691)x1" VariationType="copy number loss" Accession="VCV002685719" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-04" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2846754" VariationID="2685719">
+      <GeneList>
+        <Gene Symbol="STAG2" FullName="STAG2 cohesin complex component" GeneID="10735" HGNC_ID="HGNC:11355" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq25</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="123960560" stop="124102656" display_start="123960560" display_stop="124102656" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="123094474" stop="123236505" display_start="123094474" display_stop="123236505" Strand="+" />
+          </Location>
+          <OMIM>300826</OMIM>
+          <Haploinsufficiency last_evaluated="2023-01-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=STAG2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-01-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=STAG2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq25(chrX:123118140-123166691)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq25</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="123118140" innerStop="123166691" display_start="123118140" display_stop="123166691" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq25(chrX:123118140-123166691)x1 AND not provided" Accession="RCV003483931" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-07-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-07-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-01-26" MostRecentSubmission="2024-01-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7904440" SubmissionDate="2024-01-03" DateLastUpdated="2024-01-26" DateCreated="2024-01-26">
+        <ClinVarSubmissionID localKey="C11083|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004230351" DateUpdated="2024-01-26" DateCreated="2024-01-26" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-07-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The copy number loss of Xq25 involves exons 2-5 (NM_001042749.2) of STAG2 (OMIM 300826). Loss-of-function variants of STAG2 are associated with X-linked cohesinopathies, such as holoprosencephaly 13 (HPE13; OMIM 301043, Cratsenberg 2021) and Mullegama-Klein-Martinez syndrome (MKMS; OMIM 301022) in females, with potential incomplete penetrance (Freyberger 2021, Kruszka 2019). Loss-of-function variants in STAG2 are suggested to be embryonically lethal in males (Aoi 2020, Cratsenberg 2021, Kruszka 2019, Martin 2021). There are no similar copy number losses of this region in the general populations of the Database of Genomic Variants. Thus, based on current medical literature and gene content, this copy number variant (CNV) is interpreted as pathogenic. References:_x000D__x000D_ Aoi et al., Hum Genome Var. 2020 Sep 18;7:26. PMID: 33014403_x000D__x000D_ Cratsenberg et al., Clin Dysmorphol. 2021 Jul 1;30(3):159-163. PMID: 33758131_x000D__x000D_ Kruszka et al., Brain. 2019 Sep 1;142(9):2631-2643. PMID: 31334757_x000D__x000D_ Martin et al., Nat Commun. 2021 Jan 27;12(1):627. PMID: 33504798</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="123118140" innerStop="123166691" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14108155</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7904440" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

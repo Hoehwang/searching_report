@@ -1,0 +1,123 @@
+<VariationArchive VariationID="1179111" VariationName="GRCh37/hg19 20q13.2(chr20:52769985-52790525)" VariationType="copy number loss" Accession="VCV001179111" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168592" VariationID="1179111">
+      <GeneList>
+        <Gene Symbol="CYP24A1" FullName="cytochrome P450 family 24 subfamily A member 1" GeneID="1591" HGNC_ID="HGNC:2602" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>20q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="54143538" stop="54173986" display_start="54143538" display_stop="54173986" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="52769987" stop="52790515" display_start="52769987" display_stop="52790515" Strand="-" />
+          </Location>
+          <OMIM>126065</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 20q13.2(chr20:52769985-52790525)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>20q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" innerStart="52769985" innerStop="52790525" display_start="52769985" display_stop="52790525" variantLength="20541" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.10" sequenceAccession="NC_000020" sequenceVersion="10" change="g.(?_52769985)_(52790525_?)del" Assembly="GRCh37">
+            <Expression>NC_000020.10:g.(?_52769985)_(52790525_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 20q13.2(chr20:52769985-52790525) AND Hypercalcemia, infantile, 1" Accession="RCV001535967" Version="4">
+        <ClassifiedConditionList TraitSetID="7212">
+          <ClassifiedCondition DB="MedGen" ID="C4310232">Hypercalcemia, infantile, 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7212" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2349" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypercalcemia, infantile, 1</ElementValue>
+                <XRef ID="MONDO:0020739" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HCINF1</ElementValue>
+                <XRef Type="MIM" ID="143880" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18434" />
+                <XRef ID="18434" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="300547" DB="Orphanet" />
+              <XRef ID="C4310232" DB="MedGen" />
+              <XRef ID="MONDO:0020739" DB="MONDO" />
+              <XRef Type="MIM" ID="143880" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448107" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.20_52769985_52790525_copy number loss|OMIM:143880" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752631" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CYP24A1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="20" innerStart="52769985" innerStop="52790525" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="143880" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448107" TraitType="Disease" MappingType="XRef" MappingValue="143880" MappingRef="OMIM">
+        <MedGen CUI="C4310232" Name="Hypercalcemia, infantile, 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

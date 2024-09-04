@@ -1,0 +1,148 @@
+<VariationArchive VariationID="395428" VariationName="GRCh37/hg19 7q11.22(chr7:69063905-69105486)x1" VariationType="copy number loss" Accession="VCV000395428" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2017-03-27" MostRecentSubmission="2017-03-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="382321" VariationID="395428">
+      <GeneList>
+        <Gene Symbol="AUTS2" FullName="activator of transcription and developmental regulator AUTS2" GeneID="26053" HGNC_ID="HGNC:14262" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="69598475" stop="70793506" display_start="69598475" display_stop="70793506" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="69063904" stop="70257884" display_start="69063904" display_stop="70257884" Strand="+" />
+          </Location>
+          <OMIM>607270</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7q11.22(chr7:69063905-69105486)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="69063905" innerStop="69105486" display_start="69063905" display_stop="69105486" variantLength="41582" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_69063905)_(69105486_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_69063905)_(69105486_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv13652876" DB="dbVar" />
+        <XRef ID="nsv2777817" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7q11.22(chr7:69063905-69105486)x1 AND See cases" Accession="RCV000447236" Version="4">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-03-27" MostRecentSubmission="2017-03-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1033021" SubmissionDate="2017-02-28" DateLastUpdated="2017-03-27" DateCreated="2017-03-27">
+        <ClinVarSubmissionID localKey="nsv2777817:copy number loss:See cases:1:SCV000500916" />
+        <ClinVarAccession Accession="SCV000500916" DateUpdated="2017-03-27" DateCreated="2017-03-27" Type="SCV" Version="1" SubmitterName="ISCA Site 6" OrgID="505242" OrganizationCategory="laboratory" OrgAbbreviation="ISCA6" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="500029" SubmitterName="International Standards For Cytogenomic Arrays Consortium (ISCA)" Type="secondary" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay AND/OR other significant developmental or morphological phenotypes</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv13652876" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000007.13" Assembly="GRCh37" Chr="7" innerStart="69063905" innerStop="69105486" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv13652876" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv2777817" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <StudyDescription>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</StudyDescription>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+        <SubmissionNameList>
+          <SubmissionName>nstd37</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1033021" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1033021" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay AND/OR other significant developmental or morphological phenotypes" MappingRef="Preferred">
+        <MedGen CUI="CN218420" Name="Developmental delay AND/OR other significant developmental or morphological phenotypes" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

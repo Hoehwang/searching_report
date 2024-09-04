@@ -1,0 +1,150 @@
+<VariationArchive VariationID="442081" VariationName="GRCh37/hg19 5q23.2(chr5:126002101-126341594)x3" VariationType="copy number gain" Accession="VCV000442081" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="435743" VariationID="442081">
+      <GeneList>
+        <Gene Symbol="LMNB1" FullName="lamin B1" GeneID="4001" HGNC_ID="HGNC:6637" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="126776623" stop="126837020" display_start="126776623" display_stop="126837020" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="126112314" stop="126172711" display_start="126112314" display_stop="126172711" Strand="+" />
+          </Location>
+          <OMIM>150340</OMIM>
+          <Haploinsufficiency last_evaluated="2023-10-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LMNB1">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-10-25" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LMNB1">Sufficient evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="MARCHF3" FullName="membrane associated ring-CH-type finger 3" GeneID="115123" HGNC_ID="HGNC:28728" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="126867714" stop="127030558" display_start="126867714" display_stop="127030558" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="126203405" stop="126366439" display_start="126203405" display_stop="126366439" Strand="-" />
+          </Location>
+          <OMIM>613333</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 5q23.2(chr5:126002101-126341594)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>5q23.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="126002101" innerStop="126341594" display_start="126002101" display_stop="126341594" />
+      </Location>
+      <XRefList>
+        <XRef ID="nssv13647311" DB="dbVar" />
+        <XRef ID="nsv2771154" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 5q23.2(chr5:126002101-126341594)x3 AND See cases" Accession="RCV000511066" Version="3">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2015-04-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-04-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1178513" SubmissionDate="2017-09-26" DateLastUpdated="2017-10-26" DateCreated="2017-10-26">
+        <ClinVarSubmissionID localKey="nsv2771154:copy number gain:See cases:3:SCV000584756" />
+        <ClinVarAccession Accession="SCV000584756" DateUpdated="2017-10-26" DateCreated="2017-10-26" Type="SCV" Version="1" SubmitterName="ISCA site 1" OrgID="505237" OrganizationCategory="laboratory" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="500029" SubmitterName="International Standards For Cytogenomic Arrays Consortium (ISCA)" Type="secondary" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-04-02">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Affymetrix CytoScan HD</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Intrauterine growth retardation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001511" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv13647311" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000005.9" Assembly="GRCh37" Chr="5" innerStart="126002101" innerStop="126341594" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv13647311" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv2771154" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <StudyDescription>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</StudyDescription>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+        <SubmissionNameList>
+          <SubmissionName>nstd37</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1178513" TraitType="Finding" MappingType="Name" MappingValue="Intrauterine growth retardation" MappingRef="Preferred">
+        <MedGen CUI="C0015934" Name="Fetal growth restriction" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1178513" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

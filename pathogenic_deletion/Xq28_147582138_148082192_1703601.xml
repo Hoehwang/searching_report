@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="1703601" VariationName="GRCh37/hg19 Xq28(chrX:147458752-147628024)" VariationType="copy number loss" Accession="VCV001703601" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-06" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1695992" VariationID="1703601">
+      <GeneList>
+        <Gene Symbol="AFF2" FullName="ALF transcription elongation factor 2" GeneID="2334" HGNC_ID="HGNC:3776" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="148500617" stop="149000663" display_start="148500617" display_stop="149000663" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="147582138" stop="148082192" display_start="147582138" display_stop="148082192" Strand="+" />
+          </Location>
+          <OMIM>300806</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AFF2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AFF2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq28(chrX:147458752-147628024)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="147458752" innerStop="147628024" display_start="147458752" display_stop="147628024" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq28(chrX:147458752-147628024) AND FRAXE" Accession="RCV002280689" Version="1">
+        <ClassifiedConditionList TraitSetID="2985">
+          <ClassifiedCondition DB="MedGen" ID="C0751157">FRAXE</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2985" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6490" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">FRAXE</ElementValue>
+                <XRef ID="254288000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fragile XE syndrome</ElementValue>
+                <XRef ID="Fragile+XE+Syndrome/2911" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">FRAXE intellectual disability</ElementValue>
+                <XRef ID="MONDO:0010659" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Intellectual disability, X-linked, FRAXE type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Intellectual developmental disorder, X-linked 109</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000569189" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000007404" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000507942" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520051" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000518914" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2378" />
+                <XRef ID="2378" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="100973" DB="Orphanet" />
+              <XRef ID="C0751157" DB="MedGen" />
+              <XRef ID="MONDO:0010659" DB="MONDO" />
+              <XRef Type="MIM" ID="309548" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5023592" SubmissionDate="2022-08-31" DateLastUpdated="2022-09-03" DateCreated="2022-09-03">
+        <ClinVarSubmissionID localKey="20H-290A0004" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002568952" DateUpdated="2022-09-03" DateCreated="2022-09-03" Type="SCV" Version="1" SubmitterName="Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital" OrgID="506512" OrganizationCategory="laboratory" OrgAbbreviation="SCH MGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000717" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="147458752" innerStop="147628024" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="309548" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11997402</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5023592" TraitType="Disease" MappingType="XRef" MappingValue="309548" MappingRef="OMIM">
+        <MedGen CUI="C0751157" Name="FRAXE" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5023592" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000717" MappingRef="HP">
+        <MedGen CUI="C0004352" Name="Autism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5023592" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

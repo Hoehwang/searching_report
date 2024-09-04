@@ -1,0 +1,194 @@
+<VariationArchive RecordType="classified" VariationID="253544" VariationName="GRCh37/hg19 17p12(chr17:15133960-15169915)x1" VariationType="copy number loss" Accession="VCV000253544" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="247992" VariationID="253544">
+      <GeneList>
+        <Gene Symbol="PMP22" FullName="peripheral myelin protein 22" GeneID="5376" HGNC_ID="HGNC:9118" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>17p12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="15229779" stop="15265326" display_start="15229779" display_stop="15265326" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="15133095" stop="15168643" display_start="15133095" display_stop="15168643" Strand="-" />
+          </Location>
+          <OMIM>601097</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMP22">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PMP22">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 17p12(chr17:15133960-15169915)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>17p12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="15133960" innerStop="15169915" display_start="15133960" display_stop="15169915" variantLength="35956" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_15133960)_(15169915_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_15133960)_(15169915_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 17p12(chr17:15133960-15169915)x1 AND See cases" Accession="RCV000240191" Version="2">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-01-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-01-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="577965" SubmissionDate="2016-07-13" DateLastUpdated="2016-09-04" DateCreated="2016-09-04">
+        <ClinVarSubmissionID localKey="GDX_L_38512" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000298508" DateUpdated="2016-09-04" DateCreated="2016-09-04" Type="SCV" Version="3" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-01-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation Type="general">
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Peripheral neuropathy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0009830" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Sensory neuropathy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000763" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Exercise-induced muscle fatigue</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0009020" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Muscle weakness</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001324" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Tremor</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001337" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Hammertoe</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001765" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Motor axonal neuropathy</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0007349" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Muscular hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" innerStart="15133960" innerStop="15169915" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See Cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Exercise-induced muscle fatigue" MappingRef="Preferred">
+        <MedGen CUI="C1855580" Name="Exercise-induced muscle fatigue" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Hammertoe" MappingRef="Preferred">
+        <MedGen CUI="C1136179" Name="Hammertoe" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Muscle weakness" MappingRef="Preferred">
+        <MedGen CUI="C0151786" Name="Muscle weakness" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Muscular hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Tremor" MappingRef="Preferred">
+        <MedGen CUI="C0040822" Name="Tremor" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See Cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Peripheral neuropathy" MappingRef="Preferred">
+        <MedGen CUI="C0031117" Name="Peripheral neuropathy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Sensory neuropathy" MappingRef="Preferred">
+        <MedGen CUI="C0151313" Name="Sensory neuropathy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577965" TraitType="Finding" MappingType="Name" MappingValue="Motor axonal neuropathy" MappingRef="Preferred">
+        <MedGen CUI="C2749625" Name="Motor axonal neuropathy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

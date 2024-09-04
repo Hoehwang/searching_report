@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="916000" VariationName="GRCh37/hg19 8p23.2-23.1(chr8:6160874-6500521)" VariationType="copy number loss" Accession="VCV000916000" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904224" VariationID="916000">
+      <GeneList>
+        <Gene Symbol="MCPH1" FullName="microcephalin 1" GeneID="79648" HGNC_ID="HGNC:6954" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8p23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="6406627" stop="6648508" display_start="6406627" display_stop="6648508" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NW_018654717.1" start="8385" stop="43778" display_start="8385" display_stop="43778" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NW_025791785.1" start="342105" stop="416356" display_start="342105" display_stop="416356" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="6264112" stop="6501139" display_start="6264112" display_stop="6501139" Strand="+" />
+          </Location>
+          <OMIM>607117</OMIM>
+        </Gene>
+        <Gene Symbol="ANGPT2" FullName="angiopoietin 2" GeneID="285" HGNC_ID="HGNC:485" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8p23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="6499632" stop="6563245" display_start="6499632" display_stop="6563245" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="6357171" stop="6420783" display_start="6357171" display_stop="6420783" Strand="-" />
+          </Location>
+          <OMIM>601922</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 8p23.2-23.1(chr8:6160874-6500521)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>8p23.2-23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="6160874" innerStop="6500521" display_start="6160874" display_stop="6500521" variantLength="339648" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_6160874)_(6500521_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_6160874)_(6500521_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 8p23.2-23.1(chr8:6160874-6500521) AND Microcephaly 1, primary, autosomal recessive" Accession="RCV001195154" Version="1">
+        <ClassifiedConditionList TraitSetID="885">
+          <ClassifiedCondition DB="MedGen" ID="C1855081">Microcephaly 1, primary, autosomal recessive</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="885" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2934" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Microcephaly 1, primary, autosomal recessive</ElementValue>
+                <XRef ID="MONDO:0009617" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Premature chromosome condensation with microcephaly and mental retardation</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PREMATURE CHROMOSOME CONDENSATION SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="606858" DB="OMIM" />
+                <XRef Type="MIM" ID="251200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PCC SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="606858" DB="OMIM" />
+                <XRef Type="MIM" ID="251200" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MCPH1</ElementValue>
+                <XRef Type="MIM" ID="251200" DB="OMIM" />
+              </Symbol>
+              <XRef ID="2512" DB="Orphanet" />
+              <XRef ID="52183" DB="Orphanet" />
+              <XRef ID="C1855081" DB="MedGen" />
+              <XRef ID="MONDO:0009617" DB="MONDO" />
+              <XRef Type="MIM" ID="251200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637893" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr8:g.6160874_6500521del|OMIM:251200" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334114" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <Comment>in trans with MCPH1 exons 1-8 deletion</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MCPH1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="8" innerStart="6160874" innerStop="6500521" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="251200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637893" TraitType="Disease" MappingType="XRef" MappingValue="251200" MappingRef="OMIM">
+        <MedGen CUI="C1855081" Name="Microcephaly 1, primary, autosomal recessive" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

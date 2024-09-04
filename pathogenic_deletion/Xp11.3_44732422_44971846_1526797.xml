@@ -1,0 +1,187 @@
+<VariationArchive RecordType="classified" VariationID="1526797" VariationName="GRCh37/hg19 Xp11.3(chrX:44939212-44985773)" VariationType="copy number loss" Accession="VCV001526797" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-16" DateCreated="2022-04-02" MostRecentSubmission="2022-04-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1518286" VariationID="1526797">
+      <GeneList>
+        <Gene Symbol="KDM6A" FullName="lysine demethylase 6A" GeneID="7403" HGNC_ID="HGNC:12637" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp11.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="44873188" stop="45112779" display_start="44873188" display_stop="45112779" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="44732422" stop="44971846" display_start="44732422" display_stop="44971846" Strand="+" />
+          </Location>
+          <OMIM>300128</OMIM>
+          <Haploinsufficiency last_evaluated="2013-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KDM6A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2013-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KDM6A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp11.3(chrX:44939212-44985773)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="44939212" innerStop="44985773" display_start="44939212" display_stop="44985773" variantLength="46562" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_44939212)_(44985773_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_44939212)_(44985773_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp11.3(chrX:44939212-44985773) AND not specified" Accession="RCV002052816" Version="3">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-04-02" MostRecentSubmission="2022-04-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4540223" SubmissionDate="2022-03-28" DateLastUpdated="2022-04-02" DateCreated="2022-04-02">
+        <ClinVarSubmissionID localKey="7977-1|MedGen:CN169374" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002319925" DateUpdated="2022-04-02" DateCreated="2022-04-02" Type="SCV" Version="1" SubmitterName="ARUP Laboratories, Cytogenetics and Genomic Microarray, ARUP Laboratories" OrgID="319864" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-03-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ARUP Cytogenomic Constitutional CNV Assertion Criteria</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/4zhxqsgj/arup_cytogenomic_constitutional_cnv_assertion_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0012443" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002194" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0012759" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001270" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001999" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0004322" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Comment>Phenotype(s) indicated for testing: Short stature: 1 Fine motor delay: 1 Gross motor delay: 1 Speech delay: 1 Neurodevelopmental abnormality: 1 Intellectual disability/MR: 1 Seizures: 1 Abnormality of brain morphology: 1 Dysmorphic facial features: 1 Microcephaly: 1 Head Circumference: 1</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="44939212" innerStop="44985773" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11199633</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000252" MappingRef="HP">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002194" MappingRef="HP">
+        <MedGen CUI="C1837658" Name="Delayed gross motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004322" MappingRef="HP">
+        <MedGen CUI="C0349588" Name="Short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012759" MappingRef="HP">
+        <MedGen CUI="C4022737" Name="Neurodevelopmental abnormality" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001999" MappingRef="HP">
+        <MedGen CUI="C0424503" Name="Abnormal facial shape" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001270" MappingRef="HP">
+        <MedGen CUI="C1854301" Name="Motor delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001249" MappingRef="HP">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0012443" MappingRef="HP">
+        <MedGen CUI="C4021085" Name="Abnormality of brain morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540223" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001250" MappingRef="HP">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

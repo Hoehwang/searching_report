@@ -1,0 +1,144 @@
+<VariationArchive VariationID="813318" VariationName="GRCh37/hg19 2q23.3(chr2:152502644-152502748)" VariationType="copy number loss" Accession="VCV000813318" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801567" VariationID="813318">
+      <GeneList>
+        <Gene Symbol="NEB" FullName="nebulin" GeneID="4703" HGNC_ID="HGNC:7720" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="151485339" stop="151734476" display_start="151485339" display_stop="151734476" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="152341852" stop="152591000" display_start="152341852" display_stop="152591000" Strand="-" />
+          </Location>
+          <OMIM>161650</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q23.3(chr2:152502644-152502748)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="152502644" innerStop="152502748" display_start="152502644" display_stop="152502748" variantLength="105" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_152502644)_(152502748_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_152502644)_(152502748_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q23.3(chr2:152502644-152502748) AND Nemaline myopathy 2" Accession="RCV001004090" Version="5">
+        <ClassifiedConditionList TraitSetID="3882">
+          <ClassifiedCondition DB="MedGen" ID="C1850569">Nemaline myopathy 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-11-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-11-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3882" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5618" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy 2, autosomal recessive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nemaline myopathy caused by mutation in the nebulin gene</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Nemaline myopathy 2</ElementValue>
+                <XRef ID="Nemaline+myopathy+2/5124" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009725" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEM2</ElementValue>
+                <XRef Type="MIM" ID="256030" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15209" />
+                <XRef ID="15209" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2012">
+                <ID Source="PubMed">22510848</ID>
+              </Citation>
+              <XRef ID="C1850569" DB="MedGen" />
+              <XRef ID="MONDO:0009725" DB="MONDO" />
+              <XRef Type="MIM" ID="256030" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291851" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="23-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162815" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-11-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="302-20171218" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">302-20171218</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NEB" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="152502644" innerStop="152502748" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="256030" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291851" TraitType="Disease" MappingType="XRef" MappingValue="256030" MappingRef="OMIM">
+        <MedGen CUI="C1850569" Name="Nemaline myopathy 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

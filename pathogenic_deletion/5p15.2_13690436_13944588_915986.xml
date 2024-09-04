@@ -1,0 +1,138 @@
+<VariationArchive RecordType="classified" VariationID="915986" VariationName="GRCh37/hg19 5p15.2(chr5:13844711-13845454)" VariationType="copy number loss" Accession="VCV000915986" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904211" VariationID="915986">
+      <GeneList>
+        <Gene Symbol="DNAH5" FullName="dynein axonemal heavy chain 5" GeneID="1767" HGNC_ID="HGNC:2950" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5p15.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="13690328" stop="14011818" display_start="13690328" display_stop="14011818" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="13690436" stop="13944588" display_start="13690436" display_stop="13944588" Strand="-" />
+          </Location>
+          <OMIM>603335</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 5p15.2(chr5:13844711-13845454)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>5p15.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="13844711" innerStop="13845454" display_start="13844711" display_stop="13845454" variantLength="744" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_13844711)_(13845454_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_13844711)_(13845454_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 5p15.2(chr5:13844711-13845454) AND Primary ciliary dyskinesia 3" Accession="RCV001195140" Version="1">
+        <ClassifiedConditionList TraitSetID="1792">
+          <ClassifiedCondition DB="MedGen" ID="C1837618">Primary ciliary dyskinesia 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1792" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1453" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Primary ciliary dyskinesia 3</ElementValue>
+                <XRef ID="MONDO:0012085" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CILD3</ElementValue>
+                <XRef Type="MIM" ID="608644" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301301</ID>
+                <ID Source="BookShelf">NBK1122</ID>
+              </Citation>
+              <XRef ID="244" DB="Orphanet" />
+              <XRef ID="C1837618" DB="MedGen" />
+              <XRef ID="MONDO:0012085" DB="MONDO" />
+              <XRef Type="MIM" ID="608644" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637877" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr5:g.13844711_13845454del|OMIM:608644" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334098" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <Comment>in trans with 22.2 Mb cri-du-chat syndrome deletion of 5p15.33p14.3 encompassing entire DNAH5</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DNAH5" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="5" innerStart="13844711" innerStop="13845454" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608644" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637877" TraitType="Disease" MappingType="XRef" MappingValue="608644" MappingRef="OMIM">
+        <MedGen CUI="C1837618" Name="Primary ciliary dyskinesia 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

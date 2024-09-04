@@ -1,0 +1,230 @@
+<VariationArchive VariationID="2579181" VariationName="GRCh38/hg38 15q11.2(chr15:25354042-25357067)x1" VariationType="copy number loss" Accession="VCV002579181" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744219" VariationID="2579181">
+      <GeneList>
+        <Gene Symbol="SNHG14" FullName="small nucleolar RNA host gene 14" GeneID="104472715" HGNC_ID="HGNC:37462" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="24823608" stop="25419462" display_start="24823608" display_stop="25419462" Strand="+" />
+          </Location>
+          <OMIM>616259</OMIM>
+        </Gene>
+        <Gene Symbol="UBE3A" FullName="ubiquitin protein ligase E3A" GeneID="7337" HGNC_ID="HGNC:12496" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>15q11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="25333728" stop="25439056" display_start="25333728" display_stop="25439056" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="15" Accession="NC_000015.9" start="25582395" stop="25684174" display_start="25582395" display_stop="25684174" Strand="-" />
+          </Location>
+          <OMIM>601623</OMIM>
+          <Haploinsufficiency last_evaluated="2012-08-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=UBE3A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-08-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=UBE3A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 15q11.2(chr15:25354042-25357067)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>15q11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="15" Accession="NC_000015.10" start="25354042" stop="25357067" display_start="25354042" display_stop="25357067" variantLength="3026" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 15q11.2(chr15:25354042-25357067)x1 AND Angelman syndrome" Accession="RCV003327620" Version="3">
+        <ClassifiedConditionList TraitSetID="2168">
+          <ClassifiedCondition DB="MedGen" ID="C0162635">Angelman syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="2168" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="404" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Happy puppet syndrome (formerly)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HAPPY PUPPET SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="105830" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Angelman syndrome</ElementValue>
+                <XRef ID="Angelman+Syndrome/452" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0007113" DB="MONDO" />
+                <XRef ID="76880004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AS</ElementValue>
+                <XRef Type="MIM" ID="105830" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">imprinting disorder</Attribute>
+                <XRef ID="GTR000260593" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Angelman syndrome (AS) is characterized by severe developmental delay or intellectual disability, severe speech impairment, gait ataxia and/or tremulousness of the limbs, and unique behavior with an apparent happy demeanor that includes frequent laughing, smiling, and excitability. Microcephaly and seizures are also common. Developmental delays are first noted at around age six months; however, the unique clinical features of AS do not become manifest until after age one year.</Attribute>
+                <XRef ID="NBK1144" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="mode of inheritance">AS is caused by disruption of maternally imprinted UBE3A located within the 15q11.2-q13 Angelman syndrome/Prader-Willi syndrome (AS/PWS) region.</Attribute>
+                <XRef ID="GTR000501320" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000520998" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522320" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508896" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000525860" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520995" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000226643" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000507771" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530118" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520996" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520979" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000556577" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552326" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000519582" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592359" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000331374" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558906" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530102" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000551668" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000508937" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000503131" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568029" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000509438" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000531722" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558215" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000260593" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000529013" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558805" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000525867" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552341" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000519272" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568371" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000521642" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558216" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000552178" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000556612" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000527540" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5810" />
+                <XRef ID="5810" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301323</ID>
+                <ID Source="BookShelf">NBK1144</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2001">
+                <ID Source="pmc">3111049</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="Eurogentest, 2008">
+                <URL>http://www.eurogentest.org/web/files/public/unit3/ClinicalUtilityGeneCards/Indication%20criteria%20-%20AS.pdf</URL>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23519317</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESHG/ASHG, 2015">
+                <ID Source="PubMed">25782669</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2016">
+                <ID Source="PubMed">27467454</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2020">
+                <ID Source="PubMed">32296163</ID>
+              </Citation>
+              <XRef ID="72" DB="Orphanet" />
+              <XRef ID="C0162635" DB="MedGen" />
+              <XRef ID="MONDO:0007113" DB="MONDO" />
+              <XRef Type="MIM" ID="105830" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549690" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="MAN_1049|OMIM:105830|copy:1|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034271" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A confirmed maternally inherited heterozygous deletion of exons 8-11 in UBE3A (NM_130839.5) was identified by exome sequencing and confirmed by targeted chromosomal microarray in one individual with Angelman syndrome ([GRCh 38] chr15:25354042_25357067x1). The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 8 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. This UBE3A gene is known to be haploinsufficient, and has been assessed by the ClinGen Dosage Sensitivity Working Group (https://search.clinicalgenome.org/kb/gene-dosage). In summary, this variant meets criteria to be classified as pathogenic. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.90 points, 3: 0 points, 4-5: 0.10 points; Total: 1.0 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance with maternal imprinting</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="15" start="25354042" stop="25357067" variantLength="3026" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="105830" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549690" TraitType="Disease" MappingType="XRef" MappingValue="105830" MappingRef="OMIM">
+        <MedGen CUI="C0162635" Name="Angelman syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

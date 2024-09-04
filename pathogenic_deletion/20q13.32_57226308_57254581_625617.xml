@@ -1,0 +1,148 @@
+<VariationArchive RecordType="classified" VariationID="625617" VariationName="GRCh37/hg19 20q13.32(chr20:57244540-57246216)" VariationType="copy number loss" Accession="VCV000625617" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="613921" VariationID="625617">
+      <GeneList>
+        <Gene Symbol="STX16" FullName="syntaxin 16" GeneID="8675" HGNC_ID="HGNC:11431" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>20q13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="20" Accession="NC_000020.11" start="58651283" stop="58679526" display_start="58651283" display_stop="58679526" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" start="57226308" stop="57254581" display_start="57226308" display_stop="57254581" Strand="+" />
+          </Location>
+          <OMIM>603666</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 20q13.32(chr20:57244540-57246216)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>20q13.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="20" Accession="NC_000020.10" innerStart="57244540" innerStop="57246216" display_start="57244540" display_stop="57246216" variantLength="1677" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000020.10" sequenceAccession="NC_000020" sequenceVersion="10" change="g.(?_57244540)_(57246216_?)del" Assembly="GRCh37">
+            <Expression>NC_000020.10:g.(?_57244540)_(57246216_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 20q13.32(chr20:57244540-57246216) AND Pseudohypoparathyroidism type 1B" Accession="RCV000767625" Version="1">
+        <ClassifiedConditionList TraitSetID="321">
+          <ClassifiedCondition DB="MedGen" ID="C1864100">Pseudohypoparathyroidism type 1B</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="321" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4057" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">PHP IB</ElementValue>
+                <XRef Type="MIM" ID="603233" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Pseudohypoparathyroidism type 1B</ElementValue>
+                <XRef ID="Pseudohypoparathyroidism+type+1B/6036" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0011301" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pseudohypoparathyroidism Type IB</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PHP1B</ElementValue>
+                <XRef Type="MIM" ID="603233" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Disorders of GNAS inactivation include the phenotypes pseudohypoparathyroidism Ia, Ib, and Ic (PHP-Ia, -Ib, -Ic), pseudopseudohypoparathyroidism (PPHP), progressive osseous heteroplasia (POH), and osteoma cutis (OC). PHP-Ia and PHP-Ic are characterized by: End-organ resistance to endocrine hormones including parathyroid hormone (PTH), thyroid-stimulating hormone (TSH), gonadotropins (LH and FSH), growth hormone-releasing hormone (GHRH), and CNS neurotransmitters (leading to obesity and variable degrees of intellectual disability and developmental delay); and The Albright hereditary osteodystrophy (AHO) phenotype (short stature, round facies, and subcutaneous ossifications) and brachydactyly type E (shortening mainly of the 4th and/or 5th metacarpals and metatarsals and distal phalanx of the thumb). Although PHP-Ib is characterized principally by PTH resistance, some individuals also have partial TSH resistance and mild features of AHO (e.g., brachydactyly). PPHP, a more limited form of PHP-Ia, is characterized by various manifestations of the AHO phenotype without the hormone resistance or obesity. POH and OC are even more restricted variants of PPHP: POH consists of dermal ossification beginning in infancy, followed by increasing and extensive bone formation in deep muscle and fascia. OC consists of extra-skeletal ossification that is limited to the dermis and subcutaneous tissues.</Attribute>
+                <XRef ID="NBK459117" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10680" />
+                <XRef ID="10680" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29072892</ID>
+                <ID Source="BookShelf">NBK459117</ID>
+              </Citation>
+              <XRef ID="94089" DB="Orphanet" />
+              <XRef ID="C1864100" DB="MedGen" />
+              <XRef ID="MONDO:0011301" DB="MONDO" />
+              <XRef Type="MIM" ID="603233" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761530" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES165|OMIM:603233" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898247" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="20" innerStart="57244540" innerStop="57246216" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603233" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761530" TraitType="Disease" MappingType="XRef" MappingValue="603233" MappingRef="OMIM">
+        <MedGen CUI="C1864100" Name="Pseudohypoparathyroidism type 1B" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

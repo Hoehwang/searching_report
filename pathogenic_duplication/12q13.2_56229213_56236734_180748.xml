@@ -1,0 +1,224 @@
+<VariationArchive RecordType="classified" VariationID="180748" VariationName="GRCh38/hg38 12q13.2(chr12:55845043-55851177)x4" VariationType="copy number gain" Accession="VCV000180748" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-10-15" DateCreated="2015-02-24" MostRecentSubmission="2015-02-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="178906" VariationID="180748">
+      <GeneList>
+        <Gene Symbol="MMP19" FullName="matrix metallopeptidase 19" GeneID="4327" HGNC_ID="HGNC:7165" Source="submitted" RelationshipType="near gene, upstream">
+          <Location>
+            <CytogeneticLocation>12q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="55835433" stop="55842936" display_start="55835433" display_stop="55842936" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="56229213" stop="56236734" display_start="56229213" display_stop="56236734" Strand="-" />
+          </Location>
+          <OMIM>601807</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 12q13.2(chr12:55845043-55851177)x4</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>12q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="55845043" stop="55851177" display_start="55845043" display_stop="55851177" variantLength="6135" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" outerStart="56238827" outerStop="56244961" display_start="56238827" display_stop="56244961" variantLength="6135" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(56238827_?)_(?_56244961)dup" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(56238827_?)_(?_56244961)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 12q13.2(chr12:55845043-55851177)x4 AND Familial cavitary optic disk anomaly" Accession="RCV000157767" Version="1">
+        <ClassifiedConditionList TraitSetID="20713">
+          <ClassifiedCondition DB="MedGen" ID="C1969063">Familial cavitary optic disk anomaly</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-02-24" MostRecentSubmission="2015-02-24">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">17362864</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">17368552</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="20713" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1331" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Cavitary optic disc anomalies</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cavitary optic disc anomaly</ElementValue>
+                <XRef ID="CODA_1" DB="Glaucoma Genetics Lab, University of Iowa" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Familial cavitary optic disk anomaly</ElementValue>
+                <XRef ID="MONDO:0012687" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial cavitary optic disc anomaly</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CODA</ElementValue>
+                <XRef Type="MIM" ID="611543" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17822" />
+                <XRef ID="17822" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="464760" DB="Orphanet" />
+              <XRef ID="C1969063" DB="MedGen" />
+              <XRef ID="MONDO:0012687" DB="MONDO" />
+              <XRef Type="MIM" ID="611543" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="373331" SubmissionDate="2014-07-21" DateLastUpdated="2015-02-24" DateCreated="2015-02-24">
+        <ClinVarSubmissionID localKey="Chr12:g.56238827_56244961(3)" localKeyIsSubmitted="1" />
+        <ClinVarAccession Accession="SCV000172435" DateUpdated="2015-02-24" DateCreated="2015-02-24" Type="SCV" Version="1" SubmitterName="Glaucoma Genetics Lab, University of Iowa" OrgID="505358" OrganizationCategory="other" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">17368552</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">17362864</ID>
+          </Citation>
+          <Comment Type="public">Examination of the cavitary optic disc anomaly (CODA) locus using a large CODA pedigree revealed a 6Kbp heterozygous triplication of DNA sequences upstream of MMP19 segregating with disease. No unaffected or normal subjects had this mutation in which in vitro studies show that the CNV leads to an increase in downstream gene expression.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>303</NumberTested>
+              <Gender>mixed</Gender>
+              <FamilyData NumFamilies="2" NumFamiliesWithSegregationObserved="2" NumFamiliesWithVariant="2">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <NamePlatform>TaqMan Copy Number Assay</NamePlatform>
+              <TypePlatform>Oligo array</TypePlatform>
+              <Purpose>validation</Purpose>
+              <Description>qPCR</Description>
+              <Software name="CopyCaller Software v1.0" />
+              <MethodType>case-control</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">Custom Nimblegen array</Attribute>
+              </MethodAttribute>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="19" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="19" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">optic pit</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">morning glory disc</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">optic nerve coloboma</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <CellLine>HEK293T</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">23766104</ID>
+              </Citation>
+              <Description>Reporter gene assay</Description>
+              <MethodType>in vitro</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">A single copy of the 6 Kbp DNA sequence spanned by the CNV was transfected upstream of the luciferase gene in a vector under the control of a control SV40 promoter. Analysis showed that the 6Kbp sequence has transcription enhancer activity. A 773bp fragment of the 6Kbp DNA segment increased downstream gene expression 8-fold, suggesting that triplication of this sequence may lead to dysregulation of the downstream gene, MMP19, in CODA patients.</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MMP19" />
+          </GeneList>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" outerStart="56238827" outerStop="56244961" variantLength="6135" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000012.11:g.56238827_56244961(3)</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">4</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Cavitary optic disc anomaly</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="611543" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">25581579</ID>
+        </Citation>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="373331" TraitType="Finding" MappingType="Name" MappingValue="optic pit" MappingRef="Preferred">
+        <MedGen CUI="C0338504" Name="Optic pit" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="373331" TraitType="Disease" MappingType="Name" MappingValue="Cavitary optic disc anomaly" MappingRef="Preferred">
+        <MedGen CUI="C1969063" Name="Familial cavitary optic disk anomaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="373331" TraitType="Finding" MappingType="Name" MappingValue="morning glory disc" MappingRef="Preferred">
+        <MedGen CUI="C0393782" Name="Morning glory disc" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

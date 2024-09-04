@@ -1,0 +1,124 @@
+<VariationArchive RecordType="classified" VariationID="1808099" VariationName="GRCh37/hg19 8q23.3(chr8:116454726-116614300)x1" VariationType="copy number loss" Accession="VCV001808099" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1865103" VariationID="1808099">
+      <GeneList>
+        <Gene Symbol="TRPS1" FullName="transcriptional repressor GATA binding 1" GeneID="7227" HGNC_ID="HGNC:12340" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q23.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="115408496" stop="115668975" display_start="115408496" display_stop="115668975" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="116420723" stop="116681227" display_start="116420723" display_stop="116681227" Strand="-" />
+          </Location>
+          <OMIM>604386</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TRPS1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TRPS1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 8q23.3(chr8:116454726-116614300)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>8q23.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="116454726" innerStop="116614300" display_start="116454726" display_stop="116614300" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 8q23.3(chr8:116454726-116614300)x1 AND not provided" Accession="RCV002472905" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-05-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-05-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5420634" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2022-12-31">
+        <ClinVarSubmissionID localKey="C9686|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002773133" DateUpdated="2022-12-31" DateCreated="2022-12-31" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-05-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This 8q23.3 deletion is expected to cause phenotypic and/or developmental abnormalities. This deletion involves at least exon 5 of TRPS1. Deletion of exon 5 or deletion of exons 4-5 are both out-of-frame deletions. Haploinsufficiency of the TRPS1 gene has been associated with autosomal dominant Trichorhinophalangealsyndrome, type I &amp; III (OMIM 190350 &amp; 190351), which are malformation syndromes characterized by distinctive craniofacial andskeletal abnormalities. Type 3 differs from type 1 by the presence of severe brachydactyly due to short metacarpals and severe shorts tature. Exon 5 deletions of TRPS1 have been reported (Bruno et al., Hum Mutat. 2011 Dec;32(12):1500-6. PMID: 21850686; Maas et al., EurJ Med Genet. 2015 May;58(5):279-92. PMID: 25792522).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="8" innerStart="116454726" innerStop="116614300" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478099</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5420634" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="688590" VariationName="GRCh37/hg19 10q23.2-23.31(chr10:89492635-89531333)x1" VariationType="copy number loss" Accession="VCV000688590" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-11" DateCreated="2019-09-09" MostRecentSubmission="2019-09-09">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="676182" VariationID="688590">
+      <GeneList>
+        <Gene Symbol="ATAD1" FullName="ATPase family AAA domain containing 1" GeneID="84896" HGNC_ID="HGNC:25903" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q23.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="87751512" stop="87841361" display_start="87751512" display_stop="87841361" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NW_013171807.1" start="292" stop="34048" display_start="292" display_stop="34048" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="89512874" stop="89577916" display_start="89512874" display_stop="89577916" Strand="-" />
+          </Location>
+          <OMIM>614452</OMIM>
+        </Gene>
+        <Gene Symbol="PAPSS2" FullName="3'-phosphoadenosine 5'-phosphosulfate synthase 2" GeneID="9060" HGNC_ID="HGNC:8604" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q23.2-23.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="87659878" stop="87747705" display_start="87659878" display_stop="87747705" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="89419475" stop="89507461" display_start="89419475" display_stop="89507461" Strand="+" />
+          </Location>
+          <OMIM>603005</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 10q23.2-23.31(chr10:89492635-89531333)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.2-23.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="89492635" innerStop="89531333" display_start="89492635" display_stop="89531333" variantLength="38699" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000010.10" sequenceAccession="NC_000010" sequenceVersion="10" change="g.(?_89492635)_(89531333_?)del" Assembly="GRCh37">
+            <Expression>NC_000010.10:g.(?_89492635)_(89531333_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 10q23.2-23.31(chr10:89492635-89531333)x1 AND not provided" Accession="RCV000849281" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-06-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-06-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-09-09" MostRecentSubmission="2019-09-09">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1940063" SubmissionDate="2018-11-14" DateLastUpdated="2019-09-09" DateCreated="2019-09-09">
+        <ClinVarSubmissionID localKey="000002qFBf|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000991423" DateUpdated="2019-09-09" DateCreated="2019-09-09" Type="SCV" Version="1" SubmitterName="Bionano Laboratories" OrgID="500040" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-06-30">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Buccal</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Gender>male</Gender>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">delayed milestones in childhood</ElementValue>
+                  </Name>
+                </Trait>
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">poor weight gain</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="10" innerStart="89492635" innerStop="89531333" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB4787046</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1940063" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

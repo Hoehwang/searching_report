@@ -1,0 +1,122 @@
+<VariationArchive RecordType="classified" VariationID="2580352" VariationName="GRCh37/hg19 9q21.13(chr9:77112742-77113051)x1" VariationType="copy number loss" Accession="VCV002580352" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-30" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2747940" VariationID="2580352">
+      <GeneList>
+        <Gene Symbol="RORB" FullName="RAR related orphan receptor B" GeneID="6096" HGNC_ID="HGNC:10259" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q21.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="74497335" stop="74693177" display_start="74497335" display_stop="74693177" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="77112251" stop="77302116" display_start="77112251" display_stop="77302116" Strand="+" />
+          </Location>
+          <OMIM>601972</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9q21.13(chr9:77112742-77113051)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9q21.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="77112742" innerStop="77113051" display_start="77112742" display_stop="77113051" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9q21.13(chr9:77112742-77113051)x1 AND Epilepsy, idiopathic generalized, susceptibility to, 15" Accession="RCV003329557" Version="1">
+        <ClassifiedConditionList TraitSetID="46681">
+          <ClassifiedCondition DB="MedGen" ID="C5193050">Epilepsy, idiopathic generalized, susceptibility to, 15</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-04-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-04-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="46681" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="41543" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Epilepsy, idiopathic generalized, susceptibility to, 15</ElementValue>
+                <XRef ID="MONDO:0032699" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">EIG15</ElementValue>
+                <XRef Type="MIM" ID="618357" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193050" DB="MedGen" />
+              <XRef ID="MONDO:0032699" DB="MONDO" />
+              <XRef Type="MIM" ID="618357" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7553741" SubmissionDate="2023-09-22" DateLastUpdated="2023-09-30" DateCreated="2023-09-30">
+        <ClinVarSubmissionID localKey="CVb-cnv_129|OMIM:618357|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004036143" DateUpdated="2023-09-30" DateCreated="2023-09-30" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-04-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RORB" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" innerStart="77112742" innerStop="77113051" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618357" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13857242</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7553741" TraitType="Disease" MappingType="XRef" MappingValue="618357" MappingRef="OMIM">
+        <MedGen CUI="C5193050" Name="Epilepsy, idiopathic generalized, susceptibility to, 15" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

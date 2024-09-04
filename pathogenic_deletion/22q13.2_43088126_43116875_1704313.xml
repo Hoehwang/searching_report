@@ -1,0 +1,117 @@
+<VariationArchive RecordType="classified" VariationID="1704313" VariationName="GRCh37/hg19 22q13.2(chr22:43103054-43207442)x1" VariationType="copy number loss" Accession="VCV001704313" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-17" DateCreated="2022-09-10" MostRecentSubmission="2022-09-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1698848" VariationID="1704313">
+      <GeneList>
+        <Gene Symbol="A4GALT" FullName="alpha 1,4-galactosyltransferase (P blood group)" GeneID="53947" HGNC_ID="HGNC:18149" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="42692121" stop="42721301" display_start="42692121" display_stop="42721301" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="43088126" stop="43116875" display_start="43088126" display_stop="43116875" Strand="-" />
+          </Location>
+          <OMIM>607922</OMIM>
+        </Gene>
+        <Gene Symbol="ARFGAP3" FullName="ADP ribosylation factor GTPase activating protein 3" GeneID="26286" HGNC_ID="HGNC:661" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q13.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="42796502" stop="42857273" display_start="42796502" display_stop="42857273" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="43192531" stop="43253407" display_start="43192531" display_stop="43253407" Strand="-" />
+          </Location>
+          <OMIM>612439</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 22q13.2(chr22:43103054-43207442)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" outerStart="43103054" outerStop="43207442" display_start="43103054" display_stop="43207442" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 22q13.2(chr22:43103054-43207442)x1 AND HETEROTAXY, TGA" Accession="RCV002281678" Version="1">
+        <ClassifiedConditionList TraitSetID="79674">
+          <ClassifiedCondition>HETEROTAXY, TGA</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-10" MostRecentSubmission="2022-09-10">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="79674" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="65896" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">HETEROTAXY, TGA</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5025818" SubmissionDate="2022-09-07" DateLastUpdated="2022-09-10" DateCreated="2022-09-10">
+        <ClinVarSubmissionID localKey="2021-150" submittedAssembly="GRCh37" title="2021-150" />
+        <ClinVarAccession Accession="SCV002569955" DateUpdated="2022-09-10" DateCreated="2022-09-10" Type="SCV" Version="1" SubmitterName="Cytogenetics, Genetics Associates, Inc." OrgID="508710" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan Dx</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" outerStart="43103054" outerStop="43207442" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HETEROTAXY, TGA</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2021-150</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5025818" TraitType="Disease" MappingType="Name" MappingValue="HETEROTAXY, TGA" MappingRef="Preferred">
+        <MedGen CUI="None" Name="HETEROTAXY, TGA" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

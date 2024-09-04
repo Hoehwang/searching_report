@@ -1,0 +1,137 @@
+<VariationArchive RecordType="classified" VariationID="915974" VariationName="GRCh37/hg19 4q24(chr4:107092252-107092428)" VariationType="copy number loss" Accession="VCV000915974" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-19" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904199" VariationID="915974">
+      <GeneList>
+        <Gene Symbol="TBCK" FullName="TBC1 domain containing kinase" GeneID="93627" HGNC_ID="HGNC:28261" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q24</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="106041599" stop="106316683" display_start="106041599" display_stop="106316683" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="106967232" stop="107237860" display_start="106967232" display_stop="107237860" Strand="-" />
+          </Location>
+          <OMIM>616899</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 4q24(chr4:107092252-107092428)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>4q24</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="107092252" innerStop="107092428" display_start="107092252" display_stop="107092428" variantLength="177" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_107092252)_(107092428_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_107092252)_(107092428_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 4q24(chr4:107092252-107092428) AND Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" Accession="RCV001195127" Version="1">
+        <ClassifiedConditionList TraitSetID="26499">
+          <ClassifiedCondition DB="MedGen" ID="C5567480">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="26499" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35280" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ElementValue>
+                <XRef ID="MONDO:0014823" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IHPRF3</ElementValue>
+                <XRef Type="MIM" ID="616900" DB="OMIM" />
+              </Symbol>
+              <XRef ID="488632" DB="Orphanet" />
+              <XRef ID="C5567480" DB="MedGen" />
+              <XRef ID="MONDO:0014823" DB="MONDO" />
+              <XRef Type="MIM" ID="616900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637863" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr4:g.107092252_107092428del|OMIM:616900" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334084" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="4" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="4" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TBCK" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" innerStart="107092252" innerStop="107092428" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637863" TraitType="Disease" MappingType="XRef" MappingValue="616900" MappingRef="OMIM">
+        <MedGen CUI="C5567480" Name="Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,160 @@
+<VariationArchive RecordType="classified" VariationID="1526879" VariationName="GRCh37/hg19 Xq28(chrX:153269534-153438781)" VariationType="copy number gain" Accession="VCV001526879" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-16" DateCreated="2022-04-02" MostRecentSubmission="2022-04-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1518368" VariationID="1526879">
+      <GeneList>
+        <Gene Symbol="IRAK1" FullName="interleukin 1 receptor associated kinase 1" GeneID="3654" HGNC_ID="HGNC:6112" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154010507" stop="154019902" display_start="154010507" display_stop="154019902" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153275956" stop="153285341" display_start="153275956" display_stop="153285341" Strand="-" />
+          </Location>
+          <OMIM>300283</OMIM>
+        </Gene>
+        <Gene Symbol="MECP2" FullName="methyl-CpG binding protein 2" GeneID="4204" HGNC_ID="HGNC:6990" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154021573" stop="154097717" display_start="154021573" display_stop="154097717" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153287263" stop="153363187" display_start="153287263" display_stop="153363187" Strand="-" />
+          </Location>
+          <OMIM>300005</OMIM>
+          <Haploinsufficiency last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-02-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MECP2">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="OPN1LW" FullName="opsin 1, long wave sensitive" GeneID="5956" HGNC_ID="HGNC:9936" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154144243" stop="154159032" display_start="154144243" display_stop="154159032" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153409724" stop="153424506" display_start="153409724" display_stop="153424506" Strand="+" />
+          </Location>
+          <OMIM>300822</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq28(chrX:153269534-153438781)</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153269534" innerStop="153438781" display_start="153269534" display_stop="153438781" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq28(chrX:153269534-153438781) AND not specified" Accession="RCV002053211" Version="3">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-04-02" MostRecentSubmission="2022-04-02">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4540305" SubmissionDate="2022-03-28" DateLastUpdated="2022-04-02" DateCreated="2022-04-02">
+        <ClinVarSubmissionID localKey="4153-3|MedGen:CN169374" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002320007" DateUpdated="2022-04-02" DateCreated="2022-04-02" Type="SCV" Version="1" SubmitterName="ARUP Laboratories, Cytogenetics and Genomic Microarray, ARUP Laboratories" OrgID="319864" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-03-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ARUP Cytogenomic Constitutional CNV Assertion Criteria</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/4zhxqsgj/arup_cytogenomic_constitutional_cnv_assertion_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001999" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Comment>Phenotype(s) indicated for testing: Developmental delay, unspecified: 1 Speech delay: 1 Seizures: 1 Dysmorphic facial features: 1</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="153269534" innerStop="153438781" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11199633</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4540305" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001250" MappingRef="HP">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540305" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540305" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001999" MappingRef="HP">
+        <MedGen CUI="C0424503" Name="Abnormal facial shape" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540305" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4540305" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,215 @@
+<VariationArchive RecordType="classified" VariationID="548953" VariationName="GRCh37/hg19 Xq23(chrX:108919564-108929311)" VariationType="copy number loss" Accession="VCV000548953" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-13" DateCreated="2018-07-21" MostRecentSubmission="2018-07-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="539435" VariationID="548953">
+      <GeneList>
+        <Gene Symbol="ACSL4" FullName="acyl-CoA synthetase long chain family member 4" GeneID="2182" HGNC_ID="HGNC:3571" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="109641335" stop="109733257" display_start="109641335" display_stop="109733257" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="108884563" stop="108976620" display_start="108884563" display_stop="108976620" Strand="-" />
+          </Location>
+          <OMIM>300157</OMIM>
+          <Haploinsufficiency last_evaluated="2021-04-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ACSL4">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-04-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ACSL4">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq23(chrX:108919564-108929311)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" outerStart="108915663" innerStart="108919564" innerStop="108929311" outerStop="108933582" display_start="108915663" display_stop="108933582" variantLength="10" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(108915663_108919564)_(108929311_108933582)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(108915663_108919564)_(108929311_108933582)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <FunctionalConsequence Value="probably has functional consequence" />
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq23(chrX:108919564-108929311) AND multiple conditions" Accession="RCV000663364" Version="1">
+        <ClassifiedConditionList TraitSetID="43870">
+          <ClassifiedCondition DB="MedGen" ID="C0557874">Global developmental delay</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0948008">Ischemic stroke</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-06-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-06-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-07-21" MostRecentSubmission="2018-07-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="43870" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3856" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ischemic stroke, susceptibility to</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CEREBROVASCULAR ACCIDENT</ElementValue>
+                <XRef Type="MIM" ID="601367" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Ischemic stroke</ElementValue>
+                <XRef ID="Ischemic+stroke/8683" DB="Genetic Alliance" />
+                <XRef ID="HP:0002140" DB="Human Phenotype Ontology" />
+                <XRef ID="422504002" DB="SNOMED CT" />
+              </Name>
+              <Citation Type="general" Abbrev="AHA/ASA, 2014">
+                <ID Source="PubMed">25355838</ID>
+              </Citation>
+              <XRef ID="C0948008" DB="MedGen" />
+              <XRef Type="MIM" ID="601367" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0002140" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="17050" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DD</ElementValue>
+                <XRef ID="GTR000501388" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000553938" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592357" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520936" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569041" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592358" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000509471" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000521543" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522222" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558520" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568239" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="Retired, AAN/CNS, 2011">
+                <ID Source="PubMed">21956720</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2021">
+                <ID Source="PubMed">34211152</ID>
+              </Citation>
+              <XRef ID="C0557874" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001263" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000754" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001255" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001277" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001292" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002433" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002473" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002532" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006793" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006867" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006885" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006935" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007005" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007094" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007106" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007174" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007224" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007228" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007342" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0025356" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1533427" SubmissionDate="2018-07-17" DateLastUpdated="2018-07-21" DateCreated="2018-07-21">
+        <ClinVarSubmissionID localKey="SUB4224997" submittedAssembly="GRCh37" title="SUB4224997" />
+        <ClinVarAccession Accession="SCV000784717" DateUpdated="2018-07-21" DateCreated="2018-07-21" Type="SCV" Version="1" SubmitterName="Genetics and Genomics, Alberta Children's Hospital" OrgID="506642" OrganizationCategory="laboratory" OrgAbbreviation="G &amp; G" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-06-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">23520119</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>African</Ethnicity>
+              <GeographicOrigin>Africa</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Oxford Gene Technologies Cytosure 8x60K Constitutional V2</NamePlatform>
+              <TypePlatform>Array CGH</TypePlatform>
+              <Description>Data was obtained using OGT Cytosure 8x60K Constitutional Array and data was analysed using OGT CytoSure Analysis Software.</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+              <MethodAttribute>
+                <Attribute Type="TestName">Chromosome Microarray Analysis</Attribute>
+              </MethodAttribute>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2015-08-12">Alberta Children's Hospital, Cytogenetics Laboratory</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="108919564" innerStop="108929311" outerStart="108915663" outerStop="108933582" variantLength="10" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">M15-1986</Name>
+          </OtherNameList>
+          <FunctionalConsequence Value="probably has functional consequence" />
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001263" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0002140" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">23520119</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4224997</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1533427" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1533427" TraitType="Disease" MappingType="XRef" MappingValue="HP:0002140" MappingRef="HP">
+        <MedGen CUI="C0948008" Name="Ischemic stroke" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,150 @@
+<VariationArchive VariationID="813326" VariationName="GRCh37/hg19 2q31.1(chr2:172644081-172644457)" VariationType="copy number loss" Accession="VCV000813326" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801574" VariationID="813326">
+      <GeneList>
+        <Gene Symbol="SLC25A12" FullName="solute carrier family 25 member 12" GeneID="8604" HGNC_ID="HGNC:10982" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="171783405" stop="171894244" display_start="171783405" display_stop="171894244" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NW_025791761.1" start="213578" stop="324837" display_start="213578" display_stop="324837" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="172639914" stop="172750815" display_start="172639914" display_stop="172750815" Strand="-" />
+          </Location>
+          <OMIM>603667</OMIM>
+          <Haploinsufficiency last_evaluated="2012-01-19" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SLC25A12">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-01-19" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SLC25A12">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q31.1(chr2:172644081-172644457)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="172644081" innerStop="172644457" display_start="172644081" display_stop="172644457" variantLength="377" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_172644081)_(172644457_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_172644081)_(172644457_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q31.1(chr2:172644081-172644457) AND Developmental and epileptic encephalopathy, 39" Accession="RCV001004098" Version="5">
+        <ClassifiedConditionList TraitSetID="1700">
+          <ClassifiedCondition DB="MedGen" ID="C2751855">Developmental and epileptic encephalopathy, 39</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-06-21" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-06-21" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1700" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6770" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 39 WITH LEUKODYSTROPHY</ElementValue>
+                <XRef Type="MIM" ID="612949" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603667.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603667.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603667.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603667.0004" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hypomyelination, global cerebral</ElementValue>
+                <XRef ID="Hypomyelination%2C+global+cerebral/8618" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 39</ElementValue>
+                <XRef ID="MONDO:0013056" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE39</ElementValue>
+                <XRef Type="MIM" ID="612949" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17532" />
+                <XRef ID="17532" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="353217" DB="Orphanet" />
+              <XRef ID="C2751855" DB="MedGen" />
+              <XRef ID="MONDO:0013056" DB="MONDO" />
+              <XRef Type="MIM" ID="612949" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291862" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="34-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162826" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-06-21">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="15-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">15-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC25A12" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="172644081" innerStop="172644457" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="612949" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291862" TraitType="Disease" MappingType="XRef" MappingValue="612949" MappingRef="OMIM">
+        <MedGen CUI="C2751855" Name="Developmental and epileptic encephalopathy, 39" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

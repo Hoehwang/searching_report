@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="58119" VariationName="GRCh38/hg38 5q32(chr5:150368321-150396843)x3" VariationType="copy number gain" Accession="VCV000058119" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="72714" VariationID="58119">
+      <GeneList>
+        <Gene Symbol="TCOF1" FullName="treacle ribosome biogenesis factor 1" GeneID="6949" HGNC_ID="HGNC:11654" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q32-33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="150357697" stop="150400293" display_start="150357697" display_stop="150400293" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="149737201" stop="149779870" display_start="149737201" display_stop="149779870" Strand="+" />
+          </Location>
+          <OMIM>606847</OMIM>
+          <Haploinsufficiency last_evaluated="2021-04-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TCOF1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-04-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TCOF1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 5q32(chr5:150368321-150396843)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>5q32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" innerStart="150368321" innerStop="150396843" display_start="150368321" display_stop="150396843" variantLength="28523" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="149747884" innerStop="149776406" display_start="149747884" display_stop="149776406" variantLength="28523" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="5" Accession="NC_000005.8" innerStart="149728077" innerStop="149756599" display_start="149728077" display_stop="149756599" variantLength="28523" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.8" sequenceAccession="NC_000005" sequenceVersion="8" change="g.(?_149728077)_(149756599_?)dup" Assembly="NCBI36">
+            <Expression>NC_000005.8:g.(?_149728077)_(149756599_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_149747884)_(149776406_?)dup" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_149747884)_(149776406_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.(?_150368321)_(150396843_?)dup" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.(?_150368321)_(150396843_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv579020" DB="dbVar" />
+        <XRef ID="nsv530577" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 5q32(chr5:150368321-150396843)x3 AND See cases" Accession="RCV000051864" Version="4">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2011-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="135181" SubmissionDate="2014-06-21" DateLastUpdated="2015-06-28" DateCreated="2013-08-03">
+        <ClinVarSubmissionID localKey="nsv530577:copy number gain:See cases:3:SCV000079212" />
+        <ClinVarAccession Accession="SCV000079212" DateUpdated="2015-06-28" DateCreated="2013-08-03" Type="SCV" Version="4" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Kaminsky et al. (Genet Med. 2011)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">21844811</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>not provided</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay AND/OR other significant developmental or morphological phenotypes</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv579020" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000005.8" Assembly="NCBI36" Chr="5" innerStart="149728077" innerStop="149756599" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv579020" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv530577" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000005.8:g.(?_149728077)_(149756599_?)dup</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>nstd101</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="135181" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="135181" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay AND/OR other significant developmental or morphological phenotypes" MappingRef="Preferred">
+        <MedGen CUI="CN218420" Name="Developmental delay AND/OR other significant developmental or morphological phenotypes" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

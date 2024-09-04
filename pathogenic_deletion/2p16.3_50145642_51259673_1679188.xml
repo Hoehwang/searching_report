@@ -1,0 +1,174 @@
+<VariationArchive RecordType="classified" VariationID="1679188" VariationName="GRCh37/hg19 2p16.3(chr2:50671549-50860852)x1" VariationType="copy number loss" Accession="VCV001679188" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-02" DateCreated="2022-04-30" MostRecentSubmission="2022-04-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1671094" VariationID="1679188">
+      <GeneList>
+        <Gene Symbol="NRXN1" FullName="neurexin 1" GeneID="9378" HGNC_ID="HGNC:8008" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p16.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="49918503" stop="51032132" display_start="49918503" display_stop="51032132" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="50145642" stop="51259673" display_start="50145642" display_stop="51259673" Strand="-" />
+          </Location>
+          <OMIM>600565</OMIM>
+          <Haploinsufficiency last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p16.3(chr2:50671549-50860852)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2p16.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="50671549" innerStop="50860852" display_start="50671549" display_stop="50860852" variantLength="189304" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_50671549)_(50860852_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_50671549)_(50860852_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p16.3(chr2:50671549-50860852)x1 AND del2p16.3" Accession="RCV002226631" Version="2">
+        <ClassifiedConditionList TraitSetID="74563">
+          <ClassifiedCondition>del2p16.3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2022-01-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-01-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-04-30" MostRecentSubmission="2022-04-30">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23495017</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27195815</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30873608</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31932357</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="74563" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="62381" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">del2p16.3</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4900359" SubmissionDate="2022-04-29" DateLastUpdated="2022-04-30" DateCreated="2022-04-30">
+        <ClinVarSubmissionID localKey="SUB11018930" submittedAssembly="GRCh37" title="SUB11018930" />
+        <ClinVarAccession Accession="SCV002505466" DateUpdated="2022-04-30" DateCreated="2022-04-30" Type="SCV" Version="1" SubmitterName="Medicover Genetics GmbH, Medicover Humangenetik Berlin-Lichtenberg MVZ" OrgID="507452" OrganizationCategory="laboratory" OrgAbbreviation="MCG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-01-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30873608</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">27195815</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">23495017</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">31932357</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent, ISCA v2, 4x180K</NamePlatform>
+              <TypePlatform>Array CGH</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001270" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001999" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="50671549" innerStop="50860852" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">36-23304</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">del2p16.3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11018930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4900359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4900359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001249" MappingRef="HP">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4900359" TraitType="Disease" MappingType="Name" MappingValue="del2p16.3" MappingRef="Preferred">
+        <MedGen CUI="None" Name="del2p16.3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4900359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001999" MappingRef="HP">
+        <MedGen CUI="C0424503" Name="Abnormal facial shape" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4900359" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001270" MappingRef="HP">
+        <MedGen CUI="C1854301" Name="Motor delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

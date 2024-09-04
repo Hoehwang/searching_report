@@ -1,0 +1,163 @@
+<VariationArchive RecordType="classified" VariationID="635764" VariationName="arr[hg19]11p11.2(47339995x2,47343435_47375684x1,47387184x2)" VariationType="copy number loss" Accession="VCV000635764" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-24" DateCreated="2019-07-15" MostRecentSubmission="2019-07-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="623595" VariationID="635764">
+      <GeneList>
+        <Gene Symbol="MADD" FullName="MAP kinase activating death domain" GeneID="8567" HGNC_ID="HGNC:6766" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>11p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="47269188" stop="47330031" display_start="47269188" display_stop="47330031" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="47290926" stop="47351581" display_start="47290926" display_stop="47351581" Strand="+" />
+          </Location>
+          <OMIM>603584</OMIM>
+        </Gene>
+        <Gene Symbol="MYBPC3" FullName="myosin binding protein C3" GeneID="4607" HGNC_ID="HGNC:7551" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>11p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="47331406" stop="47352702" display_start="47331406" display_stop="47352702" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="47352956" stop="47374252" display_start="47352956" display_stop="47374252" Strand="-" />
+          </Location>
+          <OMIM>600958</OMIM>
+          <Haploinsufficiency last_evaluated="2015-11-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MYBPC3">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2015-11-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MYBPC3">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>arr[hg19]11p11.2(47339995x2,47343435_47375684x1,47387184x2)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>11p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="47343435" innerStop="47375684" display_start="47343435" display_stop="47375684" variantLength="32250" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_47343435)_(47375684_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_47343435)_(47375684_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="arr[hg19]11p11.2(47339995x2,47343435_47375684x1,47387184x2) AND Left ventricular noncompaction 10" Accession="RCV000787297" Version="1">
+        <ClassifiedConditionList TraitSetID="11787">
+          <ClassifiedCondition DB="MedGen" ID="C3715165">Left ventricular noncompaction 10</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-07-15" MostRecentSubmission="2019-07-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">21551322</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30924982</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="11787" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18253" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Left ventricular noncompaction 10</ElementValue>
+                <XRef ID="MONDO:0014163" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LVNC10</ElementValue>
+                <XRef Type="MIM" ID="615396" DB="OMIM" />
+              </Symbol>
+              <XRef ID="154" DB="Orphanet" />
+              <XRef ID="54260" DB="Orphanet" />
+              <XRef ID="C3715165" DB="MedGen" />
+              <XRef ID="MONDO:0014163" DB="MONDO" />
+              <XRef Type="MIM" ID="615396" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1811389" SubmissionDate="2019-03-19" DateLastUpdated="2019-07-15" DateCreated="2019-07-15">
+        <ClinVarSubmissionID localKey="CMP-09-02" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000926217" DateUpdated="2019-07-15" DateCreated="2019-07-15" Type="SCV" Version="1" SubmitterName="Klaassen Lab, Charite University Medicine Berlin" OrgID="506935" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30924982</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21551322</ID>
+          </Citation>
+          <Comment>Found in compound heterozygosity with NM_000256.3:c.2572A&gt;C</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <GeographicOrigin>Germany</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MYBPC3" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="11" innerStart="47343435" innerStop="47375684" />
+          </Location>
+          <OtherNameList>
+            <Name>arr[hg19] 11p11.2(47339995x2,47343435 _47375684x1,47387184x2)</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615396" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30924982</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30924982</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB5337701</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1811389" TraitType="Disease" MappingType="XRef" MappingValue="615396" MappingRef="OMIM">
+        <MedGen CUI="C3715165" Name="Left ventricular noncompaction 10" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

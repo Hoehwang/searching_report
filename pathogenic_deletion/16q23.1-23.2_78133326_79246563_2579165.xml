@@ -1,0 +1,145 @@
+<VariationArchive VariationID="2579165" VariationName="GRCh38/hg38 16q23.1(chr16:78099236-78100272)x0" VariationType="copy number loss" Accession="VCV002579165" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-03-30" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744203" VariationID="2579165">
+      <GeneList>
+        <Gene Symbol="WWOX" FullName="WW domain containing oxidoreductase" GeneID="51741" HGNC_ID="HGNC:12799" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>16q23.1-23.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="78099654" stop="79212667" display_start="78099654" display_stop="79212667" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="78133326" stop="79246563" display_start="78133326" display_stop="79246563" Strand="+" />
+          </Location>
+          <OMIM>605131</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 16q23.1(chr16:78099236-78100272)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="78099236" stop="78100272" display_start="78099236" display_stop="78100272" variantLength="1037" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 16q23.1(chr16:78099236-78100272)x0 AND Developmental and epileptic encephalopathy, 28" Accession="RCV003327604" Version="2">
+        <ClassifiedConditionList TraitSetID="20653">
+          <ClassifiedCondition DB="MedGen" ID="C4015519">Developmental and epileptic encephalopathy, 28</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="20653" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32687" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 28</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 28</ElementValue>
+                <XRef ID="MONDO:0014533" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE28</ElementValue>
+                <XRef Type="MIM" ID="616211" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16069" />
+                <XRef ID="16069" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="442835" DB="Orphanet" />
+              <XRef ID="C4015519" DB="MedGen" />
+              <XRef ID="MONDO:0014533" DB="MONDO" />
+              <XRef Type="MIM" ID="616211" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549674" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="3386|OMIM:616211|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034159" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exon 1 in WWOX (NM_016373.4) was identified by exome sequencing and confirmed by genome sequencing in two siblings with developmental and epileptic encephalopathy ([GRCh 38] chr16:78099236_78100272x0). Inheritance information is unavailable. The patient phenotypes are nonspecific, but are consistent with cases described in the literature and/or published databases with overlapping variants. This intragenic variant deletes the first coding exon and is predicted to cause loss of the methionine initiation codon. There is no in frame methionine in exon 2 or 3 that could reinitiate translation. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of WWOX is an established disease mechanism in autosomal recessive developmental and epileptic encephalopathy (https://search.thegencc.org/genes). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive developmental and epileptic encephalopathy. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.15 points; Total: 1.05 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="WWOX" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="16" start="78099236" stop="78100272" variantLength="1037" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616211" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549674" TraitType="Disease" MappingType="XRef" MappingValue="616211" MappingRef="OMIM">
+        <MedGen CUI="C4015519" Name="Developmental and epileptic encephalopathy, 28" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

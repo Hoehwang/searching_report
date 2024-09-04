@@ -1,0 +1,203 @@
+<VariationArchive RecordType="classified" VariationID="253480" VariationName="GRCh37/hg19 2p16.3(chr2:51083410-51382872)x1" VariationType="copy number loss" Accession="VCV000253480" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="247928" VariationID="253480">
+      <GeneList>
+        <Gene Symbol="NRXN1" FullName="neurexin 1" GeneID="9378" HGNC_ID="HGNC:8008" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p16.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="49918503" stop="51032132" display_start="49918503" display_stop="51032132" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="50145642" stop="51259673" display_start="50145642" display_stop="51259673" Strand="-" />
+          </Location>
+          <OMIM>600565</OMIM>
+          <Haploinsufficiency last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p16.3(chr2:51083410-51382872)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2p16.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="51083410" innerStop="51382872" display_start="51083410" display_stop="51382872" variantLength="299463" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_51083410)_(51382872_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_51083410)_(51382872_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p16.3(chr2:51083410-51382872)x1 AND See cases" Accession="RCV000239936" Version="2">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-01-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-01-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="577881" SubmissionDate="2016-07-13" DateLastUpdated="2016-09-04" DateCreated="2016-09-04">
+        <ClinVarSubmissionID localKey="GDX_L_38403" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000298424" DateUpdated="2016-09-04" DateCreated="2016-09-04" Type="SCV" Version="3" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-01-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation Type="general">
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Autism</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000717" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed fine motor development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010862" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Obsessive-compulsive behavior</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000722" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Constipation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002019" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Chronic diarrhea</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002028" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Epileptic spasms</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011097" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Coloboma</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000589" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed gross motor development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002194" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed speech and language development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="51083410" innerStop="51382872" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See Cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Delayed fine motor development" MappingRef="Preferred">
+        <MedGen CUI="C4023681" Name="Delayed fine motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Delayed gross motor development" MappingRef="Preferred">
+        <MedGen CUI="C1837658" Name="Delayed gross motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Obsessive-compulsive behavior" MappingRef="Preferred">
+        <MedGen CUI="C0600104" Name="Obsessive-compulsive behavior" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Epileptic spasms" MappingRef="Preferred">
+        <MedGen CUI="C1527366" Name="Epileptic spasm" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Coloboma" MappingRef="Preferred">
+        <MedGen CUI="C0009363" Name="Congenital ocular coloboma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Chronic diarrhea" MappingRef="Preferred">
+        <MedGen CUI="C0401151" Name="Chronic diarrhea" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See Cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Autism" MappingRef="Preferred">
+        <MedGen CUI="C0004352" Name="Autistic disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Delayed speech and language development" MappingRef="Preferred">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577881" TraitType="Finding" MappingType="Name" MappingValue="Constipation" MappingRef="Preferred">
+        <MedGen CUI="C0009806" Name="Constipation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

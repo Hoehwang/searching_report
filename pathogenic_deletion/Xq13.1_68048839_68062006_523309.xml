@@ -1,0 +1,160 @@
+<VariationArchive RecordType="classified" VariationID="523309" VariationName="GRCh37/hg19 Xq13.1(chrX:68058460-68059931)" VariationType="copy number loss" Accession="VCV000523309" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-17" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="514221" VariationID="523309">
+      <GeneList>
+        <Gene Symbol="EFNB1" FullName="ephrin B1" GeneID="1947" HGNC_ID="HGNC:3226" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="68829021" stop="68842160" display_start="68829021" display_stop="68842160" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="68048839" stop="68062006" display_start="68048839" display_stop="68062006" Strand="+" />
+          </Location>
+          <OMIM>300035</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=EFNB1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=EFNB1">Little evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq13.1(chrX:68058460-68059931)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="68058460" innerStop="68059931" display_start="68058460" display_stop="68059931" variantLength="1472" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_68058460)_(68059931_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_68058460)_(68059931_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq13.1(chrX:68058460-68059931) AND multiple conditions" Accession="RCV000626565" Version="2">
+        <ClassifiedConditionList TraitSetID="43161">
+          <ClassifiedCondition DB="MedGen" ID="C1306710">Facial asymmetry</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0221354">Frontal bossing</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0020534">Hypertelorism</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="43161" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18120" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Frontal bossing</ElementValue>
+                <XRef ID="HP:0002007" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0221354" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0002007" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000254" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000333" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001358" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001359" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="1747" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypertelorism</ElementValue>
+                <XRef ID="HP:0000316" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0020534" DB="MedGen" />
+              <XRef Type="MIM" ID="145400" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0000316" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000578" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002001" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0004657" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007871" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="21583" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Facial asymmetry</ElementValue>
+                <XRef ID="HP:0000324" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C1306710" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0000324" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0003775" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1455358" SubmissionDate="2017-12-08" DateLastUpdated="2018-05-12" DateCreated="2018-05-12">
+        <ClinVarSubmissionID localKey="CMGVARID00889|HPO:HP:0000324;HP:0002007;HP:0000316" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000747266" DateUpdated="2018-05-12" DateCreated="2018-05-12" Type="SCV" Version="1" SubmitterName="Centre for Mendelian Genomics, University Medical Centre Ljubljana" OrgID="505952" OrganizationCategory="clinic" OrgAbbreviation="CMG-UMCL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EFNB1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="68058460" innerStop="68059931" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000324" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0002007" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0000316" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>CMG_Slovenia_Submission_2</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1455358" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000324" MappingRef="HP">
+        <MedGen CUI="C1306710" Name="Facial asymmetry" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455358" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002007" MappingRef="HP">
+        <MedGen CUI="C0221354" Name="Frontal bossing" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455358" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000316" MappingRef="HP">
+        <MedGen CUI="C0020534" Name="Hypertelorism" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

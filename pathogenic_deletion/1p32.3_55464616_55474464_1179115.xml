@@ -1,0 +1,138 @@
+<VariationArchive VariationID="1179115" VariationName="GRCh37/hg19 1p32.3(chr1:55464606-55482845)" VariationType="copy number loss" Accession="VCV001179115" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168567" VariationID="1179115">
+      <GeneList>
+        <Gene Symbol="BSND" FullName="barttin CLCNK type accessory subunit beta" GeneID="7809" HGNC_ID="HGNC:16512" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p32.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="54998933" stop="55017172" display_start="54998933" display_stop="55017172" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="55464616" stop="55474464" display_start="55464616" display_stop="55474464" Strand="+" />
+          </Location>
+          <OMIM>606412</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1p32.3(chr1:55464606-55482845)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1p32.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="55464606" innerStop="55482845" display_start="55464606" display_stop="55482845" variantLength="18240" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_55464606)_(55482845_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_55464606)_(55482845_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1p32.3(chr1:55464606-55482845) AND Bartter disease type 4A" Accession="RCV001535971" Version="3">
+        <ClassifiedConditionList TraitSetID="1205">
+          <ClassifiedCondition DB="MedGen" ID="C1865270">Bartter disease type 4A</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1205" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4662" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome with sensorineural deafness</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BARTTER SYNDROME, NEONATAL, WITH SENSORINEURAL DEAFNESS</ElementValue>
+                <XRef Type="MIM" ID="602522" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BARTTER SYNDROME, TYPE 4A, NEONATAL, WITH SENSORINEURAL DEAFNESS</ElementValue>
+                <XRef Type="MIM" ID="602522" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Bartter disease type 4A</ElementValue>
+                <XRef ID="MONDO:0011242" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BARTS4A</ElementValue>
+                <XRef Type="MIM" ID="602522" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">BSND</ElementValue>
+                <XRef Type="MIM" ID="602522" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15348" />
+                <XRef ID="15348" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="112" DB="Orphanet" />
+              <XRef ID="C1865270" DB="MedGen" />
+              <XRef ID="MONDO:0011242" DB="MONDO" />
+              <XRef Type="MIM" ID="602522" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448111" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.1_55464606_55482845_copy number loss|OMIM:602522" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752635" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BSND" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="55464606" innerStop="55482845" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="602522" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448111" TraitType="Disease" MappingType="XRef" MappingValue="602522" MappingRef="OMIM">
+        <MedGen CUI="C1865270" Name="Bartter disease type 4A" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

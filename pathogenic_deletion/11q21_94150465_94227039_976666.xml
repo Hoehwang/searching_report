@@ -1,0 +1,159 @@
+<VariationArchive VariationID="976666" VariationName="GRCh37/hg19 11q21(chr11:94153291-94170401)" VariationType="copy number loss" Accession="VCV000976666" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="964908" VariationID="976666">
+      <GeneList>
+        <Gene Symbol="MRE11" FullName="MRE11 homolog, double strand break repair nuclease" GeneID="4361" HGNC_ID="HGNC:7230" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11q21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="94415570" stop="94512412" display_start="94415570" display_stop="94512412" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="94150465" stop="94227039" display_start="94150465" display_stop="94227039" Strand="-" />
+          </Location>
+          <OMIM>600814</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 11q21(chr11:94153291-94170401)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>11q21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="94153291" innerStop="94170401" display_start="94153291" display_stop="94170401" variantLength="17111" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_94153291)_(94170401_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_94153291)_(94170401_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 11q21(chr11:94153291-94170401) AND Ataxia-telangiectasia-like disorder 1" Accession="RCV001254035" Version="5">
+        <ClassifiedConditionList TraitSetID="2419">
+          <ClassifiedCondition DB="MedGen" ID="C4012790">Ataxia-telangiectasia-like disorder 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2419" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="461" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Ataxia-telangiectasia-like disorder 1</ElementValue>
+                <XRef ID="Early-Onset+Ataxia+with+Oculomotor+Apraxia+and+Hypoalbuminemia/2429" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0024557" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ATLD1</ElementValue>
+                <XRef Type="MIM" ID="604391" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17209" />
+                <XRef ID="17209" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20050888</ID>
+              </Citation>
+              <XRef ID="251347" DB="Orphanet" />
+              <XRef ID="C4012790" DB="MedGen" />
+              <XRef ID="MONDO:0024557" DB="MONDO" />
+              <XRef Type="MIM" ID="604391" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2822702" SubmissionDate="2020-08-10" DateLastUpdated="2020-08-21" DateCreated="2020-08-21">
+        <ClinVarSubmissionID localKey="131-20200810" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001429934" DateUpdated="2020-08-21" DateCreated="2020-08-21" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-07">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="70-20200121" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">70-20200121</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000602" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001272" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001251" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MRE11A" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="11" innerStart="94153291" innerStop="94170401" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="604391" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2822702" TraitType="Disease" MappingType="XRef" MappingValue="604391" MappingRef="OMIM">
+        <MedGen CUI="C4012790" Name="Ataxia-telangiectasia-like disorder 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822702" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001272" MappingRef="HP">
+        <MedGen CUI="C0740279" Name="Cerebellar atrophy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822702" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000602" MappingRef="HP">
+        <MedGen CUI="C0029089" Name="Ophthalmoplegia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822702" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001251" MappingRef="HP">
+        <MedGen CUI="C0007758" Name="Cerebellar ataxia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

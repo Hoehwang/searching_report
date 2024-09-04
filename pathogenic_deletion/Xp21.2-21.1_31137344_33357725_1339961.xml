@@ -1,0 +1,125 @@
+<VariationArchive RecordType="classified" VariationID="1339961" VariationName="GRCh37/hg19 Xp21.1(chrX:31757066-32131812)x0" VariationType="copy number loss" Accession="VCV001339961" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-17" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1331169" VariationID="1339961">
+      <GeneList>
+        <Gene Symbol="DMD" FullName="dystrophin" GeneID="1756" HGNC_ID="HGNC:2928" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp21.2-21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="31119222" stop="33339388" display_start="31119222" display_stop="33339388" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="31137344" stop="33357725" display_start="31137344" display_stop="33357725" Strand="-" />
+          </Location>
+          <OMIM>300377</OMIM>
+          <Haploinsufficiency last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp21.1(chrX:31757066-32131812)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="31757066" innerStop="32131812" display_start="31757066" display_stop="32131812" variantLength="374747" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_31757066)_(32131812_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_31757066)_(32131812_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp21.1(chrX:31757066-32131812)x0 AND not provided" Accession="RCV001832869" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-08-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-08-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4087608" SubmissionDate="2022-02-10" DateLastUpdated="2022-02-13" DateCreated="2022-02-13">
+        <ClinVarSubmissionID localKey="21_1|not provided|copy:0" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002095896" DateUpdated="2022-02-13" DateCreated="2022-02-13" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-08-07">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The Xp21.1 deletion interval involves exons 45-51 of the DMD (dystrophin) gene (NM_004006.2) (OMIM 300377) based on this microarray resolution. Dystrophinopathies including Becker Muscular Dystrophy (BMD) (OMIM 300376), Duchenne Muscular Dystrophy (DMD) (OMIM 310200), and DMD-Associated Dilated Cardiomyopathy (OMIM 302045) are X-linked recessive disorders caused by entire or intragenic DMD deletions and duplications as well as sequence variants, primarily affecting the isoform expressed in the skeletal muscles. Age of onset and severity of progressive muscular weakness depend on the mutation characteristics (i.e., out- or in-frame in the case of exonic deletions or duplications). Manifesting carriers may demonstrate variable degrees of symptoms (mild, moderate, or severe muscular dystrophy) depending, in part, on patterns of X-chromosome inactivation. Carrier females might be at risk for dilated cardiomyopathy (DCM) (Darras BT et al., GeneReviews [Internet]. Available from: https://www.dmd.nl).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="31757066" innerStop="32131812" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10731853</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4087608" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,122 @@
+<VariationArchive RecordType="classified" VariationID="1808450" VariationName="GRCh37/hg19 1p36.11(chr1:23980892-24024498)x1" VariationType="copy number loss" Accession="VCV001808450" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1865454" VariationID="1808450">
+      <GeneList>
+        <Gene Symbol="RPL11" FullName="ribosomal protein L11" GeneID="6135" HGNC_ID="HGNC:10301" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="23691779" stop="23696835" display_start="23691779" display_stop="23696835" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="24018268" stop="24022914" display_start="24018268" display_stop="24022914" Strand="+" />
+          </Location>
+          <OMIM>604175</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1p36.11(chr1:23980892-24024498)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="23980892" innerStop="24024498" display_start="23980892" display_stop="24024498" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1p36.11(chr1:23980892-24024498)x1 AND not provided" Accession="RCV002473767" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5420985" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2022-12-31">
+        <ClinVarSubmissionID localKey="C10038|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002773633" DateUpdated="2022-12-31" DateCreated="2022-12-31" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-16">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This deletion includes the RPL11 gene (OMIM 604175) .Haploinsufficiency of RPL11 is consistent with the autosomal dominant Diamond-Blackfan anemia-7 (DBA-7; OMIM 612562) (Waespe N et al., Theclinical impact of copy number variants in inherited bone marrow failure syndromes. NPJ Genom Med. 2017 May 10;2:18. PMID: 28690869; Quarello P et al., High frequency of ribosomal protein gene deletions in Italian Diamond-Blackfan anemia patients detected by multiplex ligation-dependent probe amplification assay. Haematologica. 2012 Dec;97(12):1813-7. PMID: 22689679). DBA is an inherited red blood cell aplasia that usually presents in the first year of life. The main features are normochromic macrocytic anemia, reticulocytopenia,and nearly absent erythroid progenitors in the bone marrow. Patients show growth retardation, and approximately 30 to 50% have craniofacial, upper limb, heart, and urinary system congenital malformations. The majority of patients have increased mean corpuscular volume, elevated erythrocyte adenosine deaminas eactivity, and persistence of hemoglobin F. However, some DBA patients do not exhibit these findings, and even within the same family, symptomscan vary between affected family members.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="23980892" innerStop="24024498" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478099</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5420985" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

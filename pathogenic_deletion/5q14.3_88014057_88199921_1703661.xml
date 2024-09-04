@@ -1,0 +1,135 @@
+<VariationArchive VariationID="1703661" VariationName="GRCh37/hg19 5q14.3(chr5:88065061-88406446)" VariationType="copy number loss" Accession="VCV001703661" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-04" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1696052" VariationID="1703661">
+      <GeneList>
+        <Gene Symbol="MEF2C" FullName="myocyte enhancer factor 2C" GeneID="4208" HGNC_ID="HGNC:6996" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>5q14.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="88717117" stop="88904105" display_start="88717117" display_stop="88904105" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="88014057" stop="88199921" display_start="88014057" display_stop="88199921" Strand="-" />
+          </Location>
+          <OMIM>600662</OMIM>
+          <Haploinsufficiency last_evaluated="2020-02-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MEF2C">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-02-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MEF2C">Little evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 5q14.3(chr5:88065061-88406446)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>5q14.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="88065061" innerStop="88406446" display_start="88065061" display_stop="88406446" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 5q14.3(chr5:88065061-88406446) AND Intellectual disability, autosomal dominant 20" Accession="RCV002280749" Version="1">
+        <ClassifiedConditionList TraitSetID="2464">
+          <ClassifiedCondition DB="MedGen" ID="C3150700">Intellectual disability, autosomal dominant 20</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2464" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6789" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, autosomal dominant 20</ElementValue>
+                <XRef ID="MONDO:0013266" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">NEURODEVELOPMENTAL DISORDER WITH HYPOTONIA, STEREOTYPIC HAND MOVEMENTS, AND IMPAIRED LANGUAGE</ElementValue>
+                <XRef Type="MIM" ID="613443" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0010" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600662.0009" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NEDHSIL</ElementValue>
+                <XRef Type="MIM" ID="613443" DB="OMIM" />
+              </Symbol>
+              <XRef ID="228384" DB="Orphanet" />
+              <XRef ID="C3150700" DB="MedGen" />
+              <XRef ID="MONDO:0013266" DB="MONDO" />
+              <XRef Type="MIM" ID="613443" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5023656" SubmissionDate="2022-08-31" DateLastUpdated="2022-09-03" DateCreated="2022-09-03">
+        <ClinVarSubmissionID localKey="CC-18-1232" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002569016" DateUpdated="2022-09-03" DateCreated="2022-09-03" Type="SCV" Version="1" SubmitterName="Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital" OrgID="506512" OrganizationCategory="laboratory" OrgAbbreviation="SCH MGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="5" innerStart="88065061" innerStop="88406446" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613443" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11997402</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5023656" TraitType="Disease" MappingType="XRef" MappingValue="613443" MappingRef="OMIM">
+        <MedGen CUI="C3150700" Name="Intellectual disability, autosomal dominant 20" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="5023656" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

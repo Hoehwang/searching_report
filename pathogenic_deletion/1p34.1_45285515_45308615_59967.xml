@@ -1,0 +1,184 @@
+<VariationArchive RecordType="classified" VariationID="59967" VariationName="GRCh38/hg38 1p34.1(chr1:44838131-44841480)x1" VariationType="copy number loss" Accession="VCV000059967" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="74562" VariationID="59967">
+      <GeneList>
+        <Gene Symbol="PTCH2" FullName="patched 2" GeneID="8643" HGNC_ID="HGNC:9586" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p34.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="44819845" stop="44843253" display_start="44819845" display_stop="44843253" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="45285515" stop="45308615" display_start="45285515" display_stop="45308615" Strand="-" />
+          </Location>
+          <OMIM>603673</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 1p34.1(chr1:44838131-44841480)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1p34.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" innerStart="44838131" innerStop="44841480" display_start="44838131" display_stop="44841480" variantLength="3350" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="45303803" innerStop="45307152" display_start="45303803" display_stop="45307152" variantLength="3350" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="1" Accession="NC_000001.9" innerStart="45076390" innerStop="45079739" display_start="45076390" display_stop="45079739" variantLength="3350" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.9" sequenceAccession="NC_000001" sequenceVersion="9" change="g.(?_45076390)_(45079739_?)del" Assembly="NCBI36">
+            <Expression>NC_000001.9:g.(?_45076390)_(45079739_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_45303803)_(45307152_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_45303803)_(45307152_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.11" sequenceAccession="NC_000001" sequenceVersion="11" change="g.(?_44838131)_(44841480_?)del" Assembly="GRCh38">
+            <Expression>NC_000001.11:g.(?_44838131)_(44841480_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv577204" DB="dbVar" />
+        <XRef ID="nsv532505" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 1p34.1(chr1:44838131-44841480)x1 AND See cases" Accession="RCV000053838" Version="5">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2011-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="137170" SubmissionDate="2014-06-21" DateLastUpdated="2015-06-28" DateCreated="2013-08-03">
+        <ClinVarSubmissionID localKey="nsv532505:copy number loss:See cases:1:SCV000081201" />
+        <ClinVarAccession Accession="SCV000081201" DateUpdated="2015-06-28" DateCreated="2013-08-03" Type="SCV" Version="5" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Kaminsky et al. (Genet Med. 2011)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">21844811</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>not provided</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Hypertelorism</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000316" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Seizure</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Coloboma</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000589" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv577204" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000001.9" Assembly="NCBI36" Chr="1" innerStart="45076390" innerStop="45079739" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv577204" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv532505" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000001.9:g.(?_45076390)_(45079739_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>nstd101</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="137170" TraitType="Finding" MappingType="Name" MappingValue="Coloboma" MappingRef="Preferred">
+        <MedGen CUI="C0009363" Name="Congenital ocular coloboma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="137170" TraitType="Finding" MappingType="Name" MappingValue="Global developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="137170" TraitType="Finding" MappingType="Name" MappingValue="Hypertelorism" MappingRef="Preferred">
+        <MedGen CUI="C0020534" Name="Hypertelorism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="137170" TraitType="Finding" MappingType="Name" MappingValue="Seizure" MappingRef="Preferred">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="137170" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

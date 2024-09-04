@@ -1,0 +1,162 @@
+<VariationArchive RecordType="classified" VariationID="59103" VariationName="GRCh38/hg38 9p21.3(chr9:20380587-20478578)x1" VariationType="copy number loss" Accession="VCV000059103" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="73698" VariationID="59103">
+      <GeneList>
+        <Gene Symbol="MIR4473" FullName="microRNA 4473" GeneID="100616229" HGNC_ID="HGNC:41540" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="20411148" stop="20411238" display_start="20411148" display_stop="20411238" Strand="-" />
+          </Location>
+        </Gene>
+        <Gene Symbol="MLLT3" FullName="MLLT3 super elongation complex subunit" GeneID="4300" HGNC_ID="HGNC:7136" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="20341669" stop="20622499" display_start="20341669" display_stop="20622499" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="20344967" stop="20622513" display_start="20344967" display_stop="20622513" Strand="-" />
+          </Location>
+          <OMIM>159558</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 9p21.3(chr9:20380587-20478578)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9p21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" innerStart="20380587" innerStop="20478578" display_start="20380587" display_stop="20478578" variantLength="97992" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="20380585" innerStop="20478576" display_start="20380585" display_stop="20478576" variantLength="97992" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="9" Accession="NC_000009.10" innerStart="20370585" innerStop="20468576" display_start="20370585" display_stop="20468576" variantLength="97992" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_20380585)_(20478576_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_20380585)_(20478576_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.(?_20380587)_(20478578_?)del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.(?_20380587)_(20478578_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.10" sequenceAccession="NC_000009" sequenceVersion="10" change="g.(?_20370585)_(20468576_?)del" Assembly="NCBI36">
+            <Expression>NC_000009.10:g.(?_20370585)_(20468576_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv578326" DB="dbVar" />
+        <XRef ID="nsv531615" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 9p21.3(chr9:20380587-20478578)x1 AND See cases" Accession="RCV000052901" Version="4">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2011-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-06-28" MostRecentSubmission="2015-06-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="136224" SubmissionDate="2014-06-21" DateLastUpdated="2015-06-28" DateCreated="2013-08-03">
+        <ClinVarSubmissionID localKey="nsv531615:copy number loss:See cases:1:SCV000080255" />
+        <ClinVarAccession Accession="SCV000080255" DateUpdated="2015-06-28" DateCreated="2013-08-03" Type="SCV" Version="4" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Kaminsky et al. (Genet Med. 2011)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">21844811</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>not provided</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Intellectual disability</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv578326" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000009.10" Assembly="NCBI36" Chr="9" innerStart="20370585" innerStop="20468576" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv578326" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv531615" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000009.10:g.(?_20370585)_(20468576_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>nstd101</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="136224" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="136224" TraitType="Finding" MappingType="Name" MappingValue="Intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

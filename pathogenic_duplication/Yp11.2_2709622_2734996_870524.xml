@@ -1,0 +1,139 @@
+<VariationArchive RecordType="classified" VariationID="870524" VariationName="GRCh37/hg19 Yp11.31(chrY:2650140-2777517)x1" VariationType="copy number gain" Accession="VCV000870524" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="858686" VariationID="870524">
+      <GeneList>
+        <Gene Symbol="RPS4Y1" FullName="ribosomal protein S4 Y-linked 1" GeneID="6192" HGNC_ID="HGNC:10425" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yp11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="2841602" stop="2867268" display_start="2841602" display_stop="2867268" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="2709622" stop="2734996" display_start="2709622" display_stop="2734996" Strand="+" />
+          </Location>
+          <OMIM>470000</OMIM>
+        </Gene>
+        <Gene Symbol="SRY" FullName="sex determining region Y" GeneID="6736" HGNC_ID="HGNC:11311" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yp11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="2786855" stop="2787682" display_start="2786855" display_stop="2787682" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="2654895" stop="2655791" display_start="2654895" display_stop="2655791" Strand="-" />
+          </Location>
+          <OMIM>480000</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SRY">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SRY">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Yp11.31(chrY:2650140-2777517)x1</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>Yp11.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" innerStart="2650140" innerStop="2777517" display_start="2650140" display_stop="2777517" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Yp11.31(chrY:2650140-2777517)x1 AND Sex reversal" Accession="RCV001090081" Version="1">
+        <ClassifiedConditionList TraitSetID="53435">
+          <ClassifiedCondition DB="MedGen" ID="C4022995">Sex reversal</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="53435" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="30128" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Sex reversal</ElementValue>
+                <XRef ID="HP:0012245" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C4022995" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0012245" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2467022" SubmissionDate="2020-05-03" DateLastUpdated="2020-05-12" DateCreated="2020-05-12">
+        <ClinVarSubmissionID localKey="SUB6747967" submittedAssembly="hg19" title="SUB6747967" />
+        <ClinVarAccession Accession="SCV001132775" DateUpdated="2020-05-12" DateCreated="2020-05-12" Type="SCV" Version="1" SubmitterName="Center for Advanced Diagnostics, Brigham and Women's Hospital" OrgID="507345" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Sporadic</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">infertility</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="Y" innerStart="2650140" innerStop="2777517" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">Yp11.31</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0012245" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6747967</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2467022" TraitType="Disease" MappingType="XRef" MappingValue="HP:0012245" MappingRef="HP">
+        <MedGen CUI="C4022995" Name="Sex reversal" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

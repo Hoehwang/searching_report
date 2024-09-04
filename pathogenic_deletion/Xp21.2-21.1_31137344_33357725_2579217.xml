@@ -1,0 +1,248 @@
+<VariationArchive VariationID="2579217" VariationName="GRCh38/hg38 Xp21.1(chrX:32536377-32771300)x0" VariationType="copy number loss" Accession="VCV002579217" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744255" VariationID="2579217">
+      <GeneList>
+        <Gene Symbol="DMD" FullName="dystrophin" GeneID="1756" HGNC_ID="HGNC:2928" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp21.2-21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="31119222" stop="33339388" display_start="31119222" display_stop="33339388" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="31137344" stop="33357725" display_start="31137344" display_stop="33357725" Strand="-" />
+          </Location>
+          <OMIM>300377</OMIM>
+          <Haploinsufficiency last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-11-20" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=DMD">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="MIR3915" FullName="microRNA 3915" GeneID="100500915" HGNC_ID="HGNC:38955" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="32583656" stop="32583752" display_start="32583656" display_stop="32583752" Strand="-" />
+          </Location>
+        </Gene>
+        <Gene Symbol="MIR548F5" FullName="microRNA 548f-5" GeneID="100302239" HGNC_ID="HGNC:35309" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="32641474" stop="32641559" display_start="32641474" display_stop="32641559" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 Xp21.1(chrX:32536377-32771300)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="32536377" stop="32771300" display_start="32536377" display_stop="32771300" variantLength="234924" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 Xp21.1(chrX:32536377-32771300)x0 AND Duchenne muscular dystrophy" Accession="RCV003327656" Version="3">
+        <ClassifiedConditionList TraitSetID="3094">
+          <ClassifiedCondition DB="MedGen" ID="C0013264">Duchenne muscular dystrophy</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">14977063</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31661024</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32528171</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="3094" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10877" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Duchenne muscular dystrophy</ElementValue>
+                <XRef ID="Duchenne+Muscular+Dystrophy/2340" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010679" DB="MONDO" />
+                <XRef ID="76670001" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Muscular dystrophy, pseudohypertrophic progressive, Duchenne type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DMD</ElementValue>
+                <XRef Type="MIM" ID="310200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The dystrophinopathies cover a spectrum of X-linked muscle disease ranging from mild to severe that includes Duchenne muscular dystrophy, Becker muscular dystrophy, and DMD-associated dilated cardiomyopathy (DCM). The mild end of the spectrum includes the phenotypes of asymptomatic increase in serum concentration of creatine phosphokinase (CK) and muscle cramps with myoglobinuria. The severe end of the spectrum includes progressive muscle diseases that are classified as Duchenne/Becker muscular dystrophy when skeletal muscle is primarily affected and as DMD-associated DCM when the heart is primarily affected. Duchenne muscular dystrophy (DMD) usually presents in early childhood with delayed motor milestones including delays in walking independently and standing up from a supine position. Proximal weakness causes a waddling gait and difficulty climbing stairs, running, jumping, and standing up from a squatting position. DMD is rapidly progressive, with affected children being wheelchair dependent by age 12 years. Cardiomyopathy occurs in almost all individuals with DMD after age 18 years. Few survive beyond the third decade, with respiratory complications and progressive cardiomyopathy being common causes of death. Becker muscular dystrophy (BMD) is characterized by later-onset skeletal muscle weakness. With improved diagnostic techniques, it has been recognized that the mild end of the spectrum includes men with onset of symptoms after age 30 years who remain ambulatory even into their 60s. Despite the milder skeletal muscle involvement, heart failure from DCM is a common cause of morbidity and the most common cause of death in BMD. Mean age of death is in the mid-40s. DMD-associated DCM is characterized by left ventricular dilation and congestive heart failure. Females heterozygous for a DMD pathogenic variant are at increased risk for DCM.</Attribute>
+                <XRef ID="NBK1119" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6291" />
+                <XRef ID="6291" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="Updated, AAN/CNS, 2005">
+                <ID Source="PubMed">15642897</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="AAP, 2005">
+                <ID Source="PubMed">16322188</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="DMD Management and Anesthesia - ACCP, 2007">
+                <ID Source="PubMed">18079231</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC DMD Care Considerations Working Group, 2010">
+                <ID Source="PubMed">19945913</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC DMD Care Considerations Working Group, 2010">
+                <ID Source="PubMed">19945914</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301298</ID>
+                <ID Source="BookShelf">NBK1119</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301604</ID>
+                <ID Source="BookShelf">NBK1431</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC Respiratory Panel, 2010">
+                <ID Source="PubMed">20597083</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="Orphanet, 2013">
+                <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_DuchenneMuscularDystrophy-enPro13913.pdf</URL>
+                <CitationText>Orphanet, Duchenne muscular dystrophy, 2013</CitationText>
+              </Citation>
+              <Citation Type="general" Abbrev="AAN, 2022">
+                <ID Source="PubMed">26833937</ID>
+                <ID Source="pmc">4773944</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC DMD Care Considerations Working Group, 2018">
+                <ID Source="PubMed">29395990</ID>
+                <ID Source="pmc">5889091</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC DMD Care Considerations Working Group, 2018">
+                <ID Source="PubMed">29398641</ID>
+                <ID Source="pmc">5902408</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="CDC DMD Care Considerations Working Group, 2018">
+                <ID Source="PubMed">29395989</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2019">
+                <URL>https://www.acmg.net/PDFLibrary/DMD_Pathogenic_Variants.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Pathogenic Variant in Dystrophin (DMD Gene) and elevated creatine kinase muscle isoform (CK-MM), Duchenne and Becker Muscular Dystrophy, 2019</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2020">
+                <URL>https://www.acmg.net/PDFLibrary/DMD_CKMM.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Elevated creatine kinase muscle isoform (CKMM), Genetic Neuromuscular Disease, 2020</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/DMD-Elevated-CKMM-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Algorithm, ELEVATED CREATINEKINASE(CK)-MM , Genetic Neuromuscular Disorders, 2022</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2020">
+                <URL>https://www.acmg.net/PDFLibrary/DMD_No_Pathogenic_Variant.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, No Pathogenic Variant in Dystrophin (DMD) Gene after elevated creatine kinase muscle isoform (CK-MM), Genetic Neuromuscular Disease, 2020</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2012">
+                <URL>https://www.acmg.net/PDFLibrary/Duchenne-Becker-Muscular-Dystrophy.pdf</URL>
+                <CitationText>American College of Medical Genetics &amp;amp; Genomics Genetic Testing ACT Sheet, Duchenne and Becker Muscular Dystrophy, 2012</CitationText>
+              </Citation>
+              <XRef ID="98896" DB="Orphanet" />
+              <XRef ID="C0013264" DB="MedGen" />
+              <XRef ID="MONDO:0010679" DB="MONDO" />
+              <XRef Type="MIM" ID="310200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549726" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="MCAI054|OMIM:310200|copy:0|refcopy:1" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034190" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A hemizygous deletion of exons 8-17 in DMD (NM_004006.3) was identified by exome sequencing and confirmed by genome sequencing in one male with Duchenne muscular dystrophy ([GRCh 38] chrX:32536377_32771300x0)(PMID: 32528171). Inheritance information is unavailable. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This exon deletion has also been reported in the literature in at least 2 hemizygous individuals with Duchenne muscular dystrophy (PMID: 31661024, 14977063). This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 8 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of DMD is an established disease mechanism in X-linked Duchenne muscular dystrophy (https://search.clinicalgenome.org/kb/gene-dosage). In summary, this variant meets criteria to be classified as pathogenic for X-linked Duchenne muscular dystrophy. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.90 points, 3: 0 points, 4-5: 0.45 points; Total: 1.35 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">32528171</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">31661024</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">14977063</ID>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="DMD" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="X" start="32536377" stop="32771300" variantLength="234924" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="310200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549726" TraitType="Disease" MappingType="XRef" MappingValue="310200" MappingRef="OMIM">
+        <MedGen CUI="C0013264" Name="Duchenne muscular dystrophy" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

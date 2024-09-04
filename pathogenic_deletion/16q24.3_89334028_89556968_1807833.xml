@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="1807833" VariationName="GRCh37/hg19 16q24.3(chr16:89320845-89531224)x1" VariationType="copy number loss" Accession="VCV001807833" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1864837" VariationID="1807833">
+      <GeneList>
+        <Gene Symbol="ANKRD11" FullName="ankyrin repeat domain containing 11" GeneID="29123" HGNC_ID="HGNC:21316" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>16q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="89267630" stop="89490561" display_start="89267630" display_stop="89490561" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="89334028" stop="89556968" display_start="89334028" display_stop="89556968" Strand="-" />
+          </Location>
+          <OMIM>611192</OMIM>
+          <Haploinsufficiency last_evaluated="2022-06-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ANKRD11">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-06-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ANKRD11">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="LOC101927817" FullName="uncharacterized LOC101927817" GeneID="101927817" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>16q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="89430918" stop="89454494" display_start="89430918" display_stop="89454494" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="89497374" stop="89520974" display_start="89497374" display_stop="89520974" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 16q24.3(chr16:89320845-89531224)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="89320845" innerStop="89531224" display_start="89320845" display_stop="89531224" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 16q24.3(chr16:89320845-89531224)x1 AND not provided" Accession="RCV002472639" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5420368" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2022-12-31">
+        <ClinVarSubmissionID localKey="C9420|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002772507" DateUpdated="2022-12-31" DateCreated="2022-12-31" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The 16q24.3 deletion interval involves multiple exons of ANKRD11 gene (OMIM 611192). Haploinsufficiency due to loss of ANKRD11, encoding ankyrin repeat domain-containing protein 11, was reported as the cause of a syndrome characterized by intellectual disability with minor facial anomalies and short stature (Sacharow, et al., Am J Med Genet A. 2012 Mar;158A(3):547-52, PMID: 22307766). Additionally, a rare autosomal dominany syndrome known as KBG syndrome (OMIM 148050), which is characterized by macrodontia of the upper central incisors, distinctive craniofacial findings, short stature, skeletal anomalies, and neurologic involvement that includes global developmental delay, seizures, and intellectual disability, can occur due to haploinsufficiency of ANKRD11 via either heterozygous gene deletions or loss of function mutations (Sirmaci, et al., Am J Hum Genet. 2011 Aug 12;89(2):289-94. PMID: 21782149; Khalifa et al. Am J Med Genet A. 2013 Apr;161A(4):835-40. PMID: 23494856; Goldenberg et al. Am J Med Genet A. 2016 Nov;170(11):2847-2859. PMID: 27605097; Isrie et al.Eur J Hum Genet. 2012 Feb;20(2):131-3. PMID: 21654729).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="16" innerStart="89320845" innerStop="89531224" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478099</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5420368" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

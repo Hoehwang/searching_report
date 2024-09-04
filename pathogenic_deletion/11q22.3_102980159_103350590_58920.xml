@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="58920" VariationName="GRCh38/hg38 11q22.3(chr11:103328808-103570897)x1" VariationType="copy number loss" Accession="VCV000058920" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2015-06-29" MostRecentSubmission="2015-06-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="73515" VariationID="58920">
+      <GeneList>
+        <Gene Symbol="DYNC2H1" FullName="dynein cytoplasmic 2 heavy chain 1" GeneID="79659" HGNC_ID="HGNC:2962" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>11q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="103109426" stop="103479863" display_start="103109426" display_stop="103479863" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="102980159" stop="103350590" display_start="102980159" display_stop="103350590" Strand="+" />
+          </Location>
+          <OMIM>603297</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 11q22.3(chr11:103328808-103570897)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>11q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" innerStart="103328808" innerStop="103570897" display_start="103328808" display_stop="103570897" variantLength="242090" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="103199536" innerStop="103441625" display_start="103199536" display_stop="103441625" variantLength="242090" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="11" Accession="NC_000011.8" innerStart="102704746" innerStop="102946835" display_start="102704746" display_stop="102946835" variantLength="242090" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_103199536)_(103441625_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_103199536)_(103441625_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.(?_103328808)_(103570897_?)del" Assembly="GRCh38">
+            <Expression>NC_000011.10:g.(?_103328808)_(103570897_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.8" sequenceAccession="NC_000011" sequenceVersion="8" change="g.(?_102704746)_(102946835_?)del" Assembly="NCBI36">
+            <Expression>NC_000011.8:g.(?_102704746)_(102946835_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv577354" DB="dbVar" />
+        <XRef ID="nsv531429" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 11q22.3(chr11:103328808-103570897)x1 AND See cases" Accession="RCV000052712" Version="5">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2011-08-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2011-08-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-06-29" MostRecentSubmission="2015-06-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="136035" SubmissionDate="2014-06-21" DateLastUpdated="2015-06-29" DateCreated="2013-08-03">
+        <ClinVarSubmissionID localKey="nsv531429:copy number loss:See cases:1:SCV000080066" />
+        <ClinVarAccession Accession="SCV000080066" DateUpdated="2015-06-29" DateCreated="2013-08-03" Type="SCV" Version="5" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2011-08-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Kaminsky et al. (Genet Med. 2011)</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">21844811</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Macrocephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000256" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv577354" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000011.8" Assembly="NCBI36" Chr="11" innerStart="102704746" innerStop="102946835" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv577354" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv531429" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000011.8:g.(?_102704746)_(102946835_?)del</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>nstd101</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="136035" TraitType="Finding" MappingType="Name" MappingValue="Macrocephaly" MappingRef="Preferred">
+        <MedGen CUI="C2243051" Name="Macrocephalus" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="136035" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

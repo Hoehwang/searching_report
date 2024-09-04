@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="1341073" VariationName="GRCh37/hg19 Xq25(chrX:123350855-123986893)x0" VariationType="copy number loss" Accession="VCV001341073" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-17" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1332281" VariationID="1341073">
+      <GeneList>
+        <Gene Symbol="SH2D1A" FullName="SH2 domain containing 1A" GeneID="4068" HGNC_ID="HGNC:10820" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq25</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="124346563" stop="124373160" display_start="124346563" display_stop="124373160" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="123480131" stop="123507009" display_start="123480131" display_stop="123507009" Strand="+" />
+          </Location>
+          <OMIM>300490</OMIM>
+          <Haploinsufficiency last_evaluated="2021-01-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SH2D1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-01-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SH2D1A">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="TENM1" FullName="teneurin transmembrane protein 1" GeneID="10178" HGNC_ID="HGNC:8117" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq25</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="124375903" stop="125204312" display_start="124375903" display_stop="125204312" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="123509752" stop="124097665" display_start="123509752" display_stop="124097665" Strand="-" />
+          </Location>
+          <OMIM>300588</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq25(chrX:123350855-123986893)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq25</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="123350855" innerStop="123986893" display_start="123350855" display_stop="123986893" variantLength="636039" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_123350855)_(123986893_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_123350855)_(123986893_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq25(chrX:123350855-123986893)x0 AND not provided" Accession="RCV001829147" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-02-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-02-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4088720" SubmissionDate="2022-02-10" DateLastUpdated="2022-02-13" DateCreated="2022-02-13">
+        <ClinVarSubmissionID localKey="21_181|not provided|copy:0" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002095649" DateUpdated="2022-02-13" DateCreated="2022-02-13" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-02-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The copy number loss of Xq25 involves a few coding genes, including SH2D1A (OMIM 300490) and is expected to cause phenotypic and/or developmental abnormalities. Haploinsufficiency of SH2D1A is associated with X-linked lymphoproliferative syndrome-1 (XLP1) (OMIM 308240), a primary immunodeficiency characterized by severe immune dysregulation often after viral infection, typically with Epstein-Barr virus. Several SH2D1A pathogenic variants have been identified to contribute to XLP-associated phenotype: ~25% are splicing defects or frameshift variants and ~25% are large deletion of one or more exons or the entire gene (Karczewski et al., Nature. 2020 May;581(7809):434-443. PMID: 32461654; Nademi et al., J Clin Immunol. 2019 Jul;39(5):523-526. PMID: 31144249).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="123350855" innerStop="123986893" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10731853</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4088720" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

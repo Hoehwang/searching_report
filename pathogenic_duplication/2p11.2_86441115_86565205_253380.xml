@@ -1,0 +1,203 @@
+<VariationArchive RecordType="classified" VariationID="253380" VariationName="GRCh37/hg19 2p11.2(chr2:86441169-86509452)x3" VariationType="copy number gain" Accession="VCV000253380" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="247828" VariationID="253380">
+      <GeneList>
+        <Gene Symbol="REEP1" FullName="receptor accessory protein 1" GeneID="65055" HGNC_ID="HGNC:25786" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="86213993" stop="86338083" display_start="86213993" display_stop="86338083" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="86441115" stop="86565205" display_start="86441115" display_stop="86565205" Strand="-" />
+          </Location>
+          <OMIM>609139</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p11.2(chr2:86441169-86509452)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>2p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="86441169" innerStop="86509452" display_start="86441169" display_stop="86509452" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p11.2(chr2:86441169-86509452)x3 AND See cases" Accession="RCV000240227" Version="2">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-01-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-01-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-04" MostRecentSubmission="2016-09-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="577762" SubmissionDate="2016-07-13" DateLastUpdated="2016-09-04" DateCreated="2016-09-04">
+        <ClinVarSubmissionID localKey="GDX_L_38229" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000298305" DateUpdated="2016-09-04" DateCreated="2016-09-04" Type="SCV" Version="3" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-01-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation Type="general">
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Specific learning disability</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001328" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Intellectual disability</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed speech and language development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Dystonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001332" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Muscular hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed gross motor development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002194" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Constipation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002019" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Seizures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Delayed fine motor development</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010862" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Epileptic spasms</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011097" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="86441169" innerStop="86509452" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See Cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Delayed fine motor development" MappingRef="Preferred">
+        <MedGen CUI="C4023681" Name="Delayed fine motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Muscular hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Dystonia" MappingRef="Preferred">
+        <MedGen CUI="C0013421" Name="Dystonic disorder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Seizures" MappingRef="Preferred">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Delayed speech and language development" MappingRef="Preferred">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Constipation" MappingRef="Preferred">
+        <MedGen CUI="C0009806" Name="Constipation" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Delayed gross motor development" MappingRef="Preferred">
+        <MedGen CUI="C1837658" Name="Delayed gross motor development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See Cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Epileptic spasms" MappingRef="Preferred">
+        <MedGen CUI="C1527366" Name="Epileptic spasm" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="577762" TraitType="Finding" MappingType="Name" MappingValue="Specific learning disability" MappingRef="Preferred">
+        <MedGen CUI="C4025790" Name="Specific learning disability" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

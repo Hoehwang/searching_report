@@ -1,0 +1,157 @@
+<VariationArchive RecordType="classified" VariationID="915977" VariationName="GRCh37/hg19 1q42.13(chr1:227149087-227149264)" VariationType="copy number loss" Accession="VCV000915977" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904202" VariationID="915977">
+      <GeneList>
+        <Gene Symbol="COQ8A" FullName="coenzyme Q8A" GeneID="56997" HGNC_ID="HGNC:16812" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1q42.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="226940294" stop="226987544" display_start="226940294" display_stop="226987544" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="227127937" stop="227175245" display_start="227127937" display_stop="227175245" Strand="+" />
+          </Location>
+          <OMIM>606980</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1q42.13(chr1:227149087-227149264)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1q42.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="227149087" innerStop="227149264" display_start="227149087" display_stop="227149264" variantLength="178" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_227149087)_(227149264_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_227149087)_(227149264_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1q42.13(chr1:227149087-227149264) AND Autosomal recessive ataxia due to ubiquinone deficiency" Accession="RCV001195130" Version="1">
+        <ClassifiedConditionList TraitSetID="956">
+          <ClassifiedCondition DB="MedGen" ID="C2677589">Autosomal recessive ataxia due to ubiquinone deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="956" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5960" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autosomal recessive ataxia due to ubiquinone deficiency</ElementValue>
+                <XRef ID="MONDO:0012784" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Spinocerebellar ataxia, autosomal recessive 9</ElementValue>
+                <XRef ID="Spinocerebellar+ataxia%2C+autosomal+recessive+9/9342" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Coenzyme Q10 deficiency, primary, 4</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">SCAR9</ElementValue>
+                <XRef Type="MIM" ID="612016" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">COQ10D4</ElementValue>
+                <XRef Type="MIM" ID="612016" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10294" />
+                <XRef ID="10294" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Primary coenzyme Q10 (CoQ10) deficiency is usually associated with multisystem involvement, including neurologic manifestations such as fatal neonatal encephalopathy with hypotonia; a late-onset slowly progressive multiple-system atrophy-like phenotype (neurodegeneration with autonomic failure and various combinations of parkinsonism and cerebellar ataxia, and pyramidal dysfunction); and dystonia, spasticity, seizures, and intellectual disability. Steroid-resistant nephrotic syndrome (SRNS), the hallmark renal manifestation, is often the initial manifestation either as isolated renal involvement that progresses to end-stage renal disease (ESRD), or associated with encephalopathy (seizures, stroke-like episodes, severe neurologic impairment) resulting in early death. Hypertrophic cardiomyopathy (HCM), retinopathy or optic atrophy, and sensorineural hearing loss can also be seen.</Attribute>
+                <XRef ID="NBK410087" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">28125198</ID>
+                <ID Source="BookShelf">NBK410087</ID>
+              </Citation>
+              <XRef ID="139485" DB="Orphanet" />
+              <XRef ID="C2677589" DB="MedGen" />
+              <XRef ID="MONDO:0012784" DB="MONDO" />
+              <XRef Type="MIM" ID="612016" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637867" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr1:g.227149087_227149264del|OMIM:612016" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334088" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ADCK3" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="227149087" innerStop="227149264" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="612016" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637867" TraitType="Disease" MappingType="XRef" MappingValue="612016" MappingRef="OMIM">
+        <MedGen CUI="C2677589" Name="Autosomal recessive ataxia due to ubiquinone deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

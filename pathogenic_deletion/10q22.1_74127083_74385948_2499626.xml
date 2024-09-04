@@ -1,0 +1,152 @@
+<VariationArchive VariationID="2499626" VariationName="GRCh38/hg38 10q22.1(chr10:72485363-72566418)" VariationType="copy number loss" Accession="VCV002499626" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2023-04-30" MostRecentSubmission="2023-04-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2477606" VariationID="2499626">
+      <GeneList>
+        <Gene Symbol="LOC130004065" FullName="ATAC-STARR-seq lymphoblastoid silent region 2475" GeneID="130004065" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="72561956" stop="72562065" display_start="72561956" display_stop="72562065" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="MICU1" FullName="mitochondrial calcium uptake 1" GeneID="10367" HGNC_ID="HGNC:1530" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q22.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="72367340" stop="72626079" display_start="72367340" display_stop="72626079" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="74127083" stop="74385948" display_start="74127083" display_stop="74385948" Strand="-" />
+          </Location>
+          <OMIM>605084</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 10q22.1(chr10:72485363-72566418)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10q22.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" innerStart="72485363" innerStop="72566418" display_start="72485363" display_stop="72566418" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 10q22.1(chr10:72485363-72566418) AND See cases" Accession="RCV003223553" Version="2">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-04-30" MostRecentSubmission="2023-04-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">37673932</ID>
+        </Citation>
+        <DescriptionHistory Dated="2023-08-16">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7326743" SubmissionDate="2023-08-14" DateLastUpdated="2023-04-30" DateCreated="2023-04-30">
+        <ClinVarSubmissionID localKey="APVR S20|See cases" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV003919101" DateUpdated="2023-04-30" DateCreated="2023-04-30" Type="SCV" Version="1" SubmitterName="Daryl Scott Lab, Baylor College of Medicine" OrgID="505993" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>PVS1, PP4, PP3</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>curation</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0005160" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011968" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002878" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0011471" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="10" innerStart="72485363" innerStop="72566418" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">37673932</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB13063180</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7326743" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011471" MappingRef="HP">
+        <MedGen CUI="C4023342" Name="Gastrostomy tube feeding in infancy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7326743" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002878" MappingRef="HP">
+        <MedGen CUI="C1145670" Name="Respiratory failure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7326743" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011968" MappingRef="HP">
+        <MedGen CUI="C0232466" Name="Feeding difficulties" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7326743" TraitType="Disease" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7326743" TraitType="Finding" MappingType="XRef" MappingValue="HP:0005160" MappingRef="HP">
+        <MedGen CUI="C4551903" Name="Congenital total pulmonary venous return anomaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,155 @@
+<VariationArchive RecordType="classified" VariationID="870525" VariationName="GRCh37/hg19 Yq11.21-11.221(chrY:14443478-15230544)x0" VariationType="copy number loss" Accession="VCV000870525" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="858687" VariationID="870525">
+      <GeneList>
+        <Gene Symbol="DDX3Y" FullName="DEAD-box helicase 3 Y-linked" GeneID="8653" HGNC_ID="HGNC:2699" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yq11.221</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="12903999" stop="12920478" display_start="12903999" display_stop="12920478" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="15016018" stop="15032389" display_start="15016018" display_stop="15032389" Strand="+" />
+          </Location>
+          <OMIM>400010</OMIM>
+        </Gene>
+        <Gene Symbol="TTTY15" FullName="testis-specific transcript, Y-linked 15" GeneID="64595" HGNC_ID="HGNC:18567" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yq11.221</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="12662352" stop="12692233" display_start="12662352" display_stop="12692233" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="14774297" stop="14804152" display_start="14774297" display_stop="14804152" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="USP9Y" FullName="ubiquitin specific peptidase 9 Y-linked" GeneID="8287" HGNC_ID="HGNC:12633" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yq11.221</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="12701231" stop="12860839" display_start="12701231" display_stop="12860839" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="14813159" stop="14972767" display_start="14813159" display_stop="14972767" Strand="+" />
+          </Location>
+          <OMIM>400005</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Yq11.21-11.221(chrY:14443478-15230544)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Yq11.21-11.221</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" innerStart="14443478" innerStop="15230544" display_start="14443478" display_stop="15230544" variantLength="787067" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000024.9" sequenceAccession="NC_000024" sequenceVersion="9" change="g.(?_14443478)_(15230544_?)del" Assembly="GRCh37">
+            <Expression>NC_000024.9:g.(?_14443478)_(15230544_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Yq11.21-11.221(chrY:14443478-15230544)x0 AND Male infertility" Accession="RCV001090082" Version="1">
+        <ClassifiedConditionList TraitSetID="8632">
+          <ClassifiedCondition DB="MedGen" ID="C0021364">Male infertility</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-12" MostRecentSubmission="2020-05-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8632" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9524" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Male infertility</ElementValue>
+                <XRef ID="HP:0003251" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0005372" DB="MONDO" />
+                <XRef ID="2904007" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="C0021364" DB="MedGen" />
+              <XRef ID="MONDO:0005372" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0003251" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2467023" SubmissionDate="2020-05-03" DateLastUpdated="2020-05-12" DateCreated="2020-05-12">
+        <ClinVarSubmissionID localKey="SUB6748427" submittedAssembly="hg19" title="SUB6748427" />
+        <ClinVarAccession Accession="SCV001132782" DateUpdated="2020-05-12" DateCreated="2020-05-12" Type="SCV" Version="1" SubmitterName="Center for Advanced Diagnostics, Brigham and Women's Hospital" OrgID="507345" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Y-linked inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">infertility</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="Y" innerStart="14443478" innerStop="15230544" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">Yq11.21q11.221</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0003251" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6748427</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2467023" TraitType="Disease" MappingType="XRef" MappingValue="HP:0003251" MappingRef="HP">
+        <MedGen CUI="C0021364" Name="Male infertility" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

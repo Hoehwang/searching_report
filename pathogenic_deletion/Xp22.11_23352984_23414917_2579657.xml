@@ -1,0 +1,183 @@
+<VariationArchive RecordType="classified" VariationID="2579657" VariationName="GRCh37/hg19 Xp22.11(chrX:23209046-23383351)" VariationType="copy number loss" Accession="VCV002579657" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-16" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744693" VariationID="2579657">
+      <GeneList>
+        <Gene Symbol="PTCHD1" FullName="patched domain containing 1" GeneID="139411" HGNC_ID="HGNC:26392" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="23334396" stop="23404374" display_start="23334396" display_stop="23404374" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="23352984" stop="23414917" display_start="23352984" display_stop="23414917" Strand="+" />
+          </Location>
+          <OMIM>300828</OMIM>
+          <Haploinsufficiency last_evaluated="2018-02-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCHD1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-02-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCHD1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.11(chrX:23209046-23383351)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" outerStart="23184159" innerStart="23209046" innerStop="23383351" outerStop="23428291" display_start="23184159" display_stop="23428291" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.11(chrX:23209046-23383351) AND Autism, susceptibility to, X-linked 4" Accession="RCV003328092" Version="1">
+        <ClassifiedConditionList TraitSetID="9988">
+          <ClassifiedCondition DB="MedGen" ID="C0795888">Autism, susceptibility to, X-linked 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2023-09-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-09-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">25131214</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">35328080</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9988" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="15757" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autism, susceptibility to, X-linked 4</ElementValue>
+                <XRef ID="MONDO:0010440" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AUTSX4</ElementValue>
+                <XRef Type="MIM" ID="300830" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3775" />
+                <XRef ID="3775" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C0795888" DB="MedGen" />
+              <XRef ID="MONDO:0010440" DB="MONDO" />
+              <XRef Type="MIM" ID="300830" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7550524" SubmissionDate="2023-09-13" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="SUB13828778" submittedAssembly="GRCh37" title="SUB13828778" />
+        <ClinVarAccession Accession="SCV004032529" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Medicover Genetics GmbH, Medicover Humangenetik Berlin-Lichtenberg MVZ" OrgID="507452" OrganizationCategory="laboratory" OrgAbbreviation="MCG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-09-08">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">25131214</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">35328080</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent, ISCA v2, 4x180k</NamePlatform>
+              <TypePlatform>Array CGH</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001270" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001249" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000518" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000545" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002360" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="23209046" innerStop="23383351" outerStart="23184159" outerStop="23428291" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">23-5053</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="300830" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13828778</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000518" MappingRef="HP">
+        <MedGen CUI="C0086543" Name="Cataract" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001270" MappingRef="HP">
+        <MedGen CUI="C1854301" Name="Motor delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000545" MappingRef="HP">
+        <MedGen CUI="C0027092" Name="Myopia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001252" MappingRef="HP">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Disease" MappingType="XRef" MappingValue="300830" MappingRef="OMIM">
+        <MedGen CUI="C0795888" Name="Autism, susceptibility to, X-linked 4" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001249" MappingRef="HP">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002360" MappingRef="HP">
+        <MedGen CUI="C0037317" Name="Sleep disturbance" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7550524" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

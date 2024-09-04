@@ -1,0 +1,174 @@
+<VariationArchive RecordType="classified" VariationID="1209855" VariationName="GRCh37/hg19 9p23(chr9:13862493-14155897)x1" VariationType="copy number loss" Accession="VCV001209855" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-02" DateCreated="2021-08-27" MostRecentSubmission="2021-08-27">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1199856" VariationID="1209855">
+      <GeneList>
+        <Gene Symbol="NFIB" FullName="nuclear factor I B" GeneID="4781" HGNC_ID="HGNC:7785" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p23-22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="14081843" stop="14532077" display_start="14081843" display_stop="14532077" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="14081841" stop="14398981" display_start="14081841" display_stop="14398981" Strand="-" />
+          </Location>
+          <OMIM>600728</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9p23(chr9:13862493-14155897)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9p23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="13862493" innerStop="14155897" display_start="13862493" display_stop="14155897" variantLength="293405" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_13862493)_(14155897_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_13862493)_(14155897_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9p23(chr9:13862493-14155897)x1 AND 9p23 dn microdeletion" Accession="RCV001579309" Version="2">
+        <ClassifiedConditionList TraitSetID="69300">
+          <ClassifiedCondition>9p23 dn microdeletion</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-11-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-11-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-08-27" MostRecentSubmission="2021-08-27">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30388402</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="69300" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="57257" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">9p23 dn microdeletion</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3545659" SubmissionDate="2021-08-23" DateLastUpdated="2021-08-27" DateCreated="2021-08-27">
+        <ClinVarSubmissionID localKey="SUB10235137" submittedAssembly="GRCh37" title="SUB10235137" />
+        <ClinVarAccession Accession="SCV001805851" DateUpdated="2021-08-27" DateCreated="2021-08-27" Type="SCV" Version="1" SubmitterName="Medicover Genetics GmbH, Medicover Humangenetik Berlin-Lichtenberg MVZ" OrgID="507452" OrganizationCategory="laboratory" OrgAbbreviation="MCG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-11-17">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Citation Type="general">
+            <ID Source="PubMed">30388402</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">10</Age>
+              <Age Type="maximum" age_unit="years">19</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent, ISCA v2, 4x180K</NamePlatform>
+              <TypePlatform>Array CGH</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001256" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000750" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000256" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0000028" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0100790" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0002240" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" innerStart="13862493" innerStop="14155897" />
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">36-13803</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">9p23 dn microdeletion</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10235137</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Disease" MappingType="Name" MappingValue="9p23 dn microdeletion" MappingRef="Preferred">
+        <MedGen CUI="None" Name="9p23 dn microdeletion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000256" MappingRef="HP">
+        <MedGen CUI="C2243051" Name="Macrocephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000750" MappingRef="HP">
+        <MedGen CUI="C0454644" Name="Delayed speech and language development" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000028" MappingRef="HP">
+        <MedGen CUI="C0010417" Name="Cryptorchidism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002240" MappingRef="HP">
+        <MedGen CUI="C0019209" Name="Hepatomegaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0100790" MappingRef="HP">
+        <MedGen CUI="C0019270" Name="Hernia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3545659" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001256" MappingRef="HP">
+        <MedGen CUI="C0026106" Name="Intellectual disability, mild" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

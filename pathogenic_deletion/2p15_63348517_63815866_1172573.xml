@@ -1,0 +1,150 @@
+<VariationArchive RecordType="classified" VariationID="1172573" VariationName="GRCh37/hg19 2p15(chr2:63521229-63572056)x1" VariationType="copy number loss" Accession="VCV001172573" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1161739" VariationID="1172573">
+      <GeneList>
+        <Gene Symbol="WDPCP" FullName="WD repeat containing planar cell polarity effector" GeneID="51057" HGNC_ID="HGNC:28027" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2p15</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="63119559" stop="63840826" display_start="63119559" display_stop="63840826" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="63348517" stop="63815866" display_start="63348517" display_stop="63815866" Strand="-" />
+          </Location>
+          <OMIM>613580</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p15(chr2:63521229-63572056)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2p15</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" outerStart="63521229" outerStop="63572056" display_start="63521229" display_stop="63572056" variantLength="50827" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(63521229_?)_(?_63572056)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(63521229_?)_(?_63572056)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p15(chr2:63521229-63572056)x1 AND Heart defect - tongue hamartoma - polysyndactyly syndrome" Accession="RCV001526491" Version="1">
+        <ClassifiedConditionList TraitSetID="20537">
+          <ClassifiedCondition DB="MedGen" ID="C1857587">Heart defect - tongue hamartoma - polysyndactyly syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-06-19" MostRecentSubmission="2021-06-19">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="20537" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="838" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Orstavik Lindemann Solberg syndrome</ElementValue>
+                <XRef ID="Orstavik+Lindemann+Solberg+syndrome/5435" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Heart defect - tongue hamartoma - polysyndactyly syndrome</ElementValue>
+                <XRef ID="MONDO:0009008" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital heart defects, hamartomas of tongue, and polysyndactyly</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CHDTHP</ElementValue>
+                <XRef Type="MIM" ID="217085" DB="OMIM" />
+              </Symbol>
+              <XRef ID="1338" DB="Orphanet" />
+              <XRef ID="C1857587" DB="MedGen" />
+              <XRef ID="MONDO:0009008" DB="MONDO" />
+              <XRef Type="MIM" ID="217085" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3414209" SubmissionDate="2021-06-10" DateLastUpdated="2021-06-19" DateCreated="2021-06-19">
+        <ClinVarSubmissionID localKey="2(63521229-63572056)" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001736912" DateUpdated="2021-06-19" DateCreated="2021-06-19" Type="SCV" Version="1" SubmitterName="HudsonAlpha Institute for Biotechnology, HudsonAlpha Institute for Biotechnology" OrgID="505530" OrganizationCategory="laboratory" OrgAbbreviation="HA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">2(63521229-63572056):LSU00066</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001631" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0004383" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" outerStart="63521229" outerStop="63572056" variantLength="50827" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="217085" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>CSER-SouthSeq</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB9828428</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3414209" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001631" MappingRef="HP">
+        <MedGen CUI="C0018817" Name="Atrial septal defect" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414209" TraitType="Disease" MappingType="XRef" MappingValue="217085" MappingRef="OMIM">
+        <MedGen CUI="C1857587" Name="Heart defect - tongue hamartoma - polysyndactyly syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3414209" TraitType="Finding" MappingType="XRef" MappingValue="HP:0004383" MappingRef="HP">
+        <MedGen CUI="C0152101" Name="Hypoplastic left heart syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

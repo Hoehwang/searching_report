@@ -1,0 +1,143 @@
+<VariationArchive RecordType="classified" VariationID="915965" VariationName="GRCh37/hg19 17q22(chr17:57119174-57128690)" VariationType="copy number loss" Accession="VCV000915965" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-29" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904190" VariationID="915965">
+      <GeneList>
+        <Gene Symbol="TRIM37" FullName="tripartite motif containing 37" GeneID="4591" HGNC_ID="HGNC:7523" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58967201" stop="59106880" display_start="58967201" display_stop="59106880" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="57059998" stop="57184265" display_start="57059998" display_stop="57184265" Strand="-" />
+          </Location>
+          <OMIM>605073</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 17q22(chr17:57119174-57128690)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>17q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" innerStart="57119174" innerStop="57128690" display_start="57119174" display_stop="57128690" variantLength="9517" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(?_57119174)_(57128690_?)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(?_57119174)_(57128690_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 17q22(chr17:57119174-57128690) AND Mulibrey nanism syndrome" Accession="RCV001195118" Version="1">
+        <ClassifiedConditionList TraitSetID="1451">
+          <ClassifiedCondition DB="MedGen" ID="C0524582">Mulibrey nanism syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1451" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3223" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Muscle-liver-brain-eye nanism</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pericardial constriction and growth failure</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Perheentupa syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Mulibrey nanism syndrome</ElementValue>
+                <XRef ID="Mulibrey+Nanism/4925" DB="Genetic Alliance" />
+                <XRef ID="81604003" DB="SNOMED CT" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="95" />
+                <XRef ID="95" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2576" DB="Orphanet" />
+              <XRef ID="C0524582" DB="MedGen" />
+              <XRef ID="MONDO:0009664" DB="MONDO" />
+              <XRef Type="MIM" ID="253250" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637853" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr17:g.57119174_57128690del|OMIM:253250" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334129" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TRIM37" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" innerStart="57119174" innerStop="57128690" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="253250" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637853" TraitType="Disease" MappingType="XRef" MappingValue="253250" MappingRef="OMIM">
+        <MedGen CUI="C0524582" Name="Mulibrey nanism syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

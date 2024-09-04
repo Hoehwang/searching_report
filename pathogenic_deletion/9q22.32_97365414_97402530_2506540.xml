@@ -1,0 +1,139 @@
+<VariationArchive RecordType="classified" VariationID="2506540" VariationName="GRCh37/hg19 9q22.32(chr9:97401423-97401592)" VariationType="copy number loss" Accession="VCV002506540" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-07-01" DateCreated="2023-07-01" MostRecentSubmission="2023-07-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2671500" VariationID="2506540">
+      <GeneList>
+        <Gene Symbol="FBP1" FullName="fructose-bisphosphatase 1" GeneID="2203" HGNC_ID="HGNC:3606" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q22.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="94603133" stop="94640263" display_start="94603133" display_stop="94640263" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="97365414" stop="97402530" display_start="97365414" display_stop="97402530" Strand="-" />
+          </Location>
+          <OMIM>611570</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9q22.32(chr9:97401423-97401592)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9q22.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="97401423" innerStop="97401592" display_start="97401423" display_stop="97401592" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9q22.32(chr9:97401423-97401592) AND Fructose-biphosphatase deficiency" Accession="RCV003236724" Version="1">
+        <ClassifiedConditionList TraitSetID="227">
+          <ClassifiedCondition DB="MedGen" ID="C0016756">Fructose-biphosphatase deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-05-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-05-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-07-01" MostRecentSubmission="2023-07-01">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="227" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1901" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Fructose-biphosphatase deficiency</ElementValue>
+                <XRef ID="Fructose-1%2C6-Bisphosphatase+Deficiency/2948" DB="Genetic Alliance" />
+                <XRef ID="28183005" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fructose 1,6 Bisphosphatase Deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Baker-Winegrad disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fructose-1,6-Diphosphatase Deficiency</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">FBP1D</ElementValue>
+                <XRef Type="MIM" ID="229700" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="2400" />
+                <XRef ID="2400" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Fructose-1,6-bisphosphatase (FBP1) deficiency is characterized by episodic acute crises of lactic acidosis and ketotic hypoglycemia, manifesting as hyperventilation, apneic spells, seizures, and/or coma. Acute crises are most common in early childhood; nearly half of affected children have hypoglycemia in the neonatal period (especially the first 4 days) resulting from deficient glycogen stores. Factors known to trigger episodes include fever, fasting, decreased oral intake, vomiting, infections, and ingestion of large amounts of fructose. In untreated individuals, symptoms worsen progressively as continued catabolism leads to multiorgan failure (especially liver, brain, and later heart). Morbidity and mortality are high. Sepsis, blindness, and Reye syndrome-like presentation have been reported. In between acute episodes, children are asymptomatic. While the majority of affected children have normal growth and psychomotor development, a few have intellectual disability, presumably due to early and prolonged hypoglycemia.</Attribute>
+                <XRef ID="NBK550349" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">31804789</ID>
+                <ID Source="BookShelf">NBK550349</ID>
+              </Citation>
+              <XRef ID="348" DB="Orphanet" />
+              <XRef ID="C0016756" DB="MedGen" />
+              <XRef ID="MONDO:0009251" DB="MONDO" />
+              <XRef Type="MIM" ID="229700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7356766" SubmissionDate="2023-05-29" DateLastUpdated="2023-07-01" DateCreated="2023-07-01">
+        <ClinVarSubmissionID localKey=":Chr.9_97401423_97401592_copy number loss|OMIM:229700" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV003935223" DateUpdated="2023-07-01" DateCreated="2023-07-01" Type="SCV" Version="1" SubmitterName="Laboratory of Medical Genetics, National &amp; Kapodistrian University of Athens" OrgID="506664" OrganizationCategory="laboratory" OrgAbbreviation="LMG-NKUA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-05-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" innerStart="97401423" innerStop="97401592" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="229700" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13480173</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7356766" TraitType="Disease" MappingType="XRef" MappingValue="229700" MappingRef="OMIM">
+        <MedGen CUI="C0016756" Name="Fructose-biphosphatase deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

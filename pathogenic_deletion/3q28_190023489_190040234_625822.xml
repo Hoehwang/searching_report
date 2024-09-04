@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="625822" VariationName="GRCh37/hg19 3q28(chr3:190039387-190040504)" VariationType="copy number loss" Accession="VCV000625822" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614126" VariationID="625822">
+      <GeneList>
+        <Gene Symbol="CLDN1" FullName="claudin 1" GeneID="9076" HGNC_ID="HGNC:2032" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3q28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="190305707" stop="190322446" display_start="190305707" display_stop="190322446" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="190023489" stop="190040234" display_start="190023489" display_stop="190040234" Strand="-" />
+          </Location>
+          <OMIM>603718</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 3q28(chr3:190039387-190040504)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>3q28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="190039387" innerStop="190040504" display_start="190039387" display_stop="190040504" variantLength="1118" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_190039387)_(190040504_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_190039387)_(190040504_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 3q28(chr3:190039387-190040504) AND Neonatal ichthyosis-sclerosing cholangitis syndrome" Accession="RCV000767830" Version="1">
+        <ClassifiedConditionList TraitSetID="1686">
+          <ClassifiedCondition DB="MedGen" ID="C1843355">Neonatal ichthyosis-sclerosing cholangitis syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1686" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1776" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ichthyosis, leukocyte vacuoles, alopecia, and sclerosing cholangitis</ElementValue>
+                <XRef ID="Ichthyosis%2C+leukocyte+vacuoles%2C+alopecia%2C+and+sclerosing+cholangitis/3739" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neonatal ichthyosis-sclerosing cholangitis syndrome</ElementValue>
+                <XRef ID="MONDO:0011874" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ichthyosis-sclerosing cholangitis syndrome</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ILVASC</ElementValue>
+                <XRef Type="MIM" ID="607626" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10583" />
+                <XRef ID="10583" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="59303" DB="Orphanet" />
+              <XRef ID="C1843355" DB="MedGen" />
+              <XRef ID="MONDO:0011874" DB="MONDO" />
+              <XRef Type="MIM" ID="607626" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761735" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES275|OMIM:607626" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898452" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="3" innerStart="190039387" innerStop="190040504" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="607626" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761735" TraitType="Disease" MappingType="XRef" MappingValue="607626" MappingRef="OMIM">
+        <MedGen CUI="C1843355" Name="Neonatal ichthyosis-sclerosing cholangitis syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

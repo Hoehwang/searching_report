@@ -1,0 +1,179 @@
+<VariationArchive RecordType="classified" VariationID="997060" VariationName="GRCh37/hg19 Xq26.2(chrX:132717085-132924462)" VariationType="copy number loss" Accession="VCV000997060" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-08-13" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="984801" VariationID="997060">
+      <GeneList>
+        <Gene Symbol="GPC3" FullName="glypican 3" GeneID="2719" HGNC_ID="HGNC:4451" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xq26.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="133535745" stop="133985594" display_start="133535745" display_stop="133985594" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="132669772" stop="133119672" display_start="132669772" display_stop="133119672" Strand="-" />
+          </Location>
+          <OMIM>300037</OMIM>
+          <Haploinsufficiency last_evaluated="2021-01-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GPC3">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-01-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GPC3">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq26.2(chrX:132717085-132924462)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq26.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="132717085" innerStop="132924462" display_start="132717085" display_stop="132924462" variantLength="207378" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_132717085)_(132924462_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_132717085)_(132924462_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq26.2(chrX:132717085-132924462) AND Global developmental delay" Accession="RCV001291961" Version="1">
+        <ClassifiedConditionList TraitSetID="8167">
+          <ClassifiedCondition DB="MedGen" ID="C0557874">Global developmental delay</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30592149</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28371070</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27739211</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8167" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17050" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DD</ElementValue>
+                <XRef ID="GTR000501388" DB="Genetic Testing Registry (GTR)" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000553938" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592357" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520936" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569041" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000592358" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000509471" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000521543" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000522222" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558520" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000568239" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <Citation Type="general" Abbrev="Retired, AAN/CNS, 2011">
+                <ID Source="PubMed">21956720</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2021">
+                <ID Source="PubMed">34211152</ID>
+              </Citation>
+              <XRef ID="C0557874" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001263" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0000754" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001255" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001277" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001292" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002433" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002473" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002532" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006793" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006867" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006885" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006935" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007005" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007094" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007106" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007174" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007224" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007228" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007342" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0025356" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2918381" SubmissionDate="2021-02-08" DateLastUpdated="2021-02-20" DateCreated="2021-02-20">
+        <ClinVarSubmissionID localKey="ReAC88|HPO:HP:0001263" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001480528" DateUpdated="2021-02-20" DateCreated="2021-02-20" Type="SCV" Version="1" SubmitterName="Medical Genetics Laboratory, CHRU Nancy" OrgID="507803" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">30592149</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28371070</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27739211</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="132717085" innerStop="132924462" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0001263" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8712880</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2918381" TraitType="Disease" MappingType="XRef" MappingValue="HP:0001263" MappingRef="HP">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,167 @@
+<VariationArchive VariationID="149144" VariationName="GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x3" VariationType="copy number gain" Accession="VCV000149144" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2015-07-13" MostRecentSubmission="2015-07-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="158895" VariationID="149144">
+      <GeneList>
+        <Gene Symbol="TRH-GTG2-1" FullName="tRNA-His (GTG) 2-1" GeneID="100189350" HGNC_ID="HGNC:34918" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="149155828" stop="149155899" display_start="149155828" display_stop="149155899" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>1q21.1-21.2</CytogeneticLocation>
+        <CytogeneticLocation>7q11.1-11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" innerStart="61006478" innerStop="62410831" display_start="61006478" display_stop="62410831" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="146500972" innerStop="149433185" display_start="146500972" display_stop="149433185" variantLength="2932214" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="1" Accession="NC_000001.9" innerStart="144967596" innerStop="147699809" display_start="144967596" display_stop="147699809" variantLength="2732214" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.9" sequenceAccession="NC_000001" sequenceVersion="9" change="g.(?_144967596)_(147699809_?)dup" Assembly="NCBI36">
+            <Expression>NC_000001.9:g.(?_144967596)_(147699809_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_146500972)_(149433185_?)dup" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_146500972)_(149433185_?)dup</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv1494841" DB="dbVar" />
+        <XRef ID="nsv869404" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 7q11.1-11.21(chr7:61006478-62410831)x3 AND See cases" Accession="RCV000138200" Version="5">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2012-03-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2012-03-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-07-13" MostRecentSubmission="2015-07-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="317910" SubmissionDate="2017-09-26" DateLastUpdated="2015-07-13" DateCreated="2014-08-30">
+        <ClinVarSubmissionID localKey="nsv869404:copy number gain:See cases:3:SCV000178470" />
+        <ClinVarAccession Accession="SCV000178470" DateUpdated="2015-07-13" DateCreated="2014-08-30" Type="SCV" Version="4" SubmitterName="ISCA site 1" OrgID="505237" OrganizationCategory="laboratory" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="500029" SubmitterName="International Standards For Cytogenomic Arrays Consortium (ISCA)" Type="secondary" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-03-09">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>ISCA 180k</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <Method>
+              <TypePlatform>FISH</TypePlatform>
+              <Purpose>Validation</Purpose>
+              <Description>Fluorescence in situ hybridization</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="MethodResult">Pass</Attribute>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Autism</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000717" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv1494841" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000001.9" Assembly="NCBI36" Chr="1" innerStart="144967596" innerStop="147699809" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv1494841" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv869404" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <StudyDescription>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</StudyDescription>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+        <SubmissionNameList>
+          <SubmissionName>nstd37</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="317910" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="317910" TraitType="Finding" MappingType="Name" MappingValue="Autism" MappingRef="Preferred">
+        <MedGen CUI="C0004352" Name="Autism" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

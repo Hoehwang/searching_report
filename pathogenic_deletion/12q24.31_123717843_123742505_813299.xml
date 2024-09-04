@@ -1,0 +1,159 @@
+<VariationArchive VariationID="813299" VariationName="GRCh37/hg19 12q24.31(chr12:123738222-123738503)" VariationType="copy number loss" Accession="VCV000813299" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801553" VariationID="813299">
+      <GeneList>
+        <Gene Symbol="MTRFR" FullName="mitochondrial translation release factor in rescue" GeneID="91574" HGNC_ID="HGNC:26784" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.31</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="123232914" stop="123257960" display_start="123232914" display_stop="123257960" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="123717843" stop="123742505" display_start="123717843" display_stop="123742505" Strand="+" />
+          </Location>
+          <OMIM>613541</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12q24.31(chr12:123738222-123738503)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="123738222" innerStop="123738503" display_start="123738222" display_stop="123738503" variantLength="282" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_123738222)_(123738503_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_123738222)_(123738503_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12q24.31(chr12:123738222-123738503) AND Combined oxidative phosphorylation defect type 7" Accession="RCV001004071" Version="5">
+        <ClassifiedConditionList TraitSetID="27">
+          <ClassifiedCondition DB="MedGen" ID="C3150801">Combined oxidative phosphorylation defect type 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-10-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-10-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="27" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9599" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Combined oxidative phosphorylation defect type 7</ElementValue>
+                <XRef ID="MONDO:0013306" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Combined oxidative phosphorylation deficiency 7</ElementValue>
+                <XRef ID="Combined+oxidative+phosphorylation+deficiency+7/8019" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">COXPD7</ElementValue>
+                <XRef Type="MIM" ID="613559" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17234" />
+                <XRef ID="17234" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="254930" DB="Orphanet" />
+              <XRef ID="C3150801" DB="MedGen" />
+              <XRef ID="MONDO:0013306" DB="MONDO" />
+              <XRef Type="MIM" ID="613559" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291830" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="2-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162794" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-10-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="6-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">6-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="6-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">7-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="C12orf65" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" innerStart="123738222" innerStop="123738503" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613559" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291830" TraitType="Disease" MappingType="XRef" MappingValue="613559" MappingRef="OMIM">
+        <MedGen CUI="C3150801" Name="Combined oxidative phosphorylation defect type 7" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

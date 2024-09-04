@@ -1,0 +1,205 @@
+<VariationArchive RecordType="classified" VariationID="984430" VariationName="GRCh37/hg19 17q21.2(chr17:40842168-40846218)x1" VariationType="copy number loss" Accession="VCV000984430" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-11-12" MostRecentSubmission="2020-11-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="972515" VariationID="984430">
+      <GeneList>
+        <Gene Symbol="CNTNAP1" FullName="contactin associated protein 1" GeneID="8506" HGNC_ID="HGNC:8011" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="42682531" stop="42699993" display_start="42682531" display_stop="42699993" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="40834631" stop="40852010" display_start="40834631" display_stop="40852010" Strand="+" />
+          </Location>
+          <OMIM>602346</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 17q21.2(chr17:40842168-40846218)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>17q21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" outerStart="40842168" outerStop="40846218" display_start="40842168" display_stop="40846218" variantLength="4050" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000017.10" sequenceAccession="NC_000017" sequenceVersion="10" change="g.(40842168_?)_(?_40846218)del" Assembly="GRCh37">
+            <Expression>NC_000017.10:g.(40842168_?)_(?_40846218)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 17q21.2(chr17:40842168-40846218)x1 AND Lethal congenital contracture syndrome 7" Accession="RCV001264396" Version="1">
+        <ClassifiedConditionList TraitSetID="21078">
+          <ClassifiedCondition DB="MedGen" ID="C4225386">Lethal congenital contracture syndrome 7</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-09-30" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-09-30" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-12" MostRecentSubmission="2020-11-12">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="21078" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33077" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Lethal congenital contracture syndrome 7</ElementValue>
+                <XRef ID="MONDO:0014569" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">LCCS7</ElementValue>
+                <XRef Type="MIM" ID="616286" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4225386" DB="MedGen" />
+              <XRef ID="MONDO:0014569" DB="MONDO" />
+              <XRef Type="MIM" ID="616286" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2848491" SubmissionDate="2020-11-05" DateLastUpdated="2020-11-12" DateCreated="2020-11-12">
+        <ClinVarSubmissionID localKey="17(40842168-40846218)x1" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001442524" DateUpdated="2020-11-12" DateCreated="2020-11-12" Type="SCV" Version="1" SubmitterName="HudsonAlpha Institute for Biotechnology, HudsonAlpha Institute for Biotechnology" OrgID="505530" OrganizationCategory="laboratory" OrgAbbreviation="HA" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-09-30">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Polyhydramnios</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001561" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Central hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0011398" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Muscular hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001252" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Hand clenching</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001188" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">High palate</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000218" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Low-set ears</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000369" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Anteverted nares</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000463" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Downslanted palpebral fissures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000494" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Tented upper lip vermilion</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0010804" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" outerStart="40842168" outerStop="40846218" variantLength="4050" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616286" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <StudyName>CSER-SouthSeq</StudyName>
+        <SubmissionNameList>
+          <SubmissionName>SUB8476276</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Low-set ears" MappingRef="Preferred">
+        <MedGen CUI="C0239234" Name="Low-set ears" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Central hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C1842364" Name="Central hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Downslanted palpebral fissures" MappingRef="Preferred">
+        <MedGen CUI="C0423110" Name="Downslanted palpebral fissures" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Disease" MappingType="XRef" MappingValue="616286" MappingRef="OMIM">
+        <MedGen CUI="C4225386" Name="Lethal congenital contracture syndrome 7" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Muscular hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C0026827" Name="Hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Hand clenching" MappingRef="Preferred">
+        <MedGen CUI="C0239815" Name="Hand clenching" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Tented upper lip vermilion" MappingRef="Preferred">
+        <MedGen CUI="C1839767" Name="Tented upper lip vermilion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Anteverted nares" MappingRef="Preferred">
+        <MedGen CUI="C1840077" Name="Anteverted nares" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="High palate" MappingRef="Preferred">
+        <MedGen CUI="C0240635" Name="High palate" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2848491" TraitType="Finding" MappingType="Name" MappingValue="Polyhydramnios" MappingRef="Preferred">
+        <MedGen CUI="C0020224" Name="Polyhydramnios" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

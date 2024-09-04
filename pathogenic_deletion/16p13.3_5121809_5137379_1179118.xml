@@ -1,0 +1,157 @@
+<VariationArchive VariationID="1179118" VariationName="GRCh37/hg19 16p13.3(chr16:5129043-5129828)" VariationType="copy number loss" Accession="VCV001179118" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168589" VariationID="1179118">
+      <GeneList>
+        <Gene Symbol="ALG1" FullName="ALG1 chitobiosyldiphosphodolichol beta-mannosyltransferase" GeneID="56052" HGNC_ID="HGNC:18294" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="5071843" stop="5087379" display_start="5071843" display_stop="5087379" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="5121809" stop="5137379" display_start="5121809" display_stop="5137379" Strand="+" />
+          </Location>
+          <OMIM>605907</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 16p13.3(chr16:5129043-5129828)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="5129043" innerStop="5129828" display_start="5129043" display_stop="5129828" variantLength="786" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_5129043)_(5129828_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_5129043)_(5129828_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 16p13.3(chr16:5129043-5129828) AND ALG1-congenital disorder of glycosylation" Accession="RCV001535974" Version="3">
+        <ClassifiedConditionList TraitSetID="1295">
+          <ClassifiedCondition DB="MedGen" ID="C2931005">ALG1-congenital disorder of glycosylation</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1295" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="836" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ik</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0007" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0006" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="605907.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">ALG1-congenital disorder of glycosylation</ElementValue>
+                <XRef ID="MONDO:0012052" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Congenital disorder of glycosylation type 1K</ElementValue>
+                <XRef ID="Congenital+Disorder+of+Glycosylation+Type+1K/1816" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG 1K</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ALG1-CDG</ElementValue>
+                <XRef ID="79327" DB="Orphanet" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CDG Ik</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CDGIk</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">CDG1K</ElementValue>
+                <XRef Type="MIM" ID="608540" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9838" />
+                <XRef ID="9838" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301507</ID>
+                <ID Source="BookShelf">NBK1332</ID>
+              </Citation>
+              <XRef ID="79327" DB="Orphanet" />
+              <XRef ID="C2931005" DB="MedGen" />
+              <XRef ID="MONDO:0012052" DB="MONDO" />
+              <XRef Type="MIM" ID="608540" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448114" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.16_5129043_5129828_copy number loss|OMIM:608540" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752638" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ALG1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="16" innerStart="5129043" innerStop="5129828" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608540" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448114" TraitType="Disease" MappingType="XRef" MappingValue="608540" MappingRef="OMIM">
+        <MedGen CUI="C2931005" Name="ALG1-congenital disorder of glycosylation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

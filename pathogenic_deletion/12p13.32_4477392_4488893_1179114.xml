@@ -1,0 +1,157 @@
+<VariationArchive VariationID="1179114" VariationName="GRCh37/hg19 12p13.32(chr12:4477393-4488878)" VariationType="copy number loss" Accession="VCV001179114" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168582" VariationID="1179114">
+      <GeneList>
+        <Gene Symbol="FGF23" FullName="fibroblast growth factor 23" GeneID="8074" HGNC_ID="HGNC:3680" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p13.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="4368227" stop="4379712" display_start="4368227" display_stop="4379712" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="4477392" stop="4488893" display_start="4477392" display_stop="4488893" Strand="-" />
+          </Location>
+          <OMIM>605380</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12p13.32(chr12:4477393-4488878)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12p13.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="4477393" innerStop="4488878" display_start="4477393" display_stop="4488878" variantLength="11486" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_4477393)_(4488878_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_4477393)_(4488878_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12p13.32(chr12:4477393-4488878) AND multiple conditions" Accession="RCV001535970" Version="3">
+        <ClassifiedConditionList TraitSetID="48014">
+          <ClassifiedCondition DB="MedGen" ID="C0342642">Autosomal dominant hypophosphatemic rickets</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4693863">Tumoral calcinosis, hyperphosphatemic, familial, 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="48014" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2392" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOPHOSPHATEMIA, AUTOSOMAL DOMINANT</ElementValue>
+                <XRef Type="MIM" ID="193100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">VITAMIN D-RESISTANT RICKETS, AUTOSOMAL DOMINANT</ElementValue>
+                <XRef Type="MIM" ID="193100" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Autosomal dominant hypophosphatemic rickets</ElementValue>
+                <XRef ID="Hypophosphatemic+rickets%2C+autosomal+dominant/8619" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0008660" DB="MONDO" />
+                <XRef ID="237889002" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ADHR</ElementValue>
+                <XRef Type="MIM" ID="193100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16781" />
+                <XRef ID="16781" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="89937" DB="Orphanet" />
+              <XRef ID="C0342642" DB="MedGen" />
+              <XRef ID="MONDO:0008660" DB="MONDO" />
+              <XRef Type="MIM" ID="193100" DB="OMIM" />
+            </Trait>
+            <Trait ID="40051" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Tumoral calcinosis, hyperphosphatemic, familial, 2</ElementValue>
+                <XRef ID="MONDO:0060714" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">HFTC2</ElementValue>
+                <XRef Type="MIM" ID="617993" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16281" />
+                <XRef ID="16281" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="C4693863" DB="MedGen" />
+              <XRef ID="MONDO:0060714" DB="MONDO" />
+              <XRef Type="MIM" ID="617993" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448110" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.12_4477393_4488878_copy number loss|OMIM:193100;617993" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752634" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGF23" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" innerStart="4477393" innerStop="4488878" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="TraitChoice">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="193100" Type="MIM" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617993" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448110" TraitType="Disease" MappingType="XRef" MappingValue="193100" MappingRef="OMIM">
+        <MedGen CUI="C0342642" Name="Autosomal dominant hypophosphatemic rickets" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3448110" TraitType="Disease" MappingType="XRef" MappingValue="617993" MappingRef="OMIM">
+        <MedGen CUI="C4693863" Name="Tumoral calcinosis, hyperphosphatemic, familial, 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

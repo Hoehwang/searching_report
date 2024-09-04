@@ -1,0 +1,193 @@
+<VariationArchive VariationID="813310" VariationName="GRCh37/hg19 1q22(chr1:155188179-155209868)" VariationType="copy number loss" Accession="VCV000813310" Version="3" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801562" VariationID="813310">
+      <GeneList>
+        <Gene Symbol="GBA1" FullName="glucosylceramidase beta 1" GeneID="2629" HGNC_ID="HGNC:4177" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="155234452" stop="155244627" display_start="155234452" display_stop="155244627" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NW_003315906.1" start="39475" stop="49650" display_start="39475" display_stop="49650" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="155204238" stop="155214652" display_start="155204238" display_stop="155214652" Strand="-" />
+          </Location>
+          <OMIM>606463</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1q22(chr1:155188179-155209868)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="155188179" innerStop="155209868" display_start="155188179" display_stop="155209868" variantLength="21690" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_155188179)_(155209868_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_155188179)_(155209868_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1q22(chr1:155188179-155209868) AND Parkinson disease, late-onset" Accession="RCV001004082" Version="6">
+        <ClassifiedConditionList TraitSetID="2711">
+          <ClassifiedCondition DB="MedGen" ID="C3160718">Parkinson disease, late-onset</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-26" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-26" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2711" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3762" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Hereditary late onset Parkinson disease</ElementValue>
+                <XRef ID="MONDO:0018466" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Susceptibility to Parkinson's Disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Parkinson's disease</ElementValue>
+                <XRef ID="Parkinson+Disease/5603" DB="Genetic Alliance" />
+                <XRef ID="49049000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Parkinson disease, late-onset</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PARKINSON DISEASE, LATE-ONSET, SUSCEPTIBILITY TO</ElementValue>
+                <XRef Type="Allelic variant" ID="606463.0048" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="157140.0021" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606463.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="606463.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="601517.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603680.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="600075.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="607047.0001" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PARK</ElementValue>
+                <XRef Type="MIM" ID="168600" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">PD</ElementValue>
+                <XRef Type="MIM" ID="168600" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17684" />
+                <XRef ID="17684" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301402</ID>
+                <ID Source="BookShelf">NBK1223</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301446</ID>
+                <ID Source="BookShelf">NBK1269</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EFNS, 2011">
+                <ID Source="PubMed">20482602</ID>
+              </Citation>
+              <XRef ID="411602" DB="Orphanet" />
+              <XRef ID="C3160718" DB="MedGen" />
+              <XRef ID="MONDO:0008199" DB="MONDO" />
+              <XRef Type="MIM" ID="168600" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291842" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="14-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162806" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-26">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="23-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">23-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="23-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">24-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GBA" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="155188179" innerStop="155209868" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="168600" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291842" TraitType="Disease" MappingType="XRef" MappingValue="168600" MappingRef="OMIM">
+        <MedGen CUI="C3160718" Name="Parkinson disease, late-onset" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

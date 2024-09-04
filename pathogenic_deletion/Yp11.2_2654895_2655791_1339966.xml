@@ -1,0 +1,125 @@
+<VariationArchive RecordType="classified" VariationID="1339966" VariationName="GRCh37/hg19 Yp11.31(chrY:2650140-2691749)x0" VariationType="copy number loss" Accession="VCV001339966" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-05-17" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1331174" VariationID="1339966">
+      <GeneList>
+        <Gene Symbol="SRY" FullName="sex determining region Y" GeneID="6736" HGNC_ID="HGNC:11311" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Yp11.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="Y" Accession="NC_000024.10" start="2786855" stop="2787682" display_start="2786855" display_stop="2787682" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" start="2654895" stop="2655791" display_start="2654895" display_stop="2655791" Strand="-" />
+          </Location>
+          <OMIM>480000</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SRY">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SRY">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Yp11.31(chrY:2650140-2691749)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Yp11.31</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="Y" Accession="NC_000024.9" innerStart="2650140" innerStop="2691749" display_start="2650140" display_stop="2691749" variantLength="41610" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000024.9" sequenceAccession="NC_000024" sequenceVersion="9" change="g.(?_2650140)_(2691749_?)del" Assembly="GRCh37">
+            <Expression>NC_000024.9:g.(?_2650140)_(2691749_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Yp11.31(chrY:2650140-2691749)x0 AND not provided" Accession="RCV001827595" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-03-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-03-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-02-13" MostRecentSubmission="2022-02-13">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4087613" SubmissionDate="2022-02-10" DateLastUpdated="2022-02-13" DateCreated="2022-02-13">
+        <ClinVarSubmissionID localKey="21_411|not provided|copy:0" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002095901" DateUpdated="2022-02-13" DateCreated="2022-02-13" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-03-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The copy number loss of Yp11.31 involves the entire SRY gene (NM_003140.3; OMIM 480000), which is a single exon gene. Loss-of-function pathogenic sequence variants (missense and truncating) and full gene deletion of SRY have been associated with 46,XY sex reversal 1 (OMIM 400044; Amudha et al. Int. J. Hum. Genet. 2012; 12(2):99-103; doi.org/10.1080/09723757.2012.11886169). Most of these pathogenic sequence variants are within the key DNA-binding domain, disrupt the normal expression pattern of SRY, and/or cause loss of DNA-binding ability of SRY (Harley et al., Proc Natl Acad Sci U S A. 2003 Jun 10;100(12):7045-50. PMID: 12764225; Jordan et al., J Clin Endocrinol Metab. 2002 Jul;87(7):3428-32. PMID: 12107262; Li et al., J Biol Chem. 2001 Dec 7;276(49):46480-4. PMID: 11641389).The XY female patients have an increased risk to develop a dysgerminoma and/or gonadoblastoma. Incomplete penetrance has also been reported (Dork et al., Hum Mutat. 1998;11(1):90-1. PMID: 9450909; Cameron et al., Hum Mutat. 1997;9(5):388-95. PMID: 9143916). There are no similar copy number losses of this region in the general populations of the Database of Genomic Variants. Thus, based on literature review and gene content, this copy number loss is interpreted as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="Y" innerStart="2650140" innerStop="2691749" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10731853</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4087613" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

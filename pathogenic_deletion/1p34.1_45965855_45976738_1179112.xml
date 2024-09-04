@@ -1,0 +1,159 @@
+<VariationArchive VariationID="1179112" VariationName="GRCh37/hg19 1p34.1(chr1:45965972-45979054)" VariationType="copy number loss" Accession="VCV001179112" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168566" VariationID="1179112">
+      <GeneList>
+        <Gene Symbol="MMACHC" FullName="metabolism of cobalamin associated C" GeneID="25974" HGNC_ID="HGNC:24525" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p34.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="45500300" stop="45513382" display_start="45500300" display_stop="45513382" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="45965855" stop="45976738" display_start="45965855" display_stop="45976738" Strand="+" />
+          </Location>
+          <OMIM>609831</OMIM>
+        </Gene>
+        <Gene Symbol="PRDX1" FullName="peroxiredoxin 1" GeneID="5052" HGNC_ID="HGNC:9352" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p34.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="45511051" stop="45522890" display_start="45511051" display_stop="45522890" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="45976706" stop="45988561" display_start="45976706" display_stop="45988561" Strand="-" />
+          </Location>
+          <OMIM>176763</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1p34.1(chr1:45965972-45979054)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1p34.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="45965972" innerStop="45979054" display_start="45965972" display_stop="45979054" variantLength="13083" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_45965972)_(45979054_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_45965972)_(45979054_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1p34.1(chr1:45965972-45979054) AND Cobalamin C disease" Accession="RCV001535968" Version="3">
+        <ClassifiedConditionList TraitSetID="384">
+          <ClassifiedCondition DB="MedGen" ID="C1848561">Cobalamin C disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="384" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5516" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cobalamin C disease</ElementValue>
+                <XRef ID="74653006" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">methylmalonic aciduria and homocystinuria type cblC</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cobalamin-C methylmalonic acidemia and homocystinuria</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Methylmalonic acidemia and homocystinuria cblC type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Methylmalonic aciduria and homocystinuria, Vitamin B12-responsive</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Vitamin B12 metabolic defect with combined deficiency of methylmalonyl-CoA mutase and homocysteine:methyltetrahydrofolate methyltransferase</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">Disorders of intracellular cobalamin metabolism have a variable phenotype and age of onset that are influenced by the severity and location within the pathway of the defect. The prototype and best understood phenotype is cblC; it is also the most common of these disorders. The age of initial presentation of cblC spans a wide range: In utero with fetal presentation of nonimmune hydrops, cardiomyopathy, and intrauterine growth restriction. Newborns, who can have microcephaly, poor feeding, and encephalopathy. Infants, who can have poor feeding and slow growth, neurologic abnormality, and, rarely, hemolytic uremic syndrome (HUS). Toddlers, who can have poor growth, progressive microcephaly, cytopenias (including megaloblastic anemia), global developmental delay, encephalopathy, and neurologic signs such as hypotonia and seizures. Adolescents and adults, who can have neuropsychiatric symptoms, progressive cognitive decline, thromboembolic complications, and/or subacute combined degeneration of the spinal cord.</Attribute>
+                <XRef ID="NBK1328" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12128" />
+                <XRef ID="12128" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301503</ID>
+                <ID Source="BookShelf">NBK1328</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG ACT, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/Elevated%20C3%20Acylcarnitine%20PA%20and%20MA.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Newborn Screening ACT Sheet, Elevated C3 Acylcarnitine, Propionic Acidemia (PA) and Methylmalonic Acidemia (MMA), 2022</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ACMG Algorithm, 2022">
+                <URL>https://www.acmg.net/PDFLibrary/C3-Algorithm.pdf</URL>
+                <CitationText>American College of Medical Genetics and Genomics, Algorithm, Propionic and Methylmalonic Acidemia: C3 Elevated, 2022</CitationText>
+              </Citation>
+              <XRef ID="26" DB="Orphanet" />
+              <XRef ID="79282" DB="Orphanet" />
+              <XRef ID="C1848561" DB="MedGen" />
+              <XRef ID="MONDO:0010184" DB="MONDO" />
+              <XRef Type="MIM" ID="277400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448108" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.1_45965972_45979054_copy number loss|OMIM:277400" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752632" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MMACHC" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="45965972" innerStop="45979054" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="277400" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448108" TraitType="Disease" MappingType="XRef" MappingValue="277400" MappingRef="OMIM">
+        <MedGen CUI="C1848561" Name="Cobalamin C disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

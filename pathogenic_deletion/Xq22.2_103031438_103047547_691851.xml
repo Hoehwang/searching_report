@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="691851" VariationName="GRCh37/hg19 Xq22.2(chrX:103029773-103036548)x1" VariationType="copy number loss" Accession="VCV000691851" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-01-26" MostRecentSubmission="2020-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="679571" VariationID="691851">
+      <GeneList>
+        <Gene Symbol="PLP1" FullName="proteolipid protein 1" GeneID="5354" HGNC_ID="HGNC:9086" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="103776506" stop="103792619" display_start="103776506" display_stop="103792619" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="103031438" stop="103047547" display_start="103031438" display_stop="103047547" Strand="+" />
+          </Location>
+          <OMIM>300401</OMIM>
+          <Haploinsufficiency last_evaluated="2021-04-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PLP1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-04-12" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PLP1">Sufficient evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq22.2(chrX:103029773-103036548)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="103029773" stop="103036548" display_start="103029773" display_stop="103036548" variantLength="6776" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq22.2(chrX:103029773-103036548)x1 AND Spastic Paraplegia 2, mild, late onset" Accession="RCV000993777" Version="2">
+        <ClassifiedConditionList TraitSetID="50912">
+          <ClassifiedCondition>Spastic Paraplegia 2, mild, late onset</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-01-26" MostRecentSubmission="2020-01-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="50912" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="42961" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Spastic Paraplegia 2, mild, late onset</ElementValue>
+                <XRef ID="BAB8202 &amp; BAB8203Xq22DEL" DB="Lupski Lab, Baylor-Hopkins CMG, Baylor College of Medicine" />
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1952496" SubmissionDate="2019-07-24" DateLastUpdated="2020-01-26" DateCreated="2020-01-26">
+        <ClinVarSubmissionID localKey="BAB8202 &amp; BAB8203Xq22DEL|Spastic Paraplegia 2, mild, late onset|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000995904" DateUpdated="2020-01-26" DateCreated="2020-01-26" Type="SCV" Version="1" SubmitterName="Lupski Lab, Baylor-Hopkins CMG, Baylor College of Medicine" OrgID="505572" OrganizationCategory="laboratory" OrgAbbreviation="BHCMG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This variant was identified in two female individuals with a mild late-onset form of Spastic Paraplegia 2</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">aCGH</Attribute>
+              </MethodAttribute>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">PCR</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Spasticity</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001257" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" start="103029773" stop="103036548" variantLength="6776" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <Name>
+              <ElementValue Type="Preferred">Spastic Paraplegia 2, mild, late onset</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6065281</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1952496" TraitType="Finding" MappingType="Name" MappingValue="Spasticity" MappingRef="Preferred">
+        <MedGen CUI="C0026838" Name="Spasticity" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1952496" TraitType="Finding" MappingType="Name" MappingValue="Spastic Paraplegia 2, mild, late onset" MappingRef="Preferred">
+        <MedGen CUI="None" Name="Spastic Paraplegia 2, mild, late onset" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>

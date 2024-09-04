@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="813720" VariationName="GRCh37/hg19 2q23.1(chr2:148710290-149021799)" VariationType="copy number loss" Accession="VCV000813720" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-08-16" MostRecentSubmission="2020-08-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801967" VariationID="813720">
+      <GeneList>
+        <Gene Symbol="ORC4" FullName="origin recognition complex subunit 4" GeneID="5000" HGNC_ID="HGNC:8490" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="147930396" stop="148021551" display_start="147930396" display_stop="148021551" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148687965" stop="148779172" display_start="148687965" display_stop="148779172" Strand="-" />
+          </Location>
+          <OMIM>603056</OMIM>
+        </Gene>
+        <Gene Symbol="MBD5" FullName="methyl-CpG binding domain protein 5" GeneID="55777" HGNC_ID="HGNC:20444" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q23.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="148020927" stop="148516971" display_start="148020927" display_stop="148516971" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="148778579" stop="149271045" display_start="148778579" display_stop="149271045" Strand="+" />
+          </Location>
+          <OMIM>611472</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-11" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MBD5">Little evidence for dosage pathogenicity</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q23.1(chr2:148710290-149021799)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q23.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" outerStart="148710290" outerStop="149021799" display_start="148710290" display_stop="149021799" variantLength="311509" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(148710290_?)_(?_149021799)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(148710290_?)_(?_149021799)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q23.1(chr2:148710290-149021799) AND Microcephaly" Accession="RCV001252951" Version="1">
+        <ClassifiedConditionList TraitSetID="17004">
+          <ClassifiedCondition DB="MedGen" ID="C4551563">Microcephaly</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-16" MostRecentSubmission="2020-08-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="17004" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="21539" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Microcephaly (disease)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Microcephaly</ElementValue>
+                <XRef ID="HP:0000252" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0001149" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3603" />
+                <XRef ID="3603" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="AAN/CNS, 2009">
+                <ID Source="pmc">2744281</ID>
+              </Citation>
+              <XRef ID="C4551563" DB="MedGen" />
+              <XRef ID="MONDO:0001149" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0000252" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001366" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005485" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005489" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005497" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2293747" SubmissionDate="2020-02-13" DateLastUpdated="2020-08-16" DateCreated="2020-08-16">
+        <ClinVarSubmissionID localKey=":Chr.2_148710290_149021799_copy number loss|HPO:HP:0000252" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001164094" DateUpdated="2020-08-16" DateCreated="2020-08-16" Type="SCV" Version="1" SubmitterName="Department of Pediatrics, Samsung Medical Center, Samsung Medical Center" OrgID="507448" OrganizationCategory="clinic" OrgAbbreviation="SMCPD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" outerStart="148710290" outerStop="149021799" variantLength="311509" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000252" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>Korean microcephaly</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2293747" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000252" MappingRef="HP">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

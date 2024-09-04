@@ -1,0 +1,155 @@
+<VariationArchive VariationID="997066" VariationName="GRCh37/hg19 9p24.3(chr9:204193-340142)" VariationType="copy number gain" Accession="VCV000997066" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-10" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="984762" VariationID="997066">
+      <GeneList>
+        <Gene Symbol="DOCK8" FullName="dedicator of cytokinesis 8" GeneID="81704" HGNC_ID="HGNC:19191" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="211257" stop="465255" display_start="211257" display_stop="465255" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="214864" stop="465258" display_start="214864" display_stop="465258" Strand="+" />
+          </Location>
+          <OMIM>611432</OMIM>
+        </Gene>
+        <Gene Symbol="DOCK8-AS1" FullName="DOCK8 antisense RNA 1" GeneID="157983" HGNC_ID="HGNC:26436" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="213457" stop="215750" display_start="213457" display_stop="215750" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="213107" stop="215892" display_start="213107" display_stop="215892" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9p24.3(chr9:204193-340142)</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>9p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="204193" innerStop="340142" display_start="204193" display_stop="340142" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9p24.3(chr9:204193-340142) AND Autism" Accession="RCV001291967" Version="1">
+        <ClassifiedConditionList TraitSetID="6868">
+          <ClassifiedCondition DB="MedGen" ID="C0004352">Autism</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">29191242</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="6868" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="474" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Autism</ElementValue>
+                <XRef ID="HP:0000717" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0005260" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Autistic disorder of childhood onset</ElementValue>
+                <XRef ID="Autistic+disorder+of+childhood+onset/7772" DB="Genetic Alliance" />
+                <XRef ID="D001321" DB="MeSH" />
+                <XRef ID="43614003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Autistic disorder</ElementValue>
+                <XRef ID="408856003" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AUTS</ElementValue>
+              </Symbol>
+              <Citation Type="general" Abbrev="ISCA, 2010">
+                <ID Source="PubMed">20466091</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2021">
+                <ID Source="PubMed">34131312</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NICE, 2021">
+                <URL>https://www.nice.org.uk/guidance/cg142</URL>
+                <CitationText>UK NICE Guideline CG142, Autism spectrum disorder in adults: diagnosis and management, 2021</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NICE, 2021">
+                <URL>https://www.nice.org.uk/guidance/cg170</URL>
+                <CitationText>UK NICE Guideline CG170, Autism spectrum disorder in under 19s: support and management, 2021</CitationText>
+              </Citation>
+              <XRef ID="C0004352" DB="MedGen" />
+              <XRef ID="D001321" DB="MeSH" />
+              <XRef ID="MONDO:0005260" DB="MONDO" />
+              <XRef Type="MIM" ID="209850" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0000717" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2918387" SubmissionDate="2021-02-08" DateLastUpdated="2021-02-20" DateCreated="2021-02-20">
+        <ClinVarSubmissionID localKey="ReAC231|HPO:HP:0000717" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001480534" DateUpdated="2021-02-20" DateCreated="2021-02-20" Type="SCV" Version="1" SubmitterName="Medical Genetics Laboratory, CHRU Nancy" OrgID="507803" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">29191242</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" innerStart="204193" innerStop="340142" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="HP" ID="HP:0000717" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8712880</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2918387" TraitType="Disease" MappingType="XRef" MappingValue="HP:0000717" MappingRef="HP">
+        <MedGen CUI="C0004352" Name="Autism" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

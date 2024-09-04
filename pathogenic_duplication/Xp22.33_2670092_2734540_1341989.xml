@@ -1,0 +1,162 @@
+<VariationArchive VariationID="1341989" VariationName="GRCh37/hg19 Xp22.33(chrX:940688-2676609)x3" VariationType="copy number gain" Accession="VCV001341989" Version="1" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1333387" VariationID="1341989">
+      <GeneList>
+        <Gene Symbol="XG" FullName="Xg glycoprotein (Xg blood group)" GeneID="7499" HGNC_ID="HGNC:12806" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="2752040" stop="2816500" display_start="2752040" display_stop="2816500" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="2670092" stop="2734540" display_start="2670092" display_stop="2734540" Strand="+" />
+          </Location>
+          <OMIM>300879</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.33(chrX:940688-2676609)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="940688" innerStop="2676609" display_start="940688" display_stop="2676609" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.33(chrX:940688-2676609)x3 AND not provided" Accession="RCV002279759" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-02" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Department Of Translational Genomics (developmental Genetics Section), King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4102886" SubmissionDate="2022-02-25" DateLastUpdated="2022-08-29" DateCreated="2022-08-29">
+        <ClinVarSubmissionID localKey="pid96|not provided|copy:3|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002098095" DateUpdated="2022-08-29" DateCreated="2022-08-29" Type="SCV" Version="1" SubmitterName="Centro Nacional de Genética Medica &quot;Dr. Eduardo E. Castilla&quot;, Administración Nacional de Laboratorios e Institutos de Salud" OrgID="506261" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Skin tag on the right cheek</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">absent left external auditory canal</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">transverse and terminal reduction defect in the left upper limb</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">complete abduction of the fingers of the hand</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="940688" innerStop="2676609" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11032565</SubmissionName>
+          <SubmissionName>SUB11128547</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4102886" TraitType="Finding" MappingType="Name" MappingValue="absent left external auditory canal" MappingRef="Preferred">
+        <MedGen CUI="None" Name="absent left external auditory canal" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102886" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102886" TraitType="Finding" MappingType="Name" MappingValue="Skin tag on the right cheek" MappingRef="Preferred">
+        <MedGen CUI="None" Name="Skin tag on the right cheek" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102886" TraitType="Finding" MappingType="Name" MappingValue="complete abduction of the fingers of the hand" MappingRef="Preferred">
+        <MedGen CUI="None" Name="complete abduction of the fingers of the hand" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102886" TraitType="Finding" MappingType="Name" MappingValue="transverse and terminal reduction defect in the left upper limb" MappingRef="Preferred">
+        <MedGen CUI="None" Name="Transverse and terminal reduction defect in the left upper limb" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

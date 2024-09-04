@@ -1,0 +1,131 @@
+<VariationArchive RecordType="classified" VariationID="695070" VariationName="GRCh37/hg19 12p12.1(chr12:24102502-24173232)x1" VariationType="copy number loss" Accession="VCV000695070" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-12-16" MostRecentSubmission="2019-12-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="683203" VariationID="695070">
+      <GeneList>
+        <Gene Symbol="SOX5" FullName="SRY-box transcription factor 5" GeneID="6660" HGNC_ID="HGNC:11201" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12p12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="23529504" stop="24562650" display_start="23529504" display_stop="24562650" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="23685230" stop="24715382" display_start="23685230" display_stop="24715382" Strand="-" />
+          </Location>
+          <OMIM>604975</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-19" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOX5">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-19" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOX5">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12p12.1(chr12:24102502-24173232)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12p12.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" outerStart="24102502" outerStop="24173232" display_start="24102502" display_stop="24173232" variantLength="70731" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(24102502_?)_(?_24173232)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(24102502_?)_(?_24173232)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12p12.1(chr12:24102502-24173232)x1 AND Lamb-Shaffer syndrome" Accession="RCV000857283" Version="1">
+        <ClassifiedConditionList TraitSetID="23909">
+          <ClassifiedCondition DB="MedGen" ID="C4225202">Lamb-Shaffer syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-08-05" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-08-05" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-12-16" MostRecentSubmission="2019-12-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="23909" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34618" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Lamb-Shaffer syndrome</ElementValue>
+                <XRef ID="MONDO:0014778" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">LAMSHF</ElementValue>
+                <XRef Type="MIM" ID="616803" DB="OMIM" />
+              </Symbol>
+              <XRef ID="313884" DB="Orphanet" />
+              <XRef ID="313892" DB="Orphanet" />
+              <XRef ID="530983" DB="Orphanet" />
+              <XRef ID="C4225202" DB="MedGen" />
+              <XRef ID="MONDO:0014778" DB="MONDO" />
+              <XRef Type="MIM" ID="616803" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1964659" SubmissionDate="2019-08-05" DateLastUpdated="2019-12-16" DateCreated="2019-12-16">
+        <ClinVarSubmissionID localKey="D1|OMIM:616803|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000999875" DateUpdated="2019-12-16" DateCreated="2019-12-16" Type="SCV" Version="1" SubmitterName="Institute for Human Genetics, University Hospital Essen" OrgID="507042" OrganizationCategory="laboratory" OrgAbbreviation="UK_Essen" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-08-05">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SOX5" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" outerStart="24102502" outerStop="24173232" variantLength="70731" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616803" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6130684</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1964659" TraitType="Disease" MappingType="XRef" MappingValue="616803" MappingRef="OMIM">
+        <MedGen CUI="C4225202" Name="Lamb-Shaffer syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

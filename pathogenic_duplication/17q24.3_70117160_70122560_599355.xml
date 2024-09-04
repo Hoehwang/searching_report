@@ -1,0 +1,161 @@
+<VariationArchive RecordType="classified" VariationID="599355" VariationName="GRCh37/hg19 17q24.3(chr17:69458883-69482850)x3" VariationType="copy number gain" Accession="VCV000599355" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-01-26" MostRecentSubmission="2019-01-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="590649" VariationID="599355">
+      <GeneList>
+        <Gene Symbol="SOX9" FullName="SRY-box transcription factor 9" GeneID="6662" HGNC_ID="HGNC:11204" Source="submitted" RelationshipType="asserted, but not computed">
+          <Location>
+            <CytogeneticLocation>17q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="72121020" stop="72126416" display_start="72121020" display_stop="72126416" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="70117160" stop="70122560" display_start="70117160" display_stop="70122560" Strand="+" />
+          </Location>
+          <OMIM>608160</OMIM>
+          <Haploinsufficiency last_evaluated="2012-07-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOX9">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-07-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SOX9">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 17q24.3(chr17:69458883-69482850)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>17q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" outerStart="69393372" innerStart="69458883" innerStop="69482850" outerStop="69483073" display_start="69393372" display_stop="69483073" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 17q24.3(chr17:69458883-69482850)x3 AND 46,XX sex reversal 2" Accession="RCV000754565" Version="1">
+        <ClassifiedConditionList TraitSetID="7935">
+          <ClassifiedCondition DB="MedGen" ID="C2749215">46,XX sex reversal 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-01-26" MostRecentSubmission="2019-01-26">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">30552336</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="7935" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="8" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">46,XX sex reversal 2</ElementValue>
+                <XRef ID="MONDO:0010218" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SRY-negative 46,XX testicular disorder of sex development</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CHROMOSOME 17q24 DUPLICATION SYNDROME</ElementValue>
+                <XRef Type="MIM" ID="278850" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SRXX2</ElementValue>
+                <XRef Type="MIM" ID="278850" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Nonsyndromic 46,XX testicular disorders of sex development (46,XX testicular DSD) are characterized by the presence of a 46,XX karyotype; male external genitalia ranging from normal to ambiguous; two testicles; azoospermia; and absence of müllerian structures. Approximately 85% of individuals with nonsyndromic 46,XX testicular DSD present after puberty with normal pubic hair and normal penile size but small testes, gynecomastia, and sterility resulting from azoospermia. Approximately 15% of individuals with nonsyndromic 46,XX testicular DSD present at birth with ambiguous genitalia. Gender role and gender identity are reported as male. If untreated, males with 46,XX testicular DSD experience the consequences of testosterone deficiency.</Attribute>
+                <XRef ID="NBK1416" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301589</ID>
+                <ID Source="BookShelf">NBK1416</ID>
+              </Citation>
+              <Citation Type="Position Statement" Abbrev="ICCI, 2006">
+                <ID Source="PubMed">16882788</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ESPU, 2009">
+                <ID Source="PubMed">19272837</ID>
+              </Citation>
+              <XRef ID="393" DB="Orphanet" />
+              <XRef ID="C2749215" DB="MedGen" />
+              <XRef ID="MONDO:0010218" DB="MONDO" />
+              <XRef Type="MIM" ID="278850" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1690050" SubmissionDate="2018-10-09" DateLastUpdated="2019-01-26" DateCreated="2019-01-26">
+        <ClinVarSubmissionID localKey="23.9kb-DUP, upstream regulatory region|OMIM:278850|copy:3|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000845738" DateUpdated="2019-01-26" DateCreated="2019-01-26" Type="SCV" Version="1" SubmitterName="Reproductive Development, Murdoch Childrens Research Institute" OrgID="506486" OrganizationCategory="laboratory" OrgAbbreviation="ReproDev" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-10-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">30552336</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SOX9" />
+          </GeneList>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="17" innerStart="69458883" innerStop="69482850" outerStart="69393372" outerStop="69483073" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="278850" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">30552336</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">30552336</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4613172</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1690050" TraitType="Disease" MappingType="XRef" MappingValue="278850" MappingRef="OMIM">
+        <MedGen CUI="C2749215" Name="46,XX sex reversal 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,153 @@
+<VariationArchive RecordType="classified" VariationID="997090" VariationName="GRCh37/hg19 2p16.3(chr2:50850691-51358881)" VariationType="copy number loss" Accession="VCV000997090" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-30" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="984783" VariationID="997090">
+      <GeneList>
+        <Gene Symbol="NRXN1" FullName="neurexin 1" GeneID="9378" HGNC_ID="HGNC:8008" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p16.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="49918503" stop="51032132" display_start="49918503" display_stop="51032132" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="50145642" stop="51259673" display_start="50145642" display_stop="51259673" Strand="-" />
+          </Location>
+          <OMIM>600565</OMIM>
+          <Haploinsufficiency last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-06-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NRXN1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p16.3(chr2:50850691-51358881)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2p16.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="50850691" innerStop="51358881" display_start="50850691" display_stop="51358881" variantLength="508191" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_50850691)_(51358881_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_50850691)_(51358881_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p16.3(chr2:50850691-51358881) AND multiple conditions" Accession="RCV001291992" Version="2">
+        <ClassifiedConditionList TraitSetID="65548">
+          <ClassifiedCondition DB="MedGen" ID="C3806583">Functional abnormality of the bladder</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1854301">Motor delay</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-10-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-10-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-02-20" MostRecentSubmission="2021-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="65548" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="21341" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Functional abnormality of the bladder</ElementValue>
+                <XRef ID="HP:0000009" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C3806583" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0000009" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0004424" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0008731" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="17057" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Motor delay</ElementValue>
+                <XRef ID="HP:0001270" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Motor retardation</ElementValue>
+                <XRef ID="HP:0001270" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">motor developmental delay</ElementValue>
+              </Name>
+              <XRef ID="C1854301" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001270" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001307" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0002130" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006788" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006826" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006909" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006950" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0006968" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007219" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0007251" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2918412" SubmissionDate="2021-02-08" DateLastUpdated="2021-02-20" DateCreated="2021-02-20">
+        <ClinVarSubmissionID localKey="ReAC241|HPO:HP:0001270;HP:0000009" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001480559" DateUpdated="2021-02-20" DateCreated="2021-02-20" Type="SCV" Version="1" SubmitterName="Medical Genetics Laboratory, CHRU Nancy" OrgID="507803" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-10-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="50850691" innerStop="51358881" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0001270" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000009" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8712880</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2918412" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000009" MappingRef="HP">
+        <MedGen CUI="C3806583" Name="Functional abnormality of the bladder" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2918412" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001270" MappingRef="HP">
+        <MedGen CUI="C1854301" Name="Motor delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

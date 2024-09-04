@@ -1,0 +1,140 @@
+<VariationArchive RecordType="classified" VariationID="625691" VariationName="GRCh37/hg19 4p14(chr4:39215680-39219295)" VariationType="copy number loss" Accession="VCV000625691" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="613995" VariationID="625691">
+      <GeneList>
+        <Gene Symbol="WDR19" FullName="WD repeat domain 19" GeneID="57728" HGNC_ID="HGNC:18340" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4p14</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="39182529" stop="39285810" display_start="39182529" display_stop="39285810" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="39184023" stop="39287429" display_start="39184023" display_stop="39287429" Strand="+" />
+          </Location>
+          <OMIM>608151</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 4p14(chr4:39215680-39219295)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>4p14</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="39215680" innerStop="39219295" display_start="39215680" display_stop="39219295" variantLength="3616" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_39215680)_(39219295_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_39215680)_(39219295_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 4p14(chr4:39215680-39219295) AND Nephronophthisis 13" Accession="RCV000767699" Version="1">
+        <ClassifiedConditionList TraitSetID="7649">
+          <ClassifiedCondition DB="MedGen" ID="C3280612">Nephronophthisis 13</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7649" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16690" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Nephronophthisis 13</ElementValue>
+                <XRef ID="Nephronophthisis+13/8981" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013718" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NPHP13</ElementValue>
+                <XRef Type="MIM" ID="614377" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The nephronophthisis (NPH) phenotype is characterized by reduced renal concentrating ability, chronic tubulointerstitial nephritis, cystic renal disease, and progression to end-stage renal disease (ESRD) before age 30 years. Three age-based clinical subtypes are recognized: infantile, juvenile, and adolescent/adult. Infantile NPH can present in utero with oligohydramnios sequence (limb contractures, pulmonary hypoplasia, and facial dysmorphisms) or postnatally with renal manifestations that progress to ESRD before age 3 years. Juvenile NPH, the most prevalent subtype, typically presents with polydipsia and polyuria, growth retardation, chronic iron-resistant anemia, or other findings related to chronic kidney disease (CKD). Hypertension is typically absent due to salt wasting. ESRD develops at a median age of 13 years. Ultrasound findings are increased echogenicity, reduced corticomedullary differentiation, and renal cysts (in 50% of affected individuals). Histologic findings include tubulointerstitial fibrosis, thickened and disrupted tubular basement membrane, sporadic corticomedullary cysts, and normal or reduced kidney size. Adolescent/adult NPH is clinically similar to juvenile NPH, but ESRD develops at a median age of 19 years. Within a subtype, inter- and intrafamilial variability in rate of progression to ESRD is considerable. Approximately 80%-90% of individuals with the NPH phenotype have no extrarenal features (i.e., they have isolated NPH); ~10%-20% have extrarenal manifestations that constitute a recognizable syndrome (e.g., Joubert syndrome, Bardet-Biedl syndrome, Jeune syndrome and related skeletal disorders, Meckel-Gruber syndrome, Senior-Løken syndrome, Leber congenital amaurosis, COACH syndrome, and oculomotor apraxia, Cogan type).</Attribute>
+                <XRef ID="NBK368475" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">27336129</ID>
+                <ID Source="BookShelf">NBK368475</ID>
+              </Citation>
+              <XRef ID="655" DB="Orphanet" />
+              <XRef ID="C3280612" DB="MedGen" />
+              <XRef ID="MONDO:0013718" DB="MONDO" />
+              <XRef Type="MIM" ID="614377" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761604" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES303|OMIM:614377" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898321" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" innerStart="39215680" innerStop="39219295" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614377" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761604" TraitType="Disease" MappingType="XRef" MappingValue="614377" MappingRef="OMIM">
+        <MedGen CUI="C3280612" Name="Nephronophthisis 13" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

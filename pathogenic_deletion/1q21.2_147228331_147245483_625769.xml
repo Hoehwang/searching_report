@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="625769" VariationName="GRCh37/hg19 1q21.2(chr1:147245049-147246661)" VariationType="copy number loss" Accession="VCV000625769" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614073" VariationID="625769">
+      <GeneList>
+        <Gene Symbol="GJA5" FullName="gap junction protein alpha 5" GeneID="2702" HGNC_ID="HGNC:4279" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="147756199" stop="147773351" display_start="147756199" display_stop="147773351" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="147228331" stop="147245483" display_start="147228331" display_stop="147245483" Strand="-" />
+          </Location>
+          <OMIM>121013</OMIM>
+          <Haploinsufficiency last_evaluated="2012-02-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GJA5">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-02-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=GJA5">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1q21.2(chr1:147245049-147246661)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1q21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="147245049" innerStop="147246661" display_start="147245049" display_stop="147246661" variantLength="1613" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_147245049)_(147246661_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_147245049)_(147246661_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1q21.2(chr1:147245049-147246661) AND Atrial fibrillation, familial, 11" Accession="RCV000767777" Version="1">
+        <ClassifiedConditionList TraitSetID="7542">
+          <ClassifiedCondition DB="MedGen" ID="C3279693">Atrial fibrillation, familial, 11</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7542" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16017" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Atrial fibrillation, familial, 11</ElementValue>
+                <XRef ID="Atrial+fibrillation%2C+familial%2C+11/7732" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013544" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ATFB11</ElementValue>
+                <XRef Type="MIM" ID="614049" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C3279693" DB="MedGen" />
+              <XRef ID="MONDO:0013544" DB="MONDO" />
+              <XRef Type="MIM" ID="614049" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761682" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES158|OMIM:614049" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898399" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="147245049" innerStop="147246661" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614049" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761682" TraitType="Disease" MappingType="XRef" MappingValue="614049" MappingRef="OMIM">
+        <MedGen CUI="C3279693" Name="Atrial fibrillation, familial, 11" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

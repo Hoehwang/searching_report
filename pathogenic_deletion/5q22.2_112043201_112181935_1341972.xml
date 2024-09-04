@@ -1,0 +1,335 @@
+<VariationArchive VariationID="1341972" VariationName="GRCh37/hg19 5q22.2(chr5:112155123-112174165)x1" VariationType="copy number loss" Accession="VCV001341972" Version="1" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1333370" VariationID="1341972">
+      <GeneList>
+        <Gene Symbol="APC" FullName="APC regulator of WNT signaling pathway" GeneID="324" HGNC_ID="HGNC:583" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5q22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="112707498" stop="112846239" display_start="112707498" display_stop="112846239" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="112043201" stop="112181935" display_start="112043201" display_stop="112181935" Strand="+" />
+          </Location>
+          <OMIM>611731</OMIM>
+          <Haploinsufficiency last_evaluated="2021-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=APC">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-07-18" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=APC">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 5q22.2(chr5:112155123-112174165)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>5q22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" innerStart="112155123" innerStop="112174165" display_start="112155123" display_stop="112174165" variantLength="19043" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.(?_112155123)_(112174165_?)del" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.(?_112155123)_(112174165_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 5q22.2(chr5:112155123-112174165)x1 AND Familial adenomatous polyposis due to 5q22.2 microdeletion" Accession="RCV002279742" Version="2">
+        <ClassifiedConditionList TraitSetID="73219">
+          <ClassifiedCondition DB="MedGen" ID="C5548205">Familial adenomatous polyposis due to 5q22.2 microdeletion</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-02" NumberOfSubmissions="2" NumberOfSubmitters="1" DateCreated="2022-08-29" MostRecentSubmission="2022-08-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="73219" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="45079" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Familial adenomatous polyposis due to 5q22.2 microdeletion</ElementValue>
+                <XRef ID="MONDO:0016860" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="20786" />
+                <XRef ID="20786" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="261584" DB="Orphanet" />
+              <XRef ID="C5548205" DB="MedGen" />
+              <XRef ID="MONDO:0016860" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4102862" SubmissionDate="2022-02-25" DateLastUpdated="2022-08-29" DateCreated="2022-08-29">
+        <ClinVarSubmissionID localKey="pid149|Orphanet:261584|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002098071" DateUpdated="2022-08-29" DateCreated="2022-08-29" Type="SCV" Version="1" SubmitterName="Centro Nacional de Genética Medica &quot;Dr. Eduardo E. Castilla&quot;, Administración Nacional de Laboratorios e Institutos de Salud" OrgID="506261" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <TypePlatform>microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Short stature</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">microcephaly</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">short palpebral fissures</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">bushy eyebrows</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">malar hypoplasia</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">long nose</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">prognathism</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">narrow palate</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">small mouth</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">multiple oral frenula</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">winged scapula</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">radioulnar synostosis</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">left brachial paresis</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">reducible camptodactyly in both hands</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">general joint stiffness</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">bilateral inguinal hernia</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">ventricular septal defect</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Pulmonic stenosis</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">unilateral renal agenesis</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">intestinal polyposis</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">cervical vertebrae fusion</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">general decreasement of fat tissue</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">muscular hypertrophy</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">mental retardation</ElementValue>
+                </Name>
+              </Trait>
+              <Comment>mental retardation (mild to moderate);left brachial paresis (probably post surgical)</Comment>
+            </TraitSet>
+            <Comment>The patient also presents a variant in EP300 gene (NM_001429.4):c.7081C&gt;T. Both variants were inherited from his mild affected father.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="5" innerStart="112155123" innerStop="112174165" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA261584" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11032565</SubmissionName>
+          <SubmissionName>SUB11128547</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="small mouth" MappingRef="Preferred">
+        <MedGen CUI="None" Name="small mouth" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="long nose" MappingRef="Preferred">
+        <MedGen CUI="C1839798" Name="Long nose" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="mental retardation" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="reducible camptodactyly in both hands" MappingRef="Preferred">
+        <MedGen CUI="None" Name="reducible camptodactyly in both hands" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="Short stature" MappingRef="Preferred">
+        <MedGen CUI="C0349588" Name="Short stature" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="short palpebral fissures" MappingRef="Preferred">
+        <MedGen CUI="C0423112" Name="Short palpebral fissure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="bilateral inguinal hernia" MappingRef="Preferred">
+        <MedGen CUI="C0267672" Name="bilateral inguinal hernia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="radioulnar synostosis" MappingRef="Preferred">
+        <MedGen CUI="C0158761" Name="Radioulnar synostosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="intestinal polyposis" MappingRef="Preferred">
+        <MedGen CUI="C1257915" Name="Intestinal polyposis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="malar hypoplasia" MappingRef="Preferred">
+        <MedGen CUI="C1858085" Name="Malar flattening" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="microcephaly" MappingRef="Preferred">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="unilateral renal agenesis" MappingRef="Preferred">
+        <MedGen CUI="C0266294" Name="Unilateral renal agenesis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="muscular hypertrophy" MappingRef="Preferred">
+        <MedGen CUI="None" Name="muscular hypertrophy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="general joint stiffness" MappingRef="Preferred">
+        <MedGen CUI="None" Name="general joint stiffness" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="winged scapula" MappingRef="Preferred">
+        <MedGen CUI="C0240953" Name="Scapular winging" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="bushy eyebrows" MappingRef="Preferred">
+        <MedGen CUI="None" Name="bushy eyebrows" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="narrow palate" MappingRef="Preferred">
+        <MedGen CUI="C1398312" Name="Narrow palate" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="general decreasement of fat tissue" MappingRef="Preferred">
+        <MedGen CUI="None" Name="general decreasement of fat tissue" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="Pulmonic stenosis" MappingRef="Preferred">
+        <MedGen CUI="C1956257" Name="Pulmonic stenosis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="multiple oral frenula" MappingRef="Preferred">
+        <MedGen CUI="None" Name="multiple oral frenula" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="prognathism" MappingRef="Preferred">
+        <MedGen CUI="C0399526" Name="Mandibular prognathia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA261584" MappingRef="Orphanet">
+        <MedGen CUI="C5548205" Name="Familial adenomatous polyposis due to 5q22.2 microdeletion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="left brachial paresis" MappingRef="Preferred">
+        <MedGen CUI="None" Name="left brachial paresis" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="cervical vertebrae fusion" MappingRef="Preferred">
+        <MedGen CUI="None" Name="cervical vertebrae fusion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4102862" TraitType="Finding" MappingType="Name" MappingValue="ventricular septal defect" MappingRef="Preferred">
+        <MedGen CUI="C0018818" Name="Ventricular septal defect" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

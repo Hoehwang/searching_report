@@ -1,0 +1,121 @@
+<VariationArchive RecordType="classified" VariationID="2580293" VariationName="GRCh37/hg19 16q21(chr16:58587636-58610536)x1" VariationType="copy number loss" Accession="VCV002580293" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-30" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2747881" VariationID="2580293">
+      <GeneList>
+        <Gene Symbol="CNOT1" FullName="CCR4-NOT transcription complex subunit 1" GeneID="23019" HGNC_ID="HGNC:7877" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16q21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="58519951" stop="58629826" display_start="58519951" display_stop="58629826" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="58553849" stop="58663789" display_start="58553849" display_stop="58663789" Strand="-" />
+          </Location>
+          <OMIM>604917</OMIM>
+          <Haploinsufficiency last_evaluated="2022-12-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CNOT1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-12-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CNOT1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 16q21(chr16:58587636-58610536)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16q21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="58587636" innerStop="58610536" display_start="58587636" display_stop="58610536" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 16q21(chr16:58587636-58610536)x1 AND Vissers-Bodmer syndrome" Accession="RCV003329497" Version="1">
+        <ClassifiedConditionList TraitSetID="56751">
+          <ClassifiedCondition DB="MedGen" ID="C5436647">Vissers-Bodmer syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-02-17" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-02-17" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="56751" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="54041" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Vissers-Bodmer syndrome</ElementValue>
+                <XRef ID="MONDO:0033618" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">VIBOS</ElementValue>
+                <XRef Type="MIM" ID="619033" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5436647" DB="MedGen" />
+              <XRef ID="MONDO:0033618" DB="MONDO" />
+              <XRef Type="MIM" ID="619033" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7553681" SubmissionDate="2023-09-22" DateLastUpdated="2023-09-30" DateCreated="2023-09-30">
+        <ClinVarSubmissionID localKey="CVb-cnv_72|OMIM:619033|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004036083" DateUpdated="2023-09-30" DateCreated="2023-09-30" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-02-17">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="16" innerStart="58587636" innerStop="58610536" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619033" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13857242</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7553681" TraitType="Disease" MappingType="XRef" MappingValue="619033" MappingRef="OMIM">
+        <MedGen CUI="C5436647" Name="Vissers-Bodmer syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

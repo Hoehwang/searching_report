@@ -1,0 +1,221 @@
+<VariationArchive RecordType="classified" VariationID="870392" VariationName="GRCh37/hg19 Xq21.1(chrX:77238734-77312616)" VariationType="copy number loss" Accession="VCV000870392" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-11" DateCreated="2020-05-04" MostRecentSubmission="2020-05-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="858594" VariationID="870392">
+      <GeneList>
+        <Gene Symbol="ATP7A" FullName="ATPase copper transporting alpha" GeneID="538" HGNC_ID="HGNC:869" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq21.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="77910693" stop="78050395" display_start="77910693" display_stop="78050395" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="77166193" stop="77305891" display_start="77166193" display_stop="77305891" Strand="+" />
+          </Location>
+          <OMIM>300011</OMIM>
+          <Haploinsufficiency last_evaluated="2021-03-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ATP7A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-03-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ATP7A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq21.1(chrX:77238734-77312616)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq21.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="77238734" innerStop="77312616" display_start="77238734" display_stop="77312616" variantLength="73883" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_77238734)_(77312616_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_77238734)_(77312616_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq21.1(chrX:77238734-77312616) AND Menkes kinky-hair syndrome" Accession="RCV001089961" Version="2">
+        <ClassifiedConditionList TraitSetID="3207">
+          <ClassifiedCondition DB="MedGen" ID="C0022716">Menkes kinky-hair syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-09-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-09-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-05-04" MostRecentSubmission="2020-05-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3207" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2883" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Menkes kinky-hair syndrome</ElementValue>
+                <XRef ID="59178007" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Kinky hair disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Copper transport disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Menkes Disease</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MK</ElementValue>
+                <XRef Type="MIM" ID="309400" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">MNK</ElementValue>
+                <XRef Type="MIM" ID="309400" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">ATP7A-Related Copper Transport Disorders</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1521" />
+                <XRef ID="1521" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301586</ID>
+                <ID Source="BookShelf">NBK1413</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2011">
+                <ID Source="PubMed">21487442</ID>
+              </Citation>
+              <Citation Type="Suggested Reading">
+                <ID Source="pmc">3477514</ID>
+              </Citation>
+              <XRef ID="565" DB="Orphanet" />
+              <XRef ID="C0022716" DB="MedGen" />
+              <XRef ID="MONDO:0010651" DB="MONDO" />
+              <XRef Type="MIM" ID="309400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2466174" SubmissionDate="2019-10-01" DateLastUpdated="2020-05-04" DateCreated="2020-05-04">
+        <ClinVarSubmissionID localKey=":Chr.X_77238734_77312616_copy number loss|OMIM:309400" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001244992" DateUpdated="2020-05-04" DateCreated="2020-05-04" Type="SCV" Version="1" SubmitterName="Victorian Clinical Genetics Services, Murdoch Childrens Research Institute" OrgID="500104" OrganizationCategory="laboratory" OrgAbbreviation="VCGS" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-09-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>This sample showed a male molecular karyotype with an interstitial hemizygous deletion of approximately 74 kilobases on the long arm of one chromosome X at cytogenetic band q21.1. This microdeletion involves exons 3 to 23 of the ATP7A gene (NM_000052.6). Hemizygous mutations and deletions of ATP7A leading to loss of function of this gene are associated with X linked recessive Menkes disease (Gene Reviews, PMID:20301586, OMIM# 300011).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <TypePlatform>next-gen sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="TestName">Whole Exome Sequencing</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Gestational diabetes</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0009800" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Global developmental delay</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001263" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Seizures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Failure to thrive</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001508" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of the hair</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001595" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Tortuous cerebral arteries</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004938" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="77238734" innerStop="77312616" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="309400" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6379721</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Gestational diabetes" MappingRef="Preferred">
+        <MedGen CUI="C0085207" Name="Gestational diabetes" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Failure to thrive" MappingRef="Preferred">
+        <MedGen CUI="C2315100" Name="Failure to thrive" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Disease" MappingType="XRef" MappingValue="309400" MappingRef="OMIM">
+        <MedGen CUI="C0022716" Name="Menkes kinky-hair syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Seizures" MappingRef="Preferred">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Tortuous cerebral arteries" MappingRef="Preferred">
+        <MedGen CUI="C1836791" Name="Tortuous cerebral arteries" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of the hair" MappingRef="Preferred">
+        <MedGen CUI="C0157733" Name="Abnormal hair morphology" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2466174" TraitType="Finding" MappingType="Name" MappingValue="Global developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C0557874" Name="Global developmental delay" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

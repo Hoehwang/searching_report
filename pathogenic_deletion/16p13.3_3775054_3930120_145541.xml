@@ -1,0 +1,208 @@
+<VariationArchive VariationID="145541" VariationName="GRCh38/hg38 16p13.3(chr16:3726714-3759009)x1" VariationType="copy number loss" Accession="VCV000145541" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="155292" VariationID="145541">
+      <GeneList>
+        <Gene Symbol="CREBBP" FullName="CREB binding protein" GeneID="1387" HGNC_ID="HGNC:2348" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="3725054" stop="3880713" display_start="3725054" display_stop="3880713" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="3775054" stop="3930120" display_start="3775054" display_stop="3930120" Strand="-" />
+          </Location>
+          <OMIM>600140</OMIM>
+          <Haploinsufficiency last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CREBBP">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CREBBP">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 16p13.3(chr16:3726714-3759009)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" innerStart="3726714" innerStop="3759009" display_start="3726714" display_stop="3759009" variantLength="32296" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="3776715" innerStop="3809010" display_start="3776715" display_stop="3809010" variantLength="32296" />
+        <SequenceLocation Assembly="NCBI36" AssemblyAccessionVersion="GCF_000001405.12" AssemblyStatus="previous" Chr="16" Accession="NC_000016.8" innerStart="3716716" innerStop="3749011" display_start="3716716" display_stop="3749011" variantLength="32296" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="NCBI36" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.8" sequenceAccession="NC_000016" sequenceVersion="8" change="g.(?_3716716)_(3749011_?)del" Assembly="NCBI36">
+            <Expression>NC_000016.8:g.(?_3716716)_(3749011_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.10" sequenceAccession="NC_000016" sequenceVersion="10" change="g.(?_3726714)_(3759009_?)del" Assembly="GRCh38">
+            <Expression>NC_000016.10:g.(?_3726714)_(3759009_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_3776715)_(3809010_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_3776715)_(3809010_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="nssv706198" DB="dbVar" />
+        <XRef ID="nsv498011" DB="dbVar" />
+        <XRef ID="nssv584386" DB="dbVar" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 16p13.3(chr16:3726714-3759009)x1 AND See cases" Accession="RCV000134893" Version="8">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2010-12-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2010-12-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-10-26" MostRecentSubmission="2017-10-26">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="313968" SubmissionDate="2017-09-26" DateLastUpdated="2017-10-26" DateCreated="2014-09-01">
+        <ClinVarSubmissionID localKey="nsv498011:copy number loss:See cases:1:SCV000174529" />
+        <ClinVarAccession Accession="SCV000174529" DateUpdated="2017-10-26" DateCreated="2014-09-01" Type="SCV" Version="5" SubmitterName="ISCA site 1" OrgID="505237" OrganizationCategory="laboratory" />
+        <AdditionalSubmitters>
+          <SubmitterDescription OrgID="500029" SubmitterName="International Standards For Cytogenomic Arrays Consortium (ISCA)" Type="secondary" OrganizationCategory="consortium" />
+        </AdditionalSubmitters>
+        <RecordStatus>current</RecordStatus>
+        <ReplacedList>
+          <Replaced Accession="SCV000174530" DateChanged="2014-12-31" Version="1" />
+        </ReplacedList>
+        <Classification DateLastEvaluated="2010-12-22">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Phenotype: congenital heart disease</Description>
+              </SampleDescription>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay AND/OR other significant developmental or morphological phenotypes</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv584386" Type="dbVarVariantCallId" />
+          </ObservedIn>
+          <ObservedIn>
+            <Sample>
+              <SampleDescription>
+                <Description Type="public">Phenotype: conoventricular type ventricular septal defect, patent ductus arteriosis, patent foramen ovale, dilated left heart</Description>
+              </SampleDescription>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent ISCA 44K</NamePlatform>
+              <TypePlatform>Oligo aCGH</TypePlatform>
+              <Purpose>Discovery</Purpose>
+              <Description>Microarray</Description>
+              <SourceType>submitter-generated</SourceType>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Patent foramen ovale</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001655" />
+              </Trait>
+            </TraitSet>
+            <XRef DB="dbVar" ID="nssv706198" Type="dbVarVariantCallId" />
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Accession="NC_000016.8" Assembly="NCBI36" Chr="16" innerStart="3716716" innerStop="3749011" />
+          </Location>
+          <XRefList>
+            <XRef DB="dbVar" ID="nssv584386" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nssv706198" Type="dbVarVariantCallId" />
+            <XRef DB="dbVar" ID="nsv498011" Type="dbVarVariantRegionId" />
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <Citation Abbrev="ISCA, 2010" Type="general">
+          <ID Source="PubMed">20466091</ID>
+        </Citation>
+        <StudyDescription>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</StudyDescription>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter.</Comment>
+        <Comment>Copy number variation identified through the course of routine clinical cytogenomic testing in postnatal populations, with clinical assertions as classified by the original submitter. For data from the original published study, [Kaminsky, et al. 2011|/pubmed/21844811], please see [nstd101|/dbvar/studies/nstd101/].</Comment>
+        <SubmissionNameList>
+          <SubmissionName>nstd37</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="313968" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay AND/OR other significant developmental or morphological phenotypes" MappingRef="Preferred">
+        <MedGen CUI="CN218420" Name="Developmental delay AND/OR other significant developmental or morphological phenotypes" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="313968" TraitType="Finding" MappingType="Name" MappingValue="Patent foramen ovale" MappingRef="Preferred">
+        <MedGen CUI="C0016522" Name="Patent foramen ovale" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="313968" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

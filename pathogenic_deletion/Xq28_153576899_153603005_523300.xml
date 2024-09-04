@@ -1,0 +1,122 @@
+<VariationArchive RecordType="classified" VariationID="523300" VariationName="GRCh37/hg19 Xq28(chrX:153575976-153586768)" VariationType="copy number loss" Accession="VCV000523300" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-17" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="514216" VariationID="523300">
+      <GeneList>
+        <Gene Symbol="FLNA" FullName="filamin A" GeneID="2316" HGNC_ID="HGNC:3754" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xq28</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="154348531" stop="154374634" display_start="154348531" display_stop="154374634" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="153576899" stop="153603005" display_start="153576899" display_stop="153603005" Strand="-" />
+          </Location>
+          <OMIM>300017</OMIM>
+          <Haploinsufficiency last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FLNA">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-12-02" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=FLNA">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xq28(chrX:153575976-153586768)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xq28</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="153575976" innerStop="153586768" display_start="153575976" display_stop="153586768" variantLength="10793" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_153575976)_(153586768_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_153575976)_(153586768_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xq28(chrX:153575976-153586768) AND Migraine with aura" Accession="RCV000626554" Version="2">
+        <ClassifiedConditionList TraitSetID="43152">
+          <ClassifiedCondition DB="MedGen" ID="C0154723">Migraine with aura</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="43152" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="22832" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Migraine with aura</ElementValue>
+                <XRef ID="HP:0002077" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0005475" DB="MONDO" />
+              </Name>
+              <XRef ID="C0154723" DB="MedGen" />
+              <XRef ID="MONDO:0005475" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0002077" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1455347" SubmissionDate="2017-12-08" DateLastUpdated="2018-05-12" DateCreated="2018-05-12">
+        <ClinVarSubmissionID localKey="CMGVARID01077|HPO:HP:0002077" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000747255" DateUpdated="2018-05-12" DateCreated="2018-05-12" Type="SCV" Version="1" SubmitterName="Centre for Mendelian Genomics, University Medical Centre Ljubljana" OrgID="505952" OrganizationCategory="clinic" OrgAbbreviation="CMG-UMCL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FLNA" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="153575976" innerStop="153586768" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0002077" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>CMG_Slovenia_Submission_2</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1455347" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002077" MappingRef="HP">
+        <MedGen CUI="C0154723" Name="Migraine with aura" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,121 @@
+<VariationArchive RecordType="classified" VariationID="1703676" VariationName="GRCh37/hg19 10q25.2(chr10:112516278-112591134)" VariationType="copy number loss" Accession="VCV001703676" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-05" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1696067" VariationID="1703676">
+      <GeneList>
+        <Gene Symbol="RBM20" FullName="RNA binding motif protein 20" GeneID="282996" HGNC_ID="HGNC:27424" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q25.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="110643245" stop="110839468" display_start="110643245" display_stop="110839468" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="112404154" stop="112599226" display_start="112404154" display_stop="112599226" Strand="+" />
+          </Location>
+          <OMIM>613171</OMIM>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 10q25.2(chr10:112516278-112591134)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10q25.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="112516278" innerStop="112591134" display_start="112516278" display_stop="112591134" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 10q25.2(chr10:112516278-112591134) AND Dilated cardiomyopathy 1DD" Accession="RCV002280764" Version="1">
+        <ClassifiedConditionList TraitSetID="80">
+          <ClassifiedCondition DB="MedGen" ID="C2750995">Dilated cardiomyopathy 1DD</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="80" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6664" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Dilated cardiomyopathy 1DD</ElementValue>
+                <XRef ID="Dilated+cardiomyopathy+1DD/8246" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0013168" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CMD1DD</ElementValue>
+                <XRef Type="MIM" ID="613172" DB="OMIM" />
+              </Symbol>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301486</ID>
+                <ID Source="BookShelf">NBK1309</ID>
+              </Citation>
+              <Citation Type="Recommendation" Abbrev="ACMG SF v3.1, 2022">
+                <ID Source="PubMed">35802134</ID>
+                <ID Source="DOI">10.1016/j.gim.2022.04.006</ID>
+              </Citation>
+              <XRef ID="154" DB="Orphanet" />
+              <XRef ID="C2750995" DB="MedGen" />
+              <XRef ID="MONDO:0013168" DB="MONDO" />
+              <XRef Type="MIM" ID="613172" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5023671" SubmissionDate="2022-08-31" DateLastUpdated="2022-09-03" DateCreated="2022-09-03">
+        <ClinVarSubmissionID localKey="CC-20-1032_1" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002569031" DateUpdated="2022-09-03" DateCreated="2022-09-03" Type="SCV" Version="1" SubmitterName="Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital" OrgID="506512" OrganizationCategory="laboratory" OrgAbbreviation="SCH MGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="10" innerStart="112516278" innerStop="112591134" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613172" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11997402</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5023671" TraitType="Disease" MappingType="XRef" MappingValue="613172" MappingRef="OMIM">
+        <MedGen CUI="C2750995" Name="Dilated cardiomyopathy 1DD" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

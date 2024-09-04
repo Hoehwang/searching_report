@@ -1,0 +1,162 @@
+<VariationArchive VariationID="209114" VariationName="GRCh37/hg19 Xp22.2(chrX:10187807-10189796)" VariationType="copy number loss" Accession="VCV000209114" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-12" DateCreated="2016-09-01" MostRecentSubmission="2016-09-01">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="205711" VariationID="209114">
+      <GeneList>
+        <Gene Symbol="CLCN4" FullName="chloride voltage-gated channel 4" GeneID="1183" HGNC_ID="HGNC:2022" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="10156975" stop="10237660" display_start="10156975" display_stop="10237660" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="10124984" stop="10205699" display_start="10124984" display_stop="10205699" Strand="+" />
+          </Location>
+          <OMIM>302910</OMIM>
+          <Haploinsufficiency last_evaluated="2022-07-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CLCN4">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-07-27" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CLCN4">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.2(chrX:10187807-10189796)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" outerStart="10182428" innerStart="10187807" innerStop="10189796" outerStop="10201480" display_start="10182428" display_stop="10201480" variantLength="19053" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(10182428_10187807)_(10189796_10201480)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(10182428_10187807)_(10189796_10201480)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.2(chrX:10187807-10189796) AND CLCN4-related disorder" Accession="RCV000239749" Version="1">
+        <ClassifiedConditionList TraitSetID="22751">
+          <ClassifiedCondition DB="MedGen" ID="CN232948">CLCN4-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2016-03-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2016-03-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2016-09-01" MostRecentSubmission="2016-09-01">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27550844</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="22751" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34309" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">CLCN4-related disorder</ElementValue>
+              </Name>
+              <XRef ID="CN232948" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="455604" SubmissionDate="2016-03-23" DateLastUpdated="2016-09-01" DateCreated="2016-09-01">
+        <ClinVarSubmissionID localKey="NC_000023.10:Chr.X_10187807_10189796_copy number loss|CLCN4-related disorder" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000245783" DateUpdated="2016-09-01" DateCreated="2016-09-01" Type="SCV" Version="1" SubmitterName="Sydney Children's Hospital, SCHN" OrgID="505265" OrganizationCategory="clinic" OrgAbbreviation="SCH" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-03-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">27550844</ID>
+          </Citation>
+          <Comment>Segregates with intellectual disability in family. Clinical phenotype consistent with case series of individuals with CLCN4 related disorder.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">27550844</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Ethnicity>Hispanic</Ethnicity>
+              <GeographicOrigin>United States</GeographicOrigin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>3</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData NumFamilies="1" NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <TypePlatform>next gen sequencing confirmed by Sanger sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="3" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">intellectual disability</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <Comment>Not listed in DGV. No other cause identified on comprehensive genetic investigations.</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLCN4" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="10187807" innerStop="10189796" outerStart="10182428" outerStop="10201480" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">CLCN4-related disorder</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">27550844</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27550844</ID>
+        </Citation>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="455604" TraitType="Finding" MappingType="Name" MappingValue="intellectual disability" MappingRef="Preferred">
+        <MedGen CUI="C3714756" Name="Intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="455604" TraitType="Disease" MappingType="Name" MappingValue="CLCN4-related disorder" MappingRef="Preferred">
+        <MedGen CUI="CN232948" Name="CLCN4-related disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,149 @@
+<VariationArchive VariationID="915964" VariationName="GRCh37/hg19 8q24.3(chr8:140852548-140953922)" VariationType="copy number loss" Accession="VCV000915964" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-01" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904189" VariationID="915964">
+      <GeneList>
+        <Gene Symbol="C8orf17" FullName="chromosome 8 putative open reading frame 17" GeneID="100507249" HGNC_ID="HGNC:17737" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>8q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="139931420" stop="139933944" display_start="139931420" display_stop="139933944" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="140943416" stop="140946188" display_start="140943416" display_stop="140946188" Strand="+" />
+          </Location>
+          <OMIM>616992</OMIM>
+        </Gene>
+        <Gene Symbol="TRAPPC9" FullName="trafficking protein particle complex subunit 9" GeneID="83696" HGNC_ID="HGNC:30832" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="139727725" stop="140458579" display_start="139727725" display_stop="140458579" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="140742585" stop="141468677" display_start="140742585" display_stop="141468677" Strand="-" />
+          </Location>
+          <OMIM>611966</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 8q24.3(chr8:140852548-140953922)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>8q24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" innerStart="140852548" innerStop="140953922" display_start="140852548" display_stop="140953922" variantLength="101375" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000008.10" sequenceAccession="NC_000008" sequenceVersion="10" change="g.(?_140852548)_(140953922_?)del" Assembly="GRCh37">
+            <Expression>NC_000008.10:g.(?_140852548)_(140953922_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 8q24.3(chr8:140852548-140953922) AND Intellectual disability, autosomal recessive 13" Accession="RCV001195117" Version="1">
+        <ClassifiedConditionList TraitSetID="192">
+          <ClassifiedCondition DB="MedGen" ID="C2750791">Intellectual disability, autosomal recessive 13</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="192" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6932" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, autosomal recessive 13</ElementValue>
+                <XRef ID="MONDO:0013173" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Intellectual developmental disorder, autosomal recessive 13</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRT13</ElementValue>
+                <XRef Type="MIM" ID="613192" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="22548" />
+                <XRef ID="22548" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="88616" DB="Orphanet" />
+              <XRef ID="C2750791" DB="MedGen" />
+              <XRef ID="MONDO:0013173" DB="MONDO" />
+              <XRef Type="MIM" ID="613192" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637852" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr8:g.140852548_140953922del|OMIM:613192" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334128" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TRAPPC9" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="8" innerStart="140852548" innerStop="140953922" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613192" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637852" TraitType="Disease" MappingType="XRef" MappingValue="613192" MappingRef="OMIM">
+        <MedGen CUI="C2750791" Name="Intellectual disability, autosomal recessive 13" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,139 @@
+<VariationArchive RecordType="classified" VariationID="625791" VariationName="GRCh37/hg19 Xp11.23(chrX:47039376-47040521)" VariationType="copy number loss" Accession="VCV000625791" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614095" VariationID="625791">
+      <GeneList>
+        <Gene Symbol="RBM10" FullName="RNA binding motif protein 10" GeneID="8241" HGNC_ID="HGNC:9896" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp11.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="47145221" stop="47186813" display_start="47145221" display_stop="47186813" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="47004616" stop="47046213" display_start="47004616" display_stop="47046213" Strand="+" />
+          </Location>
+          <OMIM>300080</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp11.23(chrX:47039376-47040521)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp11.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="47039376" innerStop="47040521" display_start="47039376" display_stop="47040521" variantLength="1146" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_47039376)_(47040521_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_47039376)_(47040521_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp11.23(chrX:47039376-47040521) AND TARP syndrome" Accession="RCV000767799" Version="1">
+        <ClassifiedConditionList TraitSetID="3178">
+          <ClassifiedCondition DB="MedGen" ID="C1839463">TARP syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3178" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6025" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Talipes equinovarus, atrial septal defect, robin sequence, and persistence of left superior vena cava</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Pierre Robin syndrome with congenital heart malformation and clubfoot</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">TARP syndrome</ElementValue>
+                <XRef ID="TARP+syndrome/7001" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0010711" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">TARPS</ElementValue>
+                <XRef Type="MIM" ID="311900" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10089" />
+                <XRef ID="10089" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="2886" DB="Orphanet" />
+              <XRef ID="C1839463" DB="MedGen" />
+              <XRef ID="MONDO:0010711" DB="MONDO" />
+              <XRef Type="MIM" ID="311900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761704" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES212|OMIM:311900" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898421" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="47039376" innerStop="47040521" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="311900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761704" TraitType="Disease" MappingType="XRef" MappingValue="311900" MappingRef="OMIM">
+        <MedGen CUI="C1839463" Name="TARP syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

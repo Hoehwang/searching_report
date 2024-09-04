@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="1170962" VariationName="GRCh37/hg19 12q12(chr12:46150008-46321670)x1" VariationType="copy number loss" Accession="VCV001170962" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-08-29" DateCreated="2021-06-15" MostRecentSubmission="2021-06-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1159950" VariationID="1170962">
+      <GeneList>
+        <Gene Symbol="ARID2" FullName="AT-rich interaction domain 2" GeneID="196528" HGNC_ID="HGNC:18037" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>12q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="45729706" stop="45908037" display_start="45729706" display_stop="45908037" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="46123619" stop="46301818" display_start="46123619" display_stop="46301818" Strand="+" />
+          </Location>
+          <OMIM>609539</OMIM>
+          <Haploinsufficiency last_evaluated="2019-06-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ARID2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-06-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ARID2">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="SCAF11" FullName="SR-related CTD associated factor 11" GeneID="9169" HGNC_ID="HGNC:10784" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>12q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="45919131" stop="45992059" display_start="45919131" display_stop="45992059" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="46312913" stop="46384400" display_start="46312913" display_stop="46384400" Strand="-" />
+          </Location>
+          <OMIM>603668</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12q12(chr12:46150008-46321670)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="46150008" innerStop="46321670" display_start="46150008" display_stop="46321670" variantLength="171663" />
+      </Location>
+      <OtherNameList>
+        <Name>GRCh37/hg19 12q12 (chr12:46150008-46321670)x1</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_46150008)_(46321670_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_46150008)_(46321670_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12q12(chr12:46150008-46321670)x1 AND Coffin-Siris syndrome 6" Accession="RCV001523780" Version="2">
+        <ClassifiedConditionList TraitSetID="39776">
+          <ClassifiedCondition DB="MedGen" ID="C4540499">Coffin-Siris syndrome 6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-06-15" MostRecentSubmission="2021-06-15">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="39776" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38416" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Coffin-Siris syndrome 6</ElementValue>
+                <XRef ID="MONDO:0033492" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CSS6</ElementValue>
+                <XRef Type="MIM" ID="617808" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Coffin-Siris syndrome (CSS) is classically characterized by aplasia or hypoplasia of the distal phalanx or nail of the fifth and additional digits, developmental or cognitive delay of varying degree, distinctive facial features, hypotonia, hirsutism/hypertrichosis, and sparse scalp hair. Congenital anomalies can include malformations of the cardiac, gastrointestinal, genitourinary, and/or central nervous systems. Other findings commonly include feeding difficulties, slow growth, ophthalmologic abnormalities, and hearing impairment.</Attribute>
+                <XRef ID="NBK131811" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">23556151</ID>
+                <ID Source="BookShelf">NBK131811</ID>
+              </Citation>
+              <XRef ID="C4540499" DB="MedGen" />
+              <XRef ID="MONDO:0033492" DB="MONDO" />
+              <XRef Type="MIM" ID="617808" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3394279" SubmissionDate="2021-06-03" DateLastUpdated="2021-06-15" DateCreated="2021-06-15">
+        <ClinVarSubmissionID localKey=":Chr.12_46150008_46321670_copy number loss|OMIM:617808|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001713002" DateUpdated="2021-06-15" DateCreated="2021-06-15" Type="SCV" Version="1" SubmitterName="Genetics Department, University Hospital of Angers" OrgID="508110" OrganizationCategory="laboratory" OrgAbbreviation="CHU_dAngers" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-01-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <Description>CGH array</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ARID2" />
+            <Gene Symbol="SCAF11" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" innerStart="46150008" innerStop="46321670" />
+          </Location>
+          <OtherNameList>
+            <Name>GRCh37/hg19 12q12 (chr12:46150008-46321670)x1</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617808" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9781188</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3394279" TraitType="Disease" MappingType="XRef" MappingValue="617808" MappingRef="OMIM">
+        <MedGen CUI="C4540499" Name="Coffin-Siris syndrome 6" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

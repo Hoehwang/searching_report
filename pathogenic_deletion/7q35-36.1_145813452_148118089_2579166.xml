@@ -1,0 +1,156 @@
+<VariationArchive VariationID="2579166" VariationName="GRCh38/hg38 7q35(chr7:147043810-147167670)x0" VariationType="copy number loss" Accession="VCV002579166" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744204" VariationID="2579166">
+      <GeneList>
+        <Gene Symbol="CNTNAP2" FullName="contactin associated protein 2" GeneID="26047" HGNC_ID="HGNC:13830" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q35-36.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="146116801" stop="148420998" display_start="146116801" display_stop="148420998" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NT_187564.1" start="2405" stop="204593" display_start="2405" display_stop="204593" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="145813452" stop="148118089" display_start="145813452" display_stop="148118089" Strand="+" />
+          </Location>
+          <OMIM>604569</OMIM>
+          <Haploinsufficiency last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CNTNAP2">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2019-10-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CNTNAP2">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="CNTNAP2-AS1" FullName="CNTNAP2 antisense RNA 1" GeneID="101928700" HGNC_ID="HGNC:40657" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7q35</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="147080938" stop="147097609" display_start="147080938" display_stop="147097609" Strand="-" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 7q35(chr7:147043810-147167670)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q35</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="147043810" stop="147167670" display_start="147043810" display_stop="147167670" variantLength="123861" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 7q35(chr7:147043810-147167670)x0 AND Cortical dysplasia-focal epilepsy syndrome" Accession="RCV003327605" Version="3">
+        <ClassifiedConditionList TraitSetID="1535">
+          <ClassifiedCondition DB="MedGen" ID="C2750246">Cortical dysplasia-focal epilepsy syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1535" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4859" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Pitt-Hopkins-like syndrome 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cortical dysplasia-focal epilepsy syndrome</ElementValue>
+                <XRef ID="Cortical+dysplasia-focal+epilepsy+syndrome/8098" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0012400" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">PTHSL1</ElementValue>
+                <XRef Type="MIM" ID="610042" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16997" />
+                <XRef ID="16997" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="163681" DB="Orphanet" />
+              <XRef ID="221150" DB="Orphanet" />
+              <XRef ID="C2750246" DB="MedGen" />
+              <XRef ID="MONDO:0012400" DB="MONDO" />
+              <XRef Type="MIM" ID="610042" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549675" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="4519|OMIM:610042|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034168" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exons 4-8 in CNTNAP2 (NM_014141.6) was identified by exome sequencing in one individual with Pitt-Hopkins like syndrome ([GRCh 38] chr7:147043810_147167670x0). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Inheritance information is unavailable. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 4 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of CNTNAP2 is an established disease mechanism in autosomal recessive Pitt-Hopkins like syndrome (https://search.thegencc.org/genes). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive Pitt-Hopkins like syndrome. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.15 points; Total: 1.05 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CNTNAP2" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="7" start="147043810" stop="147167670" variantLength="123861" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="610042" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549675" TraitType="Disease" MappingType="XRef" MappingValue="610042" MappingRef="OMIM">
+        <MedGen CUI="C2750246" Name="Cortical dysplasia-focal epilepsy syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

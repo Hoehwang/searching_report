@@ -1,0 +1,137 @@
+<VariationArchive VariationID="984748" VariationName="GRCh37/hg19 12q24.21(chr12:116673140-116676995)x1" VariationType="copy number loss" Accession="VCV000984748" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-02-04" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="972841" VariationID="984748">
+      <GeneList>
+        <Gene Symbol="MED13L" FullName="mediator complex subunit 13L" GeneID="23389" HGNC_ID="HGNC:22962" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q24.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="115958576" stop="116277693" display_start="115958576" display_stop="116277693" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="116396380" stop="116714990" display_start="116396380" display_stop="116714990" Strand="-" />
+          </Location>
+          <OMIM>608771</OMIM>
+          <Haploinsufficiency last_evaluated="2023-08-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MED13L">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-08-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MED13L">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12q24.21(chr12:116673140-116676995)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12q24.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="116673140" innerStop="116676995" display_start="116673140" display_stop="116676995" variantLength="3856" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_116673140)_(116676995_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_116673140)_(116676995_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12q24.21(chr12:116673140-116676995)x1 AND Cardiac anomalies - developmental delay - facial dysmorphism syndrome" Accession="RCV001265127" Version="1">
+        <ClassifiedConditionList TraitSetID="23771">
+          <ClassifiedCondition DB="MedGen" ID="C4225208">Cardiac anomalies - developmental delay - facial dysmorphism syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2018-01-19" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-01-19" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="23771" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="34580" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Cardiac anomalies - developmental delay - facial dysmorphism syndrome</ElementValue>
+                <XRef ID="MONDO:0014773" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRFACD</ElementValue>
+                <XRef Type="MIM" ID="616789" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17588" />
+                <XRef ID="17588" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12999" />
+                <XRef ID="12999" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="369891" DB="Orphanet" />
+              <XRef ID="C4225208" DB="MedGen" />
+              <XRef ID="MONDO:0014773" DB="MONDO" />
+              <XRef Type="MIM" ID="616789" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2850706" SubmissionDate="2020-10-23" DateLastUpdated="2020-11-19" DateCreated="2020-11-19">
+        <ClinVarSubmissionID localKey="15899-x1" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001443160" DateUpdated="2020-11-19" DateCreated="2020-11-19" Type="SCV" Version="1" SubmitterName="GenomeConnect - Simons Searchlight" OrgID="507786" OrganizationCategory="patient registry" OrgAbbreviation="GC_ SS" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-19">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Submission from Simons Searchlight facilitated by GenomeConnect. Variant interpreted by the Simons Searchlight team most recently on 2018-01-19 and interpreted as pathogenic. Variant was initially reported as pathogenic by the Children's Hospital of Philadelphia PediSeq Research Study and was confirmed by Fulgent. The reporting laboratory might also submit to ClinVar. The variant was detected in multiple siblings and is believe to have been inherited from a parent with germline mosaicism. Additional phenotypic information for other sibling(s) might be available from Simons Searchlight.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>provider interpretation</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2016-03-16" integerValue="500105">Fulgent Genetics,Fulgent Genetics</Attribute>
+                <Comment>not provided</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="MED13L" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" innerStart="116673140" innerStop="116676995" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616789" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8379004</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2850706" TraitType="Disease" MappingType="XRef" MappingValue="616789" MappingRef="OMIM">
+        <MedGen CUI="C4225208" Name="Cardiac anomalies - developmental delay - facial dysmorphism syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

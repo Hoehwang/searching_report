@@ -1,0 +1,165 @@
+<VariationArchive VariationID="1179108" VariationName="GRCh37/hg19 1p36.13(chr1:16370960-16383841)" VariationType="copy number loss" Accession="VCV001179108" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168565" VariationID="1179108">
+      <GeneList>
+        <Gene Symbol="CLCNKB" FullName="chloride voltage-gated channel Kb" GeneID="1188" HGNC_ID="HGNC:2027" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1p36.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="16043782" stop="16057326" display_start="16043782" display_stop="16057326" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="16370230" stop="16383820" display_start="16370230" display_stop="16383820" Strand="+" />
+          </Location>
+          <OMIM>602023</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1p36.13(chr1:16370960-16383841)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="16370960" innerStop="16383841" display_start="16370960" display_stop="16383841" variantLength="12882" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_16370960)_(16383841_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_16370960)_(16383841_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1p36.13(chr1:16370960-16383841) AND multiple conditions" Accession="RCV001535964" Version="3">
+        <ClassifiedConditionList TraitSetID="10486">
+          <ClassifiedCondition DB="MedGen" ID="C1846343">Bartter disease type 3</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4310805">Bartter disease type 4B</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="10486" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="379" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome type 3</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome classic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Bartter disease type 3</ElementValue>
+                <XRef ID="MONDO:0011822" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BARTS3</ElementValue>
+                <XRef Type="MIM" ID="607364" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9659" />
+                <XRef ID="9659" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="112" DB="Orphanet" />
+              <XRef ID="93605" DB="Orphanet" />
+              <XRef ID="C1846343" DB="MedGen" />
+              <XRef ID="MONDO:0011822" DB="MONDO" />
+              <XRef Type="MIM" ID="607364" DB="OMIM" />
+            </Trait>
+            <Trait ID="6653" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome, type 4b</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Bartter syndrome, type 4b, digenic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">BARTTER SYNDROME, TYPE 4B, NEONATAL, WITH SENSORINEURAL DEAFNESS</ElementValue>
+                <XRef Type="MIM" ID="613090" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Bartter disease type 4B</ElementValue>
+                <XRef ID="MONDO:0000909" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BARTS4B</ElementValue>
+                <XRef Type="MIM" ID="613090" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15612" />
+                <XRef ID="15612" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="112" DB="Orphanet" />
+              <XRef ID="C4310805" DB="MedGen" />
+              <XRef ID="MONDO:0000909" DB="MONDO" />
+              <XRef Type="MIM" ID="613090" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448104" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.1_16370960_16383841_copy number loss|OMIM:607364;613090" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752628" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLCNKB" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="16370960" innerStop="16383841" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="TraitChoice">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="607364" Type="MIM" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613090" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448104" TraitType="Disease" MappingType="XRef" MappingValue="613090" MappingRef="OMIM">
+        <MedGen CUI="C4310805" Name="Bartter disease type 4B" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3448104" TraitType="Disease" MappingType="XRef" MappingValue="607364" MappingRef="OMIM">
+        <MedGen CUI="C1846343" Name="Bartter disease type 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

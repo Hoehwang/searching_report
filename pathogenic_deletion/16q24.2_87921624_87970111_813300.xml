@@ -1,0 +1,146 @@
+<VariationArchive VariationID="813300" VariationName="GRCh37/hg19 16q24.2(chr16:87969915-87970056)" VariationType="copy number loss" Accession="VCV000813300" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801554" VariationID="813300">
+      <GeneList>
+        <Gene Symbol="CA5A" FullName="carbonic anhydrase 5A" GeneID="763" HGNC_ID="HGNC:1377" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="87881549" stop="87936529" display_start="87881549" display_stop="87936529" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="87921624" stop="87970111" display_start="87921624" display_stop="87970111" Strand="-" />
+          </Location>
+          <OMIM>114761</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 16q24.2(chr16:87969915-87970056)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16q24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="87969915" innerStop="87970056" display_start="87969915" display_stop="87970056" variantLength="142" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_87969915)_(87970056_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_87969915)_(87970056_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 16q24.2(chr16:87969915-87970056) AND Hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency" Accession="RCV001004072" Version="5">
+        <ClassifiedConditionList TraitSetID="13511">
+          <ClassifiedCondition DB="MedGen" ID="C3810404">Hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-09-08" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-09-08" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="13511" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18709" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Carbonic anhydrase VA deficiency, hyperammonemia due to</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency</ElementValue>
+                <XRef ID="MONDO:0014332" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CA5AD</ElementValue>
+                <XRef Type="MIM" ID="615751" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13201" />
+                <XRef ID="13201" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Most children with carbonic anhydrase VA (CA-VA) deficiency reported to date have presented between day 2 of life and early childhood (up to age 20 months) with hyperammonemic encephalopathy (i.e., lethargy, feeding intolerance, weight loss, tachypnea, seizures, and coma). Given that fewer than 20 affected individuals have been reported to date, the ranges of initial presentations and long-term prognoses are not completely understood. As of 2021 the oldest known affected individual is an adolescent. Almost all affected individuals reported to date have shown normal psychomotor development and no further episodes of metabolic crisis; however, a few have shown mild learning difficulties or delayed motor skills.</Attribute>
+                <XRef ID="NBK284774" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">25834911</ID>
+                <ID Source="BookShelf">NBK284774</ID>
+              </Citation>
+              <XRef ID="401948" DB="Orphanet" />
+              <XRef ID="C3810404" DB="MedGen" />
+              <XRef ID="MONDO:0014332" DB="MONDO" />
+              <XRef Type="MIM" ID="615751" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291831" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="3-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162795" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-09-08">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="38-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">38-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CA5A" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="16" innerStart="87969915" innerStop="87970056" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615751" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291831" TraitType="Disease" MappingType="XRef" MappingValue="615751" MappingRef="OMIM">
+        <MedGen CUI="C3810404" Name="Hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

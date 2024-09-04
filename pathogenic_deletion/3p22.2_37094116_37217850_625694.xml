@@ -1,0 +1,222 @@
+<VariationArchive RecordType="classified" VariationID="625694" VariationName="GRCh37/hg19 3p22.2(chr3:37089011-37116538)" VariationType="copy number loss" Accession="VCV000625694" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-11-05" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="613998" VariationID="625694">
+      <GeneList>
+        <Gene Symbol="LRRFIP2" FullName="LRR binding FLII interacting protein 2" GeneID="9209" HGNC_ID="HGNC:6703" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="37052626" stop="37176360" display_start="37052626" display_stop="37176360" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="37094116" stop="37217850" display_start="37094116" display_stop="37217850" Strand="-" />
+          </Location>
+          <OMIM>614043</OMIM>
+        </Gene>
+        <Gene Symbol="MLH1" FullName="mutL homolog 1" GeneID="4292" HGNC_ID="HGNC:7127" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="36993466" stop="37050846" display_start="36993466" display_stop="37050846" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="37034840" stop="37092336" display_start="37034840" display_stop="37092336" Strand="+" />
+          </Location>
+          <OMIM>120436</OMIM>
+          <Haploinsufficiency last_evaluated="2021-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MLH1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-10-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MLH1">No evidence available</Triplosensitivity>
+          <Property>gene_acmg_incidental_2013</Property>
+          <Property>gene_acmg_incidental_2016</Property>
+          <Property>gene_acmg_incidental_2021</Property>
+          <Property>gene_acmg_incidental_2022</Property>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 3p22.2(chr3:37089011-37116538)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>3p22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="37089011" innerStop="37116538" display_start="37089011" display_stop="37116538" variantLength="27528" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_37089011)_(37116538_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_37089011)_(37116538_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 3p22.2(chr3:37089011-37116538) AND Muir-Torré syndrome" Accession="RCV000767702" Version="1">
+        <ClassifiedConditionList TraitSetID="452">
+          <ClassifiedCondition DB="MedGen" ID="C1321489">Muir-Torré syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="452" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3222" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Muir-Torre syndrome</ElementValue>
+                <XRef ID="MONDO:0008018" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cutaneous sebaceous neoplasms and keratoacanthomas multiple with gastrointestinal and other carcinomas</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MSH2-Related Muir-Torre Syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MLH1-Related Muir-Torre Syndrome</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Muir-Torré syndrome</ElementValue>
+                <XRef ID="Keratoacanthoma/3972" DB="Genetic Alliance" />
+                <XRef ID="403824007" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MRTES</ElementValue>
+                <XRef Type="MIM" ID="158320" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Lynch syndrome is characterized by an increased risk for colorectal cancer (CRC) and cancers of the endometrium, ovary, stomach, small bowel, urinary tract, biliary tract, brain (usually glioblastoma), skin (sebaceous adenomas, sebaceous carcinomas, and keratoacanthomas), pancreas, and prostate. Cancer risks and age of onset vary depending on the associated gene. Several other cancer types have been reported to occur in individuals with Lynch syndrome (e.g., breast, sarcomas, adrenocortical carcinoma). However, the data are not sufficient to demonstrate that the risk of developing these cancers is increased in individuals with Lynch syndrome.</Attribute>
+                <XRef ID="NBK1211" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000501399" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000528339" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000528529" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530120" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000569423" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000595970" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000514729" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000518997" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000520069" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000528914" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000528915" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000528930" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000556509" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000527984" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000529017" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000530202" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000501401" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000514728" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000515534" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000527981" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Neoplasm</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6821" />
+                <XRef ID="6821" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301390</ID>
+                <ID Source="BookShelf">NBK1211</ID>
+              </Citation>
+              <Citation Type="Position Statement" Abbrev="EGAPP, 2009">
+                <ID Source="pmc">2743612</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="Ponti, 2005">
+                <ID Source="PubMed">15662714</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="ASCRS, 2001">
+                <ID Source="PubMed">11598466</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NSGC, 2004">
+                <ID Source="PubMed">15604628</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="SGO, 2014">
+                <URL>https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer</URL>
+                <CitationText>Society of Gynecologic Oncology (SGO) Clinical Practice Statement: Screening for Lynch Syndrome in Endometrial Cancer</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NSGC/CCA-ICC, 2012">
+                <ID Source="PubMed">22167527</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Skin Cancer">
+                <ID Source="PubMed">26389333</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <XRef ID="587" DB="Orphanet" />
+              <XRef ID="C1321489" DB="MedGen" />
+              <XRef ID="MONDO:0008018" DB="MONDO" />
+              <XRef Type="MIM" ID="158320" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761607" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES019|OMIM:158320" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898324" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="3" innerStart="37089011" innerStop="37116538" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="158320" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761607" TraitType="Disease" MappingType="XRef" MappingValue="158320" MappingRef="OMIM">
+        <MedGen CUI="C1321489" Name="Muir-Torré syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

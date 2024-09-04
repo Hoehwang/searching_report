@@ -1,0 +1,151 @@
+<VariationArchive VariationID="2579200" VariationName="GRCh38/hg38 10q23.33(chr10:94131004-94133482)x0" VariationType="copy number loss" Accession="VCV002579200" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744238" VariationID="2579200">
+      <GeneList>
+        <Gene Symbol="PLCE1" FullName="phospholipase C epsilon 1" GeneID="51196" HGNC_ID="HGNC:17175" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>10q23.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="93993931" stop="94332823" display_start="93993931" display_stop="94332823" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="95753745" stop="96088148" display_start="95753745" display_stop="96088148" Strand="+" />
+          </Location>
+          <OMIM>608414</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 10q23.33(chr10:94131004-94133482)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10q23.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="94131004" stop="94133482" display_start="94131004" display_stop="94133482" variantLength="2479" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 10q23.33(chr10:94131004-94133482)x0 AND Nephrotic syndrome, type 3" Accession="RCV003327639" Version="3">
+        <ClassifiedConditionList TraitSetID="593">
+          <ClassifiedCondition DB="MedGen" ID="C1853124">Nephrotic syndrome, type 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="593" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3084" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Nephrotic syndrome, type 3</ElementValue>
+                <XRef ID="Nephrotic+syndrome%2C+type+3/8988" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0012546" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">NEPHROTIC SYNDROME, EARLY-ONSET, TYPE 3</ElementValue>
+                <XRef Type="MIM" ID="610725" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NPHS3</ElementValue>
+                <XRef Type="MIM" ID="610725" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15495" />
+                <XRef ID="15495" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">34436835</ID>
+                <ID Source="BookShelf">NBK573219</ID>
+              </Citation>
+              <XRef ID="656" DB="Orphanet" />
+              <XRef ID="C1853124" DB="MedGen" />
+              <XRef ID="MONDO:0012546" DB="MONDO" />
+              <XRef Type="MIM" ID="610725" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549709" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="A5192|OMIM:610725|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034175" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exon 2 in PLCE1 (NM_016341.4) was identified by exome sequencing and confirmed by genome sequencing in one individual with nephrotic syndrome ([GRCh 38] chr10:94131004_94133482x0). Each copy of the variant was inherited from an unaffected heterozygous parent. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 2 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of PLCE1 is an established disease mechanism in autosomal recessive nephrotic syndrome (https://search.thegencc.org/genes). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive nephrotic syndrome. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.15 points; Total: 1.05 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PLCE1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="10" start="94131004" stop="94133482" variantLength="2479" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="610725" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549709" TraitType="Disease" MappingType="XRef" MappingValue="610725" MappingRef="OMIM">
+        <MedGen CUI="C1853124" Name="Nephrotic syndrome, type 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

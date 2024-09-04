@@ -1,0 +1,133 @@
+<VariationArchive RecordType="classified" VariationID="226291" VariationName="GRCh37/hg19 Xp22.2(chrX:10299643-10638042)" VariationType="copy number loss" Accession="VCV000226291" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-02-10" MostRecentSubmission="2017-02-10">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="228094" VariationID="226291">
+      <GeneList>
+        <Gene Symbol="MID1" FullName="midline 1" GeneID="4281" HGNC_ID="HGNC:7095" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="10445310" stop="10833683" display_start="10445310" display_stop="10833683" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="10413349" stop="10851808" display_start="10413349" display_stop="10851808" Strand="-" />
+          </Location>
+          <OMIM>300552</OMIM>
+          <Haploinsufficiency last_evaluated="2021-08-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MID1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-08-23" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=MID1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.2(chrX:10299643-10638042)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="10299643" innerStop="10638042" display_start="10299643" display_stop="10638042" variantLength="338400" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_10299643)_(10638042_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_10299643)_(10638042_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.2(chrX:10299643-10638042) AND Abnormal esophagus morphology" Accession="RCV000416652" Version="1">
+        <ClassifiedConditionList TraitSetID="26964">
+          <ClassifiedCondition DB="MedGen" ID="C0266126">Abnormal esophagus morphology</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2015-12-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2015-12-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-02-10" MostRecentSubmission="2017-02-10">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27436264</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="26964" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="22791" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Abnormal esophagus morphology</ElementValue>
+                <XRef ID="HP:0002031" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Abnormality of esophagus morphology</ElementValue>
+                <XRef ID="HP:0002031" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0266126" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0002031" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="504514" SubmissionDate="2016-03-25" DateLastUpdated="2017-02-10" DateCreated="2017-02-10">
+        <ClinVarSubmissionID localKey="SKZ_0680_1|HPO:HP:0002031" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000266757" DateUpdated="2017-02-10" DateCreated="2017-02-10" Type="SCV" Version="1" SubmitterName="Clinical Genetics, Erasmus University Medical Center" OrgID="505701" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2015-12-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">27436264</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="10299643" innerStop="10638042" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0002031" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">27436264</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27436264</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>CNV_study_in_EA/TEF</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="504514" TraitType="Finding" MappingType="XRef" MappingValue="HP:0002031" MappingRef="HP">
+        <MedGen CUI="C0266126" Name="Abnormal esophagus morphology" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

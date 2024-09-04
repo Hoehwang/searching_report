@@ -1,0 +1,150 @@
+<VariationArchive VariationID="3242352" VariationName="GRCh38/hg38 17q22(chr17:58709858-58734223)x1" VariationType="copy number loss" Accession="VCV003242352" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-30" DateCreated="2024-06-23" MostRecentSubmission="2024-06-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3401328" VariationID="3242352">
+      <GeneList>
+        <Gene Symbol="RAD51C" FullName="RAD51 paralog C" GeneID="5889" HGNC_ID="HGNC:9820" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17q22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58692573" stop="58735611" display_start="58692573" display_stop="58735611" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="56769962" stop="56811691" display_start="56769962" display_stop="56811691" Strand="+" />
+          </Location>
+          <OMIM>602774</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-08" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=RAD51C">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 17q22(chr17:58709858-58734223)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>17q22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="58709858" stop="58734223" display_start="58709858" display_stop="58734223" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 17q22(chr17:58709858-58734223)x1 AND Breast-ovarian cancer, familial, susceptibility to, 3" Accession="RCV004577639" Version="1">
+        <ClassifiedConditionList TraitSetID="1881">
+          <ClassifiedCondition DB="MedGen" ID="C3150659">Breast-ovarian cancer, familial, susceptibility to, 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-06-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-06-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-06-23" MostRecentSubmission="2024-06-23">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1881" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6648" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RAD51C-Related Breast/Ovarian Cancer</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Breast-ovarian cancer, familial 3</ElementValue>
+                <XRef ID="Breast-ovarian+cancer%2C+familial+3/7867" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Breast-ovarian cancer, familial, susceptibility to, 3</ElementValue>
+                <XRef ID="MONDO:0013253" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">BROVCA3</ElementValue>
+                <XRef Type="MIM" ID="613399" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Neoplasm</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <XRef ID="145" DB="Orphanet" />
+              <XRef ID="C3150659" DB="MedGen" />
+              <XRef ID="MONDO:0013253" DB="MONDO" />
+              <XRef Type="MIM" ID="613399" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9831474" SubmissionDate="2024-06-20" DateLastUpdated="2024-06-23" DateCreated="2024-06-23">
+        <ClinVarSubmissionID localKey="Chr.17_58709858_58734223_copy number loss|OMIM:613399" />
+        <ClinVarAccession Accession="SCV005061597" DateUpdated="2024-06-23" DateCreated="2024-06-23" Type="SCV" Version="1" SubmitterName="Department of Human Genetics, Hannover Medical School" OrgID="508447" OrganizationCategory="clinic" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-06-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>g.(?_58709858)_(58734223_?)del c.(?_706-1)_(*1_?)del</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Disease">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Disease">
+                <XRef DB="HP" ID="HP:0003002" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="RAD51C" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="17" start="58709858" stop="58734223" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613399" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14549768</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9831474" TraitType="Disease" MappingType="XRef" MappingValue="613399" MappingRef="OMIM">
+        <MedGen CUI="C3150659" Name="Breast-ovarian cancer, familial, susceptibility to, 3" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9831474" TraitType="Disease" MappingType="XRef" MappingValue="HP:0003002" MappingRef="HP">
+        <MedGen CUI="C0678222" Name="Breast carcinoma" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

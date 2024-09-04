@@ -1,0 +1,144 @@
+<VariationArchive RecordType="classified" VariationID="1704305" VariationName="GRCh37/hg19 13q33.1(chr13:102535482-102815349)x3" VariationType="copy number gain" Accession="VCV001704305" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-03-11" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1698840" VariationID="1704305">
+      <GeneList>
+        <Gene Symbol="FGF14" FullName="fibroblast growth factor 14" GeneID="2259" HGNC_ID="HGNC:3671" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>13q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="101710804" stop="102402443" display_start="101710804" display_stop="102402443" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="102373204" stop="103054123" display_start="102373204" display_stop="103054123" Strand="-" />
+          </Location>
+          <OMIM>601515</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 13q33.1(chr13:102535482-102815349)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>13q33.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" outerStart="102379344" innerStart="102535482" innerStop="102815349" outerStop="102911282" display_start="102379344" display_stop="102911282" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 13q33.1(chr13:102535482-102815349)x3 AND Spinocerebellar ataxia type 27" Accession="RCV003134418" Version="1">
+        <ClassifiedConditionList TraitSetID="2208">
+          <ClassifiedCondition DB="MedGen" ID="C1836383">Spinocerebellar ataxia type 27</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-08-25" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-08-25" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-03-05" MostRecentSubmission="2023-03-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2208" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3823" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spinocerebellar ataxia type 27</ElementValue>
+                <XRef ID="MONDO:0012247" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cerebellar ataxia autosomal dominant FGF14-related</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SCA27</ElementValue>
+                <XRef ID="98764" DB="Orphanet" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9963" />
+                <XRef ID="9963" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301317</ID>
+                <ID Source="BookShelf">NBK1138</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20050888</ID>
+              </Citation>
+              <XRef ID="98764" DB="Orphanet" />
+              <XRef ID="C1836383" DB="MedGen" />
+              <XRef ID="MONDO:0012247" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5025810" SubmissionDate="2022-09-02" DateLastUpdated="2023-03-04" DateCreated="2023-03-04">
+        <ClinVarSubmissionID localKey=":Chr.13_102535482_102815349_copy number gain|Spinocerebellar ataxia type 27|copy:3|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002570105" DateUpdated="2023-03-04" DateCreated="2023-03-04" Type="SCV" Version="1" SubmitterName="Molecular Genetics of Human Eye Development, Oxford Brookes University" OrgID="508573" OrganizationCategory="laboratory" OrgAbbreviation="MGHE" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-08-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ragge Lab Assertion Criteria 2022</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/1hk7uzr2/ragge_lab_assertion_criteria_2022.docx</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGF14" />
+          </GeneList>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="13" innerStart="102535482" innerStop="102815349" outerStart="102379344" outerStop="102911282" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Spinocerebellar ataxia type 27</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12004048</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5025810" TraitType="Disease" MappingType="Name" MappingValue="Spinocerebellar ataxia type 27" MappingRef="Preferred">
+        <MedGen CUI="C1836383" Name="Spinocerebellar ataxia type 27" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

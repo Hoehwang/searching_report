@@ -1,0 +1,147 @@
+<VariationArchive RecordType="classified" VariationID="625825" VariationName="GRCh37/hg19 2q31.1(chr2:169824976-169830328)" VariationType="copy number loss" Accession="VCV000625825" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614129" VariationID="625825">
+      <GeneList>
+        <Gene Symbol="ABCB11" FullName="ATP binding cassette subfamily B member 11" GeneID="8647" HGNC_ID="HGNC:42" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="168915390" stop="169031324" display_start="168915390" display_stop="169031324" Strand="-" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NW_003315909.1" start="107408" stop="123061" display_start="107408" display_stop="123061" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="169779448" stop="169887832" display_start="169779448" display_stop="169887832" Strand="-" />
+          </Location>
+          <OMIM>603201</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q31.1(chr2:169824976-169830328)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="169824976" innerStop="169830328" display_start="169824976" display_stop="169830328" variantLength="5353" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_169824976)_(169830328_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_169824976)_(169830328_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q31.1(chr2:169824976-169830328) AND Progressive familial intrahepatic cholestasis type 2" Accession="RCV000767833" Version="1">
+        <ClassifiedConditionList TraitSetID="1824">
+          <ClassifiedCondition DB="MedGen" ID="C3489789">Progressive familial intrahepatic cholestasis type 2</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1824" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="1429" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Progressive familial intrahepatic cholestasis type 2</ElementValue>
+                <XRef ID="MONDO:0011156" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PFIC2</ElementValue>
+                <XRef Type="MIM" ID="601847" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">The phenotypic spectrum of ATP8B1 deficiency ranges from severe through moderate to mild. Severe ATP8B1 deficiency is characterized by infantile-onset cholestasis that progresses to cirrhosis, hepatic failure, and early death. Although mild-to-moderate ATP8B1 deficiency initially was thought to involve intermittent symptomatic cholestasis with a lack of hepatic fibrosis, it is now known that hepatic fibrosis may be present early in the disease course. Furthermore, in some persons with ATP8B1 deficiency the clinical findings can span the phenotypic spectrum, shifting over time from the mild end of the spectrum (episodic cholestasis) to the severe end of the spectrum (persistent cholestasis). Sensorineural hearing loss (SNHL) is common across the phenotypic spectrum.</Attribute>
+                <XRef ID="NBK1297" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Neoplasm</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="1288" />
+                <XRef ID="1288" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301474</ID>
+                <ID Source="BookShelf">NBK1297</ID>
+              </Citation>
+              <XRef ID="79304" DB="Orphanet" />
+              <XRef ID="C3489789" DB="MedGen" />
+              <XRef ID="MONDO:0011156" DB="MONDO" />
+              <XRef Type="MIM" ID="601847" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761738" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES278|OMIM:601847" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898455" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="169824976" innerStop="169830328" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="601847" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761738" TraitType="Disease" MappingType="XRef" MappingValue="601847" MappingRef="OMIM">
+        <MedGen CUI="C3489789" Name="Progressive familial intrahepatic cholestasis type 2" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

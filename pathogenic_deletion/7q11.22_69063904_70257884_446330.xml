@@ -1,0 +1,159 @@
+<VariationArchive RecordType="classified" VariationID="446330" VariationName="GRCh37/hg19 7q11.22(chr7:69867672-69957025)x1" VariationType="copy number loss" Accession="VCV000446330" Version="3" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-11" DateCreated="2017-11-26" MostRecentSubmission="2022-12-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="439771" VariationID="446330">
+      <GeneList>
+        <Gene Symbol="AUTS2" FullName="activator of transcription and developmental regulator AUTS2" GeneID="26053" HGNC_ID="HGNC:14262" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="69598475" stop="70793506" display_start="69598475" display_stop="70793506" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="69063904" stop="70257884" display_start="69063904" display_stop="70257884" Strand="+" />
+          </Location>
+          <OMIM>607270</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7q11.22(chr7:69867672-69957025)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="69867672" innerStop="69957025" display_start="69867672" display_stop="69957025" variantLength="89354" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_69867672)_(69957025_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_69867672)_(69957025_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7q11.22(chr7:69867672-69957025)x1 AND See cases" Accession="RCV000515573" Version="3">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-04-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-04-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-11-26" MostRecentSubmission="2022-12-11">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">23332918</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27075013</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1194477" SubmissionDate="2017-08-02" DateLastUpdated="2022-12-11" DateCreated="2017-11-26">
+        <ClinVarSubmissionID localKey="MC17-109-7|See Cases|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000611660" DateUpdated="2022-12-11" DateCreated="2017-11-26" Type="SCV" Version="2" SubmitterName="Clinical Genomics Laboratory, Laboratory for Precision Diagnostics, University of Washington" OrgID="505820" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-04-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">23332918</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">27075013</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Clinical Cytogenomics Laboratory Policy on CNV Interpretation</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/atyylkqb/clinical_cytogenomics_laboratory_policy_on_cnv_interpretation.docx</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Tissue>Amniocytes</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="weeks gestation">10</Age>
+              <Age Type="maximum" age_unit="weeks gestation">19</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+              <FamilyData NumFamiliesWithVariant="1" />
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Advanced maternal age</ElementValue>
+                  </Name>
+                </Trait>
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Previous child with trisomy 21</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>Illumina Infinium CytoSNP-850K BeadChip</NamePlatform>
+              <TypePlatform>microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" innerStart="69867672" innerStop="69957025" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="PhenotypeInstruction">
+          <Trait Type="PhenotypeInstruction">
+            <Name>
+              <ElementValue Type="Preferred">See Cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB2917703</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1194477" TraitType="PhenotypeInstruction" MappingType="Name" MappingValue="See Cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

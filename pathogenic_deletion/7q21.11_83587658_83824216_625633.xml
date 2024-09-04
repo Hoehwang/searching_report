@@ -1,0 +1,145 @@
+<VariationArchive RecordType="classified" VariationID="625633" VariationName="GRCh37/hg19 7q21.11(chr7:83664877-83740076)" VariationType="copy number loss" Accession="VCV000625633" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="613937" VariationID="625633">
+      <GeneList>
+        <Gene Symbol="SEMA3A" FullName="semaphorin 3A" GeneID="10371" HGNC_ID="HGNC:10723" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q21.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="83955777" stop="84492725" display_start="83955777" display_stop="84492725" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="83587658" stop="83824216" display_start="83587658" display_stop="83824216" Strand="-" />
+          </Location>
+          <OMIM>603961</OMIM>
+          <Haploinsufficiency last_evaluated="2017-08-07" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SEMA3A">Little evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2017-08-07" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=SEMA3A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7q21.11(chr7:83664877-83740076)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q21.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="83664877" innerStop="83740076" display_start="83664877" display_stop="83740076" variantLength="75200" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_83664877)_(83740076_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_83664877)_(83740076_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7q21.11(chr7:83664877-83740076) AND Hypogonadotropic hypogonadism 16 with or without anosmia" Accession="RCV000767641" Version="1">
+        <ClassifiedConditionList TraitSetID="8971">
+          <ClassifiedCondition DB="MedGen" ID="C3554021">Hypogonadotropic hypogonadism 16 with or without anosmia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="8971" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17428" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">HYPOGONADOTROPIC HYPOGONADISM 16 WITH ANOSMIA, SUSCEPTIBILITY TO</ElementValue>
+                <XRef Type="Allelic variant" ID="603961.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603961.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603961.0005" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="603961.0003" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Hypogonadotropic hypogonadism 16 with or without anosmia</ElementValue>
+                <XRef ID="MONDO:0013961" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HH16</ElementValue>
+                <XRef Type="MIM" ID="614897" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Isolated gonadotropin-releasing hormone (GnRH) deficiency (IGD) is characterized by inappropriately low serum concentrations of the gonadotropins LH (luteinizing hormone) and FSH (follicle-stimulating hormone) in the presence of low circulating concentrations of sex steroids. IGD is associated with a normal sense of smell (normosmic IGD) in approximately 40% of affected individuals and an impaired sense of smell (Kallmann syndrome) in approximately 60%. IGD can first become apparent in infancy, adolescence, or adulthood. Infant boys with congenital IGD often have micropenis and cryptorchidism. Adolescents and adults with IGD have clinical evidence of hypogonadism and incomplete sexual maturation on physical examination. Adult males with IGD tend to have prepubertal testicular volume (i.e., &lt;4 mL), absence of secondary sexual features (e.g., facial and axillary hair growth, deepening of the voice), decreased muscle mass, diminished libido, erectile dysfunction, and infertility. Adult females have little or no breast development and primary amenorrhea. Although skeletal maturation is delayed, the rate of linear growth is usually normal except for the absence of a distinct pubertal growth spurt.</Attribute>
+                <XRef ID="NBK1334" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301509</ID>
+                <ID Source="BookShelf">NBK1334</ID>
+              </Citation>
+              <XRef ID="478" DB="Orphanet" />
+              <XRef ID="C3554021" DB="MedGen" />
+              <XRef ID="MONDO:0013961" DB="MONDO" />
+              <XRef Type="MIM" ID="614897" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761546" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES197|OMIM:614897" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898263" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" innerStart="83664877" innerStop="83740076" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614897" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761546" TraitType="Disease" MappingType="XRef" MappingValue="614897" MappingRef="OMIM">
+        <MedGen CUI="C3554021" Name="Hypogonadotropic hypogonadism 16 with or without anosmia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

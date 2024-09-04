@@ -1,0 +1,192 @@
+<VariationArchive RecordType="classified" VariationID="523240" VariationName="GRCh37/hg19 1p36.22(chr1:12019879-12028775)" VariationType="copy number gain" Accession="VCV000523240" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-06-10" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="514156" VariationID="523240">
+      <GeneList>
+        <Gene Symbol="PLOD1" FullName="procollagen-lysine,2-oxoglutarate 5-dioxygenase 1" GeneID="5351" HGNC_ID="HGNC:9081" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>1p36.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="11934717" stop="11975537" display_start="11934717" display_stop="11975537" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="11994723" stop="12035598" display_start="11994723" display_stop="12035598" Strand="+" />
+          </Location>
+          <OMIM>153454</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1p36.22(chr1:12019879-12028775)</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>1p36.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="12019879" innerStop="12028775" display_start="12019879" display_stop="12028775" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1p36.22(chr1:12019879-12028775) AND multiple conditions" Accession="RCV000626494" Version="2">
+        <ClassifiedConditionList TraitSetID="43116">
+          <ClassifiedCondition DB="MedGen" ID="C0431663">Bilateral cryptorchidism</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0232466">Feeding difficulties</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1845123">Generalized neonatal hypotonia</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C0431659">Hypoplasia of scrotum</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1844820">Joint hypermobility</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3697248">Short chin</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-01-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-01-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-05-12" MostRecentSubmission="2018-05-12">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="43116" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="21375" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Hypoplasia of scrotum</ElementValue>
+                <XRef ID="204912007" DB="SNOMED CT" />
+              </Name>
+              <XRef ID="C0431659" DB="MedGen" />
+            </Trait>
+            <Trait ID="17217" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Bilateral cryptorchidism</ElementValue>
+                <XRef ID="HP:0008689" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0431663" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0008689" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0008686" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="17092" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Short chin</ElementValue>
+                <XRef ID="HP:0000331" DB="Human Phenotype Ontology" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Small chin</ElementValue>
+                <XRef ID="HP:0000331" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C3697248" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0000331" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="17097" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Feeding difficulties</ElementValue>
+                <XRef ID="HP:0011968" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C0232466" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0011968" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="22345" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Joint hypermobility</ElementValue>
+                <XRef ID="HP:0001382" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C1844820" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0001382" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001378" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005034" DB="Human Phenotype Ontology" />
+            </Trait>
+            <Trait ID="27054" Type="Finding">
+              <Name>
+                <ElementValue Type="Preferred">Generalized neonatal hypotonia</ElementValue>
+                <XRef ID="HP:0008935" DB="Human Phenotype Ontology" />
+              </Name>
+              <XRef ID="C1845123" DB="MedGen" />
+              <XRef Type="primary" ID="HP:0008935" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1455287" SubmissionDate="2017-12-08" DateLastUpdated="2018-05-12" DateCreated="2018-05-12">
+        <ClinVarSubmissionID localKey="CMGVARID00849|HPO:HP:0008689;HP:0011968;HP:0008935;HP:0001382;HP:0000046;HP:0000331" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000747195" DateUpdated="2018-05-12" DateCreated="2018-05-12" Type="SCV" Version="1" SubmitterName="Centre for Mendelian Genomics, University Medical Centre Ljubljana" OrgID="505952" OrganizationCategory="clinic" OrgAbbreviation="CMG-UMCL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PLOD1" />
+          </GeneList>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="12019879" innerStop="12028775" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0008689" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0011968" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0008935" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0001382" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000046" />
+          </Trait>
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000331" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>CMG_Slovenia_Submission_2</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0011968" MappingRef="HP">
+        <MedGen CUI="C0232466" Name="Feeding difficulties" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000331" MappingRef="HP">
+        <MedGen CUI="C3697248" Name="Short chin" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0008935" MappingRef="HP">
+        <MedGen CUI="C1845123" Name="Generalized neonatal hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001382" MappingRef="HP">
+        <MedGen CUI="C1844820" Name="Joint hypermobility" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0008689" MappingRef="HP">
+        <MedGen CUI="C0431663" Name="Bilateral cryptorchidism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1455287" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000046" MappingRef="HP">
+        <MedGen CUI="C0455792" Name="Small scrotum" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

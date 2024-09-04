@@ -1,0 +1,154 @@
+<VariationArchive RecordType="classified" VariationID="915991" VariationName="GRCh37/hg19 6q16.1(chr6:99347158-99374801)" VariationType="copy number loss" Accession="VCV000915991" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904216" VariationID="915991">
+      <GeneList>
+        <Gene Symbol="FBXL4" FullName="F-box and leucine rich repeat protein 4" GeneID="26235" HGNC_ID="HGNC:13601" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q16.1-16.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="98868535" stop="98947946" display_start="98868535" display_stop="98947946" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="99321600" stop="99395848" display_start="99321600" display_stop="99395848" Strand="-" />
+          </Location>
+          <OMIM>605654</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 6q16.1(chr6:99347158-99374801)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>6q16.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" innerStart="99347158" innerStop="99374801" display_start="99347158" display_stop="99374801" variantLength="27644" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(?_99347158)_(99374801_?)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(?_99347158)_(99374801_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 6q16.1(chr6:99347158-99374801) AND Mitochondrial DNA depletion syndrome 13" Accession="RCV001195145" Version="1">
+        <ClassifiedConditionList TraitSetID="12015">
+          <ClassifiedCondition DB="MedGen" ID="C3809592">Mitochondrial DNA depletion syndrome 13</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="12015" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18313" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Mitochondrial DNA depletion syndrome 13</ElementValue>
+                <XRef ID="MONDO:0014198" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MTDPS13</ElementValue>
+                <XRef Type="MIM" ID="615471" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">FBXL4-related encephalomyopathic mitochondrial DNA (mtDNA) depletion syndrome is a multi-system disorder characterized primarily by congenital or early-onset lactic acidosis and growth failure, feeding difficulty, hypotonia, and developmental delay. Other neurologic manifestations can include seizures, movement disorders, ataxia, autonomic dysfunction, and stroke-like episodes. All affected individuals alive at the time they were reported (median age: 3.5 years) demonstrated significant developmental delay. Other findings can involve the heart (hypertrophic cardiomyopathy, congenital heart malformations, arrhythmias), liver (mildly elevated transaminases), eyes (cataract, strabismus, nystagmus, optic atrophy), hearing (sensorineural hearing loss), and bone marrow (neutropenia, lymphopenia). Survival varies; the median age of reported deaths was two years (range 2 days – 75 months), although surviving individuals as old as 36 years have been reported. To date FBXL4-related mtDNA depletion syndrome has been reported in 50 individuals.</Attribute>
+                <XRef ID="NBK425540" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="13298" />
+                <XRef ID="13298" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">28383868</ID>
+                <ID Source="BookShelf">NBK425540</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">29517884</ID>
+                <ID Source="BookShelf">NBK487393</ID>
+              </Citation>
+              <XRef ID="369897" DB="Orphanet" />
+              <XRef ID="C3809592" DB="MedGen" />
+              <XRef ID="MONDO:0014198" DB="MONDO" />
+              <XRef Type="MIM" ID="615471" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637882" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr6:g.99347158_99374801del|OMIM:615471" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334103" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <Comment>in trans with c.64C&gt;T (p.R22*) in FBXL4</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FBXL4" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" innerStart="99347158" innerStop="99374801" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615471" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637882" TraitType="Disease" MappingType="XRef" MappingValue="615471" MappingRef="OMIM">
+        <MedGen CUI="C3809592" Name="Mitochondrial DNA depletion syndrome 13" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,185 @@
+<VariationArchive VariationID="976711" VariationName="GRCh37/hg19 11p15.1(chr11:18418095-18422557)" VariationType="copy number loss" Accession="VCV000976711" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="964911" VariationID="976711">
+      <GeneList>
+        <Gene Symbol="LDHA" FullName="lactate dehydrogenase A" GeneID="3939" HGNC_ID="HGNC:6535" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>11p15.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="18394563" stop="18408425" display_start="18394563" display_stop="18408425" Strand="+" />
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NW_021160006.1" start="146015" stop="159877" display_start="146015" display_stop="159877" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="18415935" stop="18429764" display_start="18415935" display_stop="18429764" Strand="+" />
+          </Location>
+          <OMIM>150000</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 11p15.1(chr11:18418095-18422557)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>11p15.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" innerStart="18418095" innerStop="18422557" display_start="18418095" display_stop="18422557" variantLength="4463" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.(?_18418095)_(18422557_?)del" Assembly="GRCh37">
+            <Expression>NC_000011.9:g.(?_18418095)_(18422557_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 11p15.1(chr11:18418095-18422557) AND Glycogen storage disease due to lactate dehydrogenase M-subunit deficiency" Accession="RCV001254093" Version="5">
+        <ClassifiedConditionList TraitSetID="4019">
+          <ClassifiedCondition DB="MedGen" ID="C2931743">Glycogen storage disease due to lactate dehydrogenase M-subunit deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-06-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-06-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="4019" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="6906" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Lactate dehydrogenase deficiency type A</ElementValue>
+                <XRef ID="Lactate+dehydrogenase+deficiency+type+A/4068" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Glycogen storage disease due to lactate dehydrogenase M-subunit deficiency</ElementValue>
+                <XRef ID="MONDO:0013047" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Glycogen storage disease XI</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">GSD XI</ElementValue>
+                <XRef Type="MIM" ID="612933" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">GSD11</ElementValue>
+                <XRef Type="MIM" ID="612933" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3160" />
+                <XRef ID="3160" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="284426" DB="Orphanet" />
+              <XRef ID="C2931743" DB="MedGen" />
+              <XRef ID="MONDO:0013047" DB="MONDO" />
+              <XRef Type="MIM" ID="612933" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2822780" SubmissionDate="2020-08-10" DateLastUpdated="2020-08-21" DateCreated="2020-08-21">
+        <ClinVarSubmissionID localKey="116-20200810" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001430012" DateUpdated="2020-08-21" DateCreated="2020-08-21" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-06-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="176-20200810" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">176-20200810</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001639" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0003236" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0025526" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0003710" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001022" />
+              </Trait>
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0003201" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LDHA" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="11" innerStart="18418095" innerStop="18422557" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="612933" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003236" MappingRef="HP">
+        <MedGen CUI="C0241005" Name="Elevated circulating creatine kinase concentration" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001022" MappingRef="HP">
+        <MedGen CUI="C0001916" Name="Albinism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003710" MappingRef="HP">
+        <MedGen CUI="C1855578" Name="Exercise-induced muscle cramps" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Disease" MappingType="XRef" MappingValue="612933" MappingRef="OMIM">
+        <MedGen CUI="C2931743" Name="Glycogen storage disease due to lactate dehydrogenase M-subunit deficiency" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001639" MappingRef="HP">
+        <MedGen CUI="C0007194" Name="Hypertrophic cardiomyopathy" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0025526" MappingRef="HP">
+        <MedGen CUI="C4476830" Name="Psoriasiform lesion" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2822780" TraitType="Finding" MappingType="XRef" MappingValue="HP:0003201" MappingRef="HP">
+        <MedGen CUI="C0035410" Name="Rhabdomyolysis" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

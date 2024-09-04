@@ -1,0 +1,154 @@
+<VariationArchive VariationID="2579177" VariationName="GRCh38/hg38 4q24(chr4:106170998-106171368)x0" VariationType="copy number loss" Accession="VCV002579177" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744215" VariationID="2579177">
+      <GeneList>
+        <Gene Symbol="TBCK" FullName="TBC1 domain containing kinase" GeneID="93627" HGNC_ID="HGNC:28261" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q24</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="106041599" stop="106316683" display_start="106041599" display_stop="106316683" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="106967232" stop="107237860" display_start="106967232" display_stop="107237860" Strand="-" />
+          </Location>
+          <OMIM>616899</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 4q24(chr4:106170998-106171368)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>4q24</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="106170998" stop="106171368" display_start="106170998" display_stop="106171368" variantLength="371" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 4q24(chr4:106170998-106171368)x0 AND Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" Accession="RCV003327616" Version="3">
+        <ClassifiedConditionList TraitSetID="26499">
+          <ClassifiedCondition DB="MedGen" ID="C5567480">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32190976</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">33001864</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="26499" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="35280" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hypotonia, infantile, with psychomotor retardation and characteristic facies 3</ElementValue>
+                <XRef ID="MONDO:0014823" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IHPRF3</ElementValue>
+                <XRef Type="MIM" ID="616900" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17896" />
+                <XRef ID="17896" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="488632" DB="Orphanet" />
+              <XRef ID="C5567480" DB="MedGen" />
+              <XRef ID="MONDO:0014823" DB="MONDO" />
+              <XRef Type="MIM" ID="616900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549686" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="5774|OMIM:616900|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034169" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exon 23 in TBCK (NM_001163435.3) was identified by exome sequencing in one individual with infantile hypotonia with psychomotor delay and characteristic facies ([GRCh 38] chr4:106170998_106171368x0). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Inheritance information is unavailable. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. An exon 23 deletion in TBCK has been reported in ClinVar (Variation ID: 638602) and has been interpreted as likely pathogenic by the Undiagnosed Diseases Network (NIH). This exon deletion has also been reported in three individuals in the literature with hypotonia (PMID: 32190976, 33001864). Of these three affected individuals, one was a compound heterozygote who carried a reported pathogenic variant with unknown phase and two were homozygotes, which increases the likelihood that this variant is pathogenic (Variation ID: 636243; PMID: 32190976, 33001864). This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 23 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of TBCK is an established disease mechanism in autosomal recessive infantile hypotonia with psychomotor delay and characteristic facies (https://search.thegencc.org/genes). Two overlapping deletions of similar genetic content to this variant have been identified in 0.028% (6/21694) of chromosomes by the Genome Aggregation Database (gnomAD, http://gnomad.broadinstitute.org; Structural variant: DEL_4_48669, DEL_4_48671). Although deletions overlapping the region of this CNV have been seen in the general population in a heterozygous state, its frequency is not high enough to rule out a pathogenic role. RNAseq analysis performed on affected tissue shows decreased expression of this gene (PMID: 33001864). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive infantile hypotonia with psychomotor delay and characteristic facies. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.45 points; Functional data: 0.15 points. Total: 1.50 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">32190976</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">33001864</ID>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TBCK" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="4" start="106170998" stop="106171368" variantLength="371" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616900" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549686" TraitType="Disease" MappingType="XRef" MappingValue="616900" MappingRef="OMIM">
+        <MedGen CUI="C5567480" Name="Hypotonia, infantile, with psychomotor retardation and characteristic facies 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

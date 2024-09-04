@@ -1,0 +1,174 @@
+<VariationArchive VariationID="2579231" VariationName="GRCh38/hg38 6q12(chr6:64902016-64946012)x1" VariationType="copy number loss" Accession="VCV002579231" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744269" VariationID="2579231">
+      <GeneList>
+        <Gene Symbol="EYS" FullName="eyes shut homolog" GeneID="346007" HGNC_ID="HGNC:21555" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q12</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="63719980" stop="65707226" display_start="63719980" display_stop="65707226" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="64429875" stop="66417117" display_start="64429875" display_stop="66417117" Strand="-" />
+          </Location>
+          <OMIM>612424</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 6q12(chr6:64902016-64946012)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>6q12</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="64902016" stop="64946012" display_start="64902016" display_stop="64946012" variantLength="43997" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 6q12(chr6:64902016-64946012)x1 AND Retinitis pigmentosa 25" Accession="RCV003327670" Version="3">
+        <ClassifiedConditionList TraitSetID="148">
+          <ClassifiedCondition DB="MedGen" ID="C1864446">Retinitis pigmentosa 25</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27735924</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28378820</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28704921</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">34906470</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="148" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3614" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Retinitis pigmentosa 25</ElementValue>
+                <XRef ID="Retinitis+Pigmentosa+25/6263" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0011272" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RP 25</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RP25</ElementValue>
+                <XRef Type="MIM" ID="602772" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10384" />
+                <XRef ID="10384" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301590</ID>
+                <ID Source="BookShelf">NBK1417</ID>
+              </Citation>
+              <XRef ID="791" DB="Orphanet" />
+              <XRef ID="C1864446" DB="MedGen" />
+              <XRef ID="MONDO:0011272" DB="MONDO" />
+              <XRef Type="MIM" ID="602772" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549740" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="OGI1445|OMIM:602772|copy:1|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034203" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A heterozygous deletion of exons 15-18 in EYS (NM_001142800.2) was identified by exome sequencing in two individuals with retinitis pigmentosa in the compound heterozygous state, along with a known likely pathogenic or pathogenic variant (Variation ID: 189230, 236448) ([GRCh 38] chr6:64902016_64946012x1)(PMID: 34906470). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Inheritance information is unavailable. The patient phenotypes are nonspecific, but are consistent with cases described in the literature and/or published databases with overlapping variants. An exon 15-18 deletion in EYS has been reported in ClinVar (Variation ID: 640456) and has been interpreted as likely pathogenic by Invitae. This exon deletion has also been reported in the literature in at least 3 individuals with retinal degeneration (PMID: 27735924, 28378820, 28704921). Of the 3 affected individuals, at least 2 were compound heterozygotes that carried a reported likely pathogenic variant in trans or with unknown phase, which increases the likelihood that the deletion is pathogenic (Variation ID: 647784, 197186; PMID: 27735924, 28704921). This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 15 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of EYS is an established disease mechanism in autosomal recessive retinitis pigmentosa (https://search.clinicalgenome.org/kb/gene-dosage). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive retinitis pigmentosa. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.90 points, 3: 0 points, 4-5: 0.68 points; Total: 1.58 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">34906470</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">27735924</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">28378820</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">28704921</ID>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="EYS" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="6" start="64902016" stop="64946012" variantLength="43997" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="602772" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549740" TraitType="Disease" MappingType="XRef" MappingValue="602772" MappingRef="OMIM">
+        <MedGen CUI="C1864446" Name="Retinitis pigmentosa 25" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

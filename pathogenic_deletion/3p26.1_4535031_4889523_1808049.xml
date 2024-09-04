@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="1808049" VariationName="GRCh37/hg19 3p26.1(chr3:4416176-4609952)x1" VariationType="copy number loss" Accession="VCV001808049" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1865053" VariationID="1808049">
+      <GeneList>
+        <Gene Symbol="ITPR1" FullName="inositol 1,4,5-trisphosphate receptor type 1" GeneID="3708" HGNC_ID="HGNC:6180" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="4493348" stop="4847506" display_start="4493348" display_stop="4847506" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="4535031" stop="4889523" display_start="4535031" display_stop="4889523" Strand="+" />
+          </Location>
+          <OMIM>147265</OMIM>
+        </Gene>
+        <Gene Symbol="SUMF1" FullName="sulfatase modifying factor 1" GeneID="285362" HGNC_ID="HGNC:20376" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p26.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="4034486" stop="4467269" display_start="4034486" display_stop="4467269" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="4402828" stop="4508965" display_start="4402828" display_stop="4508965" Strand="-" />
+          </Location>
+          <OMIM>607939</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 3p26.1(chr3:4416176-4609952)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>3p26.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="4416176" innerStop="4609952" display_start="4416176" display_stop="4609952" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 3p26.1(chr3:4416176-4609952)x1 AND not provided" Accession="RCV002472855" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-12-31" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5420584" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2022-12-31">
+        <ClinVarSubmissionID localKey="C9636|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002773083" DateUpdated="2022-12-31" DateCreated="2022-12-31" Type="SCV" Version="1" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The copy number loss of 3p26.1 involves three protein coding genes including most exons of SUMF1 (OMIM 607939) and several exons of the5-prime portion of ITPR1 (OMIM 147265). Heterozygous pathogenic sequence variants and entire/partial deletions of ITPR1 are associated with autosomal dominant spinocerebellar ataxia 15 (SCA15; OMIM 606658), which is an adult-onset, slowly progressive neurological disorder. Many ITPR1 deletions associated with SCA15 are predicted loss-of-function variants (van de Leemput 2007). Heterozygous pathogenic sequence variants of this gene are also reported in individuals with autosomal dominant congenital nonprogressive spinocerebellar ataxia 29 (SCA29; OMIM 117360) and Gillespie syndrome (OMIM 206700). Gillespie syndrome is usually diagnosed in the first year of life by the presence of fixed dilated pupils in a hypotonic infant and can also be caused bybiallelic variants of ITPR1. Gerber et al. identified a heterozygous de novo in-frame 3-bp deletion of ITPR1 in a patient with Gillespie syndrome and suggested a dominant-negative effect of this in-frame variant (Gerber 2016). Additionally, a gain-of-function disease mechanism of a familial missense variant of ITPR1 was reported in afamily with SCA29 (Casey 2017). In addition, deletions of this interval, including complete/partial loss of ITPR1 with or without complete/partial loss of SUMF1, are reported in numerous patient swith SCA15 (Synofzik 2011, Marelli 2011, Castrioto 2011, Orsucci 2013, van de Leemput 2007, Tipton 2017). Biallelic pathogenics equence variants of SUMF1 are associated with autosomal recessive multiple sulfatase deficiency (MSD; OMIM 272200). There are no similar copy number losses of this region in the general populationsof the Database of Genomic Variants. Therefore, this copy number loss is interpreted as pathogenic. References: Casey et al. J Neurol. 2017 Jul;264(7):1444-1453. PMID: 28620721. Castrioto et al., Eur J Neurol. 2011 Oct;18(10):1263-5. PMID:21382133. Gerber et al. Am J Hum Genet. 2016 May 5;98(5):971-980. PMID:27108797. Marelli et al. Arch Neurol. 2011 May;68(5):637-43. PMID: 21555639. Orsucci et al., Mov Disord. 2013 Sep;28(10):1465. PMID: 23495097. Synofzik et al. J Med Genet. 2011 Jun;48(6):407-12. PMID: 21367767. Tipton et al., Neurol Neurochir Pol. Jan-Feb 2017;51(1):86-91. PMID:27908616. van de Leemput et al. PLoS Genet. 2007 Jun;3(6):e108. PMID: 17590087.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="3" innerStart="4416176" innerStop="4609952" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478099</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5420584" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

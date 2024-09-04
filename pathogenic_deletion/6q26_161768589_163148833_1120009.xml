@@ -1,0 +1,121 @@
+<VariationArchive RecordType="classified" VariationID="1120009" VariationName="GRCh37/hg19 6q26(chr6:161969922-161990424)" VariationType="copy number loss" Accession="VCV001120009" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-11" DateCreated="2021-05-28" MostRecentSubmission="2021-05-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1108779" VariationID="1120009">
+      <GeneList>
+        <Gene Symbol="PRKN" FullName="parkin RBR E3 ubiquitin protein ligase" GeneID="5071" HGNC_ID="HGNC:8607" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6q26</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="161347417" stop="162727766" display_start="161347417" display_stop="162727766" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="161768589" stop="163148833" display_start="161768589" display_stop="163148833" Strand="-" />
+          </Location>
+          <OMIM>602544</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 6q26(chr6:161969922-161990424)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>6q26</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" outerStart="161807890" innerStart="161969922" innerStop="161990424" outerStop="162206818" display_start="161807890" display_stop="162206818" variantLength="398929" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000006.11" sequenceAccession="NC_000006" sequenceVersion="11" change="g.(161807890_161969922)_(161990424_162206818)del" Assembly="GRCh37">
+            <Expression>NC_000006.11:g.(161807890_161969922)_(161990424_162206818)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 6q26(chr6:161969922-161990424) AND Young-onset Parkinson disease" Accession="RCV001449642" Version="2">
+        <ClassifiedConditionList TraitSetID="41096">
+          <ClassifiedCondition DB="MedGen" ID="C4275179">Young-onset Parkinson disease</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-03" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-03" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-28" MostRecentSubmission="2021-05-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="41096" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38784" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Young-onset Parkinson disease</ElementValue>
+                <XRef ID="MONDO:0017279" DB="MONDO" />
+                <XRef ID="2828" DB="Orphanet" />
+              </Name>
+              <XRef ID="2828" DB="Orphanet" />
+              <XRef ID="C4275179" DB="MedGen" />
+              <XRef ID="MONDO:0017279" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3255238" SubmissionDate="2021-05-20" DateLastUpdated="2021-05-28" DateCreated="2021-05-28">
+        <ClinVarSubmissionID localKey=":Chr.6_161969922_161990424_copy number loss|Orphanet:2828" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001652823" DateUpdated="2021-05-28" DateCreated="2021-05-28" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="clinic" OrgAbbreviation="FLGT" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <TypePlatform>Hybrid Capture Next-generation Sequencing</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRKN" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" innerStart="161969922" innerStop="161990424" outerStart="161807890" outerStop="162206818" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="Orphanet" ID="ORPHA2828" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9694437</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3255238" TraitType="Disease" MappingType="XRef" MappingValue="ORPHA2828" MappingRef="Orphanet">
+        <MedGen CUI="C4275179" Name="Young-onset Parkinson disease" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

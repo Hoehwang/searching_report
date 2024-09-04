@@ -1,0 +1,143 @@
+<VariationArchive VariationID="813322" VariationName="GRCh37/hg19 1q21.3(chr1:150990288-151016203)" VariationType="copy number loss" Accession="VCV000813322" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801571" VariationID="813322">
+      <GeneList>
+        <Gene Symbol="BNIPL" FullName="BCL2 interacting protein like" GeneID="149428" HGNC_ID="HGNC:16976" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="151036586" stop="151047720" display_start="151036586" display_stop="151047720" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="151009028" stop="151020075" display_start="151009028" display_stop="151020075" Strand="+" />
+          </Location>
+          <OMIM>611275</OMIM>
+        </Gene>
+        <Gene Symbol="PRUNE1" FullName="prune exopolyphosphatase 1" GeneID="58497" HGNC_ID="HGNC:13420" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>1q21.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="151008449" stop="151035713" display_start="151008449" display_stop="151035713" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="150980972" stop="151008188" display_start="150980972" display_stop="151008188" Strand="+" />
+          </Location>
+          <OMIM>617413</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 1q21.3(chr1:150990288-151016203)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>1q21.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" innerStart="150990288" innerStop="151016203" display_start="150990288" display_stop="151016203" variantLength="25916" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000001.10" sequenceAccession="NC_000001" sequenceVersion="10" change="g.(?_150990288)_(151016203_?)del" Assembly="GRCh37">
+            <Expression>NC_000001.10:g.(?_150990288)_(151016203_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 1q21.3(chr1:150990288-151016203) AND Neurodevelopmental disorder with microcephaly, hypotonia, and variable brain anomalies" Accession="RCV001004094" Version="5">
+        <ClassifiedConditionList TraitSetID="36284">
+          <ClassifiedCondition DB="MedGen" ID="C4479566">Neurodevelopmental disorder with microcephaly, hypotonia, and variable brain anomalies</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-12-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-12-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="36284" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37814" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder with microcephaly, hypotonia, and variable brain anomalies</ElementValue>
+                <XRef ID="MONDO:0060490" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">NMIHBA</ElementValue>
+                <XRef Type="MIM" ID="617481" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="17985" />
+                <XRef ID="17985" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="544469" DB="Orphanet" />
+              <XRef ID="C4479566" DB="MedGen" />
+              <XRef ID="MONDO:0060490" DB="MONDO" />
+              <XRef Type="MIM" ID="617481" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291856" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="28-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162820" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-12-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="36-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">36-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PRUNE1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="1" innerStart="150990288" innerStop="151016203" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="617481" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291856" TraitType="Disease" MappingType="XRef" MappingValue="617481" MappingRef="OMIM">
+        <MedGen CUI="C4479566" Name="Neurodevelopmental disorder with microcephaly, hypotonia, and variable brain anomalies" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,147 @@
+<VariationArchive VariationID="813302" VariationName="GRCh37/hg19 16p11.2(chr16:28497668-28497971)" VariationType="copy number loss" Accession="VCV000813302" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801555" VariationID="813302">
+      <GeneList>
+        <Gene Symbol="CLN3" FullName="CLN3 lysosomal/endosomal transmembrane protein, battenin" GeneID="1201" HGNC_ID="HGNC:2074" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="28466653" stop="28492082" display_start="28466653" display_stop="28492082" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="28488599" stop="28503622" display_start="28488599" display_stop="28503622" Strand="-" />
+          </Location>
+          <OMIM>607042</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 16p11.2(chr16:28497668-28497971)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16p11.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" innerStart="28497668" innerStop="28497971" display_start="28497668" display_stop="28497971" variantLength="304" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000016.9" sequenceAccession="NC_000016" sequenceVersion="9" change="g.(?_28497668)_(28497971_?)del" Assembly="GRCh37">
+            <Expression>NC_000016.9:g.(?_28497668)_(28497971_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 16p11.2(chr16:28497668-28497971) AND Neuronal ceroid lipofuscinosis 3" Accession="RCV001004074" Version="5">
+        <ClassifiedConditionList TraitSetID="926">
+          <ClassifiedCondition DB="MedGen" ID="C0751383">Neuronal ceroid lipofuscinosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-06-11" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-06-11" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="926" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="768" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CLN3 Disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Spielmeyer Sjogren disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neuronal ceroid lipofuscinosis 3</ElementValue>
+                <XRef ID="MONDO:0008767" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CLN3-Related Neuronal Ceroid-Lipofuscinosis</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CLN3</ElementValue>
+                <XRef Type="MIM" ID="204200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5897" />
+                <XRef ID="5897" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Batten Disease</Attribute>
+              </AttributeSet>
+              <XRef ID="228346" DB="Orphanet" />
+              <XRef ID="C0751383" DB="MedGen" />
+              <XRef ID="MONDO:0008767" DB="MONDO" />
+              <XRef Type="MIM" ID="204200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291834" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="6-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162798" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-06-11">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="46-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">46-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLN3" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="16" innerStart="28497668" innerStop="28497971" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="204200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291834" TraitType="Disease" MappingType="XRef" MappingValue="204200" MappingRef="OMIM">
+        <MedGen CUI="C0751383" Name="Neuronal ceroid lipofuscinosis 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

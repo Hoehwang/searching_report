@@ -1,0 +1,260 @@
+<VariationArchive RecordType="classified" VariationID="431748" VariationName="GRCh38/hg38 9p21.2(chr9:27040565-27060992)" VariationType="copy number loss" Accession="VCV000431748" Version="5" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2023-10-07" DateCreated="2016-09-23" MostRecentSubmission="2021-08-11">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="425254" VariationID="431748">
+      <GeneList>
+        <Gene Symbol="IFT74" FullName="intraflagellar transport 74" GeneID="80173" HGNC_ID="HGNC:21424" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="26947110" stop="27066134" display_start="26947110" display_stop="27066134" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="26947036" stop="27062930" display_start="26947036" display_stop="27062930" Strand="+" />
+          </Location>
+          <OMIM>608040</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 9p21.2(chr9:27040565-27060992)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9p21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="27040565" stop="27060992" display_start="27040565" display_stop="27060992" variantLength="20428" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="27040563" stop="27060990" display_start="27040563" display_stop="27060990" variantLength="20428" />
+      </Location>
+      <OtherNameList>
+        <Name>20.4-KB DEL, EX14-19DEL</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.27040563_27060990del20428" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.27040563_27060990del20428</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.27040565_27060992del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.27040565_27060992del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef Type="Allelic variant" ID="608040.0002" DB="OMIM" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 9p21.2(chr9:27040565-27060992) AND Bardet-Biedl syndrome 22" Accession="RCV000240908" Version="5">
+        <ClassifiedConditionList TraitSetID="32573">
+          <ClassifiedCondition DB="MedGen" ID="C5561936">Bardet-Biedl syndrome 22</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2021-08-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="GRCh38/hg38 9p21.2(chr9:27040565-27060992) AND Bardet-Biedl syndrome" Accession="RCV000498953" Version="3">
+        <ClassifiedConditionList TraitSetID="6293">
+          <ClassifiedCondition DB="MedGen" ID="C0752166">Bardet-Biedl syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2016-07-20" SubmissionCount="1">Likely pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-08-09" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2016-09-23" MostRecentSubmission="2021-08-11">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic/Likely pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">27486776</ID>
+        </Citation>
+        <DescriptionHistory Dated="2017-09-24">
+          <Description>Likely pathogenic</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2017-09-24">
+          <Description>Pathogenic</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="32573" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="36152" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome 22</ElementValue>
+                <XRef ID="MONDO:0014926" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS22</ElementValue>
+                <XRef Type="MIM" ID="617119" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5561936" DB="MedGen" />
+              <XRef ID="MONDO:0014926" DB="MONDO" />
+              <XRef Type="MIM" ID="617119" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="6293" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="376" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Bardet-Biedl syndrome</ElementValue>
+                <XRef ID="Bardet-Biedl+Syndrome/723" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0015229" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+                <XRef ID="5619004" DB="SNOMED CT" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">BBS</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6866" />
+                <XRef ID="6866" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301537</ID>
+                <ID Source="BookShelf">NBK1363</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGentest, 2010">
+                <ID Source="pmc">3061994</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ES/PES/ESE, 2017">
+                <ID Source="PubMed">28359099</ID>
+                <ID Source="pmc">6283429</ID>
+              </Citation>
+              <XRef ID="110" DB="Orphanet" />
+              <XRef ID="C0752166" DB="MedGen" />
+              <XRef ID="MONDO:0015229" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS209900" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1142548" SubmissionDate="2016-07-20" DateLastUpdated="2017-08-20" DateCreated="2017-08-20">
+        <ClinVarSubmissionID localKey="chr9:27040563-27060990" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000296058" DateUpdated="2017-08-20" DateCreated="2017-08-20" Type="SCV" Version="1" SubmitterName="Advanced Center For Translational And Genetic Medicine, Ann &amp; Robert H. Lurie Children's Hospital Of Chicago" OrgID="505664" OrganizationCategory="laboratory" OrgAbbreviation="CHDM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2016-07-20">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Likely pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">27486776</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <FamilyData SegregationObserved="yes">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+              <Proband>yes</Proband>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent</NamePlatform>
+              <TypePlatform>Custom 4x180k array CGH</TypePlatform>
+              <Purpose>discovery</Purpose>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="CompoundHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">AR672-04</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFT74" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" start="27040563" stop="27060990" variantLength="20428" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Bardet-Biedl syndrome</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="PS209900" Type="Phenotypic series" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">27486776</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">27486776</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>Copy_Number_Variation_Contributes_to_the_Mutational_Lo</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="580246" SubmissionDate="2021-08-09" DateLastUpdated="2021-08-11" DateCreated="2016-09-23">
+        <ClinVarSubmissionID localKey="608040.0002_BARDET-BIEDL SYNDROME 22" title="IFT74, 20.4-KB DEL, EX14-19DEL_BARDET-BIEDL SYNDROME 22" />
+        <ClinVarAccession Accession="SCV000299367" DateUpdated="2021-08-11" DateCreated="2016-09-23" Type="SCV" Version="3" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-09">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">For discussion of the 20.4-kb intragenic deletion (chr9.27,040,563-27,060,990, GRCh37) in the IFT74 gene, resulting in the deletion of exons 14-19, that was found in compound heterozygous state in a patient with Bardet-Biedl syndrome-22 (BBS22; 617119) by Lindstrand et al. (2016), see 608040.0001.</Attribute>
+              <Citation>
+                <ID Source="PubMed">27486776</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617119" Type="MIM" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFT74" />
+          </GeneList>
+          <Name>IFT74, 20.4-KB DEL, EX14-19DEL</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">20.4-KB DEL, EX14-19DEL</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="608040.0002" Type="Allelic variant" />
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">BARDET-BIEDL SYNDROME 22</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1142548" TraitType="Disease" MappingType="Name" MappingValue="Bardet-Biedl syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0752166" Name="Bardet-Biedl syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="580246" TraitType="Disease" MappingType="Name" MappingValue="BARDET-BIEDL SYNDROME 22" MappingRef="Preferred">
+        <MedGen CUI="C5561936" Name="Bardet-Biedl syndrome 22" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

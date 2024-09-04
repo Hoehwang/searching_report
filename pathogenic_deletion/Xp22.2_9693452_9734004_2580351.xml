@@ -1,0 +1,149 @@
+<VariationArchive RecordType="classified" VariationID="2580351" VariationName="GRCh37/hg19 Xp22.2(chrX:9702717-9709328)x0" VariationType="copy number loss" Accession="VCV002580351" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-09-30" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2747939" VariationID="2580351">
+      <GeneList>
+        <Gene Symbol="GPR143" FullName="G protein-coupled receptor 143" GeneID="4935" HGNC_ID="HGNC:20145" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="9725346" stop="9778602" display_start="9725346" display_stop="9778602" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="9693452" stop="9734004" display_start="9693452" display_stop="9734004" Strand="-" />
+          </Location>
+          <OMIM>300808</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.2(chrX:9702717-9709328)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="9702717" stop="9709328" display_start="9702717" display_stop="9709328" variantLength="6612" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.2(chrX:9702717-9709328)x0 AND Ocular albinism, type I" Accession="RCV003329556" Version="1">
+        <ClassifiedConditionList TraitSetID="2982">
+          <ClassifiedCondition DB="MedGen" ID="C0342684">Ocular albinism, type I</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-03-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-03-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-30" MostRecentSubmission="2023-09-30">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2982" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="196" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Ocular albinism type 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nettleship-Falls type ocular albinism</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Ocular albinism, type I</ElementValue>
+                <XRef ID="Ocular+albinism+type+1/5291" DB="Genetic Alliance" />
+                <XRef ID="78642008" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">X-linked recessive ocular albinism</ElementValue>
+                <XRef ID="MONDO:0021019" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ocular albinism, type I, Nettleship-Falls type</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">OA1</ElementValue>
+                <XRef Type="MIM" ID="300500" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">XLOA</ElementValue>
+                <XRef ID="20301517" DB="GeneReviews" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="8471" />
+                <XRef ID="8471" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">37053367</ID>
+                <ID Source="BookShelf">NBK590568</ID>
+              </Citation>
+              <XRef ID="54" DB="Orphanet" />
+              <XRef ID="C0342684" DB="MedGen" />
+              <XRef ID="MONDO:0021019" DB="MONDO" />
+              <XRef Type="MIM" ID="300500" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7553740" SubmissionDate="2023-09-22" DateLastUpdated="2023-09-30" DateCreated="2023-09-30">
+        <ClinVarSubmissionID localKey="CVb-cnv_128|OMIM:300500|copy:0" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV004036142" DateUpdated="2023-09-30" DateCreated="2023-09-30" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-03-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GPR143" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" start="9702717" stop="9709328" variantLength="6612" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="300500" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13857242</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7553740" TraitType="Disease" MappingType="XRef" MappingValue="300500" MappingRef="OMIM">
+        <MedGen CUI="C0342684" Name="Ocular albinism, type I" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

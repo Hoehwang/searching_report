@@ -1,0 +1,178 @@
+<VariationArchive RecordType="classified" VariationID="813287" VariationName="GRCh37/hg19 6p24.3(chr6:8023117-8042179)x0" VariationType="copy number loss" Accession="VCV000813287" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-06-05" DateCreated="2020-07-16" MostRecentSubmission="2020-07-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801534" VariationID="813287">
+      <GeneList>
+        <Gene Symbol="BLOC1S5" FullName="biogenesis of lysosomal organelles complex 1 subunit 5" GeneID="63915" HGNC_ID="HGNC:18561" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>6p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="8013567" stop="8064414" display_start="8013567" display_stop="8064414" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="8013799" stop="8064646" display_start="8013799" display_stop="8064646" Strand="-" />
+          </Location>
+          <OMIM>607289</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 6p24.3(chr6:8023117-8042179)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>6p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="8023117" stop="8042179" display_start="8023117" display_stop="8042179" />
+      </Location>
+      <FunctionalConsequence Value="protein loss of function">
+        <XRef ID="0043" DB="Variation Ontology" />
+      </FunctionalConsequence>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 6p24.3(chr6:8023117-8042179)x0 AND Hermansky-Pudlak syndrome" Accession="RCV001199822" Version="1">
+        <ClassifiedConditionList TraitSetID="6264">
+          <ClassifiedCondition DB="MedGen" ID="C0079504">Hermansky-Pudlak syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-01-07" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-01-07" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-16" MostRecentSubmission="2020-07-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="6264" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2033" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hermansky-Pudlak syndrome</ElementValue>
+                <XRef ID="Hermansky-Pudlak+syndrome/3391" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0019312" DB="MONDO" />
+                <XRef Type="Phenotypic series" ID="PS203300" DB="OMIM" />
+                <XRef ID="9311003" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Albinism with hemorrhagic diathesis and pigmented reticuloendothelial cells</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HPS</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Hermansky-Pudlak syndrome (HPS) is characterized by oculocutaneous albinism, a bleeding diathesis, and, in some individuals, pulmonary fibrosis, granulomatous colitis, or immunodeficiency. Ocular findings include reduced iris pigment with iris transillumination, reduced retinal pigment, foveal hypoplasia with significant reduction in visual acuity (usually in the range of 20/50 to 20/400), nystagmus, and increased crossing of the optic nerve fibers. Hair color ranges from white to brown; skin color ranges from white to olive and is usually a shade lighter than that of other family members. The bleeding diathesis can result in variable bruising, epistaxis, gingival bleeding, postpartum hemorrhage, colonic bleeding, and prolonged bleeding with menses or after tooth extraction, circumcision, and other surgeries. Pulmonary fibrosis, a restrictive lung disease, typically causes symptoms in the early thirties and can progress to death within a decade. Granulomatous colitis is severe in about 15% of affected individuals. Neutropenia and/or immune defects occur primarily in individuals with pathogenic variants in AP3B1 and AP3D1.</Attribute>
+                <XRef ID="NBK1287" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6643" />
+                <XRef ID="6643" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301464</ID>
+                <ID Source="BookShelf">NBK1287</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Skin Cancer">
+                <ID Source="PubMed">26389333</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <XRef ID="79430" DB="Orphanet" />
+              <XRef ID="C0079504" DB="MedGen" />
+              <XRef ID="MONDO:0019312" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS203300" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291798" SubmissionDate="2020-02-25" DateLastUpdated="2020-07-16" DateCreated="2020-07-16">
+        <ClinVarSubmissionID localKey="SUB6791269" submittedAssembly="hg19" title="SUB6791269" />
+        <ClinVarAccession Accession="SCV001142279" DateUpdated="2020-07-16" DateCreated="2020-07-16" Type="SCV" Version="1" SubmitterName="Laboratoire de Genetique Moleculaire, Centre Hospitalier Universitaire de Bordeaux" OrgID="506590" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-01-07">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>We identified one patient with a homozygous deletion encompassing exons 3 and 4 of the BLOC1S5 gene : Chr6(GRCh37):g.8023117_8042179del. The patient had mild hair and skin hypopigmentation and classical ocular albinism features including nystagmus, foveal hypoplasia, iris transillumination, and retinal hypopigmentation. She also presented with moderate bleeding diathesis, platelet aggregation deficit and a dramatic decrease in the number of platelet dense granules, all signs compatible with Hermansky-Pudlak syndrome. The patient's platelets displayed an absence of the obligate multi-subunit complex BLOC-1, showing that the identified mutation disrupts BLOC1S5 function and impairs BLOC-1 assembly. Whereas expression of a wild-type BLOC1S5 protein in non-pigmented murine Bloc1s5-/- melan-mu melanocytes rescued pigmentation, the assembly of a functional BLOC-1 complex, and melanosome cargo trafficking, expression of the patient's BLOC1S5 variant allele did not.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Ethnicity>Caucasian</Ethnicity>
+              <GeographicOrigin>Flanders</GeographicOrigin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">10</Age>
+              <Age Type="maximum" age_unit="years">19</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Albinism</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>Agilent</NamePlatform>
+              <TypePlatform>Array CGH</TypePlatform>
+              <Description>Characterization of the BLOC1S5 deletion was performed by high-resolution array-CGH (comparative genomic hybridization).143 probes were placed along BLOC1S5 with a median probe spacing of 173 bp.</Description>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001022" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <XRef DB="HP" ID="HP:0001892" />
+              </Trait>
+              <Comment>The patient had mild hair and skin hypopigmentation and classical ocular albinism features including nystagmus, foveal hypoplasia, iris transillumination, and retinal hypopigmentation. She also presented with moderate bleeding diathesis, platelet aggregation deficit and a dramatic decrease in the number of platelet dense granules, all signs compatible with Hermansky-Pudlak syndrome.</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="6" start="8023117" stop="8042179" />
+          </Location>
+          <FunctionalConsequence Value="protein loss of function" />
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Hermansky-Pudlak syndrome</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="C0079504" Type="CUI" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6791269</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001022" MappingRef="HP">
+        <MedGen CUI="C0001916" Name="Albinism" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2291798" TraitType="Disease" MappingType="Name" MappingValue="Hermansky-Pudlak syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0079504" Name="Hermansky-Pudlak syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2291798" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001892" MappingRef="HP">
+        <MedGen CUI="C1458140" Name="Abnormal bleeding" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,144 @@
+<VariationArchive VariationID="976772" VariationName="GRCh37/hg19 13q33.1(chr13:102521075-102568995)" VariationType="copy number loss" Accession="VCV000976772" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="964913" VariationID="976772">
+      <GeneList>
+        <Gene Symbol="FGF14" FullName="fibroblast growth factor 14" GeneID="2259" HGNC_ID="HGNC:3671" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>13q33.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="13" Accession="NC_000013.11" start="101710804" stop="102402443" display_start="101710804" display_stop="102402443" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" start="102373204" stop="103054123" display_start="102373204" display_stop="103054123" Strand="-" />
+          </Location>
+          <OMIM>601515</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 13q33.1(chr13:102521075-102568995)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>13q33.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="13" Accession="NC_000013.10" innerStart="102521075" innerStop="102568995" display_start="102521075" display_stop="102568995" variantLength="47921" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000013.10" sequenceAccession="NC_000013" sequenceVersion="10" change="g.(?_102521075)_(102568995_?)del" Assembly="GRCh37">
+            <Expression>NC_000013.10:g.(?_102521075)_(102568995_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 13q33.1(chr13:102521075-102568995) AND Spinocerebellar ataxia type 27" Accession="RCV001254158" Version="5">
+        <ClassifiedConditionList TraitSetID="2208">
+          <ClassifiedCondition DB="MedGen" ID="C1836383">Spinocerebellar ataxia type 27</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2020-07-10" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-07-10" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="2208" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3823" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Spinocerebellar ataxia type 27</ElementValue>
+                <XRef ID="MONDO:0012247" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cerebellar ataxia autosomal dominant FGF14-related</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SCA27</ElementValue>
+                <XRef ID="98764" DB="Orphanet" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9963" />
+                <XRef ID="9963" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301317</ID>
+                <ID Source="BookShelf">NBK1138</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EFNS, 2010">
+                <ID Source="PubMed">20050888</ID>
+              </Citation>
+              <XRef ID="98764" DB="Orphanet" />
+              <XRef ID="C1836383" DB="MedGen" />
+              <XRef ID="MONDO:0012247" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2822876" SubmissionDate="2020-08-10" DateLastUpdated="2020-08-21" DateCreated="2020-08-21">
+        <ClinVarSubmissionID localKey="79-20200810" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001430108" DateUpdated="2020-08-21" DateCreated="2020-08-21" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-07-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="42-20200810" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">42-20200810</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="FGF14" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="13" innerStart="102521075" innerStop="102568995" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="609307" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2822876" TraitType="Disease" MappingType="XRef" MappingValue="609307" MappingRef="OMIM">
+        <MedGen CUI="CN031884" Name="Spinocerebellar ataxia 27A" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,215 @@
+<VariationArchive VariationID="217297" VariationName="GRCh37/hg19 9q22.32(chr9:98207091-98210940)x1" VariationType="copy number loss" Accession="VCV000217297" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2015-10-24" MostRecentSubmission="2015-10-24">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="213948" VariationID="217297">
+      <GeneList>
+        <Gene Symbol="PTCH1" FullName="patched 1" GeneID="5727" HGNC_ID="HGNC:9585" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q22.32</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="95442980" stop="95516971" display_start="95442980" display_stop="95516971" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="98205263" stop="98279246" display_start="98205263" display_stop="98279246" Strand="-" />
+          </Location>
+          <OMIM>601309</OMIM>
+          <Haploinsufficiency last_evaluated="2020-07-01" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCH1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-07-01" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCH1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9q22.32(chr9:98207091-98210940)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9q22.32</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="95444809" stop="95448658" display_start="95444809" display_stop="95448658" variantLength="3850" />
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="98207091" stop="98210940" display_start="98207091" display_stop="98210940" variantLength="3850" />
+      </Location>
+      <OtherNameList>
+        <Name>arr[hg19]9q22.32(98,207,091-98,210,940)×1</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.12" sequenceAccession="NC_000009" sequenceVersion="12" change="g.95444809_95448658del" Assembly="GRCh38">
+            <Expression>NC_000009.12:g.95444809_95448658del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA645372487" DB="ClinGen" />
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9q22.32(chr9:98207091-98210940)x1 AND Gorlin syndrome" Accession="RCV000201261" Version="5">
+        <ClassifiedConditionList TraitSetID="940">
+          <ClassifiedCondition DB="MedGen" ID="C0004779">Gorlin syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2015-10-24" MostRecentSubmission="2015-10-24">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="940" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="381" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Basal cell nevus syndrome</ElementValue>
+                <XRef ID="UWMG_1854558" DB="CSER _CC_NCGL, University of Washington" />
+                <XRef Type="Phenotypic series" ID="PS109400" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Gorlin syndrome</ElementValue>
+                <XRef ID="69408002" DB="SNOMED CT" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">Nevoid basal cell carcinoma syndrome (NBCCS) is characterized by the development of multiple jaw keratocysts, frequently beginning in the second decade of life, and/or basal cell carcinomas (BCCs) usually from the third decade onward. Approximately 60% of individuals have a recognizable appearance with macrocephaly, frontal bossing, coarse facial features, and facial milia. Most individuals have skeletal anomalies (e.g., bifid ribs, wedge-shaped vertebrae). Ectopic calcification, particularly in the falx, is present in more than 90% of affected individuals by age 20 years. Cardiac and ovarian fibromas occur in approximately 2% and 20% of individuals respectively. Approximately 5% of all children with NBCCS develop medulloblastoma (primitive neuroectodermal tumor), generally the desmoplastic subtype. The risk of developing medulloblastoma is substantially higher in individuals with an SUFU pathogenic variant (33%) than in those with a PTCH1 pathogenic variant (&lt;2%). Peak incidence is at age one to two years. Life expectancy in NBCCS is not significantly different from average.</Attribute>
+                <XRef ID="NBK1151" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="7166" />
+                <XRef ID="7166" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301330</ID>
+                <ID Source="BookShelf">NBK1151</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2004">
+                <ID Source="PubMed">15604628</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="EuroGenetest, 2011">
+                <ID Source="PubMed">21304560</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/NSGC, 2015">
+                <ID Source="PubMed">25394175</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Skin Cancer">
+                <ID Source="PubMed">26389333</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Breast and Gynecologic Cancers">
+                <ID Source="PubMed">26389210</ID>
+              </Citation>
+              <Citation Type="Suggested Reading" Abbrev="NCI PDQ, Cancer Genetics Counseling">
+                <ID Source="PubMed">26389258</ID>
+              </Citation>
+              <XRef ID="377" DB="Orphanet" />
+              <XRef ID="C0004779" DB="MedGen" />
+              <XRef ID="MONDO:0007187" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS109400" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="477291" SubmissionDate="2015-10-20" DateLastUpdated="2015-10-24" DateCreated="2015-10-24">
+        <ClinVarSubmissionID localKey="GOK_E_LOSS|OMIM:109400" />
+        <ClinVarAccession Accession="SCV000255961" DateUpdated="2015-10-24" DateCreated="2015-10-24" Type="SCV" Version="2" SubmitterName="Oral and Maxillofacial Surgery, Tokyo Medical and Dental University" OrgID="505560" OrganizationCategory="laboratory" OrgAbbreviation="TMDU_OSUR" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+          <Citation Type="general">
+            <ID Source="PubMed">26544948</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <GeographicOrigin>Japan</GeographicOrigin>
+              <Tissue>Blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>female</Gender>
+              <FamilyData NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <TypePlatform>next-gen sequencing;microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="2" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Keratocystic odontogenic tumors of jaws</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Rib anomaly</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Pits of palms and soles</ElementValue>
+                </Name>
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Calcification of the falx cerebri</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+            <Comment>large deletion</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" start="98207091" stop="98210940" variantLength="3850" />
+          </Location>
+          <OtherNameList>
+            <Name>arr[hg19] 9q22.32(98,207,091-98,210,940)×1</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Gorlin syndrome</ElementValue>
+            </Name>
+            <XRef DB="OMIM" ID="109400" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="477291" TraitType="Disease" MappingType="Name" MappingValue="Gorlin syndrome" MappingRef="Preferred">
+        <MedGen CUI="C0004779" Name="Gorlin syndrome" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="477291" TraitType="Finding" MappingType="Name" MappingValue="Pits of palms and soles" MappingRef="Preferred">
+        <MedGen CUI="C3805371" Name="Pits of palms and soles" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="477291" TraitType="Finding" MappingType="Name" MappingValue="Calcification of the falx cerebri" MappingRef="Preferred">
+        <MedGen CUI="CN233175" Name="Calcification of the falx cerebri" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="477291" TraitType="Finding" MappingType="Name" MappingValue="Rib anomaly" MappingRef="Preferred">
+        <MedGen CUI="CN233173" Name="Rib anomaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="477291" TraitType="Finding" MappingType="Name" MappingValue="Keratocystic odontogenic tumors of jaws" MappingRef="Preferred">
+        <MedGen CUI="CN233176" Name="Keratocystic odontogenic tumors of jaws" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,199 @@
+<VariationArchive VariationID="2579206" VariationName="GRCh38/hg38 9q31.1(chr9:101426458-101431155)x0" VariationType="copy number loss" Accession="VCV002579206" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744244" VariationID="2579206">
+      <GeneList>
+        <Gene Symbol="ALDOB" FullName="aldolase, fructose-bisphosphate B" GeneID="229" HGNC_ID="HGNC:417" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="101420560" stop="101435774" display_start="101420560" display_stop="101435774" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="104182841" stop="104198061" display_start="104182841" display_stop="104198061" Strand="-" />
+          </Location>
+          <OMIM>612724</OMIM>
+        </Gene>
+        <Gene Symbol="LOC130002261" FullName="ATAC-STARR-seq lymphoblastoid active region 28725" GeneID="130002261" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9q31.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="101428137" stop="101428216" display_start="101428137" display_stop="101428216" Strand="+" />
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 9q31.1(chr9:101426458-101431155)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9q31.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="101426458" stop="101431155" display_start="101426458" display_stop="101431155" variantLength="4698" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 9q31.1(chr9:101426458-101431155)x0 AND Hereditary fructosuria" Accession="RCV003327645" Version="3">
+        <ClassifiedConditionList TraitSetID="131">
+          <ClassifiedCondition DB="MedGen" ID="C0016751">Hereditary fructosuria</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">20848650</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">22494545</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="131" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="9641" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hereditary fructosuria</ElementValue>
+                <XRef ID="Hereditary+fructosuria/8519" DB="Genetic Alliance" />
+                <XRef ID="20052008" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">FRUCTOSEMIA</ElementValue>
+                <XRef Type="MIM" ID="229600" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Hereditary fructose intolerance</ElementValue>
+                <XRef ID="MONDO:0009249" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fructose-1-phosphate aldolase deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Aldolase B deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fructose-1,6-bisphosphate aldolase B deficiency</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fructose intolerance</ElementValue>
+                <XRef ID="HP:0005973" DB="Human Phenotype Ontology" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000505066" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000319124" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000318892" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000505065" DB="Genetic Testing Registry (GTR)" />
+                <XRef ID="GTR000558338" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">Following dietary exposure to fructose, sucrose, or sorbitol, untreated hereditary fructose intolerance (HFI) is characterized by metabolic disturbances (hypoglycemia, lactic acidemia, hypophosphatemia, hyperuricemia, hypermagnesemia, hyperalaninemia) and clinical findings (nausea, vomiting, and abdominal distress; chronic growth restriction / failure to thrive). While untreated HFI typically first manifested when fructose- and sucrose-containing foods were introduced in the course of weaning young infants from breast milk, it is now presenting earlier, due to the addition of fructose-containing nutrients in infant formulas. If the infant ingests large quantities of fructose, the infant may acutely develop lethargy, seizures, and/or progressive coma. Untreated HFI may result in renal and hepatic failure. If identified and treated before permanent organ injury occurs, individuals with HFI can experience a normal quality of life and life expectancy.</Attribute>
+                <Citation Type="review" Abbrev="GeneReviews">
+                  <ID Source="PubMed">26677512</ID>
+                  <ID Source="BookShelf">NBK333439</ID>
+                </Citation>
+                <XRef ID="NBK333439" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="6622" />
+                <XRef ID="6622" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">26677512</ID>
+                <ID Source="BookShelf">NBK333439</ID>
+              </Citation>
+              <XRef ID="469" DB="Orphanet" />
+              <XRef ID="C0016751" DB="MedGen" />
+              <XRef ID="MONDO:0009249" DB="MONDO" />
+              <XRef Type="MIM" ID="229600" DB="OMIM" />
+              <XRef Type="primary" ID="HP:0005973" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549715" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="HIL_B609|OMIM:229600|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034180" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exon 2-6 in ALDOB (NM_000035.4) was identified by exome sequencing in one individual with hereditary fructose intolerance ([GRCh 38] chr9:101426458_101431155x0). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Each copy of the variant was inherited from an unaffected heterozygous parent. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This exon deletion has also been reported in seven individuals in the literature with hereditary fructose intolerance (PMID: 20848650, 22494545). Of these three affected individuals, at least one was a compound heterozygote who carried a reported pathogenic variant in trans and one was a homozygote, which increases the likelihood that this variant is pathogenic (PMID: 20848650, 22494545). This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 2 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of ALDOB is an established disease mechanism in autosomal recessive hereditary fructose intolerance (https://search.clinicalgenome.org/kb/gene-dosage). A deletion of similar genetic content to this variant has been identified in 0.1% (2/1930) of Latino chromosomes by the Genome Aggregation Database (gnomAD, http://gnomad.broadinstitute.org; Structural variant: DEL_9_104389). Although deletions overlapping the region of this CNV have been seen in the general population in a heterozygous state, its frequency is not high enough to rule out a pathogenic role. In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive hereditary fructose intolerance. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.90 points, 4-5: 0.6 points; Total: 1.5 points; Riggs 2020 (PMID: 31690835)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>inherited</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">20848650</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">22494545</ID>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ALDOB" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="9" start="101426458" stop="101431155" variantLength="4698" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="229600" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549715" TraitType="Disease" MappingType="XRef" MappingValue="229600" MappingRef="OMIM">
+        <MedGen CUI="C0016751" Name="Hereditary fructosuria" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

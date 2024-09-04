@@ -1,0 +1,138 @@
+<VariationArchive RecordType="classified" VariationID="1098306" VariationName="GRCh37/hg19 7q22.3(chr7:104730300-104791108)" VariationType="copy number loss" Accession="VCV001098306" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2021-05-21" MostRecentSubmission="2021-05-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1087000" VariationID="1098306">
+      <GeneList>
+        <Gene Symbol="KMT2E" FullName="lysine methyltransferase 2E (inactive)" GeneID="55904" HGNC_ID="HGNC:18541" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="105014205" stop="105115019" display_start="105014205" display_stop="105115019" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="104654636" stop="104754531" display_start="104654636" display_stop="104754531" Strand="+" />
+          </Location>
+          <OMIM>608444</OMIM>
+          <Haploinsufficiency last_evaluated="2021-12-29" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KMT2E">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-12-29" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=KMT2E">No evidence available</Triplosensitivity>
+        </Gene>
+        <Gene Symbol="SRPK2" FullName="SRSF protein kinase 2" GeneID="6733" HGNC_ID="HGNC:11306" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>7q22.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="105114740" stop="105399357" display_start="105114740" display_stop="105399357" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="104756822" stop="105029340" display_start="104756822" display_stop="105029340" Strand="-" />
+          </Location>
+          <OMIM>602980</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7q22.3(chr7:104730300-104791108)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q22.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="104730300" innerStop="104791108" display_start="104730300" display_stop="104791108" variantLength="60809" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_104730300)_(104791108_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_104730300)_(104791108_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7q22.3(chr7:104730300-104791108) AND O'Donnell-Luria-Rodan syndrome" Accession="RCV001420181" Version="1">
+        <ClassifiedConditionList TraitSetID="48183">
+          <ClassifiedCondition DB="MedGen" ID="C5193138">O'Donnell-Luria-Rodan syndrome</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-04-28" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-04-28" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-05-21" MostRecentSubmission="2021-05-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="48183" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="42272" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">O'Donnell-Luria-Rodan syndrome</ElementValue>
+                <XRef ID="MONDO:0032793" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">ODLURO</ElementValue>
+                <XRef Type="MIM" ID="618512" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5193138" DB="MedGen" />
+              <XRef ID="MONDO:0032793" DB="MONDO" />
+              <XRef Type="MIM" ID="618512" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3193641" SubmissionDate="2021-05-11" DateLastUpdated="2021-05-21" DateCreated="2021-05-21">
+        <ClinVarSubmissionID localKey="KMT2E:7q22.3(104,730,300-104,791,108)x1|OMIM:618512" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001622603" DateUpdated="2021-05-21" DateCreated="2021-05-21" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, Cologne University" OrgID="243629" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-04-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>de novo</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <TypePlatform>microarray</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="KMT2E" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" innerStart="104730300" innerStop="104791108" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="618512" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB9612516</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3193641" TraitType="Disease" MappingType="XRef" MappingValue="618512" MappingRef="OMIM">
+        <MedGen CUI="C5193138" Name="O'Donnell-Luria-Rodan syndrome" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,160 @@
+<VariationArchive VariationID="800360" VariationName="GRCh37/hg19 2q24.2(chr2:160124451-160219840)x1" VariationType="copy number loss" Accession="VCV000800360" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-29" DateCreated="2020-03-16" MostRecentSubmission="2020-03-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="788962" VariationID="800360">
+      <GeneList>
+        <Gene Symbol="BAZ2B" FullName="bromodomain adjacent to zinc finger domain 2B" GeneID="29994" HGNC_ID="HGNC:963" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="159315312" stop="159712442" display_start="159315312" display_stop="159712442" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="160175489" stop="160473058" display_start="160175489" display_stop="160473058" Strand="-" />
+          </Location>
+          <OMIM>605683</OMIM>
+        </Gene>
+        <Gene Symbol="TANC1" FullName="tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 1" GeneID="85461" HGNC_ID="HGNC:29364" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="158968640" stop="159232659" display_start="158968640" display_stop="159232659" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="159825145" stop="160089169" display_start="159825145" display_stop="160089169" Strand="+" />
+          </Location>
+          <OMIM>611397</OMIM>
+        </Gene>
+        <Gene Symbol="WDSUB1" FullName="WD repeat, sterile alpha motif and U-box domain containing 1" GeneID="151525" HGNC_ID="HGNC:26697" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q24.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="159235798" stop="159286703" display_start="159235798" display_stop="159286703" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="160092303" stop="160143235" display_start="160092303" display_stop="160143235" Strand="-" />
+          </Location>
+          <OMIM>620802</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q24.2(chr2:160124451-160219840)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q24.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" outerStart="160076188" innerStart="160124451" innerStop="160219840" outerStop="160276186" display_start="160076188" display_stop="160276186" variantLength="199999" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(160076188_160124451)_(160219840_160276186)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(160076188_160124451)_(160219840_160276186)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q24.2(chr2:160124451-160219840)x1 AND Neurodevelopmental disorder" Accession="RCV001007687" Version="3">
+        <ClassifiedConditionList TraitSetID="37229">
+          <ClassifiedCondition DB="MedGen" ID="C1535926">Neurodevelopmental disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-09-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-09-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-03-16" MostRecentSubmission="2020-03-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31999386</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="37229" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="38088" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Neurodevelopmental disorder</ElementValue>
+                <XRef ID="MONDO:0700092" DB="MONDO" />
+              </Name>
+              <XRef ID="C1535926" DB="MedGen" />
+              <XRef ID="D065886" DB="MeSH" />
+              <XRef ID="MONDO:0700092" DB="MONDO" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2235638" SubmissionDate="2019-09-11" DateLastUpdated="2020-03-16" DateCreated="2020-03-16">
+        <ClinVarSubmissionID localKey="D2|MeSH:D065886|copy:1|refcopy:2" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001017765" DateUpdated="2020-03-16" DateCreated="2020-03-16" Type="SCV" Version="1" SubmitterName="Daryl Scott Lab, Baylor College of Medicine" OrgID="505993" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-09-12">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithSegregationObserved="1" NumFamiliesWithVariant="1">
+                <FamilyHistory>yes</FamilyHistory>
+              </FamilyData>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="VariantChromosomes" integerValue="1" />
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <Name>
+                  <ElementValue Type="Preferred">Developmental delay</ElementValue>
+                </Name>
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="BAZ2B" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="160124451" innerStop="160219840" outerStart="160076188" outerStop="160276186" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MeSH" ID="D065886" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">31999386</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB6290154</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2235638" TraitType="Finding" MappingType="Name" MappingValue="Developmental delay" MappingRef="Preferred">
+        <MedGen CUI="C0424605" Name="Developmental delay" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2235638" TraitType="Disease" MappingType="XRef" MappingValue="D065886" MappingRef="MeSH">
+        <MedGen CUI="C1535926" Name="Neurodevelopmental disorder" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

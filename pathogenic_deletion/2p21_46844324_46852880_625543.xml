@@ -1,0 +1,133 @@
+<VariationArchive VariationID="625543" VariationName="GRCh37/hg19 2p21(chr2:46844284-46844565)" VariationType="copy number loss" Accession="VCV000625543" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-07-15" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="613847" VariationID="625543">
+      <GeneList>
+        <Gene Symbol="CRIPT" FullName="CXXC repeat containing interactor of PDZ3 domain" GeneID="9419" HGNC_ID="HGNC:14312" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2p21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="46617215" stop="46630176" display_start="46617215" display_stop="46630176" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="46844324" stop="46852880" display_start="46844324" display_stop="46852880" Strand="+" />
+          </Location>
+          <OMIM>604594</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2p21(chr2:46844284-46844565)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2p21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="46844284" innerStop="46844565" display_start="46844284" display_stop="46844565" variantLength="282" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_46844284)_(46844565_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_46844284)_(46844565_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2p21(chr2:46844284-46844565) AND Rothmund-Thomson syndrome, type 3" Accession="RCV000767551" Version="1">
+        <ClassifiedConditionList TraitSetID="13605">
+          <ClassifiedCondition DB="MedGen" ID="C4014339">Rothmund-Thomson syndrome, type 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="13605" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18751" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Rothmund-Thomson syndrome, type 3</ElementValue>
+                <XRef ID="MONDO:0014347" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Short stature with microcephaly and distinctive facies</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">RTS3</ElementValue>
+                <XRef Type="MIM" ID="615789" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C4014339" DB="MedGen" />
+              <XRef ID="MONDO:0014347" DB="MONDO" />
+              <XRef Type="MIM" ID="615789" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761456" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES011|OMIM:615789" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898173" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>paternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="46844284" innerStop="46844565" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615789" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761456" TraitType="Disease" MappingType="XRef" MappingValue="615789" MappingRef="OMIM">
+        <MedGen CUI="C4014339" Name="Rothmund-Thomson syndrome, type 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

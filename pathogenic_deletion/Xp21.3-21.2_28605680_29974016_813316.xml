@@ -1,0 +1,168 @@
+<VariationArchive VariationID="813316" VariationName="GRCh37/hg19 Xp21.2(chrX:29686547-29686621)" VariationType="copy number loss" Accession="VCV000813316" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801566" VariationID="813316">
+      <GeneList>
+        <Gene Symbol="IL1RAPL1" FullName="interleukin 1 receptor accessory protein like 1" GeneID="11141" HGNC_ID="HGNC:5996" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>Xp21.3-21.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="28587446" stop="29956718" display_start="28587446" display_stop="29956718" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="28605680" stop="29974016" display_start="28605680" display_stop="29974016" Strand="+" />
+          </Location>
+          <OMIM>300206</OMIM>
+          <Haploinsufficiency last_evaluated="2023-11-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=IL1RAPL1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2023-11-14" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=IL1RAPL1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp21.2(chrX:29686547-29686621)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp21.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="29686547" innerStop="29686621" display_start="29686547" display_stop="29686621" variantLength="75" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_29686547)_(29686621_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_29686547)_(29686621_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp21.2(chrX:29686547-29686621) AND Intellectual disability, X-linked 21" Accession="RCV001004088" Version="5">
+        <ClassifiedConditionList TraitSetID="3136">
+          <ClassifiedCondition DB="MedGen" ID="C5551510">Intellectual disability, X-linked 21</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-12-09" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-12-09" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="3136" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="5490" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Intellectual disability, X-linked 21</ElementValue>
+                <XRef ID="MONDO:0010256" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED 21</ElementValue>
+                <XRef Type="MIM" ID="300143" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300206.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300206.0002" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300206.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="300206.0001" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mental retardation 21, X-linked</ElementValue>
+                <XRef ID="X-linked+mental+retardation+21/9497" DB="Genetic Alliance" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Mental retardation, X-linked 21/34</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MENTAL RETARDATION, X-LINKED 34</ElementValue>
+                <XRef Type="MIM" ID="300143" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">XLID21</ElementValue>
+                <XRef Type="MIM" ID="300143" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">MRX34</ElementValue>
+                <XRef Type="MIM" ID="300143" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="22669" />
+                <XRef ID="22669" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">NR0B1-related adrenal hypoplasia congenita includes both X-linked adrenal hypoplasia congenita (X-linked AHC) and Xp21 deletion (previously called complex glycerol kinase deficiency). X-linked AHC is characterized by primary adrenal insufficiency and/or hypogonadotropic hypogonadism (HH). Adrenal insufficiency is acute infantile onset (average age 3 weeks) in approximately 60% of affected males and childhood onset (ages 1-9 years) in approximately 40%. HH typically manifests in a male with adrenal insufficiency as delayed puberty (i.e., onset age &gt;14 years) and less commonly as arrested puberty at about Tanner Stage 3. Rarely, X-linked AHC manifests initially in early adulthood as delayed-onset adrenal insufficiency, partial HH, and/or infertility. Heterozygous females very occasionally have manifestations of adrenal insufficiency or hypogonadotropic hypogonadism. Xp21 deletion includes deletion of NR0B1 (causing X-linked AHC) and GK (causing glycerol kinase deficiency), and in some cases deletion of DMD (causing Duchenne muscular dystrophy). Developmental delay has been reported in males with Xp21 deletion when the deletion extends proximally to include DMD or when larger deletions extend distally to include IL1RAPL1 and DMD.</Attribute>
+                <XRef ID="NBK1431" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301604</ID>
+                <ID Source="BookShelf">NBK1431</ID>
+              </Citation>
+              <XRef ID="777" DB="Orphanet" />
+              <XRef ID="C5551510" DB="MedGen" />
+              <XRef ID="MONDO:0010256" DB="MONDO" />
+              <XRef Type="MIM" ID="300143" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291849" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="21-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162813" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-12-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">X-linked inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="44-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Hemizygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">44-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IL1RAPL1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="29686547" innerStop="29686621" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="300143" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291849" TraitType="Disease" MappingType="XRef" MappingValue="300143" MappingRef="OMIM">
+        <MedGen CUI="C5551510" Name="Intellectual disability, X-linked 21" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

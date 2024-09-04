@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="562976" VariationName="GRCh37/hg19 4q31.23(chr4:149309976-149452658)x1" VariationType="copy number loss" Accession="VCV000562976" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2018-09-30" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="554160" VariationID="562976">
+      <GeneList>
+        <Gene Symbol="NR3C2" FullName="nuclear receptor subfamily 3 group C member 2" GeneID="4306" HGNC_ID="HGNC:7979" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q31.23</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="148078764" stop="148445508" display_start="148078764" display_stop="148445508" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="148999914" stop="149363671" display_start="148999914" display_stop="149363671" Strand="-" />
+          </Location>
+          <OMIM>600983</OMIM>
+          <Haploinsufficiency last_evaluated="2020-04-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NR3C2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-04-06" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=NR3C2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 4q31.23(chr4:149309976-149452658)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>4q31.23</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="149309976" innerStop="149452658" display_start="149309976" display_stop="149452658" variantLength="142683" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_149309976)_(149452658_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_149309976)_(149452658_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 4q31.23(chr4:149309976-149452658)x1 AND not provided" Accession="RCV000682465" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-04-22" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-04-22" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-09-30" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <DescriptionHistory Dated="2022-12-29">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1578873" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2018-09-30">
+        <ClinVarSubmissionID localKey="C2147|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000809972" DateUpdated="2022-12-31" DateCreated="2018-09-30" Type="SCV" Version="2" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-04-22">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The 4q31.23 deletion involves exons 1-2 (NM_000901.5) of the 5' portion of NR3C2 (OMIM 600983). Haploinsufficiency of NR3C2 caused by loss-of-function variants including nonsense, splicing, frame shift variants and exonic deletions, have been associated with autosomal dominant pseudohypoaldosteronism type I, which is characterized by salt wasting resulting from renal unresponsiveness to mineralocorticoids. Patients may present with neonatal renal salt wasting with hyperkalaemic acidosis despite high aldosterone levels. These patients improve with age and usually become asymptomatic without treatment. Some adult patients with the disorder may have elevated aldosterone levels, but no history of clinical disease (OMIM 177735) (Bowden 2013, Casas-Alba 2017, Hanukoglu 2020, Kim 2021, Pujo 2007). Additionally, truncating variants in NR3C2 gene have been identified in patients with autism. However, the majority of these variants were inherited from unaffected parents (Ruzzo 2019; Cukier 2020 ; Satterstrom 2020 ). The causality of autism is not well established. References: Bowden et al., Case Rep Endocrinol. 2013;2013:524647. PMID: 24455331. Casas-Alba et al., J Pediatr Endocrinol Metab. 2017 May 1;30(5):597-601. PMID: 28593901. Cukier et al., Autism Res. 2020 Apr;13(4):523-531. PMID: 32064789 Hanukoglu et al., J Steroid Biochem Mol Biol. 2020 Nov;204:105755. PMID: 33017655. Kim et al., Children (Basel). 2021 Nov 25;8(12):1090. PMID: 34943285. Pujo et al., Hum Mutat. 2007 Jan;28(1):33-40. PMID: 16972228. Ruzzo et al., Cell. 2019 Aug 8;178(4):850-866.e26. PMID: 31398340. Satterstrom et al., Cell. 2020 Feb 6;180(3):568-584.e23. PMID: 31981491</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" innerStart="149309976" innerStop="149452658" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB4408452</SubmissionName>
+          <SubmissionName>SUB12478099</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1578873" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

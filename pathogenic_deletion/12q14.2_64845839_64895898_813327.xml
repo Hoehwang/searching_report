@@ -1,0 +1,140 @@
+<VariationArchive VariationID="813327" VariationName="GRCh37/hg19 12q14.2(chr12:64868010-64895161)" VariationType="copy number loss" Accession="VCV000813327" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801575" VariationID="813327">
+      <GeneList>
+        <Gene Symbol="TBK1" FullName="TANK binding kinase 1" GeneID="29110" HGNC_ID="HGNC:11584" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>12q14.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="12" Accession="NC_000012.12" start="64452120" stop="64502114" display_start="64452120" display_stop="64502114" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" start="64845839" stop="64895898" display_start="64845839" display_stop="64895898" Strand="+" />
+          </Location>
+          <OMIM>604834</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 12q14.2(chr12:64868010-64895161)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>12q14.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="12" Accession="NC_000012.11" innerStart="64868010" innerStop="64895161" display_start="64868010" display_stop="64895161" variantLength="27152" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000012.11" sequenceAccession="NC_000012" sequenceVersion="11" change="g.(?_64868010)_(64895161_?)del" Assembly="GRCh37">
+            <Expression>NC_000012.11:g.(?_64868010)_(64895161_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 12q14.2(chr12:64868010-64895161) AND Frontotemporal dementia and/or amyotrophic lateral sclerosis 4" Accession="RCV001004099" Version="5">
+        <ClassifiedConditionList TraitSetID="21973">
+          <ClassifiedCondition DB="MedGen" ID="C4225325">Frontotemporal dementia and/or amyotrophic lateral sclerosis 4</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-01-23" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-01-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-02-29" MostRecentSubmission="2020-02-29">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="21973" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="33572" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">FTDALS4</ElementValue>
+                <XRef ID="MONDO:0014641" DB="MONDO" />
+                <XRef Type="MIM" ID="616439" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Frontotemporal dementia and/or amyotrophic lateral sclerosis 4</ElementValue>
+                <XRef ID="MONDO:0014641" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18398" />
+                <XRef ID="18398" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301623</ID>
+                <ID Source="BookShelf">NBK1450</ID>
+              </Citation>
+              <XRef ID="275872" DB="Orphanet" />
+              <XRef ID="C4225325" DB="MedGen" />
+              <XRef ID="MONDO:0014641" DB="MONDO" />
+              <XRef Type="MIM" ID="616439" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2291863" SubmissionDate="2020-01-28" DateLastUpdated="2020-02-29" DateCreated="2020-02-29">
+        <ClinVarSubmissionID localKey="35-20200128" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001162827" DateUpdated="2020-02-29" DateCreated="2020-02-29" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>male</Gender>
+              <FamilyData PedigreeID="4-20200128" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">4-20200128</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TBK1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="12" innerStart="64868010" innerStop="64895161" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="616439" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2291863" TraitType="Disease" MappingType="XRef" MappingValue="616439" MappingRef="OMIM">
+        <MedGen CUI="C4225325" Name="Frontotemporal dementia and/or amyotrophic lateral sclerosis 4" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

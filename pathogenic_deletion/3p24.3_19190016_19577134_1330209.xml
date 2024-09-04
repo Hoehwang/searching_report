@@ -1,0 +1,134 @@
+<VariationArchive RecordType="classified" VariationID="1330209" VariationName="GRCh37/hg19 3p24.3(chr3:18004128-19575641)x1" VariationType="copy number loss" Accession="VCV001330209" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2022-01-03" MostRecentSubmission="2022-01-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1320890" VariationID="1330209">
+      <GeneList>
+        <Gene Symbol="KCNH8" FullName="potassium voltage-gated channel subfamily H member 8" GeneID="131096" HGNC_ID="HGNC:18864" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="19148510" stop="19535642" display_start="19148510" display_stop="19535642" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="19190016" stop="19577134" display_start="19190016" display_stop="19577134" Strand="+" />
+          </Location>
+          <OMIM>608260</OMIM>
+        </Gene>
+        <Gene Symbol="SATB1" FullName="SATB homeobox 1" GeneID="6304" HGNC_ID="HGNC:10541" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>3p24.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="3" Accession="NC_000003.12" start="18345377" stop="18445592" display_start="18345377" display_stop="18445592" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" start="18389132" stop="18480264" display_start="18389132" display_stop="18480264" Strand="-" />
+          </Location>
+          <OMIM>602075</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 3p24.3(chr3:18004128-19575641)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>3p24.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="3" Accession="NC_000003.11" innerStart="18004128" innerStop="19575641" display_start="18004128" display_stop="19575641" variantLength="1571514" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000003.11" sequenceAccession="NC_000003" sequenceVersion="11" change="g.(?_18004128)_(19575641_?)del" Assembly="GRCh37">
+            <Expression>NC_000003.11:g.(?_18004128)_(19575641_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 3p24.3(chr3:18004128-19575641)x1 AND Developmental delay with dysmorphic facies and dental anomalies" Accession="RCV001801226" Version="1">
+        <ClassifiedConditionList TraitSetID="65856">
+          <ClassifiedCondition DB="MedGen" ID="C5543197">Developmental delay with dysmorphic facies and dental anomalies</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-12-20" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-12-20" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-01-03" MostRecentSubmission="2022-01-03">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="65856" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55938" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Developmental delay with dysmorphic facies and dental anomalies</ElementValue>
+                <XRef ID="MONDO:0030988" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">DEFDA</ElementValue>
+                <XRef Type="MIM" ID="619228" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C5543197" DB="MedGen" />
+              <XRef ID="MONDO:0030988" DB="MONDO" />
+              <XRef Type="MIM" ID="619228" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="4013598" SubmissionDate="2021-12-28" DateLastUpdated="2022-01-03" DateCreated="2022-01-03">
+        <ClinVarSubmissionID localKey="CVb-cnv_60|OMIM:619228|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002047438" DateUpdated="2022-01-03" DateCreated="2022-01-03" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics, University of Leipzig Medical Center" OrgID="506086" OrganizationCategory="clinic" OrgAbbreviation="UKL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-12-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="3" innerStart="18004128" innerStop="19575641" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="619228" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10865342</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4013598" TraitType="Disease" MappingType="XRef" MappingValue="619228" MappingRef="OMIM">
+        <MedGen CUI="C5543197" Name="Developmental delay with dysmorphic facies and dental anomalies" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

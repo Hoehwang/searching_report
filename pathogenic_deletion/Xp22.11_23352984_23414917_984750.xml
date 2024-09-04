@@ -1,0 +1,263 @@
+<VariationArchive RecordType="classified" VariationID="984750" VariationName="GRCh37/hg19 Xp22.11(chrX:23395622-23463363)x0" VariationType="copy number loss" Accession="VCV000984750" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="972842" VariationID="984750">
+      <GeneList>
+        <Gene Symbol="PTCHD1" FullName="patched domain containing 1" GeneID="139411" HGNC_ID="HGNC:26392" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>Xp22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="X" Accession="NC_000023.11" start="23334396" stop="23404374" display_start="23334396" display_stop="23404374" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" start="23352984" stop="23414917" display_start="23352984" display_stop="23414917" Strand="+" />
+          </Location>
+          <OMIM>300828</OMIM>
+          <Haploinsufficiency last_evaluated="2018-02-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCHD1">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2018-02-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=PTCHD1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 Xp22.11(chrX:23395622-23463363)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>Xp22.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="X" Accession="NC_000023.10" innerStart="23395622" innerStop="23463363" display_start="23395622" display_stop="23463363" variantLength="67742" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000023.10" sequenceAccession="NC_000023" sequenceVersion="10" change="g.(?_23395622)_(23463363_?)del" Assembly="GRCh37">
+            <Expression>NC_000023.10:g.(?_23395622)_(23463363_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 Xp22.11(chrX:23395622-23463363)x0 AND Non-syndromic X-linked intellectual disability" Accession="RCV001265129" Version="1">
+        <ClassifiedConditionList TraitSetID="7662">
+          <ClassifiedCondition DB="MedGen" ID="C3501611">Non-syndromic X-linked intellectual disability</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-04-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-04-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-11-19" MostRecentSubmission="2020-11-19">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="7662" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16731" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Mental retardation, nonsyndromic, X-linked</ElementValue>
+                <XRef Type="Phenotypic series" ID="PS309530" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Non-syndromic X-linked intellectual disability</ElementValue>
+                <XRef ID="MONDO:0019181" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">XLID</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3542" />
+                <XRef ID="3542" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review">
+                <ID Source="PubMed">22482801</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="AAN/CNS, 2011">
+                <ID Source="PubMed">21956720</ID>
+              </Citation>
+              <XRef ID="777" DB="Orphanet" />
+              <XRef ID="C3501611" DB="MedGen" />
+              <XRef ID="MONDO:0019181" DB="MONDO" />
+              <XRef Type="Phenotypic series" ID="PS309530" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2850709" SubmissionDate="2020-10-23" DateLastUpdated="2020-11-19" DateCreated="2020-11-19">
+        <ClinVarSubmissionID localKey="16896-x1" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001443163" DateUpdated="2020-11-19" DateCreated="2020-11-19" Type="SCV" Version="1" SubmitterName="GenomeConnect - Simons Searchlight" OrgID="507786" OrganizationCategory="patient registry" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-04-15">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>Submission from Simons Searchlight facilitated by GenomeConnect. Variant interpreted by the Simons Searchlight team most recently on 2019-04-15 and interpreted as Pathogenic. Variant was initially reported on 2019-02-21 by GTR ID of laboratory name 500060. The reporting laboratory might also submit to ClinVar.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="minimum" age_unit="years">0</Age>
+              <Age Type="maximum" age_unit="years">9</Age>
+              <AffectedStatus>yes</AffectedStatus>
+              <Gender>male</Gender>
+            </Sample>
+            <Method>
+              <MethodType>provider interpretation</MethodType>
+              <ObsMethodAttribute>
+                <Attribute Type="TestingLaboratory" dateValue="2019-02-21" integerValue="500060">EGL Genetic Diagnostics, Eurofins Clinical Diagnostics</Attribute>
+                <Comment>Pathogenic</Comment>
+              </ObsMethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Generalized hypotonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001290" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Microcephaly</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000252" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Seizures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001250" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Generalized tonic-clonic seizures</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002069" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Diarrhea</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002014" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Otitis media</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0000388" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Pneumonia</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002090" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of the respiratory system</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002086" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Asthma</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0002099" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Heart murmur</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0030148" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Failure to thrive</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001508" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of the cardiovascular system</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0001626" />
+              </Trait>
+              <Trait Type="Finding" ClinicalFeaturesAffectedStatus="present">
+                <Name>
+                  <ElementValue Type="Preferred">Abnormality of temperature regulation</ElementValue>
+                </Name>
+                <XRef DB="HP" ID="HP:0004370" />
+              </Trait>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PTCHD1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="X" innerStart="23395622" innerStop="23463363" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MONDO" ID="MONDO:0019181" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB8379004</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of the respiratory system" MappingRef="Preferred">
+        <MedGen CUI="C4018871" Name="Abnormality of the respiratory system" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Generalized hypotonia" MappingRef="Preferred">
+        <MedGen CUI="C1858120" Name="Generalized hypotonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Otitis media" MappingRef="Preferred">
+        <MedGen CUI="C0029882" Name="Otitis media" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of the cardiovascular system" MappingRef="Preferred">
+        <MedGen CUI="C0243050" Name="Abnormality of the cardiovascular system" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Pneumonia" MappingRef="Preferred">
+        <MedGen CUI="C0032285" Name="Pneumonia" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Failure to thrive" MappingRef="Preferred">
+        <MedGen CUI="C2315100" Name="Failure to thrive" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Seizures" MappingRef="Preferred">
+        <MedGen CUI="C0036572" Name="Seizure" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Disease" MappingType="XRef" MappingValue="MONDO:0019181" MappingRef="MONDO">
+        <MedGen CUI="C3501611" Name="Non-syndromic X-linked intellectual disability" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Generalized tonic-clonic seizures" MappingRef="Preferred">
+        <MedGen CUI="C0494475" Name="Generalized tonic-clonic seizures" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Heart murmur" MappingRef="Preferred">
+        <MedGen CUI="C0018808" Name="Heart murmur" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Asthma" MappingRef="Preferred">
+        <MedGen CUI="C0004096" Name="Asthma" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Microcephaly" MappingRef="Preferred">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Diarrhea" MappingRef="Preferred">
+        <MedGen CUI="C0011991" Name="Diarrhea" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2850709" TraitType="Finding" MappingType="Name" MappingValue="Abnormality of temperature regulation" MappingRef="Preferred">
+        <MedGen CUI="C1832160" Name="Abnormality of temperature regulation" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

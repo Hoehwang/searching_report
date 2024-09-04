@@ -1,0 +1,151 @@
+<VariationArchive VariationID="2579197" VariationName="GRCh38/hg38 17p13.1(chr17:6690682-6696039)x0" VariationType="copy number loss" Accession="VCV002579197" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744235" VariationID="2579197">
+      <GeneList>
+        <Gene Symbol="SLC13A5" FullName="solute carrier family 13 member 5" GeneID="284111" HGNC_ID="HGNC:23089" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>17p13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="6684719" stop="6713369" display_start="6684719" display_stop="6713369" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="17" Accession="NC_000017.10" start="6588037" stop="6616739" display_start="6588037" display_stop="6616739" Strand="-" />
+          </Location>
+          <OMIM>608305</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 17p13.1(chr17:6690682-6696039)x0</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>17p13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="17" Accession="NC_000017.11" start="6690682" stop="6696039" display_start="6690682" display_stop="6696039" variantLength="5358" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 17p13.1(chr17:6690682-6696039)x0 AND Developmental and epileptic encephalopathy, 25" Accession="RCV003327636" Version="3">
+        <ClassifiedConditionList TraitSetID="16883">
+          <ClassifiedCondition DB="MedGen" ID="C4014621">Developmental and epileptic encephalopathy, 25</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="16883" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="21298" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 25</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 25</ElementValue>
+                <XRef ID="MONDO:0014392" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Developmental and epileptic encephalopathy 25, with amelogenesis imperfecta</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 25, with amelogenesis imperfecta</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">DEE25</ElementValue>
+                <XRef Type="MIM" ID="615905" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12901" />
+                <XRef ID="12901" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="442835" DB="Orphanet" />
+              <XRef ID="C4014621" DB="MedGen" />
+              <XRef ID="MONDO:0014392" DB="MONDO" />
+              <XRef Type="MIM" ID="615905" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549706" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="7246|OMIM:615905|copy:0|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034172" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A homozygous deletion of exons 7-10 in SLC13A5 (NM_177550.5) was identified by exome sequencing in two siblings with developmental and epileptic encephalopathy with amelogenesis imperfecta ([GRCh 38] chr17:6690682_6696039x0). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Inheritance information is unavailable. The patient phenotypes are nonspecific, but are consistent with cases described in the literature and/or published databases with overlapping variants. This intragenic variant is predicted to cause a frameshift, which alters the protein’s amino acid sequence beginning at exon 7 and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of SLC13A5 is an established disease mechanism in autosomal recessive developmental and epileptic encephalopathy with amelogenesis imperfecta (https://search.clinicalgenome.org/kb/gene-dosage). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive developmental and epileptic encephalopathy with amelogenesis imperfecta. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.15 points; Total: 1.05 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SLC13A5" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="17" start="6690682" stop="6696039" variantLength="5358" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">0</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615905" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549706" TraitType="Disease" MappingType="XRef" MappingValue="615905" MappingRef="OMIM">
+        <MedGen CUI="C4014621" Name="Developmental and epileptic encephalopathy, 25" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

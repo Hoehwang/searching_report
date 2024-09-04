@@ -1,0 +1,130 @@
+<VariationArchive RecordType="classified" VariationID="1703605" VariationName="GRCh37/hg19 10p13(chr10:14983910-15065646)" VariationType="copy number loss" Accession="VCV001703605" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-09-03" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1695996" VariationID="1703605">
+      <GeneList>
+        <Gene Symbol="DCLRE1C" FullName="DNA cross-link repair 1C" GeneID="64421" HGNC_ID="HGNC:17642" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="14897359" stop="14954432" display_start="14897359" display_stop="14954432" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="14948869" stop="14996093" display_start="14948869" display_stop="14996093" Strand="-" />
+          </Location>
+          <OMIM>605988</OMIM>
+        </Gene>
+        <Gene Symbol="MEIG1" FullName="meiosis/spermiogenesis associated 1" GeneID="644890" HGNC_ID="HGNC:23429" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>10p13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="14954228" stop="14988050" display_start="14954228" display_stop="14988050" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="15001437" stop="15014849" display_start="15001437" display_stop="15014849" Strand="+" />
+          </Location>
+          <OMIM>614174</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 10p13(chr10:14983910-15065646)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>10p13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" innerStart="14983910" innerStop="15065646" display_start="14983910" display_stop="15065646" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 10p13(chr10:14983910-15065646) AND Severe combined immunodeficiency due to DCLRE1C deficiency" Accession="RCV002280693" Version="1">
+        <ClassifiedConditionList TraitSetID="1281">
+          <ClassifiedCondition DB="MedGen" ID="C1865370">Severe combined immunodeficiency due to DCLRE1C deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-09-03" MostRecentSubmission="2022-09-03">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="1281" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4388" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Severe combined immunodeficiency due to DCLRE1C deficiency</ElementValue>
+                <XRef ID="MONDO:0011225" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">SCID, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-POSITIVE, WITH SENSITIVITY TO IONIZING RADIATION</ElementValue>
+                <XRef Type="MIM" ID="602450" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Severe combined immunodeficiency with sensitivity to ionizing radiation</ElementValue>
+                <XRef ID="Severe+combined+immunodeficiency+with+sensitivity+to+ionizing+radiation/6524" DB="Genetic Alliance" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">RS-SCID</ElementValue>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9987" />
+                <XRef ID="9987" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="275" DB="Orphanet" />
+              <XRef ID="C1865370" DB="MedGen" />
+              <XRef ID="MONDO:0011225" DB="MONDO" />
+              <XRef Type="MIM" ID="602450" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5023597" SubmissionDate="2022-08-31" DateLastUpdated="2022-09-03" DateCreated="2022-09-03">
+        <ClinVarSubmissionID localKey="CC-18-0784" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002568957" DateUpdated="2022-09-03" DateCreated="2022-09-03" Type="SCV" Version="1" SubmitterName="Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital" OrgID="506512" OrganizationCategory="laboratory" OrgAbbreviation="SCH MGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="10" innerStart="14983910" innerStop="15065646" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="602450" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11997402</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5023597" TraitType="Disease" MappingType="XRef" MappingValue="602450" MappingRef="OMIM">
+        <MedGen CUI="C1865370" Name="Severe combined immunodeficiency due to DCLRE1C deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

@@ -1,0 +1,135 @@
+<VariationArchive RecordType="classified" VariationID="563334" VariationName="GRCh37/hg19 7q11.22(chr7:69617684-69932353)x1" VariationType="copy number loss" Accession="VCV000563334" Version="2" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-12-31" DateCreated="2018-09-30" MostRecentSubmission="2022-12-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="554518" VariationID="563334">
+      <GeneList>
+        <Gene Symbol="AUTS2" FullName="activator of transcription and developmental regulator AUTS2" GeneID="26053" HGNC_ID="HGNC:14262" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>7q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="7" Accession="NC_000007.14" start="69598475" stop="70793506" display_start="69598475" display_stop="70793506" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" start="69063904" stop="70257884" display_start="69063904" display_stop="70257884" Strand="+" />
+          </Location>
+          <OMIM>607270</OMIM>
+          <Haploinsufficiency last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2020-06-24" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=AUTS2">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 7q11.22(chr7:69617684-69932353)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>7q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="7" Accession="NC_000007.13" innerStart="69617684" innerStop="69932353" display_start="69617684" display_stop="69932353" variantLength="314670" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000007.13" sequenceAccession="NC_000007" sequenceVersion="13" change="g.(?_69617684)_(69932353_?)del" Assembly="GRCh37">
+            <Expression>NC_000007.13:g.(?_69617684)_(69932353_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 7q11.22(chr7:69617684-69932353)x1 AND not provided" Accession="RCV000682823" Version="2">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-03-29" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2022-03-29" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2018-09-30" MostRecentSubmission="2022-12-31">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <DescriptionHistory Dated="2022-12-29">
+          <Description>Likely pathogenic</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1579231" SubmissionDate="2022-12-28" DateLastUpdated="2022-12-31" DateCreated="2018-09-30">
+        <ClinVarSubmissionID localKey="C2496|not provided|copy:1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000810330" DateUpdated="2022-12-31" DateCreated="2018-09-30" Type="SCV" Version="2" SubmitterName="Quest Diagnostics Nichols Institute San Juan Capistrano" OrgID="500110" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-03-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Comment>The copy number loss of 7q11.22 involves a single exon (exon 5, NM_015570.4) of AUTS2 (OMIM 607270). Intragenic deletions of AUTS2, involving single exon 5, have been reported in individuals with intellectual disability (ID), developmental delay (DD), speech delay, and congenital malformations (Beunders 2016, Maron 2021). Additionally, haploinsufficiency of AUTS2 due to loss-of-function sequence variants and disruptive deletions/insertions is associated with intellectual disability-26 (OMIM 615834), an autosomal dominant disorder characterized by variable neurodevelopmental phenotypes, including ID, DD, and autism, with or without other congenital malformations, such as microcephaly, short stature, or facial dysmorphism. Reported AUTS2 variants have been de novo or inherited from an affected or apparently healthy parent. (Amarillo 2014, Bartnik 2014, Beunders 2013, Beunders 2016, Fan 2016, Nagamani 2013, Stojanovic 2021). Additionally, there are no similar copy number losses of this region in the general populations of the Database of Genomic Variants. Thus, based upon current medical literature and the haploinsufficiency of AUTS2, the clinical significance of this deletion is interpreted as pathogenic. References: Amarillo et al., Am J Med Genet A. 2014 Apr;164A(4):958-65.). PMID: 24459036 Bartnik et al., Dev Period Med. 2014 Jul-Sep;18(3):307-17. PMID: 25182394 Beunders et al., Am J Hum Genet. 2013 Feb 7;92(2):210-20 PMID: 23332918 Beunders et al., J Med Genet. 2016 Apr 13, PMID:27075013 Fan et al., Am J Med Genet A. 2016 Feb;170A(2):515-522. PMID: 26545289 Maron et al., JAMA Pediatr. 2021 May 1;175(5):e205906. PMID: 33587123 Nagamani et al., Eur J Hum Genet. 2013 Mar;21(3):343-6. PMID: 22872102 Stojanovic et al., J Child Neurol. 2020 Feb;35(2):116-131. PMID: 31623504</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="7" innerStart="69617684" innerStop="69932353" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12478099</SubmissionName>
+          <SubmissionName>SUB4408452</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1579231" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

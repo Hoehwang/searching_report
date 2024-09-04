@@ -1,0 +1,142 @@
+<VariationArchive RecordType="classified" VariationID="1328102" VariationName="GRCh37/hg19 19p13.2(chr19:13374979-13388396)x1" VariationType="copy number loss" Accession="VCV001328102" Version="4" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2023-04-09" DateCreated="2021-12-18" MostRecentSubmission="2021-12-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1318721" VariationID="1328102">
+      <GeneList>
+        <Gene Symbol="CACNA1A" FullName="calcium voltage-gated channel subunit alpha1 A" GeneID="773" HGNC_ID="HGNC:1388" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>19p13.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="13206442" stop="13506479" display_start="13206442" display_stop="13506479" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="13317255" stop="13617273" display_start="13317255" display_stop="13617273" Strand="-" />
+          </Location>
+          <OMIM>601011</OMIM>
+          <Haploinsufficiency last_evaluated="2017-05-21" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CACNA1A">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2017-05-21" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=CACNA1A">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 19p13.2(chr19:13374979-13388396)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>19p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="13374979" stop="13388396" display_start="13374979" display_stop="13388396" variantLength="13418" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 19p13.2(chr19:13374979-13388396)x1 AND not provided" Accession="RCV001795538" Version="4">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="CN517202">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-09-02" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-09-02" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-12-18" MostRecentSubmission="2021-12-18">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">19633872</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">21927611</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">28566750</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Developmental Genetics Unit, King Faisal Specialist Hospital &amp; Research Centre" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN517202" DB="MedGen" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3990353" SubmissionDate="2021-12-16" DateLastUpdated="2021-12-18" DateCreated="2021-12-18">
+        <ClinVarSubmissionID localKey="1830365" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV002034741" DateUpdated="2021-12-18" DateCreated="2021-12-18" Type="SCV" Version="1" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-09-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">19633872</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">21927611</ID>
+          </Citation>
+          <Citation>
+            <ID Source="PubMed">28566750</ID>
+          </Citation>
+          <Comment>This CNV is a 13 kb deletion of 19p13.2 on chromosome 19 (seq[GRCh37]del(19)(p13.2); chr19:g.13374979_13388396del) of unknown inheritance. This CNV constitutes a loss encompassing exons 23 and 24 of the CACNA1A gene and is predicted to cause a frameshift resulting in premature termination or absence of the protein. While this specific deletion has not been reported in the peer-reviewed literature, other intragenic single and multi-exon deletions in CACNA1A have been reported in individuals with episodic ataxia type II (Riant et al. 2010; Wan et al. 2011; Sintas et al. 2017). This CNV has not been reported in controls. Based on the predicted truncating nature of the variant, its rarity and phenotype overlap, this CNV is classified as pathogenic.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL CNVClassificationCriteria Aug2020</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/wisyz6nm/icsl_cnvclassificationcriteria_aug2020.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Sequence alignment</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="19" start="13374979" stop="13388396" variantLength="13418" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10813231</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3990353" TraitType="Disease" MappingType="Name" MappingValue="Not provided" MappingRef="Preferred">
+        <MedGen CUI="CN517202" Name="not provided" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

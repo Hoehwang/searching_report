@@ -1,0 +1,120 @@
+<VariationArchive RecordType="classified" VariationID="813718" VariationName="GRCh37/hg19 6q25.3(chr6:157075546-157443054)" VariationType="copy number gain" Accession="VCV000813718" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-08-16" MostRecentSubmission="2020-08-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="801965" VariationID="813718">
+      <GeneList>
+        <Gene Symbol="ARID1B" FullName="AT-rich interaction domain 1B" GeneID="57492" HGNC_ID="HGNC:18040" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>6q25.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="6" Accession="NC_000006.12" start="156776026" stop="157210779" display_start="156776026" display_stop="157210779" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" start="157099063" stop="157531912" display_start="157099063" display_stop="157531912" Strand="+" />
+          </Location>
+          <OMIM>614556</OMIM>
+          <Haploinsufficiency last_evaluated="2021-05-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ARID1B">Sufficient evidence for dosage pathogenicity</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2021-05-26" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=ARID1B">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 6q25.3(chr6:157075546-157443054)</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>6q25.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="6" Accession="NC_000006.11" outerStart="157075546" outerStop="157443054" display_start="157075546" display_stop="157443054" variantLength="367508" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 6q25.3(chr6:157075546-157443054) AND Microcephaly" Accession="RCV001252949" Version="1">
+        <ClassifiedConditionList TraitSetID="17004">
+          <ClassifiedCondition DB="MedGen" ID="C4551563">Microcephaly</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-16" MostRecentSubmission="2020-08-16">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="17004" Type="Finding" ContributesToAggregateClassification="true">
+            <Trait ID="21539" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Microcephaly (disease)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Microcephaly</ElementValue>
+                <XRef ID="HP:0000252" DB="Human Phenotype Ontology" />
+                <XRef ID="MONDO:0001149" DB="MONDO" />
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="3603" />
+                <XRef ID="3603" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="AAN/CNS, 2009">
+                <ID Source="pmc">2744281</ID>
+              </Citation>
+              <XRef ID="C4551563" DB="MedGen" />
+              <XRef ID="MONDO:0001149" DB="MONDO" />
+              <XRef Type="primary" ID="HP:0000252" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0001366" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005485" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005489" DB="Human Phenotype Ontology" />
+              <XRef Type="secondary" ID="HP:0005497" DB="Human Phenotype Ontology" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2293745" SubmissionDate="2020-02-13" DateLastUpdated="2020-08-16" DateCreated="2020-08-16">
+        <ClinVarSubmissionID localKey=":Chr.6_157075546_157443054_copy number gain|HPO:HP:0000252" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001164092" DateUpdated="2020-08-16" DateCreated="2020-08-16" Type="SCV" Version="1" SubmitterName="Department of Pediatrics, Samsung Medical Center, Samsung Medical Center" OrgID="507448" OrganizationCategory="clinic" OrgAbbreviation="SMCPD" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="6" outerStart="157075546" outerStop="157443054" variantLength="367508" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Finding">
+          <Trait Type="Finding">
+            <XRef DB="HP" ID="HP:0000252" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>Korean microcephaly</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2293745" TraitType="Finding" MappingType="XRef" MappingValue="HP:0000252" MappingRef="HP">
+        <MedGen CUI="C4551563" Name="Microcephaly" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

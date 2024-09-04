@@ -1,0 +1,210 @@
+<VariationArchive VariationID="1179212" VariationName="GRCh37/hg19 2q13(chr2:110880893-110962659)" VariationType="copy number loss" Accession="VCV001179212" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-05-08" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1168568" VariationID="1179212">
+      <GeneList>
+        <Gene Symbol="NPHP1" FullName="nephrocystin 1" GeneID="4867" HGNC_ID="HGNC:7905" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>2q13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="110123348" stop="110205013" display_start="110123348" display_stop="110205013" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="110880912" stop="110962638" display_start="110880912" display_stop="110962638" Strand="-" />
+          </Location>
+          <OMIM>607100</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q13(chr2:110880893-110962659)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="110880893" innerStop="110962659" display_start="110880893" display_stop="110962659" variantLength="81767" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_110880893)_(110962659_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_110880893)_(110962659_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q13(chr2:110880893-110962659) AND multiple conditions" Accession="RCV001536133" Version="3">
+        <ClassifiedConditionList TraitSetID="10176">
+          <ClassifiedCondition DB="MedGen" ID="C1846790">Joubert syndrome with renal defect</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C1855681">Nephronophthisis 1</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C4551559">Senior-Loken syndrome 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2021-07-18" MostRecentSubmission="2021-07-18">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="10176" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="3715" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Juvenile nephronophthisis with Leber amaurosis</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Senior-Loken syndrome 1</ElementValue>
+                <XRef ID="MONDO:0009962" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SLSN1</ElementValue>
+                <XRef Type="MIM" ID="266900" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">NPHP1</ElementValue>
+              </Symbol>
+              <XRef ID="3156" DB="Orphanet" />
+              <XRef ID="C4551559" DB="MedGen" />
+              <XRef ID="MONDO:0009962" DB="MONDO" />
+              <XRef Type="MIM" ID="266900" DB="OMIM" />
+            </Trait>
+            <Trait ID="3445" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Nephronophthisis 1</ElementValue>
+                <XRef ID="21201" DB="GeneTests" />
+                <XRef ID="Nephronophthisis+1/5141" DB="Genetic Alliance" />
+                <XRef ID="MONDO:0009728" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Nephronophthisis familial juvenile</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">NPH1</ElementValue>
+                <XRef Type="MIM" ID="256100" DB="OMIM" />
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">NPHP1</ElementValue>
+                <XRef Type="MIM" ID="256100" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18645" />
+                <XRef ID="18645" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">The nephronophthisis (NPH) phenotype is characterized by reduced renal concentrating ability, chronic tubulointerstitial nephritis, cystic renal disease, and progression to end-stage renal disease (ESRD) before age 30 years. Three age-based clinical subtypes are recognized: infantile, juvenile, and adolescent/adult. Infantile NPH can present in utero with oligohydramnios sequence (limb contractures, pulmonary hypoplasia, and facial dysmorphisms) or postnatally with renal manifestations that progress to ESRD before age 3 years. Juvenile NPH, the most prevalent subtype, typically presents with polydipsia and polyuria, growth retardation, chronic iron-resistant anemia, or other findings related to chronic kidney disease (CKD). Hypertension is typically absent due to salt wasting. ESRD develops at a median age of 13 years. Ultrasound findings are increased echogenicity, reduced corticomedullary differentiation, and renal cysts (in 50% of affected individuals). Histologic findings include tubulointerstitial fibrosis, thickened and disrupted tubular basement membrane, sporadic corticomedullary cysts, and normal or reduced kidney size. Adolescent/adult NPH is clinically similar to juvenile NPH, but ESRD develops at a median age of 19 years. Within a subtype, inter- and intrafamilial variability in rate of progression to ESRD is considerable. Approximately 80%-90% of individuals with the NPH phenotype have no extrarenal features (i.e., they have isolated NPH); ~10%-20% have extrarenal manifestations that constitute a recognizable syndrome (e.g., Joubert syndrome, Bardet-Biedl syndrome, Jeune syndrome and related skeletal disorders, Meckel-Gruber syndrome, Senior-Løken syndrome, Leber congenital amaurosis, COACH syndrome, and oculomotor apraxia, Cogan type).</Attribute>
+                <XRef ID="NBK368475" DB="GeneReviews" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">27336129</ID>
+                <ID Source="BookShelf">NBK368475</ID>
+              </Citation>
+              <XRef ID="655" DB="Orphanet" />
+              <XRef ID="93592" DB="Orphanet" />
+              <XRef ID="C1855681" DB="MedGen" />
+              <XRef ID="MONDO:0009728" DB="MONDO" />
+              <XRef Type="MIM" ID="256100" DB="OMIM" />
+            </Trait>
+            <Trait ID="2499" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Joubert syndrome 4</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Joubert syndrome with renal defect</ElementValue>
+                <XRef ID="MONDO:0012308" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Joubert syndrome with renal anomalies</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">NPHP1</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">JBTS4</ElementValue>
+                <XRef Type="MIM" ID="609583" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="public definition">Classic Joubert syndrome (JS) is characterized by three primary findings: A distinctive cerebellar and brain stem malformation called the molar tooth sign (MTS). Hypotonia. Developmental delays. Often these findings are accompanied by episodic tachypnea or apnea and/or atypical eye movements. In general, the breathing abnormalities improve with age, truncal ataxia develops over time, and acquisition of gross motor milestones is delayed. Cognitive abilities are variable, ranging from severe intellectual disability to normal. Additional findings can include retinal dystrophy, renal disease, ocular colobomas, occipital encephalocele, hepatic fibrosis, polydactyly, oral hamartomas, and endocrine abnormalities. Both intra- and interfamilial variation are seen.</Attribute>
+                <XRef ID="NBK1325" DB="GeneReviews" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10169" />
+                <XRef ID="10169" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301500</ID>
+                <ID Source="BookShelf">NBK1325</ID>
+              </Citation>
+              <XRef ID="220497" DB="Orphanet" />
+              <XRef ID="C1846790" DB="MedGen" />
+              <XRef ID="MONDO:0012308" DB="MONDO" />
+              <XRef Type="MIM" ID="609583" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3448328" SubmissionDate="2021-07-09" DateLastUpdated="2021-07-18" DateCreated="2021-07-18">
+        <ClinVarSubmissionID localKey=":Chr.2_110880893_110962659_copy number loss|OMIM:256100;266900;609583" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001752852" DateUpdated="2021-07-18" DateCreated="2021-07-18" Type="SCV" Version="1" SubmitterName="Fulgent Genetics, Fulgent Genetics" OrgID="500105" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NPHP1" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="110880893" innerStop="110962659" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="TraitChoice">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="256100" Type="MIM" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="266900" Type="MIM" />
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="609583" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Comment>This variant has been detected in individual(s) who were sent for testing of Renasight - kidney gene panel.</Comment>
+        <SubmissionNameList>
+          <SubmissionName>SUB9977930</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3448328" TraitType="Disease" MappingType="XRef" MappingValue="609583" MappingRef="OMIM">
+        <MedGen CUI="C1846790" Name="Joubert syndrome with renal defect" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3448328" TraitType="Disease" MappingType="XRef" MappingValue="266900" MappingRef="OMIM">
+        <MedGen CUI="C4551559" Name="Senior-Loken syndrome 1" />
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3448328" TraitType="Disease" MappingType="XRef" MappingValue="256100" MappingRef="OMIM">
+        <MedGen CUI="C1855681" Name="Nephronophthisis 1" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

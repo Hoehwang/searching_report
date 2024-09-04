@@ -1,0 +1,127 @@
+<VariationArchive RecordType="classified" VariationID="625777" VariationName="GRCh37/hg19 2q36.3(chr2:227939002-227943108)" VariationType="copy number loss" Accession="VCV000625777" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="614081" VariationID="625777">
+      <GeneList>
+        <Gene Symbol="COL4A4" FullName="collagen type IV alpha 4 chain" GeneID="1286" HGNC_ID="HGNC:2206" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>2q36.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="2" Accession="NC_000002.12" start="226967360" stop="227164488" display_start="226967360" display_stop="227164488" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" start="227867426" stop="228029274" display_start="227867426" display_stop="228029274" Strand="-" />
+          </Location>
+          <OMIM>120131</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 2q36.3(chr2:227939002-227943108)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>2q36.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="2" Accession="NC_000002.11" innerStart="227939002" innerStop="227943108" display_start="227939002" display_stop="227943108" variantLength="4107" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000002.11" sequenceAccession="NC_000002" sequenceVersion="11" change="g.(?_227939002)_(227943108_?)del" Assembly="GRCh37">
+            <Expression>NC_000002.11:g.(?_227939002)_(227943108_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 2q36.3(chr2:227939002-227943108) AND Specific language impairment 5" Accession="RCV000767785" Version="1">
+        <ClassifiedConditionList TraitSetID="11996">
+          <ClassifiedCondition DB="MedGen" ID="C3809483">Specific language impairment 5</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-11-01" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-11-01" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-04-21" MostRecentSubmission="2019-04-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="11996" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="18308" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Specific language impairment 5</ElementValue>
+                <XRef ID="MONDO:0014184" DB="MONDO" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">SLI5</ElementValue>
+                <XRef Type="MIM" ID="615432" DB="OMIM" />
+              </Symbol>
+              <XRef ID="C3809483" DB="MedGen" />
+              <XRef ID="MONDO:0014184" DB="MONDO" />
+              <XRef Type="MIM" ID="615432" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1761690" SubmissionDate="2019-04-01" DateLastUpdated="2019-04-21" DateCreated="2019-04-21">
+        <ClinVarSubmissionID localKey="ES182|OMIM:615432" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV000898407" DateUpdated="2019-04-21" DateCreated="2019-04-21" Type="SCV" Version="1" SubmitterName="Baylor Genetics" OrgID="1006" OrganizationCategory="laboratory" OrgAbbreviation="BCM: BMGL" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-11-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG CNV Guidelines, 2011</Attribute>
+          <Citation>
+            <ID Source="PubMed">21681106</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>maternal</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SecondaryFinding">no</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="2" innerStart="227939002" innerStop="227943108" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="615432" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5380435</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1761690" TraitType="Disease" MappingType="XRef" MappingValue="615432" MappingRef="OMIM">
+        <MedGen CUI="C3809483" Name="Specific language impairment 5" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

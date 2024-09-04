@@ -1,0 +1,138 @@
+<VariationArchive RecordType="classified" VariationID="915999" VariationName="GRCh37/hg19 4q31.3(chr4:151622552-151657380)" VariationType="copy number loss" Accession="VCV000915999" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="904223" VariationID="915999">
+      <GeneList>
+        <Gene Symbol="LRBA" FullName="LPS responsive beige-like anchor protein" GeneID="987" HGNC_ID="HGNC:1742" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>4q31.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="150264435" stop="151015727" display_start="150264435" display_stop="151015727" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="151185810" stop="151936648" display_start="151185810" display_stop="151936648" Strand="-" />
+          </Location>
+          <OMIM>606453</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 4q31.3(chr4:151622552-151657380)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>4q31.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" innerStart="151622552" innerStop="151657380" display_start="151622552" display_stop="151657380" variantLength="34829" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000004.11" sequenceAccession="NC_000004" sequenceVersion="11" change="g.(?_151622552)_(151657380_?)del" Assembly="GRCh37">
+            <Expression>NC_000004.11:g.(?_151622552)_(151657380_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 4q31.3(chr4:151622552-151657380) AND Combined immunodeficiency due to LRBA deficiency" Accession="RCV001195153" Version="1">
+        <ClassifiedConditionList TraitSetID="8700">
+          <ClassifiedCondition DB="MedGen" ID="C3553512">Combined immunodeficiency due to LRBA deficiency</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-04-16" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2020-04-16" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-07-04" MostRecentSubmission="2020-07-04">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="8700" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17305" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Combined immunodeficiency due to LRBA deficiency</ElementValue>
+                <XRef ID="MONDO:0013863" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Common variable immunodeficiency 8, with autoimmunity</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">CVID8</ElementValue>
+                <XRef Type="MIM" ID="614700" DB="OMIM" />
+              </Symbol>
+              <XRef ID="445018" DB="Orphanet" />
+              <XRef ID="C3553512" DB="MedGen" />
+              <XRef ID="MONDO:0013863" DB="MONDO" />
+              <XRef Type="MIM" ID="614700" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2637892" SubmissionDate="2020-05-20" DateLastUpdated="2020-07-04" DateCreated="2020-07-04">
+        <ClinVarSubmissionID localKey="Chr4:g.151622552_151657380del|OMIM:614700" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001334113" DateUpdated="2020-07-04" DateCreated="2020-07-04" Type="SCV" Version="1" SubmitterName="Department of Molecular and Human Genetics, Baylor College of Medicine" OrgID="505316" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-04-16">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation Type="general">
+            <ID Source="PubMed">32576985</ID>
+          </Citation>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <FamilyData NumFamiliesWithVariant="1" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Oligo array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1" />
+            </ObservedData>
+            <Comment>in trans with LRBA exons 35-41 deletion</Comment>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LRBA" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="4" innerStart="151622552" innerStop="151657380" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614700" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">32576985</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB7453902</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2637892" TraitType="Disease" MappingType="XRef" MappingValue="614700" MappingRef="OMIM">
+        <MedGen CUI="C3553512" Name="Combined immunodeficiency due to LRBA deficiency" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

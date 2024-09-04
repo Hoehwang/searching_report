@@ -1,0 +1,124 @@
+<VariationArchive RecordType="classified" VariationID="1711165" VariationName="GRCh37/hg19 4q32.3(chr4:166940253-167778165)x3" VariationType="copy number gain" Accession="VCV001711165" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-10-30" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1709577" VariationID="1711165">
+      <GeneList>
+        <Gene Symbol="SPOCK3" FullName="SPARC (osteonectin), cwcv and kazal like domains proteoglycan 3" GeneID="50859" HGNC_ID="HGNC:13565" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q32.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="166733384" stop="167234945" display_start="166733384" display_stop="167234945" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="167654534" stop="168155740" display_start="167654534" display_stop="168155740" Strand="-" />
+          </Location>
+          <OMIM>607989</OMIM>
+        </Gene>
+        <Gene Symbol="TLL1" FullName="tolloid like 1" GeneID="7092" HGNC_ID="HGNC:11843" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>4q32.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="4" Accession="NC_000004.12" start="165873237" stop="166104457" display_start="165873237" display_stop="166104457" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" start="166794409" stop="167025608" display_start="166794409" display_stop="167025608" Strand="+" />
+          </Location>
+          <OMIM>606742</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 4q32.3(chr4:166940253-167778165)x3</Name>
+      <VariantType>copy number gain</VariantType>
+      <Location>
+        <CytogeneticLocation>4q32.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="4" Accession="NC_000004.11" outerStart="166940253" outerStop="167778165" display_start="166940253" display_stop="167778165" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 4q32.3(chr4:166940253-167778165)x3 AND See cases" Accession="RCV002292705" Version="1">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5051741" SubmissionDate="2022-10-20" DateLastUpdated="2022-10-22" DateCreated="2022-10-22">
+        <ClinVarSubmissionID localKey="2022-320B" submittedAssembly="hg19" title="2022-320B" />
+        <ClinVarAccession Accession="SCV002584953" DateUpdated="2022-10-22" DateCreated="2022-10-22" Type="SCV" Version="1" SubmitterName="Cytogenetics, Genetics Associates, Inc." OrgID="508710" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">MISSED ABORTION</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan Dx</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number gain</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="4" outerStart="166940253" outerStop="167778165" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">3</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">see cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2022-320B</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5051741" TraitType="Disease" MappingType="Name" MappingValue="see cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

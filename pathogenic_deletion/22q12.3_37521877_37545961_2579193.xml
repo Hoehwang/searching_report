@@ -1,0 +1,176 @@
+<VariationArchive VariationID="2579193" VariationName="GRCh38/hg38 22q12.3(chr22:37098319-37127846)x1" VariationType="copy number loss" Accession="VCV002579193" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2744231" VariationID="2579193">
+      <GeneList>
+        <Gene Symbol="IL2RB" FullName="interleukin 2 receptor subunit beta" GeneID="3560" HGNC_ID="HGNC:6009" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="37125838" stop="37175118" display_start="37125838" display_stop="37175118" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="37521877" stop="37545961" display_start="37521877" display_stop="37545961" Strand="-" />
+          </Location>
+          <OMIM>146710</OMIM>
+        </Gene>
+        <Gene Symbol="LOC130067341" FullName="ATAC-STARR-seq lymphoblastoid active region 18943" GeneID="130067341" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="37127148" stop="37127197" display_start="37127148" display_stop="37127197" Strand="+" />
+          </Location>
+        </Gene>
+        <Gene Symbol="TMPRSS6" FullName="transmembrane serine protease 6" GeneID="164656" HGNC_ID="HGNC:16517" Source="submitted" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>22q12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="37065436" stop="37110536" display_start="37065436" display_stop="37110536" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="37461478" stop="37499692" display_start="37461478" display_stop="37499692" Strand="-" />
+          </Location>
+          <OMIM>609862</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 22q12.3(chr22:37098319-37127846)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="37098319" stop="37127846" display_start="37098319" display_stop="37127846" variantLength="29528" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 22q12.3(chr22:37098319-37127846)x1 AND Iron-refractory iron deficiency anemia" Accession="RCV003327632" Version="3">
+        <ClassifiedConditionList TraitSetID="66010">
+          <ClassifiedCondition DB="MedGen" ID="C0085576">Iron-refractory iron deficiency anemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2023-08-24" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2023-08-24" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-09-16" MostRecentSubmission="2023-09-16">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="66010" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="55945" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ANEMIA, HYPOCHROMIC MICROCYTIC, WITH DEFECT IN IRON METABOLISM</ElementValue>
+                <XRef Type="MIM" ID="206200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Iron-refractory iron deficiency anemia</ElementValue>
+                <XRef ID="722005000" DB="SNOMED CT" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IRIDA syndrome</ElementValue>
+                <XRef ID="MONDO:0008788" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IRON-HANDLING DISORDER, HEREDITARY</ElementValue>
+                <XRef Type="MIM" ID="206200" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PSEUDO-IRON-DEFICIENCY ANEMIA</ElementValue>
+                <XRef Type="MIM" ID="206200" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IRIDA</ElementValue>
+                <XRef Type="MIM" ID="206200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism" integerValue="273">loss of function</Attribute>
+                <XRef ID="GTR000500228" DB="Genetic Testing Registry (GTR)" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="10957" />
+                <XRef ID="10957" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="209981" DB="Orphanet" />
+              <XRef ID="C0085576" DB="MedGen" />
+              <XRef ID="MONDO:0008788" DB="MONDO" />
+              <XRef Type="MIM" ID="206200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7549702" SubmissionDate="2023-09-11" DateLastUpdated="2023-09-16" DateCreated="2023-09-16">
+        <ClinVarSubmissionID localKey="FLE_FAM150|OMIM:206200|copy:1|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004034282" DateUpdated="2023-09-16" DateCreated="2023-09-16" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-08-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A heterozygous deletion of exons 1-3 in TMPRSS6 (NM_001374504.1) was identified by exome sequencing in one individual with iron-refractory iron deficiency anemia in the compound heterozygous state, along with a likely pathogenic variant (Variation ID: 1404), ([GRCh 38] chr22:37098319_37127846x1). These breakpoints have been estimated by exome sequencing only and therefore may not reflect the true breakpoints. Inheritance information is unavailable. The phenotype of the individual heterozygous for this variant is highly specific for iron-refractory iron deficiency anemia. There is partial overlap with the 5’ end of the TMPRSS6 gene including coding sequence (NMD is expected to occur). This alteration is then predicted to lead to a truncated or absent protein. Loss of function of TMPRSS6 is an established disease mechanism in autosomal recessive congenital iron-refractory iron deficiency anemia (https://search.thegencc.org/). In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive iron-refractory iron deficiency anemia. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.90 points, 3: 0 points, 4-5: 0.15 points; Phenotype specificity: 0.15; Total: 1.20 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TMPRSS6" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="22" start="37098319" stop="37127846" variantLength="29528" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="206200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13816677</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7549702" TraitType="Disease" MappingType="XRef" MappingValue="206200" MappingRef="OMIM">
+        <MedGen CUI="C0085576" Name="Iron-refractory iron deficiency anemia" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

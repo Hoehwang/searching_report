@@ -1,0 +1,162 @@
+<VariationArchive VariationID="976671" VariationName="GRCh37/hg19 9p13.3(chr9:35799615-35808850)" VariationType="copy number loss" Accession="VCV000976671" Version="2" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="964909" VariationID="976671">
+      <GeneList>
+        <Gene Symbol="NPR2" FullName="natriuretic peptide receptor 2" GeneID="4882" HGNC_ID="HGNC:7944" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>9p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="35791591" stop="35809731" display_start="35791591" display_stop="35809731" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="35792405" stop="35809727" display_start="35792405" display_stop="35809727" Strand="+" />
+          </Location>
+          <OMIM>108961</OMIM>
+        </Gene>
+        <Gene Symbol="SPAG8" FullName="sperm associated antigen 8" GeneID="26206" HGNC_ID="HGNC:14105" Source="calculated" RelationshipType="genes overlapped by variant">
+          <Location>
+            <CytogeneticLocation>9p13.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="35807785" stop="35812262" display_start="35807785" display_stop="35812262" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="35807781" stop="35812258" display_start="35807781" display_stop="35812258" Strand="-" />
+          </Location>
+          <OMIM>605731</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 9p13.3(chr9:35799615-35808850)</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>9p13.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" innerStart="35799615" innerStop="35808850" display_start="35799615" display_stop="35808850" variantLength="9236" />
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000009.11" sequenceAccession="NC_000009" sequenceVersion="11" change="g.(?_35799615)_(35808850_?)del" Assembly="GRCh37">
+            <Expression>NC_000009.11:g.(?_35799615)_(35808850_?)del</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 9p13.3(chr9:35799615-35808850) AND Acromesomelic dysplasia 1, Maroteaux type" Accession="RCV001254041" Version="5">
+        <ClassifiedConditionList TraitSetID="5872">
+          <ClassifiedCondition DB="MedGen" ID="C1864356">Acromesomelic dysplasia 1, Maroteaux type</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-11-15" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-11-15" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2020-08-21" MostRecentSubmission="2020-08-21">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="5872" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="126" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">ACROMESOMELIC DYSPLASIA 1</ElementValue>
+                <XRef Type="MIM" ID="602875" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="108961.0004" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="108961.0001" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="108961.0008" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="108961.0003" DB="OMIM" />
+                <XRef Type="Allelic variant" ID="108961.0002" DB="OMIM" />
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Acromesomelic dysplasia 1, Maroteaux type</ElementValue>
+                <XRef ID="MONDO:0011275" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acromesomelic dwarfism Maroteux type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acromesomelic dysplasia, Maroteaux type</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">ST. HELENA DYSPLASIA</ElementValue>
+                <XRef Type="MIM" ID="602875" DB="OMIM" />
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AMD1</ElementValue>
+                <XRef Type="MIM" ID="602875" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="507" />
+                <XRef ID="507" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <XRef ID="40" DB="Orphanet" />
+              <XRef ID="C1864356" DB="MedGen" />
+              <XRef ID="MONDO:0011275" DB="MONDO" />
+              <XRef Type="MIM" ID="602875" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2822714" SubmissionDate="2020-08-10" DateLastUpdated="2020-08-21" DateCreated="2020-08-21">
+        <ClinVarSubmissionID localKey="144-20200810" localKeyIsSubmitted="1" submittedAssembly="GRCh37" />
+        <ClinVarAccession Accession="SCV001429946" DateUpdated="2020-08-21" DateCreated="2020-08-21" Type="SCV" Version="1" SubmitterName="Institute of Human Genetics Munich, Klinikum Rechts Der Isar, TU München" OrgID="500240" OrganizationCategory="clinic" OrgAbbreviation="IHG-MRI-TUM" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-11-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Classification criteria August 2017</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/inodbbrd/classification_criteria.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Tissue>blood</Tissue>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+              <NumberTested>1</NumberTested>
+              <Gender>female</Gender>
+              <FamilyData PedigreeID="187-20200810" />
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Homozygote" integerValue="1" />
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SampleLocalID">187-20200810</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="NPR2" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="9" innerStart="35799615" innerStop="35808850" />
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="602875" Type="MIM" />
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2822714" TraitType="Disease" MappingType="XRef" MappingValue="602875" MappingRef="OMIM">
+        <MedGen CUI="C1864356" Name="Acromesomelic dysplasia 1, Maroteaux type" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

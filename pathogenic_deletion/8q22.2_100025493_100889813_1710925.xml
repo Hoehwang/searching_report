@@ -1,0 +1,116 @@
+<VariationArchive RecordType="classified" VariationID="1710925" VariationName="GRCh37/hg19 8q22.2(chr8:100539842-100759027)x1" VariationType="copy number loss" Accession="VCV001710925" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-10-22" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1709336" VariationID="1710925">
+      <GeneList>
+        <Gene Symbol="VPS13B" FullName="vacuolar protein sorting 13 homolog B" GeneID="157680" HGNC_ID="HGNC:2183" Source="calculated" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>8q22.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="8" Accession="NC_000008.11" start="99013274" stop="99877580" display_start="99013274" display_stop="99877580" Strand="+" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" start="100025493" stop="100889813" display_start="100025493" display_stop="100889813" Strand="+" />
+          </Location>
+          <OMIM>607817</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh37/hg19 8q22.2(chr8:100539842-100759027)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>8q22.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" forDisplay="true" AssemblyStatus="previous" Chr="8" Accession="NC_000008.10" outerStart="100539842" outerStop="100759027" display_start="100539842" display_stop="100759027" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh37/hg19 8q22.2(chr8:100539842-100759027)x1 AND See cases" Accession="RCV002292212" Version="1">
+        <ClassifiedConditionList TraitSetID="16994">
+          <ClassifiedCondition>See cases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2022-10-22" MostRecentSubmission="2022-10-22">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <ConditionList>
+          <TraitSet ID="16994" Type="PhenotypeInstruction" ContributesToAggregateClassification="true">
+            <Trait ID="18728" Type="PhenotypeInstruction">
+              <Name>
+                <ElementValue Type="Preferred">See cases</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="5050382" SubmissionDate="2022-10-18" DateLastUpdated="2022-10-22" DateCreated="2022-10-22">
+        <ClinVarSubmissionID localKey="2022-560" submittedAssembly="hg19" title="2022-560" />
+        <ClinVarAccession Accession="SCV002583869" DateUpdated="2022-10-22" DateCreated="2022-10-22" Type="SCV" Version="1" SubmitterName="Cytogenetics, Genetics Associates, Inc." OrgID="508710" OrganizationCategory="laboratory" />
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Indication Type="Indication">
+                <Trait Type="Finding">
+                  <Name>
+                    <ElementValue Type="Preferred">Encounter for routine child health examination with abnormal findings, Newborn affected by intrauterine (fetal) blood loss from vasa previa, Autistic disorder</ElementValue>
+                  </Name>
+                </Trait>
+              </Indication>
+            </Sample>
+            <Method>
+              <NamePlatform>CytoScan Dx</NamePlatform>
+              <TypePlatform>SNP array</TypePlatform>
+              <MethodType>clinical testing</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">SNP array</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="hg19" Chr="8" outerStart="100539842" outerStop="100759027" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">see cases</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2022-560</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="5050382" TraitType="Disease" MappingType="Name" MappingValue="see cases" MappingRef="Preferred">
+        <MedGen CUI="None" Name="See cases" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+

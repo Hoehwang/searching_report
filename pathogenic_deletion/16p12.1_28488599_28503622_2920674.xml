@@ -1,0 +1,166 @@
+<VariationArchive VariationID="2920674" VariationName="GRCh38/hg38 16p12.1(chr16:28485965-28486930)x1" VariationType="copy number loss" Accession="VCV002920674" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2024-06-23" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3081142" VariationID="2920674">
+      <GeneList>
+        <Gene Symbol="CLN3" FullName="CLN3 lysosomal/endosomal transmembrane protein, battenin" GeneID="1201" HGNC_ID="HGNC:2074" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>16p12.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="28466653" stop="28492082" display_start="28466653" display_stop="28492082" Strand="-" />
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="16" Accession="NC_000016.9" start="28488599" stop="28503622" display_start="28488599" display_stop="28503622" Strand="-" />
+          </Location>
+          <OMIM>607042</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>GRCh38/hg38 16p12.1(chr16:28485965-28486930)x1</Name>
+      <VariantType>copy number loss</VariantType>
+      <Location>
+        <CytogeneticLocation>16p12.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="16" Accession="NC_000016.10" start="28485965" stop="28486930" display_start="28485965" display_stop="28486930" variantLength="966" />
+      </Location>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="GRCh38/hg38 16p12.1(chr16:28485965-28486930)x1 AND Neuronal ceroid lipofuscinosis 3" Accession="RCV003607197" Version="3">
+        <ClassifiedConditionList TraitSetID="926">
+          <ClassifiedCondition DB="MedGen" ID="C0751383">Neuronal ceroid lipofuscinosis 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-02-12" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-02-12" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2024-02-20" MostRecentSubmission="2024-02-20">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Citation Type="general">
+          <ID Source="PubMed">31690835</ID>
+          <ID Source="pmc">7313390</ID>
+          <ID Source="DOI">10.1038/s41436-019-0686-8</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">33507216</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">34906470</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="926" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="768" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">CLN3 Disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Spielmeyer Sjogren disease</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Neuronal ceroid lipofuscinosis 3</ElementValue>
+                <XRef ID="MONDO:0008767" DB="MONDO" />
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">CLN3-Related Neuronal Ceroid-Lipofuscinosis</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">CLN3</ElementValue>
+                <XRef Type="MIM" ID="204200" DB="OMIM" />
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="5897" />
+                <XRef ID="5897" DB="Office of Rare Diseases" />
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="keyword">Batten Disease</Attribute>
+              </AttributeSet>
+              <XRef ID="228346" DB="Orphanet" />
+              <XRef ID="C0751383" DB="MedGen" />
+              <XRef ID="MONDO:0008767" DB="MONDO" />
+              <XRef Type="MIM" ID="204200" DB="OMIM" />
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="8353715" SubmissionDate="2024-02-12" DateLastUpdated="2024-02-20" DateCreated="2024-02-20">
+        <ClinVarSubmissionID localKey="OGI1503_1|OMIM:204200|copy:1|refcopy:2" submittedAssembly="GRCh38" />
+        <ClinVarAccession Accession="SCV004565350" DateUpdated="2024-02-20" DateCreated="2024-02-20" Type="SCV" Version="1" SubmitterName="Broad Center for Mendelian Genomics, Broad Institute of MIT and Harvard" OrgID="506627" OrganizationCategory="laboratory" OrgAbbreviation="Broad RDG" />
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-02-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+          <Comment>A heterozygous deletion of exons 8 and 9 in CLN3 (NM_001042432.2) was identified by exome sequencing in five unrelated individuals with retinal degeneration, in the compound heterozygous state, along with a pathogenic variant (Variation ID: 418137) ([GRCh 38] chr16:28485965-28486930x1)(PMID: 34906470; unpublished data). These breakpoints have been estimated by exome sequencing and confirmed by genome sequencing in two individuals and by Sanger sequencing in three individuals. Inheritance information is unavailable. The patient phenotype is nonspecific, but is consistent with cases described in the literature and/or published databases with overlapping variants. This deletion has been reported in ClinVar (Variation ID: 3552) and has been interpreted as pathogenic by multiple submitters. The five individuals presented with non-syndromic retinal degeneration and their phenotypes are consistent with the phenotypic spectrum associated with biallelic variants in CLN3 (PMID: 33507216). This intragenic variant is a deletion of two exons and is predicted to cause a frameshift, which alters the protein’s amino acid sequence and leads to a premature termination codon. This alteration is then predicted to lead to a truncated or absent protein. Loss of function of CLN3 is an established disease mechanism in autosomal recessive neuronal ceroid lipofuscinosis spectrum disorder (https://search.clinicalgenome.org/kb/gene-dosage). A deletion of these two exons has been identified in 0.18% (14/7624) of European chromosomes by the Genome Aggregation Database with no homozygotes (gnomAD, http://gnomad.broadinstitute.org; Structural variant: DEL_16_153550). Although this deletion has been seen in the general population in a heterozygous state, its frequency is not high enough to rule out a pathogenic role. In summary, this variant meets criteria to be classified as pathogenic for autosomal recessive neuronal ceroid lipofuscinosis spectrum disorder. The ACMG/ClinGen evidence codes and points used in this curation are as follows: 1: 0 points, 2: 0.9 points, 3: 0 points, 4-5: 0.75 points; Total: 1.65 points; Riggs 2020 (PMID: 31690835).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG/ClinGen CNV Guidelines, 2019</Attribute>
+          <Citation>
+            <ID Source="PubMed">31690835</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>research</MethodType>
+              <MethodAttribute>
+                <Attribute Type="StructVarMethodType">Read depth</Attribute>
+              </MethodAttribute>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <Citation>
+              <ID Source="PubMed">34906470</ID>
+            </Citation>
+            <Citation>
+              <ID Source="PubMed">33507216</ID>
+            </Citation>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="CLN3" />
+          </GeneList>
+          <VariantType>copy number loss</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh38" Chr="16" start="28485965" stop="28486930" variantLength="966" />
+          </Location>
+          <AttributeSet>
+            <Attribute Type="AbsoluteCopyNumber">1</Attribute>
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute Type="ReferenceCopyNumber">2</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="204200" Type="MIM" />
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14220242</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8353715" TraitType="Disease" MappingType="XRef" MappingValue="204200" MappingRef="OMIM">
+        <MedGen CUI="C0751383" Name="Neuronal ceroid lipofuscinosis 3" />
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+
